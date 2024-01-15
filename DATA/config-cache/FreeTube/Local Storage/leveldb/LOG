@@ -1,0 +1,4 @@
+2023/09/18-21:43:42.320 95c76 Creating DB /home/harry/.config/FreeTube/Local Storage/leveldb since it was missing.
+2023/09/18-21:43:42.331 95c76 Reusing MANIFEST /home/harry/.config/FreeTube/Local Storage/leveldb/MANIFEST-000001
+2023/09/18-21:43:42.331 95c76 Recovering log #3
+2023/09/18-21:43:42.331 95c76 Reusing old log /home/harry/.config/FreeTube/Local Storage/leveldb/000003.log 

@@ -1,0 +1,30 @@
+[plugins]
+active-plugins=['docinfo', 'sort', 'joinlines', 'filebrowser', 'open-uri-context-menu', 'trailsave', 'textsize', 'bracketcompletion', 'time', 'wordcompletion', 'spell', 'modelines', 'taglist']
+
+[plugins/filebrowser/on-load]
+root='file:///'
+tree-view=true
+virtual-root='file:///home/harry/.config/xed'
+
+[preferences/editor]
+auto-indent=false
+display-line-numbers=true
+display-right-margin=false
+prefer-dark-theme=true
+scheme='oblivion'
+
+[preferences/ui]
+menubar-visible=false
+minimap-visible=false
+statusbar-visible=true
+toolbar-visible=true
+
+[state/history-entry]
+history-search-for=['size', 'font-terminal', 'font', 'vivaldi', 'vivald', 'vival', 'capitaine', 'notes', 'xfce4-']
+
+[state/window]
+bottom-panel-size=140
+side-panel-active-page=827629879
+side-panel-size=200
+size=(936, 521)
+state=87168

@@ -1,0 +1,25 @@
+[/]
+quake-height-percent=40
+quake-specific-monitor=0
+terminal-title-show-when-single=false
+theme-variant='system'
+warn-vte-config-issue=false
+window-style='normal'
+
+[profiles/2b7c4080-0ddd-46c5-8f23-563fd3ba789d]
+background-color='#263238'
+background-transparency-percent=13
+badge-color-set=false
+bold-color-set=false
+cjk-utf8-ambiguous-width='narrow'
+cursor-colors-set=false
+default-size-columns=80
+dim-transparency-percent=3
+font='MesloLGS NF 13'
+foreground-color='#A1B0B8'
+highlight-colors-set=false
+login-shell=false
+palette=['#1D1D1D1D1D1D', '#AA0000', '#00AA00', '#AA5400', '#0000AA', '#AA00AA', '#00AAAA', '#AAAAAA', '#545454', '#FF5454', '#54FF54', '#FFFF54', '#5454FF', '#FF54FF', '#54FFFF', '#FFFFFF']
+use-system-font=false
+use-theme-colors=true
+visible-name='Par défaut'

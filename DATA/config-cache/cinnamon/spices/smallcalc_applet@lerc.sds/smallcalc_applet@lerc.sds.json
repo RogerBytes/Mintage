@@ -1,0 +1,13 @@
+{
+    "definitionsheader": {
+        "type": "header",
+        "description": "Initial definitions"
+    },
+    "definitions": {
+        "type": "textview",
+        "description": "Define constants and functions to use in calculator",
+        "default": "meaningOfLife = 42\nsphereVolume(r) = 4/3 Pi r^3",
+        "value": "meaningOfLife = 42\nsphereVolume(r) = 4/3 Pi r^3"
+    },
+    "__md5__": "ebb9bd2b8acb6806d0f5066c17194c05"
+}

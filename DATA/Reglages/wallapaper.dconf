@@ -1,0 +1,13 @@
+[/]
+picture-opacity=100
+picture-options='zoom'
+picture-uri='file:///usr/share/backgrounds/Wallpapers/lpreda_lily.jpg'
+primary-color='#000000'
+secondary-color='#000000'
+
+[slideshow]
+delay=13
+directory='file:///usr/share/backgrounds/linuxmint'
+image-source='directory:///usr/share/backgrounds/Wallpapers'
+random-order=true
+slideshow-enabled=true
