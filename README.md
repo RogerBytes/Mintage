@@ -3,6 +3,9 @@
 
 ___________________________________________________________________________
 
+DATA/vivaldi tar gz en deux parties à décompresser (réglages vivaldi)
+
+
 Calm Os : Une personnalisation semi automatique de linux mint
 
 Prérequis :
