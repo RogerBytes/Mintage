@@ -1,14 +1,51 @@
 
 # Mintage
 
+DATA/vivaldi.7z en deux parties à décompresser (réglages vivaldi)
+DATA/kodi.7z en trois parties à décompresser (réglages vivaldi)
+
+## Présentation
+<details>
+  <summary>Afficher le contenu</summary>
+  Ce script est conçu pour automatiser le processus de personnalisation de Linux Mint en installant une suite complète de logiciels open source. Avec un seul lancement, les utilisateurs peuvent transformer leur système Linux Mint en un environnement de travail puissant et personnalisé, idéal pour les développeurs, les créateurs de contenu, et les utilisateurs quotidiens.
+
+  ### Fonctionnalités
+  - **Installation Automatique** : Déployez votre environnement personnalisé sans intervention manuelle.
+  - **Suite Complète** : Le script inclut des logiciels pour le développement, la bureautique, le multimédia, et plus encore.
+  - **Open Source** : Tous les logiciels installés sont open source, garantissant transparence et respect de la vie privée.
+  - **Thème Préconfiguré** : Profitez d'un thème sobre et fonctionnel, conçu pour une expérience utilisateur optimale.
+
+  ### Premiers pas
+  Pour démarrer avec le script de personnalisation de Linux Mint, suivez ces étapes simples :
+
+  1. Téléchargez le script sur votre machine Linux Mint.
+  2. Rendez le script exécutable avec la commande : `chmod +x custom-linux-mint.sh`.
+  3. Exécutez le script avec : `./custom-linux-mint.sh`.
+
+  ### Liste de logiciel
+  Une liste non exhaustive des logiciels inclus dans ce script :
+  - **Développement**: Codium, Git, Docker
+  - **Bureautique**: LibreOffice, Thunderbird
+  - **Multimédia**: GIMP, Kodi
+  - **Internet**: Vivaldi, FileZilla
+  - ...et beaucoup d'autres !
+
+  ### Contributions
+  Les contributions sont les bienvenues ! Si vous avez des suggestions ou des améliorations, n'hésitez pas à soumettre une pull request ou à ouvrir un issue.
+
+  ### License
+  Distribué sous la licence GPLv3. Voir `LICENSE` pour plus d'informations.
+</details>
+
+<details>
+  <summary>Afficher</summary>
+</details>
+
+
 ___________________________________________________________________________
 
-DATA/vivaldi tar gz en deux parties à décompresser (réglages vivaldi)
 
-
-Calm Os : Une personnalisation semi automatique de linux mint
-
-Prérequis :
+## Prérequis
 Une install' fraîche de Linux Mint 22
 
 Choisir les miroirs de téléchargement pour les mises à jour (prenez les plus rapides)
@@ -21,7 +58,7 @@ Installez les drivers propriétaires et "Appliquer les changements", puis fermez
 Faire les maj
 mintupdate
 
-___________________________________________________________________________
+
 
 Installation :
 
