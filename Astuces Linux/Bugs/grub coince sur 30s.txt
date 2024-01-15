@@ -1,0 +1,9 @@
+sudo nano /etc/default/grub
+ajouter
+GRUB_RECORDFAIL_TIMEOUT=$GRUB_TIMEOUT
+
+ctrl+X, puis O enter pour sauver
+
+
+puis dans le terminal :
+sudo update-grub
