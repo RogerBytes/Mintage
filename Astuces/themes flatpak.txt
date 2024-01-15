@@ -1,0 +1,11 @@
+# Régler le thème des applications flatpak
+1 copier un theme et un pack d'icone système sur le path utilisateur
+
+sudo cp -r /usr/share/icons/Mint-L-Blue ~/.icons/ && sudo cp -r /usr/share/themes/Mint-L-Dark-Blue ~/.themes/
+
+
+2 donner accès à flatpak aux path utilisateur des icones et des themes
+sudo flatpak override --filesystem=~/.icons && sudo flatpak override --filesystem=~/.themes
+
+3 séléctionner le thème et le pack d'icone de flatpak
+sudo flatpak override --env=GTK_THEME=Mint-L-Dark-Blue && sudo flatpak override --env=ICON_THEME=Mint-L-Blue

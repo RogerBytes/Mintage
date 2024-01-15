@@ -1,0 +1,13 @@
+sudo nano /etc/modprobe.d/hid_apple.conf
+
+
+puis ajouter cette ligne :
+options hid_apple fnmode=2
+
+puis :
+sudo update-initramfs -u
+(ou sudo update-initramfs -u -k all pour tous les kernels si c'est vraiment sûr que ça fonctionne)
+
+
+et enfin
+reboot

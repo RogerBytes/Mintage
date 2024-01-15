@@ -1,0 +1,24 @@
+Pour les souris il y a deux utilitaires principaux :
+
+
+- ckb-next -> dédié aux apparail corsair
+https://github.com/ckb-next/ckb-next
+sudo nala install -y build-essential cmake libudev-dev qtbase5-dev zlib1g-dev libpulse-dev libquazip5-dev libqt5x11extras5-dev libxcb-screensaver0-dev libxcb-ewmh-dev libxcb1-dev qttools5-dev git libdbusmenu-qt5-dev
+git clone https://github.com/ckb-next/ckb-next.git
+cd ckb-next
+./quickinstall
+cd
+sudo rm -r ckb-next
+
+Pour passer en mode expérimental
+sudo systemctl stop ckb-next-daemon ; sudo ckb-next-daemon --enable-experimental
+
+faire CTRL + C pour arrêter le processus du terminal et relancer ckb normalement avec :
+sudo systemctl start ckb-next-daemon
+
+
+
+- piper -> d'autres marques que corsair
+https://github.com/libratbag/piper
+Pour l'installer :
+sudo nala install -y piper
