@@ -2,9 +2,21 @@
 # Mintage
 
 <details>
-  <summary>Afficher URGENT !</summary>
-  DATA/vivaldi.7z en deux parties à décompresser (réglages vivaldi)
-  DATA/kodi.7z en trois parties à décompresser (réglages vivaldi)
+  <summary>A régler avant première release</summary>
+
+  1. DATA/vivaldi.7z en deux parties à décompresser (réglages vivaldi)
+  2. DATA/kodi.7z en trois parties à décompresser (réglages vivaldi)
+  3. Script pour appliquer (ou restaurer) les customisations de thèmes et de réglages d'options utilisateurs sur une tierce session.
+  4. Reformuler la documentation au propre, en s'inspirant par exemple de l'extrait suivant :
+
+<details>
+  <summary>Exemple</summary>
+  Pour démarrer avec le script de personnalisation de Linux Mint, suivez ces étapes simples :
+
+  1. Téléchargez le script sur votre machine Linux Mint.
+  2. Rendez le script exécutable avec la commande : `chmod +x custom-linux-mint.sh`.
+  3. Exécutez le script avec : `./custom-linux-mint.sh`.
+</details>
 </details>
 
 ## Présentation
@@ -13,25 +25,29 @@
   <summary>Afficher le contenu</summary>
   Ce script est conçu pour automatiser le processus de personnalisation de Linux Mint en installant une suite complète de logiciels open source. De manière simple, les utilisateurs peuvent transformer leur système Linux Mint en un environnement de travail puissant et personnalisé, idéal pour les développeurs, les créateurs de contenu, et les utilisateurs quotidiens.
 
-  ### Fonctionnalités
+### Fonctionnalités
 
-  - **Installation Automatique** : Déployez votre environnement personnalisé sans intervention manuelle.
-  - **Suite Complète** : Le script inclut des logiciels pour le développement, la bureautique, le multimédia, et plus encore.
-  - **Open Source** : Tous les logiciels installés sont open source, garantissant transparence et respect de la vie privée.
-  - **Thème Préconfiguré** : Profitez d'un thème sobre et fonctionnel, conçu pour une expérience utilisateur optimale.
+- **Installation Automatique** : Déployez votre environnement personnalisé sans intervention manuelle.
+- **Suite Complète** : Le script inclut des logiciels pour le développement, la bureautique, le multimédia, et plus encore.
+- **Open Source** : Tous les logiciels installés sont open source, garantissant transparence et respect de la vie privée.
+- **Thème Préconfiguré** : Profitez d'un thème sobre et fonctionnel, conçu pour une expérience utilisateur optimale.
 
-  ### Liste de logiciel
+### Liste de logiciel
+
   Une liste non exhaustive des logiciels inclus dans ce script :
-  - **Développement**: Codium, Git, Docker
-  - **Bureautique**: LibreOffice, Thunderbird
-  - **Multimédia**: GIMP, Kodi
-  - **Internet**: Vivaldi, FileZilla
-  - ...et beaucoup d'autres !
 
-  ### Contributions
+- **Développement**: Codium, Git, Docker
+- **Bureautique**: LibreOffice, Thunderbird
+- **Multimédia**: GIMP, Kodi
+- **Internet**: Vivaldi, FileZilla
+- ...et beaucoup d'autres !
+
+### Contributions
+
   Les contributions sont les bienvenues ! Si vous avez des suggestions ou des améliorations, n'hésitez pas à soumettre une pull request ou à ouvrir une issue.
 
-  ### License
+### License
+
   Distribué sous la licence GPLv3. Voir `LICENSE` pour plus d'informations.
 </details>
 
@@ -58,17 +74,10 @@ ___________________________________________________________________________
 
 ## Installation
 
-Pour démarrer avec le script de personnalisation de Linux Mint, suivez ces étapes simples :
-
-1. Téléchargez le script sur votre machine Linux Mint.
-2. Rendez le script exécutable avec la commande : `chmod +x custom-linux-mint.sh`.
-3. Exécutez le script avec : `./custom-linux-mint.sh`.
-
-
 <details>
   <summary>Afficher contenu</summary>
-1/ Ouvrir le dossier Calm-Linux faire un clic droit dans la fenêtre et "ouvrir dans un terminal"
-Dans le terminal entrer la commande :
+  1/ Ouvrir le dossier Calm-Linux faire un clic droit dans la fenêtre et "ouvrir dans un terminal"
+  Dans le terminal entrer la commande :
 
   ```bash
   ./prerequis.sh
@@ -79,7 +88,6 @@ Dans le terminal entrer la commande :
   ```bash
   ./install.sh
   ```
-  
 
   puis faire un reboot
   Lancez vivaldi et thunderbird une première fois
@@ -90,7 +98,7 @@ Dans le terminal entrer la commande :
   ./after-reboot.sh
   ```
 
-  ------------------------------------------------------------------------
+___________________________________________________________________________
 
   1) Si Dual-Boot seulement
   Dans un terminal :
@@ -113,11 +121,12 @@ Dans le terminal entrer la commande :
   sur la petite roue de paramètrage. Choisissez l'option "modifier les options de montage",
   Décochez "Réglages par défaut de la session" et décochez tout puis faîtes "Valider.
 
-  -----------------------------------------------
+___________________________________________________________________________
+
   Dans fontbase cliquez sur "..." et dans
   Pour "Root Folder" choisissez le dossier "Local"
 
-  -----------------------------------------------
+___________________________________________________________________________
 
   Lancer pcloud dans `~/Local/Ressources/apimages`
 
@@ -127,6 +136,7 @@ Dans le terminal entrer la commande :
 
   Astuce désactiver l'accéleration matérielle de vivaldi (manuellement malheureusement)
   avec
+
   ```bash
   vivaldi --app="vivaldi://settings/system"
   ```
@@ -135,7 +145,7 @@ Dans le terminal entrer la commande :
   `~/.config/vivaldi/Default`
   et qu'on importe, attention, il faut virer les extensions et les mdp
 
-  ____________________________________________________________
+___________________________________________________________________________
 
   (facultatif) Si vous allez fréquemment travailler sur la batterie de votre laptop vous pouvez installer tlp pour améliorer l'autonomie de votre batterie :
   `sudo nala install -y tlp tlp-rdw`
@@ -153,7 +163,7 @@ Dans le terminal entrer la commande :
 
   clic droit sur l'icone "préférences" dans l'onglet "au démarrage, cochez "Démarrer Xpad automatiquement après l'ouverture de session".
 
-  ____________________________________________________________
+___________________________________________________________________________
 
   CODIUM
 
@@ -179,6 +189,9 @@ Dans le terminal entrer la commande :
     "window.zoomLevel": 1,
     "terminal.explorerKind": "external",
     "terminal.external.linuxExec": "tilix"
+    "markdownlint.config": {
+      "MD033": false
+    }
   ```
 
   ATTENTION : ne pas oublier de mettre une vergule à la ligne précedent le code que vous collez
@@ -188,12 +201,12 @@ Dans le terminal entrer la commande :
   `CTRL + K et CTRL + S`
   Fin DE RACCOURCI CLAVIER
 
-  ____________________________________________________________
+___________________________________________________________________________
 
   LanguageTools pour LibreOffice
 
   Téléchargez l'extension via wget (dl direct)
-   
+
   ```bash
   wget <https://languagetool.org/download/LanguageTool-stable.oxt>
   ```
@@ -219,12 +232,17 @@ ___________________________________________________________________________
 
 <details>
   <summary>Afficher le contenu</summary>
-  1 - Faire un script de customisation pour une nouvelle session
-  2 - Faire un script pour rétablir les customisation de thème après une upgrade hasardeuse
-  3 - corriger le lien des mdp de vivaldi, et ajouter les options corrigées de ~/.config/vivaldi à l'archive
-  4 - supprimer du .hidden le dossier Games
-  5 - Refaire le lisez-moi
-  6 - faire la liste de toutes les applications
-  7 - faire une application simple pour changer sa version de java
+  1. Faire un script de customisation pour une nouvelle session 
+  2. Faire un script pour rétablir les customisation de thème après une upgrade hasardeuse 
+  3. corriger le lien des mdp de vivaldi, et ajouter les options corrigées de ~/.config/vivaldi à l'archive 
+  4. supprimer du .hidden le dossier Games 
+  5. Refaire le lisez-moi 
+  6. faire la liste de toutes les applications 
+  7. faire une application simple pour changer sa version de java 
 </details>
 
+___________________________________________________________________________
+
+## Auteurs
+
+- [Harry RICHMOND](https://github.com/RogerBytes)
