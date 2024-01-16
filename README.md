@@ -56,15 +56,22 @@ ___________________________________________________________________________
 
 ## Prérequis
 
-<details>
+<details style="background-color: #12100c; border: 1px solid #ccc; border-radius: 4px;">
   <summary>Afficher contenu</summary>
   Une install' fraîche de Linux Mint 22
 
   Choisir les miroirs de téléchargement pour les mises à jour (prenez les plus rapides)
+
+  ```bash
   /usr/bin/software-properties-gtk
+  ```
 
   Ensuite choisissez les drivers
+
+  ```bash
   driver-manager
+  ```
+
   Installez les drivers propriétaires et "Appliquer les changements", puis fermez.
 
   Faire les maj
