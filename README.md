@@ -6,8 +6,9 @@
 
   1. DATA/vivaldi.7z en deux parties à décompresser (réglages vivaldi)
   2. DATA/kodi.7z en trois parties à décompresser (réglages vivaldi)
-  3. Script pour appliquer (ou restaurer) les customisations de thèmes et de réglages d'options utilisateurs sur une tierce session.
-  4. Reformuler la documentation au propre, en s'inspirant par exemple de l'extrait suivant :
+  3. ajouter le lecteur md `sudo apt install -y ghostrwritter`
+  4. Script pour appliquer (ou restaurer) les customisations de thèmes et de réglages d'options utilisateurs sur une tierce session.
+  5. Reformuler la documentation au propre, en s'inspirant par exemple de l'extrait suivant :
 
 <details>
   <summary>Exemple</summary>
