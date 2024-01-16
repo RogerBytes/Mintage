@@ -16,6 +16,7 @@
   1. Téléchargez le script sur votre machine Linux Mint.
   2. Rendez le script exécutable avec la commande : `chmod +x custom-linux-mint.sh`.
   3. Exécutez le script avec : `./custom-linux-mint.sh`.
+
 </details>
 </details>
 
@@ -232,13 +233,15 @@ ___________________________________________________________________________
 
 <details>
   <summary>Afficher le contenu</summary>
-  1. Faire un script de customisation pour une nouvelle session 
-  2. Faire un script pour rétablir les customisation de thème après une upgrade hasardeuse 
-  3. corriger le lien des mdp de vivaldi, et ajouter les options corrigées de ~/.config/vivaldi à l'archive 
-  4. supprimer du .hidden le dossier Games 
-  5. Refaire le lisez-moi 
-  6. faire la liste de toutes les applications 
-  7. faire une application simple pour changer sa version de java 
+
+  1. Faire un script de customisation pour une nouvelle session
+  2. Faire un script pour rétablir les customisations de thème après une upgrade hasardeuse
+  3. Corriger le lien des MDP de Vivaldi, et ajouter les options corrigées de ~/.config/vivaldi à l'archive
+  4. Supprimer du .hidden le dossier Games
+  5. Refaire le lisez-moi
+  6. Faire la liste de toutes les applications
+  7. Faire une application simple pour changer sa version de Java
+
 </details>
 
 ___________________________________________________________________________
