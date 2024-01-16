@@ -22,8 +22,8 @@
 
 ## Présentation
 
-<details>
-  <summary>Afficher le contenu</summary>
+<details style="background-color: #222222; border: 1px solid #ccc; border-radius: 4px;">
+  <summary>Afficher/Masquer</summary>
   Ce script est conçu pour automatiser le processus de personnalisation de Linux Mint en installant une suite complète de logiciels open source. De manière simple, les utilisateurs peuvent transformer leur système Linux Mint en un environnement de travail puissant et personnalisé, idéal pour les développeurs, les créateurs de contenu, et les utilisateurs quotidiens.
 
 ### Fonctionnalités
@@ -56,8 +56,8 @@ ___________________________________________________________________________
 
 ## Prérequis
 
-<details style="background-color: #12100c; border: 1px solid #ccc; border-radius: 4px;">
-  <summary>Afficher contenu</summary>
+<details style="background-color: #222222; border: 1px solid #ccc; border-radius: 4px;">
+  <summary>Afficher/Masquer</summary>
   Une install' fraîche de Linux Mint 22
 
   Choisir les miroirs de téléchargement pour les mises à jour (prenez les plus rapides)
@@ -82,8 +82,8 @@ ___________________________________________________________________________
 
 ## Installation
 
-<details>
-  <summary>Afficher contenu</summary>
+<details style="background-color: #222222; border: 1px solid #ccc; border-radius: 4px;">
+  <summary>Afficher/Masquer</summary>
   1/ Ouvrir le dossier Calm-Linux faire un clic droit dans la fenêtre et "ouvrir dans un terminal"
   Dans le terminal entrer la commande :
 
@@ -238,8 +238,8 @@ ___________________________________________________________________________
 
 ## Todo
 
-<details>
-  <summary>Afficher le contenu</summary>
+<details style="background-color: #222222; border: 1px solid #ccc; border-radius: 4px;">
+  <summary>Afficher/Masquer</summary>
 
   1. Faire un script de customisation pour une nouvelle session
   2. Faire un script pour rétablir les customisations de thème après une upgrade hasardeuse
