@@ -34,7 +34,7 @@ Pour démarrer avec le script de personnalisation de Linux Mint, suivez ces éta
 - **Open Source** : Tous les logiciels installés sont open source, garantissant transparence et respect de la vie privée.
 - **Thème Préconfiguré** : Profitez d'un thème sobre et fonctionnel, conçu pour une expérience utilisateur optimale.
 
-### Liste de logiciel
+### Liste de logiciels
 
 Une liste non exhaustive des logiciels inclus dans ce script :
 
