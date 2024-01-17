@@ -283,9 +283,7 @@ Après qt5ct (juste après game feral mode et powerlevel de zsh) Système demand
 #### Les appli flatpak sans support de thème
 
 - Mousai - io.github.seadve.Mousai
-- Shortwave - de.haeckerfelix.Shortwave
 - Téléchargeur de vidéo - com.github.unrud.VideoDownloader
-- Installer flatseal ne sert à rien, c'est de la bouse
 
 </details>
 

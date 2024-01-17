@@ -85,6 +85,11 @@ wget https://cinnamon-spices.linuxmint.com/files/applets/timer@Severga.zip
 unzip timer@Severga.zip -d ~/.local/share/cinnamon/applets
 rm timer@Severga.zip
 
+# Radio3.0
+wget https://cinnamon-spices.linuxmint.com/files/applets/Radio3.0@claudiux.zip
+unzip Radio3.0@claudiux.zip -d ~/.local/share/cinnamon/applets
+rm Radio3.0@claudiux.zip
+
 # ScreenShot+Record Desktop
 wget https://cinnamon-spices.linuxmint.com/files/applets/ScreenShot+RecordDesktop@tech71.zip
 unzip ScreenShot+RecordDesktop@tech71.zip -d ~/.local/share/cinnamon/applets
@@ -121,6 +126,9 @@ sudo nala install -y xclip python3-xlib
 
 # Dépendances de gpaste rechargé
 sudo nala install -y gpaste gir1.2-gpaste-1.0
+
+# Dépendances de radio3.0
+sudo nala install -y mpv libmpv-dev yt-dlp sox libsox-fmt-all at python3-polib mpv-mpris
 
 # 1/ d) Desklet
 # -------------

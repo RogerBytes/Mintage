@@ -9,7 +9,7 @@
 
 ## Retraits
 
-- Radio++ (remplacé par shortwave + features cassées depuis longtemps)
+- Radio++ (remplacé par radio3.0)
 - Zram (swap ram) - inutile à part si on a 4 Go de ram
 - Xiphos (bible) -> Je ne sais pas si je mettrais un remplaçant, peut-être The Life si la build est à jour
 - Heroic Games Launcher (wrapper proton / wine) -> doublon avec lutris qui lui est supérieur

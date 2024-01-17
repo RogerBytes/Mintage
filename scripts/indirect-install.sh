@@ -33,9 +33,6 @@ flatpak install -y flathub io.github.seadve.Mousai
 # ProtonUp
 flatpak install -y flathub net.davidotek.pupgui2
 
-# Shortwave (remplace radio ++)
-flatpak install -y flathub de.haeckerfelix.Shortwave
-
 # SweetHome 3D
 flatpak install -y flathub com.sweethome3d.Sweethome3d
 
@@ -207,7 +204,7 @@ sudo chmod +x /usr/share/applications/Java.desktop ; sudo chmod +x /usr/lib/jvm/
 # ------------------------------
 
 # Fontbase
-wget https://releases.fontba.se/linux/FontBase-2.18.1.AppImage && sudo mv FontBase-2.18.1.AppImage /bin && sudo touch /usr/share/applications/Fontbase.desktop && sudo tee -a  /usr/share/applications/Fontbase.desktop > /dev/null <<EOT
+wget https://releases.fontba.se/linux/FontBase-2.18.1.AppImage && sudo mv FontBase-2.18.1.AppImage /bin && sudo touch /usr/share/applications/Fontbase.desktop && sudo tee -a /usr/share/applications/Fontbase.desktop > /dev/null <<EOT
 [Desktop Entry]
 Exec=/bin/FontBase-2.18.1.AppImage
 Icon=fonts
