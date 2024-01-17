@@ -2,25 +2,6 @@
 # Mintage
 
 Ce script est conçu pour automatiser le processus de personnalisation de Linux Mint en installant une suite complète de logiciels open source. De manière simple, les utilisateurs peuvent transformer leur système Linux Mint en un environnement de travail puissant et personnalisé, idéal pour les développeurs, les créateurs de contenu, et les utilisateurs quotidiens.
-<details>
-<summary>A régler avant première release</summary>
-
-1. DATA/vivaldi.7z en deux parties à décompresser (réglages vivaldi)
-2. DATA/kodi.7z en trois parties à décompresser (réglages vivaldi)
-3. ajouter le lecteur md `sudo apt install -y ghostrwritter`
-4. Script pour appliquer (ou restaurer) les customisations de thèmes et de réglages d'options utilisateurs sur une tierce session.
-5. Reformuler la documentation au propre, en s'inspirant par exemple de l'extrait suivant :
-
-<details>
-<summary>Exemple</summary>
-Pour démarrer avec le script de personnalisation de Linux Mint, suivez ces étapes simples :
-
-1. Téléchargez le script sur votre machine Linux Mint.
-2. Rendez le script exécutable avec la commande : `chmod +x custom-linux-mint.sh`.
-3. Exécutez le script avec : `./custom-linux-mint.sh`.
-
-</details>
-</details>
 
 ## Présentation
 
@@ -62,6 +43,7 @@ ___________________________________________________________________________
 Une install' fraîche de Linux Mint 22
 
 Choisir les miroirs de téléchargement pour les mises à jour (prenez les plus rapides)
+Pour ouvrir le terminal : `CTRL + ALT + T`
 
 ```bash
 /usr/bin/software-properties-gtk
@@ -75,8 +57,27 @@ driver-manager
 
 Installez les drivers propriétaires et "Appliquer les changements", puis fermez.
 
-Faire les maj
+Faire les mise à jour
+
+```bash
 mintupdate
+```
+
+Et installer nala, une surcouche du gestionnaire apt
+
+```bash
+# Nala
+sudo apt install -y nala expect curl wget
+# puis changer les miroir de dl avec :
+sudo nala fetch
+# en répondant "1 2 3" sans oublier les espaces entre eux
+# ou plus simplement (mais semble ne pas toujours marcher)
+echo -e "1 2 3\nY" | sudo nala fetch
+```
+
+Il y a une source défaillante chez moi :
+Ouvrez "Gestionnaire de mises à jour" et allez dans "Edition/Sources de logiciels", allez ensuite dans "Dépôts supplémentaires"
+et décochez la source en question, ici je décoche "linuxmirrors.ir".
 </details>
 
 ___________________________________________________________________________
@@ -85,7 +86,7 @@ ___________________________________________________________________________
 
 <details style="background-color: #222222; border: 1px solid #ccc; border-radius: 4px;">
 <summary>Afficher/Masquer</summary>
-1/ Ouvrir le dossier Calm-Linux faire un clic droit dans la fenêtre et "ouvrir dans un terminal"
+1/ Ouvrir le dossier décompréssé et un clic droit dans la fenêtre et "ouvrir dans un terminal"
 Dans le terminal entrer la commande :
 
 ```bash
@@ -127,7 +128,7 @@ gnome-disks
 ```
 
 Trouvez le disque où est installé Windows, puis chez la partition NTFS où il se trouve, sélectionnez-le puis cliquez
-sur la petite roue de paramètrage. Choisissez l'option "modifier les options de montage",
+sur la petite roue de paramétrage. Choisissez l'option "modifier les options de montage",
 Décochez "Réglages par défaut de la session" et décochez tout puis faîtes "Valider.
 
 ___________________________________________________________________________
@@ -156,17 +157,9 @@ et qu'on importe, attention, il faut virer les extensions et les mdp
 
 ___________________________________________________________________________
 
-(facultatif) Si vous allez fréquemment travailler sur la batterie de votre laptop vous pouvez installer tlp pour améliorer l'autonomie de votre batterie :
-`sudo nala install -y tlp tlp-rdw`
-
-(facultatif) Vous pouvez également installer preload pour précharger la ram avec des applications que vous utilisez fréquement :
-`sudo nala install -y preload`
-
 Sinon sur votre bueau 'clic droit' > personnaliser :
 décochez "ajustement automatique", puis cliquez en bas sur "Paramètre du bureau"
 Décochez le poste de travail et cochez le dossier personnel
-
-Lancez aussi l'applet du haut "radio ++" et choisissez "Download plugin at my own risk"
 
 ! Lancer xpad une première fois depuis le menu
 
@@ -217,7 +210,7 @@ LanguageTools pour LibreOffice
 Téléchargez l'extension via wget (dl direct)
 
 ```bash
-wget <https://languagetool.org/download/LanguageTool-stable.oxt>
+wget https://languagetool.org/download/LanguageTool-stable.oxt
 ```
 
 Dans LibreOffice allez dans "Outils/Gestionnaire des extensions..."
@@ -243,13 +236,35 @@ ___________________________________________________________________________
 <summary>Afficher/Masquer</summary>
 
 1. Faire un script de customisation pour une nouvelle session
-2. Faire un script pour rétablir les customisations de thème après une upgrade hasardeuse
-3. Corriger le lien des MDP de Vivaldi, et ajouter les options corrigées de ~/.config/vivaldi à l'archive
-4. Supprimer du .hidden le dossier Games
-5. Refaire le lisez-moi
-6. Faire la liste de toutes les applications
-7. Faire une application simple pour changer sa version de Java
+2. corriger le lien vers trousseau du navigateur il faut mettre `vivaldi://password-manager/passwords`
+3. Faire la liste de toutes les applications
+4. Faire une application simple pour changer de runtime Java
+5. Le theme root souris au propre (au lieu de mon swap manuel) est `sudo update-alternatives --config x-cursor-theme`
+6. ajout gestionnaire apimage https://launchpad.net/~appimagelauncher-team/+archive/ubuntu/stable
+7. Voir pour faire installation entièrement auto de jackd libdvd(et son libdvdcss)
+8. Mettre à jour le dossier "Astuces"
 
+</details>
+
+___________________________________________________________________________
+
+## Dernier rapport
+
+<details style="background-color: #222222; border: 1px solid #ccc; border-radius: 4px;">
+<summary>Afficher/Masquer</summary>
+
+### Problèmes
+
+Il y a un souci avec "linuxmirrors.ir" (source de logiciel), j'ai édité le pré requis
+
+### Observations
+
+Après qt5ct (juste après game feral mode et powerlevel de zsh) Système demande à relancer cinnamon. Et dans le shell il demande le mdp dans le terminal sans rien faire derrière.
+
+Les paquets que je remets manuellement (j'aimerais me passer de l'étape) :
+blueman
+caffeine
+-> plus de pb avec transmission-gtk (je ne sais pas pourquoi)
 </details>
 
 ___________________________________________________________________________

@@ -1,5 +1,8 @@
 #!/bin/sh
 
+# en attente
+# Open Snitch NON INSTALLE EN ATTENTE DE VERSION PLUS STABLE
+# sudo nala install -y python3-pip python3-pyasn && pip3 install --user qt-material && pip3 install --user --ignore-installed grpcio && wget https://github.com/evilsocket/opensnitch/releases/download/v1.5.2/opensnitch_1.5.2-1_amd64.deb && sudo nala install -y ./opensnitch_1.5.2-1_amd64.deb && rm opensnitch_1.5.2-1_amd64.deb && wget https://github.com/evilsocket/opensnitch/releases/download/v1.5.2/python3-opensnitch-ui_1.5.2-1_all.deb && sudo nala install -y ./python3-opensnitch-ui_1.5.2-1_all.deb && rm python3-opensnitch-ui_1.5.2-1_all.deb
 
 #2/ Applications
 #    2/ b) Installation Flatpak
@@ -15,35 +18,29 @@
 # 2/ b) Installation Flatpak
 # --------------------------
 
-# Thunderbird (supernova)
-flatpak install -y flathub org.mozilla.Thunderbird
-
-# Lutris
-flatpak install -y flathub net.lutris.Lutris
-
-# ProtonUp
-flatpak install -y flathub net.davidotek.pupgui2
-
 # Ciano Media Converter
 flatpak install -y flathub com.github.robertsanseries.ciano
-
-# Heroic Games Launcher (wrapper proton / wine)
-flatpak install -y flathub com.heroicgameslauncher.hgl
-mkdir ~/Games/Heroic/themes
-git clone https://github.com/Heroic-Games-Launcher/heroic-themes.git ~/Games/Heroic/themes/
 
 # Jdownloader
 flatpak install -y flathub org.jdownloader.JDownloader
 
+# Lutris
+flatpak install -y flathub net.lutris.Lutris
+
 # Mousai (shazam alternative)
-flatpak install flathub -y io.github.seadve.Mousai
+flatpak install -y flathub io.github.seadve.Mousai
+
+# ProtonUp
+flatpak install -y flathub net.davidotek.pupgui2
+
+# Shortwave (remplace radio ++)
+flatpak install -y flathub de.haeckerfelix.Shortwave
 
 # SweetHome 3D
 flatpak install -y flathub com.sweethome3d.Sweethome3d
 
 # VideoDownloader
 flatpak install flathub -y com.github.unrud.VideoDownloader
-
 
 # 2/ c) Installation depuis un paquet DEB
 # ---------------------------------------
@@ -60,16 +57,10 @@ wget https://github.com/johnfactotum/foliate/releases/download/2.6.4/com.github.
 # FreeTube
 wget https://github.com/FreeTubeApp/FreeTube/releases/download/v0.19.0-beta/freetube_0.19.0_amd64.deb && sudo nala install -y ./*amd64.deb && rm *amd64.deb
 
-# Open Snitch NON INSTALLE EN ATTENTE DE VERSION PLUS STABLE
-# sudo nala install -y python3-pip python3-pyasn && pip3 install --user qt-material && pip3 install --user --ignore-installed grpcio && wget https://github.com/evilsocket/opensnitch/releases/download/v1.5.2/opensnitch_1.5.2-1_amd64.deb && sudo nala install -y ./opensnitch_1.5.2-1_amd64.deb && rm opensnitch_1.5.2-1_amd64.deb && wget https://github.com/evilsocket/opensnitch/releases/download/v1.5.2/python3-opensnitch-ui_1.5.2-1_all.deb && sudo nala install -y ./python3-opensnitch-ui_1.5.2-1_all.deb && rm python3-opensnitch-ui_1.5.2-1_all.deb
-
 # RustDesk (pour remplacer teamviewer)
 wget $(curl -s https://api.github.com/repos/rustdesk/rustdesk/releases/latest | grep "browser_download_url.*x86_64.deb" | cut -d '"' -f 4)
 sudo dpkg -i rustdesk-*-x86_64.deb
 rm rustdesk-*-x86_64.deb
-
-# TeamViewer
-# wget https://download.teamviewer.com/download/linux/teamviewer_amd64.deb && sudo nala install -y ./teamviewer_amd64.deb && rm teamviewer_amd64.deb
 
 # vivaldi
 wget https://downloads.vivaldi.com/stable/vivaldi-stable_5.6.2867.40-1_amd64.deb && sudo nala install -y ./vivaldi-stable_5.6.2867.40-1_amd64.deb && rm vivaldi-stable_5.6.2867.40-1_amd64.deb
@@ -79,13 +70,17 @@ wget https://downloads.vivaldi.com/stable/vivaldi-stable_5.6.2867.40-1_amd64.deb
 # ------------------------------
 
 # Avidemux
-sudo nala install -y software-properties-common apt-transport-https && sudo add-apt-repository -y ppa:xtradeb/apps && sudo nala update && sudo nala install -y avidemux*
+sudo nala install -y software-properties-common apt-transport-https &&
+
+sudo add-apt-repository -y ppa:xtradeb/apps
+sudo nala update
+sudo nala install -y avidemux-qt avidemux-cli
+
+# Brightness Controller (gère le contraste/couleur des moniteurs)
+sudo add-apt-repository -y ppa:apandada1/brightness-controller && sudo nala update && sudo nala install -y brightness-controller
 
 # Cozy Audiobook
 sudo add-apt-repository -y ppa:cozy-team/cozy && sudo nala update && sudo nala install -y cozy
-
-# Free office
-wget -qO - https://shop.softmaker.com/repo/linux-repo-public.key | sudo apt-key add - && sudo apt-add-repository "deb http://shop.softmaker.com/repo/apt stable non-free" && sudo nala update && sudo nala install -y softmaker-freeoffice-2021
 
 # gCDEmu
 sudo add-apt-repository -y ppa:cdemu/ppa && sudo nala update && sudo nala install -y gcdemu
@@ -99,13 +94,17 @@ sudo add-apt-repository -y ppa:ztefn/haguichi-stable && sudo nala update && sudo
 # Mangohud
 sudo add-apt-repository -y ppa:oibaf/graphics-drivers && sudo nala update && sudo nala install -y mangohud
 
+# YACReader
+echo 'deb http://download.opensuse.org/repositories/home:/selmf/xUbuntu_22.04/ /' | sudo tee /etc/apt/sources.list.d/home:selmf.list && curl -fsSL https://download.opensuse.org/repositories/home:selmf/xUbuntu_22.04/Release.key | gpg --dearmor | sudo tee /etc/apt/trusted.gpg.d/home_selmf.gpg > /dev/null && sudo nala update && sudo nala install -y yacreader
+
+# 2/ d)bis Installation avec wget sur un deb
+
 # VSCodium
-wget -qO - https://gitlab.com/paulcarroty/vscodium-deb-rpm-repo/raw/master/pub.gpg \
-    | gpg --dearmor \
-    | sudo dd of=/usr/share/keyrings/vscodium-archive-keyring.gpg
-echo 'deb [ signed-by=/usr/share/keyrings/vscodium-archive-keyring.gpg ] https://download.vscodium.com/debs vscodium main' \
-    | sudo tee /etc/apt/sources.list.d/vscodium.list
-sudo nala update && sudo nala install -y codium
+latest_url=$(curl -sL -w '%{url_effective}\n' https://github.com/VSCodium/vscodium/releases/latest -o /dev/null)
+download_url="${latest_url/tag/download}/codium_${latest_url##*/}_amd64.deb"
+wget $download_url
+sudo nala install -y ./*amd64.deb
+rm *amd64.deb
 
 # Les extensions de VSCodium
 codium --install-extension aaron-bond.better-comments
@@ -141,7 +140,6 @@ codium --install-extension rid9.datetime
 codium --install-extension shardulm94.trailing-spaces
 codium --install-extension shellscape.shellscape-brackets
 codium --install-extension tomoki1207.pdf
-codium --install-extension ./DATA/codium-theme/mint-l-dark-blue-2.0.0.vsix
 codium --install-extension yzane.markdown-pdf
 codium --install-extension Angular.ng-template
 codium --install-extension yzhang.markdown-all-in-one
@@ -174,9 +172,8 @@ codium --install-extension ritwickdey.LiveServer
 codium --install-extension shd101wyy.markdown-preview-enhanced
 codium --install-extension streetsidesoftware.code-spell-checker
 codium --install-extension streetsidesoftware.code-spell-checker-french
+codium --install-extension gitpod.gitpod-theme
 
-# YACReader
-echo 'deb http://download.opensuse.org/repositories/home:/selmf/xUbuntu_22.04/ /' | sudo tee /etc/apt/sources.list.d/home:selmf.list && curl -fsSL https://download.opensuse.org/repositories/home:selmf/xUbuntu_22.04/Release.key | gpg --dearmor | sudo tee /etc/apt/trusted.gpg.d/home_selmf.gpg > /dev/null && sudo nala update && sudo nala install -y yacreader
 
 
 # 2/ e) Installation paquets linux tar.gz
@@ -239,9 +236,6 @@ sudo chmod +x ~/Local/Ressources/apimages/pcloud
 # 2/ g) Purge et nettoyage PPA
 # ----------------------------
 
-# Thunderbird -> Thunderbird flatpak
-sudo apt purge -y thunderbird
-
 # Formateur de clé USB -> Gparted
 sudo apt purge -y mintstick
 
@@ -251,8 +245,8 @@ sudo apt purge -y sticky
 # Suppresion PPA Avidemux
 sudo add-apt-repository --remove -y ppa:xtradeb/apps
 
-# Suppresion PPA FreeOffice
-sudo add-apt-repository --remove -y "deb http://shop.softmaker.com/repo/apt stable non-free"
+# Suppresion PPA brightness-controller
+sudo add-apt-repository --remove -y ppa:apandada1/brightness-controller
 
 # Suppresion PPA Mangohud
 sudo add-apt-repository --remove -y ppa:oibaf/graphics-drivers

@@ -6,23 +6,23 @@
 #    1/ b) Shell
 #    1/ c) Applets
 
-# Nala
-sudo apt install -y nala expect curl wget
-# puis changer les miroir de dl avec :
-echo -e "1 2 3\nY" | sudo nala fetch
+# 1/ a) Divers - avec prompts oui/non
+# ------------
+
+# jackd2
+sudo nala install -y --assume-yes jackd2
+
+# DVD support libdvd
+sudo nala install -y libdvd-pkg && sudo dpkg-reconfigure libdvd-pkg
+
+# 1/ a) Divers - normaux
+# ------------
 
 # Ardour
 sudo nala install -y --assume-yes ardour
-sudo nala install -y --assume-yes jackd2
-
-# DVD support
-sudo nala install -y libdvd-pkg && sudo dpkg-reconfigure libdvd-pkg
-
-# Zram
-sudo nala install -y zram-config
 
 # Drivers android
-sudo nala install -y android-tools-adb android-tools-fastboot
+sudo nala install -y adb fastboot
 
 # Dconf
 sudo nala install -y dconf-editor
@@ -51,12 +51,6 @@ echo "source /usr/share/zsh-autosuggestions/zsh-autosuggestions.zsh" >> ~/.zshrc
 git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ~/.powerlevel10k
 echo 'source ~/.powerlevel10k/powerlevel10k.zsh-theme' >> ~/.zshrc
 cp ./DATA/.p10k.zsh ~/
-
-# comment voir quel shell j'utilise
-#printf "My current shell - %s\n" "$SHELL"
-
-# la commande normale pour changer le shell c'est :
-#chsh -s $(which zsh)
 
 # 1/ c) Applets
 # -------------
@@ -90,11 +84,6 @@ rm force-quit@cinnamon.org.zip
 wget https://cinnamon-spices.linuxmint.com/files/applets/timer@Severga.zip
 unzip timer@Severga.zip -d ~/.local/share/cinnamon/applets
 rm timer@Severga.zip
-
-# Radio++
-wget https://cinnamon-spices.linuxmint.com/files/applets/radio@driglu4it.zip
-unzip radio@driglu4it.zip -d ~/.local/share/cinnamon/applets
-rm radio@driglu4it.zip
 
 # ScreenShot+Record Desktop
 wget https://cinnamon-spices.linuxmint.com/files/applets/ScreenShot+RecordDesktop@tech71.zip
@@ -132,10 +121,6 @@ sudo nala install -y xclip python3-xlib
 
 # Dépendances de gpaste rechargé
 sudo nala install -y gpaste gir1.2-gpaste-1.0
-
-# Dépendances de radio++
-sudo nala install -y mpv
-
 
 # 1/ d) Desklet
 # -------------

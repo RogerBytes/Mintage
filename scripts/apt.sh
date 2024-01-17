@@ -57,6 +57,9 @@ sudo nala install -y ghex
 # Gimp
 sudo nala install -y gimp gimp-help-fr
 
+# Ghostwriter (lecteur editeur markdown léger)
+sudo apt install -y ghostwriter
+
 # Gnome todos
 sudo nala install -y gnome-todo
 
@@ -98,7 +101,6 @@ sudo nala install -y kodi-visualization-shadertoy-data
 sudo nala install -y kodi-visualization-spectrum:amd64
 sudo nala install -y kodi-visualization-waveform
 
-
 # Krita
 sudo nala install -y krita
 
@@ -111,7 +113,7 @@ sudo nala install -y lmms
 # metadata cleaner
 sudo nala install -y metadata-cleaner
 
-# Numlock :
+# Numlock
 sudo nala install -y numlockx
 
 # OBS Studio
@@ -135,7 +137,7 @@ sudo nala install -y deja-dup
 # Scribus
 sudo nala install -y scribus
 
-# Sound juicer
+# Sound Juicer
 sudo nala install -y sound-juicer
 
 # Stacer
@@ -144,7 +146,7 @@ sudo nala install -y stacer
 # Tilix
 sudo nala install -y tilix
 
-# Transmission
+# Transmission (sur LM vanilla mais se désinstalle sans que je comprenne pourquoi)
 sudo nala install -y transmission-gtk
 
 # Trimage
@@ -158,52 +160,9 @@ sudo nala install -y vim
 
 # VirtualBox
 sudo nala install -y virtualbox
-# et son thème sombre
-sudo nala install -y qt5ct
-mkdir -p ~/.config/qt5ct
-touch ~/.config/qt5ct/qt5ct.conf
-cat <<EOF > ~/.config/qt5ct/qt5ct.conf
-[Appearance]
-color_scheme_path=/usr/share/qt5ct/colors/darker.conf
-custom_palette=true
-icon_theme=Mint-Y
-standard_dialogs=default
-style=Breeze
-
-[Fonts]
-fixed=@Variant(\0\0\0@\0\0\0\x12\0M\0o\0n\0s\0p\0\x61\0\x63\0\x65@$\0\0\0\0\0\0\xff\xff\xff\xff\x5\x1\0\x32\x10)
-general=@Variant(\0\0\0@\0\0\0\f\0U\0\x62\0u\0n\0t\0u@$\0\0\0\0\0\0\xff\xff\xff\xff\x5\x1\0\x32\x10)
-
-[Interface]
-activate_item_on_single_click=1
-buttonbox_layout=0
-cursor_flash_time=1000
-dialog_buttons_have_icons=1
-double_click_interval=400
-gui_effects=@Invalid()
-keyboard_scheme=2
-menus_have_icons=true
-show_shortcuts_in_context_menus=true
-stylesheets=@Invalid()
-toolbutton_style=4
-underline_shortcut=1
-wheel_scroll_lines=3
-
-[SettingsWindow]
-geometry=@ByteArray(\x1\xd9\xd0\xcb\0\x3\0\0\0\0\0\x64\0\0\0\x64\0\0\x3\x42\0\0\x2\xe4\0\0\0\x64\0\0\0\x80\0\0\x3\x42\0\0\x2\xe4\0\0\0\0\0\0\0\0\a\x80\0\0\0\x64\0\0\0\x80\0\0\x3\x42\0\0\x2\xe4)
-
-[Troubleshooting]
-force_raster_widgets=1
-ignored_applications=@Invalid()
-EOF
-
-sudo sed -i 's/^Exec=.*$/Exec=env QT_QPA_PLATFORMTHEME=qt5ct virtualbox %U/' /usr/share/applications/virtualbox.desktop
 
 # Xfburn
 sudo nala install -y xfburn
-
-# Xiphos (bible)
-sudo nala install -y xiphos
 
 # Xpad (remplace note "sticky")
 sudo nala install -y xpad
