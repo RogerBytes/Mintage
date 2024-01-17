@@ -78,6 +78,22 @@ echo -e "1 2 3\nY" | sudo nala fetch
 Il y a une source défaillante chez moi :
 Ouvrez "Gestionnaire de mises à jour" et allez dans "Edition/Sources de logiciels", allez ensuite dans "Dépôts supplémentaires"
 et décochez la source en question, ici je décoche "linuxmirrors.ir".
+
+### Téléchargement
+
+Depuis le terminal, on télécharge la dernière release, la décompresse et on entre dans le dossier :
+
+```bash
+latest_url=$(curl -sL -w '%{url_effective}\n' https://github.com/RogerBytes/Mintage/releases/latest -o /dev/null)
+download_url="${latest_url/tag\/v/download/v}/Mintage-${latest_url##*/}.tar.gz"
+wget $download_url
+file=$(find . -name 'Mintage*.tar.gz' -print -quit)
+tar -xvf "$file"
+folder_name=$(tar -tf "$file" | head -1 | cut -f1 -d"/")
+rm $file
+cd $folder_name
+```
+
 </details>
 
 ___________________________________________________________________________
@@ -86,7 +102,8 @@ ___________________________________________________________________________
 
 <details style="background-color: #222222; border: 1px solid #ccc; border-radius: 4px;">
 <summary>Afficher/Masquer</summary>
-1/ Ouvrir le dossier décompréssé et un clic droit dans la fenêtre et "ouvrir dans un terminal"
+
+1/ Ouvrir le dossier décompressé et un clic droit dans la fenêtre et "ouvrir dans un terminal"
 Dans le terminal entrer la commande :
 
 ```bash
@@ -157,7 +174,7 @@ et qu'on importe, attention, il faut virer les extensions et les mdp
 
 ___________________________________________________________________________
 
-Sinon sur votre bueau 'clic droit' > personnaliser :
+Sinon sur votre bureau 'clic droit' > personnaliser :
 décochez "ajustement automatique", puis cliquez en bas sur "Paramètre du bureau"
 Décochez le poste de travail et cochez le dossier personnel
 
@@ -240,7 +257,7 @@ ___________________________________________________________________________
 3. Faire la liste de toutes les applications
 4. Faire une application simple pour changer de runtime Java
 5. Le theme root souris au propre (au lieu de mon swap manuel) est `sudo update-alternatives --config x-cursor-theme`
-6. ajout gestionnaire apimage https://launchpad.net/~appimagelauncher-team/+archive/ubuntu/stable
+6. ajout gestionnaire apimage [VIA CE PPA](https://launchpad.net/~appimagelauncher-team/+archive/ubuntu/stable)
 7. Voir pour faire installation entièrement auto de jackd libdvd(et son libdvdcss)
 8. Mettre à jour le dossier "Astuces"
 
