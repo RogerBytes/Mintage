@@ -103,7 +103,7 @@ cd $folder_name
 <details style="background-color: #222222; border: 1px solid #ccc; border-radius: 4px;">
 <summary>Afficher/Masquer</summary>
 
-1/ Dans le terminal, dans le dossier extrait depuis l'archive (on y est déjà après avoir fait les prérequis)
+1/ Dans le terminal, dans le dossier extrait depuis l'archive (l'on y est déjà après avoir fait les prérequis)
 
 ```bash
 ./prerequis.sh
