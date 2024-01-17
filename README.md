@@ -273,7 +273,7 @@ Il y a un souci avec "linuxmirrors.ir" (source de logiciel), j'ai édité le pr�
 
 Après qt5ct (juste après game feral mode et powerlevel de zsh) Système demande à relancer cinnamon. Et dans le shell il demande le mdp dans le terminal sans rien faire derrière.
 
-#### Les paquets que je remets manuellement (afin de sauter une étape) :
+#### Les paquets que je remets manuellement (afin de sauter une étape)
 
 - blueman
 - caffeine
