@@ -1,4 +1,3 @@
-
 # Mintage
 
 Ce script est conçu pour automatiser le processus de personnalisation de Linux Mint en installant une suite complète de logiciels open source. De manière simple, les utilisateurs peuvent transformer leur système Linux Mint en un environnement de travail puissant et personnalisé, idéal pour les développeurs, les créateurs de contenu et (bien évidemment) les utilisateurs quotidiens.
@@ -32,9 +31,10 @@ Les contributions sont les bienvenues ! Si vous avez des suggestions ou des amé
 ### License
 
 Distribué sous la licence GPLv3. Voir `LICENSE` pour plus d'informations.
+
 </details>
 
-___________________________________________________________________________
+---
 
 ## Prérequis
 
@@ -96,15 +96,14 @@ cd $folder_name
 
 </details>
 
-___________________________________________________________________________
+---
 
 ## Installation
 
 <details style="background-color: #222222; border: 1px solid #ccc; border-radius: 4px;">
 <summary>Afficher/Masquer</summary>
 
-1/ Ouvrir le dossier décompressé et un clic droit dans la fenêtre et "ouvrir dans un terminal"
-Dans le terminal entrer la commande :
+1/ Dans le terminal, dans le dossier extrait depuis l'archive (on y est déjà après avoir fait les prérequis)
 
 ```bash
 ./prerequis.sh
@@ -125,10 +124,10 @@ après reboot, lancer :
 ./after-reboot.sh
 ```
 
-___________________________________________________________________________
+---
 
-1) Si Dual-Boot seulement
-Dans un terminal :
+1. Si Dual-Boot seulement
+   Dans un terminal :
 
 ```bash
 grub-customizer
@@ -136,7 +135,7 @@ grub-customizer
 
 Dans Grub customizer mettez "calmgrub" comme theme avec l'icone de "+" dans l'onglet "apparence" (mettez calmgrub.tar.gz qui se trouve dans /racine du système) faites "appliquer" et enregistrez.
 
-1) Dans "Gestionnaire de mises à jour" allez dans "Edition/Préférences", allez dans l'onglet "Paquet" et cochez les maj cinnamon et flatpak, ensuite allez dans l'onglet "Automatisation" et cochez tout sauf le dernier "Retirer les noyaux obsolètes et leurs dépendances"
+1. Dans "Gestionnaire de mises à jour" allez dans "Edition/Préférences", allez dans l'onglet "Paquet" et cochez les maj cinnamon et flatpak, ensuite allez dans l'onglet "Automatisation" et cochez tout sauf le dernier "Retirer les noyaux obsolètes et leurs dépendances"
 
 4 OPTIONNEL)Si vous avez aussi Windows 10 installé, dans un terminal :
 
@@ -148,12 +147,12 @@ Trouvez le disque où est installé Windows, puis chez la partition NTFS où il 
 sur la petite roue de paramétrage. Choisissez l'option "modifier les options de montage",
 Décochez "Réglages par défaut de la session" et décochez tout puis faîtes "Valider.
 
-___________________________________________________________________________
+---
 
 Dans fontbase cliquez sur "..." et dans
 Pour "Root Folder" choisissez le dossier "Local"
 
-___________________________________________________________________________
+---
 
 Lancer pcloud dans `~/Local/Ressources/apimages`
 
@@ -172,7 +171,7 @@ pour les options de vivaldi à tester si ça bugge encore quand on récupère de
 `~/.config/vivaldi/Default`
 et qu'on importe, attention, il faut virer les extensions et les mdp
 
-___________________________________________________________________________
+---
 
 Sinon sur votre bureau 'clic droit' > personnaliser :
 décochez "ajustement automatique", puis cliquez en bas sur "Paramètre du bureau"
@@ -182,7 +181,7 @@ Décochez le poste de travail et cochez le dossier personnel
 
 clic droit sur l'icone "préférences" dans l'onglet "au démarrage, cochez "Démarrer Xpad automatiquement après l'ouverture de session".
 
-___________________________________________________________________________
+---
 
 CODIUM
 
@@ -220,7 +219,7 @@ Raccourcis pour les options des raccourcis clavier de codium :
 `CTRL + K et CTRL + S`
 Fin DE RACCOURCI CLAVIER
 
-___________________________________________________________________________
+---
 
 LanguageTools pour LibreOffice
 
@@ -234,18 +233,15 @@ Dans LibreOffice allez dans "Outils/Gestionnaire des extensions..."
 Puis "Ajouter" et choisir "LanguageTool-stable.oxt",
 
 Dans LibreOffice aller dans "Outils/Options" (ou 'Alt+F12'), puis :
-  "Paramètres linguistiques"
-      - "Linguistique" et allez dans l'encart "Modules linguistiques disponibles", puis :
-          - Décochez "Vérificateur orthographique Hunspell"
-      - "Langues" :
-          - Interface utilisateur = "Français (France)"
-          - Paramètres locaux = "Français (France)"
-          - Monnaie par défaut = "EUR € Français (France)"
-          - Occidental = "Français (France)"
-          - décochez "Asiatique"
+"Paramètres linguistiques" - "Linguistique" et allez dans l'encart "Modules linguistiques disponibles", puis : - Décochez "Vérificateur orthographique Hunspell" - "Langues" : - Interface utilisateur = "Français (France)" - Paramètres locaux = "Français (France)" - Monnaie par défaut = "EUR € Français (France)" - Occidental = "Français (France)" - décochez "Asiatique"
+
 </details>
 
-___________________________________________________________________________
+Dans votre dossier utilisateur se le dossier qu'on a extrait, avant de le supprimer je conseille de jeter un oeil au dossier "Astuces Linux" : cela pourrait vous servir !
+
+Votre installation est terminée !
+
+---
 
 ## Todo
 
@@ -263,7 +259,7 @@ ___________________________________________________________________________
 
 </details>
 
-___________________________________________________________________________
+---
 
 ## Dernier rapport
 
@@ -284,9 +280,10 @@ Les paquets que je remets manuellement (afin de sauter une étape) :
 - caffeine
 
 -> plus de pb avec transmission-gtk
+
 </details>
 
-___________________________________________________________________________
+---
 
 ## Auteurs
 
