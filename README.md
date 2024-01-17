@@ -235,11 +235,10 @@ Puis "Ajouter" et choisir "LanguageTool-stable.oxt",
 Dans LibreOffice aller dans "Outils/Options" (ou 'Alt+F12'), puis :
 "Paramètres linguistiques" - "Linguistique" et allez dans l'encart "Modules linguistiques disponibles", puis : - Décochez "Vérificateur orthographique Hunspell" - "Langues" : - Interface utilisateur = "Français (France)" - Paramètres locaux = "Français (France)" - Monnaie par défaut = "EUR € Français (France)" - Occidental = "Français (France)" - décochez "Asiatique"
 
-</details>
-
 Dans votre dossier utilisateur se le dossier qu'on a extrait, avant de le supprimer je conseille de jeter un oeil au dossier "Astuces Linux" : cela pourrait vous servir !
 
 Votre installation est terminée !
+</details>
 
 ---
 
