@@ -45,7 +45,6 @@ Une clean install de [Linux Mint 21.3 x86_64](https://www.linuxmint.com) est né
 Pour info pour coller dans le terminal il faut utiliser `CTRL + SHIFT + V` et pour copier `CTRL + SHIFT + C`.
 `CTRL + C` sert à quitter dans le terminal.
 
-
 Choisir les miroirs de téléchargement pour les mises à jour (prenez les plus rapides)
 Pour ouvrir le terminal : `CTRL + ALT + T`
 
