@@ -263,6 +263,7 @@ Votre installation est terminée !
 6. ajout gestionnaire apimage [VIA CE PPA](https://launchpad.net/~appimagelauncher-team/+archive/ubuntu/stable)
 7. Voir pour faire installation entièrement auto de jackd libdvd(et son libdvdcss)
 8. Mettre à jour le dossier "Astuces"
+9. Créer une version light pour user simple
 
 </details>
 
