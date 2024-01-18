@@ -246,6 +246,7 @@ Dans LibreOffice aller dans "Outils/Options" (ou 'Alt+F12'), puis :
 Dans votre dossier utilisateur se le dossier qu'on a extrait, avant de le supprimer je conseille de jeter un oeil au dossier "Astuces Linux" : cela pourrait vous servir !
 
 Votre installation est terminée !
+
 </details>
 
 ---
@@ -262,7 +263,7 @@ Votre installation est terminée !
 5. Le theme root souris au propre (au lieu de mon swap manuel) est `sudo update-alternatives --config x-cursor-theme`
 6. ajout gestionnaire apimage [VIA CE PPA](https://launchpad.net/~appimagelauncher-team/+archive/ubuntu/stable)
 7. Voir pour faire installation entièrement auto de jackd libdvd(et son libdvdcss)
-8. Mettre à jour le dossier "Astuces"
+8. Mettre à jour le dossier "Astuces" -> sera remplacé par "Documentation" copié dans `~/Local/`
 9. Créer une version light pour user simple
 
 </details>
