@@ -1,6 +1,6 @@
 # Mintage
 
-<figure align="center">
+<figure>
   <img src="./DATA/preview.jpg" alt="Preview" height="350">
   <figcaption></figcaption>
 </figure>
