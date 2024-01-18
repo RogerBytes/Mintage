@@ -62,55 +62,18 @@ rm rustdesk-*-x86_64.deb
 # vivaldi
 wget https://downloads.vivaldi.com/stable/vivaldi-stable_5.6.2867.40-1_amd64.deb && sudo nala install -y ./vivaldi-stable_5.6.2867.40-1_amd64.deb && rm vivaldi-stable_5.6.2867.40-1_amd64.deb
 
-
-# 2/ d) Installation avec un PPA
-# ------------------------------
-
-# Avidemux
-sudo nala install -y software-properties-common apt-transport-https &&
-
-sudo add-apt-repository -y ppa:xtradeb/apps
-sudo nala update
-sudo nala install -y avidemux-qt avidemux-cli
-
-# Brightness Controller (gère le contraste/couleur des moniteurs)
-sudo add-apt-repository -y ppa:apandada1/brightness-controller && sudo nala update && sudo nala install -y brightness-controller
-
-# Cozy Audiobook
-sudo add-apt-repository -y ppa:cozy-team/cozy && sudo nala update && sudo nala install -y cozy
-
-# gCDEmu
-sudo add-apt-repository -y ppa:cdemu/ppa && sudo nala update && sudo nala install -y gcdemu
-
-# Grub Customizer
-sudo add-apt-repository -y ppa:danielrichter2007/grub-customizer && sudo nala update && sudo nala install -y grub-customizer
-
-# Haguichi (et hamachi avec)
-sudo add-apt-repository -y ppa:ztefn/haguichi-stable && sudo nala update && sudo nala install -y haguichi && wget https://www.vpn.net/installers/logmein-hamachi_2.1.0.203-1_amd64.deb && sudo nala install -y ./logmein-hamachi_2.1.0.203-1_amd64.deb && rm logmein-hamachi_2.1.0.203-1_amd64.deb
-
-# Mangohud
-sudo add-apt-repository -y ppa:oibaf/graphics-drivers && sudo nala update && sudo nala install -y mangohud
-
-# YACReader
-echo 'deb http://download.opensuse.org/repositories/home:/selmf/xUbuntu_22.04/ /' | sudo tee /etc/apt/sources.list.d/home:selmf.list && curl -fsSL https://download.opensuse.org/repositories/home:selmf/xUbuntu_22.04/Release.key | gpg --dearmor | sudo tee /etc/apt/trusted.gpg.d/home_selmf.gpg > /dev/null && sudo nala update && sudo nala install -y yacreader
-
-# 2/ d)bis Installation avec wget sur un deb
-
 # VSCodium
 latest_url=$(curl -sL -w '%{url_effective}\n' https://github.com/VSCodium/vscodium/releases/latest -o /dev/null)
 download_url="${latest_url/tag/download}/codium_${latest_url##*/}_amd64.deb"
 wget $download_url
 sudo nala install -y ./*amd64.deb
 rm *amd64.deb
-
 # Les extensions de VSCodium
+codium --install-extension PKief.material-product-icons
 codium --install-extension aaron-bond.better-comments
-codium --install-extension batisteo.vscode-django
 codium --install-extension captain-stack.captain-stack
 codium --install-extension christian-kohler.path-intellisense
 codium --install-extension Codeium.codeium
-codium --install-extension CoenraadS.bracket-pair-colorizer
-codium --install-extension cweijan.vscode-mysql-client2
 codium --install-extension donjayamanne.python-environment-manager
 codium --install-extension eamodio.gitlens
 codium --install-extension ecmel.vscode-html-css
@@ -148,7 +111,6 @@ codium --install-extension bmewburn.vscode-intelephense-client
 codium --install-extension zobo.php-intellisense
 codium --install-extension MehediDracula.php-namespace-resolver
 codium --install-extension devsense.phptools-vscode
-codium --install-extension ban.spellright
 codium --install-extension mtxr.sqltools
 codium --install-extension syler.sass-indented
 codium --install-extension joelday.docthis
@@ -172,6 +134,36 @@ codium --install-extension streetsidesoftware.code-spell-checker-french
 codium --install-extension gitpod.gitpod-theme
 
 
+# 2/ d) Installation avec un PPA
+# ------------------------------
+
+# Avidemux
+sudo nala install -y software-properties-common apt-transport-https &&
+
+sudo add-apt-repository -y ppa:xtradeb/apps
+sudo nala update
+sudo nala install -y avidemux-qt avidemux-cli
+
+# Brightness Controller (gère le contraste/couleur des moniteurs)
+sudo add-apt-repository -y ppa:apandada1/brightness-controller && sudo nala update && sudo nala install -y brightness-controller
+
+# Cozy Audiobook
+sudo add-apt-repository -y ppa:cozy-team/cozy && sudo nala update && sudo nala install -y cozy
+
+# gCDEmu
+sudo add-apt-repository -y ppa:cdemu/ppa && sudo nala update && sudo nala install -y gcdemu
+
+# Grub Customizer
+sudo add-apt-repository -y ppa:danielrichter2007/grub-customizer && sudo nala update && sudo nala install -y grub-customizer
+
+# Haguichi (et hamachi avec)
+sudo add-apt-repository -y ppa:ztefn/haguichi-stable && sudo nala update && sudo nala install -y haguichi && wget https://www.vpn.net/installers/logmein-hamachi_2.1.0.203-1_amd64.deb && sudo nala install -y ./logmein-hamachi_2.1.0.203-1_amd64.deb && rm logmein-hamachi_2.1.0.203-1_amd64.deb
+
+# Mangohud
+sudo add-apt-repository -y ppa:oibaf/graphics-drivers && sudo nala update && sudo nala install -y mangohud
+
+# YACReader
+echo 'deb http://download.opensuse.org/repositories/home:/selmf/xUbuntu_22.04/ /' | sudo tee /etc/apt/sources.list.d/home:selmf.list && curl -fsSL https://download.opensuse.org/repositories/home:selmf/xUbuntu_22.04/Release.key | gpg --dearmor | sudo tee /etc/apt/trusted.gpg.d/home_selmf.gpg > /dev/null && sudo nala update && sudo nala install -y yacreader
 
 # 2/ e) Installation paquets linux tar.gz
 # ---------------------------------------

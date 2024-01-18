@@ -40,7 +40,11 @@ Distribué sous la licence GPLv3. Voir `LICENSE` pour plus d'informations.
 
 <details style="background-color: #222222; border: 1px solid #ccc; border-radius: 4px;">
 <summary>Afficher/Masquer</summary>
-Une install' fraîche de Linux Mint 22
+
+Une clean install de [Linux Mint 21.3 x86_64](https://www.linuxmint.com) est nécessaire.
+Pour info pour coller dans le terminal il faut utiliser `CTRL + SHIFT + V` et pour copier `CTRL + SHIFT + C`.
+`CTRL + C` sert à quitter dans le terminal.
+
 
 Choisir les miroirs de téléchargement pour les mises à jour (prenez les plus rapides)
 Pour ouvrir le terminal : `CTRL + ALT + T`
