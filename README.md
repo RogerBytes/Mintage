@@ -84,7 +84,7 @@ et décochez la source en question, ici je décoche "linuxmirrors.ir".
 
 ### Téléchargement
 
-Depuis le terminal, on télécharge la dernière release, la décompresse et on entre dans le dossier :
+Depuis le terminal, on télécharge [la dernière release](https://github.com/RogerBytes/Mintage/releases/latest), la décompresse et on entre dans le dossier :
 
 ```bash
 latest_url=$(curl -sL -w '%{url_effective}\n' https://github.com/RogerBytes/Mintage/releases/latest -o /dev/null)
