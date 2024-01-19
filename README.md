@@ -170,7 +170,7 @@ Ouvrez Jdownloader et depuis fichier faites import
 cliquez sur telechargement et lancer l'import du fichier JD2-Dark-Theme.jd2backup
 à la fin d'install supprimez JD2-Dark-Theme.jd2backup
 
-Astuce désactiver l'accéleration matérielle de vivaldi (manuellement malheureusement)
+Astuce désactiver l’accélération matérielle de vivaldi (manuellement malheureusement)
 avec
 
 ```bash
@@ -245,7 +245,8 @@ Puis "Ajouter" et choisir "LanguageTool-stable.oxt",
 Dans LibreOffice aller dans "Outils/Options" (ou 'Alt+F12'), puis :
 "Paramètres linguistiques" - "Linguistique" et allez dans l'encart "Modules linguistiques disponibles", puis : - Décochez "Vérificateur orthographique Hunspell" - "Langues" : - Interface utilisateur = "Français (France)" - Paramètres locaux = "Français (France)" - Monnaie par défaut = "EUR € Français (France)" - Occidental = "Français (France)" - décochez "Asiatique"
 
-Dans votre dossier utilisateur se le dossier qu'on a extrait, avant de le supprimer je conseille de jeter un oeil au dossier "Astuces Linux" : cela pourrait vous servir !
+Dans votre dossier utilisateur se trouve le dossier Mintage : vous pouvez maintenant le supprimer !  
+Une documentation avec plein de conseils et astuces se trouve dans `~/Local/Documentation`.
 
 Votre installation est terminée !
 
@@ -260,13 +261,11 @@ Votre installation est terminée !
 
 1. Faire un script de customisation pour une nouvelle session
 2. corriger le lien vers trousseau du navigateur il faut mettre `vivaldi://password-manager/passwords`
-3. Faire la liste de toutes les applications
-4. Faire une application simple pour changer de runtime Java
-5. Le theme root souris au propre (au lieu de mon swap manuel) est `sudo update-alternatives --config x-cursor-theme`
-6. ajout gestionnaire apimage [VIA CE PPA](https://launchpad.net/~appimagelauncher-team/+archive/ubuntu/stable)
-7. Voir pour faire installation entièrement auto de jackd libdvd(et son libdvdcss)
-8. Mettre à jour le dossier "Astuces" -> sera remplacé par "Documentation" copié dans `~/Local/`
-9. Créer une version light pour user simple
+3. Faire une application simple pour changer de runtime Java
+4. Le theme root souris au propre (au lieu de mon swap manuel) est `sudo update-alternatives --config x-cursor-theme`
+5. ajout gestionnaire apimage [VIA CE PPA](https://launchpad.net/~appimagelauncher-team/+archive/ubuntu/stable)
+6. Voir pour faire installation entièrement auto de jackd libdvd(et son libdvdcss)
+7. Créer une version light pour user simple
 
 </details>
 
@@ -294,6 +293,7 @@ Après qt5ct (juste après game feral mode et powerlevel de zsh) Système demand
 
 #### Les appli flatpak sans support de thème
 
+- Ciano - Compression et conversion de fichiers audio et vidéo
 - Mousai - io.github.seadve.Mousai
 - Téléchargeur de vidéo - com.github.unrud.VideoDownloader
 
