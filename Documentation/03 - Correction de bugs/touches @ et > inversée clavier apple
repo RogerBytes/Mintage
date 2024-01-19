@@ -1,2 +1,0 @@
-ajouter la commande suivante au démarrage :
-xmodmap -e 'keycode 94=at numbersign periodcentered Ydiaeresis' -e 'keycode 49=less greater VoidSymbol VoidSymbol'

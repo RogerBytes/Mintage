@@ -113,7 +113,9 @@ cd $folder_name
 <details style="background-color: #222222; border: 1px solid #ccc; border-radius: 4px;">
 <summary>Afficher/Masquer</summary>
 
-1/ Dans le terminal, dans le dossier extrait depuis l'archive (l'on y est déjà après avoir fait les prérequis)
+### Installation scriptée
+
+Dans le terminal, dans le dossier extrait depuis l'archive (l'on y est déjà après avoir fait les prérequis)
 
 ```bash
 ./prerequis.sh
@@ -134,20 +136,28 @@ après reboot, lancer :
 ./after-reboot.sh
 ```
 
----
+### Installations manuelles
 
-1. Si Dual-Boot seulement
-   Dans un terminal :
+#### Grub Csutomizer
+
+Si Dual-Boot seulement !
+Dans un terminal :
 
 ```bash
 grub-customizer
 ```
 
-Dans Grub customizer mettez "calmgrub" comme theme avec l'icone de "+" dans l'onglet "apparence" (mettez calmgrub.tar.gz qui se trouve dans /racine du système) faites "appliquer" et enregistrez.
+Dans Grub customizer mettez "calmgrub" comme thème avec l’icône de "+" dans l'onglet "apparence" (mettez calmgrub.tar.gz qui se trouve dans /racine du système) faites "appliquer" et enregistrez.
 
-1. Dans "Gestionnaire de mises à jour" allez dans "Edition/Préférences", allez dans l'onglet "Paquet" et cochez les maj cinnamon et flatpak, ensuite allez dans l'onglet "Automatisation" et cochez tout sauf le dernier "Retirer les noyaux obsolètes et leurs dépendances"
+#### Gestionnaire de mises à jour
 
-4 OPTIONNEL)Si vous avez aussi Windows 10 installé, dans un terminal :
+Dans "Gestionnaire de mises à jour" allez dans "Édition/Préférences", allez dans l'onglet "Paquet" et cochez les maj cinnamon et flatpak, ensuite allez dans l'onglet "Automatisation" et cochez tout sauf le dernier "Retirer les noyaux obsolètes et leurs dépendances".
+
+#### Dual Boot avec Windows
+
+Si Dual-Boot seulement !
+
+Dans un terminal :
 
 ```bash
 gnome-disks
@@ -157,12 +167,12 @@ Trouvez le disque où est installé Windows, puis chez la partition NTFS où il 
 sur la petite roue de paramétrage. Choisissez l'option "modifier les options de montage",
 Décochez "Réglages par défaut de la session" et décochez tout puis faîtes "Valider.
 
----
+#### Fontbase
 
 Dans fontbase cliquez sur "..." et dans
 Pour "Root Folder" choisissez le dossier "Local"
 
----
+#### pCloud
 
 Lancer pcloud dans `~/Local/Ressources/apimages`
 
@@ -170,68 +180,7 @@ Ouvrez Jdownloader et depuis fichier faites import
 cliquez sur telechargement et lancer l'import du fichier JD2-Dark-Theme.jd2backup
 à la fin d'install supprimez JD2-Dark-Theme.jd2backup
 
-Astuce désactiver l’accélération matérielle de vivaldi (manuellement malheureusement)
-avec
-
-```bash
-vivaldi --app="vivaldi://settings/system"
-```
-
-pour les options de vivaldi à tester si ça bugge encore quand on récupère depuis :
-`~/.config/vivaldi/Default`
-et qu'on importe, attention, il faut virer les extensions et les mdp
-
----
-
-Sinon sur votre bureau 'clic droit' > personnaliser :
-décochez "ajustement automatique", puis cliquez en bas sur "Paramètre du bureau"
-Décochez le poste de travail et cochez le dossier personnel
-
-! Lancer xpad une première fois depuis le menu
-
-clic droit sur l'icone "préférences" dans l'onglet "au démarrage, cochez "Démarrer Xpad automatiquement après l'ouverture de session".
-
----
-
-CODIUM
-
-activer le dico avec :
-`CTRL + Shift + P` et chercher :
-`Show Spell Checker Configuration Info`
-`Select the Language tab.`
-`Enable the language Globally or in just the Workspace.`
-
-Regarder Code Spell Checker pour configurer le dico aussi
-
-dans codium pour les font du terminal
-Dans la barre de menus supérieure, cliquez sur "Fichier" (File), puis sélectionnez "Préférences" (Preferences), et enfin "Paramètres" (Settings).
-
-Cela ouvrira le panneau des paramètres de VSCodium. Par défaut, il affiche les paramètres utilisateur, mais vous pouvez basculer vers les paramètres de l'espace de travail en cliquant sur l'icône en forme de fichier dans le coin supérieur droit du panneau.
-
-ajouter dans les options du settings.json
-
-```json
-  "terminal.integrated.fontFamily": "MesloLGS NF",
-  "terminal.integrated.fontSize": 14,
-  "terminal.integrated.fontWeightBold": "bold",
-  "window.zoomLevel": 1,
-  "terminal.explorerKind": "external",
-  "terminal.external.linuxExec": "tilix"
-  "markdownlint.config": {
-    "MD033": false
-  }
-```
-
-ATTENTION : ne pas oublier de mettre une vergule à la ligne précedent le code que vous collez
-
-Créer UNRACCOURCI CLAVIER DANS CODIUM
-Raccourcis pour les options des raccourcis clavier de codium :
-`CTRL + K et CTRL + S`
-Fin DE RACCOURCI CLAVIER
-
----
-
-LanguageTools pour LibreOffice
+#### LanguageTools pour LibreOffice
 
 Téléchargez l'extension via wget (dl direct)
 
@@ -248,6 +197,16 @@ Dans LibreOffice aller dans "Outils/Options" (ou 'Alt+F12'), puis :
 Dans votre dossier utilisateur se trouve le dossier Mintage : vous pouvez maintenant le supprimer !  
 Une documentation avec plein de conseils et astuces se trouve dans `~/Local/Documentation`.
 
+#### Derniers réglages
+
+Sinon sur votre bureau 'clic droit' > personnaliser :
+décochez "ajustement automatique", puis cliquez en bas sur "Paramètre du bureau"
+Décochez le poste de travail et cochez le dossier personnel
+
+Lancez Xpad une première fois depuis le menu.
+
+Clic droit sur l’icône "préférences" dans l'onglet "au démarrage, cochez "Démarrer Xpad automatiquement après l'ouverture de session".
+
 Votre installation est terminée !
 
 </details>
@@ -260,10 +219,10 @@ Votre installation est terminée !
 <summary>Afficher/Masquer</summary>
 
 1. Faire un script de customisation pour une nouvelle session
-2. corriger le lien vers trousseau du navigateur il faut mettre `vivaldi://password-manager/passwords`
+2. Corriger le lien vers trousseau du navigateur il faut mettre `vivaldi://password-manager/passwords`
 3. Faire une application simple pour changer de runtime Java
-4. Le theme root souris au propre (au lieu de mon swap manuel) est `sudo update-alternatives --config x-cursor-theme`
-5. ajout gestionnaire apimage [VIA CE PPA](https://launchpad.net/~appimagelauncher-team/+archive/ubuntu/stable)
+4. Le thème root souris au propre (au lieu de mon swap manuel) est `sudo update-alternatives --config x-cursor-theme`
+5. Ajouter gestionnaire apimage [VIA CE PPA](https://launchpad.net/~appimagelauncher-team/+archive/ubuntu/stable) de [AppImageLauncher](https://github.com/TheAssassin/AppImageLauncher).
 6. Voir pour faire installation entièrement auto de jackd libdvd(et son libdvdcss)
 7. Créer une version light pour user simple
 
@@ -278,7 +237,7 @@ Votre installation est terminée !
 
 ### Problèmes
 
-Il y a un souci avec "linuxmirrors.ir" (source de logiciel), j'ai édité le pré requis
+Fixé - Il y a un souci avec "linuxmirrors.ir" (source de logiciel), -> j'ai édité le pré requis
 
 ### Observations
 

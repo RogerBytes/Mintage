@@ -1,8 +1,0 @@
-quand je fais le "apt list --upgradable" conseillé il retourne :
-❯ apt list --upgradable
-En train de lister... Fait
-tzdata/jammy-updates,jammy-updates 2023d-0ubuntu0.22.04 all [pouvant être mis à jour depuis : 2023c-0ubuntu0.22.04.2]
-N: Il y a des versions supplémentaires 3. Veuillez utiliser l'opérande « -a » pour les voir.
-
-donc je fais
-sudo apt upgrade -y tzdata
