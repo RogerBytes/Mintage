@@ -27,6 +27,9 @@ sudo nala install -y blueman
 # Caffeine
 sudo nala install -y caffeine
 
+# Cartes
+sudo nala install -y gnome-maps
+
 # Catfish
 sudo nala install -y catfish
 

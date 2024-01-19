@@ -29,6 +29,8 @@ Une liste non exhaustive des logiciels inclus dans ce script :
 - **Internet**: Vivaldi, FileZilla
 - ...et beaucoup d'autres !
 
+Vous pouvez aussi consulter [la liste complète.](./DATA/complete-list.md)
+
 ### Contributions
 
 Les contributions sont les bienvenues ! Si vous avez des suggestions ou des améliorations, n'hésitez pas à soumettre une pull request ou à ouvrir une issue.
