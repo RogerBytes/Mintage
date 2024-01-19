@@ -1,5 +1,0 @@
-flatpak uninstall -y org.Gnome.Todo
-
-puis virer les restes dans :
-~/.var/app
-
