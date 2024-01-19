@@ -25,3 +25,17 @@ Puis on l'execute avec :
 ```
 
 Il suffit de suivre les instructions pour que vos agendas soient ajoutés.
+
+Pour terminer la configuration de vos agendas CalDAV, vous devez redémarrer votre ordinateur"
+
+```bash
+reboot
+```
+
+Après le reboot, lancez "Agenda"
+
+```bash
+gnome-calendar
+```
+
+Il demandera d'entrer vos mots de passe et activera la synchronisation des agendas.

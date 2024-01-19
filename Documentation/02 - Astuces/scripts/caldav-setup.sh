@@ -15,15 +15,15 @@ ids=($(echo "$ids_string" | awk '{for (i=2; i<=NF; i++) print $i}'))
 caldav_count=$(echo "${#ids[@]}")
 
 if dpkg -s evolution-data-server >/dev/null 2>&1; then
-  echo "Le paquet 'evolution-data-server' est déjà installé."
+  echo "Vérification : Le paquet 'evolution-data-server' est déjà installé."
 else
   if ! command -v nala >/dev/null 2>&1; then
-    echo "Le paquet 'nala' (frontend d'apt) n'est pas installé. Nous allons l'installer."
+    echo "Vérification : Le paquet 'nala' (frontend d'apt) n'est pas installé. Nous allons l'installer."
     echo "Appuyez sur 'ENTER' pour continuer ou 'CTRL + C' pour sortir"
     read
     sudo apt install -y nala
   fi
-  echo "Le paquet 'evolution-data-server' n'est pas installé. Nous allons l'installer."
+  echo "Vérification : Le paquet 'evolution-data-server' n'est pas installé. Nous allons l'installer."
   echo "Appuyez sur 'ENTER' pour continuer ou 'CTRL + C' pour sortir"
   sudo nala install -y evolution-data-server
 fi
@@ -89,9 +89,9 @@ EOF
 done
 
 echo "La synconistation CalDAV de vos agendas est activée avec Linux Mint"
-echo "Pour terminer la configuration de vos agendas CalDAV, nous allons lancer l'application agenda de Linux Mint"
-echo "Entrez vos mot de passes dans l'agenda et fermez l'application"
-echo "Appuyez sur 'ENTER' pour continuer ou 'CTRL + C' pour sortir"
+echo "Pour terminer la configuration de vos agendas CalDAV, vous devez redémarrer votre ordinateur"
+echo 'Après le reboot, lancez "Agenda" (ou via la commande "gnome-calendar")'
+echo "Il demandera d'entrer vos mots de passe et activera la synchronisation des agendas"
+echo "Appuyez sur 'ENTER' pour quitter
 read
 
-gnome-calendar
