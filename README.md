@@ -1,7 +1,7 @@
 # Mintage
 
 <figure>
-  <img src="./DATA/preview.jpg" alt="Preview" height="350">
+  <img src="./DATA/preview.jpg" alt="Preview">
   <figcaption></figcaption>
 </figure>
 
@@ -225,6 +225,9 @@ Votre installation est terminée !
 5. Ajouter gestionnaire apimage [VIA CE PPA](https://launchpad.net/~appimagelauncher-team/+archive/ubuntu/stable) de [AppImageLauncher](https://github.com/TheAssassin/AppImageLauncher).
 6. Voir pour faire installation entièrement auto de jackd libdvd(et son libdvdcss).
 7. Créer une version light pour user simple.
+8. Faire la creation de ~/Jeux/Lutris/Wineprefix/
+9. Faire le support natif du client JD2 avec vivaldi.
+10. Faire une importation auto du flatpak de jd2 avec un wget et tar xz
 
 </details>
 
