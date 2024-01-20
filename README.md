@@ -227,7 +227,9 @@ Votre installation est terminée !
 7. Créer une version light pour user simple.
 8. Faire la creation de ~/Jeux/Lutris/Wineprefix/
 9. Faire le support natif du client JD2 avec vivaldi.
-10. Faire une importation auto du flatpak de jd2 avec un wget et tar xz
+10. Faire une importation auto du réglage flatpak de jd2 avec un wget et tar xz.
+11. Faire une importation auto du réglage lutris de jd2 avec un wget et tar xz.
+12. Mettre à jour les options de nemo avec tous les chemin dans les raccourcis dans la navbar
 
 </details>
 
