@@ -146,6 +146,9 @@ sudo nala install -y sound-juicer
 # Stacer
 sudo nala install -y stacer
 
+# Steam
+sudo nala install -y steam
+
 # Tilix
 sudo nala install -y tilix
 

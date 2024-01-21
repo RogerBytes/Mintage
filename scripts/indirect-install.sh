@@ -24,9 +24,6 @@ flatpak install -y flathub com.github.robertsanseries.ciano
 # Jdownloader
 flatpak install -y flathub org.jdownloader.JDownloader
 
-# Lutris
-flatpak install -y flathub net.lutris.Lutris
-
 # Mousai (shazam alternative)
 flatpak install -y flathub io.github.seadve.Mousai
 
@@ -53,6 +50,19 @@ wget https://github.com/johnfactotum/foliate/releases/download/2.6.4/com.github.
 
 # FreeTube
 wget https://github.com/FreeTubeApp/FreeTube/releases/download/v0.19.0-beta/freetube_0.19.0_amd64.deb && sudo nala install -y ./*amd64.deb && rm *amd64.deb
+
+# Lutris
+latest_url=$(curl -sL -w '%{url_effective}' https://github.com/lutris/lutris/releases/latest -o /dev/null)
+version=$(basename $latest_url)
+version=${version#v}
+download_url="https://github.com/lutris/lutris/releases/download/v$version/lutris_${version}_all.deb"
+wget $download_url
+sudo nala install -y ./*.deb
+rm *.deb
+# On télécharge le wineprefix vierge
+mkdir -p ~/Jeux/Lutris/WinePrefixes
+mkdir -p ~/Jeux/Lutris/Games
+wget -P ~/Jeux/Lutris/.DATA/ https://github.com/RogerBytes/Mintage/releases/download/v1.0.0-assets/virgin-prefix.tar.gz
 
 # RustDesk (pour remplacer teamviewer)
 wget $(curl -s https://api.github.com/repos/rustdesk/rustdesk/releases/latest | grep "browser_download_url.*x86_64.deb" | cut -d '"' -f 4)
@@ -150,6 +160,12 @@ sudo add-apt-repository -y ppa:apandada1/brightness-controller && sudo nala upda
 # Cozy Audiobook
 sudo add-apt-repository -y ppa:cozy-team/cozy && sudo nala update && sudo nala install -y cozy
 
+# Gamescope
+sudo add-apt-repository -y ppa:samoilov-lex/gamescope
+sudo nala update
+sudo nala install -y gamescope
+
+
 # gCDEmu
 sudo add-apt-repository -y ppa:cdemu/ppa && sudo nala update && sudo nala install -y gcdemu
 
@@ -239,6 +255,9 @@ sudo add-apt-repository --remove -y ppa:apandada1/brightness-controller
 
 # Suppresion PPA Mangohud
 sudo add-apt-repository --remove -y ppa:oibaf/graphics-drivers
+
+# Suppresion PPA Gamescope
+sudo add-apt-repository --remove -y ppa:samoilov-lex/gamescope
 
 # Suppresion PPA gCdemu
 sudo add-apt-repository --remove -y ppa:cdemu/ppa

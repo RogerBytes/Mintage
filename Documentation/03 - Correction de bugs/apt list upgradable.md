@@ -12,5 +12,5 @@ N: Il y a des versions supplémentaires 3. Veuillez utiliser l'opérande « -a �
 Vu qu'il précise le paquet `tzdata` je fais
 
 ```bash
-sudo nala upgrade -y tzdata
+sudo apt upgrade -y tzdata
 ```
