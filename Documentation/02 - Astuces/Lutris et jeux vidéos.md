@@ -44,11 +44,16 @@ Vous n'avez plus d'autres réglages spécifiques à faire, ceci permet de mieux 
 
 Si vous avez besoin d'un environnement wine vierge (un wineprefix), par exemple si vous avez un executable sans installeur, il est intéressant de pouvoir générer un vierge.
 
-Lancez le script que j'ai créé avec :
+Rendez le script executable avec :
 
 ```bash
-tar -xvzf ~/Jeux/Lutris/.DATA/virgin-prefix.tar.gz -C ~/Jeux/Lutris/wineprefix/
-mv ~/Jeux/Lutris/wineprefix/virgin-prefix/drive_c/users/rename ~/Jeux/Lutris/wineprefix/virgin-prefix/drive_c/users/$USER
+chmod +x "$HOME/Local/Documentation/02 - Astuces/scripts/lutris-prefix.sh"
+```
+
+Lancez le script :
+
+```bash
+"$HOME/Local/Documentation/02 - Astuces/scripts/lutris-prefix.sh"
 ```
 
 Dans lutris vous devrez changer OBLIGATOIREMENT la version de wine pour terminer la configuration, c'est indispensable.
