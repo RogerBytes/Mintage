@@ -46,16 +46,13 @@ Si vous avez besoin d'un environnement wine vierge (un wineprefix), par exemple 
 
 Rendez le script executable avec :
 
-```bash
-chmod +x "$HOME/Local/Documentation/02 - Astuces/scripts/lutris-prefix.sh"
-```
-
 Lancez le script :
 
 ```bash
-"$HOME/Local/Documentation/02 - Astuces/scripts/lutris-prefix.sh"
+~/Jeux/Lutris/WinePrefixes/lutris-prefix.sh
 ```
 
+Il créera un winprefix vierge dans `~/Jeux/Lutris/WinePrefixes/`.
 Dans lutris vous devrez changer OBLIGATOIREMENT la version de wine pour terminer la configuration, c'est indispensable.
 
 ## Informations système
