@@ -230,6 +230,7 @@ Votre installation est terminée !
 10. Faire une importation auto du réglage flatpak de jd2 avec un wget et tar xz.
 11. Faire une importation auto du réglage lutris de jd2 avec un wget et tar xz.
 12. Mettre à jour les options de nemo avec tous les chemin dans les raccourcis dans la navbar
+13. Rerégler ferdium, l'affichage est cracra
 
 </details>
 
