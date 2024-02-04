@@ -228,9 +228,15 @@ Votre installation est terminée !
 8. Faire la creation de ~/Jeux/Lutris/Wineprefix/
 9. Faire le support natif du client JD2 avec vivaldi.
 10. Faire une importation auto du réglage flatpak de jd2 avec un wget et tar xz.
-11. Faire une importation auto du réglage lutris de jd2 avec un wget et tar xz.
-12. Mettre à jour les options de nemo avec tous les chemin dans les raccourcis dans la navbar
-13. Rerégler ferdium, l'affichage est cracra
+11. Mettre à jour les options de nemo avec tous les chemin dans les raccourcis dans la navbar
+12. Rerégler ferdium, l'affichage est cracra
+13. l'install de gcdemu (passé à la trappe?) via
+
+```bash
+sudo add-apt-repository -y ppa:cdemu/ppa
+sudo apt update
+sudo nala install -y cdemu-client
+```
 
 </details>
 
