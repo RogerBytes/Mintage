@@ -230,7 +230,8 @@ Votre installation est terminée !
 10. Faire une importation auto du réglage flatpak de jd2 avec un wget et tar xz.
 11. Mettre à jour les options de nemo avec tous les chemin dans les raccourcis dans la navbar
 12. Rerégler ferdium, l'affichage est cracra
-13. l'install de gcdemu (passé à la trappe?) via
+13. Retirer `Gnu Cash` et mettre mmex `flatpak install -y flathub org.moneymanagerex.MMEX`
+14. l'install de gcdemu (passé à la trappe?) via
 
 ```bash
 sudo add-apt-repository -y ppa:cdemu/ppa
