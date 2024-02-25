@@ -215,7 +215,10 @@ sudo chmod +x /usr/share/applications/Java.desktop ; sudo chmod +x /usr/lib/jvm/
 mkdir ~/Applications
 
 # Fontbase
-wget -P ~/Applications $(curl -s https://fontba.se/downloads/linux | grep -o 'https://[^"]*\.AppImage')
+lastfontbase=$(curl -s https://fontba.se/downloads/linux | grep -o 'https://[^"]*\.AppImage')
+wget -P ~/Applications $lastfontbase
+downloaded_file=$(basename $lastfontbase)
+chmod +x ~/Applications/$downloaded_file
 wget https://releases.fontba.se/linux/FontBase-2.18.1.AppImage && sudo mv FontBase-2.18.1.AppImage /bin && sudo touch /usr/share/applications/Fontbase.desktop && sudo tee -a /usr/share/applications/Fontbase.desktop > /dev/null <<EOT
 [Desktop Entry]
 Exec=/bin/FontBase-2.18.1.AppImage
