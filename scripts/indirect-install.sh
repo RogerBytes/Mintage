@@ -211,7 +211,11 @@ sudo chmod +x /usr/share/applications/Java.desktop ; sudo chmod +x /usr/lib/jvm/
 # 2/ f) Installation de appimage
 # ------------------------------
 
+# On crée le dossier par défaut de AppImage Launcher
+mkdir ~/Applications
+
 # Fontbase
+wget -P ~/Applications $(curl -s https://fontba.se/downloads/linux | grep -o 'https://[^"]*\.AppImage')
 wget https://releases.fontba.se/linux/FontBase-2.18.1.AppImage && sudo mv FontBase-2.18.1.AppImage /bin && sudo touch /usr/share/applications/Fontbase.desktop && sudo tee -a /usr/share/applications/Fontbase.desktop > /dev/null <<EOT
 [Desktop Entry]
 Exec=/bin/FontBase-2.18.1.AppImage
