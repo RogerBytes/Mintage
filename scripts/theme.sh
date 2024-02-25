@@ -113,7 +113,7 @@ mkdir ~/Téléchargements/Téléchargements\ jd2/
 mkdir ~/Téléchargements/Téléchargements\ ferdium/
 
 # On copie la documentation dans ~/Local
-cp -r ./Documentation ~/Local/
+cp -r ./Documentation ~/Local/Documentation
 
 # Theme pour le shell
 cp ./DATA/.p10k.zsh ~/
