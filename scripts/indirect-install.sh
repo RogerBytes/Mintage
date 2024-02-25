@@ -76,11 +76,11 @@ rm rustdesk-*-x86_64.deb
 wget https://downloads.vivaldi.com/stable/vivaldi-stable_5.6.2867.40-1_amd64.deb && sudo nala install -y ./vivaldi-stable_5.6.2867.40-1_amd64.deb && rm vivaldi-stable_5.6.2867.40-1_amd64.deb
 
 # VSCodium
-latest_url=$(curl -sL -w '%{url_effective}\n' https://github.com/VSCodium/vscodium/releases/latest -o /dev/null)
-download_url="${latest_url/tag/download}/codium_${latest_url##*/}_amd64.deb"
+download_url=$(curl -s https://github.com/VSCodium/vscodium/releases/latest | jq -r '.assets[] | select(.name | endswith("_amd64.deb")) | .browser_download_url')
 wget $download_url
-sudo nala install -y ./*amd64.deb
-rm *amd64.deb
+downloaded_file=$(basename $download_url)
+sudo nala install -y ./$downloaded_file
+rm $downloaded_file
 # Les extensions de VSCodium
 codium --install-extension PKief.material-product-icons
 codium --install-extension aaron-bond.better-comments
@@ -232,7 +232,6 @@ chmod +x ~/Applications/$downloaded_file
 
 # JoalDesktop
 download_url=$(curl -s https://api.github.com/repos/anthonyraymond/joal-desktop/releases/latest | jq -r '.assets[] | select(.name | endswith(".AppImage")) | .browser_download_url')
-echo $download_url
 wget -P ~/Applications $download_url
 downloaded_file=$(basename $download_url)
 chmod +x ~/Applications/$downloaded_file
