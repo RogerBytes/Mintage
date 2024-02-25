@@ -222,7 +222,7 @@ Votre installation est terminée !
 2. Corriger le lien vers trousseau du navigateur il faut mettre `vivaldi://password-manager/passwords`.
 3. Faire une application simple pour changer de runtime Java.
 4. Le thème root souris au propre (au lieu de mon swap manuel) est `sudo update-alternatives --config x-cursor-theme`.
-5. Ajouter gestionnaire apimage [VIA CE PPA](https://launchpad.net/~appimagelauncher-team/+archive/ubuntu/stable) de [AppImageLauncher](https://github.com/TheAssassin/AppImageLauncher).
+5. Ajouter gestionnaire apimage [VIA CE PPA](https://launchpad.net/~appimagelauncher-team/+archive/ubuntu/stable) de [AppImageLauncher](https://github.com/TheAssassin/AppImageLauncher). ensuite avec `sudo nala install -y appimagelauncher`
 6. Voir pour faire installation entièrement auto de jackd libdvd(et son libdvdcss).
 7. Créer une version light pour user simple.
 8. Faire la creation de ~/Jeux/Lutris/Wineprefix/
