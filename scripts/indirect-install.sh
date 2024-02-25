@@ -219,16 +219,22 @@ lastfontbase=$(curl -s https://fontba.se/downloads/linux | grep -o 'https://[^"]
 wget -P ~/Applications $lastfontbase
 downloaded_file=$(basename $lastfontbase)
 chmod +x ~/Applications/$downloaded_file
-wget https://releases.fontba.se/linux/FontBase-2.18.1.AppImage && sudo mv FontBase-2.18.1.AppImage /bin && sudo touch /usr/share/applications/Fontbase.desktop && sudo tee -a /usr/share/applications/Fontbase.desktop > /dev/null <<EOT
-[Desktop Entry]
-Exec=/bin/FontBase-2.18.1.AppImage
-Icon=fonts
-Name=Fontbase
-Type=Application
-EOT
-sudo chmod +x /usr/share/applications/Fontbase.desktop ; sudo chmod +x /bin/FontBase-2.18.1.AppImage
 
 # JoalDesktop
+download_url=$(curl -s https://api.github.com/repos/anthonyraymond/joal-desktop/releases/latest | jq -r '.assets[] | select(.name | endswith(".AppImage")) | .browser_download_url')
+echo $download_url
+wget -P ~/Applications $download_url
+downloaded_file=$(basename $download_url)
+chmod +x ~/Applications/$downloaded_file
+
+
+download_url="${latest_url/tag\/v/download/v/}-linux-x86_64.AppImage"
+https://github.com/anthonyraymond/joal-desktop/releases/download/v2.0.17/JoalDesktop-2.0.17-linux-x86_64.AppImage
+https://github.com/anthonyraymond/joal-desktop/releases/download/v/2.0.17-linux-x86_64.AppImage
+
+download_url=$(curl -sL $latest_url | grep -o -m 1 'https://github.com/anthonyraymond/joal-desktop/releases/download/v[0-9.]*\/JoalDesktop-[0-9.]*-linux-x86_64.AppImage')
+
+
 wget https://github.com/anthonyraymond/joal-desktop/releases/download/v2.0.16/JoalDesktop-2.0.16-linux-x86_64.AppImage && sudo mv JoalDesktop-2.0.16-linux-x86_64.AppImage /bin && sudo touch /usr/share/applications/Joal.desktop && sudo tee -a  /usr/share/applications/Joal.desktop > /dev/null <<EOT
 [Desktop Entry]
 Exec=/bin/JoalDesktop-2.0.16-linux-x86_64.AppImage
@@ -239,9 +245,7 @@ EOT
 sudo chmod +x /usr/share/applications/Joal.desktop ; sudo chmod +x /bin/JoalDesktop-2.0.16-linux-x86_64.AppImage
 
 # pCloud
-mkdir  ~/Local/
-mkdir  ~/Local/Ressources/
-mkdir  ~/Local/Ressources/apimages/
+
 cp ./DATA/App-ressource/pcloud ~/Local/Ressources/apimages/
 sudo chmod +x ~/Local/Ressources/apimages/pcloud
 

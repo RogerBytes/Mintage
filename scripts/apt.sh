@@ -81,6 +81,9 @@ sudo nala install -y handbrake
 # Inkscape
 sudo nala install -y inkscape
 
+# jq (outil json CLI)
+sudo nala install -y jq
+
 # Kdenlive
 sudo nala install -y kdenlive*
 
