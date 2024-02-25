@@ -77,7 +77,6 @@ wget https://downloads.vivaldi.com/stable/vivaldi-stable_5.6.2867.40-1_amd64.deb
 
 # VSCodium
 download_url=https://github.com/VSCodium/vscodium/releases/download/1.86.2.24054/codium_1.86.2.24054_amd64.deb
-echo $download_url
 wget $download_url
 downloaded_file=$(basename $download_url)
 sudo nala install -y ./$downloaded_file
