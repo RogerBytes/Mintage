@@ -80,14 +80,13 @@ Et installer nala, une surcouche du gestionnaire apt
 sudo apt install -y nala expect curl wget
 # puis changer les miroir de dl avec :
 sudo nala fetch
-# en répondant "1 2 3" sans oublier les espaces entre eux
+# en répondant "2 3 4" sans oublier les espaces entre eux
 # ou plus simplement (mais semble ne pas toujours marcher)
-echo -e "1 2 3\nY" | sudo nala fetch
+echo -e "2 3 4\nY" | sudo nala fetch
 ```
 
-Il y a une source défaillante chez moi :
-Ouvrez "Gestionnaire de mises à jour" et allez dans "Edition/Sources de logiciels", allez ensuite dans "Dépôts supplémentaires"
-et décochez la source en question, ici je décoche "linuxmirrors.ir".
+Il y a une source défaillante chez moi "linuxmirrors.ir", c'est pour ça que c'est "2 3 4" et non "1 2 3"
+Si vous avez bbesoin de gérer les sources (pas besoin ici) ouvrez "Gestionnaire de mises à jour" et allez dans "Edition/Sources de logiciels", allez ensuite dans "Dépôts supplémentaires" et décochez la ou les sources en question.
 
 ### Téléchargement
 
