@@ -66,9 +66,6 @@ sudo apt install -y ghostwriter
 # Gnome todos
 sudo nala install -y gnome-todo
 
-# GnuCash
-sudo nala install -y gnucash
-
 # Gparted
 sudo nala install -y gparted
 
@@ -133,6 +130,9 @@ sudo nala install -y plank
 
 # PdfSam
 sudo nala install -y pdfsam
+
+# Psensor (températures)
+sudo nala install -y lm-sensors psensor
 
 # rapsberry pi imager
 sudo nala install -y rpi-imager

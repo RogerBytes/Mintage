@@ -24,6 +24,9 @@ flatpak install -y flathub com.github.robertsanseries.ciano
 # Jdownloader
 flatpak install -y flathub org.jdownloader.JDownloader
 
+# MMEX (Money Manager Extra)
+flatpak install -y flathub org.moneymanagerex.MMEX
+
 # Mousai (shazam alternative)
 flatpak install -y flathub io.github.seadve.Mousai
 
@@ -147,12 +150,19 @@ codium --install-extension gitpod.gitpod-theme
 # 2/ d) Installation avec un PPA
 # ------------------------------
 
+
+
 # Avidemux
 sudo nala install -y software-properties-common apt-transport-https &&
 
 sudo add-apt-repository -y ppa:xtradeb/apps
 sudo nala update
 sudo nala install -y avidemux-qt avidemux-cli
+
+# AppImage Launcher
+sudo add-apt-repository -y ppa:appimagelauncher-team/stable
+sudo apt update
+sudo nala install -y appimagelauncher
 
 # Brightness Controller (gère le contraste/couleur des moniteurs)
 sudo add-apt-repository -y ppa:apandada1/brightness-controller && sudo nala update && sudo nala install -y brightness-controller
@@ -167,7 +177,7 @@ sudo nala install -y gamescope
 
 
 # gCDEmu
-sudo add-apt-repository -y ppa:cdemu/ppa && sudo nala update && sudo nala install -y gcdemu
+sudo add-apt-repository -y ppa:cdemu/ppa && sudo nala update && sudo nala install -y cdemu-client
 
 # Grub Customizer
 sudo add-apt-repository -y ppa:danielrichter2007/grub-customizer && sudo nala update && sudo nala install -y grub-customizer
@@ -227,25 +237,7 @@ wget -P ~/Applications $download_url
 downloaded_file=$(basename $download_url)
 chmod +x ~/Applications/$downloaded_file
 
-
-download_url="${latest_url/tag\/v/download/v/}-linux-x86_64.AppImage"
-https://github.com/anthonyraymond/joal-desktop/releases/download/v2.0.17/JoalDesktop-2.0.17-linux-x86_64.AppImage
-https://github.com/anthonyraymond/joal-desktop/releases/download/v/2.0.17-linux-x86_64.AppImage
-
-download_url=$(curl -sL $latest_url | grep -o -m 1 'https://github.com/anthonyraymond/joal-desktop/releases/download/v[0-9.]*\/JoalDesktop-[0-9.]*-linux-x86_64.AppImage')
-
-
-wget https://github.com/anthonyraymond/joal-desktop/releases/download/v2.0.16/JoalDesktop-2.0.16-linux-x86_64.AppImage && sudo mv JoalDesktop-2.0.16-linux-x86_64.AppImage /bin && sudo touch /usr/share/applications/Joal.desktop && sudo tee -a  /usr/share/applications/Joal.desktop > /dev/null <<EOT
-[Desktop Entry]
-Exec=/bin/JoalDesktop-2.0.16-linux-x86_64.AppImage
-Name=Joal
-Icon=appgrid
-Type=Application
-EOT
-sudo chmod +x /usr/share/applications/Joal.desktop ; sudo chmod +x /bin/JoalDesktop-2.0.16-linux-x86_64.AppImage
-
 # pCloud
-
 cp ./DATA/App-ressource/pcloud ~/Local/Ressources/apimages/
 sudo chmod +x ~/Local/Ressources/apimages/pcloud
 

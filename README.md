@@ -221,23 +221,11 @@ Votre installation est terminée !
 1. Faire un script de customisation pour une nouvelle session.
 2. Corriger le lien vers trousseau du navigateur il faut mettre `vivaldi://password-manager/passwords`.
 3. Faire une application simple pour changer de runtime Java.
-4. Le thème root souris au propre (au lieu de mon swap manuel) est `sudo update-alternatives --config x-cursor-theme`.
-5. Ajouter gestionnaire apimage [VIA CE PPA](https://launchpad.net/~appimagelauncher-team/+archive/ubuntu/stable) de [AppImageLauncher](https://github.com/TheAssassin/AppImageLauncher). ensuite avec `sudo nala install -y appimagelauncher` (les appimages sont à mettre dans home/Applications)
-6. Voir pour faire installation entièrement auto de jackd libdvd(et son libdvdcss).
-7. Créer une version light pour user simple.
-8. Faire la creation de ~/Jeux/Lutris/Wineprefix/
-9. Faire le support natif du client JD2 avec vivaldi.
-10. Faire une importation auto du réglage flatpak de jd2 avec un wget et tar xz.
-11. Mettre à jour les options de nemo avec tous les chemin dans les raccourcis dans la navbar
-12. Rerégler ferdium, l'affichage est cracra
-13. Retirer `Gnu Cash` et mettre mmex `flatpak install -y flathub org.moneymanagerex.MMEX`
-14. l'install de gcdemu (passé à la trappe?) via
-
-```bash
-sudo add-apt-repository -y ppa:cdemu/ppa
-sudo apt update
-sudo nala install -y cdemu-client
-```
+4. Faire la creation de ~/Jeux/Lutris/Wineprefix/
+5. Faire le support natif du client JD2 avec vivaldi.
+6. Faire une importation auto du réglage flatpak de jd2 avec un wget et tar xz.
+7. Mettre à jour les options de nemo avec tous les chemin dans les raccourcis dans la navbar
+8. Rerégler ferdium, l'affichage est cracra
 
 </details>
 

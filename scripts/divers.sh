@@ -13,7 +13,7 @@
 sudo nala install -y --assume-yes jackd2
 
 # DVD support libdvd
-sudo nala install -y libdvd-pkg && sudo dpkg-reconfigure libdvd-pkg
+sudo nala install -y regionset libavcodec-extra libdvd-pkg && sudo dpkg-reconfigure libdvd-pkg
 
 # 1/ a) Divers - normaux
 # ------------
