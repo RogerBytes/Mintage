@@ -120,7 +120,7 @@ Dans le terminal, dans le dossier extrait depuis l'archive (l'on y est déjà ap
 ./prerequis.sh
 ```
 
-Puis dans un nouveau terminal :
+Puis dans un nouveau terminal (depuis le dossier mintage) :
 
 ```bash
 ./install.sh
@@ -166,14 +166,11 @@ Trouvez le disque où est installé Windows, puis chez la partition NTFS où il 
 sur la petite roue de paramétrage. Choisissez l'option "modifier les options de montage",
 Décochez "Réglages par défaut de la session" et décochez tout puis faîtes "Valider.
 
-#### Fontbase
+#### Appimages
 
-Dans fontbase cliquez sur "..." et dans
-Pour "Root Folder" choisissez le dossier "Local"
+Depuis le dossier caché `~/Applications` (qui sert à un gestionnaire pour stocker les appimages) lancez chacune des applications.
 
-#### pCloud
-
-Lancer pcloud dans `~/Local/Ressources/apimages`
+#### Jdownloader
 
 Ouvrez Jdownloader et depuis fichier faites import
 cliquez sur telechargement et lancer l'import du fichier JD2-Dark-Theme.jd2backup
