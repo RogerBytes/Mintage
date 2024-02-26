@@ -235,18 +235,18 @@ Votre installation est terminée !
 
 ### Problèmes
 
-Fixé - Il y a un souci avec "linuxmirrors.ir" (source de logiciel), -> j'ai édité le pré requis
+RAS - a test changements
 
 ### Observations
 
-Après qt5ct (juste après game feral mode et powerlevel de zsh) Système demande à relancer cinnamon. Et dans le shell il demande le mdp dans le terminal sans rien faire derrière.
+Après qt5ct (juste après game feral mode et powerlevel de zsh) Système demande à relancer cinnamon. Et dans le shell il demande le mdp dans le terminal sans rien faire derrière (je pense que c'est pour mintupdate mais pas sûr).
 
 #### Les paquets que je remets manuellement (afin de sauter une étape)
 
 - blueman
 - caffeine
-
--> plus de pb avec transmission-gtk
+- psensor
+- transmission-gtk
 
 #### Les appli flatpak sans support de thème
 
