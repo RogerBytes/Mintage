@@ -153,6 +153,10 @@ Type=Application
 EOT
 sudo chmod +x /usr/share/applications/Java.desktop ; sudo chmod +x /usr/lib/jvm/jre1.8.0_351/bin/javaws && xdg-mime default Java.desktop application/x-java-jnlp-file
 
+# JD2 navigateur
+tar -zxvf ./DATA/App-ressource/jd2-vivaldi.tar.gz
+./DATA/App-ressource/jd2-vivaldi/install.sh
+rm -r ./DATA/App-ressource/jd2-vivaldi
 
 # 2/ f) Installation de appimage
 # ------------------------------
