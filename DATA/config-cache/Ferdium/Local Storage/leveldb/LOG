@@ -1,3 +1,2 @@
-2022/12/18-15:39:57.002 cd0 Reusing MANIFEST /home/harry/.config/Ferdium/Local Storage/leveldb/MANIFEST-000001
-2022/12/18-15:39:57.009 cd0 Recovering log #3
-2022/12/18-15:39:57.083 cd0 Reusing old log /home/harry/.config/Ferdium/Local Storage/leveldb/000003.log 
+2024/02/26-02:31:27.959 870a Creating DB /home/harry/.config/Ferdium/Local Storage/leveldb since it was missing.
+2024/02/26-02:31:27.965 870a Reusing MANIFEST /home/harry/.config/Ferdium/Local Storage/leveldb/MANIFEST-000001

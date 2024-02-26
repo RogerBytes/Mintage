@@ -1,36 +1,28 @@
 [desktop-monitor-0]
 nemo-icon-view-keep-aligned=true
 nemo-icon-view-auto-layout=false
-nemo-icon-view-layout-timestamp=1671374399
-desktop-grid-adjust=76;99;
-nemo-icon-view-zoom-level=3
-
-[home]
-nemo-icon-position-timestamp=1671374399
-nemo-icon-position=1818,151
-monitor=0
-icon-scale=1
-
-[Stockage W10.volume]
-nemo-icon-position=1720,151
-monitor=0
-icon-scale=1
-nemo-icon-position-timestamp=1671273775
+nemo-icon-view-layout-timestamp=1708909051
 
 [trash]
-nemo-icon-position=1818,943
+nemo-icon-position-timestamp=1708909051
+nemo-icon-position=2426,1328
 monitor=0
 icon-scale=1
-nemo-icon-position-timestamp=1671374399
-
-[computer]
-nemo-icon-position=1818,52
-monitor=0
-icon-scale=1
-nemo-icon-position-timestamp=1671374399
 
 [pCloudDrive.volume]
-nemo-icon-position=1720,52
+nemo-icon-position=2166,28
 monitor=0
 icon-scale=1
-nemo-icon-position-timestamp=1671374406
+nemo-icon-position-timestamp=1708909051
+
+[home]
+nemo-icon-position=2426,28
+monitor=0
+icon-scale=1
+nemo-icon-position-timestamp=1708909051
+
+[Disque Dur.volume]
+nemo-icon-position=2296,28
+monitor=0
+icon-scale=1
+nemo-icon-position-timestamp=1708909051

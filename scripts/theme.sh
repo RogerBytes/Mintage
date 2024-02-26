@@ -45,7 +45,7 @@ sudo cp ./DATA/cinnamon-symbolic.svg /usr/share/icons/hicolor/scalable/apps/
 # Copier le réglage de JD2
 cp ./DATA/JD2-Dark-Theme.jd2backup ~/Téléchargements/
 
-# Récupérer le panel et régler les icones / themes menu
+# Récupérer le panel et régler les icones / themes menu / workspaces
 dconf load /org/cinnamon/ < ./DATA/Reglages/panel.conf
 #pour le sauvegarder
 #dconf dump /org/cinnamon/ > ./DATA/Reglages/panel.conf
