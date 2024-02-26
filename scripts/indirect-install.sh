@@ -174,7 +174,7 @@ chmod +x ~/Applications/$downloaded_file
 
 # pCloud
 cp ./DATA/App-ressource/pcloud ~/Applications/
-sudo chmod +x ~/Applications/pcloud
+chmod +x ~/Applications/pcloud
 
 # 2/ g) Purge et nettoyage PPA
 # ----------------------------
