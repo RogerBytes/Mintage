@@ -223,7 +223,7 @@ Votre installation est terminée !
 6. Faire une importation auto du réglage flatpak de jd2 avec un wget et tar xz.
 7. Mettre à jour les options de nemo avec tous les chemin dans les raccourcis dans la navbar
 8. Rerégler ferdium, l'affichage est cracra
-9. # Récupérer le panel et régler les icones / themes menu / espaces via `dconf dump /org/cinnamon/ > ./DATA/Reglages/panel.conf"
+9. Récupérer le panel et régler les icones / themes menu / espaces via `dconf dump /org/cinnamon/ > ./DATA/Reglages/panel.conf`
 
 </details>
 
