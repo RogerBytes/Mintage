@@ -166,6 +166,12 @@ vérifier que l'on est bien co avec
 gh auth status
 ```
 
+Donner les privilèges :
+
+```bash
+gh auth refresh -h github.com -s admin:org,admin:public_key,repo
+```
+
 puis ajouter la clef au compte github :
 
 ```bash

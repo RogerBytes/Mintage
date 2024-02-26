@@ -7,39 +7,39 @@ Mes débuts sur Godot
 
 [Documentation officielle de Godot](https://docs.godotengine.org/en/stable/index.html)
 
-________________________________________________________
+---
 
 ## Installation OneLine
 
 ### Version normale à jour (FBX2glTF inclus)
 
 ```bash
-wget $(curl -s https://api.github.com/repos/godotengine/godot/releases/latest | grep "browser_download_url.*stable_linux.x86_64.zip" | cut -d : -f 2,3 | tr -d \") && unzip "Godot*.zip" && rm Godot*.zip && mkdir -p .godot && mv *.x86_64 .godot/ && find ~/ -maxdepth 1 -type d -name "Godot*" -exec mv {} ~/.godot/ \; && mv .godot/*.x86_64 .godot/godot.x86_64 && timeout 1s .godot/godot.x86_64 ; echo "Error messages intented" ; sudo sh -c 'echo "#!/bin/sh\n\nUSER_NAME=\$(whoami)\nDATA_DIRECTORY=/home/\$USER_NAME/.godot\nBINARY_FILE=/home/\$USER_NAME/.godot/godot.x86_64\ncd \$DATA_DIRECTORY\nexec \$BINARY_FILE \"\$@\"" > /usr/bin/godot && sudo chmod +x /usr/bin/godot' ; sudo sh -c 'echo "[Desktop Entry]\nVersion=1.0\nType=Application\nName=Godot\nComment=Game Engine\nExec=godot\nIcon=godot\nTerminal=false\nCategories=Game;Development;" > /usr/share/applications/godot.desktop && sudo chmod +x /usr/share/applications/godot.desktop' ; sudo update-desktop-database && wget $(curl -s https://api.github.com/repos/godotengine/FBX2glTF/releases/latest | grep "browser_download_url.*linux-x86_64.zip" | cut -d : -f 2,3 | tr -d \") && unzip "FBX2glTF*.zip" && rm FBX2glTF*.zip && mv  FBX2glTF-linux-x86_64/FBX2glTF-linux-x86_64 .godot && rm -r FBX2glTF-linux-x86_64
+wget $(curl -s https://api.github.com/repos/godotengine/godot/releases/latest | grep "browser_download_url.*stable_linux.x86_64.zip" | cut -d : -f 2,3 | tr -d \") && unzip "Godot*.zip" && rm Godot*.zip && mkdir -p ~/.godot && mv *.x86_64 ~/.godot/ && mv ~/.godot/*stable_linux.x86_64 ~/.godot/godot.x86_64 && timeout 1s ~/.godot/godot.x86_64 ; echo "Error messages intented" ; sudo sh -c 'echo "#!/bin/sh\n\nUSER_NAME=\$(whoami)\nDATA_DIRECTORY=/home/\$USER_NAME/.godot\nBINARY_FILE=/home/\$USER_NAME/.godot/godot.x86_64\ncd \$DATA_DIRECTORY\nexec \$BINARY_FILE \"\$@\"" > /usr/bin/godot && sudo chmod +x /usr/bin/godot' ; sudo sh -c 'echo "[Desktop Entry]\nVersion=1.0\nType=Application\nName=Godot\nComment=Game Engine\nExec=godot\nIcon=godot\nTerminal=false\nCategories=Game;Development;" > /usr/share/applications/godot.desktop && sudo chmod +x /usr/share/applications/godot.desktop' ; sudo update-desktop-database && wget $(curl -s https://api.github.com/repos/godotengine/FBX2glTF/releases/latest | grep "browser_download_url.*linux-x86_64.zip" | cut -d : -f 2,3 | tr -d \") && unzip "FBX2glTF*.zip" && rm FBX2glTF*.zip && mv  FBX2glTF-linux-x86_64/FBX2glTF-linux-x86_64 ~/.godot/FBX2glTF-linux-x86_64 && rm -r FBX2glTF-linux-x86_64
 ```
 
 ### Version C# à jour (FBX2glTF inclus)
 
 ```bash
-sudo apt install -y dotnet-sdk-7.0 && wget $(curl -s https://api.github.com/repos/godotengine/godot/releases/latest | grep "browser_download_url.*stable_mono_linux_x86_64.zip" | cut -d : -f 2,3 | tr -d \") && unzip "Godot*.zip" && rm Godot*.zip && find ~/ -maxdepth 1 -type d -name "Godot*" -exec mv {} ~/.godot/ \; && mv .godot/*.x86_64 .godot/godot-dotnet.x86_64 && timeout 1s .godot/godot-dotnet.x86_64 ; echo "Error messages intented" ; sudo sh -c 'echo "#!/bin/sh\n\nUSER_NAME=\$(whoami)\nDATA_DIRECTORY=/home/\$USER_NAME/.godot\nBINARY_FILE=/home/\$USER_NAME/.godot/godot-dotnet.x86_64\ncd \$DATA_DIRECTORY\nexec \$BINARY_FILE \"\$@\"" > /usr/bin/godot-dotnet && sudo chmod +x /usr/bin/godot-dotnet' ; sudo sh -c 'echo "[Desktop Entry]\nVersion=1.0\nType=Application\nName=Godot C#\nComment=Game Engine\nExec=godot-dotnet\nIcon=godot\nTerminal=false\nCategories=Game;Development;" > /usr/share/applications/godot-dotnet.desktop && sudo chmod +x /usr/share/applications/godot-dotnet.desktop' ; sudo update-desktop-database && wget $(curl -s https://api.github.com/repos/godotengine/FBX2glTF/releases/latest | grep "browser_download_url.*linux-x86_64.zip" | cut -d : -f 2,3 | tr -d \") && unzip "FBX2glTF*.zip" && rm FBX2glTF*.zip && mv  FBX2glTF-linux-x86_64/FBX2glTF-linux-x86_64 .godot && rm -r FBX2glTF-linux-x86_64
+sudo apt install -y dotnet-sdk-7.0 && wget $(curl -s https://api.github.com/repos/godotengine/godot/releases/latest | grep "browser_download_url.*stable_mono_linux_x86_64.zip" | cut -d : -f 2,3 | tr -d \") && unzip "Godot*.zip" && rm Godot*.zip && mkdir -p ~/.godot  && mv *x86_64/*.x86_64 ~/.godot/ && mv *x86_64/GodotSharp ~/.godot/ && rm -r *x86_64/ && mv ~/.godot/*mono_linux.x86_64 ~/.godot/godot-dotnet.x86_64 && timeout 1s ~/.godot/godot-dotnet.x86_64 ; echo "Error messages intented" ; sudo sh -c 'echo "#!/bin/sh\n\nUSER_NAME=\$(whoami)\nDATA_DIRECTORY=/home/\$USER_NAME/.godot\nBINARY_FILE=/home/\$USER_NAME/.godot/godot-dotnet.x86_64\ncd \$DATA_DIRECTORY\nexec \$BINARY_FILE \"\$@\"" > /usr/bin/godot-dotnet && sudo chmod +x /usr/bin/godot-dotnet' ; sudo sh -c 'echo "[Desktop Entry]\nVersion=1.0\nType=Application\nName=Godot C#\nComment=Game Engine\nExec=godot-dotnet\nIcon=godot\nTerminal=false\nCategories=Game;Development;" > /usr/share/applications/godot-dotnet.desktop && sudo chmod +x /usr/share/applications/godot-dotnet.desktop' ; sudo update-desktop-database && wget $(curl -s https://api.github.com/repos/godotengine/FBX2glTF/releases/latest | grep "browser_download_url.*linux-x86_64.zip" | cut -d : -f 2,3 | tr -d \") && unzip "FBX2glTF*.zip" && rm FBX2glTF*.zip && mv FBX2glTF-linux-x86_64/FBX2glTF-linux-x86_64 ~/.godot/FBX2glTF-linux-x86_64 && rm -r FBX2glTF-linux-x86_64
 ```
 
-________________________________________________________
+---
 
 ## Désinstallation OneLine
 
 ### Uninstall - Version normale à jour (FBX2glTF inclus)
 
 ```bash
-sudo rm -r .godot && sudo rm /usr/bin/godot && sudo rm /usr/share/applications/godot.desktop && sudo update-desktop-database
+sudo rm -r ~/.godot && sudo rm /usr/bin/godot && sudo rm /usr/share/applications/godot.desktop && sudo update-desktop-database
 ```
 
 ### Uninstall - Version C# à jour (FBX2glTF inclus)
 
 ```bash
-sudo rm -r .godot && sudo rm /usr/bin/godot-dotnet && sudo rm /usr/share/applications/godot-dotnet.desktop && sudo update-desktop-database
+sudo rm -r ~/.godot && sudo rm /usr/bin/godot-dotnet && sudo rm /usr/share/applications/godot-dotnet.desktop && sudo update-desktop-database
 ```
 
-________________________________________________________
+---
 
 ## Installation détaillée
 
