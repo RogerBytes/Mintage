@@ -1,0 +1,32 @@
+------------------------Thread: 36:Gui.log-----------------------
+--ID:36TS:1708906538323-26/02/2024 01:15:38 -  [jd.gui.swing.jdgui.JDGui(internalInitLocationAndDimension)] -> Check if Screen Location are ok java.awt.Point[x=876,y=339] - java.awt.Dimension[width=1420,height=823]
+------------------------Thread: 58:Gui.log-----------------------
+--ID:58TS:1708906538497-26/02/2024 01:15:38 -  [jd.gui.swing.jdgui.JDGui$27(run)] -> Update bug Finder
+--ID:58TS:1708906538497-26/02/2024 01:15:38 -  [jd.gui.swing.jdgui.JDGui$27(run)] -> Find Counter
+--ID:58TS:1708906538497-26/02/2024 01:15:38 -  [jd.gui.swing.jdgui.JDGui$27(run)] -> /home/harry/.var/app/org.jdownloader.JDownloader/data/jdownloader/JDownloader.jar
+--ID:58TS:1708906538498-26/02/2024 01:15:38 -  [jd.gui.swing.jdgui.JDGui$27(run)] -> Done: 1
+--ID:58TS:1708906539498-26/02/2024 01:15:39 -  [jd.gui.swing.jdgui.JDGui$27(run)] -> Gogogo 1
+------------------------Thread: 36:Gui.log-----------------------
+--ID:36TS:1708906543206-26/02/2024 01:15:43 -  [jd.gui.swing.jdgui.JDGui$24(edtRun)] -> SilentMode: Mainframe has Focus: 
+--ID:36TS:1708906547833-26/02/2024 01:15:47 -  [jd.gui.swing.jdgui.JDGui$24(edtRun)] -> SilentMode: Mainframe has Focus: 
+--ID:36TS:1708906566173-26/02/2024 01:16:06 -  [jd.gui.swing.jdgui.JDGui$24(edtRun)] -> SilentMode: Mainframe has Focus: 
+--ID:36TS:1708906615316-26/02/2024 01:16:55 -  [jd.gui.swing.jdgui.JDGui$24(edtRun)] -> SilentMode: Mainframe has Focus: 
+--ID:36TS:1708906713101-26/02/2024 01:18:33 -  [jd.gui.swing.jdgui.JDGui$24(edtRun)] -> SilentMode: Mainframe has Focus: 
+--ID:36TS:1708906841257-26/02/2024 01:20:41 -  [jd.gui.swing.jdgui.JDGui$24(edtRun)] -> SilentMode: Mainframe has Focus: 
+--ID:36TS:1708906841258-26/02/2024 01:20:41 -  [jd.gui.swing.jdgui.JDGui$24(edtRun)] -> SilentMode: Mainframe has Focus: 
+--ID:36TS:1708906843955-26/02/2024 01:20:43 -  [jd.gui.swing.jdgui.JDGui$24(edtRun)] -> SilentMode: auto false
+--ID:36TS:1708906843955-26/02/2024 01:20:43 -  [jd.gui.swing.jdgui.JDGui$24(edtRun)] -> SilentMode: auto false
+--ID:36TS:1708906849599-26/02/2024 01:20:49 -  [jd.gui.swing.jdgui.JDGui$34(edtRun)] -> Reset frame to 
+{
+ "extendedState"  : "NORMAL",
+ "height"         : 823,
+ "screenID"       : ":0.0",
+ "width"          : 1420,
+ "x"              : 875,
+ "y"              : 339,
+ "active"         : true,
+ "focus"          : false,
+ "locationSet"    : true,
+ "silentShutdown" : false,
+ "visible"        : true
+}

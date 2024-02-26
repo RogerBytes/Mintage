@@ -1,0 +1,6 @@
+------------------------Thread: 37:org.jdownloader.update.gui.LAFManager.log-----------------------
+--ID:37TS:1708906533148-26/02/2024 01:15:33 -  [org.jdownloader.update.gui.LAFManager(init)] -> Load /home/harry/.var/app/org.jdownloader.JDownloader/data/jdownloader/cfg/org.jdownloader.settings.GraphicalUserInterfaceSettings.json
+--ID:37TS:1708906533150-26/02/2024 01:15:33 -  [org.jdownloader.update.gui.LAFManager(init)] -> Init LAF: de.javasoft.plaf.synthetica.SyntheticaBlackEyeLookAndFeel
+--ID:37TS:1708906533151-26/02/2024 01:15:33 -  [org.jdownloader.update.gui.LAFManager(init)] -> Add to classpath: /home/harry/.var/app/org.jdownloader.JDownloader/data/jdownloader/libs/laf/synthetica.jar
+--ID:37TS:1708906533152-26/02/2024 01:15:33 -  [org.jdownloader.update.gui.LAFManager(init)] -> Add to classpath: /home/harry/.var/app/org.jdownloader.JDownloader/data/jdownloader/libs/laf/syntheticaJDCustom.jar
+--ID:37TS:1708906533153-26/02/2024 01:15:33 -  [org.jdownloader.update.gui.LAFManager(init)] -> Add to classpath: /home/harry/.var/app/org.jdownloader.JDownloader/data/jdownloader/libs/laf/syntheticaSimple2D.jar

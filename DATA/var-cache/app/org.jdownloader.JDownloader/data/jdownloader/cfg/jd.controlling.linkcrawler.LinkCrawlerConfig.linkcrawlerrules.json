@@ -1,0 +1,1 @@
+[{"cookies":null,"deepPattern":null,"formPattern":null,"id":1663977232514,"maxDecryptDepth":0,"name":"Learned file extension: apk","packageNamePattern":null,"passwordPattern":null,"pattern":"(?i)https?://.*\\.apk($|\\?.*$)","rewriteReplaceWith":null,"rule":"DIRECTHTTP","enabled":true,"logging":false,"updateCookies":true}]

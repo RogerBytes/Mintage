@@ -1,0 +1,12 @@
+------------------------Thread: 32:org.jdownloader.plugins.controller.host.HostPluginController$2.log-----------------------
+--ID:32TS:1708906496642-26/02/2024 01:14:56 -  [org.jdownloader.plugins.controller.host.HostPluginController$2(run)] -> HostPluginController: init
+--ID:32TS:1708906496645-26/02/2024 01:14:56 -  [org.jdownloader.plugins.controller.PluginScannerNIO(scan)] -> @PluginController(NIO): no plugin cache available|LastModified:-1
+--ID:32TS:1708906496998-26/02/2024 01:14:56 -  [org.jdownloader.plugins.controller.PluginScannerNIO(scan)] -> @PluginController(NIO): scan took 353ms for 1156
+--ID:32TS:1708906497422-26/02/2024 01:14:57 -  [org.jdownloader.plugins.controller.host.HostPluginController$2(run)] -> @HostPluginController: update took 778ms for 3390|LastModified:1708906494724
+--ID:32TS:1708906497426-26/02/2024 01:14:57 -  [org.jdownloader.plugins.controller.host.HostPluginController$2(run)] -> @HostPluginController: sort took 4ms for 3390
+--ID:32TS:1708906497426-26/02/2024 01:14:57 -  [org.jdownloader.plugins.controller.host.HostPluginController$2(run)] -> @HostPlugin keep:DailyMotionComV2@47865|3:47865 instead DailyMotionCom@48415|2:48415
+--ID:32TS:1708906497426-26/02/2024 01:14:57 -  [org.jdownloader.plugins.controller.host.HostPluginController$2(run)] -> @HostPlugin replaced:FileFactory@48672|2:48672 with PowerFileCom@46119|3:46119
+--ID:32TS:1708906497426-26/02/2024 01:14:57 -  [org.jdownloader.plugins.controller.host.HostPluginController$2(run)] -> @HostPlugin replaced:Offline@48624|3:48624 with Offline@48624|3:48624
+--ID:32TS:1708906497427-26/02/2024 01:14:57 -  [org.jdownloader.plugins.controller.host.HostPluginController$2(run)] -> @HostPlugin replaced:Offline@48624|3:48624 with Offline@48624|3:48624
+--ID:32TS:1708906497427-26/02/2024 01:14:57 -  [org.jdownloader.plugins.controller.host.HostPluginController$2(run)] -> @HostPluginController: mapping took 1ms for 3390
+--ID:32TS:1708906497427-26/02/2024 01:14:57 -  [org.jdownloader.plugins.controller.host.HostPluginController$2(run)] -> @HostPluginController: init took 785ms for 3385

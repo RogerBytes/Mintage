@@ -1,0 +1,6 @@
+------------------------Thread: 36:jd.controlling.linkcollector.LinkCollector.log-----------------------
+--ID:36TS:1708906496464-26/02/2024 01:14:56 -  [jd.controlling.linkcollector.LinkCollector(<init>)] -> LinkChecker Enabled:true
+------------------------Thread: 74:jd.controlling.linkcollector.LinkCollector.log-----------------------
+--ID:74TS:1708906497478-26/02/2024 01:14:57 -  [jd.controlling.linkcollector.LinkCollector(findAvailableCollectorLists)] -> Collect Lists
+--ID:74TS:1708906497481-26/02/2024 01:14:57 -  [jd.controlling.linkcollector.LinkCollector(findAvailableCollectorLists)] -> Lists: []
+--ID:74TS:1708906497481-26/02/2024 01:14:57 -  [jd.controlling.linkcollector.LinkCollector$17(run)] -> CollectorList empty!

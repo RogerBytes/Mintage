@@ -1,0 +1,10 @@
+{
+ "autoExtract"                        : "TRUE",
+ "extractPath"                        : null,
+ "extractionInfo"                     : null,
+ "finalPassword"                      : null,
+ "ifFileExistsAction"                 : null,
+ "passwords"                          : [],
+ "removeDownloadLinksAfterExtraction" : "UNSET",
+ "removeFilesAfterExtraction"         : "UNSET"
+}

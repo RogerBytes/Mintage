@@ -1,0 +1,12 @@
+{
+ "appID"               : "JD",
+ "destRevision"        : 17156,
+ "file"                : "package_1708906531371.awf",
+ "installExtensions"   : ["synthetica-themes"],
+ "installedExtensions" : ["synthetica-themes"],
+ "sourceRevision"      : 17156,
+ "timestamp"           : 1708906531371,
+ "uninstallExtensions" : [],
+ "encrypted"           : true,
+ "extracted"           : false
+}

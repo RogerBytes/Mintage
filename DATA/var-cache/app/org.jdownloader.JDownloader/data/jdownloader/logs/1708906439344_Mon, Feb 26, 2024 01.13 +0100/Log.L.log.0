@@ -1,0 +1,62 @@
+------------------------Thread: 1:Log.L.log-----------------------
+--ID:1TS:1708906439433-26/02/2024 01:13:59 -  [org.appwork.loggingv3.LogV3(info)] -> Application Root: /home/harry/.var/app/org.jdownloader.JDownloader/data/jdownloader
+--ID:1TS:1708906439463-26/02/2024 01:13:59 -  [org.appwork.storage.JsonKeyValueStorage(<init>)] -> CFG File does not exist: /home/harry/.var/app/org.jdownloader.JDownloader/data/jdownloader/cfg/org.jdownloader.update.lastchance.LastChanceConfig.json
+--ID:1TS:1708906439521-26/02/2024 01:13:59 -  [org.appwork.storage.JsonKeyValueStorage(<init>)] -> CFG File does not exist: /home/harry/.var/app/org.jdownloader.JDownloader/data/jdownloader/cfg/org.jdownloader.updatev2.UpdateSettings.json
+--ID:1TS:1708906439540-26/02/2024 01:13:59 -  [org.appwork.storage.JsonKeyValueStorage(<init>)] -> Load JSon Storage from Classpath url: jar:file:/home/harry/.var/app/org.jdownloader.JDownloader/data/jdownloader/JDownloader.jar!/cfg/updateclient/Setup.json
+--ID:1TS:1708906439545-26/02/2024 01:13:59 -  [org.appwork.storage.JsonKeyValueStorage(<init>)] -> CFG File does not exist: /home/harry/.var/app/org.jdownloader.JDownloader/data/jdownloader/cfg/updateclient/Setup.json
+--ID:1TS:1708906439545-26/02/2024 01:13:59 -  [org.appwork.loggingv3.LogV3(finer)] -> Init StorageHandler for Interface:org.appwork.updatesys.client.Setup|Path:/home/harry/.var/app/org.jdownloader.JDownloader/data/jdownloader/cfg/updateclient/Setup
+------------------------Thread: 32:Log.L.log-----------------------
+--ID:32TS:1708906439553-26/02/2024 01:13:59 -  [org.appwork.storage.JsonKeyValueStorage(<init>)] -> CFG File does not exist: /home/harry/.var/app/org.jdownloader.JDownloader/data/jdownloader/cfg/org.jdownloader.settings.InternetConnectionSettings.json
+--ID:32TS:1708906439553-26/02/2024 01:13:59 -  [org.appwork.loggingv3.LogV3(finer)] -> Init StorageHandler for Interface:org.jdownloader.updatev2.InternetConnectionSettings|Path:/home/harry/.var/app/org.jdownloader.JDownloader/data/jdownloader/cfg/org.jdownloader.settings.InternetConnectionSettings
+--ID:32TS:1708906439562-26/02/2024 01:13:59 -  [org.appwork.storage.JsonKeyValueStorage(<init>)] -> Load JSon Storage from Classpath url: jar:file:/home/harry/.var/app/org.jdownloader.JDownloader/data/jdownloader/JDownloader.jar!/cfg/updateclient/HttpSettings.json
+--ID:32TS:1708906439562-26/02/2024 01:13:59 -  [org.appwork.storage.JsonKeyValueStorage(<init>)] -> CFG File does not exist: /home/harry/.var/app/org.jdownloader.JDownloader/data/jdownloader/cfg/updateclient/HttpSettings.json
+--ID:32TS:1708906439562-26/02/2024 01:13:59 -  [org.appwork.loggingv3.LogV3(finer)] -> Init StorageHandler for Interface:org.appwork.updatesys.client.defaultimpl.http.UpdateHttpClientOptions|Path:/home/harry/.var/app/org.jdownloader.JDownloader/data/jdownloader/cfg/updateclient/HttpSettings
+--ID:32TS:1708906439565-26/02/2024 01:13:59 -  [org.appwork.storage.JsonKeyValueStorage(<init>)] -> CFG File does not exist: /home/harry/.var/app/org.jdownloader.JDownloader/data/jdownloader/cfg/ProxySelector.json
+--ID:32TS:1708906439565-26/02/2024 01:13:59 -  [org.appwork.loggingv3.LogV3(finer)] -> Init StorageHandler for Interface:org.appwork.updatesys.client.defaultimpl.http.ProxySelectorSettings|Path:/home/harry/.var/app/org.jdownloader.JDownloader/data/jdownloader/cfg/ProxySelector
+--ID:32TS:1708906439589-26/02/2024 01:13:59 -  [org.appwork.storage.JsonKeyValueStorage(<init>)] -> CFG File does not exist: /home/harry/.var/app/org.jdownloader.JDownloader/data/jdownloader/update/versioninfo/JD/extensions.json
+--ID:32TS:1708906439589-26/02/2024 01:13:59 -  [org.appwork.loggingv3.LogV3(finer)] -> Init StorageHandler for Interface:org.appwork.updatesys.client.extensions.ExtensionsStorage|Path:/home/harry/.var/app/org.jdownloader.JDownloader/data/jdownloader/update/versioninfo/JD/extensions
+--ID:32TS:1708906439593-26/02/2024 01:13:59 -  [org.appwork.storage.JsonKeyValueStorage(<init>)] -> CFG File does not exist: /home/harry/.var/app/org.jdownloader.JDownloader/data/jdownloader/cfg/org.appwork.updatesys.client.tracker.TrackConfig.json
+--ID:32TS:1708906439596-26/02/2024 01:13:59 -  [org.appwork.storage.JsonKeyValueStorage(<init>)] -> CFG File does not exist: /home/harry/.var/app/org.jdownloader.JDownloader/data/jdownloader/update/versioninfo/JDU/extensions.json
+--ID:32TS:1708906439596-26/02/2024 01:13:59 -  [org.appwork.loggingv3.LogV3(finer)] -> Init StorageHandler for Interface:org.appwork.updatesys.client.extensions.ExtensionsStorage|Path:/home/harry/.var/app/org.jdownloader.JDownloader/data/jdownloader/update/versioninfo/JDU/extensions
+------------------------Thread: 1:Log.L.log-----------------------
+--ID:1TS:1708906439675-26/02/2024 01:13:59 -  [org.appwork.loggingv3.LogV3(info)] -> Application Root: /home/harry/.var/app/org.jdownloader.JDownloader/data/jdownloader
+--ID:1TS:1708906439696-26/02/2024 01:13:59 -  [] -> Exception thrown at org.jdownloader.update.launcher.SecondLevelLauncher.init(SecondLevelLauncher.java:504):
+org.jdownloader.update.launcher.JDLauncherFailedException: java.lang.NoClassDefFoundError: org/jdownloader/startup/Main
+	at org.jdownloader.update.launcher.SecondLevelLauncher.launchJDownloader(SecondLevelLauncher.java:709)
+	at org.jdownloader.update.launcher.SecondLevelLauncher.init(SecondLevelLauncher.java:487)
+	at org.jdownloader.update.launcher.SecondLevelLauncher.runMain(SecondLevelLauncher.java:237)
+	at org.jdownloader.update.launcher.JDLauncherViaClassLoader.main(JDLauncherViaClassLoader.java:18)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.jdownloader.updatev2.JDClassLoaderLauncher.main(JDClassLoaderLauncher.java:136)
+	at org.jdownloader.update.launcher.JDLauncher.main(JDLauncher.java:8)
+Caused by: java.lang.NoClassDefFoundError: org/jdownloader/startup/Main
+	at org.jdownloader.launcher.StandaloneLauncher.launchJDownloader(StandaloneLauncher.java:154)
+	at org.jdownloader.update.launcher.SecondLevelLauncher.launchJDownloader(SecondLevelLauncher.java:671)
+	... 9 more
+Caused by: java.lang.ClassNotFoundException: org.jdownloader.startup.Main
+	at java.base/java.net.URLClassLoader.findClass(URLClassLoader.java:445)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:592)
+	at org.jdownloader.updatev2.JDClassLoaderLauncher$JDCustomRootClassLoader.loadClass(JDClassLoaderLauncher.java:55)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:525)
+	... 11 more
+
+------------------------Thread: 38:Log.L.log-----------------------
+--ID:38TS:1708906439696-26/02/2024 01:13:59 -  [] -> Exception thrown at org.jdownloader.update.launcher.SecondLevelLauncher$5.run(SecondLevelLauncher.java:476):
+java.lang.InterruptedException: sleep interrupted
+	at java.base/java.lang.Thread.sleep(Native Method)
+	at org.jdownloader.update.launcher.SecondLevelLauncher$5.run(SecondLevelLauncher.java:469)
+
+------------------------Thread: 39:Log.L.log-----------------------
+--ID:39TS:1708906439700-26/02/2024 01:13:59 -  [org.appwork.loggingv3.LogV3(info)] -> Translation file missing:org/jdownloader/updatev2/UpdaterTranslation.en.lngUse Annotation Dev fallback
+--ID:39TS:1708906439706-26/02/2024 01:13:59 -  [org.appwork.loggingv3.LogV3(finer)] -> Read Config(URL): jar:file:/home/harry/.var/app/org.jdownloader.JDownloader/data/jdownloader/JDownloader.jar!/cfg/updateclient/Setup.updateservers.json
+--ID:39TS:1708906439735-26/02/2024 01:13:59 -  [org.appwork.loggingv3.LogV3(info)] -> Translation file missing:org/appwork/utils/locale/AWUTranslation.en.lngUse Annotation Dev fallback
+------------------------Thread: 36:Log.L.log-----------------------
+--ID:36TS:1708906440200-26/02/2024 01:14:00 -  [org.appwork.storage.JsonKeyValueStorage(<init>)] -> CFG File does not exist: /home/harry/.var/app/org.jdownloader.JDownloader/data/jdownloader/cfg/laf/GTKLookAndFeel.json
+--ID:36TS:1708906440244-26/02/2024 01:14:00 -  [org.appwork.storage.JsonKeyValueStorage(<init>)] -> CFG File does not exist: /home/harry/.var/app/org.jdownloader.JDownloader/data/jdownloader/cfg/org.jdownloader.update.gui.UpdFrameSettings.json
+------------------------Thread: 39:Log.L.log-----------------------
+--ID:39TS:1708906468717-26/02/2024 01:14:28 -  [org.appwork.loggingv3.LogV3(info)] -> No Vetos
+--ID:39TS:1708906468717-26/02/2024 01:14:28 -  [org.appwork.loggingv3.LogV3(info)] -> Fire onShutDownEvents:0
+--ID:39TS:1708906468717-26/02/2024 01:14:28 -  [org.appwork.loggingv3.LogV3(info)] -> Create ExitThread

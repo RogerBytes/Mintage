@@ -1,0 +1,30 @@
+------------------------Thread: 36:Gui.log-----------------------
+--ID:36TS:1708906527521-26/02/2024 01:15:27 -  [jd.gui.swing.jdgui.JDGui(internalInitLocationAndDimension)] -> Check if Screen Location are ok java.awt.Point[x=876,y=339] - java.awt.Dimension[width=1420,height=823]
+------------------------Thread: 57:Gui.log-----------------------
+--ID:57TS:1708906527690-26/02/2024 01:15:27 -  [jd.gui.swing.jdgui.JDGui$27(run)] -> Update bug Finder
+--ID:57TS:1708906527690-26/02/2024 01:15:27 -  [jd.gui.swing.jdgui.JDGui$27(run)] -> Find Counter
+--ID:57TS:1708906527691-26/02/2024 01:15:27 -  [jd.gui.swing.jdgui.JDGui$27(run)] -> /home/harry/.var/app/org.jdownloader.JDownloader/data/jdownloader/JDownloader.jar
+--ID:57TS:1708906527691-26/02/2024 01:15:27 -  [jd.gui.swing.jdgui.JDGui$27(run)] -> Done: 1
+------------------------Thread: 36:Gui.log-----------------------
+--ID:36TS:1708906528083-26/02/2024 01:15:28 -  [jd.gui.swing.jdgui.JDGui$24(edtRun)] -> SilentMode: Mainframe has Focus: 
+--ID:36TS:1708906528253-26/02/2024 01:15:28 -  [jd.gui.swing.jdgui.JDGui$24(edtRun)] -> SilentMode: Mainframe has Focus: 
+------------------------Thread: 57:Gui.log-----------------------
+--ID:57TS:1708906528692-26/02/2024 01:15:28 -  [jd.gui.swing.jdgui.JDGui$27(run)] -> Gogogo 1
+------------------------Thread: 36:Gui.log-----------------------
+--ID:36TS:1708906531614-26/02/2024 01:15:31 -  [jd.gui.swing.jdgui.JDGui$24(edtRun)] -> SilentMode: Updater Frame is Active
+--ID:36TS:1708906531619-26/02/2024 01:15:31 -  [jd.gui.swing.jdgui.JDGui$24(edtRun)] -> SilentMode: Updater Frame is Active
+--ID:36TS:1708906531620-26/02/2024 01:15:31 -  [jd.gui.swing.jdgui.JDGui$24(edtRun)] -> SilentMode: Updater Frame is Active
+--ID:36TS:1708906532769-26/02/2024 01:15:32 -  [jd.gui.swing.jdgui.JDGui$34(edtRun)] -> Reset frame to 
+{
+ "extendedState"  : "NORMAL",
+ "height"         : 823,
+ "screenID"       : ":0.0",
+ "width"          : 1420,
+ "x"              : 876,
+ "y"              : 339,
+ "active"         : true,
+ "focus"          : true,
+ "locationSet"    : true,
+ "silentShutdown" : false,
+ "visible"        : true
+}
