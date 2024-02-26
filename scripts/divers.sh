@@ -15,6 +15,9 @@ sudo nala install -y --assume-yes jackd2
 # DVD support libdvd
 sudo nala install -y regionset libavcodec-extra libdvd-pkg && sudo dpkg-reconfigure libdvd-pkg
 
+# Apt-Xapian-Index (fix pour recherche dans synaptic)
+sudo nala install -y apt-xapian-index
+
 # 1/ a) Divers - normaux
 # ------------
 
