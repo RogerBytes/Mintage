@@ -73,7 +73,7 @@ sudo dpkg -i rustdesk-*-x86_64.deb
 rm rustdesk-*-x86_64.deb
 
 # vivaldi
-wget https://downloads.vivaldi.com/stable/vivaldi-stable_6.5.3206.63-1_amd64.deb && sudo nala install -y ./vivaldi-stable_6.5.3206.63-1_amd64.deb && rm vivaldi-stable_6.5.3206.63-1_amd64.deb
+wget wget https://github.com/RogerBytes/Mintage/releases/download/v1.0.0-assets/vivaldi-stable_6.5.3206.63-1_amd64.deb && sudo nala install -y ./vivaldi-stable_6.5.3206.63-1_amd64.deb && rm vivaldi-stable_6.5.3206.63-1_amd64.deb
 
 # VSCodium
 download_url=https://github.com/VSCodium/vscodium/releases/download/1.86.2.24054/codium_1.86.2.24054_amd64.deb
