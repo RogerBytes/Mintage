@@ -173,8 +173,8 @@ downloaded_file=$(basename $download_url)
 chmod +x ~/Applications/$downloaded_file
 
 # pCloud
-cp ./DATA/App-ressource/pcloud ~/Local/Ressources/apimages/
-sudo chmod +x ~/Local/Ressources/apimages/pcloud
+cp ./DATA/App-ressource/pcloud ~/Applications/
+sudo chmod +x ~/Applications/pcloud
 
 # 2/ g) Purge et nettoyage PPA
 # ----------------------------
