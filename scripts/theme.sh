@@ -22,6 +22,12 @@
 # autostart, ferdium, fontbase; freetube, menu panel, nemo, plank, stacer, synapse, transmission, reglages extensions & desklet & applet, applications préférées
 cp -a ./DATA/config-cache/* ~/.config
 
+# JDownloader
+cp -a ./DATA/var-cache/* ~/.var
+
+# Lutris
+cp -a ./DATA/local-cache/* ~/.local
+
 # Cacher le dossier de freeoffice en copiant le .hidden
 cp ./DATA/Reglages/Hidden/.hidden ~/
 
@@ -37,7 +43,6 @@ sudo cp ./DATA/Reglages/linuxmint/sele_ring.jpg /usr/share/backgrounds/linuxmint
 sudo cp ./DATA/Reglages/linuxmint/default_background.jpg /usr/share/backgrounds/linuxmint
 cp -r ./DATA/Reglages/Wallpapers ~/Images/
 
-
 # Changer l'icone de menu
 sudo cp ./DATA/linuxmint-logo-ring-symbolic.svg /usr/share/icons/hicolor/scalable/apps/
 sudo cp ./DATA/cinnamon-symbolic.svg /usr/share/icons/hicolor/scalable/apps/
@@ -52,7 +57,6 @@ dconf load /org/cinnamon/ < ./DATA/Reglages/panel.conf
 
 # lien variable manquant pour tilix
 sudo ln -s /etc/profile.d/vte-2.91.sh /etc/profile.d/vte.sh
-
 
 # regler nemo plank, wallpaper et tilix
 dconf load /org/nemo/ < ./DATA/Reglages/nemo.dconf

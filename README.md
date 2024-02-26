@@ -204,6 +204,12 @@ Lancez Xpad une première fois depuis le menu.
 
 Clic droit sur l’icône "préférences" dans l'onglet "au démarrage, cochez "Démarrer Xpad automatiquement après l'ouverture de session".
 
+Pour lancer une détection des capteurs thermiques et autres :
+
+```bash
+sudo sensors-detect
+```
+
 Votre installation est terminée !
 
 </details>
