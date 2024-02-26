@@ -174,6 +174,7 @@ Depuis le dossier caché `~/Applications` (qui sert à un gestionnaire pour stoc
 
 Ouvrez Jdownloader et depuis fichier faites import
 cliquez sur telechargement et lancer l'import du fichier JD2-Dark-Theme.jd2backup
+Une fois relancé, allez dans paramètres/général et mettez votre d'utilisateur à la place de "harry" dans le chemin de téléchargement par défaut (premier de la liste)
 à la fin d'install supprimez JD2-Dark-Theme.jd2backup
 
 #### LanguageTools pour LibreOffice
