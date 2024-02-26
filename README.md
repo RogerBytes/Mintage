@@ -222,14 +222,18 @@ Votre installation est terminée !
 <summary>Afficher/Masquer</summary>
 
 1. Faire un script de customisation pour une nouvelle session.
-2. Corriger le lien vers trousseau du navigateur il faut mettre `vivaldi://password-manager/passwords`.
-3. Faire une application simple pour changer de runtime Java.
-4. Faire la creation de ~/Jeux/Lutris/Wineprefix/
-5. Faire le support natif du client JD2 avec vivaldi.
-6. Faire une importation auto du réglage flatpak de jd2 avec un wget et tar xz.
-7. Mettre à jour les options de nemo avec tous les chemin dans les raccourcis dans la navbar
-8. Rerégler ferdium, l'affichage est cracra
-9. Récupérer le panel et régler les icones / themes menu / espaces via `dconf dump /org/cinnamon/ > ./DATA/Reglages/panel.conf`
+2. Faire une application simple pour changer de runtime Java.
+3. Si le theme de jdownloader est bien appliqué (sinon corriger), retirer l'étape de l'import du theme du readme
+
+Et tester les modifs/corrections
+
+1. Corriger le lien vers trousseau du navigateur il faut mettre `vivaldi://password-manager/passwords`.
+2. Faire la creation de ~/Jeux/Lutris/Wineprefix/
+3. Faire le support natif du client JD2 avec vivaldi.
+4. Faire une importation auto du réglage flatpak de jd2 avec un wget et tar xz.
+5. Mettre à jour les options de nemo avec tous les chemin dans les raccourcis dans la navbar
+6. Rerégler ferdium, l'affichage est cracra
+7. Récupérer le panel et régler les icones / themes menu / espaces via `dconf dump /org/cinnamon/ > ./DATA/Reglages/panel.conf`
 
 </details>
 
