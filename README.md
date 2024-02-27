@@ -126,18 +126,12 @@ cd $HOME/Mintage/ && ./install.sh
 ```
 
 Puis faire un reboot.  
-Après le redémarrage lancez Vivaldi, Jdownloader et Thunderbird une première fois, puis fermez les tous.  
+Après le redémarrage lancez Jdownloader et Thunderbird une première fois, puis fermez les tous.  
 
-Ensuite, lancer :
+Ensuite, lancez :
 
 ```bash
 cd $HOME/Mintage/ && ./after-reboot.sh
-```
-
-Et lancez cette commande pour dévérouiller vivaldi
-
-```bash
-vivaldi --user-data-dir=$HOME/.config/vivaldi/'Profile 1'
 ```
 
 ### Installations manuelles
