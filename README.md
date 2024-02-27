@@ -247,7 +247,7 @@ RAS - a test changements
 
 Après qt5ct (juste après game feral mode et powerlevel de zsh) Système demande à relancer cinnamon. Et dans le shell il demande le mdp dans le terminal sans rien faire derrière (je pense que c'est pour mintupdate mais pas sûr).
 
-#### Les paquets que je remets manuellement (afin de sauter une étape)
+#### Les paquets qui sautent avec le update
 
 - blueman
 - caffeine
