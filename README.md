@@ -173,11 +173,6 @@ Depuis le dossier caché `~/Applications` (qui sert à un gestionnaire pour stoc
 
 Ouvrez Jdownloader, allez dans paramètres/général et mettez votre d'utilisateur à la place de "harry" dans le chemin de téléchargement par défaut (premier de la liste)
 
-#### Vivaldi
-
-Lancez Vivaldi, il faut désactiver (en cliquant dessus depuis l’icône pour la griser) l'extension "Download with JDownloader" (la plus petite sans point d'exclamation).  
-Si on veut l'utiliser (et non la désactiver), il faut que Jdownloader soit ouvert pour récupérer les téléchargements.
-
 #### LanguageTools pour LibreOffice
 
 Téléchargez l'extension via wget (dl direct)
