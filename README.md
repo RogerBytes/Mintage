@@ -134,6 +134,12 @@ Ensuite, lancer :
 cd $HOME/Mintage/ && ./after-reboot.sh
 ```
 
+Et lancez cette commande pour dévérouiller vivaldi
+
+```bash
+vivaldi --user-data-dir=$HOME/.config/vivaldi/'Profile 1'
+```
+
 ### Installations manuelles
 
 #### Grub Csutomizer
