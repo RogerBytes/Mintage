@@ -334,7 +334,7 @@ Un indicateur de système pour KDE Connect, une application pour connecter votre
 
 Un gestionnaire de téléchargement open source pour télécharger des fichiers à partir de sites d'hébergement de fichiers.
 
-### Joal
+### Joal-desktop
 
 Une bibliothèque Java pour créer des clients BitTorrent et interagir avec le protocole BitTorrent.
 
@@ -414,7 +414,7 @@ Un lecteur multimédia simple et élégant basé sur MPV, avec des fonctionnalit
 
 Une application de capture photo et vidéo pour les webcams.
 
-### Ciano
+### Ciano-flatpak
 
 Un outil simple et intuitif pour scanner et numériser des documents.
 
@@ -435,6 +435,7 @@ Un outil pour extraire des fichiers vidéo à partir de DVD et les encoder dans 
 Un éditeur de sous-titres pour créer, éditer et synchroniser des sous-titres pour des vidéos.
 
 ### Handbrake
+
 Un convertisseur vidéo open source pour encoder des vidéos dans différents formats.
 
 ### Hypnotix
@@ -481,7 +482,7 @@ Un lecteur de musique pour écouter, organiser et gérer votre collection de mus
 
 Un logiciel pour extraire des pistes audio à partir de CD audio et les enregistrer sur votre ordinateur.
 
-### Xfburn
+### Xfburn alt
 
 Un logiciel de gravure de CD et de DVD simple et léger pour créer des disques de données et audio.
 
@@ -669,7 +670,7 @@ Les préférences pour configurer les desklets, qui sont des mini-applications a
 
 Les préférences pour configurer les paramètres du compte utilisateur, y compris le nom d'utilisateur, l'image du profil, etc.
 
-### Disques
+### Disques alt
 
 Les préférences pour afficher et gérer les disques et les périphériques de stockage connectés au système.
 
@@ -795,7 +796,7 @@ Les préférences pour configurer les thèmes du système, y compris les thèmes
 
 Une plate-forme de jeu open source pour gérer et exécuter des jeux sous Linux, en offrant une interface conviviale et la possibilité d'installer et de lancer des jeux provenant de différentes sources.
 
-### ProtonUp-Qt
+### ProtonUp-Qt alt
 
 Un outil graphique pour gérer et mettre à jour les versions de Proton, une couche de compatibilité pour exécuter des jeux Windows sur Linux via Steam Play.
 </details>
