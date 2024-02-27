@@ -85,8 +85,8 @@ sudo nala fetch
 echo -e "2 3 4\nY" | sudo nala fetch
 ```
 
-Il y a une source défaillante chez moi "linuxmirrors.ir", c'est pour ça que c'est "2 3 4" et non "1 2 3"
-Si vous avez bbesoin de gérer les sources (pas besoin ici) ouvrez "Gestionnaire de mises à jour" et allez dans "Edition/Sources de logiciels", allez ensuite dans "Dépôts supplémentaires" et décochez la ou les sources en question.
+Il y a une source défaillante chez moi "linuxmirrors.ir", c'est pour ça que c'est "2 3 4" et non "1 2 3"  
+Si vous avez besoin de gérer les sources (inutile ici) ouvrez "Gestionnaire de mises à jour" et allez dans "Edition/Sources de logiciels", allez ensuite dans "Dépôts supplémentaires" et décochez la ou les sources en question.
 
 ### Téléchargement
 
@@ -126,8 +126,8 @@ Puis dans un nouveau terminal :
 $HOME/Mintage/install.sh
 ```
 
-puis faire un reboot
-Lancez Vivaldi, Jdownloader et Thunderbird une première fois, puis fermez les tous
+Puis faire un reboot.  
+Après le redémarrage lancez Vivaldi, Jdownloader et Thunderbird une première fois, puis fermez les tous.  
 
 Ensuite, lancer :
 
@@ -176,7 +176,8 @@ Ouvrez Jdownloader, allez dans paramètres/général et mettez votre d'utilisate
 
 #### Vivaldi
 
-Lancez Vivaldi, il faut soit désactiver (en cliquant dessus depuis l’icône pour la griser) l'extension "Download with JDownloader" (la plus petite sans point d'exclamation), si on veut l'utiliser (et non la désactiver), il faut que Jdownloader soit ouvert pour récupérer les téléchargements.
+Lancez Vivaldi, il faut désactiver (en cliquant dessus depuis l’icône pour la griser) l'extension "Download with JDownloader" (la plus petite sans point d'exclamation).  
+Si on veut l'utiliser (et non la désactiver), il faut que Jdownloader soit ouvert pour récupérer les téléchargements.
 
 #### LanguageTools pour LibreOffice
 
@@ -186,14 +187,12 @@ Téléchargez l'extension via wget (dl direct)
 wget https://languagetool.org/download/LanguageTool-stable.oxt
 ```
 
-Dans LibreOffice allez dans "Outils/Gestionnaire des extensions..."
-Puis "Ajouter" et choisir "LanguageTool-stable.oxt",
-
-Dans LibreOffice aller dans "Outils/Options" (ou 'Alt+F12'), puis :
-"Paramètres linguistiques" - "Linguistique" et allez dans l'encart "Modules linguistiques disponibles", puis : - Décochez "Vérificateur orthographique Hunspell" - "Langues" : - Interface utilisateur = "Français (France)" - Paramètres locaux = "Français (France)" - Monnaie par défaut = "EUR € Français (France)" - Occidental = "Français (France)" - décochez "Asiatique"
-
-Dans votre dossier utilisateur se trouve le dossier Mintage : vous pouvez maintenant le supprimer !  
-Une documentation avec plein de conseils et astuces se trouve dans `~/Local/Documentation`.
+Dans LibreOffice allez dans "Outils/Gestionnaire des extensions..."  
+Puis "Ajouter" et choisir "LanguageTool-stable.oxt"  
+Dans LibreOffice aller dans "Outils/Options" (ou 'Alt+F12'), puis :  
+"Paramètres linguistiques/Linguistique"  
+Allez dans l'encart "Modules linguistiques disponibles", puis :  
+Décochez "Vérificateur orthographique Hunspell"
 
 #### Derniers réglages
 
@@ -211,7 +210,12 @@ Pour lancer une détection des capteurs thermiques et autres :
 sudo sensors-detect
 ```
 
-Votre installation est terminée !
+### Installation terminée
+
+Dans votre dossier utilisateur se trouve le dossier Mintage : vous pouvez maintenant le supprimer.  
+Une documentation avec plein de conseils et astuces se trouve dans `~/Local/Documentation`.  
+
+Votre installation est terminée, amusez-vous bien sur Linux Mint !
 
 </details>
 
