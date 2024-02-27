@@ -8,7 +8,7 @@
 
 # réglages de vivaldi
 rm -r ~/.config/vivaldi/
-7z x ./DATA/vivaldi.7z.001 -o$HOME/.config/
+tar -xzvf ./DATA/vivaldi.tar.gz -C $HOME/.config/
 
 # réglages de kodi
 7z x ./DATA/kodi.7z.001 -o$HOME/
