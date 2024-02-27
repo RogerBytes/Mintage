@@ -116,13 +116,13 @@ rm $file
 Dans le terminal, dans le dossier extrait depuis l'archive (l'on y est déjà après avoir fait les prérequis)
 
 ```bash
-$HOME/Mintage/prerequis.sh
+cd && ./prerequis.sh
 ```
 
 Puis dans un nouveau terminal :
 
 ```bash
-$HOME/Mintage/install.sh
+cd && ./install.sh
 ```
 
 Puis faire un reboot.  
@@ -131,7 +131,7 @@ Après le redémarrage lancez Vivaldi, Jdownloader et Thunderbird une première 
 Ensuite, lancer :
 
 ```bash
-$HOME/Mintage/after-reboot.sh
+cd && ./after-reboot.sh
 ```
 
 ### Installations manuelles
