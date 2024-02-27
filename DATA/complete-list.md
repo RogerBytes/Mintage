@@ -6,111 +6,147 @@
 <summary>Afficher/Masquer</summary>
 
 ### AntiMicroX
+
 Un programme permettant de mapper les boutons et les axes de votre manette de jeu sur des actions spécifiques.
 
 ### Brightness Controller
+
 Un outil pour ajuster facilement la luminosité de votre écran.
 
 ### Caffeine
+
 Un utilitaire qui empêche la mise en veille de votre écran ou de votre ordinateur lorsque vous êtes inactif.
 
 ### Caffeine Indicator
+
 Une application qui affiche une icône dans votre barre d'état système pour activer ou désactiver facilement le mode caféine.
 
 ### Calculatrice
+
 Une calculatrice simple et pratique pour effectuer des opérations mathématiques.
 
 ### Capture d'écran
+
 Un outil pour capturer des images de votre écran, que ce soit en plein écran ou de manière sélective.
 
 ### ClamTkv
+
 Un logiciel antivirus open source pour détecter et supprimer les logiciels malveillants sur votre système.
 
 ### Clavier Virtuel
+
 Un clavier virtuel qui vous permet de saisir du texte en utilisant la souris ou le pavé tactile.
 
 ### CMatrix
+
 Un économiseur d'écran amusant qui affiche une animation de matrice à la style "Matrix".
 
 ### Disques
+
 Un utilitaire pour gérer et formater vos disques et partitions.
 
 ### Editeur de texte (xed)
+
 Un éditeur de texte simple et convivial pour éditer des fichiers texte.
 
 ### Fichiers (nemo)
+
 Un gestionnaire de fichiers pour parcourir et organiser vos fichiers et dossiers.
 
 ### Gestionnaire d'archives (FileRoller)
+
 Un outil pour compresser et décompresser des fichiers et des archives.
 
 ### Imager (rpi-imager)
+
 Un utilitaire pour écrire des images disque sur des cartes SD ou des périphériques de stockage.
 
 ### KeePassXC
+
 Un gestionnaire de mots de passe sécurisé pour stocker et gérer vos mots de passe.
 
 ### Kronometer
+
 Un chronomètre et un minuteur multifonctions avec une interface utilisateur simple.
 
 ### Mots de passe et clés (seahorse)
+
 Un gestionnaire de clés et de mots de passe pour stocker et gérer vos informations de sécurité.
 
 ### Mousai (shazam like)
+
 Une application qui identifie la musique en écoutant l'environnement sonore.
 
 ### Nettoyeur de métadonnées (Metadata Cleaner)
+
 Un outil pour supprimer les métadonnées sensibles des fichiers, tels que les informations de localisation ou les données d'identification.
 
 ### Onboard (clavier virtuel)
+
 Un clavier virtuel pour saisir du texte sur les appareils tactiles ou lorsque le clavier physique n'est pas disponible.
 
 ### Plank
+
 Un dock léger pour accéder rapidement à vos applications préférées.
 
 ### ProtonUp-Qt
+
 Un outil pour gérer les jeux basés sur Proton et Steam Play.
 
 ### Recherche de fichiers Catfish
+
 Un utilitaire de recherche de fichiers rapide et facile à utiliser.
 
 ### Redshift
+
 Un outil pour ajuster automatiquement la température de couleur de votre écran en fonction de l'heure du jour.
 
 ### Renommeur de fichiers (Bulky)
+
 Un utilitaire pour renommer facilement plusieurs fichiers en même temps.
 
 ### Sauvegardes (DejaDup)
+
 Un outil de sauvegarde simple et convivial pour protéger vos fichiers importants.
 
 ### Stacer
+
 Un gestionnaire système qui vous permet de surveiller les performances de votre système, de gérer les processus en cours d'exécution et de nettoyer les fichiers inutiles.
 
 ### Synapse
+
 Un lanceur d'applications et un outil de recherche qui vous permet de trouver rapidement des fichiers, des applications et d'autres éléments sur votre système.
 
 ### Table de caractères
+
 Une application qui affiche une table de caractères spéciaux et permet de les insérer facilement dans vos documents.
 
 ### To Do
+
 Une application de gestion de tâches pour organiser et suivre vos listes de tâches.
 
 ### Vim
+
 Un éditeur de texte en ligne de commande puissant et hautement configurable.
 
 ### Visionneur de documents (xreader)
+
 Un visionneur de documents pour afficher et lire différents types de fichiers, tels que les fichiers PDF.
 
 ### Visionneur d'images (xviewer)
+
 Un visionneur d'images simple et léger pour afficher et parcourir vos images.
 
 ### Warpinator
+
 Un outil de partage de fichiers simple et rapide entre plusieurs ordinateurs sur le même réseau.
 
 ### Xfburn
+
 Un logiciel de gravure de CD/DVD léger et facile à utiliser.
 
 ### Xpad
+
 Un bloc-notes simple et pratique pour prendre des notes rapidement sur votre bureau.
 </details>
 
