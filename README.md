@@ -90,7 +90,7 @@ Si vous avez bbesoin de gérer les sources (pas besoin ici) ouvrez "Gestionnaire
 
 ### Téléchargement
 
-Depuis le terminal, on télécharge [la dernière release](https://github.com/RogerBytes/Mintage/releases/latest), la décompresse et on entre dans le dossier :
+Depuis le terminal, on télécharge [la dernière release](https://github.com/RogerBytes/Mintage/releases/latest) et on la décompresse :
 
 ```bash
 latest_url=$(curl -sL -w '%{url_effective}\n' https://github.com/RogerBytes/Mintage/releases/latest -o /dev/null)
@@ -100,7 +100,7 @@ file=$(find . -name 'Mintage*.tar.gz' -print -quit)
 tar -xvf "$file"
 folder_name=$(tar -tf "$file" | head -1 | cut -f1 -d"/")
 rm $file
-cd $folder_name
+
 ```
 
 </details>
@@ -117,22 +117,22 @@ cd $folder_name
 Dans le terminal, dans le dossier extrait depuis l'archive (l'on y est déjà après avoir fait les prérequis)
 
 ```bash
-./prerequis.sh
+$HOME/Mintage/prerequis.sh
 ```
 
-Puis dans un nouveau terminal (depuis le dossier mintage) :
+Puis dans un nouveau terminal :
 
 ```bash
-./install.sh
+$HOME/Mintage/install.sh
 ```
 
 puis faire un reboot
-Lancez vivaldi et thunderbird une première fois
+Lancez Vivaldi, Jdownloader et Thunderbird une première fois, puis fermez les tous
 
-après reboot, lancer :
+Ensuite, lancer :
 
 ```bash
-./after-reboot.sh
+$HOME/Mintage/after-reboot.sh
 ```
 
 ### Installations manuelles
@@ -172,10 +172,11 @@ Depuis le dossier caché `~/Applications` (qui sert à un gestionnaire pour stoc
 
 #### Jdownloader
 
-Ouvrez Jdownloader et depuis fichier faites import
-cliquez sur telechargement et lancer l'import du fichier JD2-Dark-Theme.jd2backup
-Une fois relancé, allez dans paramètres/général et mettez votre d'utilisateur à la place de "harry" dans le chemin de téléchargement par défaut (premier de la liste)
-à la fin d'install supprimez JD2-Dark-Theme.jd2backup
+Ouvrez Jdownloader, allez dans paramètres/général et mettez votre d'utilisateur à la place de "harry" dans le chemin de téléchargement par défaut (premier de la liste)
+
+#### Vivaldi
+
+Lancez Vivaldi, il faut soit désactiver (en cliquant dessus depuis l’icône pour la griser) l'extension "Download with JDownloader" (la plus petite sans point d'exclamation), si on veut l'utiliser (et non la désactiver), il faut que Jdownloader soit ouvert pour récupérer les téléchargements.
 
 #### LanguageTools pour LibreOffice
 
@@ -223,17 +224,7 @@ Votre installation est terminée !
 
 1. Faire un script de customisation pour une nouvelle session.
 2. Faire une application simple pour changer de runtime Java.
-3. Si le theme de jdownloader est bien appliqué (sinon corriger), retirer l'étape de l'import du theme du readme
-
-Et tester les modifs/corrections
-
-1. Corriger le lien vers trousseau du navigateur il faut mettre `vivaldi://password-manager/passwords`.
-2. Faire la creation de ~/Jeux/Lutris/Wineprefix/
-3. Faire le support natif du client JD2 avec vivaldi.
-4. Faire une importation auto du réglage flatpak de jd2 avec un wget et tar xz.
-5. Mettre à jour les options de nemo avec tous les chemin dans les raccourcis dans la navbar
-6. Rerégler ferdium, l'affichage est cracra
-7. Récupérer le panel et régler les icones / themes menu / espaces via `dconf dump /org/cinnamon/ > ./DATA/Reglages/panel.conf`
+3. Faire un import des options de Thunderbird (sans lier de compte bien sûr, tester car c'est ultra relou à faire fonctionner avec les changements de version)
 
 </details>
 

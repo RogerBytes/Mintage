@@ -34,3 +34,6 @@ sudo flatpak override --env GTK_THEME=Mint-L-Dark-Blue com.github.unrud.VideoDow
 cp "$HOME/Local/Documentation/02 - Astuces/scripts/lutris-prefix.sh" ~/Jeux/Lutris/WinePrefixes/
 chmod +x ~/Jeux/Lutris/WinePrefixes/lutris-prefix.sh
 
+# On applique le thème de jdownloader
+sudo cp -a ./DATA/var-cache/* ~/.var
+

@@ -47,9 +47,6 @@ cp -r ./DATA/Reglages/Wallpapers ~/Images/
 sudo cp ./DATA/linuxmint-logo-ring-symbolic.svg /usr/share/icons/hicolor/scalable/apps/
 sudo cp ./DATA/cinnamon-symbolic.svg /usr/share/icons/hicolor/scalable/apps/
 
-# Copier le réglage de JD2
-cp ./DATA/JD2-Dark-Theme.jd2backup ~/Téléchargements/
-
 # Récupérer le panel et régler les icones / themes menu / workspaces
 dconf load /org/cinnamon/ < ./DATA/Reglages/panel.conf
 #pour le sauvegarder
@@ -115,6 +112,11 @@ mkdir ~/Téléchargements/Téléchargements\ torrent/
 mkdir ~/Téléchargements/Téléchargements\ mail/
 mkdir ~/Téléchargements/Téléchargements\ jd2/
 mkdir ~/Téléchargements/Téléchargements\ ferdium/
+
+# On ajoute quelques dossiers
+mkdir ~/Local/
+mkdir ~/.github/
+mkdir ~/Local/Git
 
 # On copie la documentation dans ~/Local
 cp -r ./Documentation ~/Local/Documentation
