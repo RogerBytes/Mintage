@@ -136,7 +136,7 @@ cd $HOME/Mintage/ && ./after-reboot.sh
 
 ### Installations manuelles
 
-#### Grub Csutomizer
+#### Grub Cutomizer
 
 Si Dual-Boot seulement !
 Dans un terminal :
