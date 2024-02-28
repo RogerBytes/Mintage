@@ -223,10 +223,6 @@ Votre installation est terminée, amusez-vous bien sur Linux Mint !
 1. Faire un script de customisation pour une nouvelle session.
 2. Faire une application simple pour changer de runtime Java.
 
-### A tester
-
-- Import de thunderbird (il n'y a aucun compte associé)
-
 </details>
 
 ---
