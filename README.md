@@ -126,7 +126,7 @@ cd $HOME/Mintage/ && ./install.sh
 ```
 
 Puis faire un reboot.  
-Après le redémarrage lancez Jdownloader et Thunderbird une première fois, puis fermez les tous.  
+Après le redémarrage lancez Jdownloader et Thunderbird une première fois, puis fermez les tous.
 
 Ensuite, lancez :
 
@@ -171,7 +171,7 @@ Depuis le dossier caché `~/Applications` (qui sert à un gestionnaire pour stoc
 
 #### Jdownloader
 
-Ouvrez Jdownloader, allez dans paramètres/général et mettez votre d'utilisateur à la place de "harry" dans le chemin de téléchargement par défaut (premier de la liste)
+Ouvrez Jdownloader, allez dans paramètres/général et mettez votre nom d'utilisateur à la place de "harry" dans le chemin de téléchargement par défaut (premier de la liste)
 
 #### LanguageTools pour LibreOffice
 
@@ -207,7 +207,7 @@ sudo sensors-detect
 ### Installation terminée
 
 Dans votre dossier utilisateur se trouve le dossier Mintage : vous pouvez maintenant le supprimer.  
-Une documentation avec plein de conseils et astuces se trouve dans `~/Local/Documentation`.  
+Une documentation avec plein de conseils et astuces se trouve dans `~/Local/Documentation`.
 
 Votre installation est terminée, amusez-vous bien sur Linux Mint !
 
@@ -222,7 +222,10 @@ Votre installation est terminée, amusez-vous bien sur Linux Mint !
 
 1. Faire un script de customisation pour une nouvelle session.
 2. Faire une application simple pour changer de runtime Java.
-3. Faire un import des options de Thunderbird (sans lier de compte bien sûr, tester car c'est complexe à importer avec les changements de version)
+
+### A tester
+
+- Import de thunderbird (il n'y a aucun compte associé)
 
 </details>
 

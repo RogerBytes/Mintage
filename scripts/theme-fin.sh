@@ -10,6 +10,10 @@
 rm -r ~/.config/vivaldi/
 tar -xzvf ./DATA/vivaldi.tar.gz -C $HOME/.config/
 
+# réglages de thunderbird
+rm -r ~/.thunderbird/
+tar -xzvf ./DATA/thunderbird.tar.gz -C $HOME/
+
 # réglages de kodi
 7z x ./DATA/kodi.7z.001 -o$HOME/
 
