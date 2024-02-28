@@ -4,7 +4,7 @@
 
 ### Ajouts
 
-- Appimage
+- Appimage Launcher
 
 ### Retraits
 
