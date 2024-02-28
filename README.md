@@ -222,6 +222,7 @@ Votre installation est terminée, amusez-vous bien sur Linux Mint !
 
 1. Faire un script de customisation pour une nouvelle session.
 2. Faire une application simple pour changer de runtime Java.
+3. Ajouter quelques jeux gratuits/open source à Documentation
 
 </details>
 
