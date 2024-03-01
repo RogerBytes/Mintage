@@ -34,6 +34,14 @@ sudo nala install -y penpot-desktop
 sudo sed -i 's/^Icon=penpot-desktop$/Icon=wireframing-app/' /usr/share/applications/penpot-desktop.desktop
 ```
 
+### Indispensable
+
+Une fois installé, il faut le supprimer de la liste de logiciels (pour les màj)
+
+```bash
+sudo rm /etc/apt/sources.list.d/korbsstudio-penpot-desktop.list
+```
+
 ### Installer via flatpak
 
 Vous pouvez l'installer en local via un flatpak.

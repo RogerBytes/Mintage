@@ -1,6 +1,5 @@
 # Zsh et termux sur android
 
-
 Pour termux on va faire en sorte qu'il s'ouvre direct sur download, mais d'abord on met
 Si ce n'est pas déjà fait, accordez l'accès au stockage avec
 
@@ -59,7 +58,7 @@ pkg install -y fdroidcl
 
 Pour l'instant il n'y a aucune CLI pour ça.
 J'ai fait une feature request [ici, pour droid-ify](https://github.com/Droid-ify/client/issues/663)
-Il y a bien [fdroidcl](https://github.com/mvdan/fdroidcl) mais ça ne marche pas directement, il faut l'utiliser depuis une autre machine connecté via adb, voir ce ticket (direct on android)[https://github.com/mvdan/fdroidcl/issues/33]
+Il y a bien [fdroidcl](https://github.com/mvdan/fdroidcl) mais ça ne marche pas directement, il faut l'utiliser depuis une autre machine connecté via adb, voir ce ticket [https://github.com/mvdan/fdroidcl/issues/33](direct on android)
 
 ## Créer un script
 
@@ -78,8 +77,6 @@ file_name="example.txt"
 touch "${download_path}/${file_name}"
 ```
 
-
-
 Utilisez un éditeur de texte pour écrire le script. Par exemple, nano my_script.sh.
 Copiez le contenu du script ci-dessus dans l'éditeur.
 Enregistrez et fermez l'éditeur (CTRL+O, Enter, puis CTRL+X si vous utilisez nano).
@@ -89,7 +86,6 @@ Exécutez le script : ./my_script.sh.
 ## Executer un script au démarrage
 
 Pour qu'un script soit executé au démarrage d'android il faut installer [Termux:Boot](https://f-droid.org/packages/com.termux.boot/) ou sur [sa page github](https://github.com/termux/termux-boot) où il y a les explication d'ici.
-
 
 1. Start the Termux:Boot app once by clicking on its launcher icon. This allows the app to be run at boot.
 2. Create the ~/.termux/boot/ directory.
