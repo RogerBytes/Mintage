@@ -55,6 +55,7 @@ wget https://github.com/johnfactotum/foliate/releases/download/2.6.4/com.github.
 wget https://github.com/FreeTubeApp/FreeTube/releases/download/v0.19.0-beta/freetube_0.19.0_amd64.deb && sudo nala install -y ./*amd64.deb && rm *amd64.deb
 
 # Lutris
+sudo dpkg --add-architecture i386 && sudo apt update && sudo apt install -y wine64 wine32 libasound2-plugins:i386 libsdl2-2.0-0:i386 libdbus-1-3:i386 libsqlite3-0:i386
 latest_url=$(curl -sL -w '%{url_effective}' https://github.com/lutris/lutris/releases/latest -o /dev/null)
 version=$(basename $latest_url)
 version=${version#v}
