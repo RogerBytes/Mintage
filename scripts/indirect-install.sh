@@ -64,9 +64,10 @@ wget $download_url
 sudo nala install -y ./*.deb
 rm *.deb
 # On télécharge le wineprefix vierge
-mkdir -p ~/Jeux/Lutris/WinePrefixes
 mkdir -p ~/Jeux/Lutris/Games
-wget -P ~/Jeux/Lutris/.DATA/ https://github.com/RogerBytes/Mintage/releases/download/v1.0.0-assets/virgin-prefix.tar.gz
+wget https://github.com/RogerBytes/Mintage/releases/download/wine-pkg/lutris-proton-exp-x86_64.tgz
+tar xzf lutris-proton-exp-x86_64.tgz -C ~/.local/share/lutris/runners/wine
+rm lutris-proton-exp-x86_64.tgz
 
 # RustDesk (pour remplacer teamviewer)
 wget $(curl -s https://api.github.com/repos/rustdesk/rustdesk/releases/latest | grep "browser_download_url.*x86_64.deb" | cut -d '"' -f 4)
