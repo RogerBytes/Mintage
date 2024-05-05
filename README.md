@@ -84,7 +84,7 @@ sudo nala fetch
 echo -e "2 3 4\nY" | sudo nala fetch
 ```
 
-Il y a une source défaillante chez moi "linuxmirrors.ir", c'est pour ça que c'est "2 3 4" et non "1 2 3"  
+Il y a une source défaillante chez moi "linuxmirrors.ir", c'est pour ça que c'est "2 3 4" et non "1 2 3"
 Si vous avez besoin de gérer les sources (inutile ici) ouvrez "Gestionnaire de mises à jour" et allez dans "Edition/Sources de logiciels", allez ensuite dans "Dépôts supplémentaires" et décochez la ou les sources en question.
 
 ### Téléchargement
@@ -125,7 +125,7 @@ Puis dans un nouveau terminal :
 cd $HOME/Mintage/ && ./install.sh
 ```
 
-Puis faire un reboot.  
+Puis faire un reboot.
 Après le redémarrage lancez Jdownloader et Thunderbird une première fois, puis fermez les tous.
 
 Ensuite, lancez :
@@ -165,6 +165,9 @@ Trouvez le disque où est installé Windows, puis chez la partition NTFS où il 
 sur la petite roue de paramétrage. Choisissez l'option "modifier les options de montage",
 Décochez "Réglages par défaut de la session" et décochez tout puis faîtes "Valider.
 
+Attention, si vous avez un dual boot avec windows, il faut ABSOLUMENT que vous désactiviez le fastboot sur votre session windows, sinon les autres disques ne seront jamais démontés correctement de la session windows (bravo microsoft pour cet éclair de génie).
+[Désactiver le démarrage rapide de windows](https://www.malekal.com/desactiver-demarrage-rapide-windows-10-11/)
+
 #### Appimages
 
 Depuis le dossier caché `~/Applications` (qui sert à un gestionnaire pour stocker les appimages) lancez chacune des applications.
@@ -181,11 +184,11 @@ Téléchargez l'extension via wget (dl direct)
 wget https://languagetool.org/download/LanguageTool-stable.oxt
 ```
 
-Dans LibreOffice allez dans "Outils/Gestionnaire des extensions..."  
-Puis "Ajouter" et choisir "LanguageTool-stable.oxt"  
-Dans LibreOffice aller dans "Outils/Options" (ou 'Alt+F12'), puis :  
-"Paramètres linguistiques/Linguistique"  
-Allez dans l'encart "Modules linguistiques disponibles", puis :  
+Dans LibreOffice allez dans "Outils/Gestionnaire des extensions..."
+Puis "Ajouter" et choisir "LanguageTool-stable.oxt"
+Dans LibreOffice aller dans "Outils/Options" (ou 'Alt+F12'), puis :
+"Paramètres linguistiques/Linguistique"
+Allez dans l'encart "Modules linguistiques disponibles", puis :
 Décochez "Vérificateur orthographique Hunspell"
 
 #### Derniers réglages
@@ -206,7 +209,7 @@ sudo sensors-detect
 
 ### Installation terminée
 
-Dans votre dossier utilisateur se trouve le dossier Mintage : vous pouvez maintenant le supprimer.  
+Dans votre dossier utilisateur se trouve le dossier Mintage : vous pouvez maintenant le supprimer.
 Une documentation avec plein de conseils et astuces se trouve dans `~/Local/Documentation`.
 
 Votre installation est terminée, amusez-vous bien sur Linux Mint !
