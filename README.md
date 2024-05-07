@@ -226,6 +226,7 @@ Votre installation est terminée, amusez-vous bien sur Linux Mint !
 1. Faire un script de customisation pour une nouvelle session.
 2. Faire une application simple pour changer de runtime Java.
 3. Ajouter quelques jeux gratuits/open source à Documentation
+4. Ajouter `sudo nala install -y libreoffice-style-sifr` pour Libre Office (remplacer breeze par sifr si présent)
 
 </details>
 
