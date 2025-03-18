@@ -107,11 +107,11 @@ sudo add-apt-repository -y ppa:apandada1/brightness-controller && sudo nala upda
 sudo add-apt-repository -y ppa:cozy-team/cozy && sudo nala update && sudo nala install -y cozy
 
 # Element https://element.io/download#linux
-sudo nala install -y wget apt-transport-https
+sudo apt install -y wget apt-transport-https
 ‍sudo wget -O /usr/share/keyrings/element-io-archive-keyring.gpg https://packages.element.io/debian/element-io-archive-keyring.gpg
 ‍echo "deb [signed-by=/usr/share/keyrings/element-io-archive-keyring.gpg] https://packages.element.io/debian/ default main" | sudo tee /etc/apt/sources.list.d/element-io.list
-sudo nala update
-sudo nala install -y element-desktop
+sudo apt update
+sudo apt install -y element-desktop
 
 # gCDEmu
 sudo add-apt-repository -y ppa:cdemu/ppa && sudo nala update && sudo nala install -y cdemu-client
@@ -178,7 +178,7 @@ downloaded_file=$(basename $download_url)
 chmod +x ~/ApplicationsTemp/$downloaded_file
 
 # pCloud
-cp ./DATA/App-ressource/pcloud ~/Applications/
+cp ./DATA/App-ressource/pcloud ~/ApplicationsTemp/
 chmod +x ~/ApplicationsTemp/pcloud
 
 # 2/ g) Purge et nettoyage PPA
@@ -195,12 +195,6 @@ sudo add-apt-repository --remove -y ppa:xtradeb/apps
 
 # Suppresion PPA brightness-controller
 sudo add-apt-repository --remove -y ppa:apandada1/brightness-controller
-
-# Suppresion PPA Mangohud
-sudo add-apt-repository --remove -y ppa:oibaf/graphics-drivers
-
-# Suppresion PPA Gamescope
-sudo add-apt-repository --remove -y ppa:samoilov-lex/gamescope
 
 # Suppresion PPA gCdemu
 sudo add-apt-repository --remove -y ppa:cdemu/ppa
@@ -219,6 +213,3 @@ sudo nala update
 
 
 # Autres
-
-# Télécharger extension libre office
-wget -O LanguageTool-6.4-libreoffice.oxt https://extensions.libreoffice.org/assets/downloads/3710/1713168009/LanguageTool-6.4.oxt

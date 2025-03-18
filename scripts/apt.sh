@@ -131,9 +131,6 @@ sudo nala install -y pdfsam
 # Psensor (températures)
 sudo nala install -y lm-sensors psensor
 
-# PulseAudio
-sudo nala install -y pulsaudio
-
 # rapsberry pi imager
 sudo nala install -y rpi-imager
 

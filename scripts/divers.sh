@@ -9,6 +9,9 @@
 # 1/ a) Divers - avec prompts oui/non
 # ------------
 
+# Télécharger extension libre office
+wget -O ~/LanguageTool-6.4-libreoffice.oxt https://extensions.libreoffice.org/assets/downloads/3710/1713168009/LanguageTool-6.4.oxt
+
 # jackd2
 sudo nala install -y --assume-yes jackd2
 
