@@ -1,7 +1,0 @@
-sudo nala install -y ffmpeg
-Paramètres/Paramètres avancés
-/usr/bin/ffmpeg
-
-/usr/bin/ffprobe
-
-Vérifier qu'il reste pas des hrich

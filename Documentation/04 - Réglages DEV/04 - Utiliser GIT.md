@@ -83,6 +83,13 @@ Le premier push est différent :
 git push --set-upstream origin master
 ```
 
+Si vous avez besoin de forcer le push local vers le distant (pour un repo existant ayant eu un conflit dans l'historique par exemple)
+
+```bash
+git push --force --set-upstream origin master
+```
+
+
 Ensuite on utilise les commandes normales (`git push` sans rien d'autre derrière)
 
 ________________________________________________________

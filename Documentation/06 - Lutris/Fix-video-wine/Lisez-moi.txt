@@ -1,0 +1,81 @@
+Certains projets de jeux utilisent le système au lieu de jouer eux mêmes les vidéos (et/ou audio et polices), c'est une mauvaise pratique, mais il y a moyen de régler le problème, voici comment faire :
+
+Pour le support des video wmv (et autres codecs), il faut choisir un préfix 32bit :
+Le "+" en haut à gauche de Lutris, puis "Installer un jeu Windows à partir d'un exécutable"
+Et dans la nouvelle Fenêtre, mettre le nom du jeu, et en bas "Préréglage de l'installateur (preset): Windows XP 32-bit"
+Continuer en laissant par défaut, jusqu'à "Sélectionner le fichier d'installation"
+Commencez l'installation en choisissant "init-virgin.bat"
+
+
+Ensuite sur le bouton wine (le verre de vin) choisir "Winetricks"
+Puis "Select the default wineprefix / Install a Windows DLL or composant"
+
+cinepak
+dirac
+ffdshow
+l3codecx
+lavfilters702
+quartz
+wmp9
+xact
+
+recommandé aussi (par pour les vidéo mais les polices systèmes) :
+Ensuite sur le bouton wine (le verre de vin) choisir "Winetricks"
+Puis "Select the default wineprefix / Install a font" -> "corefonts"
+
+
+En dll qui peuvent aussi aider (j'en ai pas eu besoin mais des gens disent avoir eu des effets) :
+
+devenum
+mfc42
+quartz (FEB 2010)
+wmp10
+wmp11
+vcrun6
+
+
+
+
+
+
+
+
+
+
+
+
+
+----------------------
+
+Pour klite (pas sûr que ce soit indispensable pour l'instant, pourrait provoquer des instabilités, ne s'en servir qu'en dernier recour)
+
+Ensuite sur le bouton wine (le verre de vin) choisir "Winetricks"
+Puis "Select the default wineprefix / Install a Windows DLL or composant"
+En choisissant "klite/sp3/K-Lite_Codec_Pack_1385_Basic.exe"
+
+Au lancement pour "Preferred audio player" choisissez "Windows Media Player", faites "Next" jusqu'à la page "Audio configuration".
+Sur cette page, dans "Audio bitstream to external device", choisissez "Enabled" et "S/PDIF connection"
+Pour acceptez tout le reste (les fix etc qui sont proposés) jusqu'à la fin de l'installation.
+
+
+
+
+
+
+----------------------
+
+En dehors des problèmes de cinématiques, pour la vidéo "in-game", je vous conseille d'utiliser
+"Visual-C-Runtimes-WINE-BAT" poru installer la majorité des drivers directx et vcredist.
+
+
+----------------------
+
+Pour installer mf install, dans son réperoire voici la commande :
+
+WINEPREFIX="/home/daneel/Games/kingdom-hearts-hd-28-final-chapter-prologue/" ./mf-install.sh
+
+
+
+
+
+-

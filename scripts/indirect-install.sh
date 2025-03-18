@@ -21,6 +21,9 @@
 # Ciano Media Converter
 flatpak install -y flathub com.github.robertsanseries.ciano
 
+# FreeTube
+flatpak install -y flathub io.freetubeapp.FreeTube
+
 # Jdownloader
 flatpak install -y flathub org.jdownloader.JDownloader
 
@@ -29,6 +32,9 @@ flatpak install -y flathub org.moneymanagerex.MMEX
 
 # Mousai (shazam alternative)
 flatpak install -y flathub io.github.seadve.Mousai
+
+# OBS Studio
+flatpak install -y flathub com.obsproject.Studio
 
 # ProtonUp
 flatpak install -y flathub net.davidotek.pupgui2
@@ -45,14 +51,14 @@ flatpak install flathub -y com.github.unrud.VideoDownloader
 # AntimicroX
 wget https://github.com/AntiMicroX/antimicrox/releases/download/3.3.2/antimicrox-3.3.2-ubuntu-22.04-x86_64.deb && sudo nala install -y ./antimicrox*.deb && rm antimicrox-3.3.2-ubuntu-22.04-x86_64.deb
 
+# AppImage Launcher
+sudo nala install -y ./DATA/App-ressource/appimagelauncher_2.2.0-gha111.d9d4c73+bionic_amd64.deb
+
 # Ferdium
 wget https://github.com/ferdium/ferdium-app/releases/download/v6.2.2/Ferdium-linux-6.2.2-amd64.deb && sudo nala install -y ./Ferdium*.deb && rm Ferdium-linux-6.2.2-amd64.deb
 
 # Foliate
 wget https://github.com/johnfactotum/foliate/releases/download/2.6.4/com.github.johnfactotum.foliate_2.6.4_all.deb && sudo nala install -y ./com.github.johnfactotum.foliate_2.6.4_all.deb && rm com.github.johnfactotum.foliate_2.6.4_all.deb
-
-# FreeTube
-wget https://github.com/FreeTubeApp/FreeTube/releases/download/v0.19.0-beta/freetube_0.19.0_amd64.deb && sudo nala install -y ./*amd64.deb && rm *amd64.deb
 
 # Lutris
 sudo dpkg --add-architecture i386 && sudo apt update && sudo apt install -y wine64 wine32 libasound2-plugins:i386 libsdl2-2.0-0:i386 libdbus-1-3:i386 libsqlite3-0:i386
@@ -63,11 +69,6 @@ download_url="https://github.com/lutris/lutris/releases/download/v$version/lutri
 wget $download_url
 sudo nala install -y ./*.deb
 rm *.deb
-# On télécharge le wineprefix vierge
-mkdir -p ~/Jeux/Lutris/Games
-wget https://github.com/RogerBytes/Mintage/releases/download/wine-pkg/lutris-proton-exp-x86_64.tgz
-tar xzf lutris-proton-exp-x86_64.tgz -C ~/.local/share/lutris/runners/wine
-rm lutris-proton-exp-x86_64.tgz
 
 # RustDesk (pour remplacer teamviewer)
 wget $(curl -s https://api.github.com/repos/rustdesk/rustdesk/releases/latest | grep "browser_download_url.*x86_64.deb" | cut -d '"' -f 4)
@@ -99,22 +100,18 @@ sudo add-apt-repository -y ppa:xtradeb/apps
 sudo nala update
 sudo nala install -y avidemux-qt avidemux-cli
 
-# AppImage Launcher
-sudo add-apt-repository -y ppa:appimagelauncher-team/stable
-sudo apt update
-sudo nala install -y appimagelauncher
-
 # Brightness Controller (gère le contraste/couleur des moniteurs)
 sudo add-apt-repository -y ppa:apandada1/brightness-controller && sudo nala update && sudo nala install -y brightness-controller
 
 # Cozy Audiobook
 sudo add-apt-repository -y ppa:cozy-team/cozy && sudo nala update && sudo nala install -y cozy
 
-# Gamescope
-sudo add-apt-repository -y ppa:samoilov-lex/gamescope
+# Element https://element.io/download#linux
+sudo nala install -y wget apt-transport-https
+‍sudo wget -O /usr/share/keyrings/element-io-archive-keyring.gpg https://packages.element.io/debian/element-io-archive-keyring.gpg
+‍echo "deb [signed-by=/usr/share/keyrings/element-io-archive-keyring.gpg] https://packages.element.io/debian/ default main" | sudo tee /etc/apt/sources.list.d/element-io.list
 sudo nala update
-sudo nala install -y gamescope
-
+sudo nala install -y element-desktop
 
 # gCDEmu
 sudo add-apt-repository -y ppa:cdemu/ppa && sudo nala update && sudo nala install -y cdemu-client
@@ -166,23 +163,23 @@ rm -r jd2-vivaldi
 # ------------------------------
 
 # On crée le dossier par défaut de AppImage Launcher
-mkdir ~/Applications
+mkdir ~/ApplicationsTemp
 
 # Fontbase
 lastfontbase=$(curl -s https://fontba.se/downloads/linux | grep -o 'https://[^"]*\.AppImage')
-wget -P ~/Applications $lastfontbase
+wget -P ~/ApplicationsTemp $lastfontbase
 downloaded_file=$(basename $lastfontbase)
-chmod +x ~/Applications/$downloaded_file
+chmod +x ~/ApplicationsTemp/$downloaded_file
 
 # JoalDesktop
 download_url=$(curl -s https://api.github.com/repos/anthonyraymond/joal-desktop/releases/latest | jq -r '.assets[] | select(.name | endswith(".AppImage")) | .browser_download_url')
-wget -P ~/Applications $download_url
+wget -P ~/ApplicationsTemp $download_url
 downloaded_file=$(basename $download_url)
-chmod +x ~/Applications/$downloaded_file
+chmod +x ~/ApplicationsTemp/$downloaded_file
 
 # pCloud
 cp ./DATA/App-ressource/pcloud ~/Applications/
-chmod +x ~/Applications/pcloud
+chmod +x ~/ApplicationsTemp/pcloud
 
 # 2/ g) Purge et nettoyage PPA
 # ----------------------------
@@ -219,12 +216,9 @@ sudo nala update
 # 2/ h) Compilations
 # ------------------
 
-# Gamemode (feral game mode)
-sudo apt install -y meson dbus-user-session ninja-build git cmake libsystemd-dev libdbus-1-dev
-git clone https://github.com/FeralInteractive/gamemode.git
-cd gamemode
-meson setup --prefix=/usr build
-ninja -C build
-sudo ninja -C build install
-cd ../
-rm -rf gamemode
+
+
+# Autres
+
+# Télécharger extension libre office
+wget -O LanguageTool-6.4-libreoffice.oxt https://extensions.libreoffice.org/assets/downloads/3710/1713168009/LanguageTool-6.4.oxt

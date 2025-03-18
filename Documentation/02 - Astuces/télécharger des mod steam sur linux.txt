@@ -1,0 +1,50 @@
+https://developer.valvesoftware.com/wiki/SteamCMD#Downloading_SteamCMD
+
+On installe les dépendances :
+sudo apt update && sudo apt install -y lib32gcc-s1
+
+
+On créé un dossier pour steamcmd
+mkdir ~/steamcmd && cd ~/steamcmd
+
+
+On télécharge l'archive et on la décompresse :
+curl -sqL "https://steamcdn-a.akamaihd.net/client/installer/steamcmd_linux.tar.gz" | tar zxvf -
+
+On lance avec
+./steamcmd.sh
+
+Ou en une fois
+mkdir ~/steamcmd && cd ~/steamcmd ;
+curl -sqL "https://steamcdn-a.akamaihd.net/client/installer/steamcmd_linux.tar.gz" | tar zxvf - ;
+./steamcmd.sh
+
+et on se log
+login anonymous
+
+
+
+Dans le navigateur, allez sur :
+https://steamworkshopdownloader.io
+
+On va faire le test avec la trad fr de barony, copiez le lien dans l'input
+https://steamcommunity.com/sharedfiles/filedetails/?id=1590750251
+
+Ca fait apparaître "Question: do you know what SteamCMD is and are you logged into it?  "
+Cliquez sur "Yes"
+
+Cliquez sur le bouton violet "Click here to copy"
+
+pour récup cette commande (dans notre exemple) à copier dans le terminal de steamcmd :
+workshop_download_item 371970 1590750251
+
+
+Il donnera le chemin du telechargement du mod :
+
+Steam>workshop_download_item 371970 1590750251
+Downloading item 1590750251 ...
+Success. Downloaded item 1590750251 to "~/.steam/debian-installation/steamapps/workshop/content/371970/1590750251" (1536736 bytes)
+
+
+Les fichiers du mods seront dans :
+~/.steam/debian-installation/steamapps/workshop/content/371970/1590750251

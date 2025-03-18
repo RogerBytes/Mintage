@@ -2,7 +2,7 @@
 
 Docker est une plateforme logicielle qui permet de créer, déployer et exécuter des applications dans des conteneurs légers et isolés, offrant ainsi une meilleure portabilité et facilitant la gestion des environnements de développement et de production. Les conteneurs Docker encapsulent tout ce dont une application a besoin pour fonctionner, y compris le code, les dépendances et les configurations, ce qui simplifie le déploiement et permet d'obtenir une cohérence entre les différents environnements.
 
-________________________________________________________
+---
 
 ## Installation
 
@@ -15,37 +15,35 @@ Source depuis le site de docker [Doc de docker](https://docs.docker.com/desktop/
 #### Pour dérivé d'Ubuntu (comme Linux Mint)
 
 ```bash
-# Add Docker's official GPG key:
-# Add Docker's official GPG key:
-sudo nala update
-sudo nala install -y ca-certificates curl gnupg
+# Add Docker official GPG key:
+sudo apt-get update
+sudo apt-get install ca-certificates curl
 sudo install -m 0755 -d /etc/apt/keyrings
-curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo gpg --dearmor -o /etc/apt/keyrings/docker.gpg
-sudo chmod a+r /etc/apt/keyrings/docker.gpg
+sudo curl -fsSL https://download.docker.com/linux/ubuntu/gpg -o /etc/apt/keyrings/docker.asc
+sudo chmod a+r /etc/apt/keyrings/docker.asc
 
 # Add the repository to Apt sources:
 echo \
-  "deb [arch="$(dpkg --print-architecture)" signed-by=/etc/apt/keyrings/docker.gpg] https://download.docker.com/linux/ubuntu \
-  "$(. /etc/os-release && echo "$UBUNTU_CODENAME")" stable" | \
+  "deb [arch=$(dpkg --print-architecture) signed-by=/etc/apt/keyrings/docker.asc] https://download.docker.com/linux/ubuntu \
+  $(. /etc/os-release && echo "$UBUNTU_CODENAME") stable" | \
   sudo tee /etc/apt/sources.list.d/docker.list > /dev/null
-sudo apt update
+sudo apt-get update
 ```
 
 #### Pour Ubuntu
 
 ```bash
-# Add the repository to Apt sources:
 # Add Docker's official GPG key:
 sudo apt-get update
-sudo apt-get install ca-certificates curl gnupg
+sudo apt-get install ca-certificates curl
 sudo install -m 0755 -d /etc/apt/keyrings
-curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo gpg --dearmor -o /etc/apt/keyrings/docker.gpg
-sudo chmod a+r /etc/apt/keyrings/docker.gpg
+sudo curl -fsSL https://download.docker.com/linux/ubuntu/gpg -o /etc/apt/keyrings/docker.asc
+sudo chmod a+r /etc/apt/keyrings/docker.asc
 
 # Add the repository to Apt sources:
 echo \
-  "deb [arch="$(dpkg --print-architecture)" signed-by=/etc/apt/keyrings/docker.gpg] https://download.docker.com/linux/ubuntu \
-  "$(. /etc/os-release && echo "$VERSION_CODENAME")" stable" | \
+  "deb [arch=$(dpkg --print-architecture) signed-by=/etc/apt/keyrings/docker.asc] https://download.docker.com/linux/ubuntu \
+  $(. /etc/os-release && echo "$UBUNTU_CODENAME") stable" | \
   sudo tee /etc/apt/sources.list.d/docker.list > /dev/null
 sudo apt-get update
 ```
@@ -74,7 +72,7 @@ rm $(find . -name "docker*.deb")
 
 Voilà, Docker Desktop est installé, ainsi que docker engine (inclus dans le paquet)
 
-________________________________________________________
+---
 
 ## Utilisation d'un compte Docker
 

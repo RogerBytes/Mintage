@@ -1,0 +1,133 @@
+Toutes ces extensions sont conçues pour le navigateur Chrome (et dérivés basés sur blink) et sont compatibles avec Manifest V3, garantissant ainsi une performance optimisée et une compatibilité avec les dernières mises à jour du navigateur.
+
+1. AdGuard AdBlocker : Bloque efficacement les publicités intrusives sur le web (je m'en sers pour le filtrage manuel).
+https://chromewebstore.google.com/detail/adguard-adblocker/bgnkhhnnamicmpeenaelnjfhikgbkllg
+
+2. AHA Music - Recherche de chanson : Identifie les musiques jouées en ligne.
+https://chromewebstore.google.com/detail/aha-music-recherche-de-ch/dpacanjfikmhoddligfbehkpomnbgblf
+
+3. Allow Right Click : Permet de contourner les restrictions de clic droit.
+https://chromewebstore.google.com/detail/allow-right-click/hnafhkjheookmokbkpnfpmemlppjdgoi
+
+4. Archive Page : Archive les pages web pour les sauvegarder.
+https://chromewebstore.google.com/detail/archive-page/gcaimhkfmliahedmeklebabdgagipbia
+
+5. BlockTube : Filtre et bloque les contenus indésirables sur YouTube.
+https://chromewebstore.google.com/detail/blocktube/bbeaicapbccfllodepmimpkgecanonai
+
+6. Consent-O-Matic : Automatise les choix de consentement des cookies.
+https://chromewebstore.google.com/detail/consent-o-matic/mdjildafknihdffpkfmmpnpoiajfjnjd
+
+7. Cookie Remover : Supprime facilement les cookies d'un site.
+https://chromewebstore.google.com/detail/cookie-remover/kcgpggonjhmeaejebeoeomdlohicfhce
+
+8. Copyfish - Free OCR Software : Extrait du texte d'images ou de vidéos.
+https://chromewebstore.google.com/detail/copyfish-%F0%9F%90%9F-free-ocr-soft/eenjdnjldapjajjofmldgmkjaienebbj
+
+9. Correcteur d’orthographe : Vérifie et corrige l'orthographe en ligne.
+https://chromewebstore.google.com/detail/correcteur-d%E2%80%99orthographe/oldceeleldhonbafppcapldpdifcinji
+
+10. Dark Reader : Active un mode sombre pour tous les sites web.
+https://chromewebstore.google.com/detail/dark-reader/eimadpbcbfnmbkopoojfekhnkhdbieeh
+
+11. Decentraleyes : Charge les bibliothèques locales pour protéger la vie privée.
+https://chromewebstore.google.com/detail/decentraleyes/ldpochfccmkkmhdbclfhpagapcfdljkj
+
+12. Download with JDownloader : Intègre JDownloader au navigateur.
+https://chromewebstore.google.com/detail/download-with-jdownloader/jfpmbokkdeapjommajdfmmheiiakdlgo
+
+13. Enregistrer l'image sous... : Simplifie le téléchargement des images.
+https://chromewebstore.google.com/detail/enregistrer-limage-sous-j/gabfmnliflodkdafenbcpjdlppllnemd
+
+14. Extension Manager : Gère facilement vos extensions Chrome.
+https://chromewebstore.google.com/detail/extension-manager/efajbgpnlnobnkgdcgcnclngeolnmggp
+
+15. Flag Cookies : Ajoute des options avancées pour les cookies.
+https://chromewebstore.google.com/detail/flag-cookies/phcaemipbgodliopfijmcmlbdhpkbndb
+
+16. GoFullPage : Capture des pages web en entier.
+https://chromewebstore.google.com/detail/gofullpage-full-page-scre/fdpohaocaechififmbbbbbknoalclacl
+
+17. Highlighter : Surligne et sauvegarde du texte sur le web.
+https://chromewebstore.google.com/detail/highlighter/fdfcjfoifbjplmificlkdfneafllkgmn
+
+18. Keepa : Suivi des prix sur Amazon avec alertes.
+https://chromewebstore.google.com/detail/keepa-amazon-price-tracke/neebplgakaahbhdphmkckjjcegoiijjo
+
+19. KeePassXC Browser : Connecte KeePassXC au navigateur.
+https://chromewebstore.google.com/detail/keepassxc-browser/oboonakemofpalcgghocfoadofidjkkk
+
+20. Lichess Tools : Ajoute des fonctions avancées à Lichess.
+https://chromewebstore.google.com/detail/lichess-tools-by-siderite/langlhlcknngldkeliapahbhbcmlcbcj
+
+21. Mobile View Switcher : Affiche les sites comme sur mobile.
+https://chromewebstore.google.com/detail/mobile-view-switcher/bmhfelbhbkeoldaiphchjibggnoodpcj
+
+22. Popup Blocker (Strict) : Bloque efficacement les pop-ups.
+https://chromewebstore.google.com/detail/popup-blocker-strict/aefkmifgmaafnojlojpnekbpbmjiiogg
+
+23. Privacy Badger : Bloque les traqueurs pour protéger la vie privée.
+https://chromewebstore.google.com/detail/privacy-badger/pkehgijcmpdhfbdbbnkijodmdjhbjlgp
+
+24. Proxy Switcher and Manager : Pour se connecter à internet via divers proxy
+https://chromewebstore.google.com/detail/proxy-switcher-and-manage/onnfghpihccifgojkpnnncpagjcdbjod
+
+25. Reader View : Simplifie l'affichage des articles en ligne.
+https://chromewebstore.google.com/detail/reader-view/ecabifbgmdmgdllomnfinbmaellmclnh
+
+26. Return YouTube Dislike : Restaure les "dislikes" sur YouTube.
+https://chromewebstore.google.com/detail/return-youtube-dislike/gebbhagfogifgggkldgodflihgfeippi
+
+27. Ruffle Flash Emulator : Exécute les contenus Flash sans plugin.
+https://chromewebstore.google.com/detail/ruffle-flash-emulator/donbcfbmhbcapadipfkeojnmajbakjdc
+
+28. Screenshot YouTube Video : Capture un screenshot dans la vidéo youtube.
+https://chromewebstore.google.com/detail/screenshot-youtube-video/lnaahdmijnjnmgaalacdgakieangpjgp
+
+29. Search by Image : Recherche des images similaires en ligne.
+https://chromewebstore.google.com/detail/search-by-image/cnojnbdhbhnkbcieeekonklommdnndci
+
+30. SponsorBlock : Passe les sponsors dans les vidéos YouTube.
+https://chromewebstore.google.com/detail/sponsorblock-pour-youtube/mnjggcdmjocbbbhaepdhchncahnbgone
+
+31. Tampermonkey : Gestionnaire de scripts utilisateur.
+https://chromewebstore.google.com/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo
+
+32. uBlock Origin Lite : Bloqueur de contenu léger et rapide (complément pour adgard depuis qu'il n'y a plus de filtrage manuel).
+https://chromewebstore.google.com/detail/ublock-origin-lite/ddkjiahejlhfcafbddmgiahcphecmpfh
+
+33. Vytal : Masque votre fuseau horaire et géolocalisation.
+https://chromewebstore.google.com/detail/vytal-spoof-timezone-geol/ncbknoohfjmcfneopnfkapmkblaenokb
+
+34. Wayback Machine : Accède aux archives internet.
+https://chromewebstore.google.com/detail/wayback-machine/fpnmgdkabkmnadcjpehmlllkndpkmiak
+
+35. Web Archives : Explore des versions archivées de pages web.
+https://chromewebstore.google.com/detail/web-archives/hkligngkgcpcolhcnkgccglchdafcnao
+
+36. WebRTC Leak Shield : Protège contre les fuites WebRTC.
+https://chromewebstore.google.com/detail/webrtc-leak-shield/bppamachkoflopbagkdoflbgfjflfnfl
+
+37. Wikiwand : Améliore l'apparence des pages Wikipédia.
+https://chromewebstore.google.com/detail/wikiwand-wikipedia-and-be/emffkefkbkpkgpdeeooapgaicgmcbolj
+
+38. YouTube Redux : Personnalise l'interface YouTube.
+https://chromewebstore.google.com/detail/youtube-redux/mdgdgieddpndgjlmeblhjgljejejkikf
+
+39. Bypass paywall : Permet d'afficher les articles correctement
+https://gitflic.ru/project/magnolia1234/bypass-paywalls-chrome-clean
+
+
+Scripts :
+https://yggland.fr/userscripts/YGGTools.user.js
+https://yggland.fr/userscripts/YGGDark.user.js
+https://greasyfork.org/en/scripts/491326-pixeldrain-download-bypass
+https://update.greasyfork.org/scripts/498197/Auto%20Skip%20YouTube%20Ads.user.js
+https://greasyfork.org/en/scripts/34613-youtube-multi-downloader-v9-2-yt1s-com-no-ads-new-layout-for-yt
+https://greasyfork.org/en/scripts/521089-advanced-youtube-age-restriction-bypass
+
+réglage youtube redux
+https://i.imgur.com/p5mL30S.png
+https://i.imgur.com/Ktvuzyc.png
+https://i.imgur.com/TCTy86i.png
+.

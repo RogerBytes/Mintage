@@ -1,0 +1,1 @@
+wget https://github.com/RogerBytes/Mintage/releases/download/wine-pkg/dotsteam.tzst

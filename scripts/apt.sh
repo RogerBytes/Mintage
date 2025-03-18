@@ -113,17 +113,14 @@ sudo nala install -y kronometer
 # Lmms
 sudo nala install -y lmms
 
+# Libre Office manquants
+sudo nala install -y libreoffice-java-common
+
 # metadata cleaner
 sudo nala install -y metadata-cleaner
 
 # Numlock
 sudo nala install -y numlockx
-
-# OBS Studio
-sudo nala install -y obs-studio
-
-# OGMRip
-sudo nala install -y ogmrip
 
 # Plank
 sudo nala install -y plank
@@ -133,6 +130,9 @@ sudo nala install -y pdfsam
 
 # Psensor (températures)
 sudo nala install -y lm-sensors psensor
+
+# PulseAudio
+sudo nala install -y pulsaudio
 
 # rapsberry pi imager
 sudo nala install -y rpi-imager
@@ -166,9 +166,6 @@ sudo nala install -y synapse
 
 # Vim
 sudo nala install -y vim
-
-# VirtualBox
-sudo nala install -y virtualbox
 
 # Xfburn
 sudo nala install -y xfburn

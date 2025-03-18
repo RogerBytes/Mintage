@@ -30,6 +30,14 @@ sudo nala install -y adb fastboot
 # Dconf
 sudo nala install -y dconf-editor
 
+# Ffmpeg
+sudo nala install -y ffmpeg
+
+# VirtualBox
+sudo nala install -y virtualbox
+sudo nala install -y virtualbox-ext-pack
+sudo adduser $USER vboxusers
+
 
 # 1/ b) Shell
 # ------------
@@ -77,6 +85,7 @@ rm show-hide-applets@mohammad-sn.zip
 wget https://cinnamon-spices.linuxmint.com/files/applets/gpaste-reloaded@feuerfuchs.eu.zip
 unzip gpaste-reloaded@feuerfuchs.eu.zip -d ~/.local/share/cinnamon/applets
 rm gpaste-reloaded@feuerfuchs.eu.zip
+sudo nala install -y gpaste-2 gir1.2-gpaste-2
 
 # Forcer à quitter
 wget https://cinnamon-spices.linuxmint.com/files/applets/force-quit@cinnamon.org.zip

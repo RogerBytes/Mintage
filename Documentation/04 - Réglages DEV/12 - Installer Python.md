@@ -6,7 +6,7 @@
 Vous pouvez vérifier quelle version de Python est utilisée avec :
 
 ```bash
-python -V
+python3 -V
 ```
 
 Pyhton est installé sur Ubuntu, mais pas dernières versions, voici comment en installer

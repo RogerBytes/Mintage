@@ -1,0 +1,131 @@
+Toutes ces extensions sont conçues pour le navigateur Chrome (et dérivés basés sur gecko).
+Ce topic fait suite à celui pour chrome et dérivés : https://www.jeuxvideo.com/forums/42-51-75401952-1-0-1-0-les-38-meilleures-extensions-chrome-pour-2025.htm
+
+1. Reconnaissance musicale AudD - Recherche de chanson : Identifie les musiques jouées en ligne.
+https://addons.mozilla.org/fr/firefox/addon/audd/
+
+2. Allow Right Click : Permet de contourner les restrictions de clic droit.
+https://addons.mozilla.org/fr/firefox/addon/re-enable-right-click/
+
+3. Archive Page : Archive les pages web pour les sauvegarder.
+https://addons.mozilla.org/fr/firefox/addon/archive-page/
+
+4. BlockTube : Filtre et bloque les contenus indésirables sur YouTube.
+https://addons.mozilla.org/fr/firefox/addon/blocktube/
+
+5. Consent-O-Matic : Automatise les choix de consentement des cookies.
+https://addons.mozilla.org/fr/firefox/addon/consent-o-matic/
+
+6. Cookie Remover : Supprime facilement les cookies d'un site.
+https://addons.mozilla.org/fr/firefox/addon/cookie-remover/
+
+7. Copyfish - Free OCR Software : Extrait du texte d'images ou de vidéos.
+https://addons.mozilla.org/fr/firefox/addon/copyfish-ocr-software/
+
+8. Correcteur d’orthographe : Vérifie et corrige l'orthographe en ligne.
+https://addons.mozilla.org/fr/firefox/addon/languagetool/
+
+9. Dark Reader : Active un mode sombre pour tous les sites web.
+https://addons.mozilla.org/fr/firefox/addon/darkreader/
+
+10. Decentraleyes : Charge les bibliothèques locales pour protéger la vie privée.
+https://addons.mozilla.org/fr/firefox/addon/decentraleyes/
+
+11. Download with JDownloader : Intègre JDownloader au navigateur.
+https://addons.mozilla.org/fr/firefox/addon/download-with-jdownloader/
+
+12. Enregistrer l'image sous... : Simplifie le téléchargement des images.
+https://addons.mozilla.org/fr/firefox/addon/siat/
+
+13. Extension Manager : Gère facilement vos extensions Chrome.
+https://addons.mozilla.org/fr/firefox/addon/plugin-and-extension-manager/
+
+14. Flag Cookies : Ajoute des options avancées pour les cookies.
+https://addons.mozilla.org/fr/firefox/addon/flag-cookies/
+
+15. Easy Screenshot : Capture des pages web en entier.
+https://addons.mozilla.org/fr/firefox/addon/easyscreenshot/
+
+16. Highlighter : Surligne et sauvegarde du texte sur le web.
+https://addons.mozilla.org/fr/firefox/addon/highlighter-notes/
+
+17. Keepa : Suivi des prix sur Amazon avec alertes.
+https://addons.mozilla.org/fr/firefox/addon/keepa/
+
+18. KeePassXC Browser : Connecte KeePassXC au navigateur.
+https://addons.mozilla.org/fr/firefox/addon/keepassxc-browser/
+
+19. Prettier Lichess : Ajoute des fonctions avancées à Lichess.
+https://addons.mozilla.org/fr/firefox/addon/prettier-lichess/
+
+20. Mobile View Switcher : Affiche les sites comme sur mobile.
+https://addons.mozilla.org/fr/firefox/addon/mobile-view-switcher/
+
+21. Popup Blocker (Strict) : Bloque efficacement les pop-ups.
+https://addons.mozilla.org/fr/firefox/addon/popup-blocker/
+
+22. Privacy Badger : Bloque les traqueurs pour protéger la vie privée.
+https://addons.mozilla.org/fr/firefox/addon/privacy-badger17/
+
+23. Reader View : Simplifie l'affichage des articles en ligne.
+https://addons.mozilla.org/fr/firefox/addon/reader-viewer/
+
+24. Return YouTube Dislike : Restaure les "dislikes" sur YouTube.
+https://addons.mozilla.org/fr/firefox/addon/return-youtube-dislikes/
+
+25. Ruffle Flash Emulator : Exécute les contenus Flash sans plugin.
+https://addons.mozilla.org/fr/firefox/addon/ruffle_rs/
+
+26. Search by Image : Recherche des images similaires en ligne.
+https://addons.mozilla.org/fr/firefox/addon/search_by_image/
+
+27. SponsorBlock : Passe les sponsors dans les vidéos YouTube.
+https://addons.mozilla.org/fr/firefox/addon/sponsorblock/
+
+28. Tampermonkey : Gestionnaire de scripts utilisateur.
+https://addons.mozilla.org/fr/firefox/addon/tampermonkey/
+
+29. uBlock Origin : Bloqueur de contenu complet et rapide.
+https://addons.mozilla.org/fr/firefox/addon/ublock-origin/
+
+30. Chameleon : Masque votre fuseau horaire et géolocalisation.
+https://addons.mozilla.org/fr/firefox/addon/chameleon-ext/
+
+31. Wayback Machine : Accède aux archives internet.
+https://addons.mozilla.org/fr/firefox/addon/wayback-machine_new/
+
+32. Web Archives : Explore des versions archivées de pages web.
+https://addons.mozilla.org/fr/firefox/addon/view-page-archive/
+
+33. WebRTC Leak Shield : Protège contre les fuites WebRTC.
+https://addons.mozilla.org/fr/firefox/addon/webrtc-leak-shield/
+
+34. Wikiwand : Améliore l'apparence des pages Wikipédia.
+https://addons.mozilla.org/fr/firefox/addon/wikiwand-wikipedia-modernized/
+
+35. YouTube Screenshot Button : Prendre screenshot YouTube.
+https://addons.mozilla.org/fr/firefox/addon/youtube-screenshot-button/
+
+36. Youtube Redux : Améliorer l'habillage de youtube
+https://addons.mozilla.org/fr/firefox/addon/youtube-redux/
+
+37. Proxy Switcher and Manager : Pour se connecter à internet via divers proxy
+https://addons.mozilla.org/fr/firefox/addon/proxy-switcher-and-manager/
+
+38. Bypass paywall : Permet d'afficher les articles correctement
+https://gitflic.ru/project/magnolia1234/bypass-paywalls-firefox-clean (il faut décompresser le zip et compresser les élementd du zip depuis la racin de ce dernier, ne marche pas avec un dossier en zip; iil faut que ce soit les fichiers)
+
+
+Scripts :
+https://yggland.fr/userscripts/YGGTools.user.js
+https://yggland.fr/userscripts/YGGDark.user.js
+https://greasyfork.org/en/scripts/491326-pixeldrain-download-bypass
+https://update.greasyfork.org/scripts/498197/Auto%20Skip%20YouTube%20Ads.user.js
+https://greasyfork.org/en/scripts/34613-youtube-multi-downloader-v9-2-yt1s-com-no-ads-new-layout-for-yt
+https://greasyfork.org/en/scripts/521089-advanced-youtube-age-restriction-bypass
+
+réglage youtube redux
+https://i.imgur.com/p5mL30S.png
+https://i.imgur.com/Ktvuzyc.png
+https://i.imgur.com/TCTy86i.png
+.

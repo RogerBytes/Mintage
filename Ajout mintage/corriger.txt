@@ -1,69 +1,36 @@
-déplacer steam en prérequis
-
-et ajouter pulsaudio aussi en prérequis (req par radio 3.0)
-et ajouter
-
-sudo nala install -y libreoffice-java-common
-
-
-Voir gpaste pourquoi il appaait pas
-
-ogmrip manquant
-
+POUR JAVA
 
 Changer de version de jaa
 et voir pour installer java 11
-
 update-java-alternatives --list
-
 sudo update-alternatives --config java
-
-
-
 java -version
 
+_____________________________________________________________________________
 
-
-
-Mettre à jour
-LanguageTool-6.4.oxt
-
-
-
-
-
-Ajouter lutris aussi
-
-appimage launcher disparu
-
-/home/rogerbytes/Applications
-
-Lancer toutes les applications s'y trouvant pour integration
-
-
-verifier que xed se ferme avec le dernier onglet sinon activer l'optioon dans editeuyr
-
-
-montrer les flatpak nàon vérifié dans les options du appstore
-
-
-Remplacer gpaste par gpaste reloaded https://cinnamon-spices.linuxmint.com/applets/view/237
-
-Et ajouter derrière virtualbox (à mettre en prerequis également à cause des choix)
-sudo nala install -y virtualbox-ext-pack
-sudo adduser $USER vboxusers
-
-Penser à ajouter la wallpaper ici mis
-/usr/share/backgrounds/Wallpapers
+POUR THUNDERBIRD
 
 Dans thunderbird virer extension hide local folder et passer par le menu burger (dans la colonne de gauche où il l y a les comptes mail) et cocher "Masquer les dossiers locaux"
 
+______________________________________________________________________________
 
+POUR FLATPAK
 
+montrer les flatpak non vérifiés dans les options du appstore
 
+______________________________________________________________________________
 
+POUR XED
 
+changer xed pour autoriser les retour chariot vide et espace vide fin de ligne
+verifier que xed se ferme avec le dernier onglet sinon activer l'optioon dans editeuyr
+______________________________________________________________________________
 
+POUR JDOWNLOADER
 
+Paramètres/Paramètres avancés
+/usr/bin/ffmpeg
 
-.
+/usr/bin/ffprobe
+
+Vérifier qu'il reste pas des hrich

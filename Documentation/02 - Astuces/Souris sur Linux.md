@@ -9,22 +9,22 @@ Pour les souris il y a deux utilitaires principaux :
 
 ### Dépendances
 
+En accord avec [la page d'install de linux](https://github.com/ckb-next/ckb-next/wiki/Linux-Installation) cela semble facultatif
+
 On installe les lib requises avec
 
 ```bash
 sudo nala install -y build-essential cmake libudev-dev qtbase5-dev zlib1g-dev libpulse-dev libquazip5-dev libqt5x11extras5-dev libxcb-screensaver0-dev libxcb-ewmh-dev libxcb1-dev qttools5-dev git libdbusmenu-qt5-dev
 ```
 
-### Compilation
+### installer via le ppa
 
 On le compile et on l'installe avec
 
 ```bash
-git clone https://github.com/ckb-next/ckb-next.git
-cd ckb-next
-./quickinstall
-cd
-sudo rm -r ckb-next
+sudo add-apt-repository -y ppa:tatokis/ckb-next
+sudo nala update
+sudo nala install -y ckb-next
 ```
 
 Voilà il est installé.
@@ -43,6 +43,13 @@ Pour relancer ckb normalement, on utilise
 
 ```bash
 sudo systemctl start ckb-next-daemon
+```
+
+
+Pour le lancer en minimisé, vérifiez que c'est 
+
+```bash  
+ckb-next --background  
 ```
 
 ## Installer Piper

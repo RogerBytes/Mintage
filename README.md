@@ -207,6 +207,14 @@ Pour lancer une détection des capteurs thermiques et autres :
 sudo sensors-detect
 ```
 
+Allez dans le dossier  
+```bash  
+~/ApplicationsTemp
+```
+
+Lancer toutes les applications s'y trouvant pour que AppImage Launcher propose l'intégration
+
+
 ### Installation terminée
 
 Dans votre dossier utilisateur se trouve le dossier Mintage : vous pouvez maintenant le supprimer.

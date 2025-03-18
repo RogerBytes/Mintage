@@ -55,6 +55,28 @@ Lancez le script :
 Il créera un winprefix vierge dans `~/Jeux/Lutris/WinePrefixes/`.
 Dans lutris vous devrez changer OBLIGATOIREMENT la version de wine pour terminer la configuration, c'est indispensable.
 
+## Faire une archive de son jeux
+
+Allez dans le dossier "Jeux" et faite la commande :
+
+```sh
+./export-wine-port.sh <nom de prefixe> "<Nom du jeu>"
+```
+
+par exemple :
+
+```sh
+./export-wine-port.sh cave-storys-secret-santa "Cave Story"
+```
+
+ou si vous voulez une tarball (archive nom compréssée)
+
+```sh
+./export-wine-port.sh cave-storys-secret-santa "Cave Story" tar
+```
+
+Ca génère l'archive dans votre dossier utilisateur.
+
 ## Informations système
 
 C'est ce qui se trouve dans "Menu Burger/Préférences/Système", ça vous permet de comprendre à quoi ça fera référence si vous paramétrez des réglages sur des jeux via wine/proton.
