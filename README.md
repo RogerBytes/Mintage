@@ -170,7 +170,8 @@ Attention, si vous avez un dual boot avec windows, il faut ABSOLUMENT que vous d
 
 #### Appimages
 
-Depuis le dossier caché `~/Applications` (qui sert à un gestionnaire pour stocker les appimages) lancez chacune des applications.
+Depuis le dossier caché `~/ApplicationsTemp` (qui sert à un gestionnaire pour stocker les appimages) lancez chacune des applications.
+Vous pouvez supprimer le dossier après.
 
 #### Jdownloader
 
@@ -205,11 +206,6 @@ Pour lancer une détection des capteurs thermiques et autres :
 
 ```bash
 sudo sensors-detect
-```
-
-Allez dans le dossier  
-```bash  
-~/ApplicationsTemp
 ```
 
 Lancer toutes les applications s'y trouvant pour que AppImage Launcher propose l'intégration
