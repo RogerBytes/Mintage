@@ -60,16 +60,6 @@ wget https://github.com/ferdium/ferdium-app/releases/download/v6.2.2/Ferdium-lin
 # Foliate
 wget https://github.com/johnfactotum/foliate/releases/download/2.6.4/com.github.johnfactotum.foliate_2.6.4_all.deb && sudo nala install -y ./com.github.johnfactotum.foliate_2.6.4_all.deb && rm com.github.johnfactotum.foliate_2.6.4_all.deb
 
-# Lutris
-sudo dpkg --add-architecture i386 && sudo apt update && sudo apt install -y wine64 wine32 libasound2-plugins:i386 libsdl2-2.0-0:i386 libdbus-1-3:i386 libsqlite3-0:i386
-latest_url=$(curl -sL -w '%{url_effective}' https://github.com/lutris/lutris/releases/latest -o /dev/null)
-version=$(basename $latest_url)
-version=${version#v}
-download_url="https://github.com/lutris/lutris/releases/download/v$version/lutris_${version}_all.deb"
-wget $download_url
-sudo nala install -y ./*.deb
-rm *.deb
-
 # RustDesk (pour remplacer teamviewer)
 wget $(curl -s https://api.github.com/repos/rustdesk/rustdesk/releases/latest | grep "browser_download_url.*x86_64.deb" | cut -d '"' -f 4)
 sudo dpkg -i rustdesk-*-x86_64.deb
@@ -105,13 +95,6 @@ sudo add-apt-repository -y ppa:apandada1/brightness-controller && sudo nala upda
 
 # Cozy Audiobook
 sudo add-apt-repository -y ppa:cozy-team/cozy && sudo nala update && sudo nala install -y cozy
-
-# Element https://element.io/download#linux
-sudo apt install -y wget apt-transport-https
-‍sudo wget -O /usr/share/keyrings/element-io-archive-keyring.gpg https://packages.element.io/debian/element-io-archive-keyring.gpg
-‍echo "deb [signed-by=/usr/share/keyrings/element-io-archive-keyring.gpg] https://packages.element.io/debian/ default main" | sudo tee /etc/apt/sources.list.d/element-io.list
-sudo apt update
-sudo apt install -y element-desktop
 
 # gCDEmu
 sudo add-apt-repository -y ppa:cdemu/ppa && sudo nala update && sudo nala install -y cdemu-client

@@ -9,6 +9,13 @@
 # 1/ a) Divers - avec prompts oui/non
 # ------------
 
+# Element https://element.io/download#linux
+sudo apt install -y wget apt-transport-https
+‍sudo wget -O /usr/share/keyrings/element-io-archive-keyring.gpg https://packages.element.io/debian/element-io-archive-keyring.gpg
+‍echo "deb [signed-by=/usr/share/keyrings/element-io-archive-keyring.gpg] https://packages.element.io/debian/ default main" | sudo tee /etc/apt/sources.list.d/element-io.list
+sudo apt update
+sudo apt install -y element-desktop
+
 # Télécharger extension libre office
 wget -O ~/LanguageTool-6.4-libreoffice.oxt https://extensions.libreoffice.org/assets/downloads/3710/1713168009/LanguageTool-6.4.oxt
 
@@ -119,6 +126,9 @@ rm smallcalc_applet@lerc.sds.zip
 wget https://cinnamon-spices.linuxmint.com/files/applets/sound150@claudiux.zip
 unzip sound150@claudiux.zip -d ~/.local/share/cinnamon/applets
 rm sound150@claudiux.zip
+
+# Steam
+sudo nala install -y steam
 
 # Tight Network Usage Indicator
 wget https://cinnamon-spices.linuxmint.com/files/applets/ifstat@tagadan.zip

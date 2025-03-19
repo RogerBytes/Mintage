@@ -69,6 +69,8 @@ sudo nala install -y gnome-todo
 # Gparted
 sudo nala install -y gparted
 
+# Grub2 Mint 2K (theme grand ecran)
+
 # Gscan2Pdf
 sudo nala install -y gscan2pdf tesseract-ocr-fra
 
@@ -116,6 +118,9 @@ sudo nala install -y lmms
 # Libre Office manquants
 sudo nala install -y libreoffice-java-common
 
+# Lutris
+sudo nala install -y lutris
+
 # metadata cleaner
 sudo nala install -y metadata-cleaner
 
@@ -145,9 +150,6 @@ sudo nala install -y sound-juicer
 
 # Stacer
 sudo nala install -y stacer
-
-# Steam
-sudo nala install -y steam
 
 # Tilix
 sudo nala install -y tilix
