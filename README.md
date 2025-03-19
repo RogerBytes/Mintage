@@ -179,12 +179,6 @@ Ouvrez Jdownloader, allez dans paramètres/général et mettez votre nom d'utili
 
 #### LanguageTools pour LibreOffice
 
-Téléchargez l'extension via wget (dl direct)
-
-```bash
-wget https://languagetool.org/download/LanguageTool-stable.oxt
-```
-
 Dans LibreOffice allez dans "Outils/Gestionnaire des extensions..."
 Puis "Ajouter" et choisir "LanguageTool-stable.oxt"
 Dans LibreOffice aller dans "Outils/Options" (ou 'Alt+F12'), puis :
