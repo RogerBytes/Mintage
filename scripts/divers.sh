@@ -11,8 +11,8 @@
 
 # Element https://element.io/download#linux
 sudo nala install -y wget apt-transport-https
-‍sudo wget -O /usr/share/keyrings/element-io-archive-keyring.gpg https://packages.element.io/debian/element-io-archive-keyring.gpg
-‍echo "deb [signed-by=/usr/share/keyrings/element-io-archive-keyring.gpg] https://packages.element.io/debian/ default main" | sudo tee /etc/apt/sources.list.d/element-io.list
+sudo wget -O /usr/share/keyrings/element-io-archive-keyring.gpg https://packages.element.io/debian/element-io-archive-keyring.gpg
+echo "deb [signed-by=/usr/share/keyrings/element-io-archive-keyring.gpg] https://packages.element.io/debian/ default main" | sudo tee /etc/apt/sources.list.d/element-io.list
 sudo nala update
 sudo nala install -y element-desktop
 
@@ -22,22 +22,22 @@ wget -O ~/LanguageTool-6.4-libreoffice.oxt https://extensions.libreoffice.org/as
 # jackd2
 sudo nala install -y --assume-yes jackd2
 
-# DVD support libdvd
+# DVD support libdvd
 sudo nala install -y regionset libavcodec-extra libdvd-pkg && sudo dpkg-reconfigure libdvd-pkg
 
-# Apt-Xapian-Index (fix pour recherche dans synaptic)
+# Apt-Xapian-Index (fix pour recherche dans synaptic)
 sudo nala install -y apt-xapian-index
 
 # 1/ a) Divers - normaux
 # ------------
 
-# Ardour
+# Ardour
 sudo nala install -y --assume-yes ardour
 
-# Drivers android
+# Drivers android
 sudo nala install -y adb fastboot
 
-# Dconf
+# Dconf
 sudo nala install -y dconf-editor
 
 # Ffmpeg

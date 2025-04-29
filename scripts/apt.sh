@@ -15,13 +15,13 @@
 # 2/ a) Installation depuis dépôts officiels
 # ------------------------------------------
 
-# Audacity
+# Audacity
 sudo nala install -y audacity
 
-# Blender
+# Blender
 sudo nala install -y blender
 
-# Blueman (bluetooth)
+# Blueman (bluetooth)
 sudo nala install -y blueman
 
 # Caffeine
@@ -30,25 +30,25 @@ sudo nala install -y caffeine
 # Cartes
 sudo nala install -y gnome-maps
 
-# Catfish
+# Catfish
 sudo nala install -y catfish
 
-# Cheese
+# Cheese
 sudo nala install -y cheese
 
-# ClamTK
+# ClamTK
 sudo nala install -y clamav clamav-daemon && sudo systemctl stop clamav-freshclam && sudo freshclam && sudo systemctl start clamav-freshclam && sudo nala install -y clamtk-gnome
 
 # Cmatrix
 sudo nala install -y cmatrix
 
-# Darktable
+# Darktable
 sudo nala install -y darktable
 
-# Devede NG
+# Devede NG
 sudo nala install -y devede
 
-# FileZilla
+# FileZilla
 sudo nala install -y filezilla
 
 # Floorp
@@ -57,13 +57,13 @@ sudo curl --fail -o /etc/apt/sources.list.d/floorp.list https://ppa.floorp.app/s
 sudo apt update
 sudo nala install -y floorp
 
-# Gaupol
+# Gaupol
 sudo nala install -y gaupol
 
-# Ghex
+# Ghex
 sudo nala install -y ghex
 
-# Gimp
+# Gimp
 sudo nala install -y gimp gimp-help-fr
 
 # Ghostwriter (lecteur editeur markdown léger)
@@ -72,18 +72,18 @@ sudo apt install -y ghostwriter
 # Gnome todos
 sudo nala install -y gnome-todo
 
-# Gparted
+# Gparted
 sudo nala install -y gparted
 
 # Grub2 Mint 2K (theme grand ecran)
 
-# Gscan2Pdf
+# Gscan2Pdf
 sudo nala install -y gscan2pdf tesseract-ocr-fra
 
-# Handbrake
+# Handbrake
 sudo nala install -y handbrake
 
-# Inkscape
+# Inkscape
 sudo nala install -y inkscape
 
 # Java 11
@@ -92,16 +92,16 @@ sudo nala install -y openjdk-11-jdk
 # jq (outil json CLI)
 sudo nala install -y jq
 
-# KdeConnect
+# KdeConnect
 sudo nala install -y kdeconnect
 
-# Kdenlive
+# Kdenlive
 sudo nala install -y kdenlive*
 
-# KeePass
+# KeePass
 sudo nala install -y keepassxc
 
-# Kodi
+# Kodi
 sudo nala install -y kodi
 sudo nala install -y kodi-peripheral-joystick
 sudo nala install -y kodi-pvr-iptvsimple
@@ -118,13 +118,13 @@ sudo nala install -y kodi-visualization-shadertoy-data
 sudo nala install -y kodi-visualization-spectrum:amd64
 sudo nala install -y kodi-visualization-waveform
 
-# Krita
+# Krita
 sudo nala install -y krita
 
-# Kronometer
+# Kronometer
 sudo nala install -y kronometer
 
-# Lmms
+# Lmms
 sudo nala install -y lmms
 
 # Libre Office manquants
@@ -139,10 +139,10 @@ sudo nala install -y metadata-cleaner
 # Numlock
 sudo nala install -y numlockx
 
-# Plank
+# Plank
 sudo nala install -y plank
 
-# PdfSam
+# PdfSam
 sudo nala install -y pdfsam
 
 # Psensor (températures)
@@ -154,16 +154,16 @@ sudo nala install -y rpi-imager
 # Sauvegardes (deja dup, complément de timeshift)
 sudo nala install -y deja-dup
 
-# Scribus
+# Scribus
 sudo nala install -y scribus
 
-# Sound Juicer
+# Sound Juicer
 sudo nala install -y sound-juicer
 
-# Stacer
+# Stacer
 sudo nala install -y stacer
 
-# Tilix
+# Tilix
 sudo nala install -y tilix
 
 # Transmission (sur LM vanilla mais se désinstalle sans que je comprenne pourquoi)
@@ -172,19 +172,19 @@ sudo nala install -y transmission-gtk
 # Trimage
 sudo nala install -y trimage
 
-# Synapse
+# Synapse
 sudo nala install -y synapse
 
 # Vim
 sudo nala install -y vim
 
-# Xfburn
+# Xfburn
 sudo nala install -y xfburn
 
-# Xpad (remplace note "sticky")
+# Xpad (remplace note "sticky")
 sudo nala install -y xpad
 
-# Installer les pack de langues
+# Installer les pack de langues
 sudo nala install -y language-pack-en-base
 sudo nala install -y language-pack-fr-base
 sudo nala install -y language-pack-gnome-fr
