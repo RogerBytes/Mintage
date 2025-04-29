@@ -43,6 +43,9 @@ https://addons.mozilla.org/fr/firefox/addon/plugin-and-extension-manager/
 14. Flag Cookies : Ajoute des options avancées pour les cookies.
 https://addons.mozilla.org/fr/firefox/addon/flag-cookies/
 
+15. Floccus : Sunchronisation des signets
+https://addons.mozilla.org/fr/firefox/addon/floccus/?utm_source=addons.mozilla.org&utm_medium=referral&utm_content=search
+
 15. Easy Screenshot : Capture des pages web en entier.
 https://addons.mozilla.org/fr/firefox/addon/easyscreenshot/
 
@@ -115,6 +118,17 @@ https://addons.mozilla.org/fr/firefox/addon/proxy-switcher-and-manager/
 38. Bypass paywall : Permet d'afficher les articles correctement
 https://gitflic.ru/project/magnolia1234/bypass-paywalls-firefox-clean (il faut décompresser le zip et compresser les élementd du zip depuis la racin de ce dernier, ne marche pas avec un dossier en zip; iil faut que ce soit les fichiers)
 
+39. Brave Search
+https://addons.mozilla.org/fr/firefox/addon/brave-search/
+
+40. Load Progress Bar : affiche le chargement de page en direct
+https://addons.mozilla.org/fr/firefox/addon/load-progress-bar/
+
+41. Date Today : Affiche l'heure et la date
+https://addons.mozilla.org/fr/firefox/addon/date-today/
+
+42. Open bookmarks in a new tab
+https://addons.mozilla.org/fr/firefox/addon/open-bookmarks-in-a-new-tab/
 
 Scripts :
 https://yggland.fr/userscripts/YGGTools.user.js
@@ -123,6 +137,11 @@ https://greasyfork.org/en/scripts/491326-pixeldrain-download-bypass
 https://update.greasyfork.org/scripts/498197/Auto%20Skip%20YouTube%20Ads.user.js
 https://greasyfork.org/en/scripts/34613-youtube-multi-downloader-v9-2-yt1s-com-no-ads-new-layout-for-yt
 https://greasyfork.org/en/scripts/521089-advanced-youtube-age-restriction-bypass
+https://greasyfork.org/fr/scripts/499831-anti-adblock-detector
+
+Et faire aussi
+https://reek.github.io/anti-adblock-killer/#userscript
+
 
 réglage youtube redux
 https://i.imgur.com/p5mL30S.png

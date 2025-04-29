@@ -1,0 +1,10 @@
+for file in *.*; do mv -- "$file" "${file%.*}.CACA"; done
+
+
+
+
+
+
+
+Pour tout renommer en exe
+for file in *.*; do mv -- "$file" "${file%.*}.exe"; done

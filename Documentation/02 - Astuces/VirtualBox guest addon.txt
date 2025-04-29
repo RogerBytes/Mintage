@@ -1,0 +1,18 @@
+sudo apt install -y build-essential linux-headers-$(uname -r)
+
+Ensuite aller sur
+https://download.virtualbox.org/virtualbox/
+
+Connaitre sa version en allant dans `Aide\A propos de virtualbox`
+dans le texte en bas j'ai
+Interface graphique de VirtualBox Version 7.0.16_Ubuntu r162802
+© 2004-2024 Oracle and/or its affiliates (Qt5.15.13)
+Copyright © 2024 Oracle and/or its affiliates.
+
+par exemple je suis sur :
+7.0.16
+
+Donc je le choisis et arrive sur
+https://download.virtualbox.org/virtualbox/7.0.16/
+et je télécharge
+VBoxGuestAdditions_7.0.16.iso

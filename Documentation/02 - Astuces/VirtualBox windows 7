@@ -1,0 +1,23 @@
+Le télécharger depuis Windows 7 AIO v7601.27017 Décembre 2024 Fr ISO
+x64
+https://mega.nz/file/JdgXHQ6Q#VDnLkiaVnxuAqsh8LK-S7dwNsIkqc4GW-mgnsdc614A
+x86
+https://mega.nz/file/wIoTUTpY#V6xw_ZNk3h_ryk9igz28MsWOEPo7f5V39Vu1wlWrqFs
+
+
+https://tb.rg-adguard.net/public.php
+
+Sur VirtualBox, assure-toi d'activer l'accélération matérielle (VT-x/AMD-V) dans les paramètres de la VM et attribue suffisamment de RAM et de CPU pour une meilleure performance.
+
+
+Ram 6 GO (6 144 MB)
+CPU 4 coeur
+
+Dans Unatented Guest OS install Setup
+Mettre username et password
+
+Pour le disque virtuel mettre 50 Go
+et cocher "Preallocate full size"
+
+
+ pour l'activation Windows Loader v2.2.2 & Mas AIO 2.8 sont inclus
