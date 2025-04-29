@@ -149,11 +149,17 @@ sudo nala install -y ffmpeg xdotool x11-utils
 # Dépendances de color picker
 sudo nala install -y xclip python3-xlib
 
-# Dépendances de gpaste rechargé
-sudo nala install -y gpaste gir1.2-gpaste-1.0
-
-# Dépendances de radio3.0
-sudo nala install -y mpv libmpv-dev yt-dlp sox libsox-fmt-all at python3-polib mpv-mpris
+# Dépendances de radio ++
+sudo nala install -y mpv libmpv-dev sox libsox-fmt-all at python3-polib mpv-mpris
+sudo apt purge yt-dlp
+https://github.com/yt-dlp/yt-dlp
+sudo nala install -y pipx
+pipx ensurepath
+pipx install yt-dlp
+sudo touch /usr/local/bin/update_yt_dlp.sh
+echo -e "#! /bin/bash\npipx upgrade yt-dlp" | sudo tee /usr/local/bin/update_yt_dlp.sh > /dev/null
+sudo chmod +x /usr/local/bin/update_yt_dlp.sh
+sudo crontab -l | { cat; echo "@reboot /usr/local/bin/update_yt_dlp.sh"; } | sudo crontab -
 
 # 1/ d) Desklet
 # -------------

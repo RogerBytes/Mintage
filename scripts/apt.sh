@@ -51,12 +51,6 @@ sudo nala install -y devede
 # FileZilla
 sudo nala install -y filezilla
 
-# Floorp
-sudo curl --fail -o /usr/share/keyrings/floorp-apt.asc https://ppa.floorp.app/setup/KEY.asc
-sudo curl --fail -o /etc/apt/sources.list.d/floorp.list https://ppa.floorp.app/setup/floorp.list
-sudo apt update
-sudo nala install -y floorp
-
 # Gaupol
 sudo nala install -y gaupol
 

@@ -21,6 +21,9 @@
 # Ciano Media Converter
 flatpak install -y flathub com.github.robertsanseries.ciano
 
+# Floorp
+flatpak install -y flathub one.ablaze.floorp
+
 # FreeTube
 flatpak install -y flathub io.freetubeapp.FreeTube
 
