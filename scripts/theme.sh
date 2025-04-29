@@ -169,6 +169,9 @@ EOF
 
 sudo sed -i 's/^Exec=.*$/Exec=env QT_QPA_PLATFORMTHEME=qt5ct virtualbox %U/' /usr/share/applications/virtualbox.desktop
 
+# Dépendances pour la radio
+sudo nala install -y python3-brotli python3-polib ffmpeg ffmpegthumbnailer yt-dlp libnotify-bin at sox mpv pulseaudio
+
 # Passer le shell en zsh
 tilix -e bash -c 'chsh -s $(which zsh); exec bash'
 

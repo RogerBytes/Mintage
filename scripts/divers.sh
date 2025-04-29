@@ -107,10 +107,10 @@ wget https://cinnamon-spices.linuxmint.com/files/applets/timer@Severga.zip
 unzip timer@Severga.zip -d ~/.local/share/cinnamon/applets
 rm timer@Severga.zip
 
-# Radio3.0
-wget https://cinnamon-spices.linuxmint.com/files/applets/Radio3.0@claudiux.zip
-unzip Radio3.0@claudiux.zip -d ~/.local/share/cinnamon/applets
-rm Radio3.0@claudiux.zip
+# Radio ++
+wget https://cinnamon-spices.linuxmint.com/files/applets/radio@driglu4it.zip
+unzip radio@driglu4it.zip -d ~/.local/share/cinnamon/applets
+rm radio@driglu4it.zip
 
 # ScreenShot+Record Desktop
 wget https://cinnamon-spices.linuxmint.com/files/applets/ScreenShot+RecordDesktop@tech71.zip

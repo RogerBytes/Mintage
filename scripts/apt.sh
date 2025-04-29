@@ -51,6 +51,12 @@ sudo nala install -y devede
 # FileZilla
 sudo nala install -y filezilla
 
+# Floorp
+sudo curl --fail -o /usr/share/keyrings/floorp-apt.asc https://ppa.floorp.app/setup/KEY.asc
+sudo curl --fail -o /etc/apt/sources.list.d/floorp.list https://ppa.floorp.app/setup/floorp.list
+sudo apt update
+sudo nala install -y floorp
+
 # Gaupol
 sudo nala install -y gaupol
 
@@ -80,8 +86,14 @@ sudo nala install -y handbrake
 # Inkscape
 sudo nala install -y inkscape
 
+# Java 11
+sudo nala install -y openjdk-11-jdk
+
 # jq (outil json CLI)
 sudo nala install -y jq
+
+# KdeConnect
+sudo nala install -y kdeconnect
 
 # Kdenlive
 sudo nala install -y kdenlive*

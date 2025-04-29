@@ -1,0 +1,45 @@
+Il faut passer par youtube dlp pour le téléchargement
+et aussi changer le repertoire de dl (voir faire un script de modif du fichier ~/.config/cinnamon/spices/radio@driglu4it/radio@driglu4it.json )
+
+
+Pour l'installation de youtube-dlp, il y a 3 possibilités
+
+1 installation régulière via fichier
+
+sudo curl -L https://github.com/yt-dlp/yt-dlp/releases/latest/download/yt-dlp -o /usr/local/bin/yt-dlp
+sudo chmod a+rx /usr/local/bin/yt-dlp
+sudo apt purge yt-dlp
+sudo nala install -y ffmpeg
+UPDATE_PATH="/etc/cron.daily/update_yt_dlp"
+touch ${UPDATE_PATH}
+echo "#! /bin/sh" > ${UPDATE_PATH}
+echo "yt-dlp -U" >> ${UPDATE_PATH
+sudo chmod +x /etc/cron.daily/update_yt_dlp
+
+
+2 installation régulière  via pipx
+sudo apt purge yt-dlp
+https://github.com/yt-dlp/yt-dlp
+sudo nala install -y pipx
+pipx ensurepath
+pipx install yt-dlp
+
+sudo touch /usr/local/bin/update_yt_dlp.sh
+echo -e "#! /bin/bash\npipx upgrade yt-dlp" | sudo tee /usr/local/bin/update_yt_dlp.sh > /dev/null
+sudo chmod +x /usr/local/bin/update_yt_dlp.sh
+sudo crontab -l | { cat; echo "@reboot /usr/local/bin/update_yt_dlp.sh"; } | sudo crontab -
+
+
+ou faire les màj avec
+pipx upgrade yt-dlp
+
+
+3 Via le gist du dev de radio++
+
+GIST_URL="https://gist.github.com/jonath92/039e998b3d3f6ba4afd5d5c671eaedf1"
+GIST_ID=$(basename "$GIST_URL")
+RAW_URL=$(curl -s "https://api.github.com/gists/$GIST_ID" | grep '"raw_url"' | cut -d '"' -f4)
+FILENAME=$(basename "$RAW_URL")
+curl -L "$RAW_URL" -o "$FILENAME"
+chmod +x "$FILENAME"
+sudo ./"$FILENAME"

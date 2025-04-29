@@ -1,10 +1,3 @@
-POUR JAVA
-
-Changer de version de jaa
-et voir pour installer java 11
-update-java-alternatives --list
-sudo update-alternatives --config java
-java -version
 
 _____________________________________________________________________________
 
@@ -17,6 +10,9 @@ ______________________________________________________________________________
 POUR FLATPAK
 
 montrer les flatpak non vérifiés dans les options du appstore
+Va dans Paramètres de ton AppCenter (ou GNOME Software), puis active l’option Afficher les applications non vérifiées ou Sources non vérifiées dans l’onglet Sources ou Flatpak.
+Il faudra chercher si ça se trouve dans un fichier de config
+
 
 ______________________________________________________________________________
 

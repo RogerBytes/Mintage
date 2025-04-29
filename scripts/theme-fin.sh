@@ -36,3 +36,8 @@ sudo flatpak override --env GTK_THEME=Mint-L-Dark-Blue com.github.unrud.VideoDow
 
 # On applique le thème de jdownloader
 sudo cp -a ./DATA/var-cache/* ~/.var
+
+# Dependances de radio (A installer en dernier du setup, sinon il ne trouve pas pulseaudio, qui installe pacmd)
+sudo nala install -y python3-brotli python3-polib ffmpeg ffmpegthumbnailer yt-dlp libnotify-bin at sox mpv pulseaudio mpv-mpris
+
+# On peut verifier que pacman est installé avec pacmd --version

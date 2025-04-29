@@ -1,0 +1,30 @@
+about:config
+
+browser.tabs.closeWindowWithLastTab
+
+Mettre sur false
+
+
+
+
+
+
+
+
+
+et aussi
+
+Of course, there are a few developer preferences that require about:config to "fix," such as always opening search results (from address or search bar) in new tab and open new ones at the end of the tab bar.
+
+
+Look in the about:config window for these settings and change them:
+
+    browser.search.openintab - if true, will open a search from the searchbar in a new tab if you use the return key to trigger the search
+    browser.tabs.loadBookmarksInBackground - if true, bookmarks that open in a new tab will not steal focus
+    browser.tabs.loadDivertedInBackground - Load the new tab in the background, leaving focus on the current tab if true
+    browser.tabs.loadInBackground - Do not focus new tabs opened from links (load in background) if true
+    browser.tabs.opentabfor.middleclick - if true, links can be forced to open a new tab if middle-clicked. Useful for search results.
+
+
+Ouvrir l'onglet à droite par defaurt
+https://support.mozilla.org/en-US/questions/1229062
