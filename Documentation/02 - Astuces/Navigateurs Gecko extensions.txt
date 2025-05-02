@@ -1,5 +1,4 @@
 Toutes ces extensions sont conçues pour le navigateur Chrome (et dérivés basés sur gecko).
-Ce topic fait suite à celui pour chrome et dérivés : https://www.jeuxvideo.com/forums/42-51-75401952-1-0-1-0-les-38-meilleures-extensions-chrome-pour-2025.htm
 
 1. Reconnaissance musicale AudD - Recherche de chanson : Identifie les musiques jouées en ligne.
 https://addons.mozilla.org/fr/firefox/addon/audd/

@@ -117,6 +117,8 @@ https://chromewebstore.google.com/detail/youtube-redux/mdgdgieddpndgjlmeblhjglje
 39. Bypass paywall : Permet d'afficher les articles correctement
 https://gitflic.ru/project/magnolia1234/bypass-paywalls-chrome-clean
 
+40. Floccus : synchroniser les signets
+https://chromewebstore.google.com/detail/floccus-bookmarks-sync/fnaicdffflnofjppbagibeoednhnbjhg
 
 Scripts :
 https://yggland.fr/userscripts/YGGTools.user.js
