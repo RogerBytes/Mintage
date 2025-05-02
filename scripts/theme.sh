@@ -177,6 +177,8 @@ EOF
 sudo sed -i 's/^Exec=.*$/Exec=env QT_QPA_PLATFORMTHEME=qt5ct virtualbox %U/' /usr/share/applications/virtualbox.desktop
 
 # Passer le shell en zsh
+echo "Le shell va être changé en zsh. Appuie sur Entrée pour continuer..."
+read
 tilix -e bash -c 'chsh -s $(which zsh); exec bash'
 
 

@@ -173,10 +173,6 @@ Attention, si vous avez un dual boot avec windows, il faut ABSOLUMENT que vous d
 Depuis le dossier caché `~/ApplicationsTemp` (qui sert à un gestionnaire pour stocker les appimages) lancez chacune des applications.
 Vous pouvez supprimer le dossier après.
 
-#### Jdownloader
-
-Ouvrez Jdownloader, allez dans paramètres/général et mettez votre nom d'utilisateur à la place de "harry" dans le chemin de téléchargement par défaut (premier de la liste)
-
 #### LanguageTools pour LibreOffice
 
 Dans LibreOffice allez dans "Outils/Gestionnaire des extensions..."
@@ -210,6 +206,8 @@ Lancer toutes les applications s'y trouvant pour que AppImage Launcher propose l
 Dans votre dossier utilisateur se trouve le dossier Mintage : vous pouvez maintenant le supprimer.
 Une documentation avec plein de conseils et astuces se trouve dans `~/Local/Documentation`.
 
+Depuis la logithèque vous pouvez ajoutez les flatpak non certifiés dans les paramètres. Il s'agit de paquets maintenu par un tiers et non par leur developpeur, peut provoquer des failles de sécurité.
+
 Votre installation est terminée, amusez-vous bien sur Linux Mint !
 
 </details>
@@ -223,7 +221,6 @@ Votre installation est terminée, amusez-vous bien sur Linux Mint !
 
 1. Faire un script de customisation pour une nouvelle session.
 2. Faire une application simple pour changer de runtime Java.
-3. Ajouter quelques jeux gratuits/open source à Documentation
 
 </details>
 
@@ -236,24 +233,19 @@ Votre installation est terminée, amusez-vous bien sur Linux Mint !
 
 ### Problèmes
 
-RAS - a test changements
+RAS
 
 ### Observations
 
-Après qt5ct (juste après game feral mode et powerlevel de zsh) Système demande à relancer cinnamon. Et dans le shell il demande le mdp dans le terminal sans rien faire derrière (je pense que c'est pour mintupdate mais pas sûr).
-
-#### Les paquets (remis) qui sautent durant l'installation avec le update
-
-- blueman
-- caffeine
-- psensor
-- transmission-gtk
 
 #### Les appli flatpak sans support de thème
 
 - Ciano - Compression et conversion de fichiers audio et vidéo
 - Mousai - io.github.seadve.Mousai
 - Téléchargeur de vidéo - com.github.unrud.VideoDownloader
+- etc
+
+Non fixable tant que les dernières màj de libadwaita ne seront pas incluses dans linux mint.
 
 </details>
 
