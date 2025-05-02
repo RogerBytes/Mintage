@@ -21,9 +21,6 @@
 # Ciano Media Converter
 flatpak install -y flathub com.github.robertsanseries.ciano
 
-# Floorp
-flatpak install -y flathub one.ablaze.floorp
-
 # FreeTube
 flatpak install -y flathub io.freetubeapp.FreeTube
 
@@ -42,11 +39,14 @@ flatpak install -y flathub com.obsproject.Studio
 # ProtonUp
 flatpak install -y flathub net.davidotek.pupgui2
 
+# Songrec (shazam)
+flatpak install -y flathub com.github.marinm.songrec
+
 # SweetHome 3D
 flatpak install -y flathub com.sweethome3d.Sweethome3d
 
 # VideoDownloader
-flatpak install flathub -y com.github.unrud.VideoDownloader
+flatpak install -y flathub com.github.unrud.VideoDownloader
 
 # 2/ c) Installation depuis un paquet DEB
 # ---------------------------------------
@@ -69,9 +69,9 @@ sudo dpkg -i rustdesk-*-x86_64.deb
 rm rustdesk-*-x86_64.deb
 
 # vivaldi
-wget https://github.com/RogerBytes/Mintage/releases/download/v1.0.0-assets/vivaldi-stable_6.5.3206.63-1_amd64.deb
-sudo nala install -y ./vivaldi-stable_6.5.3206.63-1_amd64.deb
-rm vivaldi-stable_6.5.3206.63-1_amd64.deb
+wget https://github.com/RogerBytes/Mintage/releases/download/v1.0.0-assets/vivaldi-stable_7.3.3635.11-1_amd64.deb
+sudo nala install -y vivaldi-stable_7.3.3635.11-1_amd64.deb
+rm  vivaldi-stable_7.3.3635.11-1_amd64.deb
 
 # VSCodium
 download_url=https://github.com/VSCodium/vscodium/releases/download/1.86.2.24054/codium_1.86.2.24054_amd64.deb
@@ -98,6 +98,13 @@ sudo add-apt-repository -y ppa:apandada1/brightness-controller && sudo nala upda
 
 # Cozy Audiobook
 sudo add-apt-repository -y ppa:cozy-team/cozy && sudo nala update && sudo nala install -y cozy
+
+# Floorp
+# https://ppa.floorp.app/ les instructions d'installation sont ici
+curl -fsSL https://ppa.floorp.app/KEY.gpg | sudo gpg --dearmor -o /usr/share/keyrings/Floorp.gpg
+sudo curl -sS --compressed -o /etc/apt/sources.list.d/Floorp.list 'https://ppa.floorp.app/Floorp.list'
+sudo apt update
+sudo nala install -y floorp
 
 # gCDEmu
 sudo add-apt-repository -y ppa:cdemu/ppa && sudo nala update && sudo nala install -y cdemu-client
@@ -169,6 +176,9 @@ chmod +x ~/ApplicationsTemp/pcloud
 
 # 2/ g) Purge et nettoyage PPA
 # ----------------------------
+
+# Firefox -> Floorp
+sudo nala purge -y firefox
 
 # Formateur de clé USB -> Gparted
 sudo apt purge -y mintstick

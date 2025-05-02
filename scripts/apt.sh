@@ -157,6 +157,12 @@ sudo nala install -y sound-juicer
 # Stacer
 sudo nala install -y stacer
 
+# Synaptic
+sudo nala install -y synaptic
+sudo flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
+sudo nala install -y apt-xapian-index
+sudo update-apt-xapian-index -vf
+
 # Tilix
 sudo nala install -y tilix
 

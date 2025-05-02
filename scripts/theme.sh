@@ -24,6 +24,8 @@ cp -a ./DATA/config-cache/* ~/.config
 
 # JDownloader
 cp -a ./DATA/var-cache/* ~/.var
+sed -i "s|\"defaultdownloadfolder\": *\"[^\"]*\"|\"defaultdownloadfolder\": \"${HOME}/Téléchargements/Téléchargements jd2\"|" ~/.var/app/org.jdownloader.JDownloader/data/jdownloader/cfg/org.jdownloader.settings.GeneralSettings.json
+sed -i "s|\"devicename\": *\"[^\"]*\"|\"devicename\": \"JDownloader@$(whoami)\"|" ~/.var/app/org.jdownloader.JDownloader/data/jdownloader/cfg/org.jdownloader.api.myjdownloader.MyJDownloaderSettings.json
 
 # Lutris
 cp -a ./DATA/local-cache/* ~/.local
@@ -107,16 +109,21 @@ gsettings set org.cinnamon.desktop.interface enable-animations false
 gsettings set org.cinnamon.settings-daemon.peripherals.touchscreen orientation-lock true
 
 # Les sous dossiers de téléchargements
-mkdir ~/Téléchargements/Téléchargements\ navigateur/
-mkdir ~/Téléchargements/Téléchargements\ torrent/
-mkdir ~/Téléchargements/Téléchargements\ mail/
-mkdir ~/Téléchargements/Téléchargements\ jd2/
-mkdir ~/Téléchargements/Téléchargements\ ferdium/
+mkdir -p ~/Téléchargements/Téléchargements\ navigateur/
+mkdir -p ~/Téléchargements/Téléchargements\ torrent/
+mkdir -p ~/Téléchargements/Téléchargements\ mail/
+mkdir -p ~/Téléchargements/Téléchargements\ jd2/
+mkdir -p ~/Téléchargements/Téléchargements\ ferdium/
 
 # On ajoute quelques dossiers
-mkdir ~/Local/
-mkdir ~/.github/
-mkdir ~/Local/Git
+mkdir -p ~/Local/
+mkdir -p ~/.github/
+mkdir -p ~/Local/Git
+mkdir -p ~/Jeux/
+mkdir -p ~/Public/
+mkdir -p ~/Musique/Radio++/
+
+
 
 # On copie la documentation dans ~/Local
 cp -r ./Documentation ~/Local/Documentation
@@ -168,9 +175,6 @@ ignored_applications=@Invalid()
 EOF
 
 sudo sed -i 's/^Exec=.*$/Exec=env QT_QPA_PLATFORMTHEME=qt5ct virtualbox %U/' /usr/share/applications/virtualbox.desktop
-
-# Dépendances pour la radio
-sudo nala install -y python3-brotli python3-polib ffmpeg ffmpegthumbnailer yt-dlp libnotify-bin at sox mpv pulseaudio
 
 # Passer le shell en zsh
 tilix -e bash -c 'chsh -s $(which zsh); exec bash'
