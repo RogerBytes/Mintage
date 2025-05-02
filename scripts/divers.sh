@@ -151,8 +151,8 @@ sudo nala install -y xclip python3-xlib
 
 # Dépendances de radio ++
 sudo nala install -y mpv libmpv-dev sox libsox-fmt-all at python3-polib mpv-mpris
-sudo apt purge yt-dlp
-https://github.com/yt-dlp/yt-dlp
+sudo apt purge -y yt-dlp
+# https://github.com/yt-dlp/yt-dlp
 sudo nala install -y pipx
 pipx ensurepath
 pipx install yt-dlp
