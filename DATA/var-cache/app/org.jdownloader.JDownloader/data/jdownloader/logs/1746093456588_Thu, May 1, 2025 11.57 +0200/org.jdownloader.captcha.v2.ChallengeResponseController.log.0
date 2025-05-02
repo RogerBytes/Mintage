@@ -1,0 +1,13 @@
+------------------------Thread: 39:org.jdownloader.captcha.v2.ChallengeResponseController.log-----------------------
+--ID:39TS:1746093462249-01/05/2025 11:57:42 -  [org.jdownloader.captcha.v2.ChallengeResponseController(<init>)] -> Add Captcha Limit Rule for recaptcha 20 Reqs in 10m:00s
+--ID:39TS:1746093462249-01/05/2025 11:57:42 -  [org.jdownloader.captcha.v2.ChallengeResponseController(<init>)] -> Add Captcha Limit Rule for recaptcha 4 Reqs in 01m:00s
+--ID:39TS:1746093462249-01/05/2025 11:57:42 -  [org.jdownloader.captcha.v2.ChallengeResponseController(<init>)] -> Add Captcha Limit Rule for recaptcha 3 Reqs in 30s
+--ID:39TS:1746093462249-01/05/2025 11:57:42 -  [org.jdownloader.captcha.v2.ChallengeResponseController(<init>)] -> Add Captcha Limit Rule for recaptcha 2 Reqs in 10s
+--ID:39TS:1746093462250-01/05/2025 11:57:42 -  [org.jdownloader.captcha.v2.ChallengeResponseController(<init>)] -> Add Captcha Limit Rule for HCaptchaChallenge 60 Reqs in 10m:00s
+--ID:39TS:1746093462250-01/05/2025 11:57:42 -  [org.jdownloader.captcha.v2.ChallengeResponseController(<init>)] -> Add Captcha Limit Rule for HCaptchaChallenge 6 Reqs in 01m:00s
+--ID:39TS:1746093462250-01/05/2025 11:57:42 -  [org.jdownloader.captcha.v2.ChallengeResponseController(<init>)] -> Add Captcha Limit Rule for HCaptchaChallenge 3 Reqs in 30s
+--ID:39TS:1746093462250-01/05/2025 11:57:42 -  [org.jdownloader.captcha.v2.ChallengeResponseController(<init>)] -> Add Captcha Limit Rule for HCaptchaChallenge 2 Reqs in 10s
+--ID:39TS:1746093462252-01/05/2025 11:57:42 -  [org.jdownloader.captcha.v2.ChallengeResponseController(<init>)] -> Add Captcha Limit Rule for recaptchav2 60 Reqs in 10m:00s
+--ID:39TS:1746093462253-01/05/2025 11:57:42 -  [org.jdownloader.captcha.v2.ChallengeResponseController(<init>)] -> Add Captcha Limit Rule for recaptchav2 6 Reqs in 01m:00s
+--ID:39TS:1746093462253-01/05/2025 11:57:42 -  [org.jdownloader.captcha.v2.ChallengeResponseController(<init>)] -> Add Captcha Limit Rule for recaptchav2 3 Reqs in 30s
+--ID:39TS:1746093462253-01/05/2025 11:57:42 -  [org.jdownloader.captcha.v2.ChallengeResponseController(<init>)] -> Add Captcha Limit Rule for recaptchav2 2 Reqs in 10s

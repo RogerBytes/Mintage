@@ -1,0 +1,8 @@
+------------------------Thread: 39:jd.controlling.linkcollector.LinkCollector.log-----------------------
+--ID:39TS:1746093511537-01/05/2025 11:58:31 -  [jd.controlling.linkcollector.LinkCollector(<init>)] -> LinkChecker Enabled:true
+------------------------Thread: 68:jd.controlling.linkcollector.LinkCollector.log-----------------------
+--ID:68TS:1746093512082-01/05/2025 11:58:32 -  [jd.controlling.linkcollector.LinkCollector(findAvailableCollectorLists)] -> Collect Lists
+--ID:68TS:1746093512089-01/05/2025 11:58:32 -  [jd.controlling.linkcollector.LinkCollector(findAvailableCollectorLists)] -> Lists: [/home/harry/.var/app/org.jdownloader.JDownloader/data/jdownloader/cfg/linkcollector353.zip, /home/harry/.var/app/org.jdownloader.JDownloader/data/jdownloader/cfg/linkcollector352.zip, /home/harry/.var/app/org.jdownloader.JDownloader/data/jdownloader/cfg/linkcollector351.zip, /home/harry/.var/app/org.jdownloader.JDownloader/data/jdownloader/cfg/linkcollector350.zip, /home/harry/.var/app/org.jdownloader.JDownloader/data/jdownloader/cfg/linkcollector349.zip, /home/harry/.var/app/org.jdownloader.JDownloader/data/jdownloader/cfg/linkcollector348.zip]
+--ID:68TS:1746093512125-01/05/2025 11:58:32 -  [jd.controlling.linkcollector.LinkCollector$17(run)] -> CollectorList found: 0/0
+------------------------Thread: 99:jd.controlling.linkcollector.LinkCollector.log-----------------------
+--ID:99TS:1746093602270-01/05/2025 12:00:02 -  [jd.controlling.linkcollector.LinkCollector(newJobLinkCrawler)] -> Added CrawlerJob:ID:1746093602266|Origin:CNL

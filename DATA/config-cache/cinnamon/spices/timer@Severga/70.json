@@ -64,5 +64,15 @@
             7200
         ]
     },
-    "__md5__": "bee9e532f20e63882cf93cd914935645"
+    "saved_endTime": {
+        "type": "generic",
+        "default": 0,
+        "value": 0
+    },
+    "turn_off": {
+        "type": "generic",
+        "default": false,
+        "value": false
+    },
+    "__md5__": "2bfb87f152b8b8178c72d8e03b0576cf"
 }

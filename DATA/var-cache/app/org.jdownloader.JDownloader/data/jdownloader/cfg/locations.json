@@ -1,557 +1,652 @@
 {
  "data" : {
            "RememberLastDimensor-Captcha-mixdrop.co..recaptchav2"                                                                       : {
-                                                                                                                                           "lastAccess" : 1663867797919,
-                                                                                                                                           "type"       : null,
-                                                                                                                                           "x"          : 351,
-                                                                                                                                           "y"          : 238,
-                                                                                                                                           "valid"      : true
+                                                                                                                                           "extendedState" : null,
+                                                                                                                                           "lastAccess"    : 1663867797919,
+                                                                                                                                           "type"          : null,
+                                                                                                                                           "x"             : 351,
+                                                                                                                                           "y"             : 238,
+                                                                                                                                           "valid"         : true
                                                                                                                                           },
            "RememberRelativeDialogLocator-9b3bb9b82c302c857e417d45c25e99c5"                                                             : {
-                                                                                                                                           "lastAccess" : 1665698645412,
-                                                                                                                                           "type"       : "relative",
-                                                                                                                                           "x"          : 252,
-                                                                                                                                           "y"          : 180,
-                                                                                                                                           "valid"      : true
+                                                                                                                                           "extendedState" : null,
+                                                                                                                                           "lastAccess"    : 1665698645412,
+                                                                                                                                           "type"          : "relative",
+                                                                                                                                           "x"             : 252,
+                                                                                                                                           "y"             : 180,
+                                                                                                                                           "valid"         : true
                                                                                                                                           },
            "RememberLastDimensor-AddLinksDialog"                                                                                        : {
-                                                                                                                                           "lastAccess" : 1668825471304,
-                                                                                                                                           "type"       : null,
-                                                                                                                                           "x"          : 700,
-                                                                                                                                           "y"          : 300,
-                                                                                                                                           "valid"      : true
+                                                                                                                                           "extendedState" : null,
+                                                                                                                                           "lastAccess"    : 1668825471304,
+                                                                                                                                           "type"          : null,
+                                                                                                                                           "x"             : 700,
+                                                                                                                                           "y"             : 300,
+                                                                                                                                           "valid"         : true
                                                                                                                                           },
            "RememberLastDimensor-Captcha-mexa.sh..recaptchav2"                                                                          : {
-                                                                                                                                           "lastAccess" : 1668005098149,
-                                                                                                                                           "type"       : null,
-                                                                                                                                           "x"          : 616,
-                                                                                                                                           "y"          : 238,
-                                                                                                                                           "valid"      : true
+                                                                                                                                           "extendedState" : null,
+                                                                                                                                           "lastAccess"    : 1668005098149,
+                                                                                                                                           "type"          : null,
+                                                                                                                                           "x"             : 616,
+                                                                                                                                           "y"             : 238,
+                                                                                                                                           "valid"         : true
                                                                                                                                           },
            "RememberRelativeDialogLocator-d157dd03c81e58cb11a264a0468c28b8"                                                             : {
-                                                                                                                                           "lastAccess" : 1669715014322,
-                                                                                                                                           "type"       : null,
-                                                                                                                                           "x"          : 0,
-                                                                                                                                           "y"          : 0,
-                                                                                                                                           "valid"      : false
+                                                                                                                                           "extendedState" : null,
+                                                                                                                                           "lastAccess"    : 1669715014322,
+                                                                                                                                           "type"          : null,
+                                                                                                                                           "x"             : 0,
+                                                                                                                                           "y"             : 0,
+                                                                                                                                           "valid"         : false
                                                                                                                                           },
            "RememberRelativeLocator-Updater"                                                                                            : {
-                                                                                                                                           "lastAccess" : 1708906530694,
-                                                                                                                                           "type"       : "relative",
-                                                                                                                                           "x"          : 218,
-                                                                                                                                           "y"          : 397,
-                                                                                                                                           "valid"      : true
+                                                                                                                                           "extendedState" : null,
+                                                                                                                                           "lastAccess"    : 1708906530694,
+                                                                                                                                           "type"          : "relative",
+                                                                                                                                           "x"             : 218,
+                                                                                                                                           "y"             : 397,
+                                                                                                                                           "valid"         : true
                                                                                                                                           },
            "RememberLastDimensor-dialogframe-org.jdownloader.gui.mainmenu.MenuManagerMainmenu"                                          : {
-                                                                                                                                           "lastAccess" : 1664138577169,
-                                                                                                                                           "type"       : null,
-                                                                                                                                           "x"          : 800,
-                                                                                                                                           "y"          : 550,
-                                                                                                                                           "valid"      : true
+                                                                                                                                           "extendedState" : null,
+                                                                                                                                           "lastAccess"    : 1664138577169,
+                                                                                                                                           "type"          : null,
+                                                                                                                                           "x"             : 800,
+                                                                                                                                           "y"             : 550,
+                                                                                                                                           "valid"         : true
                                                                                                                                           },
            "RememberRelativeDialogLocator-4c5bdc7942a7c190f1042b6d3b725f49"                                                             : {
-                                                                                                                                           "lastAccess" : 1663694198988,
-                                                                                                                                           "type"       : null,
-                                                                                                                                           "x"          : 0,
-                                                                                                                                           "y"          : 0,
-                                                                                                                                           "valid"      : false
+                                                                                                                                           "extendedState" : null,
+                                                                                                                                           "lastAccess"    : 1663694198988,
+                                                                                                                                           "type"          : null,
+                                                                                                                                           "x"             : 0,
+                                                                                                                                           "y"             : 0,
+                                                                                                                                           "valid"         : false
                                                                                                                                           },
            "RememberRelativeDialogLocator-93eb7fad94f720becc231aff3041aaab"                                                             : {
-                                                                                                                                           "lastAccess" : 1668001821609,
-                                                                                                                                           "type"       : null,
-                                                                                                                                           "x"          : 0,
-                                                                                                                                           "y"          : 0,
-                                                                                                                                           "valid"      : false
+                                                                                                                                           "extendedState" : null,
+                                                                                                                                           "lastAccess"    : 1668001821609,
+                                                                                                                                           "type"          : null,
+                                                                                                                                           "x"             : 0,
+                                                                                                                                           "y"             : 0,
+                                                                                                                                           "valid"         : false
                                                                                                                                           },
            "RememberRelativeDialogLocator-8f1a44e3e334c84cd9932cdd7a3f66c6"                                                             : {
-                                                                                                                                           "lastAccess" : 1708906844046,
-                                                                                                                                           "type"       : null,
-                                                                                                                                           "x"          : 0,
-                                                                                                                                           "y"          : 0,
-                                                                                                                                           "valid"      : false
+                                                                                                                                           "extendedState" : null,
+                                                                                                                                           "lastAccess"    : 1708906844046,
+                                                                                                                                           "type"          : null,
+                                                                                                                                           "x"             : 0,
+                                                                                                                                           "y"             : 0,
+                                                                                                                                           "valid"         : false
                                                                                                                                           },
            "RememberAbsoluteLocator-dialogframe-org.jdownloader.gui.jdtrayicon.MenuManagerTrayIcon"                                     : {
-                                                                                                                                           "lastAccess" : 1663696032936,
-                                                                                                                                           "type"       : "absolute",
-                                                                                                                                           "x"          : 1044,
-                                                                                                                                           "y"          : 444,
-                                                                                                                                           "valid"      : true
+                                                                                                                                           "extendedState" : null,
+                                                                                                                                           "lastAccess"    : 1663696032936,
+                                                                                                                                           "type"          : "absolute",
+                                                                                                                                           "x"             : 1044,
+                                                                                                                                           "y"             : 444,
+                                                                                                                                           "valid"         : true
                                                                                                                                           },
            "RememberLastDimensor-dialogframe-org.jdownloader.gui.views.downloads.contextmenumanager.MenuManagerDownloadTableContext"    : {
-                                                                                                                                           "lastAccess" : 1664138293314,
-                                                                                                                                           "type"       : null,
-                                                                                                                                           "x"          : 940,
-                                                                                                                                           "y"          : 550,
-                                                                                                                                           "valid"      : true
+                                                                                                                                           "extendedState" : null,
+                                                                                                                                           "lastAccess"    : 1664138293314,
+                                                                                                                                           "type"          : null,
+                                                                                                                                           "x"             : 940,
+                                                                                                                                           "y"             : 550,
+                                                                                                                                           "valid"         : true
                                                                                                                                           },
            "RememberRelativeDialogLocator-AddLinksProgress"                                                                             : {
-                                                                                                                                           "lastAccess" : 1667078347934,
-                                                                                                                                           "type"       : "relative",
-                                                                                                                                           "x"          : 518,
-                                                                                                                                           "y"          : 385,
-                                                                                                                                           "valid"      : true
+                                                                                                                                           "extendedState" : null,
+                                                                                                                                           "lastAccess"    : 1667078347934,
+                                                                                                                                           "type"          : "relative",
+                                                                                                                                           "x"             : 518,
+                                                                                                                                           "y"             : 385,
+                                                                                                                                           "valid"         : true
                                                                                                                                           },
            "RememberRelativeDialogLocator-c241fd552b0b8ad57ca259ae580e0b49"                                                             : {
-                                                                                                                                           "lastAccess" : 1708906566272,
-                                                                                                                                           "type"       : null,
-                                                                                                                                           "x"          : 0,
-                                                                                                                                           "y"          : 0,
-                                                                                                                                           "valid"      : false
+                                                                                                                                           "extendedState" : null,
+                                                                                                                                           "lastAccess"    : 1746200072756,
+                                                                                                                                           "type"          : null,
+                                                                                                                                           "x"             : 0,
+                                                                                                                                           "y"             : 0,
+                                                                                                                                           "valid"         : false
                                                                                                                                           },
            "RememberLastDimensor-DownloadFolderChooserDialog-jd.gui.swing.jdgui.views.settings.components.FolderChooser"                : {
-                                                                                                                                           "lastAccess" : 1708906599748,
-                                                                                                                                           "type"       : null,
-                                                                                                                                           "x"          : 945,
-                                                                                                                                           "y"          : 460,
-                                                                                                                                           "valid"      : true
+                                                                                                                                           "extendedState" : null,
+                                                                                                                                           "lastAccess"    : 1746200076560,
+                                                                                                                                           "type"          : null,
+                                                                                                                                           "x"             : 945,
+                                                                                                                                           "y"             : 460,
+                                                                                                                                           "valid"         : true
                                                                                                                                           },
            "RememberRelativeDialogLocator-c5edfaff0ebfa7685e27716824e7f0ac"                                                             : {
-                                                                                                                                           "lastAccess" : 1664137962989,
-                                                                                                                                           "type"       : null,
-                                                                                                                                           "x"          : 0,
-                                                                                                                                           "y"          : 0,
-                                                                                                                                           "valid"      : false
+                                                                                                                                           "extendedState" : null,
+                                                                                                                                           "lastAccess"    : 1664137962989,
+                                                                                                                                           "type"          : null,
+                                                                                                                                           "x"             : 0,
+                                                                                                                                           "y"             : 0,
+                                                                                                                                           "valid"         : false
                                                                                                                                           },
            "RememberLastDimensor-dialogframe-org.jdownloader.gui.toolbar.MenuManagerMainToolbar"                                        : {
-                                                                                                                                           "lastAccess" : 1664138255360,
-                                                                                                                                           "type"       : null,
-                                                                                                                                           "x"          : 800,
-                                                                                                                                           "y"          : 550,
-                                                                                                                                           "valid"      : true
+                                                                                                                                           "extendedState" : null,
+                                                                                                                                           "lastAccess"    : 1664138255360,
+                                                                                                                                           "type"          : null,
+                                                                                                                                           "x"             : 800,
+                                                                                                                                           "y"             : 550,
+                                                                                                                                           "valid"         : true
                                                                                                                                           },
            "RememberLastDimensor-ExtFileChooserDialog"                                                                                  : {
-                                                                                                                                           "lastAccess" : 1708906849576,
-                                                                                                                                           "type"       : null,
-                                                                                                                                           "x"          : 526,
-                                                                                                                                           "y"          : 412,
-                                                                                                                                           "valid"      : true
+                                                                                                                                           "extendedState" : null,
+                                                                                                                                           "lastAccess"    : 1708906849576,
+                                                                                                                                           "type"          : null,
+                                                                                                                                           "x"             : 526,
+                                                                                                                                           "y"             : 412,
+                                                                                                                                           "valid"         : true
+                                                                                                                                          },
+           "RememberRelativeDialogLocator-39c054529c33c5d3d867e5324b625827"                                                             : {
+                                                                                                                                           "extendedState" : null,
+                                                                                                                                           "lastAccess"    : 1746093600567,
+                                                                                                                                           "type"          : null,
+                                                                                                                                           "x"             : 0,
+                                                                                                                                           "y"             : 0,
+                                                                                                                                           "valid"         : false
                                                                                                                                           },
            "RememberRelativeDialogLocator-a099443fb68f1c4c997390312c27248f"                                                             : {
-                                                                                                                                           "lastAccess" : 1667991907369,
-                                                                                                                                           "type"       : null,
-                                                                                                                                           "x"          : 0,
-                                                                                                                                           "y"          : 0,
-                                                                                                                                           "valid"      : false
+                                                                                                                                           "extendedState" : null,
+                                                                                                                                           "lastAccess"    : 1667991907369,
+                                                                                                                                           "type"          : null,
+                                                                                                                                           "x"             : 0,
+                                                                                                                                           "y"             : 0,
+                                                                                                                                           "valid"         : false
                                                                                                                                           },
            "RememberRelativeDialogLocator-9e3d25ba0efad001a5f9c84c0099c474"                                                             : {
-                                                                                                                                           "lastAccess" : 1668004415647,
-                                                                                                                                           "type"       : null,
-                                                                                                                                           "x"          : 0,
-                                                                                                                                           "y"          : 0,
-                                                                                                                                           "valid"      : false
+                                                                                                                                           "extendedState" : null,
+                                                                                                                                           "lastAccess"    : 1668004415647,
+                                                                                                                                           "type"          : null,
+                                                                                                                                           "x"             : 0,
+                                                                                                                                           "y"             : 0,
+                                                                                                                                           "valid"         : false
                                                                                                                                           },
            "RememberRelativeDialogLocator-cf643ceb13226af59be6459b22c53ca7"                                                             : {
-                                                                                                                                           "lastAccess" : 1668015450104,
-                                                                                                                                           "type"       : null,
-                                                                                                                                           "x"          : 0,
-                                                                                                                                           "y"          : 0,
-                                                                                                                                           "valid"      : false
+                                                                                                                                           "extendedState" : null,
+                                                                                                                                           "lastAccess"    : 1668015450104,
+                                                                                                                                           "type"          : null,
+                                                                                                                                           "x"             : 0,
+                                                                                                                                           "y"             : 0,
+                                                                                                                                           "valid"         : false
                                                                                                                                           },
            "RememberAbsoluteLocator-dialogframe-org.jdownloader.gui.toolbar.MenuManagerMainToolbar"                                     : {
-                                                                                                                                           "lastAccess" : 1664138255360,
-                                                                                                                                           "type"       : "absolute",
-                                                                                                                                           "x"          : 1044,
-                                                                                                                                           "y"          : 189,
-                                                                                                                                           "valid"      : true
+                                                                                                                                           "extendedState" : null,
+                                                                                                                                           "lastAccess"    : 1664138255360,
+                                                                                                                                           "type"          : "absolute",
+                                                                                                                                           "x"             : 1044,
+                                                                                                                                           "y"             : 189,
+                                                                                                                                           "valid"         : true
                                                                                                                                           },
            "RememberLastDimensor-AddAccountDialog2"                                                                                     : {
-                                                                                                                                           "lastAccess" : 1664140316958,
-                                                                                                                                           "type"       : null,
-                                                                                                                                           "x"          : 600,
-                                                                                                                                           "y"          : 450,
-                                                                                                                                           "valid"      : true
+                                                                                                                                           "extendedState" : null,
+                                                                                                                                           "lastAccess"    : 1664140316958,
+                                                                                                                                           "type"          : null,
+                                                                                                                                           "x"             : 600,
+                                                                                                                                           "y"             : 450,
+                                                                                                                                           "valid"         : true
                                                                                                                                           },
            "RememberAbsoluteLocator-dialogframe-org.jdownloader.gui.views.linkgrabber.bottombar.MenuManagerLinkgrabberTabBottombar"     : {
-                                                                                                                                           "lastAccess" : 1664138425196,
-                                                                                                                                           "type"       : "absolute",
-                                                                                                                                           "x"          : 1092,
-                                                                                                                                           "y"          : 595,
-                                                                                                                                           "valid"      : true
+                                                                                                                                           "extendedState" : null,
+                                                                                                                                           "lastAccess"    : 1664138425196,
+                                                                                                                                           "type"          : "absolute",
+                                                                                                                                           "x"             : 1092,
+                                                                                                                                           "y"             : 595,
+                                                                                                                                           "valid"         : true
                                                                                                                                           },
            "RememberRelativeDialogLocator-52f5f8029cf20f49bfdef00383927e41"                                                             : {
-                                                                                                                                           "lastAccess" : 1668003931609,
-                                                                                                                                           "type"       : null,
-                                                                                                                                           "x"          : 0,
-                                                                                                                                           "y"          : 0,
-                                                                                                                                           "valid"      : false
+                                                                                                                                           "extendedState" : null,
+                                                                                                                                           "lastAccess"    : 1668003931609,
+                                                                                                                                           "type"          : null,
+                                                                                                                                           "x"             : 0,
+                                                                                                                                           "y"             : 0,
+                                                                                                                                           "valid"         : false
                                                                                                                                           },
            "RememberRelativeDialogLocator-4c2a8fe7eaf24721cc7a9f0175115bd4"                                                             : {
-                                                                                                                                           "lastAccess" : 1668002581278,
-                                                                                                                                           "type"       : null,
-                                                                                                                                           "x"          : 0,
-                                                                                                                                           "y"          : 0,
-                                                                                                                                           "valid"      : false
+                                                                                                                                           "extendedState" : null,
+                                                                                                                                           "lastAccess"    : 1668002581278,
+                                                                                                                                           "type"          : null,
+                                                                                                                                           "x"             : 0,
+                                                                                                                                           "y"             : 0,
+                                                                                                                                           "valid"         : false
                                                                                                                                           },
            "RememberAbsoluteLocator-InfoDialog"                                                                                         : {
-                                                                                                                                           "lastAccess" : 1663694063830,
-                                                                                                                                           "type"       : "absolute",
-                                                                                                                                           "x"          : 1176,
-                                                                                                                                           "y"          : 547,
-                                                                                                                                           "valid"      : true
+                                                                                                                                           "extendedState" : null,
+                                                                                                                                           "lastAccess"    : 1663694063830,
+                                                                                                                                           "type"          : "absolute",
+                                                                                                                                           "x"             : 1176,
+                                                                                                                                           "y"             : 547,
+                                                                                                                                           "valid"         : true
                                                                                                                                           },
            "RememberRelativeDialogLocator-7d74eaf15109b2054b3481b7c624e638"                                                             : {
-                                                                                                                                           "lastAccess" : 1667081197197,
-                                                                                                                                           "type"       : "relative",
-                                                                                                                                           "x"          : -830,
-                                                                                                                                           "y"          : 459,
-                                                                                                                                           "valid"      : true
+                                                                                                                                           "extendedState" : null,
+                                                                                                                                           "lastAccess"    : 1667081197197,
+                                                                                                                                           "type"          : "relative",
+                                                                                                                                           "x"             : -830,
+                                                                                                                                           "y"             : 459,
+                                                                                                                                           "valid"         : true
                                                                                                                                           },
            "RememberLastDimensor-Captcha-depositfiles.com..recaptchav2"                                                                 : {
-                                                                                                                                           "lastAccess" : 1668000289466,
-                                                                                                                                           "type"       : null,
-                                                                                                                                           "x"          : 616,
-                                                                                                                                           "y"          : 238,
-                                                                                                                                           "valid"      : true
+                                                                                                                                           "extendedState" : null,
+                                                                                                                                           "lastAccess"    : 1668000289466,
+                                                                                                                                           "type"          : null,
+                                                                                                                                           "x"             : 616,
+                                                                                                                                           "y"             : 238,
+                                                                                                                                           "valid"         : true
                                                                                                                                           },
            "RememberLastDimensor-Captcha-katfile.com..HCaptchaChallenge"                                                                : {
-                                                                                                                                           "lastAccess" : 1668001369729,
-                                                                                                                                           "type"       : null,
-                                                                                                                                           "x"          : 616,
-                                                                                                                                           "y"          : 238,
-                                                                                                                                           "valid"      : true
+                                                                                                                                           "extendedState" : null,
+                                                                                                                                           "lastAccess"    : 1668001369729,
+                                                                                                                                           "type"          : null,
+                                                                                                                                           "x"             : 616,
+                                                                                                                                           "y"             : 238,
+                                                                                                                                           "valid"         : true
                                                                                                                                           },
            "RememberRelativeDialogLocator-e8eb7c598b55dd6129fe904a2a28c1eb"                                                             : {
-                                                                                                                                           "lastAccess" : 1664140193964,
-                                                                                                                                           "type"       : null,
-                                                                                                                                           "x"          : 0,
-                                                                                                                                           "y"          : 0,
-                                                                                                                                           "valid"      : false
+                                                                                                                                           "extendedState" : null,
+                                                                                                                                           "lastAccess"    : 1664140193964,
+                                                                                                                                           "type"          : null,
+                                                                                                                                           "x"             : 0,
+                                                                                                                                           "y"             : 0,
+                                                                                                                                           "valid"         : false
                                                                                                                                           },
            "RememberRelativeDialogLocator-00204ff42975278cbc27886819c92cef"                                                             : {
-                                                                                                                                           "lastAccess" : 1664137964698,
-                                                                                                                                           "type"       : null,
-                                                                                                                                           "x"          : 0,
-                                                                                                                                           "y"          : 0,
-                                                                                                                                           "valid"      : false
+                                                                                                                                           "extendedState" : null,
+                                                                                                                                           "lastAccess"    : 1664137964698,
+                                                                                                                                           "type"          : null,
+                                                                                                                                           "x"             : 0,
+                                                                                                                                           "y"             : 0,
+                                                                                                                                           "valid"         : false
                                                                                                                                           },
            "RememberRelativeDialogLocator-018327c7226eb84009009741931e6efe"                                                             : {
-                                                                                                                                           "lastAccess" : 1663694752309,
-                                                                                                                                           "type"       : null,
-                                                                                                                                           "x"          : 0,
-                                                                                                                                           "y"          : 0,
-                                                                                                                                           "valid"      : false
+                                                                                                                                           "extendedState" : null,
+                                                                                                                                           "lastAccess"    : 1663694752309,
+                                                                                                                                           "type"          : null,
+                                                                                                                                           "x"             : 0,
+                                                                                                                                           "y"             : 0,
+                                                                                                                                           "valid"         : false
                                                                                                                                           },
            "RememberRelativeDialogLocator-240a09ff2d5c7c4e45118281fd4b5a3e"                                                             : {
-                                                                                                                                           "lastAccess" : 1667992212504,
-                                                                                                                                           "type"       : null,
-                                                                                                                                           "x"          : 0,
-                                                                                                                                           "y"          : 0,
-                                                                                                                                           "valid"      : false
+                                                                                                                                           "extendedState" : null,
+                                                                                                                                           "lastAccess"    : 1667992212504,
+                                                                                                                                           "type"          : null,
+                                                                                                                                           "x"             : 0,
+                                                                                                                                           "y"             : 0,
+                                                                                                                                           "valid"         : false
                                                                                                                                           },
            "RememberAbsoluteLocator-dialogframe-org.jdownloader.gui.views.downloads.contextmenumanager.MenuManagerDownloadTableContext" : {
-                                                                                                                                           "lastAccess" : 1664138293314,
-                                                                                                                                           "type"       : "absolute",
-                                                                                                                                           "x"          : 904,
-                                                                                                                                           "y"          : 444,
-                                                                                                                                           "valid"      : true
+                                                                                                                                           "extendedState" : null,
+                                                                                                                                           "lastAccess"    : 1664138293314,
+                                                                                                                                           "type"          : "absolute",
+                                                                                                                                           "x"             : 904,
+                                                                                                                                           "y"             : 444,
+                                                                                                                                           "valid"         : true
                                                                                                                                           },
            "RememberAbsoluteLocator-CaptchaDialog_mixdrop.co"                                                                           : {
-                                                                                                                                           "lastAccess" : 1663867797919,
-                                                                                                                                           "type"       : "absolute",
-                                                                                                                                           "x"          : 1458,
-                                                                                                                                           "y"          : 557,
-                                                                                                                                           "valid"      : true
+                                                                                                                                           "extendedState" : null,
+                                                                                                                                           "lastAccess"    : 1663867797919,
+                                                                                                                                           "type"          : "absolute",
+                                                                                                                                           "x"             : 1458,
+                                                                                                                                           "y"             : 557,
+                                                                                                                                           "valid"         : true
                                                                                                                                           },
            "RememberRelativeDialogLocator-AddAccountDialog2"                                                                            : {
-                                                                                                                                           "lastAccess" : 1664140316958,
-                                                                                                                                           "type"       : "relative",
-                                                                                                                                           "x"          : 328,
-                                                                                                                                           "y"          : 186,
-                                                                                                                                           "valid"      : true
+                                                                                                                                           "extendedState" : null,
+                                                                                                                                           "lastAccess"    : 1664140316958,
+                                                                                                                                           "type"          : "relative",
+                                                                                                                                           "x"             : 328,
+                                                                                                                                           "y"             : 186,
+                                                                                                                                           "valid"         : true
                                                                                                                                           },
            "RememberAbsoluteLocator-dialogframe-org.jdownloader.gui.views.linkgrabber.contextmenu.MenuManagerLinkgrabberTableContext"   : {
-                                                                                                                                           "lastAccess" : 1663695887056,
-                                                                                                                                           "type"       : "absolute",
-                                                                                                                                           "x"          : 1617,
-                                                                                                                                           "y"          : 360,
-                                                                                                                                           "valid"      : true
+                                                                                                                                           "extendedState" : null,
+                                                                                                                                           "lastAccess"    : 1663695887056,
+                                                                                                                                           "type"          : "absolute",
+                                                                                                                                           "x"             : 1617,
+                                                                                                                                           "y"             : 360,
+                                                                                                                                           "valid"         : true
                                                                                                                                           },
            "RememberRelativeDialogLocator-de7f75a2ec1b730e32d18bc15f8223ae"                                                             : {
-                                                                                                                                           "lastAccess" : 1663814623510,
-                                                                                                                                           "type"       : null,
-                                                                                                                                           "x"          : 0,
-                                                                                                                                           "y"          : 0,
-                                                                                                                                           "valid"      : false
+                                                                                                                                           "extendedState" : null,
+                                                                                                                                           "lastAccess"    : 1663814623510,
+                                                                                                                                           "type"          : null,
+                                                                                                                                           "x"             : 0,
+                                                                                                                                           "y"             : 0,
+                                                                                                                                           "valid"         : false
                                                                                                                                           },
            "RememberRelativeDialogLocator-c326ab66892d9fa722817102e5c950b7"                                                             : {
-                                                                                                                                           "lastAccess" : 1663695491486,
-                                                                                                                                           "type"       : null,
-                                                                                                                                           "x"          : 0,
-                                                                                                                                           "y"          : 0,
-                                                                                                                                           "valid"      : false
+                                                                                                                                           "extendedState" : null,
+                                                                                                                                           "lastAccess"    : 1663695491486,
+                                                                                                                                           "type"          : null,
+                                                                                                                                           "x"             : 0,
+                                                                                                                                           "y"             : 0,
+                                                                                                                                           "valid"         : false
                                                                                                                                           },
            "RememberRelativeDialogLocator-ccdaa69c2e452c12658856421cd69f6d"                                                             : {
-                                                                                                                                           "lastAccess" : 1663814428208,
-                                                                                                                                           "type"       : null,
-                                                                                                                                           "x"          : 0,
-                                                                                                                                           "y"          : 0,
-                                                                                                                                           "valid"      : false
+                                                                                                                                           "extendedState" : null,
+                                                                                                                                           "lastAccess"    : 1663814428208,
+                                                                                                                                           "type"          : null,
+                                                                                                                                           "x"             : 0,
+                                                                                                                                           "y"             : 0,
+                                                                                                                                           "valid"         : false
                                                                                                                                           },
            "RememberRelativeDialogLocator-85022bf3c20af37be71b416ca0acd443"                                                             : {
-                                                                                                                                           "lastAccess" : 1663696513980,
-                                                                                                                                           "type"       : null,
-                                                                                                                                           "x"          : 0,
-                                                                                                                                           "y"          : 0,
-                                                                                                                                           "valid"      : false
+                                                                                                                                           "extendedState" : null,
+                                                                                                                                           "lastAccess"    : 1663696513980,
+                                                                                                                                           "type"          : null,
+                                                                                                                                           "x"             : 0,
+                                                                                                                                           "y"             : 0,
+                                                                                                                                           "valid"         : false
                                                                                                                                           },
            "RememberAbsoluteLocator-dialogframe-org.jdownloader.gui.views.downloads.MenuManagerDownloadTabBottomBar"                    : {
-                                                                                                                                           "lastAccess" : 1664138474010,
-                                                                                                                                           "type"       : "absolute",
-                                                                                                                                           "x"          : 1054,
-                                                                                                                                           "y"          : 443,
-                                                                                                                                           "valid"      : true
+                                                                                                                                           "extendedState" : null,
+                                                                                                                                           "lastAccess"    : 1664138474010,
+                                                                                                                                           "type"          : "absolute",
+                                                                                                                                           "x"             : 1054,
+                                                                                                                                           "y"             : 443,
+                                                                                                                                           "valid"         : true
                                                                                                                                           },
            "RememberRelativeDialogLocator-818fe5ad0b176836d9fdbfeecc750f14"                                                             : {
-                                                                                                                                           "lastAccess" : 1667081250686,
-                                                                                                                                           "type"       : null,
-                                                                                                                                           "x"          : 0,
-                                                                                                                                           "y"          : 0,
-                                                                                                                                           "valid"      : false
+                                                                                                                                           "extendedState" : null,
+                                                                                                                                           "lastAccess"    : 1667081250686,
+                                                                                                                                           "type"          : null,
+                                                                                                                                           "x"             : 0,
+                                                                                                                                           "y"             : 0,
+                                                                                                                                           "valid"         : false
+                                                                                                                                          },
+           "RememberRelativeDialogLocator-8dc69c6bcf3ba6c2465a5124cf3e431c"                                                             : {
+                                                                                                                                           "extendedState" : null,
+                                                                                                                                           "lastAccess"    : 1746198367908,
+                                                                                                                                           "type"          : null,
+                                                                                                                                           "x"             : 0,
+                                                                                                                                           "y"             : 0,
+                                                                                                                                           "valid"         : false
                                                                                                                                           },
            "RememberLastDimensor-dialogframe-org.jdownloader.gui.views.linkgrabber.bottombar.MenuManagerLinkgrabberTabBottombar"        : {
-                                                                                                                                           "lastAccess" : 1664138425196,
-                                                                                                                                           "type"       : null,
-                                                                                                                                           "x"          : 800,
-                                                                                                                                           "y"          : 550,
-                                                                                                                                           "valid"      : true
+                                                                                                                                           "extendedState" : null,
+                                                                                                                                           "lastAccess"    : 1664138425196,
+                                                                                                                                           "type"          : null,
+                                                                                                                                           "x"             : 800,
+                                                                                                                                           "y"             : 550,
+                                                                                                                                           "valid"         : true
                                                                                                                                           },
            "RememberRelativeDialogLocator-ce861a0ccc6029e73f8edf5d41270dde"                                                             : {
-                                                                                                                                           "lastAccess" : 1663694020878,
-                                                                                                                                           "type"       : null,
-                                                                                                                                           "x"          : 0,
-                                                                                                                                           "y"          : 0,
-                                                                                                                                           "valid"      : false
+                                                                                                                                           "extendedState" : null,
+                                                                                                                                           "lastAccess"    : 1663694020878,
+                                                                                                                                           "type"          : null,
+                                                                                                                                           "x"             : 0,
+                                                                                                                                           "y"             : 0,
+                                                                                                                                           "valid"         : false
                                                                                                                                           },
            "RememberAbsoluteLocator-CaptchaDialog_uploaded.to"                                                                          : {
-                                                                                                                                           "lastAccess" : 1667991936764,
-                                                                                                                                           "type"       : "absolute",
-                                                                                                                                           "x"          : 562,
-                                                                                                                                           "y"          : 500,
-                                                                                                                                           "valid"      : true
+                                                                                                                                           "extendedState" : null,
+                                                                                                                                           "lastAccess"    : 1667991936764,
+                                                                                                                                           "type"          : "absolute",
+                                                                                                                                           "x"             : 562,
+                                                                                                                                           "y"             : 500,
+                                                                                                                                           "valid"         : true
                                                                                                                                           },
            "RememberRelativeDialogLocator-4ecb0365ee6b4521e15096ff148464de"                                                             : {
-                                                                                                                                           "lastAccess" : 1708906528323,
-                                                                                                                                           "type"       : null,
-                                                                                                                                           "x"          : 0,
-                                                                                                                                           "y"          : 0,
-                                                                                                                                           "valid"      : false
+                                                                                                                                           "extendedState" : null,
+                                                                                                                                           "lastAccess"    : 1708906528323,
+                                                                                                                                           "type"          : null,
+                                                                                                                                           "x"             : 0,
+                                                                                                                                           "y"             : 0,
+                                                                                                                                           "valid"         : false
                                                                                                                                           },
            "RememberRelativeDialogLocator-b09d59dc234d8872bc3a194cf5780b6b"                                                             : {
-                                                                                                                                           "lastAccess" : 1664140151363,
-                                                                                                                                           "type"       : null,
-                                                                                                                                           "x"          : 0,
-                                                                                                                                           "y"          : 0,
-                                                                                                                                           "valid"      : false
+                                                                                                                                           "extendedState" : null,
+                                                                                                                                           "lastAccess"    : 1664140151363,
+                                                                                                                                           "type"          : null,
+                                                                                                                                           "x"             : 0,
+                                                                                                                                           "y"             : 0,
+                                                                                                                                           "valid"         : false
                                                                                                                                           },
            "RememberLastDimensor-dialogframe-org.jdownloader.gui.jdtrayicon.MenuManagerTrayIcon"                                        : {
-                                                                                                                                           "lastAccess" : 1663696032936,
-                                                                                                                                           "type"       : null,
-                                                                                                                                           "x"          : 800,
-                                                                                                                                           "y"          : 550,
-                                                                                                                                           "valid"      : true
+                                                                                                                                           "extendedState" : null,
+                                                                                                                                           "lastAccess"    : 1663696032936,
+                                                                                                                                           "type"          : null,
+                                                                                                                                           "x"             : 800,
+                                                                                                                                           "y"             : 550,
+                                                                                                                                           "valid"         : true
                                                                                                                                           },
            "RememberRelativeDialogLocator-c91413adff92166fb1687007ba3be01b"                                                             : {
-                                                                                                                                           "lastAccess" : 1708906531633,
-                                                                                                                                           "type"       : null,
-                                                                                                                                           "x"          : 0,
-                                                                                                                                           "y"          : 0,
-                                                                                                                                           "valid"      : false
+                                                                                                                                           "extendedState" : null,
+                                                                                                                                           "lastAccess"    : 1708906531633,
+                                                                                                                                           "type"          : null,
+                                                                                                                                           "x"             : 0,
+                                                                                                                                           "y"             : 0,
+                                                                                                                                           "valid"         : false
                                                                                                                                           },
            "RememberAbsoluteLocator-dialogframe-org.jdownloader.gui.mainmenu.MenuManagerMainmenu"                                       : {
-                                                                                                                                           "lastAccess" : 1664138577169,
-                                                                                                                                           "type"       : "absolute",
-                                                                                                                                           "x"          : 1044,
-                                                                                                                                           "y"          : 444,
-                                                                                                                                           "valid"      : true
+                                                                                                                                           "extendedState" : null,
+                                                                                                                                           "lastAccess"    : 1664138577169,
+                                                                                                                                           "type"          : "absolute",
+                                                                                                                                           "x"             : 1044,
+                                                                                                                                           "y"             : 444,
+                                                                                                                                           "valid"         : true
                                                                                                                                           },
            "RememberRelativeDialogLocator-491e5b4f6322b4c9dce0cab232b7505e"                                                             : {
-                                                                                                                                           "lastAccess" : 1663868225864,
-                                                                                                                                           "type"       : null,
-                                                                                                                                           "x"          : 0,
-                                                                                                                                           "y"          : 0,
-                                                                                                                                           "valid"      : false
+                                                                                                                                           "extendedState" : null,
+                                                                                                                                           "lastAccess"    : 1663868225864,
+                                                                                                                                           "type"          : null,
+                                                                                                                                           "x"             : 0,
+                                                                                                                                           "y"             : 0,
+                                                                                                                                           "valid"         : false
                                                                                                                                           },
            "RememberRelativeDialogLocator-bed282bccee580bd42c5ad30f32eae1b"                                                             : {
-                                                                                                                                           "lastAccess" : 1663694205833,
-                                                                                                                                           "type"       : null,
-                                                                                                                                           "x"          : 0,
-                                                                                                                                           "y"          : 0,
-                                                                                                                                           "valid"      : false
+                                                                                                                                           "extendedState" : null,
+                                                                                                                                           "lastAccess"    : 1663694205833,
+                                                                                                                                           "type"          : null,
+                                                                                                                                           "x"             : 0,
+                                                                                                                                           "y"             : 0,
+                                                                                                                                           "valid"         : false
                                                                                                                                           },
            "RememberRelativeDialogLocator-AddLinksDialog"                                                                               : {
-                                                                                                                                           "lastAccess" : 1668825471304,
-                                                                                                                                           "type"       : "relative",
-                                                                                                                                           "x"          : 130,
-                                                                                                                                           "y"          : 144,
-                                                                                                                                           "valid"      : true
+                                                                                                                                           "extendedState" : null,
+                                                                                                                                           "lastAccess"    : 1668825471304,
+                                                                                                                                           "type"          : "relative",
+                                                                                                                                           "x"             : 130,
+                                                                                                                                           "y"             : 144,
+                                                                                                                                           "valid"         : true
                                                                                                                                           },
            "RememberRelativeDialogLocator-5d6c901a6774439edd047942f256dfa1"                                                             : {
-                                                                                                                                           "lastAccess" : 1708906713104,
-                                                                                                                                           "type"       : null,
-                                                                                                                                           "x"          : 0,
-                                                                                                                                           "y"          : 0,
-                                                                                                                                           "valid"      : false
+                                                                                                                                           "extendedState" : null,
+                                                                                                                                           "lastAccess"    : 1708906713104,
+                                                                                                                                           "type"          : null,
+                                                                                                                                           "x"             : 0,
+                                                                                                                                           "y"             : 0,
+                                                                                                                                           "valid"         : false
                                                                                                                                           },
            "RememberRelativeDialogLocator-a398f9ac7ec4f809c0d87048420c68a2"                                                             : {
-                                                                                                                                           "lastAccess" : 1663696275341,
-                                                                                                                                           "type"       : null,
-                                                                                                                                           "x"          : 0,
-                                                                                                                                           "y"          : 0,
-                                                                                                                                           "valid"      : false
+                                                                                                                                           "extendedState" : null,
+                                                                                                                                           "lastAccess"    : 1663696275341,
+                                                                                                                                           "type"          : null,
+                                                                                                                                           "x"             : 0,
+                                                                                                                                           "y"             : 0,
+                                                                                                                                           "valid"         : false
                                                                                                                                           },
            "RememberRelativeDialogLocator-6dfea73e05dc67475d8b95a9c993b45b"                                                             : {
-                                                                                                                                           "lastAccess" : 1667079510342,
-                                                                                                                                           "type"       : null,
-                                                                                                                                           "x"          : 0,
-                                                                                                                                           "y"          : 0,
-                                                                                                                                           "valid"      : false
+                                                                                                                                           "extendedState" : null,
+                                                                                                                                           "lastAccess"    : 1667079510342,
+                                                                                                                                           "type"          : null,
+                                                                                                                                           "x"             : 0,
+                                                                                                                                           "y"             : 0,
+                                                                                                                                           "valid"         : false
                                                                                                                                           },
            "RememberRelativeDialogLocator-bf8070060c48a679b088340e6682724f"                                                             : {
-                                                                                                                                           "lastAccess" : 1663814659803,
-                                                                                                                                           "type"       : null,
-                                                                                                                                           "x"          : 0,
-                                                                                                                                           "y"          : 0,
-                                                                                                                                           "valid"      : false
+                                                                                                                                           "extendedState" : null,
+                                                                                                                                           "lastAccess"    : 1663814659803,
+                                                                                                                                           "type"          : null,
+                                                                                                                                           "x"             : 0,
+                                                                                                                                           "y"             : 0,
+                                                                                                                                           "valid"         : false
                                                                                                                                           },
            "RememberAbsoluteLocator-CaptchaDialog_mexa.sh"                                                                              : {
-                                                                                                                                           "lastAccess" : 1668005098149,
-                                                                                                                                           "type"       : "absolute",
-                                                                                                                                           "x"          : 1105,
-                                                                                                                                           "y"          : 863,
-                                                                                                                                           "valid"      : true
+                                                                                                                                           "extendedState" : null,
+                                                                                                                                           "lastAccess"    : 1668005098149,
+                                                                                                                                           "type"          : "absolute",
+                                                                                                                                           "x"             : 1105,
+                                                                                                                                           "y"             : 863,
+                                                                                                                                           "valid"         : true
                                                                                                                                           },
            "RememberRelativeDialogLocator-ea3eb37fcdafb740124719f906f148b7"                                                             : {
-                                                                                                                                           "lastAccess" : 1708906547842,
-                                                                                                                                           "type"       : null,
-                                                                                                                                           "x"          : 0,
-                                                                                                                                           "y"          : 0,
-                                                                                                                                           "valid"      : false
+                                                                                                                                           "extendedState" : null,
+                                                                                                                                           "lastAccess"    : 1708906547842,
+                                                                                                                                           "type"          : null,
+                                                                                                                                           "x"             : 0,
+                                                                                                                                           "y"             : 0,
+                                                                                                                                           "valid"         : false
                                                                                                                                           },
            "RememberRelativeDialogLocator-fd78b2ea1aa7296fcb03bd8b0ece9cf2"                                                             : {
-                                                                                                                                           "lastAccess" : 1708906841274,
-                                                                                                                                           "type"       : null,
-                                                                                                                                           "x"          : 0,
-                                                                                                                                           "y"          : 0,
-                                                                                                                                           "valid"      : false
+                                                                                                                                           "extendedState" : null,
+                                                                                                                                           "lastAccess"    : 1708906841274,
+                                                                                                                                           "type"          : null,
+                                                                                                                                           "x"             : 0,
+                                                                                                                                           "y"             : 0,
+                                                                                                                                           "valid"         : false
                                                                                                                                           },
            "RememberLastDimensor-dialogframe-org.jdownloader.gui.views.linkgrabber.contextmenu.MenuManagerLinkgrabberTableContext"      : {
-                                                                                                                                           "lastAccess" : 1663695887056,
-                                                                                                                                           "type"       : null,
-                                                                                                                                           "x"          : 800,
-                                                                                                                                           "y"          : 598,
-                                                                                                                                           "valid"      : true
+                                                                                                                                           "extendedState" : null,
+                                                                                                                                           "lastAccess"    : 1663695887056,
+                                                                                                                                           "type"          : null,
+                                                                                                                                           "x"             : 800,
+                                                                                                                                           "y"             : 598,
+                                                                                                                                           "valid"         : true
                                                                                                                                           },
            "RememberAbsoluteLocator-CaptchaDialog_depositfiles.com"                                                                     : {
-                                                                                                                                           "lastAccess" : 1668000289466,
-                                                                                                                                           "type"       : "absolute",
-                                                                                                                                           "x"          : 1812,
-                                                                                                                                           "y"          : 1025,
-                                                                                                                                           "valid"      : true
+                                                                                                                                           "extendedState" : null,
+                                                                                                                                           "lastAccess"    : 1668000289466,
+                                                                                                                                           "type"          : "absolute",
+                                                                                                                                           "x"             : 1812,
+                                                                                                                                           "y"             : 1025,
+                                                                                                                                           "valid"         : true
                                                                                                                                           },
            "RememberRelativeDialogLocator-1bc21d8e99b6b0f724ea94991070b5cc"                                                             : {
-                                                                                                                                           "lastAccess" : 1664138813323,
-                                                                                                                                           "type"       : null,
-                                                                                                                                           "x"          : 0,
-                                                                                                                                           "y"          : 0,
-                                                                                                                                           "valid"      : false
+                                                                                                                                           "extendedState" : null,
+                                                                                                                                           "lastAccess"    : 1664138813323,
+                                                                                                                                           "type"          : null,
+                                                                                                                                           "x"             : 0,
+                                                                                                                                           "y"             : 0,
+                                                                                                                                           "valid"         : false
                                                                                                                                           },
            "RememberRelativeDialogLocator-409c29fdc42559ca44ac7578acd13b97"                                                             : {
-                                                                                                                                           "lastAccess" : 1664138004002,
-                                                                                                                                           "type"       : null,
-                                                                                                                                           "x"          : 0,
-                                                                                                                                           "y"          : 0,
-                                                                                                                                           "valid"      : false
+                                                                                                                                           "extendedState" : null,
+                                                                                                                                           "lastAccess"    : 1664138004002,
+                                                                                                                                           "type"          : null,
+                                                                                                                                           "x"             : 0,
+                                                                                                                                           "y"             : 0,
+                                                                                                                                           "valid"         : false
                                                                                                                                           },
            "RememberRelativeDialogLocator-e6ea6d789b66cec31bd2fb328580915b"                                                             : {
-                                                                                                                                           "lastAccess" : 1663694177641,
-                                                                                                                                           "type"       : null,
-                                                                                                                                           "x"          : 0,
-                                                                                                                                           "y"          : 0,
-                                                                                                                                           "valid"      : false
+                                                                                                                                           "extendedState" : null,
+                                                                                                                                           "lastAccess"    : 1663694177641,
+                                                                                                                                           "type"          : null,
+                                                                                                                                           "x"             : 0,
+                                                                                                                                           "y"             : 0,
+                                                                                                                                           "valid"         : false
                                                                                                                                           },
            "RememberRelativeDialogLocator-a83f1ca5ad00b39773d9e6a26b0e70b2"                                                             : {
-                                                                                                                                           "lastAccess" : 1663694033346,
-                                                                                                                                           "type"       : null,
-                                                                                                                                           "x"          : 0,
-                                                                                                                                           "y"          : 0,
-                                                                                                                                           "valid"      : false
+                                                                                                                                           "extendedState" : null,
+                                                                                                                                           "lastAccess"    : 1663694033346,
+                                                                                                                                           "type"          : null,
+                                                                                                                                           "x"             : 0,
+                                                                                                                                           "y"             : 0,
+                                                                                                                                           "valid"         : false
                                                                                                                                           },
            "RememberAbsoluteLocator-CaptchaDialog_katfile.com"                                                                          : {
-                                                                                                                                           "lastAccess" : 1668001369729,
-                                                                                                                                           "type"       : "absolute",
-                                                                                                                                           "x"          : 1105,
-                                                                                                                                           "y"          : 863,
-                                                                                                                                           "valid"      : true
+                                                                                                                                           "extendedState" : null,
+                                                                                                                                           "lastAccess"    : 1668001369729,
+                                                                                                                                           "type"          : "absolute",
+                                                                                                                                           "x"             : 1105,
+                                                                                                                                           "y"             : 863,
+                                                                                                                                           "valid"         : true
                                                                                                                                           },
            "RememberRelativeDialogLocator-bf2e09275ec25419d7ae9b1328dd1d7b"                                                             : {
-                                                                                                                                           "lastAccess" : 1668001331831,
-                                                                                                                                           "type"       : null,
-                                                                                                                                           "x"          : 0,
-                                                                                                                                           "y"          : 0,
-                                                                                                                                           "valid"      : false
+                                                                                                                                           "extendedState" : null,
+                                                                                                                                           "lastAccess"    : 1668001331831,
+                                                                                                                                           "type"          : null,
+                                                                                                                                           "x"             : 0,
+                                                                                                                                           "y"             : 0,
+                                                                                                                                           "valid"         : false
                                                                                                                                           },
            "RememberAbsoluteLocator-UpdaterFrame"                                                                                       : {
-                                                                                                                                           "lastAccess" : 1708906536696,
-                                                                                                                                           "type"       : "absolute",
-                                                                                                                                           "x"          : 1022,
-                                                                                                                                           "y"          : 668,
-                                                                                                                                           "valid"      : true
+                                                                                                                                           "extendedState" : null,
+                                                                                                                                           "lastAccess"    : 1708906536696,
+                                                                                                                                           "type"          : "absolute",
+                                                                                                                                           "x"             : 1022,
+                                                                                                                                           "y"             : 668,
+                                                                                                                                           "valid"         : true
                                                                                                                                           },
            "RememberLastDimensor-Captcha-uploaded.to..recaptchav2"                                                                      : {
-                                                                                                                                           "lastAccess" : 1667991936764,
-                                                                                                                                           "type"       : null,
-                                                                                                                                           "x"          : 616,
-                                                                                                                                           "y"          : 238,
-                                                                                                                                           "valid"      : true
+                                                                                                                                           "extendedState" : null,
+                                                                                                                                           "lastAccess"    : 1667991936764,
+                                                                                                                                           "type"          : null,
+                                                                                                                                           "x"             : 616,
+                                                                                                                                           "y"             : 238,
+                                                                                                                                           "valid"         : true
                                                                                                                                           },
            "RememberRelativeDialogLocator-AddSpecialAction"                                                                             : {
-                                                                                                                                           "lastAccess" : 1664138561171,
-                                                                                                                                           "type"       : "relative",
-                                                                                                                                           "x"          : 164,
-                                                                                                                                           "y"          : 211,
-                                                                                                                                           "valid"      : true
+                                                                                                                                           "extendedState" : null,
+                                                                                                                                           "lastAccess"    : 1664138561171,
+                                                                                                                                           "type"          : "relative",
+                                                                                                                                           "x"             : 164,
+                                                                                                                                           "y"             : 211,
+                                                                                                                                           "valid"         : true
                                                                                                                                           },
            "RememberRelativeDialogLocator-a1bf220669f01ebdec7d1dfe13cbeab6"                                                             : {
-                                                                                                                                           "lastAccess" : 1664140449362,
-                                                                                                                                           "type"       : null,
-                                                                                                                                           "x"          : 0,
-                                                                                                                                           "y"          : 0,
-                                                                                                                                           "valid"      : false
+                                                                                                                                           "extendedState" : null,
+                                                                                                                                           "lastAccess"    : 1664140449362,
+                                                                                                                                           "type"          : null,
+                                                                                                                                           "x"             : 0,
+                                                                                                                                           "y"             : 0,
+                                                                                                                                           "valid"         : false
                                                                                                                                           },
            "RememberLastDimensor-dialogframe-org.jdownloader.gui.views.downloads.MenuManagerDownloadTabBottomBar"                       : {
-                                                                                                                                           "lastAccess" : 1664138474010,
-                                                                                                                                           "type"       : null,
-                                                                                                                                           "x"          : 800,
-                                                                                                                                           "y"          : 550,
-                                                                                                                                           "valid"      : true
+                                                                                                                                           "extendedState" : null,
+                                                                                                                                           "lastAccess"    : 1664138474010,
+                                                                                                                                           "type"          : null,
+                                                                                                                                           "x"             : 800,
+                                                                                                                                           "y"             : 550,
+                                                                                                                                           "valid"         : true
                                                                                                                                           },
            "RememberRelativeDialogLocator-936e2dca57597b9986fa22f85ea3bc60"                                                             : {
-                                                                                                                                           "lastAccess" : 1663695773108,
-                                                                                                                                           "type"       : null,
-                                                                                                                                           "x"          : 0,
-                                                                                                                                           "y"          : 0,
-                                                                                                                                           "valid"      : false
+                                                                                                                                           "extendedState" : null,
+                                                                                                                                           "lastAccess"    : 1663695773108,
+                                                                                                                                           "type"          : null,
+                                                                                                                                           "x"             : 0,
+                                                                                                                                           "y"             : 0,
+                                                                                                                                           "valid"         : false
                                                                                                                                           },
            "RememberRelativeDialogLocator-b4fb0d0972186748e3c6daff37ef855f"                                                             : {
-                                                                                                                                           "lastAccess" : 1663814684782,
-                                                                                                                                           "type"       : null,
-                                                                                                                                           "x"          : 0,
-                                                                                                                                           "y"          : 0,
-                                                                                                                                           "valid"      : false
+                                                                                                                                           "extendedState" : null,
+                                                                                                                                           "lastAccess"    : 1663814684782,
+                                                                                                                                           "type"          : null,
+                                                                                                                                           "x"             : 0,
+                                                                                                                                           "y"             : 0,
+                                                                                                                                           "valid"         : false
                                                                                                                                           },
            "RememberRelativeDialogLocator-a88a8ed84dec63d888588a4b04c8ad51"                                                             : {
-                                                                                                                                           "lastAccess" : 1664081996337,
-                                                                                                                                           "type"       : null,
-                                                                                                                                           "x"          : 0,
-                                                                                                                                           "y"          : 0,
-                                                                                                                                           "valid"      : false
+                                                                                                                                           "extendedState" : null,
+                                                                                                                                           "lastAccess"    : 1664081996337,
+                                                                                                                                           "type"          : null,
+                                                                                                                                           "x"             : 0,
+                                                                                                                                           "y"             : 0,
+                                                                                                                                           "valid"         : false
                                                                                                                                           },
            "RememberRelativeDialogLocator-3918c81a5e202289b275aaf3e3004ec2"                                                             : {
-                                                                                                                                           "lastAccess" : 1668003929756,
-                                                                                                                                           "type"       : null,
-                                                                                                                                           "x"          : 0,
-                                                                                                                                           "y"          : 0,
-                                                                                                                                           "valid"      : false
+                                                                                                                                           "extendedState" : null,
+                                                                                                                                           "lastAccess"    : 1668003929756,
+                                                                                                                                           "type"          : null,
+                                                                                                                                           "x"             : 0,
+                                                                                                                                           "y"             : 0,
+                                                                                                                                           "valid"         : false
                                                                                                                                           }
           }
 }

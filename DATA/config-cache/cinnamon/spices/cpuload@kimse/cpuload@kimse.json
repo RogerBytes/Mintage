@@ -55,7 +55,7 @@
         "default": 1,
         "min": 0.4,
         "max": 10,
-        "step": 0.2,
+        "step": 0.05,
         "units": "scale factor",
         "description": "Desklet size",
         "tooltip": "Increase or decrease the size of the desklet.",
@@ -70,7 +70,7 @@
         "units": "columns",
         "description": "Number of columns",
         "tooltip": "Increase or decrease number of columns.",
-        "value": 1.0
+        "value": 2
     },
     "head3": {
         "type": "header",
@@ -115,5 +115,5 @@
         "default": false,
         "value": true
     },
-    "__md5__": "1e0865400589681ce34fed688e3c6277"
+    "__md5__": "625839943b1d2988157e6577ee5669ed"
 }

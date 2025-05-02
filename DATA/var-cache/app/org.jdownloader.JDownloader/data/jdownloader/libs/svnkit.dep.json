@@ -1,16 +1,113 @@
 {
   "artefact":"org.tmatesoft.svnkit/svnkit",
+  "dependencies":[
+    {
+      "artifactId":"sequence-library",
+      "groupId":"de.regnis.q.sequence"
+    },
+    {
+      "artifactId":"sqljet",
+      "groupId":"org.tmatesoft.sqljet"
+    }
+  ],
   "filter":null,
+  "history":[],
   "installed":{
-    "date":null,
+    "changes":null,
+    "date":"2023-09-04T11:08:34+02:00",
+    "dependencies":[
+      {
+        "groupId":"com.jcraft",
+        "artifactId":"jsch.agentproxy.svnkit-trilead-ssh2",
+        "version":"0.0.7",
+        "scope":"compile"
+      },
+      {
+        "groupId":"net.java.dev.jna",
+        "artifactId":"jna-platform",
+        "version":"4.1.0",
+        "scope":"compile"
+      },
+      {
+        "groupId":"net.java.dev.jna",
+        "artifactId":"jna",
+        "version":"4.1.0",
+        "scope":"compile"
+      },
+      {
+        "groupId":"com.trilead",
+        "artifactId":"trilead-ssh2",
+        "version":"1.0.0-build219",
+        "scope":"compile"
+      },
+      {
+        "groupId":"com.jcraft",
+        "artifactId":"jsch.agentproxy.connector-factory",
+        "version":"0.0.7",
+        "scope":"compile"
+      },
+      {
+        "groupId":"junit",
+        "artifactId":"junit",
+        "version":"4.8",
+        "scope":"test"
+      },
+      {
+        "groupId":"de.regnis.q.sequence",
+        "artifactId":"sequence-library",
+        "version":"1.0.3",
+        "scope":"compile"
+      },
+      {
+        "groupId":"org.tmatesoft.sqljet",
+        "artifactId":"sqljet",
+        "version":"1.1.10",
+        "scope":"compile"
+      }
+    ],
+    "description":"Pure Java Subversion Library",
+    "files":[
+      "",
+      "meta.json",
+      "svnkit-javadoc.jar",
+      "svnkit-javadoc.jar.asc",
+      "svnkit-javadoc.jar.asc.md5",
+      "svnkit-javadoc.jar.asc.sha1",
+      "svnkit-javadoc.jar.md5",
+      "svnkit-javadoc.jar.sha1",
+      "svnkit-sources.jar",
+      "svnkit-sources.jar.asc",
+      "svnkit-sources.jar.asc.md5",
+      "svnkit-sources.jar.asc.sha1",
+      "svnkit-sources.jar.md5",
+      "svnkit-sources.jar.sha1",
+      "svnkit.jar",
+      "svnkit.jar.asc",
+      "svnkit.jar.asc.md5",
+      "svnkit.jar.asc.sha1",
+      "svnkit.jar.md5",
+      "svnkit.jar.sha1",
+      "svnkit.pom",
+      "svnkit.pom.asc",
+      "svnkit.pom.asc.md5",
+      "svnkit.pom.asc.sha1",
+      "svnkit.pom.md5",
+      "svnkit.pom.sha1"
+    ],
     "hashes":{"svnkit.jar":"09cb0908ec713b6aa307881c3fbd3f7b504430beae1d51120b974e2fc541fb6e"},
-    "license":"\n    <license>\n      <name>TMate Open Source License (with dual licensing option)</name>\n      <url>http://www.svnkit.com/license.html</url>\n    </license>\n  ",
-    "minJRE":"16000000",
+    "licenses":[{
+      "name":"TMate Open Source License (with dual licensing option)",
+      "url":"http://www.svnkit.com/license.html"
+    }],
+    "minJRE":"JVM_1_6",
+    "name":"SVNKit Library",
     "version":"1.8.10"
   },
   "minJRE":"1.6",
   "provider":"maven",
   "renames":null,
+  "requiredBy":[],
   "version":"1.8.10",
+  "autoRenameEnabled":true,
   "confirm":true
 }

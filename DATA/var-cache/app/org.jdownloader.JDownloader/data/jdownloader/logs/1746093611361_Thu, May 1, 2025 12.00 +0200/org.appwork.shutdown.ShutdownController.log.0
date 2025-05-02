@@ -1,0 +1,9 @@
+------------------------Thread: 33:org.appwork.shutdown.ShutdownController.log-----------------------
+--ID:33TS:1746093622135-01/05/2025 12:00:22 -  [org.appwork.shutdown.ShutdownController(log)] -> Request Shutdown: org.jdownloader.updatev2.SmartRlyExitRequest@4793e01b
+--ID:33TS:1746093622137-01/05/2025 12:00:22 -  [org.appwork.shutdown.ShutdownController(log)] -> Wait for ShutdownThread:Thread[#51,ShutdownThread:1746093622136|org.jdownloader.updatev2.SmartRlyExitRequest@4793e01b,5,main]|waitDuration:0
+------------------------Thread: 51:org.appwork.shutdown.ShutdownController.log-----------------------
+--ID:51TS:1746093622137-01/05/2025 12:00:22 -  [org.appwork.shutdown.ShutdownController(log)] -> Exit Now(Controller): Code: 0
+--ID:51TS:1746093622138-01/05/2025 12:00:22 -  [org.appwork.shutdown.ShutdownController(log)] -> [1/6|Priority: 10000]ShutdownController: start item->org.appwork.utils.singleapp.SingleAppInstance$2 Priority: 10000
+--ID:51TS:1746093622139-01/05/2025 12:00:22 -  [org.appwork.shutdown.ShutdownController(log)] -> [1/6|Priority: 10000]ShutdownController: item ended after->1
+--ID:51TS:1746093622140-01/05/2025 12:00:22 -  [org.appwork.shutdown.ShutdownController(log)] -> [Done:1/6]
+--ID:51TS:1746093622140-01/05/2025 12:00:22 -  [org.appwork.shutdown.ShutdownController(log)] -> [2/6|Priority: 10000]ShutdownController: start item->flushing logs to disk

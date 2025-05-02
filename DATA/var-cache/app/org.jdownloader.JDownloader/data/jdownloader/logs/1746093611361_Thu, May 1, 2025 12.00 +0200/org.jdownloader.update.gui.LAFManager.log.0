@@ -1,0 +1,23 @@
+------------------------Thread: 37:org.jdownloader.update.gui.LAFManager.log-----------------------
+--ID:37TS:1746093612199-01/05/2025 12:00:12 -  [org.jdownloader.update.gui.LAFManager(init)] -> Load /home/harry/.var/app/org.jdownloader.JDownloader/data/jdownloader/cfg/org.jdownloader.settings.GraphicalUserInterfaceSettings.json
+--ID:37TS:1746093612206-01/05/2025 12:00:12 -  [org.jdownloader.update.gui.LAFManager(init)] -> Init LAF: de.javasoft.plaf.synthetica.SyntheticaBlackEyeLookAndFeel
+--ID:37TS:1746093612209-01/05/2025 12:00:12 -  [org.jdownloader.update.gui.LAFManager(init)] -> Add to classpath: /home/harry/.var/app/org.jdownloader.JDownloader/data/jdownloader/libs/laf/syntheticaBlackStar.jar
+--ID:37TS:1746093612214-01/05/2025 12:00:12 -  [org.jdownloader.update.gui.LAFManager(init)] -> Add to classpath: /home/harry/.var/app/org.jdownloader.JDownloader/data/jdownloader/libs/laf/syntheticaDark.jar
+--ID:37TS:1746093612215-01/05/2025 12:00:12 -  [org.jdownloader.update.gui.LAFManager(init)] -> Add to classpath: /home/harry/.var/app/org.jdownloader.JDownloader/data/jdownloader/libs/laf/syntheticaPlain.jar
+--ID:37TS:1746093612215-01/05/2025 12:00:12 -  [org.jdownloader.update.gui.LAFManager(init)] -> Add to classpath: /home/harry/.var/app/org.jdownloader.JDownloader/data/jdownloader/libs/laf/syntheticaBlueSteel.jar
+--ID:37TS:1746093612216-01/05/2025 12:00:12 -  [org.jdownloader.update.gui.LAFManager(init)] -> Add to classpath: /home/harry/.var/app/org.jdownloader.JDownloader/data/jdownloader/libs/laf/syntheticaOrangeMetallic.jar
+--ID:37TS:1746093612216-01/05/2025 12:00:12 -  [org.jdownloader.update.gui.LAFManager(init)] -> Add to classpath: /home/harry/.var/app/org.jdownloader.JDownloader/data/jdownloader/libs/laf/syntheticaGreenDream.jar
+--ID:37TS:1746093612217-01/05/2025 12:00:12 -  [org.jdownloader.update.gui.LAFManager(init)] -> Add to classpath: /home/harry/.var/app/org.jdownloader.JDownloader/data/jdownloader/libs/laf/syntheticaJDCustom.jar
+--ID:37TS:1746093612219-01/05/2025 12:00:12 -  [org.jdownloader.update.gui.LAFManager(init)] -> Add to classpath: /home/harry/.var/app/org.jdownloader.JDownloader/data/jdownloader/libs/laf/syntheticaBlueLight.jar
+--ID:37TS:1746093612219-01/05/2025 12:00:12 -  [org.jdownloader.update.gui.LAFManager(init)] -> Add to classpath: /home/harry/.var/app/org.jdownloader.JDownloader/data/jdownloader/libs/laf/syntheticaClassy.jar
+--ID:37TS:1746093612220-01/05/2025 12:00:12 -  [org.jdownloader.update.gui.LAFManager(init)] -> Add to classpath: /home/harry/.var/app/org.jdownloader.JDownloader/data/jdownloader/libs/laf/syntheticaSimple2D.jar
+--ID:37TS:1746093612221-01/05/2025 12:00:12 -  [org.jdownloader.update.gui.LAFManager(init)] -> Add to classpath: /home/harry/.var/app/org.jdownloader.JDownloader/data/jdownloader/libs/laf/syntheticaBlueMoon.jar
+--ID:37TS:1746093612222-01/05/2025 12:00:12 -  [org.jdownloader.update.gui.LAFManager(init)] -> Add to classpath: /home/harry/.var/app/org.jdownloader.JDownloader/data/jdownloader/libs/laf/syntheticaWhiteVision.jar
+--ID:37TS:1746093612235-01/05/2025 12:00:12 -  [org.jdownloader.update.gui.LAFManager(init)] -> Add to classpath: /home/harry/.var/app/org.jdownloader.JDownloader/data/jdownloader/libs/laf/syntheticaBlueIce.jar
+--ID:37TS:1746093612235-01/05/2025 12:00:12 -  [org.jdownloader.update.gui.LAFManager(init)] -> Add to classpath: /home/harry/.var/app/org.jdownloader.JDownloader/data/jdownloader/libs/laf/syntheticaAluOxide.jar
+--ID:37TS:1746093612236-01/05/2025 12:00:12 -  [org.jdownloader.update.gui.LAFManager(init)] -> Add to classpath: /home/harry/.var/app/org.jdownloader.JDownloader/data/jdownloader/libs/laf/syntheticaBlackEye.jar
+--ID:37TS:1746093612236-01/05/2025 12:00:12 -  [org.jdownloader.update.gui.LAFManager(init)] -> Add to classpath: /home/harry/.var/app/org.jdownloader.JDownloader/data/jdownloader/libs/laf/syntheticaMauveMetallic.jar
+--ID:37TS:1746093612237-01/05/2025 12:00:12 -  [org.jdownloader.update.gui.LAFManager(init)] -> Add to classpath: /home/harry/.var/app/org.jdownloader.JDownloader/data/jdownloader/libs/laf/syntheticaSilverMoon.jar
+--ID:37TS:1746093612237-01/05/2025 12:00:12 -  [org.jdownloader.update.gui.LAFManager(init)] -> Add to classpath: /home/harry/.var/app/org.jdownloader.JDownloader/data/jdownloader/libs/laf/syntheticaBlackMoon.jar
+--ID:37TS:1746093612238-01/05/2025 12:00:12 -  [org.jdownloader.update.gui.LAFManager(init)] -> Add to classpath: /home/harry/.var/app/org.jdownloader.JDownloader/data/jdownloader/libs/laf/syntheticaSkyMetallic.jar
+--ID:37TS:1746093612239-01/05/2025 12:00:12 -  [org.jdownloader.update.gui.LAFManager(init)] -> Add to classpath: /home/harry/.var/app/org.jdownloader.JDownloader/data/jdownloader/libs/laf/synthetica.jar

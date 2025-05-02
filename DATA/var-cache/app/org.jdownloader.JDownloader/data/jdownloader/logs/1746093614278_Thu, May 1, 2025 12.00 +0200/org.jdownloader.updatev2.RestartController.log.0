@@ -1,0 +1,3 @@
+------------------------Thread: 1:org.jdownloader.updatev2.RestartController.log-----------------------
+--ID:1TS:1746093622368-01/05/2025 12:00:22 -  [org.jdownloader.updatev2.RestartController(log)] -> Set Root: /home/harry/.var/app/org.jdownloader.JDownloader/data/jdownloader
+--ID:1TS:1746093622369-01/05/2025 12:00:22 -  [org.jdownloader.updatev2.RestartController(log)] -> Direct Restart: 

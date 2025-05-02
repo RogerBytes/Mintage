@@ -1,0 +1,2 @@
+2025/05/02-15:18:58.741 2ce18 Creating DB /home/harry/.config/Ferdium/Partitions/service-b48bfbad-4a96-4580-9b1e-ffa31926a818/IndexedDB/https_app.element.io_0.indexeddb.leveldb since it was missing.
+2025/05/02-15:18:58.751 2ce18 Reusing MANIFEST /home/harry/.config/Ferdium/Partitions/service-b48bfbad-4a96-4580-9b1e-ffa31926a818/IndexedDB/https_app.element.io_0.indexeddb.leveldb/MANIFEST-000001

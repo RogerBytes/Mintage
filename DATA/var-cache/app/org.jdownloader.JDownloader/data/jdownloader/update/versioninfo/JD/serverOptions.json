@@ -10,6 +10,7 @@
  "translations/org/jdownloader/extensions/chat"           : "{\n\"parentIDList\":[\"chat\"]\n}",
  "libs/swt/windows"                                       : "{\n\"mac\" : \"FALSE\",\n\"linux\":\"FALSE\",\n\"bsd\":\"FALSE\"\n}",
  "tools/Windows/rtmpdump/NativeProcessx64.dll"            : "{\n\"jvm32Bit\":\"FALSE\",\n\"jvm64Bit\":\"TRUE\"\n}",
+ "libs/sevenzipjbindingRiscv.jar"                         : "{\n\"parentIDList\":[\"cpu_riscv\"]\n}",
  "libs/laf/syntheticaBlueSteel.jar"                       : "{\n\"parentIDList\":[\"synthetica-themes\"]\n}",
  "libs/laf/syntheticaBlueMoon.jar"                        : "{\n\"parentIDList\":[\"synthetica-themes\"]\n}",
  "libs/sevenzipjbindingLinuxPPCVersion.jar"               : "{\n\"windows\":\"FALSE\",\n\"mac\":\"FALSE\",\n\"bsd\":\"FALSE\",\n\"linux\":\"TRUE\",\n\"arch\":\"PPC\"\n}",
@@ -45,6 +46,7 @@
  "libs/laf/syntheticaClassy.jar"                          : "{\n\"parentIDList\":[\"synthetica-themes\"]\n}",
  "jd/osx"                                                 : "{\n\"windows\" : \"FALSE\",\n\"linux\":\"FALSE\"\n}",
  "translations/org/jdownloader/extensions/growl"          : "{\n\"windows\":\"FALSE\",\n\"linux\":\"FALSE\"\n}",
+ "libs/sevenzipjbindingBsdArm64.jar"                      : "{\n\"windows\":\"FALSE\",\n\"mac\":\"FALSE\",\n\"bsd\":\"TRUE\",\n\"linux\":\"FALSE\",\n\"arch\":\"ARM\",\n\"os64Bit\":\"TRUE\",\n\"os32Bit\":\"FALSE\"\n}",
  "libs/irclib.jar"                                        : "{\n\"parentIDList\":[\"chat\"]\n}",
  "translations/org/jdownloader/extensions/translator.jar" : "{\n\"parentIDList\":[\"translator\"]\n}",
  "themes/standard/org/jdownloader/videos/streaming"       : "{\n\"parentIDList\":[\"streaming\"]\n}",
@@ -84,5 +86,6 @@
  "libs/laf/syntheticaBlackEye.jar"                        : "{\n\"parentIDList\":[\"synthetica-themes\"]\n}",
  "tools/linux/ffmpeg/x64"                                 : "{\n\"os64Bit\":\"TRUE\",\n\"os32Bit\":\"FALSE\",\n\"arch\":\"X86\"\n}",
  "libs/svnkit.jar"                                        : "{\n\"parentIDList\":[\"translator\"]\n}",
- "libs/swt/linux/x64"                                     : "{\n\"os64Bit\":\"TRUE\",\n\"os32Bit\":\"FALSE\",\n\"arch\":\"X86\"\n}"
+ "libs/swt/linux/x64"                                     : "{\n\"os64Bit\":\"TRUE\",\n\"os32Bit\":\"FALSE\",\n\"arch\":\"X86\"\n}",
+ "libs/sevenzipjbindingWinArm64.jar"                      : "{\n\"windows\":\"TRUE\",\n\"mac\":\"FALSE\",\n\"bsd\":\"FALSE\",\n\"linux\":\"FALSE\",\n\"arch\":\"ARM\",\n\"os64Bit\":\"TRUE\",\n\"os32Bit\":\"FALSE\"\n}"
 }

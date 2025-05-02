@@ -1,0 +1,16 @@
+about:config
+
+browser.tabs.closeWindowWithLastTab
+Mettre sur false
+
+browser.search.openintab
+Mettre sur true
+
+browser.tabs.loadBookmarksInBackground
+Mettre sur true
+
+browser.tabs.loadDivertedInBackground
+Mettre sur true
+
+browser.tabs.insertRelatedAfterCurrent
+Mettre sur false

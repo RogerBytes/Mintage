@@ -1,7 +1,0 @@
-------------------------Thread: 92:org.jdownloader.plugins.controller.crawler.CrawlerPluginController.log-----------------------
---ID:92TS:1708906900406-26/02/2024 01:21:40 -  [org.jdownloader.plugins.controller.crawler.CrawlerPluginController(init)] -> CrawlerPluginController: init
-------------------------Thread: 93:org.jdownloader.plugins.controller.crawler.CrawlerPluginController.log-----------------------
---ID:93TS:1708906900407-26/02/2024 01:21:40 -  [org.jdownloader.plugins.controller.PluginScannerNIO(scan)] -> @PluginController(NIO): no plugin cache available|LastModified:-1
---ID:93TS:1708906900600-26/02/2024 01:21:40 -  [org.jdownloader.plugins.controller.PluginScannerNIO(scan)] -> @PluginController(NIO): scan took 193ms for 703
---ID:93TS:1708906900735-26/02/2024 01:21:40 -  [org.jdownloader.plugins.controller.crawler.CrawlerPluginController$1(run)] -> @CrawlerPluginController: update took 328ms for 1121|LastModified:1708906494724
---ID:93TS:1708906900735-26/02/2024 01:21:40 -  [org.jdownloader.plugins.controller.crawler.CrawlerPluginController$1(run)] -> @CrawlerPluginController: init took 328ms for 1121

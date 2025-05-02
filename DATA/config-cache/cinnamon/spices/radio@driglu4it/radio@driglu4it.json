@@ -122,29 +122,239 @@
         ],
         "value": [
             {
-                "name": "Smooth Chill",
-                "url": "https://media-ssl.musicradio.com/ChillMP3",
-                "inc": true
+                "inc": true,
+                "name": "RMF Cuba",
+                "url": "http://31.192.216.8/CUBA"
             },
             {
-                "name": "Austrian Rock Radio",
-                "url": "http://live.antenne.at/arr",
-                "inc": true
+                "inc": true,
+                "name": "King Dub Radio",
+                "url": "http://london-dedicated.myautodj.com:8862/stream"
             },
             {
-                "name": "Rádio KIKS Rock",
-                "url": "https://stream.radiokiks.sk/kiks_rock.mp3",
-                "inc": true
+                "inc": true,
+                "name": "OUI FM REGGAE",
+                "url": "https://ouifmganja.ice.infomaniak.ch/ouifmganja-128.mp3"
             },
             {
-                "name": "Radio BOB",
-                "url": "http://live6.infonetmedia.si/Europa05",
-                "inc": true
+                "inc": true,
+                "name": "sensimedia roots reggae",
+                "url": "http://equinox.shoutca.st:9878/"
             },
             {
-                "name": "Deep House Radio",
-                "url": "http://62.210.105.16:7000/stream",
-                "inc": true
+                "inc": true,
+                "name": "Rocksteady / Lovers Rock - Caprice Radio",
+                "url": "http://79.120.39.202:8000/rocksteady"
+            },
+            {
+                "inc": true,
+                "name": "Bob's Ska Radio",
+                "url": "https://www.bobskaradio.com/playlist.pls"
+            },
+            {
+                "inc": true,
+                "name": "Nova Reggae",
+                "url": "https://nova-reggae.ice.infomaniak.ch/nova-reggae-256.aac"
+            },
+            {
+                "inc": true,
+                "name": "181.FM - Fusion Jazz",
+                "url": "http://www.181.fm/stream/pls/181-fusionjazz.pls"
+            },
+            {
+                "inc": true,
+                "name": "Fusion 101",
+                "url": "http://opml.radiotime.com/Tune.ashx?id=s191877&formats=mp3"
+            },
+            {
+                "inc": true,
+                "name": "Radio Caprice - Jazz Fusion",
+                "url": "http://79.111.119.111:8002/jazzfusion"
+            },
+            {
+                "inc": true,
+                "name": "181.FM - BeBop Jazz",
+                "url": "http://www.181.fm/stream/pls/181-bebop.pls"
+            },
+            {
+                "inc": true,
+                "name": "Jazz Radio",
+                "url": "http://jazzradio.ice.infomaniak.ch/jazzradio-high.mp3"
+            },
+            {
+                "inc": true,
+                "name": "Jazz Radio Classic Jazz",
+                "url": "http://jazz-wr01.ice.infomaniak.ch/jazz-wr01-128.mp3"
+            },
+            {
+                "inc": true,
+                "name": "Jazz Radio Blues",
+                "url": "http://jazzblues.ice.infomaniak.ch/jazzblues-high.mp3"
+            },
+            {
+                "inc": true,
+                "name": "RMC Disco Funk",
+                "url": "http://edge.radiomontecarlo.net/rmcweb025"
+            },
+            {
+                "inc": true,
+                "name": "Generation Soul Disco Funk",
+                "url": "http://www.generationdiscofunk.com/pls/hd.m3u"
+            },
+            {
+                "inc": true,
+                "name": "B4B DISCO FUNK OFFICIAL",
+                "url": "http://www.b4bradio.com/flux/dance-classics.m3u"
+            },
+            {
+                "inc": true,
+                "name": "70s 80s Disco Funk ModernSoul Boogie",
+                "url": "https://discofunk.streamingmedia.it/usa"
+            },
+            {
+                "inc": true,
+                "name": "Urban hit raï",
+                "url": "https://urbanhitus.ice.infomaniak.ch/urbanhitus-128.mp3"
+            },
+            {
+                "inc": true,
+                "name": "Nrj raï",
+                "url": "http://cdn.nrjaudio.fm/adwz1/fr/30133/mp3_128.mp3"
+            },
+            {
+                "inc": true,
+                "name": "Radio Zitouna FM",
+                "url": "https://stream.radiozitouna.tn/radio/8030/radio.mp3"
+            },
+            {
+                "inc": true,
+                "name": "Radio Balafon 102.7 Bobo-Dioulasso",
+                "url": "https://stream.zeno.fm/v3ddfda0cf9uv"
+            },
+            {
+                "inc": true,
+                "name": "KMIL 105.1 Cameron Texas",
+                "url": "http://s1.voscast.com:9080/"
+            },
+            {
+                "inc": true,
+                "name": "Equinoxe Radio",
+                "url": "https://listen.radioking.com/radio/39218/stream/76118"
+            },
+            {
+                "inc": true,
+                "name": "Toutes les couleurs du trad",
+                "url": "https://my2.radiolize.com/radio/8100/radio.mp3"
+            },
+            {
+                "inc": true,
+                "name": "Blues Radio",
+                "url": "http://cast3.radiohost.ovh:8352/"
+            },
+            {
+                "inc": true,
+                "name": "1.FM - Blues Radio",
+                "url": "http://strm112.1.fm/blues_mobile_mp3"
+            },
+            {
+                "inc": true,
+                "name": "Concertzender Jazz",
+                "url": "http://streams.greenhost.nl:8080/jazz"
+            },
+            {
+                "inc": true,
+                "name": "Concertzender Baroque",
+                "url": "http://streams.greenhost.nl:8080/barok"
+            },
+            {
+                "inc": true,
+                "name": "Concertzender Gregoriaans",
+                "url": "http://streams.greenhost.nl:8080/gregoriaans"
+            },
+            {
+                "inc": true,
+                "name": "Concertzender Oriënt Express",
+                "url": "http://streams.greenhost.nl:8080/orientexpress"
+            },
+            {
+                "inc": true,
+                "name": "0nlineradio GOSPEL",
+                "url": "https://stream.0nlineradio.com/gospel?ref=radiobrowser"
+            },
+            {
+                "inc": true,
+                "name": "Gospel Radio East Africa",
+                "url": "https://c32.radioboss.fm:18451/stream?1641237600584"
+            },
+            {
+                "inc": true,
+                "name": "Soul Radio",
+                "url": "http://soulradio02.live-streams.nl/live"
+            },
+            {
+                "inc": true,
+                "name": "Chante France",
+                "url": "http://stream.chantefrance.com/Chante_France"
+            },
+            {
+                "inc": true,
+                "name": "Douce France",
+                "url": "https://stream.chantefrance.com/Chante_France.aac"
+            },
+            {
+                "inc": true,
+                "name": "SOUL RADIO Classics",
+                "url": "https://listen.soulradio.eu/eu"
+            },
+            {
+                "inc": true,
+                "name": "RTBF Classic 21 - Soul Power",
+                "url": "https://radios.rtbf.be/wr-c21-soul-128.mp3"
+            },
+            {
+                "inc": true,
+                "name": "RADIO ZOUK EMOTION",
+                "url": "https://stream.radiozoukemotion.com/rze"
+            },
+            {
+                "inc": true,
+                "name": "Allzic Radio Zouk",
+                "url": "https://allzic28.ice.infomaniak.ch/allzic28.mp3"
+            },
+            {
+                "inc": true,
+                "name": "playzouk",
+                "url": "http://maevatropicale.com:8050/stream"
+            },
+            {
+                "inc": true,
+                "name": "Ska World",
+                "url": "http://skaworld.stream.laut.fm/skaworld?ref=radiode"
+            },
+            {
+                "inc": true,
+                "name": "Chillofi radio",
+                "url": "http://streams.dez.ovh:8000/radio.mp3"
+            },
+            {
+                "inc": true,
+                "name": "Lofi Radio",
+                "url": "https://play.streamafrica.net/lofiradio"
+            },
+            {
+                "inc": true,
+                "name": "Lofi 24/7",
+                "url": "http://usa9.fastcast4u.com/proxy/jamz?mp=/1"
+            },
+            {
+                "inc": true,
+                "name": "LoFi Hip-Hop Radio",
+                "url": "https://live.radiospinner.com/lofi-hip-hop-64"
+            },
+            {
+                "inc": true,
+                "name": "Classic FM France",
+                "url": "https://classicfm.ice.infomaniak.ch/classic-fm.mp3"
             }
         ]
     },
@@ -198,12 +408,12 @@
     },
     "last-volume": {
         "type": "generic",
-        "value": 80,
+        "value": 55,
         "default": 80
     },
     "last-url": {
         "type": "generic",
-        "value": "http://live.antenne.at/arr",
+        "value": "https://listen.radioking.com/radio/39218/stream/76118",
         "default": null
     },
     "youtube-download-cli": {
@@ -223,7 +433,7 @@
         "tooltip": "Songs downloaded from YouTube will be saved to this directory.",
         "default": "~/Music/Radio",
         "select-dir": true,
-        "value": "file:///home/rogerbytes/Musique/Radio"
+        "value": "file:///home/harry/Musique/Radio++"
     },
     "radio-search-widget": {
         "type": "custom",

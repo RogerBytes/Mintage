@@ -1,6 +1,7 @@
 [desktop]
-computer-icon-visible=true
+computer-icon-visible=false
 desktop-layout='true::true'
+home-icon-visible=true
 network-icon-visible=false
 show-orphaned-desktop-icons=false
 trash-icon-visible=true
@@ -26,11 +27,11 @@ show-search-icon-toolbar=false
 swap-trash-delete=false
 
 [window-state]
-geometry='895x666+64+128'
+geometry='1088x720+429+477'
 maximized=false
 side-pane-view='places'
-sidebar-bookmark-breakpoint=8
-sidebar-width=208
+sidebar-bookmark-breakpoint=13
+sidebar-width=236
 start-with-menu-bar=false
 start-with-sidebar=true
 start-with-toolbar=true

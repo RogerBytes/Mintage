@@ -1,16 +1,70 @@
 {
   "artefact":"org.antlr/antlr-runtime",
+  "dependencies":[],
   "filter":null,
+  "history":[],
   "installed":{
-    "date":null,
+    "changes":null,
+    "date":"2023-09-04T11:08:34+02:00",
+    "dependencies":[
+      {
+        "groupId":"org.antlr",
+        "artifactId":"stringtemplate",
+        "version":"3.2.1",
+        "scope":"compile"
+      },
+      {
+        "groupId":"antlr",
+        "artifactId":"antlr",
+        "version":"2.7.7",
+        "scope":"compile"
+      }
+    ],
+    "description":"A framework for constructing recognizers, compilers, and translators from grammatical descriptions containing Java, C#, C++, or Python actions.",
+    "files":[
+      "",
+      "antlr-runtime-javadoc.jar",
+      "antlr-runtime-javadoc.jar.asc",
+      "antlr-runtime-javadoc.jar.asc.md5",
+      "antlr-runtime-javadoc.jar.asc.sha1",
+      "antlr-runtime-javadoc.jar.md5",
+      "antlr-runtime-javadoc.jar.sha1",
+      "antlr-runtime-sources.jar",
+      "antlr-runtime-sources.jar.asc",
+      "antlr-runtime-sources.jar.asc.md5",
+      "antlr-runtime-sources.jar.asc.sha1",
+      "antlr-runtime-sources.jar.md5",
+      "antlr-runtime-sources.jar.sha1",
+      "antlr-runtime.jar",
+      "antlr-runtime.jar.asc",
+      "antlr-runtime.jar.asc.md5",
+      "antlr-runtime.jar.asc.sha1",
+      "antlr-runtime.jar.md5",
+      "antlr-runtime.jar.sha1",
+      "antlr-runtime.pom",
+      "antlr-runtime.pom.asc",
+      "antlr-runtime.pom.asc.md5",
+      "antlr-runtime.pom.asc.sha1",
+      "antlr-runtime.pom.md5",
+      "antlr-runtime.pom.sha1",
+      "meta.json"
+    ],
     "hashes":{"antlr-runtime.jar":"5b7cf53b7b30b034023f58030c8147c433f2bee0fe7dec8fae6bebf3708c5a63"},
-    "license":null,
-    "minJRE":"0",
+    "licenses":["BSD"],
+    "minJRE":"JVM_1_4",
+    "name":"Antlr 3.4 Runtime",
     "version":"3.4"
   },
   "minJRE":"1.6",
   "provider":"maven",
   "renames":null,
+  "requiredBy":[{
+    "artefact":"org.tmatesoft.sqljet/sqljet",
+    "file":"JDownloader\\ressourcen\\libs\\sqljet.dep.json",
+    "provider":"maven",
+    "version":"3.4"
+  }],
   "version":"3.4",
+  "autoRenameEnabled":true,
   "confirm":true
 }

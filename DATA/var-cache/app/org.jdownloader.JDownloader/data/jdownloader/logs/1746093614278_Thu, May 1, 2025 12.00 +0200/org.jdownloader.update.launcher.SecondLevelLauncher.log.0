@@ -1,0 +1,140 @@
+------------------------Thread: 1:org.jdownloader.update.launcher.SecondLevelLauncher.log-----------------------
+--ID:1TS:1746093614571-01/05/2025 12:00:14 -  [org.appwork.utils.Application(printSystemProperties)] -> SysProp: java.specification.version: 22
+--ID:1TS:1746093614571-01/05/2025 12:00:14 -  [org.appwork.utils.Application(printSystemProperties)] -> SysProp: classloader_00000001: org.jdownloader.update.launcher.CL2
+--ID:1TS:1746093614573-01/05/2025 12:00:14 -  [org.appwork.utils.Application(printSystemProperties)] -> SysProp: sun.jnu.encoding: UTF-8
+--ID:1TS:1746093614574-01/05/2025 12:00:14 -  [org.appwork.utils.Application(printSystemProperties)] -> SysProp: classloader_00000000: org.jdownloader.update.launcher.ClassLoaderExtensionImpl
+--ID:1TS:1746093614574-01/05/2025 12:00:14 -  [org.appwork.utils.Application(printSystemProperties)] -> SysProp: extlogmanager.avoidsystemclassloader.hack: org.jdownloader.updatev2.JDClassLoaderLauncher$JDCustomRootClassLoader@3a71f4dd
+--ID:1TS:1746093614575-01/05/2025 12:00:14 -  [org.appwork.utils.Application(printSystemProperties)] -> SysProp: java.class.path: /home/harry/.var/app/org.jdownloader.JDownloader/data/jdownloader/tmp/update/self/JDU/JDownloader.jar
+--ID:1TS:1746093614575-01/05/2025 12:00:14 -  [org.appwork.utils.Application(printSystemProperties)] -> SysProp: java.vm.vendor: Flathub
+--ID:1TS:1746093614576-01/05/2025 12:00:14 -  [org.appwork.utils.Application(printSystemProperties)] -> SysProp: sun.arch.data.model: 64
+--ID:1TS:1746093614576-01/05/2025 12:00:14 -  [org.appwork.utils.Application(printSystemProperties)] -> SysProp: java.util.Arrays.useLegacyMergeSort: true
+--ID:1TS:1746093614577-01/05/2025 12:00:14 -  [org.appwork.utils.Application(printSystemProperties)] -> SysProp: java.vendor.url: https://flathub.org
+--ID:1TS:1746093614577-01/05/2025 12:00:14 -  [org.appwork.utils.Application(printSystemProperties)] -> SysProp: user.timezone: Europe/Paris
+--ID:1TS:1746093614578-01/05/2025 12:00:14 -  [org.appwork.utils.Application(printSystemProperties)] -> SysProp: java.vm.specification.version: 22
+--ID:1TS:1746093614578-01/05/2025 12:00:14 -  [org.appwork.utils.Application(printSystemProperties)] -> SysProp: os.name: Linux
+--ID:1TS:1746093614579-01/05/2025 12:00:14 -  [org.appwork.utils.Application(printSystemProperties)] -> SysProp: sun.java.launcher: SUN_STANDARD
+--ID:1TS:1746093614579-01/05/2025 12:00:14 -  [org.appwork.utils.Application(printSystemProperties)] -> SysProp: user.country: FR
+--ID:1TS:1746093614580-01/05/2025 12:00:14 -  [org.appwork.utils.Application(printSystemProperties)] -> SysProp: java.net.preferIPv6Addresses: system
+--ID:1TS:1746093614580-01/05/2025 12:00:14 -  [org.appwork.utils.Application(printSystemProperties)] -> SysProp: sun.boot.library.path: /app/jre/lib
+--ID:1TS:1746093614580-01/05/2025 12:00:14 -  [org.appwork.utils.Application(printSystemProperties)] -> SysProp: sun.java.command: /home/harry/.var/app/org.jdownloader.JDownloader/data/jdownloader/tmp/update/self/JDU/JDownloader.jar -selftest tmp/selftest_1746093614007 /home/harry/.var/app/org.jdownloader.JDownloader/data/jdownloader - -updateonexit
+--ID:1TS:1746093614581-01/05/2025 12:00:14 -  [org.appwork.utils.Application(printSystemProperties)] -> SysProp: java.rmi.server.useCodebaseOnly: true
+--ID:1TS:1746093614581-01/05/2025 12:00:14 -  [org.appwork.utils.Application(printSystemProperties)] -> SysProp: jdk.debug: release
+--ID:1TS:1746093614582-01/05/2025 12:00:14 -  [org.appwork.utils.Application(printSystemProperties)] -> SysProp: sun.cpu.endian: little
+--ID:1TS:1746093614582-01/05/2025 12:00:14 -  [org.appwork.utils.Application(printSystemProperties)] -> SysProp: user.home: /home/harry
+--ID:1TS:1746093614583-01/05/2025 12:00:14 -  [org.appwork.utils.Application(printSystemProperties)] -> SysProp: user.language: fr
+--ID:1TS:1746093614583-01/05/2025 12:00:14 -  [org.appwork.utils.Application(printSystemProperties)] -> SysProp: LOG_INIT_DONE: 2 instances
+--ID:1TS:1746093614583-01/05/2025 12:00:14 -  [org.appwork.utils.Application(printSystemProperties)] -> SysProp: java.specification.vendor: Oracle Corporation
+--ID:1TS:1746093614584-01/05/2025 12:00:14 -  [org.appwork.utils.Application(printSystemProperties)] -> SysProp: java.version.date: 2024-07-16
+--ID:1TS:1746093614584-01/05/2025 12:00:14 -  [org.appwork.utils.Application(printSystemProperties)] -> SysProp: java.home: /app/jre
+--ID:1TS:1746093614586-01/05/2025 12:00:14 -  [org.appwork.utils.Application(printSystemProperties)] -> SysProp: file.separator: /
+--ID:1TS:1746093614586-01/05/2025 12:00:14 -  [org.appwork.utils.Application(printSystemProperties)] -> SysProp: java.vm.compressedOopsMode: Zero based
+--ID:1TS:1746093614586-01/05/2025 12:00:14 -  [org.appwork.utils.Application(printSystemProperties)] -> SysProp: line.separator: 
+
+--ID:1TS:1746093614587-01/05/2025 12:00:14 -  [org.appwork.utils.Application(printSystemProperties)] -> SysProp: java.vm.specification.vendor: Oracle Corporation
+--ID:1TS:1746093614587-01/05/2025 12:00:14 -  [org.appwork.utils.Application(printSystemProperties)] -> SysProp: java.specification.name: Java Platform API Specification
+--ID:1TS:1746093614588-01/05/2025 12:00:14 -  [org.appwork.utils.Application(printSystemProperties)] -> SysProp: org.appwork.LoggerFactory: org.appwork.utils.logging2.LogSourceRedirector
+--ID:1TS:1746093614588-01/05/2025 12:00:14 -  [org.appwork.utils.Application(printSystemProperties)] -> SysProp: sun.management.compiler: HotSpot 64-Bit Tiered Compilers
+--ID:1TS:1746093614589-01/05/2025 12:00:14 -  [org.appwork.utils.Application(printSystemProperties)] -> SysProp: com.sun.jndi.rmi.object.trustURLCodebase: false
+--ID:1TS:1746093614589-01/05/2025 12:00:14 -  [org.appwork.utils.Application(printSystemProperties)] -> SysProp: java.runtime.version: 22.0.2+36
+--ID:1TS:1746093614589-01/05/2025 12:00:14 -  [org.appwork.utils.Application(printSystemProperties)] -> SysProp: user.name: harry
+--ID:1TS:1746093614590-01/05/2025 12:00:14 -  [org.appwork.utils.Application(printSystemProperties)] -> SysProp: stdout.encoding: UTF-8
+--ID:1TS:1746093614590-01/05/2025 12:00:14 -  [org.appwork.utils.Application(printSystemProperties)] -> SysProp: path.separator: :
+--ID:1TS:1746093614590-01/05/2025 12:00:14 -  [org.appwork.utils.Application(printSystemProperties)] -> SysProp: com.sun.jndi.cosnaming.object.trustURLCodebase: false
+--ID:1TS:1746093614591-01/05/2025 12:00:14 -  [org.appwork.utils.Application(printSystemProperties)] -> SysProp: os.version: 6.8.0-58-generic
+--ID:1TS:1746093614591-01/05/2025 12:00:14 -  [org.appwork.utils.Application(printSystemProperties)] -> SysProp: java.runtime.name: OpenJDK Runtime Environment
+--ID:1TS:1746093614591-01/05/2025 12:00:14 -  [org.appwork.utils.Application(printSystemProperties)] -> SysProp: file.encoding: UTF-8
+--ID:1TS:1746093614592-01/05/2025 12:00:14 -  [org.appwork.utils.Application(printSystemProperties)] -> SysProp: java.vm.name: OpenJDK 64-Bit Server VM
+--ID:1TS:1746093614592-01/05/2025 12:00:14 -  [org.appwork.utils.Application(printSystemProperties)] -> SysProp: java.vendor.version: 24.3
+--ID:1TS:1746093614592-01/05/2025 12:00:14 -  [org.appwork.utils.Application(printSystemProperties)] -> SysProp: java.vendor.url.bug: https://github.com/flathub/org.freedesktop.Sdk.Extension.openjdk/issues
+--ID:1TS:1746093614593-01/05/2025 12:00:14 -  [org.appwork.utils.Application(printSystemProperties)] -> SysProp: java.io.tmpdir: /tmp
+--ID:1TS:1746093614593-01/05/2025 12:00:14 -  [org.appwork.utils.Application(printSystemProperties)] -> SysProp: java.version: 22.0.2
+--ID:1TS:1746093614593-01/05/2025 12:00:14 -  [org.appwork.utils.Application(printSystemProperties)] -> SysProp: user.dir: /home/harry/.var/app/org.jdownloader.JDownloader/data/jdownloader
+--ID:1TS:1746093614594-01/05/2025 12:00:14 -  [org.appwork.utils.Application(printSystemProperties)] -> SysProp: os.arch: amd64
+--ID:1TS:1746093614594-01/05/2025 12:00:14 -  [org.appwork.utils.Application(printSystemProperties)] -> SysProp: java.vm.specification.name: Java Virtual Machine Specification
+--ID:1TS:1746093614594-01/05/2025 12:00:14 -  [org.appwork.utils.Application(printSystemProperties)] -> SysProp: k: 0dd0ecf7f742873d745106adea00b64a
+--ID:1TS:1746093614595-01/05/2025 12:00:14 -  [org.appwork.utils.Application(printSystemProperties)] -> SysProp: native.encoding: UTF-8
+--ID:1TS:1746093614595-01/05/2025 12:00:14 -  [org.appwork.utils.Application(printSystemProperties)] -> SysProp: java.util.logging.manager: org.appwork.utils.logging2.extmanager.ExtLogManager
+--ID:1TS:1746093614595-01/05/2025 12:00:14 -  [org.appwork.utils.Application(printSystemProperties)] -> SysProp: java.library.path: /app/lib/ffmpeg:/app/lib/openh264/extra:/usr/java/packages/lib:/usr/lib64:/lib64:/lib:/usr/lib
+--ID:1TS:1746093614596-01/05/2025 12:00:14 -  [org.appwork.utils.Application(printSystemProperties)] -> SysProp: java.vm.info: mixed mode, sharing
+--ID:1TS:1746093614597-01/05/2025 12:00:14 -  [org.appwork.utils.Application(printSystemProperties)] -> SysProp: stderr.encoding: UTF-8
+--ID:1TS:1746093614597-01/05/2025 12:00:14 -  [org.appwork.utils.Application(printSystemProperties)] -> SysProp: java.vendor: Flathub
+--ID:1TS:1746093614597-01/05/2025 12:00:14 -  [org.appwork.utils.Application(printSystemProperties)] -> SysProp: java.vm.version: 22.0.2+36
+--ID:1TS:1746093614598-01/05/2025 12:00:14 -  [org.appwork.utils.Application(printSystemProperties)] -> SysProp: com.sun.jndi.ldap.object.trustURLCodebase: false
+--ID:1TS:1746093614598-01/05/2025 12:00:14 -  [org.appwork.utils.Application(printSystemProperties)] -> SysProp: sun.io.unicode.encoding: UnicodeLittle
+--ID:1TS:1746093614598-01/05/2025 12:00:14 -  [org.appwork.utils.Application(printSystemProperties)] -> SysProp: java.class.version: 66.0
+--ID:1TS:1746093614601-01/05/2025 12:00:14 -  [org.appwork.utils.Application(printSystemProperties)] -> SysEnv: XDG_GREETER_DATA_DIR: /var/lib/lightdm-data/harry
+--ID:1TS:1746093614601-01/05/2025 12:00:14 -  [org.appwork.utils.Application(printSystemProperties)] -> SysEnv: XDG_SESSION_PATH: /org/freedesktop/DisplayManager/Session0
+--ID:1TS:1746093614602-01/05/2025 12:00:14 -  [org.appwork.utils.Application(printSystemProperties)] -> SysEnv: XDG_SEAT_PATH: /org/freedesktop/DisplayManager/Seat0
+--ID:1TS:1746093614602-01/05/2025 12:00:14 -  [org.appwork.utils.Application(printSystemProperties)] -> SysEnv: GST_PLUGIN_SYSTEM_PATH: /app/lib/gstreamer-1.0:/usr/lib/extensions/gstreamer-1.0:/usr/lib/x86_64-linux-gnu/gstreamer-1.0
+--ID:1TS:1746093614603-01/05/2025 12:00:14 -  [org.appwork.utils.Application(printSystemProperties)] -> SysEnv: FLATPAK_SANDBOX_DIR: /home/harry/.var/app/org.jdownloader.JDownloader/sandbox
+--ID:1TS:1746093614603-01/05/2025 12:00:14 -  [org.appwork.utils.Application(printSystemProperties)] -> SysEnv: GSETTINGS_SCHEMA_DIR: /home/harry/data
+--ID:1TS:1746093614604-01/05/2025 12:00:14 -  [org.appwork.utils.Application(printSystemProperties)] -> SysEnv: PATH: /app/bin:/app/jre/bin:/usr/bin
+--ID:1TS:1746093614604-01/05/2025 12:00:14 -  [org.appwork.utils.Application(printSystemProperties)] -> SysEnv: PYTHONUSERBASE: /var/data/python
+--ID:1TS:1746093614605-01/05/2025 12:00:14 -  [org.appwork.utils.Application(printSystemProperties)] -> SysEnv: LOGNAME: harry
+--ID:1TS:1746093614605-01/05/2025 12:00:14 -  [org.appwork.utils.Application(printSystemProperties)] -> SysEnv: ICON_THEME: Mint-L-Blue
+--ID:1TS:1746093614606-01/05/2025 12:00:14 -  [org.appwork.utils.Application(printSystemProperties)] -> SysEnv: XDG_CONFIG_DIRS: /app/etc/xdg:/etc/xdg
+--ID:1TS:1746093614606-01/05/2025 12:00:14 -  [org.appwork.utils.Application(printSystemProperties)] -> SysEnv: GDM_LANG: fr_FR
+--ID:1TS:1746093614606-01/05/2025 12:00:14 -  [org.appwork.utils.Application(printSystemProperties)] -> SysEnv: XAUTHORITY: /run/flatpak/Xauthority
+--ID:1TS:1746093614607-01/05/2025 12:00:14 -  [org.appwork.utils.Application(printSystemProperties)] -> SysEnv: JAVA_HOME: /app/jre
+--ID:1TS:1746093614607-01/05/2025 12:00:14 -  [org.appwork.utils.Application(printSystemProperties)] -> SysEnv: XDG_SESSION_ID: c2
+--ID:1TS:1746093614609-01/05/2025 12:00:14 -  [org.appwork.utils.Application(printSystemProperties)] -> SysEnv: XDG_CACHE_HOME: /home/harry/.var/app/org.jdownloader.JDownloader/cache
+--ID:1TS:1746093614610-01/05/2025 12:00:14 -  [org.appwork.utils.Application(printSystemProperties)] -> SysEnv: GIO_LAUNCHED_DESKTOP_FILE_PID: 42147
+--ID:1TS:1746093614610-01/05/2025 12:00:14 -  [org.appwork.utils.Application(printSystemProperties)] -> SysEnv: GIO_LAUNCHED_DESKTOP_FILE: /var/lib/flatpak/exports/share/applications/org.jdownloader.JDownloader.desktop
+--ID:1TS:1746093614610-01/05/2025 12:00:14 -  [org.appwork.utils.Application(printSystemProperties)] -> SysEnv: XDG_STATE_HOME: /home/harry/.var/app/org.jdownloader.JDownloader/.local/state
+--ID:1TS:1746093614611-01/05/2025 12:00:14 -  [org.appwork.utils.Application(printSystemProperties)] -> SysEnv: ALSA_CONFIG_DIR: /usr/share/alsa
+--ID:1TS:1746093614611-01/05/2025 12:00:14 -  [org.appwork.utils.Application(printSystemProperties)] -> SysEnv: QT_ACCESSIBILITY: 1
+--ID:1TS:1746093614612-01/05/2025 12:00:14 -  [org.appwork.utils.Application(printSystemProperties)] -> SysEnv: __EGL_EXTERNAL_PLATFORM_CONFIG_DIRS: /etc/egl/egl_external_platform.d:/usr/lib/x86_64-linux-gnu/GL/egl/egl_external_platform.d:/usr/share/egl/egl_external_platform.d
+--ID:1TS:1746093614612-01/05/2025 12:00:14 -  [org.appwork.utils.Application(printSystemProperties)] -> SysEnv: XDG_SEAT: seat0
+--ID:1TS:1746093614612-01/05/2025 12:00:14 -  [org.appwork.utils.Application(printSystemProperties)] -> SysEnv: LD_LIBRARY_PATH: /app/lib/ffmpeg:/app/lib/openh264/extra
+--ID:1TS:1746093614613-01/05/2025 12:00:14 -  [org.appwork.utils.Application(printSystemProperties)] -> SysEnv: XDG_VTNR: 7
+--ID:1TS:1746093614613-01/05/2025 12:00:14 -  [org.appwork.utils.Application(printSystemProperties)] -> SysEnv: XDG_SESSION_DESKTOP: cinnamon
+--ID:1TS:1746093614613-01/05/2025 12:00:14 -  [org.appwork.utils.Application(printSystemProperties)] -> SysEnv: AT_SPI_BUS_ADDRESS: unix:path=/run/flatpak/at-spi-bus
+--ID:1TS:1746093614614-01/05/2025 12:00:14 -  [org.appwork.utils.Application(printSystemProperties)] -> SysEnv: DBUS_SESSION_BUS_ADDRESS: unix:path=/run/flatpak/bus
+--ID:1TS:1746093614616-01/05/2025 12:00:14 -  [org.appwork.utils.Application(printSystemProperties)] -> SysEnv: GTK_THEME: Mint-L-Dark-Blue
+--ID:1TS:1746093614616-01/05/2025 12:00:14 -  [org.appwork.utils.Application(printSystemProperties)] -> SysEnv: SHLVL: 0
+--ID:1TS:1746093614616-01/05/2025 12:00:14 -  [org.appwork.utils.Application(printSystemProperties)] -> SysEnv: XDG_DATA_DIRS: /app/share:/usr/share:/usr/share/runtime/share:/run/host/user-share:/run/host/share
+--ID:1TS:1746093614617-01/05/2025 12:00:14 -  [org.appwork.utils.Application(printSystemProperties)] -> SysEnv: FLATPAK_ID: org.jdownloader.JDownloader
+--ID:1TS:1746093614617-01/05/2025 12:00:14 -  [org.appwork.utils.Application(printSystemProperties)] -> SysEnv: SHELL: /bin/sh
+--ID:1TS:1746093614617-01/05/2025 12:00:14 -  [org.appwork.utils.Application(printSystemProperties)] -> SysEnv: XDG_SESSION_CLASS: user
+--ID:1TS:1746093614618-01/05/2025 12:00:14 -  [org.appwork.utils.Application(printSystemProperties)] -> SysEnv: GTK_MODULES: gail:atk-bridge
+--ID:1TS:1746093614618-01/05/2025 12:00:14 -  [org.appwork.utils.Application(printSystemProperties)] -> SysEnv: SESSION_MANAGER: local/Andrew:@/tmp/.ICE-unix/2681,unix/Andrew:/tmp/.ICE-unix/2681
+--ID:1TS:1746093614618-01/05/2025 12:00:14 -  [org.appwork.utils.Application(printSystemProperties)] -> SysEnv: DISPLAY: :0
+--ID:1TS:1746093614619-01/05/2025 12:00:14 -  [org.appwork.utils.Application(printSystemProperties)] -> SysEnv: HOME: /home/harry
+--ID:1TS:1746093614619-01/05/2025 12:00:14 -  [org.appwork.utils.Application(printSystemProperties)] -> SysEnv: XDG_CURRENT_DESKTOP: X-Cinnamon
+--ID:1TS:1746093614620-01/05/2025 12:00:14 -  [org.appwork.utils.Application(printSystemProperties)] -> SysEnv: QT_QPA_PLATFORMTHEME: qt5ct
+--ID:1TS:1746093614620-01/05/2025 12:00:14 -  [org.appwork.utils.Application(printSystemProperties)] -> SysEnv: LANG: fr_FR.UTF-8
+--ID:1TS:1746093614620-01/05/2025 12:00:14 -  [org.appwork.utils.Application(printSystemProperties)] -> SysEnv: GDMSESSION: cinnamon
+--ID:1TS:1746093614620-01/05/2025 12:00:14 -  [org.appwork.utils.Application(printSystemProperties)] -> SysEnv: GNOME_DESKTOP_SESSION_ID: this-is-deprecated
+--ID:1TS:1746093614620-01/05/2025 12:00:14 -  [org.appwork.utils.Application(printSystemProperties)] -> SysEnv: GTK3_MODULES: xapp-gtk3-module
+--ID:1TS:1746093614621-01/05/2025 12:00:14 -  [org.appwork.utils.Application(printSystemProperties)] -> SysEnv: LANGUAGE: fr_FR
+--ID:1TS:1746093614622-01/05/2025 12:00:14 -  [org.appwork.utils.Application(printSystemProperties)] -> SysEnv: GI_TYPELIB_PATH: /app/lib/girepository-1.0
+--ID:1TS:1746093614623-01/05/2025 12:00:14 -  [org.appwork.utils.Application(printSystemProperties)] -> SysEnv: container: flatpak
+--ID:1TS:1746093614623-01/05/2025 12:00:14 -  [org.appwork.utils.Application(printSystemProperties)] -> SysEnv: XDG_CONFIG_HOME: /home/harry/.var/app/org.jdownloader.JDownloader/config
+--ID:1TS:1746093614623-01/05/2025 12:00:14 -  [org.appwork.utils.Application(printSystemProperties)] -> SysEnv: XDG_RUNTIME_DIR: /run/user/1000
+--ID:1TS:1746093614623-01/05/2025 12:00:14 -  [org.appwork.utils.Application(printSystemProperties)] -> SysEnv: SSH_AUTH_SOCK: /run/user/1000/keyring/ssh
+--ID:1TS:1746093614624-01/05/2025 12:00:14 -  [org.appwork.utils.Application(printSystemProperties)] -> SysEnv: ALSA_CONFIG_PATH: /usr/share/alsa/alsa-flatpak.conf
+--ID:1TS:1746093614625-01/05/2025 12:00:14 -  [org.appwork.utils.Application(printSystemProperties)] -> SysEnv: GDK_BACKEND: x11
+--ID:1TS:1746093614625-01/05/2025 12:00:14 -  [org.appwork.utils.Application(printSystemProperties)] -> SysEnv: GPG_AGENT_INFO: /run/user/1000/gnupg/S.gpg-agent:0:1
+--ID:1TS:1746093614625-01/05/2025 12:00:14 -  [org.appwork.utils.Application(printSystemProperties)] -> SysEnv: DESKTOP_SESSION: cinnamon
+--ID:1TS:1746093614626-01/05/2025 12:00:14 -  [org.appwork.utils.Application(printSystemProperties)] -> SysEnv: USER: harry
+--ID:1TS:1746093614627-01/05/2025 12:00:14 -  [org.appwork.utils.Application(printSystemProperties)] -> SysEnv: XDG_SESSION_TYPE: x11
+--ID:1TS:1746093614627-01/05/2025 12:00:14 -  [org.appwork.utils.Application(printSystemProperties)] -> SysEnv: XDG_DATA_HOME: /home/harry/.var/app/org.jdownloader.JDownloader/data
+--ID:1TS:1746093614627-01/05/2025 12:00:14 -  [org.appwork.utils.Application(printSystemProperties)] -> SysEnv: PWD: /home/harry
+--ID:1TS:1746093614634-01/05/2025 12:00:14 -  [org.appwork.utils.Application(printSystemProperties)] -> jar:file:/home/harry/.var/app/org.jdownloader.JDownloader/data/jdownloader/tmp/update/self/JDU/JDownloader.jar!/version.nfo:
+${updateclient.revision}
+--ID:1TS:1746093614637-01/05/2025 12:00:14 -  [org.appwork.utils.Application(printSystemProperties)] -> ant-version: Apache Ant 1.10.5
+--ID:1TS:1746093614637-01/05/2025 12:00:14 -  [org.appwork.utils.Application(printSystemProperties)] -> add-opens: java.desktop/javax.swing.plaf.synth java.desktop/javax.swin
+--ID:1TS:1746093614637-01/05/2025 12:00:14 -  [org.appwork.utils.Application(printSystemProperties)] -> add-exports: java.desktop/sun.swing java.desktop/sun.swing.table java.
+--ID:1TS:1746093614638-01/05/2025 12:00:14 -  [org.appwork.utils.Application(printSystemProperties)] -> created-by: Appwork GmbH and JDownloader Community
+--ID:1TS:1746093614638-01/05/2025 12:00:14 -  [org.appwork.utils.Application(printSystemProperties)] -> manifest-version: 1.0
+--ID:1TS:1746093614638-01/05/2025 12:00:14 -  [org.appwork.utils.Application(printSystemProperties)] -> main-class: org.jdownloader.update.launcher.JDLauncher
+--ID:1TS:1746093614639-01/05/2025 12:00:14 -  [org.appwork.utils.Application(printSystemProperties)] -> /home/harry/.var/app/org.jdownloader.JDownloader/data/jdownloader/tmp/update/self/JDU/JDownloader.jar- lastModified: 01/05/2025 11:58:38
+--ID:1TS:1746093614640-01/05/2025 12:00:14 -  [org.jdownloader.update.launcher.SecondLevelLauncher(init)] -> Args: [-selftest, tmp/selftest_1746093614007, /home/harry/.var/app/org.jdownloader.JDownloader/data/jdownloader, -, -updateonexit]
+--ID:1TS:1746093614652-01/05/2025 12:00:14 -  [org.jdownloader.update.launcher.SecondLevelLauncher(init)] -> Restart Controller init done in 12
+--ID:1TS:1746093614653-01/05/2025 12:00:14 -  [org.jdownloader.update.launcher.SecondLevelLauncher(init)] -> Parse Arguments
+--ID:1TS:1746093614654-01/05/2025 12:00:14 -  [org.jdownloader.update.launcher.SecondLevelLauncher(init)] -> Parameter Parse done in 1
+--ID:1TS:1746093614654-01/05/2025 12:00:14 -  [org.jdownloader.update.launcher.SecondLevelLauncher(init)] -> Single Instance Controller
+--ID:1TS:1746093614681-01/05/2025 12:00:14 -  [org.jdownloader.update.launcher.SecondLevelLauncher(init)] -> Single Instance init done in 27
+--ID:1TS:1746093614681-01/05/2025 12:00:14 -  [org.jdownloader.update.launcher.SecondLevelLauncher(init)] -> Init UpdateManager
+--ID:1TS:1746093614907-01/05/2025 12:00:14 -  [org.jdownloader.update.launcher.SecondLevelLauncher(init)] -> Update Manager init done in 225
+--ID:1TS:1746093614908-01/05/2025 12:00:14 -  [org.jdownloader.update.launcher.SecondLevelLauncher(init)] -> Run Selftest

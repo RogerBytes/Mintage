@@ -1,6 +1,0 @@
-------------------------Thread: 1:org.appwork.shutdown.ShutdownController.log-----------------------
---ID:1TS:1708906468818-26/02/2024 01:14:28 -  [org.appwork.shutdown.ShutdownController(log)] -> Request Shutdown: BasicRestartRequest [-afterupdate]
---ID:1TS:1708906468819-26/02/2024 01:14:28 -  [org.appwork.shutdown.ShutdownController(log)] -> Wait for ShutdownThread:Thread[ShutdownThread:1708906468819|BasicRestartRequest [-afterupdate],5,main]|waitDuration:0
-------------------------Thread: 39:org.appwork.shutdown.ShutdownController.log-----------------------
---ID:39TS:1708906468819-26/02/2024 01:14:28 -  [org.appwork.shutdown.ShutdownController(log)] -> Exit Now(Controller): Code: 0
---ID:39TS:1708906468819-26/02/2024 01:14:28 -  [org.appwork.shutdown.ShutdownController(log)] -> [1/5|Priority: 10000]ShutdownController: start item->flushing logs to disk

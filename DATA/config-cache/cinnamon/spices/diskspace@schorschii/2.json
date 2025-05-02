@@ -41,6 +41,23 @@
         },
         "value": "nothing"
     },
+    "size-prefix": {
+        "type": "combobox",
+        "default": "binary",
+        "description": "Size Prefix",
+        "options": {
+            "Decimal": "decimal",
+            "Binary": "binary"
+        },
+        "value": "binary"
+    },
+    "reserved-blocks-as-used-space": {
+        "type": "checkbox",
+        "description": "Show reserved blocks as used space",
+        "tooltip": "Reserved blocks are useable for the root user only and that's why displayed as used space by default.",
+        "default": true,
+        "value": true
+    },
     "head2": {
         "type": "header",
         "description": "Visual"
@@ -69,16 +86,6 @@
             "No text": "none"
         },
         "value": "used-size"
-    },
-    "size-prefix": {
-        "type": "combobox",
-        "default": "binary",
-        "description": "Size Prefix",
-        "options": {
-            "Decimal": "decimal",
-            "Binary": "binary"
-        },
-        "value": "binary"
     },
     "hide-decorations": {
         "type": "checkbox",
@@ -116,7 +123,7 @@
         "default": 1,
         "min": 0.4,
         "max": 10,
-        "step": 0.2,
+        "step": 0.05,
         "units": "scale factor",
         "description": "Desklet size",
         "tooltip": "Increase or decrease the size of this desklet using this scale factor.",
@@ -162,5 +169,5 @@
         "default": 1,
         "value": 1
     },
-    "__md5__": "f5a43280f94b41a7dd26dee7dd823a1e"
+    "__md5__": "b03918da93ae39d6ddabea4480e68a75"
 }

@@ -9,5 +9,18 @@
         "default": "meaningOfLife = 42\nsphereVolume(r) = 4/3 Pi r^3",
         "value": "meaningOfLife = 42\nsphereVolume(r) = 4/3 Pi r^3"
     },
-    "__md5__": "ebb9bd2b8acb6806d0f5066c17194c05"
+    "precisionheader": {
+        "type": "header",
+        "description": "Precision"
+    },
+    "precision": {
+        "type": "scale",
+        "description": "Number of significant digits:",
+        "default": 14,
+        "min": 1,
+        "max": 16,
+        "step": 1,
+        "value": 14
+    },
+    "__md5__": "e519c87c6c2e04b75fdf341ea1e8aefb"
 }

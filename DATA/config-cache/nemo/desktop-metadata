@@ -1,28 +1,41 @@
 [desktop-monitor-0]
 nemo-icon-view-keep-aligned=true
 nemo-icon-view-auto-layout=false
-nemo-icon-view-layout-timestamp=1708909051
+nemo-icon-view-layout-timestamp=1746177547
+desktop-grid-adjust=82;100;
+
+[M2101K7BNY.volume]
+nemo-icon-position=74,22
+monitor=0
+icon-scale=1
+nemo-icon-position-timestamp=1745936047
 
 [trash]
-nemo-icon-position-timestamp=1708909051
-nemo-icon-position=2426,1328
+nemo-icon-position-timestamp=1746177547
+nemo-icon-position=1837,945
 monitor=0
 icon-scale=1
-
-[pCloudDrive.volume]
-nemo-icon-position=2166,28
-monitor=0
-icon-scale=1
-nemo-icon-position-timestamp=1708909051
 
 [home]
-nemo-icon-position=2426,28
+nemo-icon-position=1837,45
 monitor=0
 icon-scale=1
-nemo-icon-position-timestamp=1708909051
+nemo-icon-position-timestamp=1746177547
 
-[Disque Dur.volume]
-nemo-icon-position=2296,28
+[Partage.volume]
+nemo-icon-position=1731,45
 monitor=0
 icon-scale=1
-nemo-icon-position-timestamp=1708909051
+nemo-icon-position-timestamp=1746177547
+
+[ESD-USB.volume]
+nemo-icon-position=35,45
+monitor=0
+icon-scale=1
+nemo-icon-position-timestamp=1746051268
+
+[Emtec 124GB.volume]
+nemo-icon-position=1625,45
+monitor=0
+icon-scale=1
+nemo-icon-position-timestamp=1746178187
