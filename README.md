@@ -233,7 +233,7 @@ Votre installation est terminée, amusez-vous bien sur Linux Mint !
 
 ### Problèmes
 
-RAS
+Les extensions de floorp ne sont pas correctement installées (patch en cours)
 
 ### Observations
 
