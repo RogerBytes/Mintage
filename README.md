@@ -170,7 +170,8 @@ Attention, si vous avez un dual boot avec windows, il faut ABSOLUMENT que vous d
 
 #### Appimages
 
-Depuis le dossier caché `~/ApplicationsTemp` (qui sert à un gestionnaire pour stocker les appimages) lancez chacune des applications.
+Depuis le dossier `~/ApplicationsTemp` (qui sert à un gestionnaire pour stocker les appimages).
+Lancer toutes les applications s'y trouvant pour que AppImage Launcher propose l'intégration
 Vous pouvez supprimer le dossier après.
 
 #### LanguageTools pour LibreOffice
@@ -185,12 +186,9 @@ Décochez "Vérificateur orthographique Hunspell"
 #### Derniers réglages
 
 Sinon sur votre bureau 'clic droit' > personnaliser :
-décochez "ajustement automatique", puis cliquez en bas sur "Paramètre du bureau"
-Décochez le poste de travail et cochez le dossier personnel
+décochez "ajustement automatique".
 
-Lancez Xpad une première fois depuis le menu.
-
-Clic droit sur l’icône "préférences" dans l'onglet "au démarrage, cochez "Démarrer Xpad automatiquement après l'ouverture de session".
+Il faut ouvrir une fois les deux profils de floorp et patienter quelque secondes pour que l'initialisation des extensions se termine.
 
 Pour lancer une détection des capteurs thermiques et autres :
 
@@ -198,15 +196,12 @@ Pour lancer une détection des capteurs thermiques et autres :
 sudo sensors-detect
 ```
 
-Lancer toutes les applications s'y trouvant pour que AppImage Launcher propose l'intégration
-
-
 ### Installation terminée
 
 Dans votre dossier utilisateur se trouve le dossier Mintage : vous pouvez maintenant le supprimer.
 Une documentation avec plein de conseils et astuces se trouve dans `~/Local/Documentation`.
 
-Depuis la logithèque vous pouvez ajoutez les flatpak non certifiés dans les paramètres. Il s'agit de paquets maintenu par un tiers et non par leur developpeur, peut provoquer des failles de sécurité.
+Depuis la logithèque vous pouvez ajoutez les flatpak non certifiés dans les paramètres. Il s'agit de paquets maintenu par un tiers et non par leur développeur, peut provoquer des failles de sécurité.
 
 Votre installation est terminée, amusez-vous bien sur Linux Mint !
 
@@ -219,8 +214,10 @@ Votre installation est terminée, amusez-vous bien sur Linux Mint !
 <details style="background-color: #222222; border: 1px solid #ccc; border-radius: 4px;">
 <summary>Afficher/Masquer</summary>
 
-1. Faire un script de customisation pour une nouvelle session.
-2. Faire une application simple pour changer de runtime Java.
+1. Il faut aussi dans applications préférées floorp et Rhythmbox
+2. Il faut faire une sauvegarde du plank avec le keepass depuis appli en cours (le raccourcis est incorrect)
+3. Faire un script de customisation pour une nouvelle session.
+4. Faire une application simple pour changer de runtime Java.
 
 </details>
 
@@ -236,7 +233,6 @@ Votre installation est terminée, amusez-vous bien sur Linux Mint !
 Les extensions de floorp ne sont pas correctement installées (patch en cours)
 
 ### Observations
-
 
 #### Les appli flatpak sans support de thème
 
