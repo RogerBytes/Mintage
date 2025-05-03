@@ -175,10 +175,10 @@ Vous pouvez supprimer le dossier après.
 
 #### LanguageTools pour LibreOffice
 
-Dans LibreOffice allez dans "Outils/Gestionnaire des extensions..."
+Dans LibreOffice allez dans "Outils/Extensions..."
 Puis "Ajouter" et choisir "LanguageTool-stable.oxt"
 Dans LibreOffice aller dans "Outils/Options" (ou 'Alt+F12'), puis :
-"Paramètres linguistiques/Linguistique"
+"Langues et locales/Linguistique"
 Allez dans l'encart "Modules linguistiques disponibles", puis :
 Décochez "Vérificateur orthographique Hunspell"
 

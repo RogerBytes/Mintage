@@ -7,16 +7,25 @@
 # -------------------------------
 
 # réglages de vivaldi
-rm -r ~/.config/vivaldi/
+[ -d ~/.config/vivaldi ] && rm -rf ~/.config/vivaldi
+
 #Compresser vivaldi -> tar -I 'zstd -19' -cf - vivaldi/ | split -b 95M - vivaldi.tzst.
 cat ./DATA/vivaldi.tzst.* > vivaldi.tzst && tar -I zstd -xf vivaldi.tzst -C "$HOME/.config/"
 rm vivaldi.tzst
 
 # réglages de floorp
-rm -r ~/.floorp/
+[ -d ~/.floorp ] && rm -rf ~/.floorp
 # Compresser floorp -> tar -I 'zstd -19' -cf - .floorp/ | split -b 95M - floorp.tzst.
 cat ./DATA/floorp.tzst.* > floorp.tzst && tar -I zstd -xf floorp.tzst -C "$HOME/"
 rm floorp.tzst
+
+# corriger les chemins (nouveau test pour résoudre le souci)
+sed -i "s|rogerbytes|$(whoami)|g" ~/.floorp/0a2qqe25.default/extensions.json
+sed -i "s|rogerbytes|$(whoami)|g" ~/.floorp/vnvbfnz3.default-release/extensions.json
+
+# decompresser le cache de floorp (nouveau test pour résoudre le souci)
+[ -d ~/.cache/floorp ] && rm -rf ~/.cache/floorp
+cat ./DATA/floorp-cache.tzst.* > floorp-cache.tzst && tar -I zstd -xf floorp-cache.tzst -C "$HOME/.cache/"
 
 # réglages de thunderbird
 rm -r ~/.thunderbird/
