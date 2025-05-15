@@ -1,0 +1,81 @@
+Modifier les espace entre les elements de barres  de menu, un seul espace suffit, ensuite via clic droit on peut changer sa taille (en mettant 25 au lieu de 10 par exemple)
+Vérifier que j'ai bien viré les résidu du truc qui compte les connexions entrantes/sortantes
+
+Ajouter une poignée (via un espace flexible sur la barre de fenêtre)
+Modifier le lien de windows 10, pour utiliser celui de AtlasOS, virer l'onglet infos également
+
+Voir pour installer gamemode
+
+Applet à rajouter
+Applet KDE Connect
+
+Installer mangoHud et Goverlay
+sudo nala install -y goverlay mangohud
+
+Expliquer dans la doc qu'il faut activer les options dans Goverlay
+
+Ajouter le flatpak flatseal et faire le réglage de thème pour général ET pour flatseal
+
+
+# Support native des host de nodjs
+curl -s https://api.github.com/repos/andy-portmen/native-client/releases/latest \
+  | grep "browser_download_url.*linux.zip" \
+  | head -n 1 \
+  | sed -E 's/.*"(https[^"]+)".*/\1/' \
+  | xargs -I{} curl -L -o "$HOME/linux.zip" {}
+
+unzip -o "$HOME/linux.zip" -d "$HOME/native-client"
+
+. "$HOME/native-client/install.sh"
+rm -r "$HOME/native-client"
+rm "$HOME/linux.zip"
+
+
+# Télécharger des icones (en partie pour l'extension "external-application" de floorp & vivaldi)
+mkdir -p "$HOME/Local/Lanceurs/Icones"
+wget https://raw.githubusercontent.com/Unrud/video-downloader/master/data/com.github.unrud.VideoDownloader.svg -O "$HOME/Local/Lanceurs/Icones/VideoDownloader.svg"
+wget https://raw.githubusercontent.com/FreeTubeApp/FreeTube/refs/heads/development/_icons/icon.svg -O "$HOME/Local/Lanceurs/Icones/FreeTube.svg"
+
+
+# script pour ouvrir avec FreeTube (permet le cli)
+sudo tee /usr/local/bin/open-with-freetube.sh > /dev/null << 'EOF'
+#!/bin/bash
+URL="$1"
+/usr/bin/flatpak run --branch=stable --arch=x86_64 --command=/app/bin/run.sh --file-forwarding io.freetubeapp.FreeTube @@u "$URL" @@
+EOF
+sudo chmod +x /usr/local/bin/open-with-freetube.sh
+
+# script pour ouvrir avec le téléchargeur de vidéo (permet le cli)
+sudo tee /usr/local/bin/open-with-video-downloader.sh > /dev/null << 'EOF'
+#!/bin/bash
+URL="$1"
+flatpak run com.github.unrud.VideoDownloader --url="$URL"
+EOF
+sudo chmod +x /usr/local/bin/open-with-video-downloader.sh
+
+# Ajouter extension "external-application" à floorp et vivaldi dans les profils, et le régler
+https://addons.mozilla.org/fr/firefox/addon/external-application/
+permet de créer un bouton et y associer différents lanceurs !
+
+
+pour FreeTube
+Display Name
+Ouvrir dans FreeTube
+Executable Name
+open-with-freetube.sh
+Arguments
+[HREF]
+cocher "Toolbar button" "Page context"
+Choisir l'icone avec "Parcourir"
+Et pour finir cliquer sur "Add Application"
+
+pour Video Downloader
+Display Name
+Ouvrir avec Téléchargeur de vidéos
+Executable Name
+open-with-video-downloader.sh
+Arguments
+[HREF]
+cocher "Toolbar button" "Page context"
+Choisir l'icone avec "Parcourir"
+Et pour finir cliquer sur "Add Application"
