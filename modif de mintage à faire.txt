@@ -87,7 +87,7 @@ Faire un lanceur de barre de menu QUI REMPLACE LE TRUC XKILL NATIF
 Icone :
 emblem-synchronizing-symbolic
 Nom:
-RefreshDE
+Relancer l’environnement de bureau
 Commande :
 nohup cinnamon --replace >/dev/null 2>&1 &
 Commentaire :
