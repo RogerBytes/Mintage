@@ -79,3 +79,29 @@ Arguments
 cocher "Toolbar button" "Page context"
 Choisir l'icone avec "Parcourir"
 Et pour finir cliquer sur "Add Application"
+
+
+Faire un lanceur de barre de menu QUI REMPLACE LE TRUC XKILL NATIF
+
+1ER LANCEUR
+Icone :
+emblem-synchronizing-symbolic
+Nom:
+RefreshDE
+Commande :
+nohup cinnamon --replace >/dev/null 2>&1 &
+Commentaire :
+Relance l’environnement de bureau Cinnamon sans redémarrer la session
+
+2E LANCEUR
+Icone :
+process-stop-symbolic
+edit-delete-symbolic
+Nom:
+Forcer à quitter
+Commande :
+xkill
+Commentaire :
+Termine un programme en cliquant sur sa fenêtre
+
+
