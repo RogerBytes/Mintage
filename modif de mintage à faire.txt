@@ -105,3 +105,8 @@ Commentaire :
 Termine un programme en cliquant sur sa fenêtre
 
 
+Et les desklets à télécharger
+
+Météo   bbcwx@oak-wood.co.uk
+
+Double heure/date   dual-datetime@rcalixte
