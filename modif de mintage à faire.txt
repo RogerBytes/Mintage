@@ -113,7 +113,7 @@ Double heure/date   dual-datetime@rcalixte
 
 
 Changer les option du panel menu,
-Pareil pour les zones gauches, milieu et droit
+Pareil pour les zones gauches, milieu et droit dans l'encadré "Apparence du panneau"
 Le texte 10
 Icones couleur 16
-icone suymblique 16
+icone symbolique 16
