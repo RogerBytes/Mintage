@@ -81,7 +81,7 @@ Choisir l'icone avec "Parcourir"
 Et pour finir cliquer sur "Add Application"
 
 
-Faire un lanceur de barre de menu QUI REMPLACE LE TRUC XKILL NATIF
+Faire un lanceur de barre de menu QUI REMPLACE LE applet XKILL NATIF
 
 1ER LANCEUR
 Icone :
