@@ -95,7 +95,6 @@ Relance l’environnement de bureau Cinnamon sans redémarrer la session
 
 2E LANCEUR
 Icone :
-process-stop-symbolic
 edit-delete-symbolic
 Nom:
 Forcer à quitter
