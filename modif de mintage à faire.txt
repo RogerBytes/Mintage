@@ -107,9 +107,18 @@ Termine un programme en cliquant sur sa fenêtre
 Et les desklets à télécharger
 
 Météo   bbcwx@oak-wood.co.uk
+Service de données : Open-Meteo Non-Commercial
+Localité : mettre latitude et sa longitude
+Unité de mesure du vent : km/h
+Afficher la prévision (Jours)  : 7
+Dans style du desklet :
+  Style d'icone : Flat Coloful
+et dans "Réglages de l'affichage de la localisation" (Tout en bas") dans
+  Outrepasser manuellement la localisation affichée : mettre sa ville
+
 
 Double heure/date   dual-datetime@rcalixte
-
+%H:%M et décocher la 2e valeur
 
 
 Changer les option du panel menu,
