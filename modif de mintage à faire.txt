@@ -126,3 +126,7 @@ Pareil pour les zones gauches, milieu et droit dans l'encadré "Apparence du pan
 Le texte 10
 Icones couleur 16
 icone symbolique 16
+
+
+
+Dans floorp l'extension pour gerer les extensions à la volée ne fonctionne pas.
