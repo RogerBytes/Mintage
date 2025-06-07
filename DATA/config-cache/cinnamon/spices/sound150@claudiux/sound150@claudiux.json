@@ -2,16 +2,24 @@
     "layoutsound150": {
         "type": "layout",
         "pages": [
+            "page_menus",
             "page_behavior",
             "page_sound",
             "page_icon",
             "page_shortcuts"
         ],
+        "page_menus": {
+            "type": "page",
+            "title": "Menus",
+            "sections": [
+                "sectionMenu1",
+                "sectionMenu2"
+            ]
+        },
         "page_behavior": {
             "type": "page",
             "title": "Behavior",
             "sections": [
-                "sectionBehavior1",
                 "sectionBehavior2",
                 "sectionBehavior3"
             ]
@@ -44,7 +52,7 @@
                 "sectionCommands"
             ]
         },
-        "sectionBehavior1": {
+        "sectionMenu1": {
             "type": "section",
             "title": "Menu",
             "keys": [
@@ -53,7 +61,18 @@
                 "keepPlayerListOpen",
                 "keepChoosePlayerOpen",
                 "avoidTwice",
-                "showMediaOptical"
+                "showMediaOptical",
+                "viewFullAlbumArt"
+            ]
+        },
+        "sectionMenu2": {
+            "type": "section",
+            "title": "Context Menu",
+            "keys": [
+                "keepAppListOpen",
+                "keepOutputListOpen",
+                "keepInputListOpen",
+                "keepCommandListOpen"
             ]
         },
         "sectionBehavior2": {
@@ -223,6 +242,37 @@
         "default": true,
         "description": "Show Media-Optical icon",
         "value": true
+    },
+    "viewFullAlbumArt": {
+        "type": "switch",
+        "default": false,
+        "description": "View Full Album Art",
+        "tooltip": "When unchecked, Album Art in the menu may be partially covered by Artist and Title.",
+        "value": false
+    },
+    "keepAppListOpen": {
+        "type": "switch",
+        "default": false,
+        "description": "Keep the App selector open",
+        "value": false
+    },
+    "keepOutputListOpen": {
+        "type": "switch",
+        "default": false,
+        "description": "Keep the Output Device selector open",
+        "value": false
+    },
+    "keepInputListOpen": {
+        "type": "switch",
+        "default": false,
+        "description": "Keep the Input Device selector open",
+        "value": false
+    },
+    "keepCommandListOpen": {
+        "type": "switch",
+        "default": false,
+        "description": "Keep the Command selector open",
+        "value": false
     },
     "keyOpen": {
         "type": "keybinding",
@@ -651,7 +701,7 @@
     "volume": {
         "type": "generic",
         "default": "50%",
-        "value": "100%"
+        "value": "40%"
     },
     "mic-level": {
         "type": "generic",
@@ -683,5 +733,5 @@
         "default": 0.05,
         "value": 0.01
     },
-    "__md5__": "4980aec79e2d7ea04292f57fca671aac"
+    "__md5__": "e35b7da2f78c681c31f1723456ebbf4c"
 }

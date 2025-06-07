@@ -72,18 +72,18 @@ sudo cp -r /usr/share/icons/capitaine-cursors/cursors /usr/share/icons/Bibata-Mo
 # -------------------------------
 
 # ajouter au demarrag vivaldi en caché
-cat > ~/.config/autostart/vivaldi-hidden.desktop << EOF
-[Desktop Entry]
-Type=Application
-Exec=/usr/bin/vivaldi-stable --no-startup-window
-Hidden=false
-NoDisplay=false
-X-GNOME-Autostart-enabled=true
-Name[en_US]=Vivaldi-silent
-Name=Vivaldi-silent
-Comment[en_US]=Start Vivaldi at startup
-Comment=Start Vivaldi at startup
-EOF
+#cat > ~/.config/autostart/vivaldi-hidden.desktop << EOF
+#[Desktop Entry]
+#Type=Application
+#Exec=/usr/bin/vivaldi-stable --no-startup-window
+#Hidden=false
+#NoDisplay=false
+#X-GNOME-Autostart-enabled=true
+#Name[en_US]=Vivaldi-silent
+#Name=Vivaldi-silent
+#Comment[en_US]=Start Vivaldi at startup
+#Comment=Start Vivaldi at startup
+#EOF
 
 # ajouter au demarrag caffeine-indicator
 cat > ~/.config/autostart/caffeine-indicator.desktop << EOF

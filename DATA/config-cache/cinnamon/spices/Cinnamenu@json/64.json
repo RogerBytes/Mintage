@@ -170,26 +170,26 @@
         "type": "generic",
         "default": [],
         "value": [
+            "vivaldi-stable.desktop",
+            "appimagekit_4d0beabfb51cabc4989e4bb849234b30-pcloud.desktop",
+            "libreoffice-startcenter.desktop",
+            "mintupdate.desktop",
+            "cinnamon-settings-default.desktop",
             "com.github.marinm.songrec.desktop:flatpak",
             "synaptic.desktop",
-            "vivaldi-stable.desktop",
             "element-desktop.desktop",
             "com.github.unrud.VideoDownloader.desktop:flatpak",
             "cinnamon-settings-startup.desktop",
             "gparted.desktop",
             "blueman-manager.desktop",
             "org.kde.kdeconnect.app.desktop",
-            "cinnamon-settings-default.desktop",
             "floorp.desktop",
             "xpad.desktop",
-            "libreoffice-startcenter.desktop",
-            "mintupdate.desktop",
             "org.keepassxc.KeePassXC.desktop",
             "net.lutris.Lutris.desktop",
             "thunderbird.desktop",
             "one.ablaze.floorp.desktop:flatpak",
-            "firefox.desktop",
-            "org.jdownloader.JDownloader.desktop:flatpak"
+            "firefox.desktop"
         ]
     },
     "search-start-folder": {

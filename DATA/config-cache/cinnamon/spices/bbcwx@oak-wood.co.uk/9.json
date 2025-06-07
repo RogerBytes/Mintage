@@ -60,7 +60,7 @@
         "default": "012.34,-56.78",
         "description": "Location",
         "tooltip": "Set your location here",
-        "value": "50.7236,3.1616"
+        "value": "50.69,3.16"
     },
     "owmfree__stationID": {
         "dependency": "webservice=owmfree",
@@ -223,7 +223,7 @@
         "units": "minutes",
         "description": "Refresh forecast every",
         "tooltip": "Period between refreshing forecasts. Note that not all services support lower refresh times",
-        "value": 30
+        "value": 30.0
     },
     "sep1": {
         "type": "separator"
@@ -512,7 +512,7 @@
         "default": "",
         "description": "Manually override displayed location",
         "tooltip": "Set your city name manually.",
-        "value": "Roubaix"
+        "value": "Ville"
     },
     "sep4": {
         "type": "separator"

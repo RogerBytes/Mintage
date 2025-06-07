@@ -21,6 +21,9 @@
 # Ciano Media Converter
 flatpak install -y flathub com.github.robertsanseries.ciano
 
+# Foliate
+flatpak install -y flathub com.github.johnfactotum.Foliate
+
 # FreeTube
 flatpak install -y flathub io.freetubeapp.FreeTube
 
@@ -60,9 +63,6 @@ sudo nala install -y ./DATA/App-ressource/appimagelauncher_2.2.0-gha111.d9d4c73+
 # Ferdium
 wget https://github.com/ferdium/ferdium-app/releases/download/v6.2.2/Ferdium-linux-6.2.2-amd64.deb && sudo nala install -y ./Ferdium*.deb && rm Ferdium-linux-6.2.2-amd64.deb
 
-# Foliate
-wget https://github.com/johnfactotum/foliate/releases/download/2.6.4/com.github.johnfactotum.foliate_2.6.4_all.deb && sudo nala install -y ./com.github.johnfactotum.foliate_2.6.4_all.deb && rm com.github.johnfactotum.foliate_2.6.4_all.deb
-
 # RustDesk (pour remplacer teamviewer)
 wget $(curl -s https://api.github.com/repos/rustdesk/rustdesk/releases/latest | grep "browser_download_url.*x86_64.deb" | cut -d '"' -f 4)
 sudo dpkg -i rustdesk-*-x86_64.deb
@@ -99,6 +99,9 @@ sudo add-apt-repository -y ppa:apandada1/brightness-controller && sudo nala upda
 # Cozy Audiobook
 sudo add-apt-repository -y ppa:cozy-team/cozy && sudo nala update && sudo nala install -y cozy
 
+# Flatseal
+flatpak install -y flathub com.github.tchx84.Flatseal
+
 # Floorp
 # https://ppa.floorp.app/ les instructions d'installation sont ici
 curl -fsSL https://ppa.floorp.app/KEY.gpg | sudo gpg --dearmor -o /usr/share/keyrings/Floorp.gpg
@@ -117,6 +120,9 @@ sudo add-apt-repository -y ppa:ztefn/haguichi-stable && sudo nala update && sudo
 
 # Mangohud
 sudo add-apt-repository -y ppa:oibaf/graphics-drivers && sudo nala update && sudo nala install -y mangohud
+
+# Marktext (lecteur editeur markdown léger)
+flatpak install -y flathub com.github.marktext.marktext
 
 # YACReader
 echo 'deb http://download.opensuse.org/repositories/home:/selmf/xUbuntu_22.04/ /' | sudo tee /etc/apt/sources.list.d/home:selmf.list && curl -fsSL https://download.opensuse.org/repositories/home:selmf/xUbuntu_22.04/Release.key | gpg --dearmor | sudo tee /etc/apt/trusted.gpg.d/home_selmf.gpg > /dev/null && sudo nala update && sudo nala install -y yacreader

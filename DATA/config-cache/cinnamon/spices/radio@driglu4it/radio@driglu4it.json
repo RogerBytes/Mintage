@@ -408,12 +408,12 @@
     },
     "last-volume": {
         "type": "generic",
-        "value": 55,
+        "value": 67,
         "default": 80
     },
     "last-url": {
         "type": "generic",
-        "value": "https://listen.radioking.com/radio/39218/stream/76118",
+        "value": "https://ouifmganja.ice.infomaniak.ch/ouifmganja-128.mp3",
         "default": null
     },
     "youtube-download-cli": {

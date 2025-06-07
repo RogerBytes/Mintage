@@ -75,13 +75,7 @@ mintupdate
 Et installer nala, une surcouche du gestionnaire apt
 
 ```bash
-# Nala
 sudo apt install -y nala expect curl wget
-# puis changer les miroir de dl avec :
-sudo nala fetch
-# en répondant "2 3 4" sans oublier les espaces entre eux
-# ou plus simplement (mais semble ne pas toujours marcher)
-echo -e "2 3 4\nY" | sudo nala fetch
 ```
 
 Il y a une source défaillante chez moi "linuxmirrors.ir", c'est pour ça que c'est "2 3 4" et non "1 2 3"
@@ -195,6 +189,14 @@ Pour lancer une détection des capteurs thermiques et autres :
 ```bash
 sudo sensors-detect
 ```
+
+Ouvrez `Flatseal`, allez sur `Toutes les applications`, dans "Environnement", cliquer sur le `+` des variables et mettez :
+
+```bash
+GTK_THEME=Adwaita-dark
+```
+
+
 
 ### Installation terminée
 

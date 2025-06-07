@@ -60,9 +60,6 @@ sudo nala install -y ghex
 # Gimp
 sudo nala install -y gimp gimp-help-fr
 
-# Ghostwriter (lecteur editeur markdown léger)
-sudo apt install -y ghostwriter
-
 # Gnome todos
 sudo nala install -y gnome-todo
 
@@ -126,6 +123,9 @@ sudo nala install -y libreoffice-java-common
 
 # Lutris
 sudo nala install -y lutris
+
+# MangoHud et Goverlay
+sudo nala install -y goverlay mangohud
 
 # metadata cleaner
 sudo nala install -y metadata-cleaner

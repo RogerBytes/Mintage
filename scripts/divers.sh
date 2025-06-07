@@ -86,6 +86,12 @@ wget https://cinnamon-spices.linuxmint.com/files/applets/color-picker@fmete.zip
 unzip color-picker@fmete.zip -d ~/.local/share/cinnamon/applets
 rm color-picker@fmete.zip
 
+# Double heure
+wget https://cinnamon-spices.linuxmint.com/files/desklets/dual-datetime@rcalixte.zip
+unzip dual-datetime@rcalixte.zip -d ~/.local/share/cinnamon/desklets
+rm dual-datetime@rcalixte.zip
+
+
 # Tiroir
 wget https://cinnamon-spices.linuxmint.com/files/applets/show-hide-applets@mohammad-sn.zip
 unzip show-hide-applets@mohammad-sn.zip -d ~/.local/share/cinnamon/applets
@@ -101,6 +107,11 @@ sudo nala install -y gpaste-2 gir1.2-gpaste-2
 wget https://cinnamon-spices.linuxmint.com/files/applets/force-quit@cinnamon.org.zip
 unzip force-quit@cinnamon.org.zip -d ~/.local/share/cinnamon/applets
 rm force-quit@cinnamon.org.zip
+
+# Météo
+wget https://cinnamon-spices.linuxmint.com/files/desklets/bbcwx@oak-wood.co.uk.zip
+unzip bbcwx@oak-wood.co.uk.zip -d ~/.local/share/cinnamon/desklets
+rm bbcwx@oak-wood.co.uk.zip
 
 # Minuterie
 wget https://cinnamon-spices.linuxmint.com/files/applets/timer@Severga.zip
@@ -129,11 +140,6 @@ rm sound150@claudiux.zip
 
 # Steam
 sudo nala install -y steam
-
-# Tight Network Usage Indicator
-wget https://cinnamon-spices.linuxmint.com/files/applets/ifstat@tagadan.zip
-unzip ifstat@tagadan.zip -d ~/.local/share/cinnamon/applets
-rm ifstat@tagadan.zip
 
 # Weather
 wget https://cinnamon-spices.linuxmint.com/files/applets/weather@mockturtl.zip

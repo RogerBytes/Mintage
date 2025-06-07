@@ -26,7 +26,7 @@
         "tooltip": "Select the file system, which you want to monitor.",
         "allow-none": true,
         "select-dir": true,
-        "value": "/"
+        "value": "file:///"
     },
     "onclick-action": {
         "type": "combobox",

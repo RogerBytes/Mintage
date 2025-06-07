@@ -51,6 +51,42 @@ sudo flatpak override --env GTK_THEME=Mint-L-Dark-Blue net.davidotek.pupgui2
 sudo flatpak override --filesystem=/usr/share/themes/ com.github.unrud.VideoDownloader
 sudo flatpak override --env GTK_THEME=Mint-L-Dark-Blue com.github.unrud.VideoDownloader
 
+# Support native des host de nodjs
+curl -s https://api.github.com/repos/andy-portmen/native-client/releases/latest \
+  | grep "browser_download_url.*linux.zip" \
+  | head -n 1 \
+  | sed -E 's/.*"(https[^"]+)".*/\1/' \
+  | xargs -I{} curl -L -o "$HOME/linux.zip" {}
+
+unzip -o "$HOME/linux.zip" -d "$HOME/native-client"
+
+. "$HOME/native-client/install.sh"
+rm -r "$HOME/native-client"
+rm "$HOME/linux.zip"
+
+
+# Télécharger des icones (en partie pour l'extension "external-application" de floorp & vivaldi)
+mkdir -p "$HOME/Local/Lanceurs/Icones"
+wget https://raw.githubusercontent.com/Unrud/video-downloader/master/data/com.github.unrud.VideoDownloader.svg -O "$HOME/Local/Lanceurs/Icones/VideoDownloader.svg"
+wget https://raw.githubusercontent.com/FreeTubeApp/FreeTube/refs/heads/development/_icons/icon.svg -O "$HOME/Local/Lanceurs/Icones/FreeTube.svg"
+
+
+# script pour ouvrir avec FreeTube (permet le cli)
+sudo tee /usr/local/bin/open-with-freetube.sh > /dev/null << 'EOF'
+#!/bin/bash
+URL="$1"
+/usr/bin/flatpak run --branch=stable --arch=x86_64 --command=/app/bin/run.sh --file-forwarding io.freetubeapp.FreeTube @@u "$URL" @@
+EOF
+sudo chmod +x /usr/local/bin/open-with-freetube.sh
+
+# script pour ouvrir avec le téléchargeur de vidéo (permet le cli)
+sudo tee /usr/local/bin/open-with-video-downloader.sh > /dev/null << 'EOF'
+#!/bin/bash
+URL="$1"
+flatpak run com.github.unrud.VideoDownloader --url="$URL"
+EOF
+sudo chmod +x /usr/local/bin/open-with-video-downloader.sh
+
 # On applique le thème de jdownloader
 cp -a ./DATA/var-cache/* ~/.var
 sed -i "s|\"defaultdownloadfolder\": *\"[^\"]*\"|\"defaultdownloadfolder\": \"${HOME}/Téléchargements/Téléchargements jd2\"|" ~/.var/app/org.jdownloader.JDownloader/data/jdownloader/cfg/org.jdownloader.settings.GeneralSettings.json
