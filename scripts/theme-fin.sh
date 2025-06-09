@@ -87,6 +87,24 @@ flatpak run com.github.unrud.VideoDownloader --url="$URL"
 EOF
 sudo chmod +x /usr/local/bin/open-with-video-downloader.sh
 
+# Script pour relancer proprement cinnamon (via reset-cinnamon.sh)
+sudo tee /usr/local/bin/reset-cinnamon.sh > /dev/null << 'EOF'
+#!/bin/bash
+export DBUS_SESSION_BUS_ADDRESS="unix:path=/run/user/$(id -u)/bus"
+(sleep 5; notify-send 'Cinnamon relancé' 'L’environnement de bureau a été redémarré.') &
+old_pid=$(pgrep -o cinnamon)
+setsid cinnamon --replace >/dev/null 2>&1 < /dev/null &
+# Attendre que l'ancien cinnamon ait disparu
+while kill -0 "$old_pid" 2>/dev/null; do
+    sleep 0.2
+done
+xsetroot -cursor_name left_ptr
+EOF
+
+sudo chmod +x /usr/local/bin/reset-cinnamon.sh
+
+
+
 # On applique le thème de jdownloader
 cp -a ./DATA/var-cache/* ~/.var
 sed -i "s|\"defaultdownloadfolder\": *\"[^\"]*\"|\"defaultdownloadfolder\": \"${HOME}/Téléchargements/Téléchargements jd2\"|" ~/.var/app/org.jdownloader.JDownloader/data/jdownloader/cfg/org.jdownloader.settings.GeneralSettings.json
