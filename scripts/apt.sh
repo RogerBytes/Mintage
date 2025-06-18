@@ -51,6 +51,12 @@ sudo nala install -y devede
 # FileZilla
 sudo nala install -y filezilla
 
+# Game Mode (outils de feral pour wine/lutris)
+sudo dpkg --add-architecture i386
+sudo nala update
+sudo nala install -y libgamemode0:i386 libgamemodeauto0:i386
+
+
 # Gaupol
 sudo nala install -y gaupol
 
@@ -127,7 +133,7 @@ sudo nala install -y lutris
 # MangoHud et Goverlay
 sudo nala install -y goverlay mangohud
 
-# metadata cleaner
+# Metadata cleaner
 sudo nala install -y metadata-cleaner
 
 # Numlock
