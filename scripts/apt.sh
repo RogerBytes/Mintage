@@ -51,12 +51,6 @@ sudo nala install -y devede
 # FileZilla
 sudo nala install -y filezilla
 
-# Game Mode (outils de feral pour wine/lutris)
-sudo dpkg --add-architecture i386
-sudo nala update
-sudo nala install -y libgamemode0:i386 libgamemodeauto0:i386
-
-
 # Gaupol
 sudo nala install -y gaupol
 
