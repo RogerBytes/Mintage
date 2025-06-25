@@ -1,7 +1,7 @@
 # phpMyAdmin
 
 Faire une description.
-[https://www.phpmyadmin.net/](phpMyAdmin.net)
+[phpMyAdmin.net](https://www.phpmyadmin.net/)
 
 ________________________________________________________
 
@@ -17,7 +17,7 @@ ________________________________________________________
 
 ### Télécharger
 
-Depuis [https://www.phpmyadmin.net/themes/](la page des thèmes), téléchargez le thème [https://files.phpmyadmin.net/themes/boodark/1.1.0/boodark-1.1.0.zip](BooDark 1.1.0).
+Depuis [la page des thèmes](https://www.phpmyadmin.net/themes/), téléchargez le thème [BooDark 1.1.0](https://files.phpmyadmin.net/themes/boodark/1.1.0/boodark-1.1.0.zip).
 
 ### Installation du thème
 

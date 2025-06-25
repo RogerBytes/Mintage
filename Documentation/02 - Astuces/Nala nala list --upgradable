@@ -1,0 +1,30 @@
+Lors d'un
+sudo nala update
+Si le message
+N packages can be upgraded. Run 'nala list --upgradable' to see them.
+
+
+Faites la commande :
+nala list --upgradable
+
+Il retourne (par exemple)
+
+❯ nala list --upgradable
+grub-efi-amd64-bin 2.12-1ubuntu7.1 [local]
+├── is installed and upgradable to 2.12-1ubuntu7.3
+└── GRand Unified Bootloader, version 2 (EFI-AMD64 modules)
+
+grub-efi-amd64-signed 1.202.2+2.12-1ubuntu7.1 [local]
+├── is installed and upgradable to 1.202.5+2.12-1ubuntu7.3
+└── GRand Unified Bootloader, version 2 (EFI-AMD64 version, signed)
+
+Les deux paquets (en vert dans le shell) sont ici
+grub-efi-amd64-bin
+grub-efi-amd64-signed
+
+Si l'on est d'accord pour tous les mettre à jour
+sudo nala full-upgrade -y
+
+
+Sinon on met manuellement les paquets que l'on souhaite upgrade
+sudo nala install -y grub-efi-amd64-bin grub-efi-amd64-signed

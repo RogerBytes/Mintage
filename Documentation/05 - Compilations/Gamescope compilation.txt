@@ -1,0 +1,86 @@
+https://forums.linuxmint.com/viewtopic.php?p=2506625#p2506625
+et
+https://gist.github.com/russiantux/592b1267591c011bf765b14590774a5f?permalink_comment_id=5469076#gistcomment-5469076
+
+
+Avoir steam installé
+et avoir compilé wayland
+
+sudo nala install -y meson ninja-build cmake gcc g++ libglm-dev libbenchmark-dev liblcms2-dev libxmu-dev libxcursor-dev libeis-dev libpixman-1-dev libx11-dev libxdamage-dev libxcomposite-dev libxrender-dev libxext-dev libxfixes-dev libxxf86vm-dev libxtst-dev libxres-dev libdrm-dev libvulkan-dev wayland-protocols libwayland-dev libwayland-bin libxkbcommon-dev libsdl2-dev libpipewire-0.3-dev libavif-dev libwlroots-dev libliftoff-dev libcap-dev hwdata spirv-headers libstb-dev libdecor-0-dev xwayland git glslang-tools libdisplay-info1 libevdev-dev libgav1-1 libgudev-1.0-dev libmtdev-dev libseat1 libstb0 libwacom-dev libxcb-ewmh2 libxcb-shape0-dev libxcb-xfixes0-dev libxmu-headers libyuv0 libx11-xcb-dev libseat-dev libinput-dev libxcb-composite0-dev libxcb-ewmh-dev libxcb-icccm4-dev libxcb-res0-dev wayland-server luajit
+
+
+
+
+wget https://launchpad.net/ubuntu/+archive/primary/+files/libwayland-bin_1.23.0-1_amd64.deb && sudo nala install -y ./libwayland-bin_1.23.0-1_amd64.deb
+wget https://launchpad.net/ubuntu/+archive/primary/+files/libwayland-bin_1.23.0-1_i386.deb && sudo nala install -y ./libwayland-bin_1.23.0-1_i386.deb
+wget https://launchpad.net/ubuntu/+archive/primary/+files/libwayland-client0_1.23.0-1_amd64.deb && sudo nala install -y ./libwayland-client0_1.23.0-1_amd64.deb
+wget https://launchpad.net/ubuntu/+archive/primary/+files/libwayland-client0_1.23.0-1_i386.deb && sudo nala install -y ./libwayland-client0_1.23.0-1_i386.deb
+wget https://launchpad.net/ubuntu/+archive/primary/+files/libwayland-cursor0_1.23.0-1_amd64.deb && sudo nala install -y ./libwayland-cursor0_1.23.0-1_amd64.deb
+wget https://launchpad.net/ubuntu/+archive/primary/+files/libwayland-cursor0_1.23.0-1_i386.deb && sudo nala install -y ./libwayland-cursor0_1.23.0-1_i386.deb
+wget https://launchpad.net/ubuntu/+archive/primary/+files/libwayland-dev_1.23.0-1_amd64.deb && sudo nala install -y ./libwayland-dev_1.23.0-1_amd64.deb
+wget https://launchpad.net/ubuntu/+archive/primary/+files/libwayland-dev_1.23.0-1_i386.deb && sudo nala install -y ./libwayland-dev_1.23.0-1_i386.deb
+wget https://launchpad.net/ubuntu/+archive/primary/+files/libwayland-egl-backend-dev_1.23.0-1_amd64.deb && sudo nala install -y ./libwayland-egl-backend-dev_1.23.0-1_amd64.deb
+wget https://launchpad.net/ubuntu/+archive/primary/+files/libwayland-egl-backend-dev_1.23.0-1_i386.deb && sudo nala install -y ./libwayland-egl-backend-dev_1.23.0-1_i386.deb
+wget https://launchpad.net/ubuntu/+archive/primary/+files/libwayland-egl1_1.23.0-1_amd64.deb && sudo nala install -y ./libwayland-egl1_1.23.0-1_amd64.deb
+wget https://launchpad.net/ubuntu/+archive/primary/+files/libwayland-egl1_1.23.0-1_i386.deb && sudo nala install -y ./libwayland-egl1_1.23.0-1_i386.deb
+wget https://launchpad.net/ubuntu/+archive/primary/+files/libwayland-server0_1.23.0-1_amd64.deb && sudo nala install -y ./libwayland-server0_1.23.0-1_amd64.deb
+wget https://launchpad.net/ubuntu/+archive/primary/+files/libwayland-server0_1.23.0-1_i386.deb && sudo nala install -y ./libwayland-server0_1.23.0-1_i386.deb
+wget https://launchpad.net/ubuntu/+archive/primary/+files/wayland-protocols_1.38-1_all.deb && sudo nala install -y ./wayland-protocols_1.38-1_all.deb
+
+
+git clone https://luajit.org/git/luajit.git
+cd luajit
+make
+sudo make install
+
+cd
+git clone https://github.com/ValveSoftware/gamescope.git
+cd gamescope
+git submodule update --init
+meson setup build/
+ninja -C build/
+sudo meson install -C build/ --skip-subprojects
+
+
+
+Pour tester s'il fonctionne :
+
+gamescope -- vkcube
+
+
+
+
+
+
+
+
+
+
+
+
+
+❯ sudo find /usr/local/bin -name "gamescope"
+
+[sudo] Mot de passe de rogerbytes :
+/usr/local/bin/gamescope
+❯ sudo rm /usr/local/bin/gamescope
+
+❯ sudo find /usr/local/lib -name "gamescope"
+
+❯ sudo find /usr/local/include -name "gamescope"
+
+❯ sudo find /usr/local/share -name "gamescope"
+
+/usr/local/share/gamescope
+❯ sudo rm -rf /usr/local/share/gamescope
+
+
+
+
+
+
+
+
+
+
+.

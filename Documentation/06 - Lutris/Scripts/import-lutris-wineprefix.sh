@@ -103,6 +103,7 @@ install_runner_if_needed() {
       echo "Téléchargement du runner $runner..."
       temp_dir=$(mktemp -d)
       wget "https://github.com/RogerBytes/Mintage/releases/download/wine-pkg/$runner.tzst" -O "$temp_dir/$runner.tzst" || { echo "Erreur lors du téléchargement de $runner."; rm -rf "$temp_dir"; exit 1; }
+      mkdir -p "$lutris_runner_dir"
       tar -I zstd -xvf "$temp_dir/$runner.tzst" -C "$lutris_runner_dir" || { echo "Erreur lors de l'extraction de $runner."; rm -rf "$temp_dir"; exit 1; }
       rm -rf "$temp_dir"
     fi
@@ -133,6 +134,7 @@ for i in "${!names_map[@]}"; do
 
 
   # extraction
+  mkdir -p "$games_dir"
   tar -I zstd -xvf "./$filename" -C "$games_dir"
   if [ $? -ne 0 ]; then
     echo "Erreur lors de l'extraction de $filename."

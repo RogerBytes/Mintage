@@ -79,7 +79,26 @@ Et, enfin, ajoutez votre clef ssh au ssh-agent :
 ssh-add ~/.ssh/id_ed25519
 ```
 
-Vous aurez à taper le mot de passe de votre clef ssh.
+Pour faire en sorte que votre clef soit accessible via votre IDE
+
+```bash
+cat << EOF >> ~/.zshrc
+
+# Correction SSH VS Code (version sûre)
+if [ -n "\$VSCODE_PID" ]; then
+  export GPG_TTY=\$(tty)
+  export SSH_AUTH_SOCK=\$(gpgconf --list-dirs agent-ssh-socket 2>/dev/null)
+  gpgconf --launch gpg-agent >/dev/null 2>&1 &
+fi
+EOF
+source ~/.zshrc
+export SSH_AUTH_SOCK=$(gpgconf --list-dirs agent-ssh-socket)
+ssh-add ~/.ssh/id_ed25519
+```
+
+GPG s'ouvre et vous demande de mettre un mdp pour acceder à votre clef ssh, vous pouvez laisser le même mdp.
+
+Vous n'aurez plus à taper le mot de passe de votre clef ssh, ou au maximum une seule fois par session.
 
 ## Générer un nouveau token en CLI
 

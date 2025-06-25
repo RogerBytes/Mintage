@@ -13,14 +13,14 @@ et
 Pour un commentaire multilignes `CTRL+SHIFT+A`
 Pour un commentaire monoligne `CTRL+SHIFT+:`
 
-Appuyez sur `Ctrl + ,`  pour ouvrir le panneau des paramètres.
+Appuyez sur `Ctrl + ,` pour ouvrir le panneau des paramètres.
 Vous pouvez éditer manuellement le fichier .json en cliquant sur l’icône de roue dentée en haut à droite
 vous pouvez aller direct dans le dossier où se trouve le dossier de réglages avec :
 `~/.config/VSCodium/User`
 et ouvrir le "settings.json"
 cliquez sur "Modifier dans settings.json" pour accéder au fichier de configuration des paramètres.
 
-Dans le fichier settings.json, remplacez le contenu  :
+Dans le fichier settings.json, remplacez le contenu :
 
 ```json
 {
@@ -59,7 +59,6 @@ Dans le fichier settings.json, remplacez le contenu  :
     "MD033": false
   }
 }
-
 ```
 
 Pour changer les raccourcis clavier :
@@ -84,11 +83,30 @@ Depuis le market place :
 
 Par exemple pour console ninja :
 [https://marketplace.visualstudio.com/items?itemName=WallabyJs.console-ninja](https://marketplace.visualstudio.com/items?itemName=WallabyJs.console-ninja)
-Cliquer sur le bouton "Download Extension"
 
-Par exemple pour PHP Awesome Snippets :
-[https://marketplace.visualstudio.com/items?itemName=hakcorp.php-awesome-snippets](https://marketplace.visualstudio.com/items?itemName=hakcorp.php-awesome-snippets)
-Cliquer sur le bouton "Download Extension"
+On va télécharger en générant un lien manuellement en se basant sur [https://gist.github.com/wanglf/7acc591890dc0d8ceff1e7ec9af32a55](ces infos).
+
+Voici la syntaxe du lien :
+
+```html
+https://${publisher}.gallery.vsassets.io/_apis/public/gallery/publisher/${publisher}/extension/${extension name}/${version}/assetbyname/Microsoft.VisualStudio.Services.VSIXPackage
+```
+
+Donc on cherche les valeurs de
+
+- `${publisher}`
+- `${extension name}`
+- `${version}`
+
+Le lien contient déjà `${publisher}` et `${extension name}` dans `WallabyJs.console-ninja`  
+Pour la `${version}`, sur a page il suffit de regarder dans la navbar à droite, dans `More Info` il est écrit la version `Version 1.0.432`
+Donc pour console ninja ça va donner
+
+```html
+https://WallabyJs.gallery.vsassets.io/_apis/public/gallery/publisher/WallabyJs/extension/console-ninja/1.0.432/assetbyname/Microsoft.VisualStudio.Services.VSIXPackage
+```
+
+Lancez ce lien, il télécharge le fichier `Microsoft.VisualStudio.Services.VSIXPackage`, renommez l'extension `.VSIXPackage` en `.vsix`.
 
 Dans la section Extensions, cliquer sur "..." (plus d'options) en haut à droite.
 Sélectionner "Installer à partir de VSIX" dans le menu déroulant.

@@ -15,13 +15,13 @@ zsh est déjà installé par Mintage (pas besoin d'installer à nouveau).
 Rendre exécutable le script avec la commande
 
 ```bash
-chmod +x "$HOME/Local/Documentation/02 - Astuces/scripts/caldav-setup.sh"
+chmod +x "$HOME/Local/Git/Documentation/02 - Astuces/scripts/caldav-setup.sh"
 ```
 
 Puis on l'execute avec :
 
 ```bash
-"$HOME/Local/Documentation/02 - Astuces/scripts/caldav-setup.sh"
+"$HOME/Local/Git/Documentation/02 - Astuces/scripts/caldav-setup.sh"
 ```
 
 Il suffit de suivre les instructions pour que vos agendas soient ajoutés.

@@ -6,68 +6,32 @@ Docker est une plateforme logicielle qui permet de créer, déployer et exécute
 
 ## Installation
 
-Source depuis le site de docker [Doc de docker](https://docs.docker.com/desktop/install/linux-install/)
+### Installer Docker Engine
 
-### Prérequis "Set up Docker's apt repository"
-
-[step 1](https://docs.docker.com/engine/install/ubuntu/#install-using-the-repository))
-
-#### Pour dérivé d'Ubuntu (comme Linux Mint)
+Source depuis le site de docker [Doc de docker](https://docs.docker.com/engine/install/ubuntu/#install-using-the-repository)
 
 ```bash
-# Add Docker official GPG key:
-sudo apt-get update
-sudo apt-get install ca-certificates curl
+sudo nala update
+sudo nala install -y ca-certificates curl
 sudo install -m 0755 -d /etc/apt/keyrings
 sudo curl -fsSL https://download.docker.com/linux/ubuntu/gpg -o /etc/apt/keyrings/docker.asc
 sudo chmod a+r /etc/apt/keyrings/docker.asc
-
-# Add the repository to Apt sources:
 echo \
   "deb [arch=$(dpkg --print-architecture) signed-by=/etc/apt/keyrings/docker.asc] https://download.docker.com/linux/ubuntu \
-  $(. /etc/os-release && echo "$UBUNTU_CODENAME") stable" | \
+  $(. /etc/os-release && echo "${UBUNTU_CODENAME:-$VERSION_CODENAME}") stable" | \
   sudo tee /etc/apt/sources.list.d/docker.list > /dev/null
-sudo apt-get update
+sudo nala update
+sudo nala install -y docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin pass
 ```
 
-#### Pour Ubuntu
+### Installer Docker Desktop
+
+Source depuis le site de docker [Doc de docker](https://docs.docker.com/desktop/setup/install/linux/)
 
 ```bash
-# Add Docker's official GPG key:
-sudo apt-get update
-sudo apt-get install ca-certificates curl
-sudo install -m 0755 -d /etc/apt/keyrings
-sudo curl -fsSL https://download.docker.com/linux/ubuntu/gpg -o /etc/apt/keyrings/docker.asc
-sudo chmod a+r /etc/apt/keyrings/docker.asc
-
-# Add the repository to Apt sources:
-echo \
-  "deb [arch=$(dpkg --print-architecture) signed-by=/etc/apt/keyrings/docker.asc] https://download.docker.com/linux/ubuntu \
-  $(. /etc/os-release && echo "$UBUNTU_CODENAME") stable" | \
-  sudo tee /etc/apt/sources.list.d/docker.list > /dev/null
-sudo apt-get update
-```
-
-### Télécharger et installer le fichier DEB
-
-#### Téléchargement du DEB
-
-Depuis [site officiel](https://docs.docker.com/desktop/install/ubuntu/) en cliquant sur le lien "DEB Package" en haut
-
-#### Installer le paquet DEB
-
-Lancer l'installation (dans le répertoire où se trouve le deb) avec
-
-```bash
-sudo apt install -y $(find . -name "docker*.deb")
-# ou si vous avez installé nala par dessus apt :
-sudo nala install -y $(find . -name "docker*.deb")
-```
-
-le supprimer
-
-```bash
-rm $(find . -name "docker*.deb")
+wget -O docker-desktop-amd64.deb "https://desktop.docker.com/linux/main/amd64/docker-desktop-amd64.deb?utm_source=docker&utm_medium=webreferral&utm_campaign=docs-driven-download-linux-amd64"
+sudo nala install -y ./docker-desktop-amd64.deb
+rm ./docker-desktop-amd64.deb
 ```
 
 Voilà, Docker Desktop est installé, ainsi que docker engine (inclus dans le paquet)
@@ -79,7 +43,8 @@ Voilà, Docker Desktop est installé, ainsi que docker engine (inclus dans le pa
 ### Connexion aux services en ligne de docker
 
 Commencez par faire un compte sur :
-[hub.docker.com](https://hub.docker.com/signup)
+[hub.docker.com](https://hub.docker.com/signup)  
+Si vous avez un compte connectez vous sur [hub.docker.com/login](https://app.docker.com/login)
 
 Si vous essayez de vous connecter ou de vous inscrire vous aurez le message :
 `Unable to log in, you must initialize pass before login in to docker desktop`
@@ -152,3 +117,19 @@ Password store initialized for 5BB54DF1XXXXXXXXF87XXXXXXXXXXXXXX945A
 ```
 
 Maintenant il ne vous reste plus qu'à cliquer sur le bouton "Sign in", il vous redirigera sur le site de docker pour vous connecter / déconnecter.
+
+### Diminuer les demandes de mdm de gnupg
+
+Pour lui mettre une durée de 8 heures.
+
+```bash
+echo -e "default-cache-ttl 28800\nmax-cache-ttl 28800" > ~/.gnupg/gpg-agent.conf
+```
+
+Les modifications seront prises en compte au redémarrage.
+
+Sinon pour éviter d'attendre un reboot pour appliquer les changements :
+
+```bash
+gpgconf --kill gpg-agent && gpgconf --launch gpg-agent
+```

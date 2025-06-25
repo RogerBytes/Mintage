@@ -118,6 +118,64 @@ Permet d'ajouter un script en asynchrone différer, on appelle le snippet avec `
 }
 ```
 
+### HTML - PHP Line
+
+Permet d'ajouter un bloc de php, on appelle le snippet avec `php`
+
+```json
+"PHP Line": {
+  "prefix": "php",
+  "body": [
+    "<?php $0 ?>"
+  ],
+  "description": "Insère un bloc PHP sur une ligne"
+}
+```
+
+### HTML - PHP Block
+
+Permet d'ajouter un bloc de php, on appelle le snippet avec `phpb`
+
+```json
+"PHP Block": {
+  "prefix": "phpb",
+  "body": [
+    "<?php",
+    "\t$0",
+    "?>"
+  ],
+  "description": "Insère un bloc PHP"
+}
+```
+
+### HTML - PHP Echo Block
+
+Permet d'ajouter un bloc echo de php, on appelle le snippet avec `phpe`
+
+```json
+"PHP Echo Block": {
+  "prefix": "phpe",
+  "body": [
+    "<?= $0 ?>"
+  ],
+  "description": "Insère un bloc PHP court pour echo"
+}
+```
+
+### HTML - PHP Debug
+
+Permet d'ajouter un bloc echo de php, on appelle le snippet avec `phpd`
+
+```json
+"PHP Debug": {
+  "prefix": "phpd",
+  "body": [
+    "<!-- [DEBUG] --><pre><?php var_dump(${1:\\$_REQUEST}); /* print_r(${1:\\$_REQUEST}); */ /* echo var_export(${1:\\$_REQUEST}, true); */ ?></pre>"
+  ],
+  "description": "Bloc PHP debug compact avec var_dump par défaut sur \\$_REQUEST et alternatives commentées"
+}
+```
+
 ### HTML - Image full attributes
 
 Balise image avec tous ses attributs, on appelle le snippet avec `imgA`
@@ -142,7 +200,19 @@ NIANIANIA, on appelle le snippet avec `form`
 "PHP form": {
   "prefix": "form",
   "body": "if(\\$_SERVER['REQUEST_METHOD']==='${1:POST}' ${2:&& isset(\\$_${3:POST}['$4'])})\r{$0}",
-  "description": "Ouvre et ferme les balises PHP"
+  "description": "Condition de traitement de formulaire (POST ou GET) avec vérification optionnelle de champ"
+}
+```
+
+### PHP - Strict mode
+
+NIANIANIA, on appelle le snippet avec `printarray`
+
+```json
+"Strict mode":{
+  "prefix": "strict",
+  "body": "declare(strict_types=1);",
+  "description": "Empêche les conversions implicites et automatiques de types."
 }
 ```
 
@@ -156,6 +226,24 @@ NIANIANIA, on appelle le snippet avec `printarray`
   "body": "echo '<pre>'.print_r($1, 1).'</pre>';$0",
   "description": "Crée un joli affichage pour nos tableaux."
 }
+```
+
+### PHP - Require path helper
+
+Snippet pour charger ma lib pour ma fonction de chemin path()
+
+```json
+"Require path helper": {
+  "prefix": "reqpath",
+  "body": "require_once dirname(__DIR__) . DIRECTORY_SEPARATOR . '${1:lib}' . DIRECTORY_SEPARATOR . 'path.php';",
+  "description": "Charge la fonction path() depuis un dossier (lib par défaut)."
+},
+"Require path helper (depuis racine)": {
+  "prefix": "reqpathroot",
+  "body": "require_once __DIR__ . DIRECTORY_SEPARATOR . '${1:lib}' . DIRECTORY_SEPARATOR . 'path.php';",
+  "description": "Charge path.php depuis un dossier, quand on est à la racine du projet."
+}
+
 ```
 
 ________________________________________________________

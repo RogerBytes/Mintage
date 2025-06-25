@@ -1,0 +1,12 @@
+https://gitlab.freedesktop.org/wayland/wayland
+
+
+git clone https://gitlab.freedesktop.org/wayland/wayland
+cd wayland
+PREFIX_DIR="/usr"
+meson build/ --prefix="$PREFIX_DIR"
+ninja -C build/ install
+
+
+on peut aussi utiliser
+PREFIX_DIR="/usr/local"

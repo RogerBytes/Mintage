@@ -34,7 +34,9 @@ Voilà il est installé.
 Pour passer en mode expérimental (ajout des derniers modèles non testés), l'on utilise
 
 ```bash
-sudo systemctl stop ckb-next-daemon ; sudo ckb-next-daemon --enable-experimental
+sudo systemctl stop ckb-next-daemon
+sudo ckb-next-daemon --enable-experimental &
+ckb-next
 ```
 
 Faire `CTRL + C` pour arrêter le processus du terminal.
