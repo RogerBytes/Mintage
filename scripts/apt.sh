@@ -178,6 +178,14 @@ sudo nala install -y synapse
 # Vim
 sudo nala install -y vim
 
+# Virt-Manager (gestionnaire VM) + KVM QEMU
+sudo nala install -y qemu-system libvirt-daemon-system libvirt-clients bridge-utils virt-manage virtiofsd samba
+sudo usermod -aG libvirt $USER
+mkdir -p ~/Local/VMs/iso
+chmod 777 ~/Local/VMs/iso
+mkdir -p ~/Local/VMs/Partage
+chmod 777 ~/Local/VMs/Partage
+
 # Xfburn
 sudo nala install -y xfburn
 

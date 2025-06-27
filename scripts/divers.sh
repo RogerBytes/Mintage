@@ -43,12 +43,6 @@ sudo nala install -y dconf-editor
 # Ffmpeg
 sudo nala install -y ffmpeg
 
-# VirtualBox
-sudo nala install -y virtualbox
-sudo nala install -y virtualbox-ext-pack
-sudo adduser $USER vboxusers
-
-
 # 1/ b) Shell
 # ------------
 
