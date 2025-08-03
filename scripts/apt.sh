@@ -136,9 +136,6 @@ sudo nala install -y numlockx
 # Plank
 sudo nala install -y plank
 
-# PdfSam
-sudo nala install -y pdfsam
-
 # Psensor (températures)
 sudo nala install -y lm-sensors psensor
 

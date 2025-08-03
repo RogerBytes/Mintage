@@ -39,6 +39,9 @@ flatpak install -y flathub io.github.seadve.Mousai
 # OBS Studio
 flatpak install -y flathub com.obsproject.Studio
 
+# PDF Arranger
+flatpak install -y flathub com.github.jeromerobert.pdfarranger
+
 # ProtonUp
 flatpak install -y flathub net.davidotek.pupgui2
 
