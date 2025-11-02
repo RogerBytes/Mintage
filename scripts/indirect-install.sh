@@ -108,7 +108,7 @@ flatpak install -y flathub com.github.tchx84.Flatseal
 # Floorp
 # https://ppa.floorp.app/ les instructions d'installation sont ici
 curl -fsSL https://ppa.floorp.app/KEY.gpg | sudo gpg --dearmor -o /usr/share/keyrings/Floorp.gpg
-sudo curl -sS --compressed -o /etc/apt/sources.list.d/Floorp.list 'https://ppa.floorp.app/Floorp.list'
+sudo curl -sS --compressed -o /etc/apt/sources.list.d/Floorp.list "https://ppa.floorp.app/Floorp.list"
 sudo apt update
 sudo nala install -y floorp
 
