@@ -1,0 +1,70 @@
+Ouvrir la fenêtre dans un terminal, puis :
+
+sudo dpkg -i lsfg-vk_latest.deb
+sudo nala install -f
+rm lsfg-vk_latest.deb
+sudo mkdir -p /opt/lsfg-vk
+sudo cp Lossless.dll /opt/lsfg-vk/
+sudo chmod 644 /opt/lsfg-vk/Lossless.dll
+
+________________________________________________________
+
+Dans lutris/le jeu/configurer/Options système/Game execution/Variables d'environnement/
+
+Key:
+LSFG_LEGACY
+Value:
+1
+
+Key:
+LSFG_MULTIPLIER
+Value:
+2
+
+Key:
+LSFG_DLL_PATH
+Value:
+/opt/lsfg-vk/Lossless.dll
+
+________________________________________________________
+Optionnel si ça rame encore :
+
+Key:
+LSFG_PERFORMANCE_MODE
+Value:
+1
+
+
+
+
+
+________________________________________________________
+
+Ces info (pour les variables) viennent de 
+https://github.com/PancakeTAS/lsfg-vk/wiki/Configuring-lsfg‐vk
+
+
+
+Les variables 
+
+LSFG_LEGACY 1
+-> Utiliser les variables d’environnement au lieu du fichier de configuration
+
+LSFG_DLL_PATH /chemin/vers/Lossless.dll
+-> Remplacer l’emplacement de Lossless.dll
+
+LSFG_MULTIPLIER 2, 3, 4
+-> Multiplicateur de génération de frames (ex. 2, 3, 4). Tu peux mettre ce que tu veux. Mettre 1 désactive temporairement lsfg-vk.
+
+LSFG_FLOW_SCALE 0.25 à 1.0
+-> Réduit la résolution de l’image interne utilisée pour l’estimation de mouvement. Cela peut améliorer les performances, mais `performance_mode` est préféré.
+
+LSFG_PERFORMANCE_MODE 1 ou 0
+-> Active un modèle plus léger de génération de frames. Améliore massivement les performances (2x à 8x plus rapide) avec une légère perte de qualité.
+
+LSFG_HDR_MODE 1 ou 0
+-> Passe les shaders en mode HDR (scRGB non supporté). Ne l’activer que si HDR est utilisé.
+
+LSFG_EXPERIMENTAL_PRESENT_MODE fifo, mailbox, immediate
+-> Remplace le mode de présentation sans toucher à la logique de synchronisation. Très expérimental. (fifo et vsync sont équivalents)
+

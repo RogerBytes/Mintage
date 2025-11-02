@@ -89,7 +89,8 @@ On va télécharger en générant un lien manuellement en se basant sur [https:/
 Voici la syntaxe du lien :
 
 ```html
-https://${publisher}.gallery.vsassets.io/_apis/public/gallery/publisher/${publisher}/extension/${extension name}/${version}/assetbyname/Microsoft.VisualStudio.Services.VSIXPackage
+https://${publisher}.gallery.vsassets.io/_apis/public/gallery/publisher/${publisher}/extension/${extension
+name}/${version}/assetbyname/Microsoft.VisualStudio.Services.VSIXPackage
 ```
 
 Donc on cherche les valeurs de
@@ -186,7 +187,6 @@ codium --install-extension johnbillion.vscode-wordpress-hooks
 codium --install-extension mblode.twig-language-2
 codium --install-extension neilbrayfield.php-docblocker
 codium --install-extension ritwickdey.LiveServer
-codium --install-extension shd101wyy.markdown-preview-enhanced
 codium --install-extension streetsidesoftware.code-spell-checker
 codium --install-extension streetsidesoftware.code-spell-checker-french
 codium --install-extension gitpod.gitpod-theme

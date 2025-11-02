@@ -13,7 +13,7 @@ Pyhton est installé sur Ubuntu, mais pas dernières versions, voici comment en 
 
 [Documentation officielle de Godot](https://docs.godotengine.org/en/stable/index.html)
 
-________________________________________________________
+---
 
 ## Installation manuelle de Python
 
@@ -58,7 +58,7 @@ sudo nala install -y python3-pip
 
 ```
 
-________________________________________________________
+---
 
 ## Auteurs
 

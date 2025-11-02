@@ -1,0 +1,26 @@
+sudo nala purge -y '*nvidia*' && sudo nala autoremove -y
+sudo rm -rf /var/lib/dkms/nvidia /usr/src/nvidia*
+
+
+sudo nala update && sudo nala upgrade -y
+
+
+sudo nala install -y linux-headers-$(uname -r)
+
+
+et installer le driver manuellement avec
+sudo nala install -y nvidia-driver-575
+
+sudo reboot
+
+
+nvidia-smi
+
+Si ça affiche ta carte et la version 575, tout est bien pris en compte.
+
+
+
+
+Installer les en-têtes du noyau (indispensables pour DKMS)
+sudo nala install -y linux-headers-$(uname -r)
+
