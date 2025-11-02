@@ -6,14 +6,18 @@
 Ajouter
 https://github.com/gravesoft/msdl
 
+POUR LES LINES DE TRUCS POUR WINSDOWS ISO PAR EX
+
+
+ET AUSSI LA DERNIERE VERSION D'ATLAS OS POUR WINDOWS 10
+ : https://github.com/Atlas-OS/Atlas/releases/tag/0.4.1
 
 Ajouter aussi dans les liens de floorp le logiciel qui patch l'iso de Windows11 pour le rendre compatible sur les vieux ordi
 https://github.com/builtbybel/Flyby11
 
 et ajouter aussi le lien bibliothèque / jeux
 P2P - MagiPack Games
-
-https://www.magipack.games/
+https://archive.org/search?query=creator%3A%22M%C3%A0gito%22
 
 Pour l'extension jdownload de floorp, il faut mettre ça pour "executable"
 /usr/bin/flatpak run --branch=stable --arch=x86_64 --command=jd-wrapper --file-forwarding org.jdownloader.JDownloader -- @@u %u @@
