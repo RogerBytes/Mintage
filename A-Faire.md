@@ -2,6 +2,11 @@
 
 # Enlever l'option game mode
 
+
+Ajouter
+https://github.com/gravesoft/msdl
+
+
 Ajouter aussi dans les liens de floorp le logiciel qui patch l'iso de Windows11 pour le rendre compatible sur les vieux ordi
 https://github.com/builtbybel/Flyby11
 
