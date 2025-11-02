@@ -27,9 +27,6 @@ cp -a ./DATA/var-cache/* ~/.var
 sed -i "s|\"defaultdownloadfolder\": *\"[^\"]*\"|\"defaultdownloadfolder\": \"${HOME}/Téléchargements/Téléchargements jd2\"|" ~/.var/app/org.jdownloader.JDownloader/data/jdownloader/cfg/org.jdownloader.settings.GeneralSettings.json
 sed -i "s|\"devicename\": *\"[^\"]*\"|\"devicename\": \"JDownloader@$(whoami)\"|" ~/.var/app/org.jdownloader.JDownloader/data/jdownloader/cfg/org.jdownloader.api.myjdownloader.MyJDownloaderSettings.json
 
-# Lutris
-cp -a ./DATA/local-cache/* ~/.local
-
 # Cacher le dossier de freeoffice en copiant le .hidden
 cp ./DATA/Reglages/Hidden/.hidden ~/
 
