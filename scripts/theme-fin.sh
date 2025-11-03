@@ -24,6 +24,7 @@ sed -i "s|rogerbytes|$(whoami)|g" ~/.floorp/0a2qqe25.default/extensions.json
 sed -i "s|rogerbytes|$(whoami)|g" ~/.floorp/vnvbfnz3.default-release/extensions.json
 
 # decompresser le cache de floorp (nouveau test pour résoudre le souci)
+# compresser le cache de floorp -> tar -I 'zstd -19' -cf - .cache/floorp/ | split -b 95M - floorp-cache.tzst.
 [ -d ~/.cache/floorp ] && rm -rf ~/.cache/floorp
 cat ./DATA/floorp-cache.tzst.* > floorp-cache.tzst && tar -I zstd -xf floorp-cache.tzst -C "$HOME/.cache/"
 

@@ -170,8 +170,10 @@ Vous pouvez supprimer le dossier après.
 
 #### LanguageTools pour LibreOffice
 
-Dans LibreOffice allez dans "Outils/Extensions..."
-Puis "Ajouter" et choisir "LanguageTool-stable.oxt"
+Dans LibreOffice :
+Il faut changer la version de RT Java dans : Outils/Options/LibreOffice/Avancé. Prendre celui avec la version la plus élevée (supérieur à 17).
+Ensuite allez dans "Outils/Extensions..."
+Puis "Ajouter" et choisir "WritingTool-25.10.oxt"
 Dans LibreOffice aller dans "Outils/Options" (ou 'Alt+F12'), puis :
 "Langues et locales/Linguistique"
 Allez dans l'encart "Modules linguistiques disponibles", puis :
@@ -196,6 +198,8 @@ Ouvrez `Flatseal`, allez sur `Toutes les applications`, dans "Environnement", cl
 GTK_THEME=Adwaita-dark
 ```
 
+Si vous utilisez un portable, ouvrez Lutris, allez dans "Préfèrences/Options globales (avec 'Avancé' activé en haut à droite)" et dans "Multi GPU"
+Dans "Vulkan ICE loader", choisisé votre carte dédiée, pensez aussi à utiliser le mode performance de votre carte.
 
 
 ### Installation terminée

@@ -102,6 +102,9 @@ sudo add-apt-repository -y ppa:apandada1/brightness-controller && sudo nala upda
 # Cozy Audiobook
 sudo add-apt-repository -y ppa:cozy-team/cozy && sudo nala update && sudo nala install -y cozy
 
+# Dr. Robotnik's Ring Racers
+flatpak install -y flathub org.kartkrew.RingRacers
+
 # Flatseal
 flatpak install -y flathub com.github.tchx84.Flatseal
 
