@@ -32,8 +32,8 @@ cat ./DATA/floorp-cache.tzst.* > floorp-cache.tzst && tar -I zstd -xf floorp-cac
 rm -r ~/.thunderbird/
 tar -xzvf ./DATA/thunderbird.tar.gz -C $HOME/
 
-# réglages de kodi
-7z x ./DATA/kodi.7z.001 -o$HOME/
+# réglages de kodi (supprimé car pas à jour + pas assez de place)
+# 7z x ./DATA/kodi.7z.001 -o$HOME/
 
 # Themes Flatpak
 sudo cp -r /usr/share/icons/Mint-L-Blue ~/.icons/ && sudo cp -r /usr/share/themes/Mint-L-Dark-Blue ~/.themes/
