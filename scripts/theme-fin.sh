@@ -112,7 +112,7 @@ sed -i "s|\"defaultdownloadfolder\": *\"[^\"]*\"|\"defaultdownloadfolder\": \"${
 sed -i "s|\"devicename\": *\"[^\"]*\"|\"devicename\": \"JDownloader@$(whoami)\"|" ~/.var/app/org.jdownloader.JDownloader/data/jdownloader/cfg/org.jdownloader.api.myjdownloader.MyJDownloaderSettings.json
 
 # Réglage de radio++
-sed -i 's|file:///home/harry/Musique/Radio++|file:///home/'"$USER"'/Musique/Radio++|g' ~/.config/cinnamon/spices/radio@driglu4it/radio@driglu4it.json
+sed -i "s|file://\$HOME/Musique/Radio++|file://$HOME/Musique/Radio++|g" fichier.json ~/.config/cinnamon/spices/radio@driglu4it/radio@driglu4it.json
 
 # Dependances de radio (A installer en dernier du setup, sinon il ne trouve pas pulseaudio, qui installe pacmd)
 sudo nala install -y python3-brotli python3-polib ffmpeg ffmpegthumbnailer yt-dlp libnotify-bin at sox mpv mpv-mpris
