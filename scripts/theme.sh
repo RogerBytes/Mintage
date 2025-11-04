@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 
 #3/ Theme et optimisations
 #    3/ a) Réglages d'applications'

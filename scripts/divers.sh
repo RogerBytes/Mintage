@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 
 #Index
 #1/ Prérequis

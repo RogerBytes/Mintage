@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 
 # en attente
 # Open Snitch NON INSTALLE EN ATTENTE DE VERSION PLUS STABLE
