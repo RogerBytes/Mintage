@@ -16,6 +16,24 @@ sudo nala install -y git
 sudo apt install -y git
 ```
 
+
+## Régler Git
+
+### Informations d'utilisateur
+
+```bash
+git config --global user.email "your_email@example.com"
+git config --global user.name "John Doe"
+```
+
+### Branche par défaut
+
+Afin d'éviter des avertissement ridicules, faites ceci :
+
+```bash
+git config --global init.defaultBranch master
+```
+
 ### Github CLI
 
 ```bash

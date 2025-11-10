@@ -9,22 +9,7 @@ GitHub, quant à lui, est une plateforme en ligne basée sur Git qui facilite le
 
 ________________________________________________________
 
-## Régler Git
 
-### Informations d'utilisateur
-
-```bash
-git config --global user.email "your_email@example.com"
-git config --global user.name "John Doe"
-```
-
-### Branche par défaut
-
-Afin d'éviter des avertissement ridicules, faites ceci :
-
-```bash
-git config --global init.defaultBranch master
-```
 
 ________________________________________________________
 

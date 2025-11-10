@@ -118,6 +118,14 @@ Récupérer son ip avec
 ip addr show virbr0 | grep -oP 'inet \K[\d\.]+'
 ```
 
+Puis ajouter un mdp à son serveur samba avec
+
+```bash
+sudo smbpasswd -a $USER
+```
+
+
+
 il retourne `192.168.122.1` dans mon cas, donc 
 
 Dans la machine windows : 
