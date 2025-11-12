@@ -1,6 +1,9 @@
 # A faire
 
 
+Faire en sorte que mon script `DATA/vsix-dl.sh` soit intégré au système pour devenir une commande native (pour l'instant il n'est même pas copié)
+
+
 Trouver un remplaçant à Marktext qui est trop lent au lancement
 Faire une compilation statique de yad (interface graphique pour bash)
 Faire une interface graphique propre
