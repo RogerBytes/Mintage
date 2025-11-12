@@ -77,11 +77,12 @@ sudo nala install -y vivaldi-latest.deb
 rm vivaldi-latest.deb
 
 # VSCodium
-download_url=https://github.com/VSCodium/vscodium/releases/download/1.86.2.24054/codium_1.86.2.24054_amd64.deb
-wget $download_url
-downloaded_file=$(basename $download_url)
-sudo nala install -y ./$downloaded_file
-rm $downloaded_file
+file=$(curl -s https://api.github.com/repos/VSCodium/vscodium/releases/latest \
+  | grep browser_download_url \
+  | cut -d '"' -f 4 \
+  | grep '_amd64.deb$') && \
+wget "$file" -O /tmp/vscodium_latest_amd64.deb && \
+sudo nala install -y /tmp/vscodium_latest_amd64.deb
 
 
 # 2/ d) Installation avec un PPA

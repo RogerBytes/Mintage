@@ -33,5 +33,12 @@ fi
 vsix_url="https://${publisher,,}.gallery.vsassets.io/_apis/public/gallery/publisher/${publisher}/extension/${extension_name}/${version}/assetbyname/Microsoft.VisualStudio.Services.VSIXPackage"
 
 echo "Téléchargement de $extension_name version $version depuis $publisher..."
-wget -O "${extension_name}-${version}.vsix" "$vsix_url"
+vsix_file="${extension_name}-${version}.vsix"
+wget -O "$vsix_file" "$vsix_url"
+
+# Installer l'extension
+codium --install-extension "$vsix_file" --force
+
+echo "Extension $itemName installée avec succès."
+
 
