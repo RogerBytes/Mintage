@@ -1,5 +1,77 @@
 # Réglages de VSC
 
+## Les extensions à rajouter
+
+- PHP Awesome Snippets (pas sur le market codium)
+
+Installer des extensions en ligne de commande
+
+```bash
+# Les extensions de VSCodium
+codium --install-extension PKief.material-product-icons
+codium --install-extension aaron-bond.better-comments
+codium --install-extension captain-stack.captain-stack
+codium --install-extension christian-kohler.path-intellisense
+codium --install-extension Codeium.codeium
+codium --install-extension donjayamanne.python-environment-manager
+codium --install-extension eamodio.gitlens
+codium --install-extension ecmel.vscode-html-css
+codium --install-extension esbenp.prettier-vscode
+codium --install-extension formulahendry.auto-close-tag
+codium --install-extension formulahendry.auto-complete-tag
+codium --install-extension formulahendry.auto-rename-tag
+codium --install-extension Gruntfuggly.todo-tree
+codium --install-extension jaspernorth.vscode-pigments
+codium --install-extension jock.svg
+codium --install-extension KevinRose.vsc-python-indent
+codium --install-extension kisstkondoros.vscode-gutter-preview
+codium --install-extension leodevbro.blockman
+codium --install-extension magicstack.MagicPython
+codium --install-extension MohammadBaqer.better-folding
+codium --install-extension MS-CEINTL.vscode-language-pack-fr
+codium --install-extension ms-python.python
+codium --install-extension ms-vscode.live-server
+codium --install-extension oderwat.indent-rainbow
+codium --install-extension PKief.material-icon-theme
+codium --install-extension pranaygp.vscode-css-peek
+codium --install-extension redhat.vscode-xml
+codium --install-extension rid9.datetime
+codium --install-extension shardulm94.trailing-spaces
+codium --install-extension shellscape.shellscape-brackets
+codium --install-extension tomoki1207.pdf
+codium --install-extension yzane.markdown-pdf
+codium --install-extension Angular.ng-template
+codium --install-extension yzhang.markdown-all-in-one
+codium --install-extension anteprimorac.html-end-tag-labels
+codium --install-extension DavidAnson.vscode-markdownlint
+codium --install-extension Josee9988.minifyall
+codium --install-extension mongodb.mongodb-vscode
+codium --install-extension bmewburn.vscode-intelephense-client
+codium --install-extension zobo.php-intellisense
+codium --install-extension MehediDracula.php-namespace-resolver
+codium --install-extension devsense.phptools-vscode
+codium --install-extension mtxr.sqltools
+codium --install-extension syler.sass-indented
+codium --install-extension joelday.docthis
+codium --install-extension johnpapa.Angular2
+codium --install-extension mrmlnc.vscode-apache
+codium --install-extension adpyke.codesnap
+codium --install-extension ms-azuretools.vscode-docker
+codium --install-extension hediet.vscode-drawio
+codium --install-extension usernamehw.errorlens
+codium --install-extension Tobermory.es6-string-html
+codium --install-extension mhutchie.git-graph
+codium --install-extension mtxr.sqltools-driver-mysql
+codium --install-extension rangav.vscode-thunder-client
+codium --install-extension johnbillion.vscode-wordpress-hooks
+codium --install-extension mblode.twig-language-2
+codium --install-extension neilbrayfield.php-docblocker
+codium --install-extension ritwickdey.LiveServer
+codium --install-extension streetsidesoftware.code-spell-checker
+codium --install-extension streetsidesoftware.code-spell-checker-french
+codium --install-extension gitpod.gitpod-theme
+```
+
 ## Changer le thème
 
 Pour changer le thème des icônes et le theme de l'IDE
@@ -77,34 +149,21 @@ Pour afficher masque la barre principale des outils (la barre d'activité)
 
 `CTRL + J` -> le panneau (avec le terminal)
 
-Pour télécharger les extensions manuellement
+## Télécharger les extensions manuellement
+
 Depuis le market place :
 [https://marketplace.visualstudio.com/VSCode](https://marketplace.visualstudio.com/VSCode)
 
-Par exemple pour console ninja :
-[https://marketplace.visualstudio.com/items?itemName=WallabyJs.console-ninja](https://marketplace.visualstudio.com/items?itemName=WallabyJs.console-ninja)
+il faut utiliser le script `vsix-dl.sh`, comme ceci :
 
-On va télécharger en générant un lien manuellement en se basant sur [https://gist.github.com/wanglf/7acc591890dc0d8ceff1e7ec9af32a55](ces infos).
-
-Voici la syntaxe du lien :
-
-```html
-https://${publisher}.gallery.vsassets.io/_apis/public/gallery/publisher/${publisher}/extension/${extension
-name}/${version}/assetbyname/Microsoft.VisualStudio.Services.VSIXPackage
+```bash
+./vsix-dl.sh #publisher#.#package#
 ```
 
-Donc on cherche les valeurs de
+Par exemple pour [Console Ninja](https://marketplace.visualstudio.com/items?itemName=WallabyJs.console-ninja)
 
-- `${publisher}`
-- `${extension name}`
-- `${version}`
-
-Le lien contient déjà `${publisher}` et `${extension name}` dans `WallabyJs.console-ninja`  
-Pour la `${version}`, sur a page il suffit de regarder dans la navbar à droite, dans `More Info` il est écrit la version `Version 1.0.432`
-Donc pour console ninja ça va donner
-
-```html
-https://WallabyJs.gallery.vsassets.io/_apis/public/gallery/publisher/WallabyJs/extension/console-ninja/1.0.432/assetbyname/Microsoft.VisualStudio.Services.VSIXPackage
+```bash
+./vsix-dl.sh WallabyJs.console-ninja
 ```
 
 Lancez ce lien, il télécharge le fichier `Microsoft.VisualStudio.Services.VSIXPackage`, renommez l'extension `.VSIXPackage` en `.vsix`.
@@ -119,78 +178,6 @@ Réglage du spell checker, en bas quand il souligne plein de truc cliquer sur "s
 ## Les extensions qui foutent la merde à désinstaller
 
 - spell right - ban.spellright
-
-## Les extensions à rajouter
-
-- PHP Awesome Snippets (pas sur le market codium)
-
-Installer des extensions en ligne de commande
-
-```bash
-# Les extensions de VSCodium
-codium --install-extension PKief.material-product-icons
-codium --install-extension aaron-bond.better-comments
-codium --install-extension captain-stack.captain-stack
-codium --install-extension christian-kohler.path-intellisense
-codium --install-extension Codeium.codeium
-codium --install-extension donjayamanne.python-environment-manager
-codium --install-extension eamodio.gitlens
-codium --install-extension ecmel.vscode-html-css
-codium --install-extension esbenp.prettier-vscode
-codium --install-extension formulahendry.auto-close-tag
-codium --install-extension formulahendry.auto-complete-tag
-codium --install-extension formulahendry.auto-rename-tag
-codium --install-extension Gruntfuggly.todo-tree
-codium --install-extension jaspernorth.vscode-pigments
-codium --install-extension jock.svg
-codium --install-extension KevinRose.vsc-python-indent
-codium --install-extension kisstkondoros.vscode-gutter-preview
-codium --install-extension leodevbro.blockman
-codium --install-extension magicstack.MagicPython
-codium --install-extension MohammadBaqer.better-folding
-codium --install-extension MS-CEINTL.vscode-language-pack-fr
-codium --install-extension ms-python.python
-codium --install-extension ms-vscode.live-server
-codium --install-extension oderwat.indent-rainbow
-codium --install-extension PKief.material-icon-theme
-codium --install-extension pranaygp.vscode-css-peek
-codium --install-extension redhat.vscode-xml
-codium --install-extension rid9.datetime
-codium --install-extension shardulm94.trailing-spaces
-codium --install-extension shellscape.shellscape-brackets
-codium --install-extension tomoki1207.pdf
-codium --install-extension yzane.markdown-pdf
-codium --install-extension Angular.ng-template
-codium --install-extension yzhang.markdown-all-in-one
-codium --install-extension anteprimorac.html-end-tag-labels
-codium --install-extension DavidAnson.vscode-markdownlint
-codium --install-extension Josee9988.minifyall
-codium --install-extension mongodb.mongodb-vscode
-codium --install-extension bmewburn.vscode-intelephense-client
-codium --install-extension zobo.php-intellisense
-codium --install-extension MehediDracula.php-namespace-resolver
-codium --install-extension devsense.phptools-vscode
-codium --install-extension mtxr.sqltools
-codium --install-extension syler.sass-indented
-codium --install-extension joelday.docthis
-codium --install-extension johnpapa.Angular2
-codium --install-extension mrmlnc.vscode-apache
-codium --install-extension adpyke.codesnap
-codium --install-extension ms-azuretools.vscode-docker
-codium --install-extension hediet.vscode-drawio
-codium --install-extension usernamehw.errorlens
-codium --install-extension Tobermory.es6-string-html
-codium --install-extension mhutchie.git-graph
-codium --install-extension mtxr.sqltools-driver-mysql
-codium --install-extension rangav.vscode-thunder-client
-codium --install-extension johnbillion.vscode-wordpress-hooks
-codium --install-extension mblode.twig-language-2
-codium --install-extension neilbrayfield.php-docblocker
-codium --install-extension ritwickdey.LiveServer
-codium --install-extension streetsidesoftware.code-spell-checker
-codium --install-extension streetsidesoftware.code-spell-checker-french
-codium --install-extension gitpod.gitpod-theme
-```
 
 ## Les extensions à remplacer
 

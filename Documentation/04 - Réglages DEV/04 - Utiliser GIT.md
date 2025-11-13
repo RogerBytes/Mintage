@@ -7,11 +7,7 @@ Git est un système de contrôle de version qui permet de suivre les modificatio
 
 GitHub, quant à lui, est une plateforme en ligne basée sur Git qui facilite le partage, la collaboration et l'hébergement de projets Git. Cela permet aux développeurs de travailler ensemble sur des projets, de contribuer aux dépôts existants, de signaler des problèmes ou de demander des fonctionnalités, et de suivre les modifications apportées aux projets via l'interface web conviviale de GitHub.
 
-________________________________________________________
-
-
-
-________________________________________________________
+---
 
 ## Nouveau projet quand tout est réglé
 
@@ -29,7 +25,7 @@ cd testGodot
 git init
 ```
 
-### Créer lu dépôt distant
+### Créer un dépôt distant
 
 Je créé un dépôt distant du même nom sur mon org de github
 
@@ -74,43 +70,9 @@ Si vous avez besoin de forcer le push local vers le distant (pour un repo exista
 git push --force --set-upstream origin master
 ```
 
-
 Ensuite on utilise les commandes normales (`git push` sans rien d'autre derrière)
 
-________________________________________________________
-
-## Ouvrir une page github pour héberger une page web
-
-Allez sur la page :
-[https://github.com/#NomUser#ouNomOrg/#NomRepo/settings/pages](https://github.com/#NomUser#ouNomOrg/#NomRepo/settings/pages)
-Et modifiez `#NomUser#ouNomOrg` et `#NomRepo` pour correspondre à chez vous.
-
--> Par exemple pour mon repo "testjeuweb" se trouvant dans mon org "RogerBytes-Softworks"
-[https://github.com/RogerBytes-Softworks/testjeuweb/settings/pages](https://github.com/RogerBytes-Softworks/testjeuweb/settings/pages)
-
-Sous branche, cliquez sur `None` choisissez laquelle contient votre html (chez moi sur master).
-Puis cliquez sur `Save`
-
-Au refresh de page le lien n’apparaît pas immédiatement
-il faut minimum une minute ou deux avant que le site soit actualisé/créé.
-
-Ca donnera un lien du type
-[https://#NomUser#ouNomOrg.github.io/#NomRepo/](https://#NomUser#ouNomOrg.github.io/#NomRepo/)
-
-dans mon cas :
-[https://rogerbytes-softworks.github.io/testjeuweb/](https://rogerbytes-softworks.github.io/testjeuweb/)
-
-### Conflit avec NodeJS
-
-Attention, GitHub Pages fait un conflit avec node js, pour le résoudre, à la racine de votre projet :
-
-```bash
-touch .nojekyll
-```
-
-Cela va créer un fichier nommé `.nojekyll` à la racine de votre projet, empêchant GitHub de semer la zizanie.
-
-________________________________________________________
+---
 
 ## Faire un Merge
 
@@ -123,14 +85,14 @@ git switch harry
 Et ensuite on lance merge avec la branche émettrice
 
 ```bash
-git merge main
+git merge master
 ```
 
 On peut aussi forcer le reset de la branche actuelle avec la branche émettrice.
 ATTENTION ! CA EFFACE TOUT POUR CLONER la branche émettrice
 
 ```bash
-git reset --hard main
+git reset --hard master
 ```
 
 On corrige les conflits de fichiers puis on fait le add/commit/push
@@ -139,23 +101,22 @@ On corrige les conflits de fichiers puis on fait le add/commit/push
 git add --all && git commit -m "correction du merge" && git push
 ```
 
-________________________________________________________
+---
 
 ## Faire une Pull Request
 
-On va sur la branche de destination
-
 ```bash
-gh pr create [flags]
+gh pr create --base main --head ma-branche --title "Titre de la PR" --body "Description des changements" --reviewer NOM_UTILISATEUR
 ```
 
-Par exemple, j'ai fait :
+`--reviewer NOM_UTILISATEUR` est facultatif, il sert à demander en même temps à un collaborateur en particulier de valider la PR.
+Par exemple :
 
 ```bash
-gh pr create --title "Ajouter de mon jeu Gremlinvasion" --body "Voici les modifications que j'ai apportées aux fichiers" --base main
+gh pr create --base master --head feature/harry-section --title "Test de PR avec REVIEW" --body "Coucou yassine" --reviewer YassineDev01
 ```
 
-________________________________________________________
+---
 
 ## Créer / Transférer / Supprimer / lister les dépôts distants sur GitHub
 
@@ -189,16 +150,7 @@ gh repo list {[org]}
 gh repo list
 ```
 
-________________________________________________________
-
-## Créer une organisation
-
-[Page Organisation de GitHub](https://github.com/settings/organizations)
-
-Pour ajouter un collaborateur à votre repo (j'arrive pas à le faire en CLI) :
-[https://github.com/ORGANISATION/REPO/settings/access](https://github.com/ORGANISATION/REPO/settings/access)
-
-________________________________________________________
+---
 
 ## Commandes diverses
 
@@ -222,10 +174,17 @@ git branch
 git branch #nouveau nom#
 ```
 
-### Supprimer une branche
+### Supprimer une branche locale
 
 ```bash
 git branch -d harry
+# Si la branche à supprimer s'appelle "harry"
+```
+
+### Supprimer une branche distante
+
+```bash
+git push origin --delete nom-de-la-branche
 # Si la branche à supprimer s'appelle "harry"
 ```
 
@@ -233,6 +192,12 @@ git branch -d harry
 
 ```bash
 git branch -M #nouveau nom#
+```
+
+### Lier ma branche au dépôt distant
+
+```bash
+git push --set-upstream origin #NomDeBranche
 ```
 
 ### Changer de branche
@@ -250,6 +215,18 @@ git remote -v
 
 ```
 
+### Lister les branches distantes
+
+```bash
+git branch -r
+```
+
+### Lister les branches distantes et locales
+
+```bash
+git branch -a
+```
+
 ### Réinitialiser le remote
 
 Si vous vous trompez dans le nom d'org de dépôt (ou autre) faites :
@@ -259,71 +236,81 @@ git remote remove origin
 # et recommencez le remote add suivi du push --set-upstream
 ```
 
-### Push des fichier de plus de 100 mo sur GitHub LFS (sur un serveur séparé du repo)
+## Ouvrir une page github pour héberger une page web
 
-Grâce à Git LFS, vous pouvez passez outre les limites de taille pour vos fichiers.
+Allez sur la page :
+[https://github.com/#NomUser#ouNomOrg/#NomRepo/settings/pages](https://github.com/#NomUser#ouNomOrg/#NomRepo/settings/pages)
+Et modifiez `#NomUser#ouNomOrg` et `#NomRepo` pour correspondre à chez vous.
 
-#### Installer Git LFS
+-> Par exemple pour mon repo "testjeuweb" se trouvant dans mon org "RogerBytes-Softworks"
+[https://github.com/RogerBytes-Softworks/testjeuweb/settings/pages](https://github.com/RogerBytes-Softworks/testjeuweb/settings/pages)
 
-```bash
-sudo nala install -y git-lfs
-# Ensuite on le configure en l'initialisant (une seule fois est nécéssaire)
-git lfs install
-```
+Sous branche, cliquez sur `None` choisissez laquelle contient votre html (chez moi sur master).
+Puis cliquez sur `Save`
 
-#### Utiliser Git LFS
+Au refresh de page le lien n’apparaît pas immédiatement
+il faut minimum une minute ou deux avant que le site soit actualisé/créé.
 
-Dans le dépôt que vous voulez ovveride la taille de fichier
+Ca donnera un lien du type
+[https://#NomUser#ouNomOrg.github.io/#NomRepo/](https://#NomUser#ouNomOrg.github.io/#NomRepo/)
 
-##### Pour tout type de fichier (déconseillé)
+dans mon cas :
+[https://rogerbytes-softworks.github.io/testjeuweb/](https://rogerbytes-softworks.github.io/testjeuweb/)
 
-```bash
-git lfs track "*.*"
-git add .gitattributes
-git commit -m "Track all files with Git LFS"
-```
+### Conflit avec NodeJS
 
-##### Pour un type de fichier en particulier
-
-```bash
-git lfs track "*.tar.gz"
-git lfs track "*.exe"
-git lfs track "*.zip"
-git lfs track "*.bin"
-# Ajoutez d'autres types de fichiers si nécessaire
-git add .gitattributes
-git commit -m "Track large files using Git LFS."
-```
-
-##### Pour des executables volumineux
+Attention, GitHub Pages fait un conflit avec node js, pour le résoudre, à la racine de votre projet :
 
 ```bash
-for file in *; do
-    if [[ ! "$file" == *.* ]]; then
-        git lfs track "$file"
-    fi
-done
-
-git add .gitattributes
-git commit -m "Track files without extension using Git LFS"
+touch .nojekyll
 ```
 
-##### Exemple d'usage particulier (comme sur Mintage)
+Cela va créer un fichier nommé `.nojekyll` à la racine de votre projet, empêchant GitHub de semer la zizanie.
+
+---
+
+## Créer une organisation
+
+[Page Organisation de GitHub](https://github.com/settings/organizations)
+
+## Ajouter un collaborateur
+
+Pour ajouter un collaborateur à votre repo (j'arrive pas à le faire en CLI) :
 
 ```bash
-git lfs track "*.*"
-git lfs track "DATA/kodi.tar.gz"
-git lfs track "DATA/vivaldi.tar.gz"
-git add .gitattributes
-git commit -m "Track all files with Git LFS"
-git lfs migrate import --include="*.tar.gz"
-# Et je conclue le push
-git push
+gh api \
+  -X PUT \
+  -H "Accept: application/vnd.github+json" \
+  /repos/OWNER/REPO/collaborators/USERNAME \
+  -f permission="maintain"
 ```
 
-Attention, ici
+par exemple :
 
-________________________________________________________
+```bash
+gh api \
+  -X PUT \
+  -H "Accept: application/vnd.github+json" \
+  /repos/RogerBytes-Softworks/TPA/collaborators/YassineDev01 \
+  -f permission="maintain"
+```
+
+Read
+Recommended for non-code contributors who want to view or discuss your project.
+
+Triage
+Recommended for contributors who need to manage issues and pull requests without write access.
+
+Write
+Recommended for contributors who actively push to your project.
+
+Maintain
+Recommended for project managers who need to manage the repository without access to sensitive or destructive actions.
+
+Admin
+Recommended for people who need full access to the project, including sensitive and destructive actions like managing security or deleting a repository.
+
+---
 
 ## Auteurs
 
