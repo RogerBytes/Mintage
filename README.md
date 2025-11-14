@@ -25,7 +25,7 @@ Une liste non exhaustive des logiciels inclus dans ce script :
 - **Développement**: Codium, Git, Docker
 - **Bureautique**: LibreOffice, Thunderbird
 - **Multimédia**: GIMP, Kodi
-- **Internet**: Vivaldi, FileZilla
+- **Internet**: Floorp, Vivaldi
 - ...et beaucoup d'autres !
 
 Vous pouvez aussi consulter [la liste complète](./DATA/complete-list.md).
@@ -179,6 +179,7 @@ Dans LibreOffice aller dans "Outils/Options" (ou 'Alt+F12'), puis :
 "Langues et locales/Linguistique"
 Allez dans l'encart "Modules linguistiques disponibles", puis :
 Décochez "Vérificateur orthographique Hunspell"
+Options `Alt+F12` et aller dans `LibreOffice/Affichage` dans `Thème d'icônes` choisir `Colibre (dark)`
 
 #### Derniers réglages
 
@@ -191,12 +192,6 @@ Pour lancer une détection des capteurs thermiques et autres :
 
 ```bash
 sudo sensors-detect
-```
-
-Ouvrez `Flatseal`, allez sur `Toutes les applications`, dans "Environnement", cliquer sur le `+` des variables et mettez :
-
-```bash
-GTK_THEME=Adwaita-dark
 ```
 
 Si vous utilisez un portable, ouvrez Lutris, allez dans "Préfèrences/Options globales (avec 'Avancé' activé en haut à droite)" et dans "Multi GPU"
@@ -222,8 +217,8 @@ Votre installation est terminée, amusez-vous bien sur Linux Mint !
 <summary>Afficher/Masquer</summary>
 
 1. Il faut aussi dans applications préférées floorp et Rhythmbox
-2. Il faut faire une sauvegarde du plank avec le keepass depuis appli en cours (le raccourcis est incorrect)
-3. Faire un script de customisation pour une nouvelle session.
+2. Faire un script de customisation pour une nouvelle session.
+3. 
 4. Faire une application simple pour changer de runtime Java.
 
 </details>
@@ -237,18 +232,15 @@ Votre installation est terminée, amusez-vous bien sur Linux Mint !
 
 ### Problèmes
 
-Les extensions de floorp ne sont pas correctement installées (patch en cours)
+- Aucun
 
 ### Observations
 
 #### Les appli flatpak sans support de thème
 
-- Ciano - Compression et conversion de fichiers audio et vidéo
-- Mousai - io.github.seadve.Mousai
-- Téléchargeur de vidéo - com.github.unrud.VideoDownloader
-- etc
+Les applications utilisant GTK4 restent en blanc par défaut (à part si une option "dark theme" est dispo dans l'application nativement)
 
-Non fixable tant que les dernières màj de libadwaita ne seront pas incluses dans linux mint.
+Non fixable tant que les dernières màj de libadwaita ne seront pas incluses dans linux mint et ou flatpak.
 
 </details>
 
