@@ -1,15 +1,5 @@
 # A faire
 
-Trouver un remplaçant à Marktext qui est trop lent au lancement
-
-->
-
-```bash
-flatpak install -y flathub org.gnome.gitlab.somas.Apostrophe
-```
-
-Un peu buggué en édition mais semble correct en lecture.
-
 Faire une compilation statique de yad (interface graphique pour bash)
 Faire une interface graphique propre
 

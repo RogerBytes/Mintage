@@ -18,8 +18,17 @@
 # 2/ b) Installation Flatpak
 # --------------------------
 
+# Apostrophe
+flatpak install -y flathub org.gnome.gitlab.somas.Apostrophe
+
 # Ciano Media Converter
 flatpak install -y flathub com.github.robertsanseries.ciano
+
+# Dr. Robotnik's Ring Racers
+flatpak install -y flathub org.kartkrew.RingRacers
+
+# Flatseal
+flatpak install -y flathub com.github.tchx84.Flatseal
 
 # Foliate
 flatpak install -y flathub com.github.johnfactotum.Foliate
@@ -92,7 +101,6 @@ sudo nala install -y /tmp/vscodium_latest_amd64.deb
 
 # Avidemux
 sudo nala install -y software-properties-common apt-transport-https &&
-
 sudo add-apt-repository -y ppa:xtradeb/apps
 sudo nala update
 sudo nala install -y avidemux-qt avidemux-cli
@@ -102,12 +110,6 @@ sudo add-apt-repository -y ppa:apandada1/brightness-controller && sudo nala upda
 
 # Cozy Audiobook
 sudo add-apt-repository -y ppa:cozy-team/cozy && sudo nala update && sudo nala install -y cozy
-
-# Dr. Robotnik's Ring Racers
-flatpak install -y flathub org.kartkrew.RingRacers
-
-# Flatseal
-flatpak install -y flathub com.github.tchx84.Flatseal
 
 # Floorp
 # https://ppa.floorp.app/ les instructions d'installation sont ici
@@ -127,9 +129,6 @@ sudo add-apt-repository -y ppa:ztefn/haguichi-stable && sudo nala update && sudo
 
 # Mangohud
 sudo add-apt-repository -y ppa:oibaf/graphics-drivers && sudo nala update && sudo nala install -y mangohud
-
-# Marktext (lecteur editeur markdown léger)
-flatpak install -y flathub com.github.marktext.marktext
 
 # YACReader
 echo 'deb http://download.opensuse.org/repositories/home:/selmf/xUbuntu_22.04/ /' | sudo tee /etc/apt/sources.list.d/home:selmf.list && curl -fsSL https://download.opensuse.org/repositories/home:selmf/xUbuntu_22.04/Release.key | gpg --dearmor | sudo tee /etc/apt/trusted.gpg.d/home_selmf.gpg > /dev/null && sudo nala update && sudo nala install -y yacreader

@@ -51,6 +51,11 @@ sudo nala install -y devede
 # FileZilla
 sudo nala install -y filezilla
 
+# Flatpak
+sudo nala install -y flatpak
+sudo flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
+sudo nala install -y gnome-software-plugin-flatpak
+
 # Gaupol
 sudo nala install -y gaupol
 
@@ -156,7 +161,6 @@ sudo nala install -y stacer
 
 # Synaptic
 sudo nala install -y synaptic
-sudo flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
 sudo nala install -y apt-xapian-index
 sudo update-apt-xapian-index -vf
 
