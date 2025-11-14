@@ -150,14 +150,27 @@ wget https://github.com/ruffle-rs/ruffle/releases/download/nightly-2022-12-07/ru
 
 # Java "Oracle"
 # pour jre (les liens sont sur https://www.oracle.com/java/technologies/downloads/ ) ATTENTION GARDER LE TAR.GZ modifier le script après
-sudo mkdir -p /usr/lib/jvm && sudo tar zxvf ./DATA/App-ressource/jre-8u351-linux-x64.tar.gz -C /usr/lib/jvm && sudo update-alternatives --install "/usr/bin/java" "java" "/usr/lib/jvm/jre1.8.0_351/bin/java" 1 && sudo update-alternatives --set java /usr/lib/jvm/jre1.8.0_351/bin/java && sudo touch /usr/share/applications/Java.desktop && sudo tee -a  /usr/share/applications/Java.desktop > /dev/null <<EOT
+sudo mkdir -p /usr/lib/jvm && sudo tar zxvf ./DATA/App-ressource/jre-8u351-linux-x64.tar.gz -C /usr/lib/jvm && sudo update-alternatives --install "/usr/bin/java" "java" "/usr/lib/jvm/jre1.8.0_351/bin/java" 1 && sudo update-alternatives --set java /usr/lib/jvm/jre1.8.0_351/bin/java
+
+# Ajouter le script de java_old.sh
+sudo cp ./DATA/java_old.sh /usr/local/bin/java_old
+sudo chmod +x /usr/local/bin/java_old
+
+# Crée le lanceur  Java Web Start et type mime
+sudo bash -c 'cat > /usr/share/applications/Java_1.8.desktop <<EOL
 [Desktop Entry]
-Exec=/usr/lib/jvm/jre1.8.0_351/bin/javaws
-Name=Java
+Name=Java Web Start
+Comment=Lancer les fichiers .jnlp avec  Java 1.8
+Exec=java_old %f
 Icon=java
+Terminal=false
 Type=Application
-EOT
-sudo chmod +x /usr/share/applications/Java.desktop ; sudo chmod +x /usr/lib/jvm/jre1.8.0_351/bin/javaws && xdg-mime default Java.desktop application/x-java-jnlp-file
+MimeType=application/x-java-jnlp-file;
+EOL'
+
+sudo chmod +x /usr/share/applications/Java_1.8.desktop
+sudo update-desktop-database /usr/share/applications
+xdg-mime default Java_1.8.desktop application/x-java-jnlp-file
 
 # JD2 navigateur
 tar -zxvf ./DATA/App-ressource/jd2-vivaldi.tar.gz

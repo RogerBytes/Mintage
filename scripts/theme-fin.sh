@@ -10,7 +10,6 @@
 sudo cp ./DATA/vsix-dl.sh /usr/local/bin/vsix-dl
 sudo chmod +x /usr/local/bin/vsix-dl
 
-
 # réglages de vivaldi
 [ -d ~/.config/vivaldi ] && rm -rf ~/.config/vivaldi
 
