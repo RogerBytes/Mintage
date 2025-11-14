@@ -156,9 +156,6 @@ sudo nala install -y scribus
 # Sound Juicer
 sudo nala install -y sound-juicer
 
-# Stacer
-sudo nala install -y stacer
-
 # Synaptic
 sudo nala install -y synaptic
 sudo nala install -y apt-xapian-index

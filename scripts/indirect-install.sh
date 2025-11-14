@@ -24,6 +24,9 @@ flatpak install -y flathub org.gnome.gitlab.somas.Apostrophe
 # Ciano Media Converter
 flatpak install -y flathub com.github.robertsanseries.ciano
 
+# Dialect
+flatpak install -y flathub app.drey.Dialect
+
 # Dr. Robotnik's Ring Racers
 flatpak install -y flathub org.kartkrew.RingRacers
 
@@ -38,6 +41,9 @@ flatpak install -y flathub io.freetubeapp.FreeTube
 
 # Jdownloader
 flatpak install -y flathub org.jdownloader.JDownloader
+
+# Mission Center
+flatpak install -y flathub io.missioncenter.MissionCenter
 
 # MMEX (Money Manager Extra)
 flatpak install -y flathub org.moneymanagerex.MMEX
