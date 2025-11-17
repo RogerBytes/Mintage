@@ -26,3 +26,12 @@ Dans theme-fin, il fa ut vérifier que les script dans bin existe avant de les g
 Voir s'il faut remplacer le script reset-cinnamon.sh'
 par
 setsid cinnamon --replace
+
+
+
+
+
+
+
+ajouter à mintage
+flatpak install -y flathub com.moonlight_stream.Moonlight
