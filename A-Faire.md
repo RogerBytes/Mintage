@@ -1,5 +1,8 @@
 # A faire
 
+
+mettre à jour le theme de JD2 avec theme 2025 de jdownloader.tar.gz
+
 Faire une compilation statique de yad (interface graphique pour bash)
 Faire une interface graphique propre
 
