@@ -71,8 +71,6 @@ sudo nala install -y gnome-todo
 # Gparted
 sudo nala install -y gparted
 
-# Grub2 Mint 2K (theme grand ecran)
-
 # Gscan2Pdf
 sudo nala install -y gscan2pdf tesseract-ocr-fra
 

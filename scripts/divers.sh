@@ -140,9 +140,6 @@ wget https://cinnamon-spices.linuxmint.com/files/applets/weather@mockturtl.zip
 unzip weather@mockturtl.zip -d ~/.local/share/cinnamon/applets
 rm weather@mockturtl.zip
 
-# Dépendances de Tight Network Indicator
-sudo nala install -y ifstat
-
 # Dépendances de screenshot
 sudo nala install -y ffmpeg xdotool x11-utils
 

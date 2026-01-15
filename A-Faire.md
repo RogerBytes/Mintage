@@ -1,6 +1,5 @@
 # A faire
 
-
 mettre à jour le theme de JD2 avec theme 2025 de jdownloader.tar.gz
 
 Faire une compilation statique de yad (interface graphique pour bash)
@@ -30,11 +29,5 @@ Voir s'il faut remplacer le script reset-cinnamon.sh'
 par
 setsid cinnamon --replace
 
+dans edition/êreferences/mode d'affichage/cocher "Afficher les développeurs de dossiers" (c'(est en bas)=
 
-
-
-
-
-
-ajouter à mintage
-flatpak install -y flathub com.moonlight_stream.Moonlight

@@ -36,9 +36,6 @@ flatpak install -y flathub com.github.tchx84.Flatseal
 # Foliate
 flatpak install -y flathub com.github.johnfactotum.Foliate
 
-# FreeTube
-flatpak install -y flathub io.freetubeapp.FreeTube
-
 # Jdownloader
 flatpak install -y flathub org.jdownloader.JDownloader
 
@@ -47,6 +44,9 @@ flatpak install -y flathub io.missioncenter.MissionCenter
 
 # MMEX (Money Manager Extra)
 flatpak install -y flathub org.moneymanagerex.MMEX
+
+# Moonlight
+flatpak install -y flathub com.moonlight_stream.Moonlight
 
 # Mousai (shazam alternative)
 flatpak install -y flathub io.github.seadve.Mousai
@@ -66,25 +66,59 @@ flatpak install -y flathub com.github.marinm.songrec
 # SweetHome 3D
 flatpak install -y flathub com.sweethome3d.Sweethome3d
 
+# VacuumTube
+flatpak install -y flathub rocks.shy.VacuumTube
+# https://www.youtube.com/activate
+
 # VideoDownloader
 flatpak install -y flathub com.github.unrud.VideoDownloader
+
+# YACReader
+flatpak install -y flathub com.yacreader.YACReader
 
 # 2/ c) Installation depuis un paquet DEB
 # ---------------------------------------
 
 # AntimicroX
-wget https://github.com/AntiMicroX/antimicrox/releases/download/3.3.2/antimicrox-3.3.2-ubuntu-22.04-x86_64.deb && sudo nala install -y ./antimicrox*.deb && rm antimicrox-3.3.2-ubuntu-22.04-x86_64.deb
+repo="AntiMicroX/antimicrox"
+ubuntu_version=24.04
+version=$(curl -s https://api.github.com/repos/$repo/releases \
+  | grep -m1 '"tag_name":' \
+  | sed -E 's/.*"([^"]+)".*/\1/')
+file=$(curl -s https://api.github.com/repos/$repo/releases/tags/$version \
+  | grep '"name":' | grep "${ubuntu_version}-x86_64.deb" | sed -E 's/.*"([^"]+)".*/\1/')
+wget "https://github.com/$repo/releases/download/${version}/${file}"
+sudo nala install -y ${file} && rm ${file}
 
 # AppImage Launcher
-sudo nala install -y ./DATA/App-ressource/appimagelauncher_2.2.0-gha111.d9d4c73+bionic_amd64.deb
+repo="TheAssassin/AppImageLauncher"
+version=$(curl -s https://api.github.com/repos/$repo/releases \
+  | grep -m1 '"tag_name":' \
+  | sed -E 's/.*"([^"]+)".*/\1/')
+file=$(curl -s https://api.github.com/repos/$repo/releases/tags/$version \
+  | grep '"name":' | grep "_amd64.deb" | sed -E 's/.*"([^"]+)".*/\1/')
+wget "https://github.com/$repo/releases/download/${version}/${file}"
+sudo nala install -y ${file} && rm ${file}
 
 # Ferdium
-wget https://github.com/ferdium/ferdium-app/releases/download/v6.2.2/Ferdium-linux-6.2.2-amd64.deb && sudo nala install -y ./Ferdium*.deb && rm Ferdium-linux-6.2.2-amd64.deb
+repo="ferdium/ferdium-app"
+version=$(curl -s https://api.github.com/repos/$repo/releases/latest \
+  | grep '"tag_name":' \
+  | sed -E 's/.*"([^"]+)".*/\1/')
+file=$(curl -s https://api.github.com/repos/$repo/releases/tags/$version \
+  | grep '"name":' | grep "amd64.deb" | sed -E 's/.*"([^"]+)".*/\1/')
+wget "https://github.com/$repo/releases/download/${version}/${file}"
+sudo nala install -y ${file} && rm ${file}
 
-# RustDesk (pour remplacer teamviewer)
-wget $(curl -s https://api.github.com/repos/rustdesk/rustdesk/releases/latest | grep "browser_download_url.*x86_64.deb" | cut -d '"' -f 4)
-sudo dpkg -i rustdesk-*-x86_64.deb
-rm rustdesk-*-x86_64.deb
+# RustDesk
+repo="rustdesk/rustdesk"
+version=$(curl -s https://api.github.com/repos/$repo/releases/latest \
+  | grep '"tag_name":' \
+  | sed -E 's/.*"([^"]+)".*/\1/')
+file=$(curl -s https://api.github.com/repos/$repo/releases/tags/$version \
+  | grep '"name":' | grep "x86_64.deb" | sed -E 's/.*"([^"]+)".*/\1/')
+wget "https://github.com/$repo/releases/download/${version}/${file}"
+sudo nala install -y ${file} && rm ${file}
 
 # vivaldi
 wget -O vivaldi-latest.deb "$(curl -s https://vivaldi.com/download/ | grep -o 'https://downloads\.vivaldi\.com/stable/vivaldi-stable_[^"]*amd64\.deb' | head -n1)"
@@ -92,18 +126,16 @@ sudo nala install -y vivaldi-latest.deb
 rm vivaldi-latest.deb
 
 # VSCodium
-file=$(curl -s https://api.github.com/repos/VSCodium/vscodium/releases/latest \
-  | grep browser_download_url \
-  | cut -d '"' -f 4 \
-  | grep '_amd64.deb$') && \
-wget "$file" -O /tmp/vscodium_latest_amd64.deb && \
-sudo nala install -y /tmp/vscodium_latest_amd64.deb
-
+repo="VSCodium/vscodium"
+version=$(curl -s https://api.github.com/repos/$repo/releases/latest \
+  | grep '"tag_name":' \
+  | sed -E 's/.*"([^"]+)".*/\1/')
+file=codium_${version}_amd64.deb
+wget "https://github.com/$repo/releases/download/${version}/${file}"
+sudo nala install -y ${file} && rm ${file}
 
 # 2/ d) Installation avec un PPA
 # ------------------------------
-
-
 
 # Avidemux
 sudo nala install -y software-properties-common apt-transport-https &&
@@ -131,13 +163,14 @@ sudo add-apt-repository -y ppa:cdemu/ppa && sudo nala update && sudo nala instal
 sudo add-apt-repository -y ppa:danielrichter2007/grub-customizer && sudo nala update && sudo nala install -y grub-customizer
 
 # Haguichi (et hamachi avec)
-sudo add-apt-repository -y ppa:ztefn/haguichi-stable && sudo nala update && sudo nala install -y haguichi && wget https://www.vpn.net/installers/logmein-hamachi_2.1.0.203-1_amd64.deb && sudo nala install -y ./logmein-hamachi_2.1.0.203-1_amd64.deb && rm logmein-hamachi_2.1.0.203-1_amd64.deb
+sudo add-apt-repository -y ppa:ztefn/haguichi-stable && sudo nala update && sudo nala install -y haguichi
+link=$(curl -s https://www.vpn.net/linux | grep -oP '(?<=href=")/installers/logmein-hamachi_[^"]+_amd64\.deb' | sed 's|^|https://www.vpn.net|')
+file=$(basename "$link")
+wget  $link
+sudo nala install -y $file && rm $file
 
 # Mangohud
 sudo add-apt-repository -y ppa:oibaf/graphics-drivers && sudo nala update && sudo nala install -y mangohud
-
-# YACReader
-echo 'deb http://download.opensuse.org/repositories/home:/selmf/xUbuntu_22.04/ /' | sudo tee /etc/apt/sources.list.d/home:selmf.list && curl -fsSL https://download.opensuse.org/repositories/home:selmf/xUbuntu_22.04/Release.key | gpg --dearmor | sudo tee /etc/apt/trusted.gpg.d/home_selmf.gpg > /dev/null && sudo nala update && sudo nala install -y yacreader
 
 # 2/ e) Installation paquets linux tar.gz
 # ---------------------------------------
@@ -152,7 +185,32 @@ sudo gtk-update-icon-cache ~/.icons/capitaine-cursors/
 rm -r capitaine-cursors
 
 # Flash Player Ruffle
-wget https://github.com/ruffle-rs/ruffle/releases/download/nightly-2022-12-07/ruffle-nightly-2022_12_07-linux-x86_64.tar.gz && tar -zxvf ruffle-nightly-2022_12_07-linux-x86_64.tar.gz && rm LICENSE.md README.md ruffle-nightly-2022_12_07-linux-x86_64.tar.gz && sudo mv ruffle /bin && sudo touch /usr/share/applications/Flash\ Player.desktop && sudo echo "[Desktop Entry]" | sudo tee -a /usr/share/applications/Flash\ Player.desktop && sudo echo "Version=1.0" | sudo tee -a /usr/share/applications/Flash\ Player.desktop && sudo echo "Type=Application" | sudo tee -a /usr/share/applications/Flash\ Player.desktop && sudo echo "Name=Flash Player" | sudo tee -a /usr/share/applications/Flash\ Player.desktop && sudo echo "Comment=Lecteur Flash ruffle" | sudo tee -a /usr/share/applications/Flash\ Player.desktop && sudo echo "Exec=/bin/ruffle" | sudo tee -a /usr/share/applications/Flash\ Player.desktop && sudo echo "Icon=flash-player-properties" | sudo tee -a /usr/share/applications/Flash\ Player.desktop && sudo echo "Path=" | sudo tee -a /usr/share/applications/Flash\ Player.desktop && sudo echo "Terminal=false" | sudo tee -a /usr/share/applications/Flash\ Player.desktop && sudo echo "StartupNotify=true" | sudo tee -a /usr/share/applications/Flash\ Player.desktop && sudo echo "Name[fr_FR]=Flash Player" | sudo tee -a /usr/share/applications/Flash\ Player.desktop && sudo chmod +x /usr/share/applications/Flash\ Player.desktop && xdg-mime default Flash\ Player.desktop application/vnd.adobe.flash.movie
+version=$(curl -s https://api.github.com/repos/ruffle-rs/ruffle/releases \
+  | grep -m1 '"tag_name":' \
+  | sed -E 's/.*"([^"]+)".*/\1/')
+file=$(curl -s https://api.github.com/repos/ruffle-rs/ruffle/releases/tags/$version \
+  | grep '"name":' | grep 'linux-x86_64' | sed -E 's/.*"([^"]+)".*/\1/')
+wget "https://github.com/ruffle-rs/ruffle/releases/download/${version}/${file}"
+tar -zxvf ${file}
+rm LICENSE.md README.md ${file}
+rm -r extras
+sudo mv ruffle /bin
+sudo touch /usr/share/applications/Flash\ Player.desktop
+sudo tee /usr/share/applications/Flash\ Player.desktop > /dev/null << EOF
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=Flash Player
+Comment=Lecteur Flash ruffle
+Exec=/bin/ruffle
+Icon=flash-player-properties
+Path=
+Terminal=false
+StartupNotify=true
+Name[fr_FR]=Flash Player
+EOF
+sudo chmod +x /usr/share/applications/Flash\ Player.desktop
+xdg-mime default Flash\ Player.desktop application/vnd.adobe.flash.movie
 
 # Java "Oracle"
 # pour jre (les liens sont sur https://www.oracle.com/java/technologies/downloads/ ) ATTENTION GARDER LE TAR.GZ modifier le script après
@@ -162,7 +220,7 @@ sudo mkdir -p /usr/lib/jvm && sudo tar zxvf ./DATA/App-ressource/jre-8u351-linux
 sudo cp ./DATA/java_old.sh /usr/local/bin/java_old
 sudo chmod +x /usr/local/bin/java_old
 
-# Crée le lanceur  Java Web Start et type mime
+# Crée le lanceur Java Web Start et type mime
 sudo bash -c 'cat > /usr/share/applications/Java_1.8.desktop <<EOL
 [Desktop Entry]
 Name=Java Web Start
@@ -173,7 +231,6 @@ Terminal=false
 Type=Application
 MimeType=application/x-java-jnlp-file;
 EOL'
-
 sudo chmod +x /usr/share/applications/Java_1.8.desktop
 sudo update-desktop-database /usr/share/applications
 xdg-mime default Java_1.8.desktop application/x-java-jnlp-file
@@ -202,6 +259,7 @@ downloaded_file=$(basename $download_url)
 chmod +x ~/ApplicationsTemp/$downloaded_file
 
 # pCloud
+sudo nala install -y libfuse2t64
 cp ./DATA/App-ressource/pcloud ~/ApplicationsTemp/
 chmod +x ~/ApplicationsTemp/pcloud
 
@@ -233,10 +291,7 @@ sudo add-apt-repository --remove -y ppa:danielrichter2007/grub-customizer
 sudo add-apt-repository --remove -y ppa:ztefn/haguichi-stable
 sudo nala update
 
-
 # 2/ h) Compilations
 # ------------------
-
-
 
 # Autres
