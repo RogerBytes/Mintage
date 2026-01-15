@@ -31,3 +31,7 @@ setsid cinnamon --replace
 
 dans edition/êreferences/mode d'affichage/cocher "Afficher les développeurs de dossiers" (c'(est en bas)=
 
+
+installer l'extension dans floorp'
+https://extensions.jdownloader.org/firefox.xpi
+
