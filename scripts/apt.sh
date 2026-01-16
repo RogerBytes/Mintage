@@ -126,6 +126,7 @@ sudo nala install -y libreoffice-java-common
 
 # Lutris
 sudo nala install -y lutris
+# ~/.local/share/icons/hicolor/128x128/apps -> chemin des icone des app lutris (vrai app pas launcher)
 
 # MangoHud et Goverlay
 sudo nala install -y goverlay mangohud

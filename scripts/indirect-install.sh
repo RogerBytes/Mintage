@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# en attente
+# en attente https://github.com/evilsocket/opensnitch
 # Open Snitch NON INSTALLE EN ATTENTE DE VERSION PLUS STABLE
 # sudo nala install -y python3-pip python3-pyasn && pip3 install --user qt-material && pip3 install --user --ignore-installed grpcio && wget https://github.com/evilsocket/opensnitch/releases/download/v1.5.2/opensnitch_1.5.2-1_amd64.deb && sudo nala install -y ./opensnitch_1.5.2-1_amd64.deb && rm opensnitch_1.5.2-1_amd64.deb && wget https://github.com/evilsocket/opensnitch/releases/download/v1.5.2/python3-opensnitch-ui_1.5.2-1_all.deb && sudo nala install -y ./python3-opensnitch-ui_1.5.2-1_all.deb && rm python3-opensnitch-ui_1.5.2-1_all.deb
 
@@ -65,6 +65,9 @@ flatpak install -y flathub net.davidotek.pupgui2
 
 # PwuControl
 flatpak install -y flathub com.saivert.pwvucontrol
+
+# Ruffle Flash Player
+flatpak install -y flathub rs.ruffle.Ruffle
 
 # Songrec (shazam)
 flatpak install -y flathub com.github.marinm.songrec
@@ -190,34 +193,6 @@ sudo gtk-update-icon-cache /usr/share/icons/capitaine-cursors/
 sudo gtk-update-icon-cache ~/.icons/capitaine-cursors/
 rm -r capitaine-cursors
 
-# Flash Player Ruffle
-version=$(curl -s https://api.github.com/repos/ruffle-rs/ruffle/releases \
-  | grep -m1 '"tag_name":' \
-  | sed -E 's/.*"([^"]+)".*/\1/')
-file=$(curl -s https://api.github.com/repos/ruffle-rs/ruffle/releases/tags/$version \
-  | grep '"name":' | grep 'linux-x86_64' | sed -E 's/.*"([^"]+)".*/\1/')
-wget "https://github.com/ruffle-rs/ruffle/releases/download/${version}/${file}"
-tar -zxvf ${file}
-rm LICENSE.md README.md ${file}
-rm -r extras
-sudo mv ruffle /bin
-sudo touch /usr/share/applications/Flash\ Player.desktop
-sudo tee /usr/share/applications/Flash\ Player.desktop > /dev/null << EOF
-[Desktop Entry]
-Version=1.0
-Type=Application
-Name=Flash Player
-Comment=Lecteur Flash ruffle
-Exec=/bin/ruffle
-Icon=flash-player-properties
-Path=
-Terminal=false
-StartupNotify=true
-Name[fr_FR]=Flash Player
-EOF
-sudo chmod +x /usr/share/applications/Flash\ Player.desktop
-xdg-mime default Flash\ Player.desktop application/vnd.adobe.flash.movie
-
 # Java "Oracle"
 # pour jre (les liens sont sur https://www.oracle.com/java/technologies/downloads/ ) ATTENTION GARDER LE TAR.GZ modifier le script après
 sudo mkdir -p /usr/lib/jvm && sudo tar zxvf ./DATA/App-ressource/jre-8u351-linux-x64.tar.gz -C /usr/lib/jvm && sudo update-alternatives --install "/usr/bin/java" "java" "/usr/lib/jvm/jre1.8.0_351/bin/java" 1 && sudo update-alternatives --set java /usr/lib/jvm/jre1.8.0_351/bin/java
@@ -264,7 +239,7 @@ wget -P ~/ApplicationsTemp $download_url
 downloaded_file=$(basename $download_url)
 chmod +x ~/ApplicationsTemp/$downloaded_file
 
-# pCloud
+# pCloud (ne pas chercher à recup via curl ou wget sur le site, impossible)
 sudo nala install -y libfuse2t64
 cp ./DATA/App-ressource/pcloud ~/ApplicationsTemp/
 chmod +x ~/ApplicationsTemp/pcloud
