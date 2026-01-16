@@ -30,6 +30,9 @@ flatpak install -y flathub app.drey.Dialect
 # Dr. Robotnik's Ring Racers
 flatpak install -y flathub org.kartkrew.RingRacers
 
+# Emoji Mart
+flatpak install -y flathub io.github.vemonet.EmojiMart
+
 # Flatseal
 flatpak install -y flathub com.github.tchx84.Flatseal
 
