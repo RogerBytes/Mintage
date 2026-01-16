@@ -1,49 +1,16 @@
 #!/bin/bash
 
 #Index
-#1/ Prérequis
-#    1/ a) Divers
-#    1/ b) Shell
-#    1/ c) Applets
+# 1/ Installation avec prompts oui/non
+# 2/ Shell
 
-# 1/ a) Divers - avec prompts oui/non
+# 1/ Installation avec prompts oui/non
 # ------------
 
-# Element https://element.io/download#linux
-sudo nala install -y wget apt-transport-https
-sudo wget -O /usr/share/keyrings/element-io-archive-keyring.gpg https://packages.element.io/debian/element-io-archive-keyring.gpg
-echo "deb [signed-by=/usr/share/keyrings/element-io-archive-keyring.gpg] https://packages.element.io/debian/ default main" | sudo tee /etc/apt/sources.list.d/element-io.list
-sudo nala update
-sudo nala install -y element-desktop
-
-# Télécharger extension libre office
-wget -O ~/WritingTool-25.10.oxt https://writingtool.org/writingtool/releases/WritingTool-25.10.oxt
-
-# jackd2
-sudo nala install -y --assume-yes jackd2
-
-# DVD support libdvd
+# DVD support libdvd (impossible à automatiser)
 sudo nala install -y regionset libavcodec-extra libdvd-pkg && sudo dpkg-reconfigure libdvd-pkg
 
-# Apt-Xapian-Index (fix pour recherche dans synaptic)
-sudo nala install -y apt-xapian-index
-
-# 1/ a) Divers - normaux
-# ------------
-
-# Ardour
-sudo nala install -y --assume-yes ardour
-
-# Drivers android
-sudo nala install -y adb fastboot
-
-# Dconf
-sudo nala install -y dconf-editor
-
-# Ffmpeg
-sudo nala install -y ffmpeg
-
-# 1/ b) Shell
+# 2/ Shell
 # ------------
 
 # Installer zsh
@@ -67,120 +34,3 @@ git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ~/.powerlevel10
 echo 'source ~/.powerlevel10k/powerlevel10k.zsh-theme' >> ~/.zshrc
 cp ./DATA/.p10k.zsh ~/
 
-# 1/ c) Applets
-# -------------
-
-# Cinnamenu
-wget https://cinnamon-spices.linuxmint.com/files/applets/Cinnamenu@json.zip
-unzip Cinnamenu@json.zip -d ~/.local/share/cinnamon/applets
-rm Cinnamenu@json.zip
-
-# Color Picker
-wget https://cinnamon-spices.linuxmint.com/files/applets/color-picker@fmete.zip
-unzip color-picker@fmete.zip -d ~/.local/share/cinnamon/applets
-rm color-picker@fmete.zip
-
-# Double heure
-wget https://cinnamon-spices.linuxmint.com/files/desklets/dual-datetime@rcalixte.zip
-unzip dual-datetime@rcalixte.zip -d ~/.local/share/cinnamon/desklets
-rm dual-datetime@rcalixte.zip
-
-
-# Tiroir
-wget https://cinnamon-spices.linuxmint.com/files/applets/show-hide-applets@mohammad-sn.zip
-unzip show-hide-applets@mohammad-sn.zip -d ~/.local/share/cinnamon/applets
-rm show-hide-applets@mohammad-sn.zip
-
-# GPaste rechargé
-wget https://cinnamon-spices.linuxmint.com/files/applets/gpaste-reloaded@feuerfuchs.eu.zip
-unzip gpaste-reloaded@feuerfuchs.eu.zip -d ~/.local/share/cinnamon/applets
-rm gpaste-reloaded@feuerfuchs.eu.zip
-sudo nala install -y gpaste-2 gir1.2-gpaste-2
-
-# Forcer à quitter
-wget https://cinnamon-spices.linuxmint.com/files/applets/force-quit@cinnamon.org.zip
-unzip force-quit@cinnamon.org.zip -d ~/.local/share/cinnamon/applets
-rm force-quit@cinnamon.org.zip
-
-# Météo
-wget https://cinnamon-spices.linuxmint.com/files/desklets/bbcwx@oak-wood.co.uk.zip
-unzip bbcwx@oak-wood.co.uk.zip -d ~/.local/share/cinnamon/desklets
-rm bbcwx@oak-wood.co.uk.zip
-
-# Minuterie
-wget https://cinnamon-spices.linuxmint.com/files/applets/timer@Severga.zip
-unzip timer@Severga.zip -d ~/.local/share/cinnamon/applets
-rm timer@Severga.zip
-
-# Radio ++
-wget https://cinnamon-spices.linuxmint.com/files/applets/radio@driglu4it.zip
-unzip radio@driglu4it.zip -d ~/.local/share/cinnamon/applets
-rm radio@driglu4it.zip
-
-# ScreenShot+Record Desktop
-wget https://cinnamon-spices.linuxmint.com/files/applets/ScreenShot+RecordDesktop@tech71.zip
-unzip ScreenShot+RecordDesktop@tech71.zip -d ~/.local/share/cinnamon/applets
-rm ScreenShot+RecordDesktop@tech71.zip
-
-# SmallCalc
-wget https://cinnamon-spices.linuxmint.com/files/applets/smallcalc_applet@lerc.sds.zip
-unzip smallcalc_applet@lerc.sds.zip -d ~/.local/share/cinnamon/applets
-rm smallcalc_applet@lerc.sds.zip
-
-# Son 150%
-wget https://cinnamon-spices.linuxmint.com/files/applets/sound150@claudiux.zip
-unzip sound150@claudiux.zip -d ~/.local/share/cinnamon/applets
-rm sound150@claudiux.zip
-
-# Steam
-sudo nala install -y steam
-
-# Weather
-wget https://cinnamon-spices.linuxmint.com/files/applets/weather@mockturtl.zip
-unzip weather@mockturtl.zip -d ~/.local/share/cinnamon/applets
-rm weather@mockturtl.zip
-
-# Dépendances de screenshot
-sudo nala install -y ffmpeg xdotool x11-utils
-
-# Dépendances de color picker
-sudo nala install -y xclip python3-xlib
-
-# Dépendances de radio ++
-sudo nala install -y mpv libmpv-dev sox libsox-fmt-all at python3-polib mpv-mpris
-sudo apt purge -y yt-dlp
-# https://github.com/yt-dlp/yt-dlp
-sudo nala install -y pipx
-pipx ensurepath
-pipx install yt-dlp
-sudo touch /usr/local/bin/update_yt_dlp.sh
-echo -e "#! /bin/bash\npipx upgrade yt-dlp" | sudo tee /usr/local/bin/update_yt_dlp.sh > /dev/null
-sudo chmod +x /usr/local/bin/update_yt_dlp.sh
-sudo crontab -l | { cat; echo "@reboot /usr/local/bin/update_yt_dlp.sh"; } | sudo crontab -
-
-# 1/ d) Desklet
-# -------------
-
-# CPU Load
-wget https://cinnamon-spices.linuxmint.com/files/desklets/cpuload@kimse.zip
-unzip cpuload@kimse.zip -d ~/.local/share/cinnamon/desklets
-rm cpuload@kimse.zip
-
-# Disk Space
-wget https://cinnamon-spices.linuxmint.com/files/desklets/diskspace@schorschii.zip
-unzip diskspace@schorschii.zip -d ~/.local/share/cinnamon/desklets
-rm diskspace@schorschii.zip
-
-
-# 1/ e) Extensions
-# ----------------
-
-# Transparent Panel
-wget https://cinnamon-spices.linuxmint.com/files/extensions/transparent-panels@germanfr.zip
-unzip transparent-panels@germanfr.zip -d ~/.local/share/cinnamon/extensions
-rm transparent-panels@germanfr.zip
-
-# Mouse Shake Zoom Extension
-wget https://cinnamon-spices.linuxmint.com/files/extensions/mouse-shake-zoom@rcalixte.zip
-unzip mouse-shake-zoom@rcalixte.zip -d ~/.local/share/cinnamon/extensions
-rm mouse-shake-zoom@rcalixte.zip

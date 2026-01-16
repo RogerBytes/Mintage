@@ -1,7 +1,7 @@
 #!/bin/bash
 
 #3/ Theme et optimisations
-#    3/ a) Réglages d'applications'
+#    3/ a) Réglages d'applications
 #    3/ b) Applications au démarrage
 
 
@@ -35,16 +35,17 @@ sudo cp -a ./DATA/font-terminal/* /usr/share/fonts/
 
 # theme grub
 sudo cp ./DATA/calmgrub.tar.gz /root/
+sudo mkdir -p /boot/grub/themes/
+sudo tar -xzvf /root/calmgrub.tar.gz -C /boot/grub/themes/
+echo 'GRUB_THEME="/boot/grub/themes/calmgrub/theme.txt"' | sudo tee -a /etc/default/grub
+sudo update-grub
+sudo rm /root/calmgrub.tar.gz
 
 # Copie de Fonds d'écrans'
 sudo cp -r ./DATA/Reglages/Wallpapers /usr/share/backgrounds/
 sudo cp ./DATA/Reglages/linuxmint/sele_ring.jpg /usr/share/backgrounds/linuxmint
 sudo cp ./DATA/Reglages/linuxmint/default_background.jpg /usr/share/backgrounds/linuxmint
 cp -r ./DATA/Reglages/Wallpapers ~/Images/
-
-# Changer l'icone de menu
-sudo cp ./DATA/linuxmint-logo-ring-symbolic.svg /usr/share/icons/hicolor/scalable/apps/
-sudo cp ./DATA/cinnamon-symbolic.svg /usr/share/icons/hicolor/scalable/apps/
 
 # Récupérer le panel et régler les icones / themes menu / workspaces
 dconf load /org/cinnamon/ < ./DATA/Reglages/panel.conf

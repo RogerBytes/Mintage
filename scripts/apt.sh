@@ -15,6 +15,9 @@
 # 2/ a) Installation depuis dépôts officiels
 # ------------------------------------------
 
+# Ardour
+sudo nala install -y --assume-yes jackd2 && sudo nala install -y --assume-yes ardour
+
 # Audacity
 sudo nala install -y audacity
 
@@ -45,8 +48,17 @@ sudo nala install -y cmatrix
 # Darktable
 sudo nala install -y darktable
 
+# Dconf
+sudo nala install -y dconf-editor
+
 # Devede NG
 sudo nala install -y devede
+
+# Fastboot - Drivers android
+sudo nala install -y adb fastboot
+
+# Ffmpeg
+sudo nala install -y ffmpeg
 
 # FileZilla
 sudo nala install -y filezilla
@@ -65,14 +77,11 @@ sudo nala install -y ghex
 # Gimp
 sudo nala install -y gimp gimp-help-fr
 
-# Gnome todos
+# Gnome todos (Endeavour)
 sudo nala install -y gnome-todo
 
 # Gparted
 sudo nala install -y gparted
-
-# Gscan2Pdf
-sudo nala install -y gscan2pdf tesseract-ocr-fra
 
 # Handbrake
 sudo nala install -y handbrake
@@ -80,8 +89,14 @@ sudo nala install -y handbrake
 # Inkscape
 sudo nala install -y inkscape
 
-# Java 11
+# Java 11 à chosiir avec "sudo update-alternatives --config java""
 sudo nala install -y openjdk-11-jdk
+
+# Java 17
+sudo nala install -y openjdk-17-jdk
+
+# Java 21
+sudo nala install -y openjdk-21-jdk
 
 # jq (outil json CLI)
 sudo nala install -y jq
@@ -92,7 +107,7 @@ sudo nala install -y kdeconnect
 # Kdenlive
 sudo nala install -y kdenlive*
 
-# KeePass
+# KeePassXC
 sudo nala install -y keepassxc
 
 # Kodi
@@ -122,7 +137,7 @@ sudo nala install -y kronometer
 sudo nala install -y lmms
 
 # Libre Office manquants
-sudo nala install -y libreoffice-java-common
+sudo nala install -y libreoffice-java-common libreoffice-base libreoffice-math
 
 # Lutris
 sudo nala install -y lutris
@@ -155,6 +170,9 @@ sudo nala install -y scribus
 # Sound Juicer
 sudo nala install -y sound-juicer
 
+# Steam
+sudo nala install -y steam
+
 # Synaptic
 sudo nala install -y synaptic
 sudo nala install -y apt-xapian-index
@@ -172,8 +190,8 @@ sudo nala install -y trimage
 # Synapse
 sudo nala install -y synapse
 
-# Vim
-sudo nala install -y vim
+# Neovim
+sudo nala install -y neovim
 
 # Virt-Manager (gestionnaire VM) + KVM QEMU
 sudo nala install -y qemu-system libvirt-daemon-system libvirt-clients bridge-utils virt-manager virtiofsd samba

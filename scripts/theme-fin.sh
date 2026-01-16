@@ -11,11 +11,10 @@ sudo cp ./DATA/vsix-dl.sh /usr/local/bin/vsix-dl
 sudo chmod +x /usr/local/bin/vsix-dl
 
 # réglages de vivaldi
-[ -d ~/.config/vivaldi ] && rm -rf ~/.config/vivaldi
-
-#Compresser vivaldi -> tar -I 'zstd -19' -cf - vivaldi/ | split -b 95M - vivaldi.tzst.
-cat ./DATA/vivaldi.tzst.* > vivaldi.tzst && tar -I zstd -xf vivaldi.tzst -C "$HOME/.config/"
-rm vivaldi.tzst
+# [ -d ~/.config/vivaldi ] && rm -rf ~/.config/vivaldi
+# Compresser vivaldi -> tar -I 'zstd -19' -cf - vivaldi/ | split -b 95M - vivaldi.tzst.
+# cat ./DATA/vivaldi.tzst.* > vivaldi.tzst && tar -I zstd -xf vivaldi.tzst -C "$HOME/.config/"
+# rm vivaldi.tzst
 
 # réglages de floorp
 [ -d ~/.floorp ] && rm -rf ~/.floorp
@@ -40,21 +39,10 @@ tar -xzvf ./DATA/thunderbird.tar.gz -C $HOME/
 # 7z x ./DATA/kodi.7z.001 -o$HOME/
 
 # Themes Flatpak
-sudo cp -r /usr/share/icons/Mint-L-Blue ~/.icons/ && sudo cp -r /usr/share/themes/Mint-L-Dark-Blue ~/.themes/
-flatpak install -y org.gtk.Gtk3theme.Yaru-dark
-sudo flatpak override --filesystem=~/.icons && sudo flatpak override --filesystem=~/.themes
-sudo flatpak override --env=GTK_THEME=Mint-L-Dark-Blue
-sudo flatpak override --env=ICON_THEME=Mint-L-Blue
-sudo flatpak override --filesystem=/usr/share/themes/ com.github.robertsanseries.ciano
-sudo flatpak override --env GTK_THEME=Mint-L-Dark-Blue com.github.robertsanseries.ciano
-sudo flatpak override --filesystem=/usr/share/themes/ org.jdownloader.JDownloader
-sudo flatpak override --env GTK_THEME=Mint-L-Dark-Blue org.jdownloader.JDownloader
-sudo flatpak override --filesystem=/usr/share/themes/ io.github.seadve.Mousai
-sudo flatpak override --env GTK_THEME=Mint-L-Dark-Blue io.github.seadve.Mousai
-sudo flatpak override --filesystem=/usr/share/themes/ net.davidotek.pupgui2
-sudo flatpak override --env GTK_THEME=Mint-L-Dark-Blue net.davidotek.pupgui2
-sudo flatpak override --filesystem=/usr/share/themes/ com.github.unrud.VideoDownloader
-sudo flatpak override --env GTK_THEME=Mint-L-Dark-Blue com.github.unrud.VideoDownloader
+mkdir -p ~/.themes/
+cp -r /usr/share/themes/Adwaita-dark ~/.themes/
+sudo flatpak override --filesystem=$HOME/.themes
+sudo flatpak override --env=GTK_THEME=Adwaita-dark
 
 # Support native des host de nodjs
 curl -s https://api.github.com/repos/andy-portmen/native-client/releases/latest \
@@ -92,37 +80,15 @@ flatpak run com.github.unrud.VideoDownloader --url="$URL"
 EOF
 sudo chmod +x /usr/local/bin/open-with-video-downloader.sh
 
-# Script pour relancer proprement cinnamon (via reset-cinnamon.sh)
-sudo tee /usr/local/bin/reset-cinnamon.sh > /dev/null << 'EOF'
-#!/bin/bash
-export DBUS_SESSION_BUS_ADDRESS="unix:path=/run/user/$(id -u)/bus"
-(sleep 5; notify-send 'Cinnamon relancé' 'L’environnement de bureau a été redémarré.') &
-old_pid=$(pgrep -o cinnamon)
-setsid cinnamon --replace >/dev/null 2>&1 < /dev/null &
-# Attendre que l'ancien cinnamon ait disparu
-while kill -0 "$old_pid" 2>/dev/null; do
-    sleep 0.2
-done
-xsetroot -cursor_name left_ptr
-EOF
-
-sudo chmod +x /usr/local/bin/reset-cinnamon.sh
-
-
+# extension de libre office
+latest=$(curl -s https://writingtool.org/writingtool/releases/ \
+    | grep -oP 'WritingTool-[0-9\.]+\.oxt' \
+    | sort -V \
+    | tail -n1)
+curl -LO "https://writingtool.org/writingtool/releases/$latest"
 
 # On applique le thème de jdownloader
 cp -a ./DATA/var-cache/* ~/.var
 sed -i "s|\"defaultdownloadfolder\": *\"[^\"]*\"|\"defaultdownloadfolder\": \"${HOME}/Téléchargements/Téléchargements jd2\"|" ~/.var/app/org.jdownloader.JDownloader/data/jdownloader/cfg/org.jdownloader.settings.GeneralSettings.json
 sed -i "s|\"devicename\": *\"[^\"]*\"|\"devicename\": \"JDownloader@$(whoami)\"|" ~/.var/app/org.jdownloader.JDownloader/data/jdownloader/cfg/org.jdownloader.api.myjdownloader.MyJDownloaderSettings.json
 
-# Réglage de radio++
-sed -i "s|file://\$HOME/Musique/Radio++|file://$HOME/Musique/Radio++|g" fichier.json ~/.config/cinnamon/spices/radio@driglu4it/radio@driglu4it.json
-
-# Dependances de radio (A installer en dernier du setup, sinon il ne trouve pas pulseaudio, qui installe pacmd)
-sudo nala install -y python3-brotli python3-polib ffmpeg ffmpegthumbnailer yt-dlp libnotify-bin at sox mpv mpv-mpris
-
-echo "installation de pulseaudio"
-sudo nala install -y pulseaudio
-
-
-# On peut verifier que pacman est installé avec pacmd --version
