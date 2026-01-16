@@ -83,7 +83,7 @@ sudo cp -r /usr/share/icons/capitaine-cursors/cursors /usr/share/icons/Bibata-Mo
 #Comment=Start Vivaldi at startup
 #EOF
 
-# ajouter au demarrag caffeine-indicator
+# ajouter au demarrage caffeine-indicator
 cat > ~/.config/autostart/caffeine-indicator.desktop << EOF
 [Desktop Entry]
 Type=Application
@@ -120,9 +120,6 @@ mkdir -p ~/Local/Git
 mkdir -p ~/Jeux/
 mkdir -p ~/Public/
 mkdir -p ~/Musique/Radio++/
-
-# On copie la documentation dans ~/Local
-cp -r ./Documentation ~/Local/Documentation
 
 # Theme pour le shell
 cp ./DATA/.p10k.zsh ~/

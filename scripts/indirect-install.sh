@@ -42,6 +42,9 @@ flatpak install -y flathub com.github.tchx84.Flatseal
 # Foliate
 flatpak install -y flathub com.github.johnfactotum.Foliate
 
+# Freetube
+flatpak install -y flathub io.freetubeapp.FreeTube
+
 # Jdownloader
 flatpak install -y flathub org.jdownloader.JDownloader
 

@@ -1,6 +1,0 @@
-Mettre theme sombre pour n'importe quel flatpak
-Il faut installer flatseal
-flatpak install -y flathub com.github.tchx84.Flatseal
-
-Dans "Toutes les Applications" (ou une app ai choix), dans "Environnement" cliquer sur "+" et coller :
-GTK_THEME=Adwaita:dark

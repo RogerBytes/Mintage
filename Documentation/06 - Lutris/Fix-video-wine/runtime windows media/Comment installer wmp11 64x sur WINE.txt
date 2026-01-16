@@ -1,2 +1,0 @@
-Mettre sa version de wine sur windows 2003
-Lancer "wmp11-windowsxp-x64-enu.exe" et juste avant de cliquer sur accepter les conditions d'utilisation et passer sur xp dans winecfg
