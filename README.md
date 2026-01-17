@@ -131,17 +131,6 @@ cd $HOME/Mintage/ && ./after-reboot.sh
 
 ### Installations manuelles
 
-#### Grub Cutomizer
-
-Si Dual-Boot seulement !
-Dans un terminal :
-
-```bash
-grub-customizer
-```
-
-Dans Grub customizer mettez "calmgrub" comme thème avec l’icône de "+" dans l'onglet "apparence" (mettez calmgrub.tar.gz qui se trouve dans /racine du système) faites "appliquer" et enregistrez.
-
 #### Gestionnaire de mises à jour
 
 Dans "Gestionnaire de mises à jour" allez dans "Édition/Préférences", allez dans l'onglet "Paquet" et cochez les maj cinnamon et flatpak, ensuite allez dans l'onglet "Automatisation" et cochez tout sauf le dernier "Retirer les noyaux obsolètes et leurs dépendances".
@@ -165,8 +154,9 @@ Attention, si vous avez un dual boot avec windows, il faut ABSOLUMENT que vous d
 
 #### Appimages
 
-Depuis le dossier `~/ApplicationsTemp` (qui sert à un gestionnaire pour stocker les appimages).
-Lancer toutes les applications s'y trouvant pour que AppImage Launcher propose l'intégration
+**pour moi-même** -> tester si le type mime est associé automatiquement ou s'il faut le faire manuellement
+
+Depuis le dossier `~/AppImagesAInstaller` lancer toutes les applications s'y trouvant pour que GearLever les intègre au système.
 Vous pouvez supprimer le dossier après.
 
 #### LanguageTools pour LibreOffice
@@ -188,12 +178,6 @@ décochez "ajustement automatique".
 
 Il faut ouvrir une fois les deux profils de floorp et patienter quelque secondes pour que l'initialisation des extensions se termine.
 
-Pour lancer une détection des capteurs thermiques et autres :
-
-```bash
-sudo sensors-detect
-```
-
 Si vous utilisez un portable, ouvrez Lutris, allez dans "Préfèrences/Options globales (avec 'Avancé' activé en haut à droite)" et dans "Multi GPU"
 Dans "Vulkan ICE loader", choisisé votre carte dédiée, pensez aussi à utiliser le mode performance de votre carte.
 
@@ -201,7 +185,6 @@ Dans "Vulkan ICE loader", choisisé votre carte dédiée, pensez aussi à utilis
 ### Installation terminée
 
 Dans votre dossier utilisateur se trouve le dossier Mintage : vous pouvez maintenant le supprimer.
-Une documentation avec plein de conseils et astuces se trouve dans `~/Local/Documentation`.
 
 Depuis la logithèque vous pouvez ajoutez les flatpak non certifiés dans les paramètres. Il s'agit de paquets maintenu par un tiers et non par leur développeur, peut provoquer des failles de sécurité.
 

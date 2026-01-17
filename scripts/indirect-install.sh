@@ -21,11 +21,17 @@
 # 2/ b) Installation Flatpak
 # --------------------------
 
+# Anki
+flatpak install -y flathub net.ankiweb.Anki
+
 # Apostrophe
 flatpak install -y flathub org.gnome.gitlab.somas.Apostrophe
 
 # Ciano Media Converter
 flatpak install -y flathub com.github.robertsanseries.ciano
+
+# Chromium
+flatpak install -y flathub io.github.ungoogled_software.ungoogled_chromium
 
 # Dialect
 flatpak install -y flathub app.drey.Dialect
@@ -45,11 +51,17 @@ flatpak install -y flathub com.github.johnfactotum.Foliate
 # Freetube
 flatpak install -y flathub io.freetubeapp.FreeTube
 
+# Gear Lever (appimage manager dans le dossier ~/AppImagesAInstaller)
+flatpak install -y flathub it.mijorus.gearlever
+
 # Jdownloader
 flatpak install -y flathub org.jdownloader.JDownloader
 
-# Mission Center
-flatpak install -y flathub io.missioncenter.MissionCenter
+# Keypunch
+flatpak install -y dev.bragefuglseth.Keypunch
+
+# Lact
+flatpak install -y flathub io.github.ilya_zlobintsev.LACT
 
 # MMEX (Money Manager Extra)
 flatpak install -y flathub org.moneymanagerex.MMEX
@@ -72,8 +84,14 @@ flatpak install -y flathub net.davidotek.pupgui2
 # PwuControl
 flatpak install -y flathub com.saivert.pwvucontrol
 
+# Resources
+flatpak install -y flathub net.nokyan.Resources
+
 # Ruffle Flash Player
 flatpak install -y flathub rs.ruffle.Ruffle
+
+# RustDesk
+flatpak install -y flathub com.rustdesk.RustDesk
 
 # Songrec (shazam)
 flatpak install -y flathub com.github.marinm.songrec
@@ -105,15 +123,15 @@ file=$(curl -s https://api.github.com/repos/$repo/releases/tags/$version \
 wget "https://github.com/$repo/releases/download/${version}/${file}"
 sudo nala install -y ${file} && rm ${file}
 
-# AppImage Launcher
-repo="TheAssassin/AppImageLauncher"
-version=$(curl -s https://api.github.com/repos/$repo/releases \
-  | grep -m1 '"tag_name":' \
-  | sed -E 's/.*"([^"]+)".*/\1/')
-file=$(curl -s https://api.github.com/repos/$repo/releases/tags/$version \
-  | grep '"name":' | grep "_amd64.deb" | sed -E 's/.*"([^"]+)".*/\1/')
-wget "https://github.com/$repo/releases/download/${version}/${file}"
-sudo nala install -y ${file} && rm ${file}
+# AppImage Launcher (remplacer par Gear Lever pour l'instant) paquet:appimagelauncher
+#repo="TheAssassin/AppImageLauncher"
+#version=$(curl -s https://api.github.com/repos/$repo/releases \
+#  | grep -m1 '"tag_name":' \
+#  | sed -E 's/.*"([^"]+)".*/\1/')
+#file=$(curl -s https://api.github.com/repos/$repo/releases/tags/$version \
+#  | grep '"name":' | grep "_amd64.deb" | sed -E 's/.*"([^"]+)".*/\1/')
+#wget "https://github.com/$repo/releases/download/${version}/${file}"
+#sudo nala install -y ${file} && rm ${file}
 
 # Ferdium
 repo="ferdium/ferdium-app"
@@ -238,24 +256,24 @@ rm -r jd2-vivaldi
 # ------------------------------
 
 # On crée le dossier par défaut de AppImage Launcher
-mkdir ~/ApplicationsTemp
+mkdir ~/AppImagesAInstaller
 
 # Fontbase
 lastfontbase=$(curl -s https://fontba.se/downloads/linux | grep -o 'https://[^"]*\.AppImage')
-wget -P ~/ApplicationsTemp $lastfontbase
+wget -P ~/AppImagesAInstaller $lastfontbase
 downloaded_file=$(basename $lastfontbase)
-chmod +x ~/ApplicationsTemp/$downloaded_file
+chmod +x ~/AppImagesAInstaller/$downloaded_file
 
 # JoalDesktop
 download_url=$(curl -s https://api.github.com/repos/anthonyraymond/joal-desktop/releases/latest | jq -r '.assets[] | select(.name | endswith(".AppImage")) | .browser_download_url')
-wget -P ~/ApplicationsTemp $download_url
+wget -P ~/AppImagesAInstaller $download_url
 downloaded_file=$(basename $download_url)
-chmod +x ~/ApplicationsTemp/$downloaded_file
+chmod +x ~/AppImagesAInstaller/$downloaded_file
 
 # pCloud (ne pas chercher à recup via curl ou wget sur le site, impossible)
 sudo nala install -y libfuse2t64
-cp ./DATA/App-ressource/pcloud ~/ApplicationsTemp/
-chmod +x ~/ApplicationsTemp/pcloud
+cp ./DATA/App-ressource/pcloud.appimage ~/AppImagesAInstaller/
+chmod +x ~/AppImagesAInstaller/pcloud.appimage
 
 # 2/ g) Purge et nettoyage PPA
 # ----------------------------
@@ -406,4 +424,29 @@ wget https://cinnamon-spices.linuxmint.com/files/extensions/mouse-shake-zoom@rca
 unzip mouse-shake-zoom@rcalixte.zip -d ~/.local/share/cinnamon/extensions
 rm mouse-shake-zoom@rcalixte.zip
 
-# Autres
+# jeux
+
+#flatpak install -y flathub net.hhoney.tinycrate
+#flatpak install -y flathub io.github.tobagin.Draughts
+#flatpak install -y flathub com.github.k4zmu2a.spacecadetpinball
+#flatpak install -y flathub com.realm667.Wolfenstein_Blade_of_Agony
+#flatpak install -y flathub org.srb2.SRB2Persona
+#flatpak install -y flathub io.github.srb2.rphys
+#flatpak install -y flathub net.sourceforge.lgames.LBreakoutHD
+#flatpak install -y flathub org.gnome.Nibbles
+#flatpak install -y flathub com.github._0negal.Viper
+#flatpak install -y flathub org.sonic3air.Sonic3AIR
+#flatpak install -y flathub io.github.noxworld_dev.OpenNox
+#flatpak install -y flathub io.github.cxong.cdogs-sdl
+#flatpak install -y flathub com.github.bvschaik.julius
+#flatpak install -y flathub io.github.openhv.OpenHV
+#flatpak install -y flathub tk.deat.Jazz2Resurrection
+#flatpak install -y flathub com.endlessnetwork.aqueducts
+#flatpak install -y flathub org.srb2.SRB2Kart-galaxy_azerty
+#flatpak install -y flathub org.srb2.SRB2Kart-Saturn
+#flatpak install -y flathub org.opensurge2d.OpenSurge
+#flatpak install -y flathub com.donhopkins.Micropolis
+#flatpak install -y flathub com.adilhanney.super_nonogram
+#flatpak install -y flathub io.github.jotd666.gods-deluxe
+#flatpak install -y flathub com.github.elth0r0.iqpuzzle
+#flatpak install -y flathub org.flightgear.FlightGear
