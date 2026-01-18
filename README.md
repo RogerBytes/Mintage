@@ -154,9 +154,9 @@ Attention, si vous avez un dual boot avec windows, il faut ABSOLUMENT que vous d
 
 #### Appimages
 
-**pour moi-même** -> tester si le type mime est associé automatiquement ou s'il faut le faire manuellement
+Ouvrir `Gear Lever`
 
-Depuis le dossier `~/AppImagesAInstaller` lancer toutes les applications s'y trouvant pour que GearLever les intègre au système.
+Depuis le dossier `~/AppImagesAInstaller` glisser toutes les applications s'y trouvant dans la fenêtre de GearLever et cliquer sur **Move all to the app menu**.
 Vous pouvez supprimer le dossier après.
 
 #### LanguageTools pour LibreOffice

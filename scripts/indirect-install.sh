@@ -312,11 +312,6 @@ sudo nala update
 # 3/ a) Applets
 # -------------
 
-# Cinnamenu
-wget https://cinnamon-spices.linuxmint.com/files/applets/Cinnamenu@json.zip
-unzip Cinnamenu@json.zip -d ~/.local/share/cinnamon/applets
-rm Cinnamenu@json.zip
-
 # Color Picker
 wget https://cinnamon-spices.linuxmint.com/files/applets/color-picker@fmete.zip
 unzip color-picker@fmete.zip -d ~/.local/share/cinnamon/applets
