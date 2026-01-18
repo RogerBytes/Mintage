@@ -54,6 +54,9 @@ flatpak install -y flathub io.freetubeapp.FreeTube
 # Gear Lever (appimage manager dans le dossier ~/AppImagesAInstaller)
 flatpak install -y flathub it.mijorus.gearlever
 
+# Impression (live usb)
+flatpak install -y flathub io.gitlab.adhami3310.Impression
+
 # Jdownloader
 flatpak install -y flathub org.jdownloader.JDownloader
 
@@ -280,6 +283,9 @@ chmod +x ~/AppImagesAInstaller/pcloud.appimage
 
 # Firefox -> Floorp
 sudo nala purge -y firefox
+
+# mintstick -> Impression
+sudo apt purge -y mintstick
 
 # Sticky (note) -> xpad
 sudo apt purge -y sticky
