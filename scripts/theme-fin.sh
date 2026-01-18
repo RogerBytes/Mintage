@@ -63,7 +63,6 @@ mkdir -p "$HOME/Local/Lanceurs/Icones"
 wget https://raw.githubusercontent.com/Unrud/video-downloader/master/data/com.github.unrud.VideoDownloader.svg -O "$HOME/Local/Lanceurs/Icones/VideoDownloader.svg"
 wget https://raw.githubusercontent.com/FreeTubeApp/FreeTube/refs/heads/development/_icons/icon.svg -O "$HOME/Local/Lanceurs/Icones/FreeTube.svg"
 
-
 # script pour ouvrir avec FreeTube (permet le cli)
 sudo tee /usr/local/bin/open-with-freetube.sh > /dev/null << 'EOF'
 #!/bin/bash
@@ -91,7 +90,9 @@ curl -LO "https://writingtool.org/writingtool/releases/$latest"
 sudo cp ./DATA/linuxmint-logo-ring-symbolic.svg /usr/share/icons/hicolor/scalable/apps/
 
 # On applique le thème de jdownloader
-cp -a ./DATA/var-cache/* ~/.var
+cp -a ./DATA/var-cache/* ~/.var/app
 sed -i "s|\"defaultdownloadfolder\": *\"[^\"]*\"|\"defaultdownloadfolder\": \"${HOME}/Téléchargements/Téléchargements jd2\"|" ~/.var/app/org.jdownloader.JDownloader/data/jdownloader/cfg/org.jdownloader.settings.GeneralSettings.json
 sed -i "s|\"devicename\": *\"[^\"]*\"|\"devicename\": \"JDownloader@$(whoami)\"|" ~/.var/app/org.jdownloader.JDownloader/data/jdownloader/cfg/org.jdownloader.api.myjdownloader.MyJDownloaderSettings.json
+
+
 
