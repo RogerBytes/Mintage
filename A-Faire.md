@@ -33,7 +33,7 @@ fi
 
 Dans theme-fin, il fa ut vérifier que les script dans bin existe avant de les generer
 
-### Reglage de nemo
+### Reglage de nemo (doit être ok)
 
 Dans edition/êreferences/mode d'affichage/cocher "Afficher les développeurs de dossiers" (c'(est en bas)=
 refaire l'export
