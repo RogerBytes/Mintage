@@ -75,7 +75,7 @@ mintupdate
 Et installer nala, une surcouche du gestionnaire apt
 
 ```bash
-sudo apt install -y nala expect curl wget
+sudo apt install -y nala expect curl wget git
 ```
 
 Il y a une source défaillante chez moi "linuxmirrors.ir", c'est pour ça que c'est "2 3 4" et non "1 2 3"
