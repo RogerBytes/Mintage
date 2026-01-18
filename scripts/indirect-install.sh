@@ -281,9 +281,6 @@ chmod +x ~/AppImagesAInstaller/pcloud.appimage
 # Firefox -> Floorp
 sudo nala purge -y firefox
 
-# Formateur de clé USB -> Gparted
-sudo apt purge -y mintstick
-
 # Sticky (note) -> xpad
 sudo apt purge -y sticky
 

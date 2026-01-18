@@ -158,9 +158,6 @@ sudo nala install -y plank
 # Psensor (températures)
 sudo nala install -y lm-sensors psensor
 
-# rapsberry pi imager
-sudo nala install -y rpi-imager
-
 # Sauvegardes (deja dup, complément de timeshift)
 sudo nala install -y deja-dup
 
