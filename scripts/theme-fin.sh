@@ -87,6 +87,9 @@ latest=$(curl -s https://writingtool.org/writingtool/releases/ \
     | tail -n1)
 curl -LO "https://writingtool.org/writingtool/releases/$latest"
 
+# Remplacer l'icone de menu
+sudo cp ./DATA/linuxmint-logo-ring-symbolic.svg /usr/share/icons/hicolor/scalable/apps/
+
 # On applique le thème de jdownloader
 cp -a ./DATA/var-cache/* ~/.var
 sed -i "s|\"defaultdownloadfolder\": *\"[^\"]*\"|\"defaultdownloadfolder\": \"${HOME}/Téléchargements/Téléchargements jd2\"|" ~/.var/app/org.jdownloader.JDownloader/data/jdownloader/cfg/org.jdownloader.settings.GeneralSettings.json

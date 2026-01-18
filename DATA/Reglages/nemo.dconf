@@ -9,6 +9,7 @@ volumes-visible=true
 
 [list-view]
 default-zoom-level='smaller'
+enable-folder-expansion=true
 
 [preferences]
 confirm-move-to-trash=true
@@ -27,10 +28,10 @@ show-search-icon-toolbar=false
 swap-trash-delete=false
 
 [window-state]
-geometry='1088x720+429+477'
+geometry='864x653+86+86'
 maximized=false
 side-pane-view='places'
-sidebar-bookmark-breakpoint=13
+sidebar-bookmark-breakpoint=17
 sidebar-width=236
 start-with-menu-bar=false
 start-with-sidebar=true

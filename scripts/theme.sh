@@ -20,7 +20,8 @@
 
 
 # autostart, ferdium, fontbase; freetube, menu panel, nemo, plank, stacer, synapse, transmission, reglages extensions & desklet & applet, applications préférées
-cp -a ./DATA/config-cache/* ~/.config
+cp -a ./DATA/dot-config/* ~/.config
+cp -a ./DATA/dot-cache/* ~/.cache
 
 # JDownloader
 cp -a ./DATA/var-cache/* ~/.var

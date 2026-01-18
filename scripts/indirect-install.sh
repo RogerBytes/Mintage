@@ -146,16 +146,6 @@ file=$(curl -s https://api.github.com/repos/$repo/releases/tags/$version \
 wget "https://github.com/$repo/releases/download/${version}/${file}"
 sudo nala install -y ${file} && rm ${file}
 
-# RustDesk
-repo="rustdesk/rustdesk"
-version=$(curl -s https://api.github.com/repos/$repo/releases/latest \
-  | grep '"tag_name":' \
-  | sed -E 's/.*"([^"]+)".*/\1/')
-file=$(curl -s https://api.github.com/repos/$repo/releases/tags/$version \
-  | grep '"name":' | grep "x86_64.deb" | sed -E 's/.*"([^"]+)".*/\1/')
-wget "https://github.com/$repo/releases/download/${version}/${file}"
-sudo nala install -y ${file} && rm ${file}
-
 # vivaldi
 wget -O vivaldi-latest.deb "$(curl -s https://vivaldi.com/download/ | grep -o 'https://downloads\.vivaldi\.com/stable/vivaldi-stable_[^"]*amd64\.deb' | head -n1)"
 sudo nala install -y vivaldi-latest.deb

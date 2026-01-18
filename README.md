@@ -164,7 +164,7 @@ Vous pouvez supprimer le dossier après.
 Dans LibreOffice :
 Il faut changer la version de RT Java dans : Outils/Options/LibreOffice/Avancé. Prendre celui avec la version la plus élevée (supérieur à 17).
 Ensuite allez dans "Outils/Extensions..."
-Puis "Ajouter" et choisir "WritingTool-25.10.oxt"
+Puis "Ajouter" et choisir "WritingTool-25.10.oxt" (dans le dossier de Mintage)
 Dans LibreOffice aller dans "Outils/Options" (ou 'Alt+F12'), puis :
 "Langues et locales/Linguistique"
 Allez dans l'encart "Modules linguistiques disponibles", puis :
@@ -174,7 +174,7 @@ Options `Alt+F12` et aller dans `LibreOffice/Affichage` dans `Thème d'icônes` 
 #### Derniers réglages
 
 Sinon sur votre bureau 'clic droit' > personnaliser :
-décochez "ajustement automatique".
+décochez "Arrangement automatique".
 
 Il faut ouvrir une fois les deux profils de floorp et patienter quelque secondes pour que l'initialisation des extensions se termine.
 

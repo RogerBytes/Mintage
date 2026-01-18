@@ -4,7 +4,7 @@ active-plugins=['bracketcompletion', 'filebrowser', 'joinlines', 'textsize', 'wo
 [plugins/filebrowser/on-load]
 root='file:///'
 tree-view=true
-virtual-root='file:///home/harry/Bureau/Les%20corrections%20mintage'
+virtual-root='file:///home/harry/Mintage/scripts'
 
 [preferences/editor]
 auto-close=true
