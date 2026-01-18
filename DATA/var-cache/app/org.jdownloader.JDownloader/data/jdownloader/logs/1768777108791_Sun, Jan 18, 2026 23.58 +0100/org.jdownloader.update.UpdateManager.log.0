@@ -1,0 +1,105 @@
+------------------------Thread: 3:org.jdownloader.update.UpdateManager.log-----------------------
+--ID:3TS:1768777108988-2026-01-18 23:58:28 -  [org.jdownloader.update.UpdateManager(<init>)] -> ClientSetup 13
+------------------------Thread: 42:org.jdownloader.update.UpdateManager.log-----------------------
+--ID:42TS:1768777109015-2026-01-18 23:58:29 -  [org.jdownloader.update.UpdateManager$1(getDefaultValue)] -> Namspace not set!
+--ID:42TS:1768777109035-2026-01-18 23:58:29 -  [org.appwork.updatesys.client.extensions.ExtensionManager(init)] -> Installed Extensions: []
+--ID:42TS:1768777109035-2026-01-18 23:58:29 -  [org.appwork.updatesys.client.extensions.ExtensionManager(init)] -> Requested Extension Installations: []
+--ID:42TS:1768777109035-2026-01-18 23:58:29 -  [org.appwork.updatesys.client.extensions.ExtensionManager(init)] -> Requested Extension Uninstalls: []
+--ID:42TS:1768777109036-2026-01-18 23:58:29 -  [org.jdownloader.update.JDUpdateClient$JDExtensionManager(init)] -> Installed Extensions: []
+--ID:42TS:1768777109036-2026-01-18 23:58:29 -  [org.appwork.updatesys.client.FileList(<init>)] -> FileList at /home/harry/.var/app/org.jdownloader.JDownloader/data/jdownloader/tmp/update/self/JDU/update/versioninfo/JD/filelist.txt Size: 0
+------------------------Thread: 3:org.jdownloader.update.UpdateManager.log-----------------------
+--ID:3TS:1768777109039-2026-01-18 23:58:29 -  [org.jdownloader.update.UpdateManager(<init>)] -> Client 51
+------------------------Thread: 42:org.jdownloader.update.UpdateManager.log-----------------------
+--ID:42TS:1768777109041-2026-01-18 23:58:29 -  [org.appwork.updatesys.client.extensions.ExtensionManager(init)] -> Installed Extensions: []
+--ID:42TS:1768777109041-2026-01-18 23:58:29 -  [org.appwork.updatesys.client.extensions.ExtensionManager(init)] -> Requested Extension Installations: []
+--ID:42TS:1768777109041-2026-01-18 23:58:29 -  [org.appwork.updatesys.client.extensions.ExtensionManager(init)] -> Requested Extension Uninstalls: []
+--ID:42TS:1768777109042-2026-01-18 23:58:29 -  [org.appwork.updatesys.client.FileList(<init>)] -> FileList at /home/harry/.var/app/org.jdownloader.JDownloader/data/jdownloader/tmp/update/self/JDU/update/versioninfo/JDU/filelist.txt Size: 0
+------------------------Thread: 3:org.jdownloader.update.UpdateManager.log-----------------------
+--ID:3TS:1768777109042-2026-01-18 23:58:29 -  [org.jdownloader.update.UpdateManager(<init>)] -> selfUpdateClient 3
+--ID:3TS:1768777109042-2026-01-18 23:58:29 -  [org.jdownloader.update.UpdateManager(<init>)] -> LastChanceInit 0
+--ID:3TS:1768777109042-2026-01-18 23:58:29 -  [org.jdownloader.update.UpdateManager(<init>)] -> setUpdateOnExitFlag 0
+--ID:3TS:1768777109045-2026-01-18 23:58:29 -  [org.jdownloader.update.UpdateManager(<init>)] -> CreateGui 3
+--ID:3TS:1768777109045-2026-01-18 23:58:29 -  [org.jdownloader.update.UpdateManager(<init>)] -> DefaultHandler 0
+--ID:3TS:1768777109045-2026-01-18 23:58:29 -  [org.jdownloader.update.UpdateManager(<init>)] -> SetDefaultHandler 0
+--ID:3TS:1768777109046-2026-01-18 23:58:29 -  [org.jdownloader.update.UpdateManager(<init>)] -> ProxySelector 0
+------------------------Thread: 43:org.jdownloader.update.UpdateManager.log-----------------------
+--ID:43TS:1768777109088-2026-01-18 23:58:29 -  [org.appwork.updatesys.client.defaultimpl.http.HttpClientImpl(info)] -> GET https://update.jdownloader.org/jcgi/lastchance?app=JD&pkh=12f1848a883e733ed40fffff0dae2f35&jh=b2bc9b0558d43f2438b05864fd1a96f9&rev=-1&srev=-1&urev=-1&surev=-1&rt=ST&st=1 via [Direct]
+--ID:43TS:1768777109088-2026-01-18 23:58:29 -  [org.appwork.updatesys.client.defaultimpl.http.HttpClientImpl(internalDownloadWithProxy)] -> Try Proxy: Direct
+--ID:43TS:1768777109088-2026-01-18 23:58:29 -  [org.appwork.updatesys.client.defaultimpl.http.HttpClientImpl(info)] -> Download to /tmp/lastChanceSrc176877710904712283410870976323446lch Size before: 0 bytes
+--ID:43TS:1768777109564-2026-01-18 23:58:29 -  [org.appwork.updatesys.client.defaultimpl.http.HttpBackend(log)] -> ----------------Request Information-------------
+URL: https://update.jdownloader.org/jcgi/lastchance?app=JD&pkh=12f1848a883e733ed40fffff0dae2f35&jh=b2bc9b0558d43f2438b05864fd1a96f9&rev=-1&srev=-1&urev=-1&surev=-1&rt=ST&st=1
+URL-Parameters:
+   app   : JD (REPO_NAME)
+   pkh   : 12f1848a883e733ed40fffff0dae2f35 (PUBLIC_KEY_HASH)
+   jh    : b2bc9b0558d43f2438b05864fd1a96f9
+   rev   : -1 (REPO_REVISION)
+   srev  : -1 (REPO_INSTALLED_REVISION) (REPO_SUPER_REVISION)
+   urev  : -1 (UPDATER_REVISION)
+   surev : -1 (UPDATER_SUPER_REVISION)
+   rt    : ST (RUNTYPE)
+   st    : 1 (SELFTEST)
+SSLCipher: JVM|Protocol:TLSv1.2|CipherSuite:TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256
+ConnectIP: update.jdownloader.org/2a01:4f8:211:1e8d:0:0:0:2:443
+Connection-Timeout: 20000ms
+Read-Timeout: 60000ms
+----------------Request-------------------------
+GET /jcgi/lastchance?app=JD&pkh=12f1848a883e733ed40fffff0dae2f35&jh=b2bc9b0558d43f2438b05864fd1a96f9&rev=-1&srev=-1&urev=-1&surev=-1&rt=ST&st=1 HTTP/1.1
+Host: update.jdownloader.org
+Accept-Language: fr_FR
+User-Agent: JDownloader/201707061810
+Accept-Charset: ISO-8859-1,utf-8;q=0.7,*;q=0.3
+Connection: Close
+Cache-Control: no-cache, no-store
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Pragma: no-cache
+----------------Response Information------------
+Connection-Time: 86ms
+Request-Time: 27ms
+----------------Response------------------------
+HTTP/1.1 302 Found
+Date: Sun, 18 Jan 2026 22:58:29 GMT
+Content-Length: 0
+Connection: close
+Server: AppWork GmbH FcgiServer
+JCGI: 1 (HTTP_HEADER_FCGI)
+UPD_SRV: 1
+Location: http://cdn4.appwork.org/JD/JD_lastChanceRescueMe.bin
+Strict-Transport-Security: max-age=15638400
+------------------------------------------------
+
+
+--ID:43TS:1768777109654-2026-01-18 23:58:29 -  [org.appwork.updatesys.client.defaultimpl.http.HttpBackend(log)] -> ----------------Request Information-------------
+URL: http://cdn4.appwork.org/JD/JD_lastChanceRescueMe.bin
+ConnectIP: cdn4.appwork.org/2a01:4f8:2b01:d:0:0:0:2:80
+Connection-Timeout: 20000ms
+Read-Timeout: 60000ms
+----------------Request-------------------------
+GET /JD/JD_lastChanceRescueMe.bin HTTP/1.1
+Host: cdn4.appwork.org
+Accept-Language: fr_FR
+User-Agent: JDownloader/201707061810
+Accept-Charset: ISO-8859-1,utf-8;q=0.7,*;q=0.3
+Connection: Close
+Cache-Control: no-cache, no-store
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Pragma: no-cache
+----------------Response Information------------
+Connection-Time: 27ms
+Request-Time: 29ms
+----------------Response------------------------
+HTTP/1.1 200 OK
+Server: nginx/1.25.0
+Date: Sun, 18 Jan 2026 23:02:54 GMT
+Content-Type: application/octet-stream
+Content-Length: 1696
+Connection: close
+Last-Modified: Mon, 19 Aug 2024 14:45:49 GMT
+ETag: "66c35a9d-6a0"
+X-Cache: HIT
+X-CDN: 1172_1_6_1161
+X-CDN-SIGNATURE: .Nanachi.
+Accept-Ranges: bytes
+------------------------------------------------
+
+
+--ID:43TS:1768777109657-2026-01-18 23:58:29 -  [org.appwork.updatesys.client.defaultimpl.http.HttpClientImpl(info)] -> Connection ok. Downloaded /tmp/lastChanceSrc176877710904712283410870976323446lch: 1696 bytes

@@ -1,4 +1,0 @@
-------------------------Thread: 1:StartupParameterHandler.log-----------------------
---ID:1TS:1746200421053-02/05/2025 17:40:21 -  [org.jdownloader.startup.ParameterHandler(onStartup)] -> Startup: [--]
---ID:1TS:1746200421054-02/05/2025 17:40:21 -  [org.jdownloader.startup.ParameterHandler(execute)] -> Invalid Command:  - []
---ID:1TS:1746200421054-02/05/2025 17:40:21 -  [org.jdownloader.startup.ParameterHandler(onStartup)] -> Remove ConsoleHandler

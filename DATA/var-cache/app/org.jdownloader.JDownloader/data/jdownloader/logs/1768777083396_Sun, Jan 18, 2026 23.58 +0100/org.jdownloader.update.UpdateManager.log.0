@@ -1,0 +1,1238 @@
+------------------------Thread: 3:org.jdownloader.update.UpdateManager.log-----------------------
+--ID:3TS:1768777083600-18/01/2026 23:58:03 -  [org.jdownloader.update.UpdateManager(<init>)] -> ClientSetup 13
+------------------------Thread: 44:org.jdownloader.update.UpdateManager.log-----------------------
+--ID:44TS:1768777083627-18/01/2026 23:58:03 -  [org.jdownloader.update.UpdateManager$1(getDefaultValue)] -> Namspace not set!
+--ID:44TS:1768777083649-18/01/2026 23:58:03 -  [org.appwork.updatesys.client.extensions.ExtensionManager(init)] -> Installed Extensions: []
+--ID:44TS:1768777083649-18/01/2026 23:58:03 -  [org.appwork.updatesys.client.extensions.ExtensionManager(init)] -> Requested Extension Installations: []
+--ID:44TS:1768777083649-18/01/2026 23:58:03 -  [org.appwork.updatesys.client.extensions.ExtensionManager(init)] -> Requested Extension Uninstalls: []
+--ID:44TS:1768777083649-18/01/2026 23:58:03 -  [org.jdownloader.update.JDUpdateClient$JDExtensionManager(init)] -> Installed Extensions: []
+--ID:44TS:1768777083650-18/01/2026 23:58:03 -  [org.appwork.updatesys.client.FileList(<init>)] -> FileList at /home/harry/.var/app/org.jdownloader.JDownloader/data/jdownloader/update/versioninfo/JD/filelist.txt Size: 0
+------------------------Thread: 3:org.jdownloader.update.UpdateManager.log-----------------------
+--ID:3TS:1768777083653-18/01/2026 23:58:03 -  [org.jdownloader.update.UpdateManager(<init>)] -> Client 53
+------------------------Thread: 44:org.jdownloader.update.UpdateManager.log-----------------------
+--ID:44TS:1768777083656-18/01/2026 23:58:03 -  [org.appwork.updatesys.client.extensions.ExtensionManager(init)] -> Installed Extensions: []
+--ID:44TS:1768777083656-18/01/2026 23:58:03 -  [org.appwork.updatesys.client.extensions.ExtensionManager(init)] -> Requested Extension Installations: []
+--ID:44TS:1768777083656-18/01/2026 23:58:03 -  [org.appwork.updatesys.client.extensions.ExtensionManager(init)] -> Requested Extension Uninstalls: []
+--ID:44TS:1768777083657-18/01/2026 23:58:03 -  [org.appwork.updatesys.client.FileList(<init>)] -> FileList at /home/harry/.var/app/org.jdownloader.JDownloader/data/jdownloader/update/versioninfo/JDU/filelist.txt Size: 0
+------------------------Thread: 3:org.jdownloader.update.UpdateManager.log-----------------------
+--ID:3TS:1768777083657-18/01/2026 23:58:03 -  [org.jdownloader.update.UpdateManager(<init>)] -> selfUpdateClient 4
+--ID:3TS:1768777083657-18/01/2026 23:58:03 -  [org.jdownloader.update.UpdateManager(<init>)] -> LastChanceInit 0
+--ID:3TS:1768777083657-18/01/2026 23:58:03 -  [org.jdownloader.update.UpdateManager(<init>)] -> setUpdateOnExitFlag 0
+--ID:3TS:1768777083660-18/01/2026 23:58:03 -  [org.jdownloader.update.UpdateManager(<init>)] -> CreateGui 3
+--ID:3TS:1768777083661-18/01/2026 23:58:03 -  [org.jdownloader.update.UpdateManager(<init>)] -> DefaultHandler 1
+--ID:3TS:1768777083661-18/01/2026 23:58:03 -  [org.jdownloader.update.UpdateManager(<init>)] -> SetDefaultHandler 0
+--ID:3TS:1768777083661-18/01/2026 23:58:03 -  [org.jdownloader.update.UpdateManager(<init>)] -> ProxySelector 0
+--ID:3TS:1768777083661-18/01/2026 23:58:03 -  [org.jdownloader.update.UpdateManager(finish)] -> Current State: 
+--ID:3TS:1768777083661-18/01/2026 23:58:03 -  [org.jdownloader.update.UpdateManager(finish)] -> Do Not ask Flag: false
+--ID:3TS:1768777083665-18/01/2026 23:58:03 -  [org.jdownloader.update.UpdateManager(finish)] -> Settings: {
+ "countdownforinstallupdatesonexitbubble"         : 10000,
+ "autohideguiiftherearenoupdatesenabled"          : false,
+ "proxydialogonnoconnectionenabled"               : true,
+ "selftestwritetimeout"                           : 60000,
+ "lastsuccessfulconnection"                       : 0,
+ "updateinterval"                                 : 600000,
+ "autohideguiifsilentupdateswereinstalledenabled" : false,
+ "doaskmebeforeinstallinganupdateenabled"         : false,
+ "build"                                          : "",
+ "jardiffenabled"                                 : true,
+ "updateguialwaysontop"                           : true,
+ "installupdatesonexitenabled"                    : true,
+ "doaskbeforedownloadinganupdate"                 : false,
+ "installupdatessilentlyifpossibleenabled"        : true,
+ "autoupdatecheckenabled"                         : true,
+ "installupdatesonexitpanelvisible"               : true,
+ "selftestpolltimeout"                            : 60000
+}
+--ID:3TS:1768777083665-18/01/2026 23:58:03 -  [org.jdownloader.update.UpdateManager(finish)] -> Client Revision: -1
+--ID:3TS:1768777083666-18/01/2026 23:58:03 -  [org.jdownloader.update.UpdateManager(finish)] -> Client Revision incl. Pending Installpackages: -1
+--ID:3TS:1768777083666-18/01/2026 23:58:03 -  [org.jdownloader.update.UpdateManager(finish)] -> Updater Client Revision: -1
+--ID:3TS:1768777083666-18/01/2026 23:58:03 -  [org.jdownloader.update.UpdateManager(finish)] -> Updater Client Revision incl. Pending Installpackages: -1
+--ID:3TS:1768777083666-18/01/2026 23:58:03 -  [org.jdownloader.update.UpdateManager(finish)] -> AWF Packages pending: []
+--ID:3TS:1768777083666-18/01/2026 23:58:03 -  [org.jdownloader.update.UpdateManager(finish)] -> SelfUpdate pending: false ([])
+--ID:3TS:1768777083700-18/01/2026 23:58:03 -  [org.jdownloader.update.UpdateManager(setLaunchState)] -> Launchstate: LAUNCHING_JD
+------------------------Thread: 51:org.jdownloader.update.UpdateManager.log-----------------------
+--ID:51TS:1768777083733-18/01/2026 23:58:03 -  [org.appwork.updatesys.client.UpdateClient(getUpdateOptions)] -> org.jdownloader.update.JDUpdateClient:getDefaultUpdateOptions:{
+ "deduplicationMode" : "INTRA",
+ "retryCauses"       : null,
+ "jarDiffEnabled"    : true
+}
+--ID:51TS:1768777083745-18/01/2026 23:58:03 -  [org.appwork.updatesys.client.UpdateClient(batchRequest)] -> [Update Client:JD@update.jdownloader.org] Batch Request ( 70 bytes):
+{
+ "jobs" : [
+           {
+            "id"   : 1768777083738,
+            "json" : null,
+            "name" : "TIME_SYNC"
+           }
+          ]
+}
+--ID:51TS:1768777083763-18/01/2026 23:58:03 -  [org.appwork.updatesys.client.defaultimpl.http.HttpClientImpl(info)] -> GET https://update.jdownloader.org/jcgi/batch?jobs=TIME_SYNC&st=0&rt=SO&jn=JDownloader.jar&pv=12&cv=20210716001&pkh=12f1848a883e733ed40fffff0dae2f35&app=JD&os=LINUX&osr=LINUX&arch=X86&os64=1&jvm64=1&java=24000002000012&uid=dnt_&hidAck=no&urev=-1&srev=-1&surev=-1&ct=Normal&1768777083740.1768777083740&lng=fr_FR via [Direct]
+--ID:51TS:1768777083764-18/01/2026 23:58:03 -  [org.appwork.updatesys.client.defaultimpl.http.HttpClientImpl(info)] -> Get Try with Proxy Direct
+------------------------Thread: 48:org.jdownloader.update.UpdateManager.log-----------------------
+--ID:48TS:1768777084095-18/01/2026 23:58:04 -  [org.jdownloader.update.gui.UpdateGui(<init>)] -> Locator: org.appwork.utils.swing.locator.RememberAbsoluteLocator@7b22764
+--ID:48TS:1768777084099-18/01/2026 23:58:04 -  [org.jdownloader.update.gui.UpdateGui(<init>)] -> java.awt.Point[x=1230,y=690]
+------------------------Thread: 51:org.jdownloader.update.UpdateManager.log-----------------------
+--ID:51TS:1768777084119-18/01/2026 23:58:04 -  [] -> Exception thrown at org.appwork.updatesys.client.defaultimpl.http.HttpBackend.createInvalidResponseCodeException(HttpBackend.java:108):
+java.io.IOException: 400 Bad Request
+	at org.appwork.utils.net.httpconnection.HTTPConnectionImpl.getInputStream(HTTPConnectionImpl.java:1541)
+	at org.appwork.updatesys.client.defaultimpl.http.HttpBackend.createInvalidResponseCodeException(HttpBackend.java:103)
+	at org.appwork.utils.net.BasicHTTP.BasicHTTP.checkResponseCode(BasicHTTP.java:101)
+	at org.appwork.utils.net.BasicHTTP.BasicHTTP.postPage(BasicHTTP.java:742)
+	at org.appwork.updatesys.client.defaultimpl.http.HttpClientImpl.internalPostWithProxy(HttpClientImpl.java:316)
+	at org.appwork.updatesys.client.defaultimpl.http.HttpClientImpl.post(HttpClientImpl.java:376)
+	at org.appwork.updatesys.client.UpdateClient.batchRequest(UpdateClient.java:5693)
+	at org.appwork.updatesys.client.UpdateClient.ensureTimeSync(UpdateClient.java:2956)
+	at org.appwork.updatesys.client.UpdateClient.ensureSessionInit(UpdateClient.java:5801)
+	at org.appwork.updatesys.client.UpdateClient.get(UpdateClient.java:2823)
+	at org.appwork.updatesys.client.UpdateClient.downloadPackage(UpdateClient.java:5188)
+	at org.appwork.updatesys.client.UpdateClient.runUpdateCheck(UpdateClient.java:5108)
+	at org.appwork.updatesys.client.UpdateClient.runPackageRequestAndServerSelection(UpdateClient.java:5334)
+	at org.appwork.updatesys.client.UpdateClient.runUpdateCheck(UpdateClient.java:5249)
+	at org.jdownloader.update.UpdateManager.runUpdateLoop(UpdateManager.java:1024)
+	at org.jdownloader.update.PendingUpdate.run(PendingUpdate.java:19)
+	at org.jdownloader.update.UpdateManager$23.run(UpdateManager.java:1694)
+	at java.base/java.lang.Thread.run(Thread.java:1447)
+
+--ID:51TS:1768777084141-18/01/2026 23:58:04 -  [org.appwork.updatesys.client.defaultimpl.http.HttpBackend(log)] -> ----------------Request Information-------------
+URL: https://update.jdownloader.org/jcgi/batch?jobs=TIME_SYNC&st=0&rt=SO&jn=JDownloader.jar&pv=12&cv=20210716001&pkh=12f1848a883e733ed40fffff0dae2f35&app=JD&os=LINUX&osr=LINUX&arch=X86&os64=1&jvm64=1&java=24000002000012&uid=dnt_&hidAck=no&urev=-1&srev=-1&surev=-1&ct=Normal&1768777083740.1768777083740&lng=fr_FR
+URL-Parameters:
+   jobs   : TIME_SYNC (BATCH_JOBS)
+   st     : 0 (SELFTEST)
+   rt     : SO (RUNTYPE)
+   jn     : JDownloader.jar (JAR_NAME)
+   pv     : 12 (PROTOCOL_VERSION)
+   cv     : 20210716001 (CLIENT_VERSION)
+   pkh    : 12f1848a883e733ed40fffff0dae2f35 (PUBLIC_KEY_HASH)
+   app    : JD (REPO_NAME)
+   os     : LINUX (OPERATING_SYSTEM)
+   osr    : LINUX (OPERATING_SYSTEM_RELEASE)
+   arch   : X86 (CPU_ARCHITECTUR)
+   os64   : 1 (OPERATING_SYSTEM_64BIT)
+   jvm64  : 1 (JVM_64BIT)
+   java   : 24000002000012 (JVM_VERSION)
+   uid    : dnt_ (NAMESPACE_UID) (UID)
+   hidAck : no (HARDWARE_ID_ACK)
+   urev   : -1 (UPDATER_REVISION)
+   srev   : -1 (REPO_INSTALLED_REVISION) (REPO_SUPER_REVISION)
+   surev  : -1 (UPDATER_SUPER_REVISION)
+   ct     : Normal (STAGING_GROUP)
+          : 1768777083740.1768777083740
+   lng    : fr_FR (LANGUAGE)
+SSLCipher: JVM|Protocol:TLSv1.2|CipherSuite:TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256
+ConnectIP: update.jdownloader.org/2a01:4f8:211:1e8d:0:0:0:2:443
+Connection-Timeout: 20000ms
+Read-Timeout: 60000ms
+----------------Request-------------------------
+POST /jcgi/batch?jobs=TIME_SYNC&st=0&rt=SO&jn=JDownloader.jar&pv=12&cv=20210716001&pkh=12f1848a883e733ed40fffff0dae2f35&app=JD&os=LINUX&osr=LINUX&arch=X86&os64=1&jvm64=1&java=24000002000012&uid=dnt_&hidAck=no&urev=-1&srev=-1&surev=-1&ct=Normal&1768777083740.1768777083740&lng=fr_FR HTTP/1.1
+Host: update.jdownloader.org
+Accept-Language: fr_FR
+User-Agent: JDownloader/201707061810
+Accept-Charset: ISO-8859-1,utf-8;q=0.7,*;q=0.3
+Connection: Close
+Cache-Control: no-cache, no-store
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Pragma: no-cache
+Content-Length: 70
+Accept-Encoding: gzip
+Content-Type: application/json; charset=utf-8
+Content-Encoding: gzip
+----------------Response Information------------
+Connection-Time: 91ms
+Request-Time: 28ms
+----------------Response------------------------
+HTTP/1.1 400 Bad Request
+Server: nginx
+Date: Sun, 18 Jan 2026 22:58:04 GMT
+Content-Type: text/html
+Content-Length: 150
+Connection: close
+JCGI: 1 (HTTP_HEADER_FCGI)
+------------------------------------------------
+
+
+--ID:51TS:1768777084143-18/01/2026 23:58:04 -  [org.appwork.updatesys.client.defaultimpl.http.HttpClientImpl(checkTryNextProxyOrGiveUp)] -> Check if we can leave 
+--ID:51TS:1768777084145-18/01/2026 23:58:04 -  [org.appwork.updatesys.client.defaultimpl.http.HttpClientImpl(checkTryNextProxyOrGiveUp)] -> Invalid Response Code: org.appwork.utils.net.BasicHTTP.InvalidResponseCode: Invalid ResponseCode: 400
+--ID:51TS:1768777084145-18/01/2026 23:58:04 -  [org.appwork.updatesys.client.defaultimpl.http.HttpClientImpl(throwServerExceptions)] -> Handle BasicHTTPException org.appwork.utils.net.BasicHTTP.BasicHTTPException: org.appwork.utils.net.BasicHTTP.ReadIOException: org.appwork.utils.net.BasicHTTP.InvalidResponseCode: Invalid ResponseCode: 400
+--ID:51TS:1768777084146-18/01/2026 23:58:04 -  [org.appwork.updatesys.client.UpdateClient(ensureTimeSync)] -> Time Sync: Unsupported Server:update.jdownloader.org
+--ID:51TS:1768777084147-18/01/2026 23:58:04 -  [org.appwork.updatesys.client.UpdateClient(batchRequest)] -> [Update Client:JD@update.jdownloader.org] Batch Request ( 84 bytes):
+{
+ "jobs" : [
+           {
+            "id"   : 1768777084146,
+            "json" : "null",
+            "name" : "SESSION_INIT"
+           }
+          ]
+}
+--ID:51TS:1768777084147-18/01/2026 23:58:04 -  [org.appwork.updatesys.client.defaultimpl.http.HttpClientImpl(info)] -> GET https://update.jdownloader.org/jcgi/batch?jobs=SESSION_INIT&st=0&rt=SO&jn=JDownloader.jar&pv=12&cv=20210716001&pkh=12f1848a883e733ed40fffff0dae2f35&app=JD&os=LINUX&osr=LINUX&arch=X86&os64=1&jvm64=1&java=24000002000012&uid=dnt_&hidAck=no&urev=-1&srev=-1&surev=-1&ct=Normal&1768777084146.1768777084146&lng=fr_FR via [Direct]
+--ID:51TS:1768777084147-18/01/2026 23:58:04 -  [org.appwork.updatesys.client.defaultimpl.http.HttpClientImpl(info)] -> Get Try with Proxy Direct
+------------------------Thread: 48:org.jdownloader.update.UpdateManager.log-----------------------
+--ID:48TS:1768777084216-18/01/2026 23:58:04 -  [org.jdownloader.update.gui.UpdateGui(setVisible)] -> Locator: org.appwork.utils.swing.locator.RememberAbsoluteLocator@7b22764
+--ID:48TS:1768777084216-18/01/2026 23:58:04 -  [org.jdownloader.update.gui.UpdateGui(setVisible)] -> java.awt.Point[x=1025,y=649]
+------------------------Thread: 51:org.jdownloader.update.UpdateManager.log-----------------------
+--ID:51TS:1768777084326-18/01/2026 23:58:04 -  [] -> Exception thrown at org.appwork.updatesys.client.defaultimpl.http.HttpBackend.createInvalidResponseCodeException(HttpBackend.java:108):
+java.io.IOException: 400 Bad Request
+	at org.appwork.utils.net.httpconnection.HTTPConnectionImpl.getInputStream(HTTPConnectionImpl.java:1541)
+	at org.appwork.updatesys.client.defaultimpl.http.HttpBackend.createInvalidResponseCodeException(HttpBackend.java:103)
+	at org.appwork.utils.net.BasicHTTP.BasicHTTP.checkResponseCode(BasicHTTP.java:101)
+	at org.appwork.utils.net.BasicHTTP.BasicHTTP.postPage(BasicHTTP.java:742)
+	at org.appwork.updatesys.client.defaultimpl.http.HttpClientImpl.internalPostWithProxy(HttpClientImpl.java:316)
+	at org.appwork.updatesys.client.defaultimpl.http.HttpClientImpl.post(HttpClientImpl.java:376)
+	at org.appwork.updatesys.client.UpdateClient.batchRequest(UpdateClient.java:5693)
+	at org.appwork.updatesys.client.UpdateClient.ensureSessionInit(UpdateClient.java:5806)
+	at org.appwork.updatesys.client.UpdateClient.get(UpdateClient.java:2823)
+	at org.appwork.updatesys.client.UpdateClient.downloadPackage(UpdateClient.java:5188)
+	at org.appwork.updatesys.client.UpdateClient.runUpdateCheck(UpdateClient.java:5108)
+	at org.appwork.updatesys.client.UpdateClient.runPackageRequestAndServerSelection(UpdateClient.java:5334)
+	at org.appwork.updatesys.client.UpdateClient.runUpdateCheck(UpdateClient.java:5249)
+	at org.jdownloader.update.UpdateManager.runUpdateLoop(UpdateManager.java:1024)
+	at org.jdownloader.update.PendingUpdate.run(PendingUpdate.java:19)
+	at org.jdownloader.update.UpdateManager$23.run(UpdateManager.java:1694)
+	at java.base/java.lang.Thread.run(Thread.java:1447)
+
+--ID:51TS:1768777084332-18/01/2026 23:58:04 -  [org.appwork.updatesys.client.defaultimpl.http.HttpBackend(log)] -> ----------------Request Information-------------
+URL: https://update.jdownloader.org/jcgi/batch?jobs=SESSION_INIT&st=0&rt=SO&jn=JDownloader.jar&pv=12&cv=20210716001&pkh=12f1848a883e733ed40fffff0dae2f35&app=JD&os=LINUX&osr=LINUX&arch=X86&os64=1&jvm64=1&java=24000002000012&uid=dnt_&hidAck=no&urev=-1&srev=-1&surev=-1&ct=Normal&1768777084146.1768777084146&lng=fr_FR
+URL-Parameters:
+   jobs   : SESSION_INIT (BATCH_JOBS)
+   st     : 0 (SELFTEST)
+   rt     : SO (RUNTYPE)
+   jn     : JDownloader.jar (JAR_NAME)
+   pv     : 12 (PROTOCOL_VERSION)
+   cv     : 20210716001 (CLIENT_VERSION)
+   pkh    : 12f1848a883e733ed40fffff0dae2f35 (PUBLIC_KEY_HASH)
+   app    : JD (REPO_NAME)
+   os     : LINUX (OPERATING_SYSTEM)
+   osr    : LINUX (OPERATING_SYSTEM_RELEASE)
+   arch   : X86 (CPU_ARCHITECTUR)
+   os64   : 1 (OPERATING_SYSTEM_64BIT)
+   jvm64  : 1 (JVM_64BIT)
+   java   : 24000002000012 (JVM_VERSION)
+   uid    : dnt_ (NAMESPACE_UID) (UID)
+   hidAck : no (HARDWARE_ID_ACK)
+   urev   : -1 (UPDATER_REVISION)
+   srev   : -1 (REPO_INSTALLED_REVISION) (REPO_SUPER_REVISION)
+   surev  : -1 (UPDATER_SUPER_REVISION)
+   ct     : Normal (STAGING_GROUP)
+          : 1768777084146.1768777084146
+   lng    : fr_FR (LANGUAGE)
+SSLCipher: JVM|Protocol:TLSv1.2|CipherSuite:TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256
+ConnectIP: update.jdownloader.org/2a01:4f8:211:1e8d:0:0:0:2:443
+Connection-Timeout: 20000ms
+Read-Timeout: 60000ms
+----------------Request-------------------------
+POST /jcgi/batch?jobs=SESSION_INIT&st=0&rt=SO&jn=JDownloader.jar&pv=12&cv=20210716001&pkh=12f1848a883e733ed40fffff0dae2f35&app=JD&os=LINUX&osr=LINUX&arch=X86&os64=1&jvm64=1&java=24000002000012&uid=dnt_&hidAck=no&urev=-1&srev=-1&surev=-1&ct=Normal&1768777084146.1768777084146&lng=fr_FR HTTP/1.1
+Host: update.jdownloader.org
+Accept-Language: fr_FR
+User-Agent: JDownloader/201707061810
+Accept-Charset: ISO-8859-1,utf-8;q=0.7,*;q=0.3
+Connection: Close
+Cache-Control: no-cache, no-store
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Pragma: no-cache
+Content-Length: 84
+Accept-Encoding: gzip
+Content-Type: application/json; charset=utf-8
+Content-Encoding: gzip
+----------------Response Information------------
+Connection-Time: 27ms
+Request-Time: 25ms
+----------------Response------------------------
+HTTP/1.1 400 Bad Request
+Server: nginx
+Date: Sun, 18 Jan 2026 22:58:04 GMT
+Content-Type: text/html
+Content-Length: 150
+Connection: close
+JCGI: 1 (HTTP_HEADER_FCGI)
+------------------------------------------------
+
+
+--ID:51TS:1768777084332-18/01/2026 23:58:04 -  [org.appwork.updatesys.client.defaultimpl.http.HttpClientImpl(checkTryNextProxyOrGiveUp)] -> Check if we can leave 
+--ID:51TS:1768777084332-18/01/2026 23:58:04 -  [org.appwork.updatesys.client.defaultimpl.http.HttpClientImpl(checkTryNextProxyOrGiveUp)] -> Invalid Response Code: org.appwork.utils.net.BasicHTTP.InvalidResponseCode: Invalid ResponseCode: 400
+--ID:51TS:1768777084332-18/01/2026 23:58:04 -  [org.appwork.updatesys.client.defaultimpl.http.HttpClientImpl(throwServerExceptions)] -> Handle BasicHTTPException org.appwork.utils.net.BasicHTTP.BasicHTTPException: org.appwork.utils.net.BasicHTTP.ReadIOException: org.appwork.utils.net.BasicHTTP.InvalidResponseCode: Invalid ResponseCode: 400
+--ID:51TS:1768777084333-18/01/2026 23:58:04 -  [org.appwork.updatesys.client.UpdateClient(ensureSessionInit)] -> Session Init: Unsupported Server:update.jdownloader.org
+--ID:51TS:1768777084335-18/01/2026 23:58:04 -  [org.appwork.updatesys.client.defaultimpl.http.HttpClientImpl(info)] -> GET https://update.jdownloader.org/jcgi/pkg?st=0&rt=SO&jn=JDownloader.jar&pv=12&cv=20210716001&pkh=12f1848a883e733ed40fffff0dae2f35&app=JD&os=LINUX&osr=LINUX&arch=X86&os64=1&jvm64=1&java=24000002000012&uid=dnt_&hidAck=no&urev=-1&srev=-1&surev=-1&ct=Normal&dedup=INTRA&awfcxz=1&dst=-1&lng=fr_FR&chlg=0&jdiff=1&rev=-1&1768777084335.1768777084334 via [Direct]
+--ID:51TS:1768777084335-18/01/2026 23:58:04 -  [org.appwork.updatesys.client.defaultimpl.http.HttpClientImpl(info)] -> Get Try with Proxy Direct
+--ID:51TS:1768777084525-18/01/2026 23:58:04 -  [org.appwork.updatesys.client.defaultimpl.http.HttpBackend(log)] -> ----------------Request Information-------------
+URL: https://update.jdownloader.org/jcgi/pkg?st=0&rt=SO&jn=JDownloader.jar&pv=12&cv=20210716001&pkh=12f1848a883e733ed40fffff0dae2f35&app=JD&os=LINUX&osr=LINUX&arch=X86&os64=1&jvm64=1&java=24000002000012&uid=dnt_&hidAck=no&urev=-1&srev=-1&surev=-1&ct=Normal&dedup=INTRA&awfcxz=1&dst=-1&lng=fr_FR&chlg=0&jdiff=1&rev=-1&1768777084335.1768777084334
+URL-Parameters:
+   st     : 0 (SELFTEST)
+   rt     : SO (RUNTYPE)
+   jn     : JDownloader.jar (JAR_NAME)
+   pv     : 12 (PROTOCOL_VERSION)
+   cv     : 20210716001 (CLIENT_VERSION)
+   pkh    : 12f1848a883e733ed40fffff0dae2f35 (PUBLIC_KEY_HASH)
+   app    : JD (REPO_NAME)
+   os     : LINUX (OPERATING_SYSTEM)
+   osr    : LINUX (OPERATING_SYSTEM_RELEASE)
+   arch   : X86 (CPU_ARCHITECTUR)
+   os64   : 1 (OPERATING_SYSTEM_64BIT)
+   jvm64  : 1 (JVM_64BIT)
+   java   : 24000002000012 (JVM_VERSION)
+   uid    : dnt_ (NAMESPACE_UID) (UID)
+   hidAck : no (HARDWARE_ID_ACK)
+   urev   : -1 (UPDATER_REVISION)
+   srev   : -1 (REPO_INSTALLED_REVISION) (REPO_SUPER_REVISION)
+   surev  : -1 (UPDATER_SUPER_REVISION)
+   ct     : Normal (STAGING_GROUP)
+   dedup  : INTRA (DEDUPE_MODE)
+   awfcxz : 1 (AWFC_XZ_ENABLED)
+   dst    : -1 (REQUESTED_DEST_REVISION)
+   lng    : fr_FR (LANGUAGE)
+   chlg   : 0 (CHANGELOG_REQUESTED) (NAMESPACE_CHLG)
+   jdiff  : 1 (JAR_DIFF_ENABLED)
+   rev    : -1 (REPO_REVISION)
+          : 1768777084335.1768777084334
+SSLCipher: JVM|Protocol:TLSv1.2|CipherSuite:TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256
+ConnectIP: update.jdownloader.org/2a01:4f8:211:1e8d:0:0:0:2:443
+Connection-Timeout: 20000ms
+Read-Timeout: 60000ms
+----------------Request-------------------------
+GET /jcgi/pkg?st=0&rt=SO&jn=JDownloader.jar&pv=12&cv=20210716001&pkh=12f1848a883e733ed40fffff0dae2f35&app=JD&os=LINUX&osr=LINUX&arch=X86&os64=1&jvm64=1&java=24000002000012&uid=dnt_&hidAck=no&urev=-1&srev=-1&surev=-1&ct=Normal&dedup=INTRA&awfcxz=1&dst=-1&lng=fr_FR&chlg=0&jdiff=1&rev=-1&1768777084335.1768777084334 HTTP/1.1
+Host: update.jdownloader.org
+Accept-Language: fr_FR
+User-Agent: JDownloader/201707061810
+Accept-Charset: ISO-8859-1,utf-8;q=0.7,*;q=0.3
+Connection: Close
+Cache-Control: no-cache, no-store
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Pragma: no-cache
+Accept-Encoding: gzip
+----------------Response Information------------
+Connection-Time: 27ms
+Request-Time: 26ms
+----------------Response------------------------
+HTTP/1.1 200 OK
+Date: Sun, 18 Jan 2026 22:58:04 GMT
+Content-Type: text/plain; charset=UTF-8
+Content-Length: 10
+Connection: close
+Server: AppWork GmbH FcgiServer
+JCGI: 1 (HTTP_HEADER_FCGI)
+UPD_SRV: 1
+Strict-Transport-Security: max-age=15638400
+------------------------------------------------
+
+
+--ID:51TS:1768777084525-18/01/2026 23:58:04 -  [org.appwork.updatesys.client.defaultimpl.http.HttpClientImpl(info)] -> Connection OK: 10 Bytes loaded
+--ID:51TS:1768777084526-18/01/2026 23:58:04 -  [org.appwork.updatesys.transport.Pkg(parseServerResponse)] -> Serverresponse: SELFUPDATE
+--ID:51TS:1768777084528-18/01/2026 23:58:04 -  [org.appwork.updatesys.client.UpdateClient(getUpdateOptions)] -> org.jdownloader.update.SelfUpdateClient:getDefaultUpdateOptions:{
+ "deduplicationMode" : "INTRA",
+ "retryCauses"       : null,
+ "jarDiffEnabled"    : true
+}
+--ID:51TS:1768777084529-18/01/2026 23:58:04 -  [org.appwork.updatesys.client.UpdateClient(batchRequest)] -> [Update Client:JDU@update.jdownloader.org] Batch Request ( 70 bytes):
+{
+ "jobs" : [
+           {
+            "id"   : 1768777084528,
+            "json" : null,
+            "name" : "TIME_SYNC"
+           }
+          ]
+}
+--ID:51TS:1768777084529-18/01/2026 23:58:04 -  [org.appwork.updatesys.client.defaultimpl.http.HttpClientImpl(info)] -> GET https://update.jdownloader.org/jcgi/batch?jobs=TIME_SYNC&st=0&rt=SO&jn=JDownloader.jar&pv=12&cv=20210716001&pkh=12f1848a883e733ed40fffff0dae2f35&app=JDU&os=LINUX&osr=LINUX&arch=X86&os64=1&jvm64=1&java=24000002000012&uid=dnt_&hidAck=no&ct=Normal&1768777084528.1768777084528&lng=fr_FR via [Direct]
+--ID:51TS:1768777084529-18/01/2026 23:58:04 -  [org.appwork.updatesys.client.defaultimpl.http.HttpClientImpl(info)] -> Get Try with Proxy Direct
+--ID:51TS:1768777084701-18/01/2026 23:58:04 -  [] -> Exception thrown at org.appwork.updatesys.client.defaultimpl.http.HttpBackend.createInvalidResponseCodeException(HttpBackend.java:108):
+java.io.IOException: 400 Bad Request
+	at org.appwork.utils.net.httpconnection.HTTPConnectionImpl.getInputStream(HTTPConnectionImpl.java:1541)
+	at org.appwork.updatesys.client.defaultimpl.http.HttpBackend.createInvalidResponseCodeException(HttpBackend.java:103)
+	at org.appwork.utils.net.BasicHTTP.BasicHTTP.checkResponseCode(BasicHTTP.java:101)
+	at org.appwork.utils.net.BasicHTTP.BasicHTTP.postPage(BasicHTTP.java:742)
+	at org.appwork.updatesys.client.defaultimpl.http.HttpClientImpl.internalPostWithProxy(HttpClientImpl.java:316)
+	at org.appwork.updatesys.client.defaultimpl.http.HttpClientImpl.post(HttpClientImpl.java:376)
+	at org.appwork.updatesys.client.UpdateClient.batchRequest(UpdateClient.java:5693)
+	at org.appwork.updatesys.client.UpdateClient.ensureTimeSync(UpdateClient.java:2956)
+	at org.appwork.updatesys.client.UpdateClient.ensureSessionInit(UpdateClient.java:5801)
+	at org.appwork.updatesys.client.UpdateClient.get(UpdateClient.java:2823)
+	at org.appwork.updatesys.client.UpdateClient.downloadPackage(UpdateClient.java:5188)
+	at org.appwork.updatesys.client.UpdateClient.runUpdateCheck(UpdateClient.java:5108)
+	at org.appwork.updatesys.client.UpdateClient.runPackageRequestAndServerSelection(UpdateClient.java:5334)
+	at org.appwork.updatesys.client.UpdateClient.runUpdateCheck(UpdateClient.java:5249)
+	at org.jdownloader.update.UpdateManager.runUpdateLoop(UpdateManager.java:1035)
+	at org.jdownloader.update.PendingUpdate.run(PendingUpdate.java:19)
+	at org.jdownloader.update.UpdateManager$23.run(UpdateManager.java:1694)
+	at java.base/java.lang.Thread.run(Thread.java:1447)
+
+--ID:51TS:1768777084705-18/01/2026 23:58:04 -  [org.appwork.updatesys.client.defaultimpl.http.HttpBackend(log)] -> ----------------Request Information-------------
+URL: https://update.jdownloader.org/jcgi/batch?jobs=TIME_SYNC&st=0&rt=SO&jn=JDownloader.jar&pv=12&cv=20210716001&pkh=12f1848a883e733ed40fffff0dae2f35&app=JDU&os=LINUX&osr=LINUX&arch=X86&os64=1&jvm64=1&java=24000002000012&uid=dnt_&hidAck=no&ct=Normal&1768777084528.1768777084528&lng=fr_FR
+URL-Parameters:
+   jobs   : TIME_SYNC (BATCH_JOBS)
+   st     : 0 (SELFTEST)
+   rt     : SO (RUNTYPE)
+   jn     : JDownloader.jar (JAR_NAME)
+   pv     : 12 (PROTOCOL_VERSION)
+   cv     : 20210716001 (CLIENT_VERSION)
+   pkh    : 12f1848a883e733ed40fffff0dae2f35 (PUBLIC_KEY_HASH)
+   app    : JDU (REPO_NAME)
+   os     : LINUX (OPERATING_SYSTEM)
+   osr    : LINUX (OPERATING_SYSTEM_RELEASE)
+   arch   : X86 (CPU_ARCHITECTUR)
+   os64   : 1 (OPERATING_SYSTEM_64BIT)
+   jvm64  : 1 (JVM_64BIT)
+   java   : 24000002000012 (JVM_VERSION)
+   uid    : dnt_ (NAMESPACE_UID) (UID)
+   hidAck : no (HARDWARE_ID_ACK)
+   ct     : Normal (STAGING_GROUP)
+          : 1768777084528.1768777084528
+   lng    : fr_FR (LANGUAGE)
+SSLCipher: JVM|Protocol:TLSv1.2|CipherSuite:TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256
+ConnectIP: update.jdownloader.org/2a01:4f8:211:1e8d:0:0:0:2:443
+Connection-Timeout: 20000ms
+Read-Timeout: 60000ms
+----------------Request-------------------------
+POST /jcgi/batch?jobs=TIME_SYNC&st=0&rt=SO&jn=JDownloader.jar&pv=12&cv=20210716001&pkh=12f1848a883e733ed40fffff0dae2f35&app=JDU&os=LINUX&osr=LINUX&arch=X86&os64=1&jvm64=1&java=24000002000012&uid=dnt_&hidAck=no&ct=Normal&1768777084528.1768777084528&lng=fr_FR HTTP/1.1
+Host: update.jdownloader.org
+Accept-Language: fr_FR
+User-Agent: JDownloader/201707061810
+Accept-Charset: ISO-8859-1,utf-8;q=0.7,*;q=0.3
+Connection: Close
+Cache-Control: no-cache, no-store
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Pragma: no-cache
+Content-Length: 70
+Accept-Encoding: gzip
+Content-Type: application/json; charset=utf-8
+Content-Encoding: gzip
+----------------Response Information------------
+Connection-Time: 28ms
+Request-Time: 24ms
+----------------Response------------------------
+HTTP/1.1 400 Bad Request
+Server: nginx
+Date: Sun, 18 Jan 2026 22:58:04 GMT
+Content-Type: text/html
+Content-Length: 150
+Connection: close
+JCGI: 1 (HTTP_HEADER_FCGI)
+------------------------------------------------
+
+
+--ID:51TS:1768777084706-18/01/2026 23:58:04 -  [org.appwork.updatesys.client.defaultimpl.http.HttpClientImpl(checkTryNextProxyOrGiveUp)] -> Check if we can leave 
+--ID:51TS:1768777084706-18/01/2026 23:58:04 -  [org.appwork.updatesys.client.defaultimpl.http.HttpClientImpl(checkTryNextProxyOrGiveUp)] -> Invalid Response Code: org.appwork.utils.net.BasicHTTP.InvalidResponseCode: Invalid ResponseCode: 400
+--ID:51TS:1768777084706-18/01/2026 23:58:04 -  [org.appwork.updatesys.client.defaultimpl.http.HttpClientImpl(throwServerExceptions)] -> Handle BasicHTTPException org.appwork.utils.net.BasicHTTP.BasicHTTPException: org.appwork.utils.net.BasicHTTP.ReadIOException: org.appwork.utils.net.BasicHTTP.InvalidResponseCode: Invalid ResponseCode: 400
+--ID:51TS:1768777084706-18/01/2026 23:58:04 -  [org.appwork.updatesys.client.UpdateClient(ensureTimeSync)] -> Time Sync: Unsupported Server:update.jdownloader.org
+--ID:51TS:1768777084707-18/01/2026 23:58:04 -  [org.appwork.updatesys.client.UpdateClient(batchRequest)] -> [Update Client:JDU@update.jdownloader.org] Batch Request ( 84 bytes):
+{
+ "jobs" : [
+           {
+            "id"   : 1768777084706,
+            "json" : "null",
+            "name" : "SESSION_INIT"
+           }
+          ]
+}
+--ID:51TS:1768777084707-18/01/2026 23:58:04 -  [org.appwork.updatesys.client.defaultimpl.http.HttpClientImpl(info)] -> GET https://update.jdownloader.org/jcgi/batch?jobs=SESSION_INIT&st=0&rt=SO&jn=JDownloader.jar&pv=12&cv=20210716001&pkh=12f1848a883e733ed40fffff0dae2f35&app=JDU&os=LINUX&osr=LINUX&arch=X86&os64=1&jvm64=1&java=24000002000012&uid=dnt_&hidAck=no&ct=Normal&1768777084706.1768777084706&lng=fr_FR via [Direct]
+--ID:51TS:1768777084707-18/01/2026 23:58:04 -  [org.appwork.updatesys.client.defaultimpl.http.HttpClientImpl(info)] -> Get Try with Proxy Direct
+--ID:51TS:1768777084876-18/01/2026 23:58:04 -  [] -> Exception thrown at org.appwork.updatesys.client.defaultimpl.http.HttpBackend.createInvalidResponseCodeException(HttpBackend.java:108):
+java.io.IOException: 400 Bad Request
+	at org.appwork.utils.net.httpconnection.HTTPConnectionImpl.getInputStream(HTTPConnectionImpl.java:1541)
+	at org.appwork.updatesys.client.defaultimpl.http.HttpBackend.createInvalidResponseCodeException(HttpBackend.java:103)
+	at org.appwork.utils.net.BasicHTTP.BasicHTTP.checkResponseCode(BasicHTTP.java:101)
+	at org.appwork.utils.net.BasicHTTP.BasicHTTP.postPage(BasicHTTP.java:742)
+	at org.appwork.updatesys.client.defaultimpl.http.HttpClientImpl.internalPostWithProxy(HttpClientImpl.java:316)
+	at org.appwork.updatesys.client.defaultimpl.http.HttpClientImpl.post(HttpClientImpl.java:376)
+	at org.appwork.updatesys.client.UpdateClient.batchRequest(UpdateClient.java:5693)
+	at org.appwork.updatesys.client.UpdateClient.ensureSessionInit(UpdateClient.java:5806)
+	at org.appwork.updatesys.client.UpdateClient.get(UpdateClient.java:2823)
+	at org.appwork.updatesys.client.UpdateClient.downloadPackage(UpdateClient.java:5188)
+	at org.appwork.updatesys.client.UpdateClient.runUpdateCheck(UpdateClient.java:5108)
+	at org.appwork.updatesys.client.UpdateClient.runPackageRequestAndServerSelection(UpdateClient.java:5334)
+	at org.appwork.updatesys.client.UpdateClient.runUpdateCheck(UpdateClient.java:5249)
+	at org.jdownloader.update.UpdateManager.runUpdateLoop(UpdateManager.java:1035)
+	at org.jdownloader.update.PendingUpdate.run(PendingUpdate.java:19)
+	at org.jdownloader.update.UpdateManager$23.run(UpdateManager.java:1694)
+	at java.base/java.lang.Thread.run(Thread.java:1447)
+
+--ID:51TS:1768777084881-18/01/2026 23:58:04 -  [org.appwork.updatesys.client.defaultimpl.http.HttpBackend(log)] -> ----------------Request Information-------------
+URL: https://update.jdownloader.org/jcgi/batch?jobs=SESSION_INIT&st=0&rt=SO&jn=JDownloader.jar&pv=12&cv=20210716001&pkh=12f1848a883e733ed40fffff0dae2f35&app=JDU&os=LINUX&osr=LINUX&arch=X86&os64=1&jvm64=1&java=24000002000012&uid=dnt_&hidAck=no&ct=Normal&1768777084706.1768777084706&lng=fr_FR
+URL-Parameters:
+   jobs   : SESSION_INIT (BATCH_JOBS)
+   st     : 0 (SELFTEST)
+   rt     : SO (RUNTYPE)
+   jn     : JDownloader.jar (JAR_NAME)
+   pv     : 12 (PROTOCOL_VERSION)
+   cv     : 20210716001 (CLIENT_VERSION)
+   pkh    : 12f1848a883e733ed40fffff0dae2f35 (PUBLIC_KEY_HASH)
+   app    : JDU (REPO_NAME)
+   os     : LINUX (OPERATING_SYSTEM)
+   osr    : LINUX (OPERATING_SYSTEM_RELEASE)
+   arch   : X86 (CPU_ARCHITECTUR)
+   os64   : 1 (OPERATING_SYSTEM_64BIT)
+   jvm64  : 1 (JVM_64BIT)
+   java   : 24000002000012 (JVM_VERSION)
+   uid    : dnt_ (NAMESPACE_UID) (UID)
+   hidAck : no (HARDWARE_ID_ACK)
+   ct     : Normal (STAGING_GROUP)
+          : 1768777084706.1768777084706
+   lng    : fr_FR (LANGUAGE)
+SSLCipher: JVM|Protocol:TLSv1.2|CipherSuite:TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256
+ConnectIP: update.jdownloader.org/2a01:4f8:211:1e8d:0:0:0:2:443
+Connection-Timeout: 20000ms
+Read-Timeout: 60000ms
+----------------Request-------------------------
+POST /jcgi/batch?jobs=SESSION_INIT&st=0&rt=SO&jn=JDownloader.jar&pv=12&cv=20210716001&pkh=12f1848a883e733ed40fffff0dae2f35&app=JDU&os=LINUX&osr=LINUX&arch=X86&os64=1&jvm64=1&java=24000002000012&uid=dnt_&hidAck=no&ct=Normal&1768777084706.1768777084706&lng=fr_FR HTTP/1.1
+Host: update.jdownloader.org
+Accept-Language: fr_FR
+User-Agent: JDownloader/201707061810
+Accept-Charset: ISO-8859-1,utf-8;q=0.7,*;q=0.3
+Connection: Close
+Cache-Control: no-cache, no-store
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Pragma: no-cache
+Content-Length: 84
+Accept-Encoding: gzip
+Content-Type: application/json; charset=utf-8
+Content-Encoding: gzip
+----------------Response Information------------
+Connection-Time: 25ms
+Request-Time: 23ms
+----------------Response------------------------
+HTTP/1.1 400 Bad Request
+Server: nginx
+Date: Sun, 18 Jan 2026 22:58:04 GMT
+Content-Type: text/html
+Content-Length: 150
+Connection: close
+JCGI: 1 (HTTP_HEADER_FCGI)
+------------------------------------------------
+
+
+--ID:51TS:1768777084881-18/01/2026 23:58:04 -  [org.appwork.updatesys.client.defaultimpl.http.HttpClientImpl(checkTryNextProxyOrGiveUp)] -> Check if we can leave 
+--ID:51TS:1768777084881-18/01/2026 23:58:04 -  [org.appwork.updatesys.client.defaultimpl.http.HttpClientImpl(checkTryNextProxyOrGiveUp)] -> Invalid Response Code: org.appwork.utils.net.BasicHTTP.InvalidResponseCode: Invalid ResponseCode: 400
+--ID:51TS:1768777084881-18/01/2026 23:58:04 -  [org.appwork.updatesys.client.defaultimpl.http.HttpClientImpl(throwServerExceptions)] -> Handle BasicHTTPException org.appwork.utils.net.BasicHTTP.BasicHTTPException: org.appwork.utils.net.BasicHTTP.ReadIOException: org.appwork.utils.net.BasicHTTP.InvalidResponseCode: Invalid ResponseCode: 400
+--ID:51TS:1768777084882-18/01/2026 23:58:04 -  [org.appwork.updatesys.client.UpdateClient(ensureSessionInit)] -> Session Init: Unsupported Server:update.jdownloader.org
+--ID:51TS:1768777084883-18/01/2026 23:58:04 -  [org.appwork.updatesys.client.defaultimpl.http.HttpClientImpl(info)] -> GET https://update.jdownloader.org/jcgi/pkg?st=0&rt=SO&jn=JDownloader.jar&pv=12&cv=20210716001&pkh=12f1848a883e733ed40fffff0dae2f35&app=JDU&os=LINUX&osr=LINUX&arch=X86&os64=1&jvm64=1&java=24000002000012&uid=dnt_&hidAck=no&ct=Normal&dedup=INTRA&awfcxz=1&dst=-1&lng=fr_FR&chlg=0&jdiff=1&rev=-1&1768777084883.1768777084882 via [Direct]
+--ID:51TS:1768777084883-18/01/2026 23:58:04 -  [org.appwork.updatesys.client.defaultimpl.http.HttpClientImpl(info)] -> Get Try with Proxy Direct
+--ID:51TS:1768777085062-18/01/2026 23:58:05 -  [org.appwork.updatesys.client.defaultimpl.http.HttpBackend(log)] -> ----------------Request Information-------------
+URL: https://update.jdownloader.org/jcgi/pkg?st=0&rt=SO&jn=JDownloader.jar&pv=12&cv=20210716001&pkh=12f1848a883e733ed40fffff0dae2f35&app=JDU&os=LINUX&osr=LINUX&arch=X86&os64=1&jvm64=1&java=24000002000012&uid=dnt_&hidAck=no&ct=Normal&dedup=INTRA&awfcxz=1&dst=-1&lng=fr_FR&chlg=0&jdiff=1&rev=-1&1768777084883.1768777084882
+URL-Parameters:
+   st     : 0 (SELFTEST)
+   rt     : SO (RUNTYPE)
+   jn     : JDownloader.jar (JAR_NAME)
+   pv     : 12 (PROTOCOL_VERSION)
+   cv     : 20210716001 (CLIENT_VERSION)
+   pkh    : 12f1848a883e733ed40fffff0dae2f35 (PUBLIC_KEY_HASH)
+   app    : JDU (REPO_NAME)
+   os     : LINUX (OPERATING_SYSTEM)
+   osr    : LINUX (OPERATING_SYSTEM_RELEASE)
+   arch   : X86 (CPU_ARCHITECTUR)
+   os64   : 1 (OPERATING_SYSTEM_64BIT)
+   jvm64  : 1 (JVM_64BIT)
+   java   : 24000002000012 (JVM_VERSION)
+   uid    : dnt_ (NAMESPACE_UID) (UID)
+   hidAck : no (HARDWARE_ID_ACK)
+   ct     : Normal (STAGING_GROUP)
+   dedup  : INTRA (DEDUPE_MODE)
+   awfcxz : 1 (AWFC_XZ_ENABLED)
+   dst    : -1 (REQUESTED_DEST_REVISION)
+   lng    : fr_FR (LANGUAGE)
+   chlg   : 0 (CHANGELOG_REQUESTED) (NAMESPACE_CHLG)
+   jdiff  : 1 (JAR_DIFF_ENABLED)
+   rev    : -1 (REPO_REVISION)
+          : 1768777084883.1768777084882
+SSLCipher: JVM|Protocol:TLSv1.2|CipherSuite:TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256
+ConnectIP: update.jdownloader.org/2a01:4f8:211:1e8d:0:0:0:2:443
+Connection-Timeout: 20000ms
+Read-Timeout: 60000ms
+----------------Request-------------------------
+GET /jcgi/pkg?st=0&rt=SO&jn=JDownloader.jar&pv=12&cv=20210716001&pkh=12f1848a883e733ed40fffff0dae2f35&app=JDU&os=LINUX&osr=LINUX&arch=X86&os64=1&jvm64=1&java=24000002000012&uid=dnt_&hidAck=no&ct=Normal&dedup=INTRA&awfcxz=1&dst=-1&lng=fr_FR&chlg=0&jdiff=1&rev=-1&1768777084883.1768777084882 HTTP/1.1
+Host: update.jdownloader.org
+Accept-Language: fr_FR
+User-Agent: JDownloader/201707061810
+Accept-Charset: ISO-8859-1,utf-8;q=0.7,*;q=0.3
+Connection: Close
+Cache-Control: no-cache, no-store
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Pragma: no-cache
+Accept-Encoding: gzip
+----------------Response Information------------
+Connection-Time: 26ms
+Request-Time: 25ms
+----------------Response------------------------
+HTTP/1.1 200 OK
+Date: Sun, 18 Jan 2026 22:58:05 GMT
+Content-Type: application/json; charset=UTF-8
+Content-Length: 3382
+Connection: close
+Server: AppWork GmbH FcgiServer
+JCGI: 1 (HTTP_HEADER_FCGI)
+UPD_SRV: 1
+Strict-Transport-Security: max-age=15638400
+------------------------------------------------
+
+
+--ID:51TS:1768777085063-18/01/2026 23:58:05 -  [org.appwork.updatesys.client.defaultimpl.http.HttpClientImpl(info)] -> Connection OK: 3382 Bytes loaded
+--ID:51TS:1768777085063-18/01/2026 23:58:05 -  [org.appwork.updatesys.transport.Pkg(parseServerResponse)] -> Serverresponse: {
+ "changeLogText"        : null,
+ "pong"                 : null,
+ "changeLogContentSize" : -1,
+ "diskSpaceChanges"     : {
+                           "" : {
+                                 "required" : 5212998,
+                                 "changed"  : 5212998
+                                }
+                          },
+ "timeStamp"            : 1768775240522,
+ "uid"                  : null,
+ "urls"                 : [
+                           {
+                            "priority" : 80,
+                            "url"      : "http://cdn9.appwork.org/JDU/18634/17678771710060ec140720547e12e2d07ed84abf8c89f_087b13355e5a7d45735fcdde96b46cae2d5162fdb-0"
+                           },
+                           {
+                            "priority" : 80,
+                            "url"      : "http://cdn7.appwork.org/JDU/18634/17678771710060ec140720547e12e2d07ed84abf8c89f_087b13355e5a7d45735fcdde96b46cae2d5162fdb-0"
+                           },
+                           {
+                            "priority" : 80,
+                            "url"      : "http://cdn1.appwork.org/JDU/18634/17678771710060ec140720547e12e2d07ed84abf8c89f_087b13355e5a7d45735fcdde96b46cae2d5162fdb-0"
+                           },
+                           {
+                            "priority" : 80,
+                            "url"      : "http://cdn4.appwork.org/JDU/18634/17678771710060ec140720547e12e2d07ed84abf8c89f_087b13355e5a7d45735fcdde96b46cae2d5162fdb-0"
+                           },
+                           {
+                            "priority" : 80,
+                            "url"      : "http://cdn6.appwork.org/JDU/18634/17678771710060ec140720547e12e2d07ed84abf8c89f_087b13355e5a7d45735fcdde96b46cae2d5162fdb-0"
+                           },
+                           {
+                            "priority" : 80,
+                            "url"      : "http://cdn8.appwork.org/JDU/18634/17678771710060ec140720547e12e2d07ed84abf8c89f_087b13355e5a7d45735fcdde96b46cae2d5162fdb-0"
+                           },
+                           {
+                            "priority" : 80,
+                            "url"      : "http://cdn10.appwork.org/JDU/18634/17678771710060ec140720547e12e2d07ed84abf8c89f_087b13355e5a7d45735fcdde96b46cae2d5162fdb-0"
+                           },
+                           {
+                            "priority" : 80,
+                            "url"      : "http://cdn11.appwork.org/JDU/18634/17678771710060ec140720547e12e2d07ed84abf8c89f_087b13355e5a7d45735fcdde96b46cae2d5162fdb-0"
+                           },
+                           {
+                            "priority" : 80,
+                            "url"      : "http://cdn12.appwork.org/JDU/18634/17678771710060ec140720547e12e2d07ed84abf8c89f_087b13355e5a7d45735fcdde96b46cae2d5162fdb-0"
+                           }
+                          ],
+ "revisionName"         : null,
+ "updateFlags"          : null,
+ "destRevision"         : 18634,
+ "size"                 : 4676640,
+ "encrypted"            : true,
+ "changeLogSize"        : -1,
+ "contentSize"          : 5213372,
+ "changeLogUrls"        : null,
+ "hash"                 : "89cef7da3b19df70e95a76b0789e39131129e01314b7a3bd3b283e57502426c9",
+ "changeLogHash"        : null,
+ "status"               : "URL"
+}
+--ID:51TS:1768777085080-18/01/2026 23:58:05 -  [org.appwork.updatesys.client.servertime.ServerTimeHandler(sync)] -> [Update Client:JDU@update.jdownloader.org]: Sync offset: 1844558
+--ID:51TS:1768777085084-18/01/2026 23:58:05 -  [org.appwork.updatesys.client.servertime.ServerTimeHandler(sync)] -> [Update Client:JDU@update.jdownloader.org]: After: Sun Jan 18 23:27:20 CET 2026 +00s = Sun Jan 18 23:27:20 CET 2026.522 (SRV)
+--ID:51TS:1768777085084-18/01/2026 23:58:05 -  [org.appwork.updatesys.client.servertime.ServerTimeHandler(sync)] -> [Update Client:JDU@update.jdownloader.org]: Diff: 1844558/-1844558
+--ID:51TS:1768777085085-18/01/2026 23:58:05 -  [org.appwork.updatesys.client.UpdateClient(getUpdateOptions)] -> org.jdownloader.update.JDUpdateClient:getUpdateOptions:{
+ "deduplicationMode" : "INTRA",
+ "retryCauses"       : null,
+ "jarDiffEnabled"    : true
+}
+--ID:51TS:1768777085086-18/01/2026 23:58:05 -  [org.appwork.updatesys.client.defaultimpl.http.HttpClientImpl(info)] -> GET https://update.jdownloader.org/jcgi/pkg?st=0&rt=SO&jn=JDownloader.jar&pv=12&cv=20210716001&pkh=12f1848a883e733ed40fffff0dae2f35&app=JD&os=LINUX&osr=LINUX&arch=X86&os64=1&jvm64=1&java=24000002000012&uid=dnt_&hidAck=no&urev=2147483647&srev=-1&surev=-1&ct=Normal&dedup=INTRA&awfcxz=1&dst=-1&lng=fr_FR&chlg=0&jdiff=1&rev=-1&1768777085086.1768777085085 via [Direct]
+--ID:51TS:1768777085086-18/01/2026 23:58:05 -  [org.appwork.updatesys.client.defaultimpl.http.HttpClientImpl(info)] -> Get Try with Proxy Direct
+--ID:51TS:1768777085284-18/01/2026 23:58:05 -  [org.appwork.updatesys.client.defaultimpl.http.HttpBackend(log)] -> ----------------Request Information-------------
+URL: https://update.jdownloader.org/jcgi/pkg?st=0&rt=SO&jn=JDownloader.jar&pv=12&cv=20210716001&pkh=12f1848a883e733ed40fffff0dae2f35&app=JD&os=LINUX&osr=LINUX&arch=X86&os64=1&jvm64=1&java=24000002000012&uid=dnt_&hidAck=no&urev=2147483647&srev=-1&surev=-1&ct=Normal&dedup=INTRA&awfcxz=1&dst=-1&lng=fr_FR&chlg=0&jdiff=1&rev=-1&1768777085086.1768777085085
+URL-Parameters:
+   st     : 0 (SELFTEST)
+   rt     : SO (RUNTYPE)
+   jn     : JDownloader.jar (JAR_NAME)
+   pv     : 12 (PROTOCOL_VERSION)
+   cv     : 20210716001 (CLIENT_VERSION)
+   pkh    : 12f1848a883e733ed40fffff0dae2f35 (PUBLIC_KEY_HASH)
+   app    : JD (REPO_NAME)
+   os     : LINUX (OPERATING_SYSTEM)
+   osr    : LINUX (OPERATING_SYSTEM_RELEASE)
+   arch   : X86 (CPU_ARCHITECTUR)
+   os64   : 1 (OPERATING_SYSTEM_64BIT)
+   jvm64  : 1 (JVM_64BIT)
+   java   : 24000002000012 (JVM_VERSION)
+   uid    : dnt_ (NAMESPACE_UID) (UID)
+   hidAck : no (HARDWARE_ID_ACK)
+   urev   : 2147483647 (UPDATER_REVISION)
+   srev   : -1 (REPO_INSTALLED_REVISION) (REPO_SUPER_REVISION)
+   surev  : -1 (UPDATER_SUPER_REVISION)
+   ct     : Normal (STAGING_GROUP)
+   dedup  : INTRA (DEDUPE_MODE)
+   awfcxz : 1 (AWFC_XZ_ENABLED)
+   dst    : -1 (REQUESTED_DEST_REVISION)
+   lng    : fr_FR (LANGUAGE)
+   chlg   : 0 (CHANGELOG_REQUESTED) (NAMESPACE_CHLG)
+   jdiff  : 1 (JAR_DIFF_ENABLED)
+   rev    : -1 (REPO_REVISION)
+          : 1768777085086.1768777085085
+SSLCipher: JVM|Protocol:TLSv1.2|CipherSuite:TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256
+ConnectIP: update.jdownloader.org/2a01:4f8:211:1e8d:0:0:0:2:443
+Connection-Timeout: 20000ms
+Read-Timeout: 60000ms
+----------------Request-------------------------
+GET /jcgi/pkg?st=0&rt=SO&jn=JDownloader.jar&pv=12&cv=20210716001&pkh=12f1848a883e733ed40fffff0dae2f35&app=JD&os=LINUX&osr=LINUX&arch=X86&os64=1&jvm64=1&java=24000002000012&uid=dnt_&hidAck=no&urev=2147483647&srev=-1&surev=-1&ct=Normal&dedup=INTRA&awfcxz=1&dst=-1&lng=fr_FR&chlg=0&jdiff=1&rev=-1&1768777085086.1768777085085 HTTP/1.1
+Host: update.jdownloader.org
+Accept-Language: fr_FR
+User-Agent: JDownloader/201707061810
+Accept-Charset: ISO-8859-1,utf-8;q=0.7,*;q=0.3
+Connection: Close
+Cache-Control: no-cache, no-store
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Pragma: no-cache
+Accept-Encoding: gzip
+----------------Response Information------------
+Connection-Time: 34ms
+Request-Time: 30ms
+----------------Response------------------------
+HTTP/1.1 200 OK
+Date: Sun, 18 Jan 2026 22:58:05 GMT
+Content-Type: application/json; charset=UTF-8
+Content-Length: 3377
+Connection: close
+Server: AppWork GmbH FcgiServer
+JCGI: 1 (HTTP_HEADER_FCGI)
+UPD_SRV: 1
+Strict-Transport-Security: max-age=15638400
+------------------------------------------------
+
+
+--ID:51TS:1768777085284-18/01/2026 23:58:05 -  [org.appwork.updatesys.client.defaultimpl.http.HttpClientImpl(info)] -> Connection OK: 3377 Bytes loaded
+--ID:51TS:1768777085284-18/01/2026 23:58:05 -  [org.appwork.updatesys.transport.Pkg(parseServerResponse)] -> Serverresponse: {
+ "changeLogText"        : null,
+ "pong"                 : null,
+ "changeLogContentSize" : -1,
+ "diskSpaceChanges"     : {
+                           "" : {
+                                 "required" : 67828005,
+                                 "changed"  : 67828005
+                                }
+                          },
+ "timeStamp"            : 1768775240741,
+ "uid"                  : null,
+ "urls"                 : [
+                           {
+                            "priority" : 80,
+                            "url"      : "http://cdn9.appwork.org/JD/18599/176787723383016efbc8fb92701d32b64defc3bcf5a41_0f9bf624aeed2c86df73e741adfa800381f645ad4-0"
+                           },
+                           {
+                            "priority" : 80,
+                            "url"      : "http://cdn7.appwork.org/JD/18599/176787723383016efbc8fb92701d32b64defc3bcf5a41_0f9bf624aeed2c86df73e741adfa800381f645ad4-0"
+                           },
+                           {
+                            "priority" : 80,
+                            "url"      : "http://cdn1.appwork.org/JD/18599/176787723383016efbc8fb92701d32b64defc3bcf5a41_0f9bf624aeed2c86df73e741adfa800381f645ad4-0"
+                           },
+                           {
+                            "priority" : 80,
+                            "url"      : "http://cdn4.appwork.org/JD/18599/176787723383016efbc8fb92701d32b64defc3bcf5a41_0f9bf624aeed2c86df73e741adfa800381f645ad4-0"
+                           },
+                           {
+                            "priority" : 80,
+                            "url"      : "http://cdn6.appwork.org/JD/18599/176787723383016efbc8fb92701d32b64defc3bcf5a41_0f9bf624aeed2c86df73e741adfa800381f645ad4-0"
+                           },
+                           {
+                            "priority" : 80,
+                            "url"      : "http://cdn8.appwork.org/JD/18599/176787723383016efbc8fb92701d32b64defc3bcf5a41_0f9bf624aeed2c86df73e741adfa800381f645ad4-0"
+                           },
+                           {
+                            "priority" : 80,
+                            "url"      : "http://cdn10.appwork.org/JD/18599/176787723383016efbc8fb92701d32b64defc3bcf5a41_0f9bf624aeed2c86df73e741adfa800381f645ad4-0"
+                           },
+                           {
+                            "priority" : 80,
+                            "url"      : "http://cdn11.appwork.org/JD/18599/176787723383016efbc8fb92701d32b64defc3bcf5a41_0f9bf624aeed2c86df73e741adfa800381f645ad4-0"
+                           },
+                           {
+                            "priority" : 80,
+                            "url"      : "http://cdn12.appwork.org/JD/18599/176787723383016efbc8fb92701d32b64defc3bcf5a41_0f9bf624aeed2c86df73e741adfa800381f645ad4-0"
+                           }
+                          ],
+ "revisionName"         : null,
+ "updateFlags"          : null,
+ "destRevision"         : 18599,
+ "size"                 : 45892256,
+ "encrypted"            : true,
+ "changeLogSize"        : -1,
+ "contentSize"          : 69243607,
+ "changeLogUrls"        : null,
+ "hash"                 : "139afc1057a559605db24d0d73c6726294f674ca035fcf4de899c1f1b855dfc4",
+ "changeLogHash"        : null,
+ "status"               : "URL"
+}
+--ID:51TS:1768777085286-18/01/2026 23:58:05 -  [org.appwork.updatesys.client.servertime.ServerTimeHandler(sync)] -> [Update Client:JD@update.jdownloader.org]: Sync offset: 1844545
+--ID:51TS:1768777085286-18/01/2026 23:58:05 -  [org.appwork.updatesys.client.servertime.ServerTimeHandler(sync)] -> [Update Client:JD@update.jdownloader.org]: After: Sun Jan 18 23:27:20 CET 2026 +00s = Sun Jan 18 23:27:20 CET 2026.741 (SRV)
+--ID:51TS:1768777085286-18/01/2026 23:58:05 -  [org.appwork.updatesys.client.servertime.ServerTimeHandler(sync)] -> [Update Client:JD@update.jdownloader.org]: Diff: 1844545/-1844545
+--ID:51TS:1768777085287-18/01/2026 23:58:05 -  [org.jdownloader.update.UpdateManager(runUpdateLoop)] -> Create Packages
+--ID:51TS:1768777085288-18/01/2026 23:58:05 -  [org.jdownloader.update.UpdateManager(runUpdateLoop)] -> Download Packages
+--ID:51TS:1768777085288-18/01/2026 23:58:05 -  [org.appwork.updatesys.client.UpdateClient(download)] -> Download UpdatePackage 
+------------------------Thread: 72:org.jdownloader.update.UpdateManager.log-----------------------
+--ID:72TS:1768777085288-18/01/2026 23:58:05 -  [org.appwork.updatesys.client.UpdateClient(download)] -> Download UpdatePackage 
+------------------------Thread: 51:org.jdownloader.update.UpdateManager.log-----------------------
+--ID:51TS:1768777085289-18/01/2026 23:58:05 -  [org.appwork.updatesys.client.UpdateClient(download)] -> Local File: /home/harry/.var/app/org.jdownloader.JDownloader/data/jdownloader/tmp/update/JD/updatePackage (FileSize: 0|PackageSize:45892256)
+------------------------Thread: 72:org.jdownloader.update.UpdateManager.log-----------------------
+--ID:72TS:1768777085289-18/01/2026 23:58:05 -  [org.appwork.updatesys.client.UpdateClient(download)] -> Local File: /home/harry/.var/app/org.jdownloader.JDownloader/data/jdownloader/tmp/update/JDU/updatePackage (FileSize: 0|PackageSize:4676640)
+--ID:72TS:1768777085302-18/01/2026 23:58:05 -  [org.appwork.updatesys.client.UpdateClient(download)] -> Download Round:1|Try:0/26|Mirror:http://cdn7.appwork.org/JDU/18634/17678771710060ec140720547e12e2d07ed84abf8c89f_087b13355e5a7d45735fcdde96b46cae2d5162fdb-0|Priority:80
+--ID:72TS:1768777085302-18/01/2026 23:58:05 -  [org.appwork.updatesys.client.UpdateClient(download)] -> Size is 0. Full Download.
+------------------------Thread: 51:org.jdownloader.update.UpdateManager.log-----------------------
+--ID:51TS:1768777085302-18/01/2026 23:58:05 -  [org.appwork.updatesys.client.UpdateClient(download)] -> Download Round:1|Try:0/26|Mirror:http://cdn6.appwork.org/JD/18599/176787723383016efbc8fb92701d32b64defc3bcf5a41_0f9bf624aeed2c86df73e741adfa800381f645ad4-0|Priority:80
+--ID:51TS:1768777085302-18/01/2026 23:58:05 -  [org.appwork.updatesys.client.UpdateClient(download)] -> Size is 0. Full Download.
+------------------------Thread: 72:org.jdownloader.update.UpdateManager.log-----------------------
+--ID:72TS:1768777085305-18/01/2026 23:58:05 -  [org.appwork.updatesys.client.defaultimpl.http.HttpClientImpl(info)] -> GET http://cdn7.appwork.org/JDU/18634/17678771710060ec140720547e12e2d07ed84abf8c89f_087b13355e5a7d45735fcdde96b46cae2d5162fdb-0 via [Direct]
+------------------------Thread: 51:org.jdownloader.update.UpdateManager.log-----------------------
+--ID:51TS:1768777085305-18/01/2026 23:58:05 -  [org.appwork.updatesys.client.defaultimpl.http.HttpClientImpl(info)] -> GET http://cdn6.appwork.org/JD/18599/176787723383016efbc8fb92701d32b64defc3bcf5a41_0f9bf624aeed2c86df73e741adfa800381f645ad4-0 via [Direct]
+------------------------Thread: 72:org.jdownloader.update.UpdateManager.log-----------------------
+--ID:72TS:1768777085305-18/01/2026 23:58:05 -  [org.appwork.updatesys.client.defaultimpl.http.HttpClientImpl(internalDownloadWithProxy)] -> Try Proxy: Direct
+------------------------Thread: 51:org.jdownloader.update.UpdateManager.log-----------------------
+--ID:51TS:1768777085306-18/01/2026 23:58:05 -  [org.appwork.updatesys.client.defaultimpl.http.HttpClientImpl(internalDownloadWithProxy)] -> Try Proxy: Direct
+------------------------Thread: 72:org.jdownloader.update.UpdateManager.log-----------------------
+--ID:72TS:1768777085306-18/01/2026 23:58:05 -  [org.appwork.updatesys.client.defaultimpl.http.HttpClientImpl(info)] -> Download to /home/harry/.var/app/org.jdownloader.JDownloader/data/jdownloader/tmp/update/JDU/updatePackage Size before: 0 bytes
+------------------------Thread: 51:org.jdownloader.update.UpdateManager.log-----------------------
+--ID:51TS:1768777085306-18/01/2026 23:58:05 -  [org.appwork.updatesys.client.defaultimpl.http.HttpClientImpl(info)] -> Download to /home/harry/.var/app/org.jdownloader.JDownloader/data/jdownloader/tmp/update/JD/updatePackage Size before: 0 bytes
+------------------------Thread: 72:org.jdownloader.update.UpdateManager.log-----------------------
+--ID:72TS:1768777085396-18/01/2026 23:58:05 -  [org.appwork.updatesys.client.UpdateClient$11(onConnected)] -> CDNSignature:VALID (http://cdn7.appwork.org/JDU/18634/17678771710060ec140720547e12e2d07ed84abf8c89f_087b13355e5a7d45735fcdde96b46cae2d5162fdb-0)
+--ID:72TS:1768777086238-18/01/2026 23:58:06 -  [org.appwork.updatesys.client.defaultimpl.http.HttpBackend(log)] -> ----------------Request Information-------------
+URL: http://cdn7.appwork.org/JDU/18634/17678771710060ec140720547e12e2d07ed84abf8c89f_087b13355e5a7d45735fcdde96b46cae2d5162fdb-0
+ConnectIP: cdn7.appwork.org/2a01:4f8:202:3211:0:0:0:2:80
+Connection-Timeout: 20000ms
+Read-Timeout: 60000ms
+----------------Request-------------------------
+GET /JDU/18634/17678771710060ec140720547e12e2d07ed84abf8c89f_087b13355e5a7d45735fcdde96b46cae2d5162fdb-0 HTTP/1.1
+Host: cdn7.appwork.org
+Accept-Language: fr_FR
+User-Agent: JDownloader/201707061810
+Accept-Charset: ISO-8859-1,utf-8;q=0.7,*;q=0.3
+Connection: Close
+Cache-Control: no-cache, no-store
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Pragma: no-cache
+X-CDN-SIGNATURE-CHALLENGE: 62284ab41dd0488c3821a9535c116fee
+Accept-Encoding: identity
+----------------Response Information------------
+Connection-Time: 33ms
+Request-Time: 41ms
+----------------Response------------------------
+HTTP/1.1 200 OK
+Server: nginx/1.25.0
+Date: Sun, 18 Jan 2026 22:52:49 GMT
+Content-Type: application/octet-stream
+Content-Length: 4676640
+Connection: close
+Last-Modified: Thu, 08 Jan 2026 12:59:32 GMT
+ETag: "695faa34-475c20"
+X-Cache: HIT
+X-CDN: 49_0_4_45
+X-CDN-SIGNATURE: 62284ab41dd0488c3821a9535c116fee.Nanachi.62284ab41dd0488c3821a9535c116fee
+Accept-Ranges: bytes
+------------------------------------------------
+
+
+--ID:72TS:1768777086239-18/01/2026 23:58:06 -  [org.appwork.updatesys.client.defaultimpl.http.HttpClientImpl(info)] -> Connection ok. Downloaded /home/harry/.var/app/org.jdownloader.JDownloader/data/jdownloader/tmp/update/JDU/updatePackage: 4676640 bytes
+--ID:72TS:1768777086239-18/01/2026 23:58:06 -  [org.appwork.updatesys.client.UpdateClient(download)] -> local file seems to be finished (size check ok)
+--ID:72TS:1768777086239-18/01/2026 23:58:06 -  [org.appwork.updatesys.client.UpdateClient(download)] -> ... and hash is ok as well. perfect!
+------------------------Thread: 51:org.jdownloader.update.UpdateManager.log-----------------------
+--ID:51TS:1768777105402-18/01/2026 23:58:25 -  [org.appwork.updatesys.client.UpdateClient$11(onConnected)] -> CDNSignature:VALID (http://cdn6.appwork.org/JD/18599/176787723383016efbc8fb92701d32b64defc3bcf5a41_0f9bf624aeed2c86df73e741adfa800381f645ad4-0)
+--ID:51TS:1768777108238-18/01/2026 23:58:28 -  [org.appwork.updatesys.client.defaultimpl.http.HttpBackend(log)] -> ----------------Request Information-------------
+URL: http://cdn6.appwork.org/JD/18599/176787723383016efbc8fb92701d32b64defc3bcf5a41_0f9bf624aeed2c86df73e741adfa800381f645ad4-0
+ConnectIP: cdn6.appwork.org/176.9.43.113:80
+Connection-Timeout: 20000ms
+Read-Timeout: 60000ms
+----------------ConnectionExceptions-------------------------
+0:cdn6.appwork.org/[2a01:4f8:150:546a:0:0:0:2]:80|java.net.SocketTimeoutException(Connect timed out)
+----------------Request-------------------------
+GET /JD/18599/176787723383016efbc8fb92701d32b64defc3bcf5a41_0f9bf624aeed2c86df73e741adfa800381f645ad4-0 HTTP/1.1
+Host: cdn6.appwork.org
+Accept-Language: fr_FR
+User-Agent: JDownloader/201707061810
+Accept-Charset: ISO-8859-1,utf-8;q=0.7,*;q=0.3
+Connection: Close
+Cache-Control: no-cache, no-store
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Pragma: no-cache
+X-CDN-SIGNATURE-CHALLENGE: 699b47e520520e232d38e11888f31a84
+Accept-Encoding: identity
+----------------Response Information------------
+Connection-Time: 26ms
+Request-Time: 29ms
+----------------Response------------------------
+HTTP/1.1 200 OK
+Server: nginx/1.25.5
+Date: Sun, 18 Jan 2026 22:58:25 GMT
+Content-Type: application/octet-stream
+Content-Length: 45892256
+Connection: close
+Last-Modified: Thu, 08 Jan 2026 13:01:05 GMT
+ETag: "695faa91-2bc42a0"
+X-Cache: HIT
+X-CDN: 5_1_3_1
+X-CDN-SIGNATURE: 699b47e520520e232d38e11888f31a84.Nanachi.699b47e520520e232d38e11888f31a84
+Accept-Ranges: bytes
+------------------------------------------------
+
+
+--ID:51TS:1768777108238-18/01/2026 23:58:28 -  [org.appwork.updatesys.client.defaultimpl.http.HttpClientImpl(info)] -> Connection ok. Downloaded /home/harry/.var/app/org.jdownloader.JDownloader/data/jdownloader/tmp/update/JD/updatePackage: 45892256 bytes
+--ID:51TS:1768777108238-18/01/2026 23:58:28 -  [org.appwork.updatesys.client.UpdateClient(download)] -> local file seems to be finished (size check ok)
+--ID:51TS:1768777108238-18/01/2026 23:58:28 -  [org.appwork.updatesys.client.UpdateClient(download)] -> ... and hash is ok as well. perfect!
+--ID:51TS:1768777108243-18/01/2026 23:58:28 -  [org.appwork.updatesys.client.UpdateClient(runPackageInstallation)] -> run Package Installation /home/harry/.var/app/org.jdownloader.JDownloader/data/jdownloader/tmp/update/JDU/updatePackage is awf: false
+--ID:51TS:1768777108244-18/01/2026 23:58:28 -  [org.appwork.updatesys.client.UpdateClient(runDiskspaceCheck)] -> Run Diskspace Check: {=Required: 4,972 MB Changes: 4,972 MB}
+--ID:51TS:1768777108249-18/01/2026 23:58:28 -  [org.appwork.updatesys.client.FileList(<init>)] -> FileList at /home/harry/.var/app/org.jdownloader.JDownloader/data/jdownloader/update/versioninfo/JDU/filelist.txt Size: 0
+--ID:51TS:1768777108354-18/01/2026 23:58:28 -  [org.appwork.updatesys.client.UpdateClient(installPackage)] -> Entry:JDownloader.jar.updateSignature|Size:374
+--ID:51TS:1768777108355-18/01/2026 23:58:28 -  [org.appwork.updatesys.client.UpdateClient(installPackage)] -> Entry:JDownloader.jar|Size:5212998
+--ID:51TS:1768777108356-18/01/2026 23:58:28 -  [org.appwork.updatesys.client.UpdateClient(writeFile)] -> Install:writeFile|/home/harry/.var/app/org.jdownloader.JDownloader/data/jdownloader/tmp/update/self/JDU/JDownloader.jar
+--ID:51TS:1768777108691-18/01/2026 23:58:28 -  [org.appwork.updatesys.client.UpdateClient(setUpdateOptions)] -> [Update Client:JDU@update.jdownloader.org]:setUpdateOptions:null
+--ID:51TS:1768777108691-18/01/2026 23:58:28 -  [org.appwork.updatesys.client.UpdateClient(deletePackage)] -> runPackageInstallation /home/harry/.var/app/org.jdownloader.JDownloader/data/jdownloader/tmp/update/JDU/updatePackage errorFree, delete!
+--ID:51TS:1768777108694-18/01/2026 23:58:28 -  [org.appwork.updatesys.client.extensions.AbstractExtensionManager(runInstallation)] -> /root                                                                                                                            = null
+
+--ID:51TS:1768777108694-18/01/2026 23:58:28 -  [org.appwork.updatesys.client.extensions.AbstractExtensionManager(runInstallation)] -> Modified/Added ServerOptions: 
+{}
+--ID:51TS:1768777108694-18/01/2026 23:58:28 -  [org.appwork.updatesys.client.extensions.AbstractExtensionManager(runInstallation)] -> Removed ServerOptions: 
+{}
+--ID:51TS:1768777108697-18/01/2026 23:58:28 -  [org.appwork.updatesys.client.FileList(addFile)] -> add File/home/harry/.var/app/org.jdownloader.JDownloader/data/jdownloader/tmp/update/self/JDU/JDownloader.jar
+--ID:51TS:1768777108698-18/01/2026 23:58:28 -  [org.appwork.updatesys.client.FileList(init)] -> /home/harry/.var/app/org.jdownloader.JDownloader/data/jdownloader/update/versioninfo/JDU/filelist.txt does not exist
+--ID:51TS:1768777108698-18/01/2026 23:58:28 -  [org.appwork.updatesys.client.FileList(addFile)] -> add relativeJDownloader.jar
+--ID:51TS:1768777108698-18/01/2026 23:58:28 -  [org.appwork.updatesys.client.FileList(addFile)] ->  Create new Outputstream: /home/harry/.var/app/org.jdownloader.JDownloader/data/jdownloader/update/versioninfo/JDU/filelist.txt.tmp
+------------------------Thread: 74:org.jdownloader.update.UpdateManager.log-----------------------
+--ID:74TS:1768777108702-18/01/2026 23:58:28 -  [org.appwork.updatesys.client.FileList$3(execute)] -> Merged. diff size: 1
+--ID:74TS:1768777108703-18/01/2026 23:58:28 -  [org.appwork.updatesys.client.FileList$3(execute)] -> Merged. new listsize: 1
+------------------------Thread: 51:org.jdownloader.update.UpdateManager.log-----------------------
+--ID:51TS:1768777108703-18/01/2026 23:58:28 -  [org.jdownloader.update.RevFile(write)] -> Write /home/harry/.var/app/org.jdownloader.JDownloader/data/jdownloader/tmp/update/self/JDU/rev: 18634
+--ID:51TS:1768777108705-18/01/2026 23:58:28 -  [org.jdownloader.update.SelfUpdateClient(writeInstallLog)] -> Write LogFile: /home/harry/.var/app/org.jdownloader.JDownloader/data/jdownloader/tmp/update/self/JDU/self_-1_to_18634.log
+--ID:51TS:1768777108705-18/01/2026 23:58:28 -  [org.jdownloader.update.SelfUpdateClient(writeInstallLog)] -> JDownloader.jar
+--ID:51TS:1768777108705-18/01/2026 23:58:28 -  [org.jdownloader.update.DefaultCallbackHandler(onResults)] -> OnResult
+--ID:51TS:1768777108705-18/01/2026 23:58:28 -  [org.jdownloader.update.DefaultCallbackHandler(onResults)] -> Confirmed: false
+--ID:51TS:1768777108706-18/01/2026 23:58:28 -  [org.jdownloader.update.DefaultCallbackHandler(onResults)] -> Selfupdate
+--ID:51TS:1768777108707-18/01/2026 23:58:28 -  [org.jdownloader.update.SelfUpdateClient(move)] -> Copy from src:/home/harry/.var/app/org.jdownloader.JDownloader/data/jdownloader/cfg/org.jdownloader.settings.InternetConnectionSettings.json -> dest:/home/harry/.var/app/org.jdownloader.JDownloader/data/jdownloader/tmp/update/self/JDU/cfg/org.jdownloader.settings.InternetConnectionSettings.json
+--ID:51TS:1768777108707-18/01/2026 23:58:28 -  [org.jdownloader.update.SelfUpdateClient(move)] -> File exists: true 89 bytes - /home/harry/.var/app/org.jdownloader.JDownloader/data/jdownloader/tmp/update/self/JDU/cfg/org.jdownloader.settings.InternetConnectionSettings.json
+--ID:51TS:1768777108707-18/01/2026 23:58:28 -  [org.jdownloader.update.SelfUpdateClient(move)] -> Copy from src:/home/harry/.var/app/org.jdownloader.JDownloader/data/jdownloader/cfg/org.jdownloader.settings.InternetConnectionSettings.customproxylist.json -> dest:/home/harry/.var/app/org.jdownloader.JDownloader/data/jdownloader/tmp/update/self/JDU/cfg/org.jdownloader.settings.InternetConnectionSettings.customproxylist.json
+--ID:51TS:1768777108707-18/01/2026 23:58:28 -  [org.jdownloader.update.SelfUpdateClient(move)] -> File exists: true 4 bytes - /home/harry/.var/app/org.jdownloader.JDownloader/data/jdownloader/tmp/update/self/JDU/cfg/org.jdownloader.settings.InternetConnectionSettings.customproxylist.json
+--ID:51TS:1768777108707-18/01/2026 23:58:28 -  [org.jdownloader.update.SelfUpdateClient(finishSelfUpdate)] -> Call [/app/jre/bin/java, -jar, /home/harry/.var/app/org.jdownloader.JDownloader/data/jdownloader/tmp/update/self/JDU/JDownloader.jar, -selftest, tmp/selftest_1768777108706, /home/harry/.var/app/org.jdownloader.JDownloader/data/jdownloader] in /home/harry/.var/app/org.jdownloader.JDownloader/data/jdownloader
+--ID:51TS:1768777108707-18/01/2026 23:58:28 -  [org.jdownloader.update.SelfUpdateClient(finishSelfUpdate)] -> /app/jre/bin/java
+--ID:51TS:1768777108707-18/01/2026 23:58:28 -  [org.jdownloader.update.SelfUpdateClient(finishSelfUpdate)] -> -jar
+--ID:51TS:1768777108707-18/01/2026 23:58:28 -  [org.jdownloader.update.SelfUpdateClient(finishSelfUpdate)] -> /home/harry/.var/app/org.jdownloader.JDownloader/data/jdownloader/tmp/update/self/JDU/JDownloader.jar
+--ID:51TS:1768777108707-18/01/2026 23:58:28 -  [org.jdownloader.update.SelfUpdateClient(finishSelfUpdate)] -> -selftest
+--ID:51TS:1768777108707-18/01/2026 23:58:28 -  [org.jdownloader.update.SelfUpdateClient(finishSelfUpdate)] -> tmp/selftest_1768777108706
+--ID:51TS:1768777108707-18/01/2026 23:58:28 -  [org.jdownloader.update.SelfUpdateClient(finishSelfUpdate)] -> /home/harry/.var/app/org.jdownloader.JDownloader/data/jdownloader
+--ID:51TS:1768777108708-18/01/2026 23:58:28 -  [org.jdownloader.update.DefaultCallbackHandler(runExeAsynch)] -> Call: [/app/jre/bin/java, -jar, /home/harry/.var/app/org.jdownloader.JDownloader/data/jdownloader/tmp/update/self/JDU/JDownloader.jar, -selftest, tmp/selftest_1768777108706, /home/harry/.var/app/org.jdownloader.JDownloader/data/jdownloader, -] in /home/harry/.var/app/org.jdownloader.JDownloader/data/jdownloader
+------------------------Thread: 77:org.jdownloader.update.UpdateManager.log-----------------------
+--ID:77TS:1768777108851-18/01/2026 23:58:28 -  [org.appwork.utils.logging2.InputStreamLogger(readInputStreamToString)] -> INFO >> CFG File does not exist: /home/harry/.var/app/org.jdownloader.JDownloader/data/jdownloader/tmp/update/self/JDU/cfg/org.appwork.utils.logging2.LogConfig.json
+------------------------Thread: 76:org.jdownloader.update.UpdateManager.log-----------------------
+--ID:76TS:1768777108895-18/01/2026 23:58:28 -  [org.appwork.utils.logging2.InputStreamLogger(readInputStreamToString)] -> 
+--ID:76TS:1768777108896-18/01/2026 23:58:28 -  [org.appwork.utils.logging2.InputStreamLogger(readInputStreamToString)] -> THREAD: 3
+--ID:76TS:1768777108896-18/01/2026 23:58:28 -  [org.appwork.utils.logging2.InputStreamLogger(readInputStreamToString)] -> 3|Log.L.log 2026-01-18 23:58:28 - INFO [ org.appwork.builddecision.BuildDecisions(status) ] -> ClassPath: /home/harry/.var/app/org.jdownloader.JDownloader/data/jdownloader/tmp/update/self/JDU/JDownloader.jar
+--ID:76TS:1768777108896-18/01/2026 23:58:28 -  [org.appwork.utils.logging2.InputStreamLogger(readInputStreamToString)] -> 3|Log.L.log 2026-01-18 23:58:28 - INFO [ org.appwork.builddecision.BuildDecisions(status) ] ->            Manifest-Version: 1.0
+--ID:76TS:1768777108896-18/01/2026 23:58:28 -  [org.appwork.utils.logging2.InputStreamLogger(readInputStreamToString)] -> 3|Log.L.log 2026-01-18 23:58:28 - INFO [ org.appwork.builddecision.BuildDecisions(status) ] ->            Ant-Version: Apache Ant 1.10.5
+--ID:76TS:1768777108896-18/01/2026 23:58:28 -  [org.appwork.utils.logging2.InputStreamLogger(readInputStreamToString)] -> 3|Log.L.log 2026-01-18 23:58:28 - INFO [ org.appwork.builddecision.BuildDecisions(status) ] ->            Created-By: Appwork GmbH and JDownloader Community
+--ID:76TS:1768777108896-18/01/2026 23:58:28 -  [org.appwork.utils.logging2.InputStreamLogger(readInputStreamToString)] -> 3|Log.L.log 2026-01-18 23:58:28 - INFO [ org.appwork.builddecision.BuildDecisions(status) ] ->            Main-Class: org.jdownloader.update.launcher.JDLauncher
+--ID:76TS:1768777108897-18/01/2026 23:58:28 -  [org.appwork.utils.logging2.InputStreamLogger(readInputStreamToString)] -> 3|Log.L.log 2026-01-18 23:58:28 - INFO [ org.appwork.builddecision.BuildDecisions(status) ] ->            Add-Exports: java.desktop/sun.swing java.desktop/sun.swing.table java.desktop/sun.swing.plaf.synth java.desktop/com.sun.java.swing.plaf.windows java.desktop/sun.awt.shell java.desktop/com.sun.awt java.base/sun.security.action
+--ID:76TS:1768777108897-18/01/2026 23:58:28 -  [org.appwork.utils.logging2.InputStreamLogger(readInputStreamToString)] -> 3|Log.L.log 2026-01-18 23:58:28 - INFO [ org.appwork.builddecision.BuildDecisions(status) ] ->            Add-Opens: java.desktop/javax.swing.plaf.synth java.desktop/javax.swing.plaf.basic java.desktop/javax.swing java.desktop/javax.swing.tree java.desktop/java.awt.event
+--ID:76TS:1768777108897-18/01/2026 23:58:28 -  [org.appwork.utils.logging2.InputStreamLogger(readInputStreamToString)] -> 3|Log.L.log 2026-01-18 23:58:28 - INFO [ org.appwork.loggingv3.LogV3(info) ] -> Application Root: /home/harry/.var/app/org.jdownloader.JDownloader/data/jdownloader/tmp/update/self/JDU
+------------------------Thread: 77:org.jdownloader.update.UpdateManager.log-----------------------
+--ID:77TS:1768777108906-18/01/2026 23:58:28 -  [org.appwork.utils.logging2.InputStreamLogger(readInputStreamToString)] -> Multiple LogControllers Detected: org.appwork.utils.logging2.extmanager.LoggerFactory|Mode:NORMAL
+--ID:77TS:1768777108906-18/01/2026 23:58:28 -  [org.appwork.utils.logging2.InputStreamLogger(readInputStreamToString)] -> Multiple LogControllers Detected: org.jdownloader.logging.LogController|org.jdownloader.logging.LogController@735b5592
+------------------------Thread: 76:org.jdownloader.update.UpdateManager.log-----------------------
+--ID:76TS:1768777108908-18/01/2026 23:58:28 -  [org.appwork.utils.logging2.InputStreamLogger(readInputStreamToString)] -> 3|Log.L.log 2026-01-18 23:58:28 - INFO [ org.appwork.storage.JsonKeyValueStorage(<init>) ] -> CFG File does not exist: /home/harry/.var/app/org.jdownloader.JDownloader/data/jdownloader/tmp/update/self/JDU/cfg/org.jdownloader.update.lastchance.LastChanceConfig.json
+--ID:76TS:1768777108917-18/01/2026 23:58:28 -  [org.appwork.utils.logging2.InputStreamLogger(readInputStreamToString)] -> 
+--ID:76TS:1768777108917-18/01/2026 23:58:28 -  [org.appwork.utils.logging2.InputStreamLogger(readInputStreamToString)] -> THREAD: 3
+--ID:76TS:1768777108917-18/01/2026 23:58:28 -  [org.appwork.utils.logging2.InputStreamLogger(readInputStreamToString)] -> 3|org.jdownloader.update.launcher.SecondLevelLauncher.log 2026-01-18 23:58:28 - INFO [ org.appwork.utils.Application(printSystemProperties) ] -> SysProp: java.specification.version: 24
+--ID:76TS:1768777108917-18/01/2026 23:58:28 -  [org.appwork.utils.logging2.InputStreamLogger(readInputStreamToString)] -> 3|org.jdownloader.update.launcher.SecondLevelLauncher.log 2026-01-18 23:58:28 - INFO [ org.appwork.utils.Application(printSystemProperties) ] -> SysProp: classloader_00000001: org.jdownloader.update.launcher.CL2
+--ID:76TS:1768777108917-18/01/2026 23:58:28 -  [org.appwork.utils.logging2.InputStreamLogger(readInputStreamToString)] -> 3|org.jdownloader.update.launcher.SecondLevelLauncher.log 2026-01-18 23:58:28 - INFO [ org.appwork.utils.Application(printSystemProperties) ] -> SysProp: sun.jnu.encoding: UTF-8
+--ID:76TS:1768777108917-18/01/2026 23:58:28 -  [org.appwork.utils.logging2.InputStreamLogger(readInputStreamToString)] -> 3|org.jdownloader.update.launcher.SecondLevelLauncher.log 2026-01-18 23:58:28 - INFO [ org.appwork.utils.Application(printSystemProperties) ] -> SysProp: classloader_00000000: org.jdownloader.update.launcher.ClassLoaderExtensionImpl
+--ID:76TS:1768777108917-18/01/2026 23:58:28 -  [org.appwork.utils.logging2.InputStreamLogger(readInputStreamToString)] -> 3|org.jdownloader.update.launcher.SecondLevelLauncher.log 2026-01-18 23:58:28 - INFO [ org.appwork.utils.Application(printSystemProperties) ] -> SysProp: extlogmanager.avoidsystemclassloader.hack: org.jdownloader.updatev2.JDClassLoaderLauncher$JDCustomRootClassLoader@266474c2
+--ID:76TS:1768777108917-18/01/2026 23:58:28 -  [org.appwork.utils.logging2.InputStreamLogger(readInputStreamToString)] -> 3|org.jdownloader.update.launcher.SecondLevelLauncher.log 2026-01-18 23:58:28 - INFO [ org.appwork.utils.Application(printSystemProperties) ] -> SysProp: java.class.path: /home/harry/.var/app/org.jdownloader.JDownloader/data/jdownloader/tmp/update/self/JDU/JDownloader.jar
+--ID:76TS:1768777108918-18/01/2026 23:58:28 -  [org.appwork.utils.logging2.InputStreamLogger(readInputStreamToString)] -> 3|org.jdownloader.update.launcher.SecondLevelLauncher.log 2026-01-18 23:58:28 - INFO [ org.appwork.utils.Application(printSystemProperties) ] -> SysProp: java.vm.vendor: Flathub
+--ID:76TS:1768777108918-18/01/2026 23:58:28 -  [org.appwork.utils.logging2.InputStreamLogger(readInputStreamToString)] -> 3|org.jdownloader.update.launcher.SecondLevelLauncher.log 2026-01-18 23:58:28 - INFO [ org.appwork.utils.Application(printSystemProperties) ] -> SysProp: sun.arch.data.model: 64
+--ID:76TS:1768777108918-18/01/2026 23:58:28 -  [org.appwork.utils.logging2.InputStreamLogger(readInputStreamToString)] -> 3|org.jdownloader.update.launcher.SecondLevelLauncher.log 2026-01-18 23:58:28 - INFO [ org.appwork.utils.Application(printSystemProperties) ] -> SysProp: java.util.Arrays.useLegacyMergeSort: true
+--ID:76TS:1768777108918-18/01/2026 23:58:28 -  [org.appwork.utils.logging2.InputStreamLogger(readInputStreamToString)] -> 3|org.jdownloader.update.launcher.SecondLevelLauncher.log 2026-01-18 23:58:28 - INFO [ org.appwork.utils.Application(printSystemProperties) ] -> SysProp: java.vendor.url: https://flathub.org
+--ID:76TS:1768777108918-18/01/2026 23:58:28 -  [org.appwork.utils.logging2.InputStreamLogger(readInputStreamToString)] -> 3|org.jdownloader.update.launcher.SecondLevelLauncher.log 2026-01-18 23:58:28 - INFO [ org.appwork.utils.Application(printSystemProperties) ] -> SysProp: user.timezone: Europe/Paris
+--ID:76TS:1768777108918-18/01/2026 23:58:28 -  [org.appwork.utils.logging2.InputStreamLogger(readInputStreamToString)] -> 3|org.jdownloader.update.launcher.SecondLevelLauncher.log 2026-01-18 23:58:28 - INFO [ org.appwork.utils.Application(printSystemProperties) ] -> SysProp: java.vm.specification.version: 24
+--ID:76TS:1768777108919-18/01/2026 23:58:28 -  [org.appwork.utils.logging2.InputStreamLogger(readInputStreamToString)] -> 3|org.jdownloader.update.launcher.SecondLevelLauncher.log 2026-01-18 23:58:28 - INFO [ org.appwork.utils.Application(printSystemProperties) ] -> SysProp: os.name: Linux
+--ID:76TS:1768777108919-18/01/2026 23:58:28 -  [org.appwork.utils.logging2.InputStreamLogger(readInputStreamToString)] -> 3|org.jdownloader.update.launcher.SecondLevelLauncher.log 2026-01-18 23:58:28 - INFO [ org.appwork.utils.Application(printSystemProperties) ] -> SysProp: sun.java.launcher: SUN_STANDARD
+--ID:76TS:1768777108919-18/01/2026 23:58:28 -  [org.appwork.utils.logging2.InputStreamLogger(readInputStreamToString)] -> 3|org.jdownloader.update.launcher.SecondLevelLauncher.log 2026-01-18 23:58:28 - INFO [ org.appwork.utils.Application(printSystemProperties) ] -> SysProp: user.country: FR
+--ID:76TS:1768777108919-18/01/2026 23:58:28 -  [org.appwork.utils.logging2.InputStreamLogger(readInputStreamToString)] -> 3|org.jdownloader.update.launcher.SecondLevelLauncher.log 2026-01-18 23:58:28 - INFO [ org.appwork.utils.Application(printSystemProperties) ] -> SysProp: java.net.preferIPv6Addresses: system
+--ID:76TS:1768777108919-18/01/2026 23:58:28 -  [org.appwork.utils.logging2.InputStreamLogger(readInputStreamToString)] -> 3|org.jdownloader.update.launcher.SecondLevelLauncher.log 2026-01-18 23:58:28 - INFO [ org.appwork.utils.Application(printSystemProperties) ] -> SysProp: sun.boot.library.path: /app/jre/lib
+--ID:76TS:1768777108919-18/01/2026 23:58:28 -  [org.appwork.utils.logging2.InputStreamLogger(readInputStreamToString)] -> 3|org.jdownloader.update.launcher.SecondLevelLauncher.log 2026-01-18 23:58:28 - INFO [ org.appwork.utils.Application(printSystemProperties) ] -> SysProp: sun.java.command: /home/harry/.var/app/org.jdownloader.JDownloader/data/jdownloader/tmp/update/self/JDU/JDownloader.jar -selftest tmp/selftest_1768777108706 /home/harry/.var/app/org.jdownloader.JDownloader/data/jdownloader -
+--ID:76TS:1768777108919-18/01/2026 23:58:28 -  [org.appwork.utils.logging2.InputStreamLogger(readInputStreamToString)] -> 3|org.jdownloader.update.launcher.SecondLevelLauncher.log 2026-01-18 23:58:28 - INFO [ org.appwork.utils.Application(printSystemProperties) ] -> SysProp: java.rmi.server.useCodebaseOnly: true
+--ID:76TS:1768777108919-18/01/2026 23:58:28 -  [org.appwork.utils.logging2.InputStreamLogger(readInputStreamToString)] -> 3|org.jdownloader.update.launcher.SecondLevelLauncher.log 2026-01-18 23:58:28 - INFO [ org.appwork.utils.Application(printSystemProperties) ] -> SysProp: jdk.debug: release
+--ID:76TS:1768777108920-18/01/2026 23:58:28 -  [org.appwork.utils.logging2.InputStreamLogger(readInputStreamToString)] -> 3|org.jdownloader.update.launcher.SecondLevelLauncher.log 2026-01-18 23:58:28 - INFO [ org.appwork.utils.Application(printSystemProperties) ] -> SysProp: sun.cpu.endian: little
+--ID:76TS:1768777108920-18/01/2026 23:58:28 -  [org.appwork.utils.logging2.InputStreamLogger(readInputStreamToString)] -> 3|org.jdownloader.update.launcher.SecondLevelLauncher.log 2026-01-18 23:58:28 - INFO [ org.appwork.utils.Application(printSystemProperties) ] -> SysProp: user.home: /home/harry
+--ID:76TS:1768777108920-18/01/2026 23:58:28 -  [org.appwork.utils.logging2.InputStreamLogger(readInputStreamToString)] -> 3|org.jdownloader.update.launcher.SecondLevelLauncher.log 2026-01-18 23:58:28 - INFO [ org.appwork.utils.Application(printSystemProperties) ] -> SysProp: user.language: fr
+--ID:76TS:1768777108920-18/01/2026 23:58:28 -  [org.appwork.utils.logging2.InputStreamLogger(readInputStreamToString)] -> 3|org.jdownloader.update.launcher.SecondLevelLauncher.log 2026-01-18 23:58:28 - INFO [ org.appwork.utils.Application(printSystemProperties) ] -> SysProp: LOG_INIT_DONE: 2 instances
+--ID:76TS:1768777108920-18/01/2026 23:58:28 -  [org.appwork.utils.logging2.InputStreamLogger(readInputStreamToString)] -> 3|org.jdownloader.update.launcher.SecondLevelLauncher.log 2026-01-18 23:58:28 - INFO [ org.appwork.utils.Application(printSystemProperties) ] -> SysProp: java.specification.vendor: Oracle Corporation
+--ID:76TS:1768777108920-18/01/2026 23:58:28 -  [org.appwork.utils.logging2.InputStreamLogger(readInputStreamToString)] -> 3|org.jdownloader.update.launcher.SecondLevelLauncher.log 2026-01-18 23:58:28 - INFO [ org.appwork.utils.Application(printSystemProperties) ] -> SysProp: java.version.date: 2025-07-15
+--ID:76TS:1768777108920-18/01/2026 23:58:28 -  [org.appwork.utils.logging2.InputStreamLogger(readInputStreamToString)] -> 3|org.jdownloader.update.launcher.SecondLevelLauncher.log 2026-01-18 23:58:28 - INFO [ org.appwork.utils.Application(printSystemProperties) ] -> SysProp: java.home: /app/jre
+--ID:76TS:1768777108920-18/01/2026 23:58:28 -  [org.appwork.utils.logging2.InputStreamLogger(readInputStreamToString)] -> 3|org.jdownloader.update.launcher.SecondLevelLauncher.log 2026-01-18 23:58:28 - INFO [ org.appwork.utils.Application(printSystemProperties) ] -> SysProp: file.separator: /
+--ID:76TS:1768777108921-18/01/2026 23:58:28 -  [org.appwork.utils.logging2.InputStreamLogger(readInputStreamToString)] -> 3|org.jdownloader.update.launcher.SecondLevelLauncher.log 2026-01-18 23:58:28 - INFO [ org.appwork.utils.Application(printSystemProperties) ] -> SysProp: java.vm.compressedOopsMode: Zero based
+--ID:76TS:1768777108921-18/01/2026 23:58:28 -  [org.appwork.utils.logging2.InputStreamLogger(readInputStreamToString)] -> 3|org.jdownloader.update.launcher.SecondLevelLauncher.log 2026-01-18 23:58:28 - INFO [ org.appwork.utils.Application(printSystemProperties) ] -> SysProp: line.separator: 
+--ID:76TS:1768777108921-18/01/2026 23:58:28 -  [org.appwork.utils.logging2.InputStreamLogger(readInputStreamToString)] -> 
+--ID:76TS:1768777108921-18/01/2026 23:58:28 -  [org.appwork.utils.logging2.InputStreamLogger(readInputStreamToString)] -> 3|org.jdownloader.update.launcher.SecondLevelLauncher.log 2026-01-18 23:58:28 - INFO [ org.appwork.utils.Application(printSystemProperties) ] -> SysProp: java.vm.specification.vendor: Oracle Corporation
+--ID:76TS:1768777108921-18/01/2026 23:58:28 -  [org.appwork.utils.logging2.InputStreamLogger(readInputStreamToString)] -> 3|org.jdownloader.update.launcher.SecondLevelLauncher.log 2026-01-18 23:58:28 - INFO [ org.appwork.utils.Application(printSystemProperties) ] -> SysProp: java.specification.name: Java Platform API Specification
+--ID:76TS:1768777108921-18/01/2026 23:58:28 -  [org.appwork.utils.logging2.InputStreamLogger(readInputStreamToString)] -> 3|org.jdownloader.update.launcher.SecondLevelLauncher.log 2026-01-18 23:58:28 - INFO [ org.appwork.utils.Application(printSystemProperties) ] -> SysProp: org.appwork.LoggerFactory: org.appwork.utils.logging2.LogSourceRedirector
+--ID:76TS:1768777108921-18/01/2026 23:58:28 -  [org.appwork.utils.logging2.InputStreamLogger(readInputStreamToString)] -> 3|org.jdownloader.update.launcher.SecondLevelLauncher.log 2026-01-18 23:58:28 - INFO [ org.appwork.utils.Application(printSystemProperties) ] -> SysProp: sun.management.compiler: HotSpot 64-Bit Tiered Compilers
+--ID:76TS:1768777108921-18/01/2026 23:58:28 -  [org.appwork.utils.logging2.InputStreamLogger(readInputStreamToString)] -> 3|org.jdownloader.update.launcher.SecondLevelLauncher.log 2026-01-18 23:58:28 - INFO [ org.appwork.utils.Application(printSystemProperties) ] -> SysProp: com.sun.jndi.rmi.object.trustURLCodebase: false
+--ID:76TS:1768777108922-18/01/2026 23:58:28 -  [org.appwork.utils.logging2.InputStreamLogger(readInputStreamToString)] -> 3|org.jdownloader.update.launcher.SecondLevelLauncher.log 2026-01-18 23:58:28 - INFO [ org.appwork.utils.Application(printSystemProperties) ] -> SysProp: java.runtime.version: 24.0.2+12
+--ID:76TS:1768777108922-18/01/2026 23:58:28 -  [org.appwork.utils.logging2.InputStreamLogger(readInputStreamToString)] -> 3|org.jdownloader.update.launcher.SecondLevelLauncher.log 2026-01-18 23:58:28 - INFO [ org.appwork.utils.Application(printSystemProperties) ] -> SysProp: user.name: harry
+--ID:76TS:1768777108922-18/01/2026 23:58:28 -  [org.appwork.utils.logging2.InputStreamLogger(readInputStreamToString)] -> 3|org.jdownloader.update.launcher.SecondLevelLauncher.log 2026-01-18 23:58:28 - INFO [ org.appwork.utils.Application(printSystemProperties) ] -> SysProp: stdout.encoding: UTF-8
+--ID:76TS:1768777108922-18/01/2026 23:58:28 -  [org.appwork.utils.logging2.InputStreamLogger(readInputStreamToString)] -> 3|org.jdownloader.update.launcher.SecondLevelLauncher.log 2026-01-18 23:58:28 - INFO [ org.appwork.utils.Application(printSystemProperties) ] -> SysProp: path.separator: :
+--ID:76TS:1768777108922-18/01/2026 23:58:28 -  [org.appwork.utils.logging2.InputStreamLogger(readInputStreamToString)] -> 3|org.jdownloader.update.launcher.SecondLevelLauncher.log 2026-01-18 23:58:28 - INFO [ org.appwork.utils.Application(printSystemProperties) ] -> SysProp: com.sun.jndi.cosnaming.object.trustURLCodebase: false
+--ID:76TS:1768777108922-18/01/2026 23:58:28 -  [org.appwork.utils.logging2.InputStreamLogger(readInputStreamToString)] -> 3|org.jdownloader.update.launcher.SecondLevelLauncher.log 2026-01-18 23:58:28 - INFO [ org.appwork.utils.Application(printSystemProperties) ] -> SysProp: os.version: 6.14.0-37-generic
+--ID:76TS:1768777108922-18/01/2026 23:58:28 -  [org.appwork.utils.logging2.InputStreamLogger(readInputStreamToString)] -> 3|org.jdownloader.update.launcher.SecondLevelLauncher.log 2026-01-18 23:58:28 - INFO [ org.appwork.utils.Application(printSystemProperties) ] -> SysProp: java.runtime.name: OpenJDK Runtime Environment
+--ID:76TS:1768777108923-18/01/2026 23:58:28 -  [org.appwork.utils.logging2.InputStreamLogger(readInputStreamToString)] -> 3|org.jdownloader.update.launcher.SecondLevelLauncher.log 2026-01-18 23:58:28 - INFO [ org.appwork.utils.Application(printSystemProperties) ] -> SysProp: file.encoding: UTF-8
+--ID:76TS:1768777108923-18/01/2026 23:58:28 -  [org.appwork.utils.logging2.InputStreamLogger(readInputStreamToString)] -> 3|org.jdownloader.update.launcher.SecondLevelLauncher.log 2026-01-18 23:58:28 - INFO [ org.appwork.utils.Application(printSystemProperties) ] -> SysProp: java.vm.name: OpenJDK 64-Bit Server VM
+--ID:76TS:1768777108923-18/01/2026 23:58:28 -  [org.appwork.utils.logging2.InputStreamLogger(readInputStreamToString)] -> 3|org.jdownloader.update.launcher.SecondLevelLauncher.log 2026-01-18 23:58:28 - INFO [ org.appwork.utils.Application(printSystemProperties) ] -> SysProp: java.vendor.version: 25.8
+--ID:76TS:1768777108923-18/01/2026 23:58:28 -  [org.appwork.utils.logging2.InputStreamLogger(readInputStreamToString)] -> 3|org.jdownloader.update.launcher.SecondLevelLauncher.log 2026-01-18 23:58:28 - INFO [ org.appwork.utils.Application(printSystemProperties) ] -> SysProp: java.vendor.url.bug: https://github.com/flathub/org.freedesktop.Sdk.Extension.openjdk/issues
+--ID:76TS:1768777108923-18/01/2026 23:58:28 -  [org.appwork.utils.logging2.InputStreamLogger(readInputStreamToString)] -> 3|org.jdownloader.update.launcher.SecondLevelLauncher.log 2026-01-18 23:58:28 - INFO [ org.appwork.utils.Application(printSystemProperties) ] -> SysProp: java.io.tmpdir: /tmp
+--ID:76TS:1768777108923-18/01/2026 23:58:28 -  [org.appwork.utils.logging2.InputStreamLogger(readInputStreamToString)] -> 3|org.jdownloader.update.launcher.SecondLevelLauncher.log 2026-01-18 23:58:28 - INFO [ org.appwork.utils.Application(printSystemProperties) ] -> SysProp: java.version: 24.0.2
+--ID:76TS:1768777108923-18/01/2026 23:58:28 -  [org.appwork.utils.logging2.InputStreamLogger(readInputStreamToString)] -> 3|org.jdownloader.update.launcher.SecondLevelLauncher.log 2026-01-18 23:58:28 - INFO [ org.appwork.utils.Application(printSystemProperties) ] -> SysProp: user.dir: /home/harry/.var/app/org.jdownloader.JDownloader/data/jdownloader
+--ID:76TS:1768777108923-18/01/2026 23:58:28 -  [org.appwork.utils.logging2.InputStreamLogger(readInputStreamToString)] -> 3|org.jdownloader.update.launcher.SecondLevelLauncher.log 2026-01-18 23:58:28 - INFO [ org.appwork.utils.Application(printSystemProperties) ] -> SysProp: os.arch: amd64
+--ID:76TS:1768777108923-18/01/2026 23:58:28 -  [org.appwork.utils.logging2.InputStreamLogger(readInputStreamToString)] -> 3|org.jdownloader.update.launcher.SecondLevelLauncher.log 2026-01-18 23:58:28 - INFO [ org.appwork.utils.Application(printSystemProperties) ] -> SysProp: java.vm.specification.name: Java Virtual Machine Specification
+--ID:76TS:1768777108924-18/01/2026 23:58:28 -  [org.appwork.utils.logging2.InputStreamLogger(readInputStreamToString)] -> 3|org.jdownloader.update.launcher.SecondLevelLauncher.log 2026-01-18 23:58:28 - INFO [ org.appwork.utils.Application(printSystemProperties) ] -> SysProp: k: 0dd0ecf7f742873d745106adea00b64a
+--ID:76TS:1768777108924-18/01/2026 23:58:28 -  [org.appwork.utils.logging2.InputStreamLogger(readInputStreamToString)] -> 3|org.jdownloader.update.launcher.SecondLevelLauncher.log 2026-01-18 23:58:28 - INFO [ org.appwork.utils.Application(printSystemProperties) ] -> SysProp: native.encoding: UTF-8
+--ID:76TS:1768777108924-18/01/2026 23:58:28 -  [org.appwork.utils.logging2.InputStreamLogger(readInputStreamToString)] -> 3|org.jdownloader.update.launcher.SecondLevelLauncher.log 2026-01-18 23:58:28 - INFO [ org.appwork.utils.Application(printSystemProperties) ] -> SysProp: java.util.logging.manager: org.appwork.utils.logging2.extmanager.ExtLogManager
+--ID:76TS:1768777108924-18/01/2026 23:58:28 -  [org.appwork.utils.logging2.InputStreamLogger(readInputStreamToString)] -> 3|org.jdownloader.update.launcher.SecondLevelLauncher.log 2026-01-18 23:58:28 - INFO [ org.appwork.utils.Application(printSystemProperties) ] -> SysProp: java.library.path: :/usr/java/packages/lib:/usr/lib64:/lib64:/lib:/usr/lib
+--ID:76TS:1768777108924-18/01/2026 23:58:28 -  [org.appwork.utils.logging2.InputStreamLogger(readInputStreamToString)] -> 3|org.jdownloader.update.launcher.SecondLevelLauncher.log 2026-01-18 23:58:28 - INFO [ org.appwork.utils.Application(printSystemProperties) ] -> SysProp: java.vm.info: mixed mode, sharing
+--ID:76TS:1768777108924-18/01/2026 23:58:28 -  [org.appwork.utils.logging2.InputStreamLogger(readInputStreamToString)] -> 3|org.jdownloader.update.launcher.SecondLevelLauncher.log 2026-01-18 23:58:28 - INFO [ org.appwork.utils.Application(printSystemProperties) ] -> SysProp: stderr.encoding: UTF-8
+--ID:76TS:1768777108925-18/01/2026 23:58:28 -  [org.appwork.utils.logging2.InputStreamLogger(readInputStreamToString)] -> 3|org.jdownloader.update.launcher.SecondLevelLauncher.log 2026-01-18 23:58:28 - INFO [ org.appwork.utils.Application(printSystemProperties) ] -> SysProp: java.vendor: Flathub
+--ID:76TS:1768777108925-18/01/2026 23:58:28 -  [org.appwork.utils.logging2.InputStreamLogger(readInputStreamToString)] -> 3|org.jdownloader.update.launcher.SecondLevelLauncher.log 2026-01-18 23:58:28 - INFO [ org.appwork.utils.Application(printSystemProperties) ] -> SysProp: java.vm.version: 24.0.2+12
+--ID:76TS:1768777108925-18/01/2026 23:58:28 -  [org.appwork.utils.logging2.InputStreamLogger(readInputStreamToString)] -> 3|org.jdownloader.update.launcher.SecondLevelLauncher.log 2026-01-18 23:58:28 - INFO [ org.appwork.utils.Application(printSystemProperties) ] -> SysProp: com.sun.jndi.ldap.object.trustURLCodebase: false
+--ID:76TS:1768777108925-18/01/2026 23:58:28 -  [org.appwork.utils.logging2.InputStreamLogger(readInputStreamToString)] -> 3|org.jdownloader.update.launcher.SecondLevelLauncher.log 2026-01-18 23:58:28 - INFO [ org.appwork.utils.Application(printSystemProperties) ] -> SysProp: sun.io.unicode.encoding: UnicodeLittle
+--ID:76TS:1768777108925-18/01/2026 23:58:28 -  [org.appwork.utils.logging2.InputStreamLogger(readInputStreamToString)] -> 3|org.jdownloader.update.launcher.SecondLevelLauncher.log 2026-01-18 23:58:28 - INFO [ org.appwork.utils.Application(printSystemProperties) ] -> SysProp: java.class.version: 68.0
+--ID:76TS:1768777108925-18/01/2026 23:58:28 -  [org.appwork.utils.logging2.InputStreamLogger(readInputStreamToString)] -> 3|org.jdownloader.update.launcher.SecondLevelLauncher.log 2026-01-18 23:58:28 - INFO [ org.appwork.utils.Application(printSystemProperties) ] -> SysEnv: XDG_GREETER_DATA_DIR: /var/lib/lightdm-data/harry
+--ID:76TS:1768777108926-18/01/2026 23:58:28 -  [org.appwork.utils.logging2.InputStreamLogger(readInputStreamToString)] -> 3|org.jdownloader.update.launcher.SecondLevelLauncher.log 2026-01-18 23:58:28 - INFO [ org.appwork.utils.Application(printSystemProperties) ] -> SysEnv: QT_IM_MODULES: wayland;ibus
+--ID:76TS:1768777108926-18/01/2026 23:58:28 -  [org.appwork.utils.logging2.InputStreamLogger(readInputStreamToString)] -> 3|org.jdownloader.update.launcher.SecondLevelLauncher.log 2026-01-18 23:58:28 - INFO [ org.appwork.utils.Application(printSystemProperties) ] -> SysEnv: XDG_SESSION_PATH: /org/freedesktop/DisplayManager/Session0
+--ID:76TS:1768777108926-18/01/2026 23:58:28 -  [org.appwork.utils.logging2.InputStreamLogger(readInputStreamToString)] -> 3|org.jdownloader.update.launcher.SecondLevelLauncher.log 2026-01-18 23:58:28 - INFO [ org.appwork.utils.Application(printSystemProperties) ] -> SysEnv: XDG_SEAT_PATH: /org/freedesktop/DisplayManager/Seat0
+--ID:76TS:1768777108926-18/01/2026 23:58:28 -  [org.appwork.utils.logging2.InputStreamLogger(readInputStreamToString)] -> 3|org.jdownloader.update.launcher.SecondLevelLauncher.log 2026-01-18 23:58:28 - INFO [ org.appwork.utils.Application(printSystemProperties) ] -> SysEnv: GST_PLUGIN_SYSTEM_PATH: /app/lib/gstreamer-1.0:/usr/lib/extensions/gstreamer-1.0:/usr/lib/x86_64-linux-gnu/codecs-extra/lib/gstreamer-1.0:/usr/lib/x86_64-linux-gnu/gstreamer-1.0
+--ID:76TS:1768777108926-18/01/2026 23:58:28 -  [org.appwork.utils.logging2.InputStreamLogger(readInputStreamToString)] -> 3|org.jdownloader.update.launcher.SecondLevelLauncher.log 2026-01-18 23:58:28 - INFO [ org.appwork.utils.Application(printSystemProperties) ] -> SysEnv: FLATPAK_SANDBOX_DIR: /home/harry/.var/app/org.jdownloader.JDownloader/sandbox
+--ID:76TS:1768777108926-18/01/2026 23:58:28 -  [org.appwork.utils.logging2.InputStreamLogger(readInputStreamToString)] -> 3|org.jdownloader.update.launcher.SecondLevelLauncher.log 2026-01-18 23:58:28 - INFO [ org.appwork.utils.Application(printSystemProperties) ] -> SysEnv: GSETTINGS_SCHEMA_DIR: /home/harry/data
+--ID:76TS:1768777108926-18/01/2026 23:58:28 -  [org.appwork.utils.logging2.InputStreamLogger(readInputStreamToString)] -> 3|org.jdownloader.update.launcher.SecondLevelLauncher.log 2026-01-18 23:58:28 - INFO [ org.appwork.utils.Application(printSystemProperties) ] -> SysEnv: PATH: /app/jre/bin:/app/bin:/usr/bin
+--ID:76TS:1768777108926-18/01/2026 23:58:28 -  [org.appwork.utils.logging2.InputStreamLogger(readInputStreamToString)] -> 3|org.jdownloader.update.launcher.SecondLevelLauncher.log 2026-01-18 23:58:28 - INFO [ org.appwork.utils.Application(printSystemProperties) ] -> SysEnv: LIBVIRT_DEFAULT_URI: qemu:///system
+--ID:76TS:1768777108927-18/01/2026 23:58:28 -  [org.appwork.utils.logging2.InputStreamLogger(readInputStreamToString)] -> 3|org.jdownloader.update.launcher.SecondLevelLauncher.log 2026-01-18 23:58:28 - INFO [ org.appwork.utils.Application(printSystemProperties) ] -> SysEnv: PYTHONUSERBASE: /var/data/python
+--ID:76TS:1768777108927-18/01/2026 23:58:28 -  [org.appwork.utils.logging2.InputStreamLogger(readInputStreamToString)] -> 3|org.jdownloader.update.launcher.SecondLevelLauncher.log 2026-01-18 23:58:28 - INFO [ org.appwork.utils.Application(printSystemProperties) ] -> SysEnv: LOGNAME: harry
+--ID:76TS:1768777108927-18/01/2026 23:58:28 -  [org.appwork.utils.logging2.InputStreamLogger(readInputStreamToString)] -> 3|org.jdownloader.update.launcher.SecondLevelLauncher.log 2026-01-18 23:58:28 - INFO [ org.appwork.utils.Application(printSystemProperties) ] -> SysEnv: XDG_CONFIG_DIRS: /app/etc/xdg:/etc/xdg
+--ID:76TS:1768777108927-18/01/2026 23:58:28 -  [org.appwork.utils.logging2.InputStreamLogger(readInputStreamToString)] -> 3|org.jdownloader.update.launcher.SecondLevelLauncher.log 2026-01-18 23:58:28 - INFO [ org.appwork.utils.Application(printSystemProperties) ] -> SysEnv: GDM_LANG: fr_FR
+--ID:76TS:1768777108927-18/01/2026 23:58:28 -  [org.appwork.utils.logging2.InputStreamLogger(readInputStreamToString)] -> 3|org.jdownloader.update.launcher.SecondLevelLauncher.log 2026-01-18 23:58:28 - INFO [ org.appwork.utils.Application(printSystemProperties) ] -> SysEnv: XAUTHORITY: /run/flatpak/Xauthority
+--ID:76TS:1768777108927-18/01/2026 23:58:28 -  [org.appwork.utils.logging2.InputStreamLogger(readInputStreamToString)] -> 3|org.jdownloader.update.launcher.SecondLevelLauncher.log 2026-01-18 23:58:28 - INFO [ org.appwork.utils.Application(printSystemProperties) ] -> SysEnv: JAVA_HOME: /app/jre
+--ID:76TS:1768777108927-18/01/2026 23:58:28 -  [org.appwork.utils.logging2.InputStreamLogger(readInputStreamToString)] -> 3|org.jdownloader.update.launcher.SecondLevelLauncher.log 2026-01-18 23:58:28 - INFO [ org.appwork.utils.Application(printSystemProperties) ] -> SysEnv: XDG_SESSION_ID: c2
+--ID:76TS:1768777108927-18/01/2026 23:58:28 -  [org.appwork.utils.logging2.InputStreamLogger(readInputStreamToString)] -> 3|org.jdownloader.update.launcher.SecondLevelLauncher.log 2026-01-18 23:58:28 - INFO [ org.appwork.utils.Application(printSystemProperties) ] -> SysEnv: XDG_CACHE_HOME: /home/harry/.var/app/org.jdownloader.JDownloader/cache
+--ID:76TS:1768777108928-18/01/2026 23:58:28 -  [org.appwork.utils.logging2.InputStreamLogger(readInputStreamToString)] -> 3|org.jdownloader.update.launcher.SecondLevelLauncher.log 2026-01-18 23:58:28 - INFO [ org.appwork.utils.Application(printSystemProperties) ] -> SysEnv: XMODIFIERS: @im=ibus
+--ID:76TS:1768777108928-18/01/2026 23:58:28 -  [org.appwork.utils.logging2.InputStreamLogger(readInputStreamToString)] -> 3|org.jdownloader.update.launcher.SecondLevelLauncher.log 2026-01-18 23:58:28 - INFO [ org.appwork.utils.Application(printSystemProperties) ] -> SysEnv: GIO_LAUNCHED_DESKTOP_FILE_PID: 19524
+--ID:76TS:1768777108928-18/01/2026 23:58:28 -  [org.appwork.utils.logging2.InputStreamLogger(readInputStreamToString)] -> 3|org.jdownloader.update.launcher.SecondLevelLauncher.log 2026-01-18 23:58:28 - INFO [ org.appwork.utils.Application(printSystemProperties) ] -> SysEnv: GIO_LAUNCHED_DESKTOP_FILE: /var/lib/flatpak/exports/share/applications/org.jdownloader.JDownloader.desktop
+--ID:76TS:1768777108928-18/01/2026 23:58:28 -  [org.appwork.utils.logging2.InputStreamLogger(readInputStreamToString)] -> 3|org.jdownloader.update.launcher.SecondLevelLauncher.log 2026-01-18 23:58:28 - INFO [ org.appwork.utils.Application(printSystemProperties) ] -> SysEnv: XDG_STATE_HOME: /home/harry/.var/app/org.jdownloader.JDownloader/.local/state
+--ID:76TS:1768777108928-18/01/2026 23:58:28 -  [org.appwork.utils.logging2.InputStreamLogger(readInputStreamToString)] -> 3|org.jdownloader.update.launcher.SecondLevelLauncher.log 2026-01-18 23:58:28 - INFO [ org.appwork.utils.Application(printSystemProperties) ] -> SysEnv: ALSA_CONFIG_DIR: /usr/share/alsa
+--ID:76TS:1768777108928-18/01/2026 23:58:28 -  [org.appwork.utils.logging2.InputStreamLogger(readInputStreamToString)] -> 3|org.jdownloader.update.launcher.SecondLevelLauncher.log 2026-01-18 23:58:28 - INFO [ org.appwork.utils.Application(printSystemProperties) ] -> SysEnv: QT_ACCESSIBILITY: 1
+--ID:76TS:1768777108928-18/01/2026 23:58:28 -  [org.appwork.utils.logging2.InputStreamLogger(readInputStreamToString)] -> 3|org.jdownloader.update.launcher.SecondLevelLauncher.log 2026-01-18 23:58:28 - INFO [ org.appwork.utils.Application(printSystemProperties) ] -> SysEnv: __EGL_EXTERNAL_PLATFORM_CONFIG_DIRS: /etc/egl/egl_external_platform.d:/usr/lib/x86_64-linux-gnu/GL/egl/egl_external_platform.d:/usr/share/egl/egl_external_platform.d
+--ID:76TS:1768777108928-18/01/2026 23:58:28 -  [org.appwork.utils.logging2.InputStreamLogger(readInputStreamToString)] -> 3|org.jdownloader.update.launcher.SecondLevelLauncher.log 2026-01-18 23:58:28 - INFO [ org.appwork.utils.Application(printSystemProperties) ] -> SysEnv: XDG_SEAT: seat0
+--ID:76TS:1768777108928-18/01/2026 23:58:28 -  [org.appwork.utils.logging2.InputStreamLogger(readInputStreamToString)] -> 3|org.jdownloader.update.launcher.SecondLevelLauncher.log 2026-01-18 23:58:28 - INFO [ org.appwork.utils.Application(printSystemProperties) ] -> SysEnv: LD_LIBRARY_PATH: 
+--ID:76TS:1768777108928-18/01/2026 23:58:28 -  [org.appwork.utils.logging2.InputStreamLogger(readInputStreamToString)] -> 3|org.jdownloader.update.launcher.SecondLevelLauncher.log 2026-01-18 23:58:28 - INFO [ org.appwork.utils.Application(printSystemProperties) ] -> SysEnv: XDG_VTNR: 7
+--ID:76TS:1768777108929-18/01/2026 23:58:28 -  [org.appwork.utils.logging2.InputStreamLogger(readInputStreamToString)] -> 3|org.jdownloader.update.launcher.SecondLevelLauncher.log 2026-01-18 23:58:28 - INFO [ org.appwork.utils.Application(printSystemProperties) ] -> SysEnv: XDG_SESSION_DESKTOP: cinnamon
+--ID:76TS:1768777108929-18/01/2026 23:58:28 -  [org.appwork.utils.logging2.InputStreamLogger(readInputStreamToString)] -> 3|org.jdownloader.update.launcher.SecondLevelLauncher.log 2026-01-18 23:58:28 - INFO [ org.appwork.utils.Application(printSystemProperties) ] -> SysEnv: AT_SPI_BUS_ADDRESS: unix:path=/run/flatpak/at-spi-bus
+--ID:76TS:1768777108929-18/01/2026 23:58:28 -  [org.appwork.utils.logging2.InputStreamLogger(readInputStreamToString)] -> 3|org.jdownloader.update.launcher.SecondLevelLauncher.log 2026-01-18 23:58:28 - INFO [ org.appwork.utils.Application(printSystemProperties) ] -> SysEnv: DBUS_SESSION_BUS_ADDRESS: unix:path=/run/flatpak/bus
+--ID:76TS:1768777108929-18/01/2026 23:58:28 -  [org.appwork.utils.logging2.InputStreamLogger(readInputStreamToString)] -> 3|org.jdownloader.update.launcher.SecondLevelLauncher.log 2026-01-18 23:58:28 - INFO [ org.appwork.utils.Application(printSystemProperties) ] -> SysEnv: GTK_THEME: Adwaita-dark
+--ID:76TS:1768777108929-18/01/2026 23:58:28 -  [org.appwork.utils.logging2.InputStreamLogger(readInputStreamToString)] -> 3|org.jdownloader.update.launcher.SecondLevelLauncher.log 2026-01-18 23:58:28 - INFO [ org.appwork.utils.Application(printSystemProperties) ] -> SysEnv: SHLVL: 0
+--ID:76TS:1768777108929-18/01/2026 23:58:28 -  [org.appwork.utils.logging2.InputStreamLogger(readInputStreamToString)] -> 3|org.jdownloader.update.launcher.SecondLevelLauncher.log 2026-01-18 23:58:28 - INFO [ org.appwork.utils.Application(printSystemProperties) ] -> SysEnv: XDG_DATA_DIRS: /app/share:/usr/share:/usr/share/runtime/share:/run/host/user-share:/run/host/share
+--ID:76TS:1768777108929-18/01/2026 23:58:28 -  [org.appwork.utils.logging2.InputStreamLogger(readInputStreamToString)] -> 3|org.jdownloader.update.launcher.SecondLevelLauncher.log 2026-01-18 23:58:28 - INFO [ org.appwork.utils.Application(printSystemProperties) ] -> SysEnv: FLATPAK_ID: org.jdownloader.JDownloader
+--ID:76TS:1768777108929-18/01/2026 23:58:28 -  [org.appwork.utils.logging2.InputStreamLogger(readInputStreamToString)] -> 3|org.jdownloader.update.launcher.SecondLevelLauncher.log 2026-01-18 23:58:28 - INFO [ org.appwork.utils.Application(printSystemProperties) ] -> SysEnv: SHELL: /bin/sh
+--ID:76TS:1768777108929-18/01/2026 23:58:28 -  [org.appwork.utils.logging2.InputStreamLogger(readInputStreamToString)] -> 3|org.jdownloader.update.launcher.SecondLevelLauncher.log 2026-01-18 23:58:28 - INFO [ org.appwork.utils.Application(printSystemProperties) ] -> SysEnv: GTK_IM_MODULE: ibus
+--ID:76TS:1768777108929-18/01/2026 23:58:28 -  [org.appwork.utils.logging2.InputStreamLogger(readInputStreamToString)] -> 3|org.jdownloader.update.launcher.SecondLevelLauncher.log 2026-01-18 23:58:28 - INFO [ org.appwork.utils.Application(printSystemProperties) ] -> SysEnv: XDG_SESSION_CLASS: user
+--ID:76TS:1768777108930-18/01/2026 23:58:28 -  [org.appwork.utils.logging2.InputStreamLogger(readInputStreamToString)] -> 3|org.jdownloader.update.launcher.SecondLevelLauncher.log 2026-01-18 23:58:28 - INFO [ org.appwork.utils.Application(printSystemProperties) ] -> SysEnv: GTK_MODULES: 
+--ID:76TS:1768777108930-18/01/2026 23:58:28 -  [org.appwork.utils.logging2.InputStreamLogger(readInputStreamToString)] -> 3|org.jdownloader.update.launcher.SecondLevelLauncher.log 2026-01-18 23:58:28 - INFO [ org.appwork.utils.Application(printSystemProperties) ] -> SysEnv: SESSION_MANAGER: local/Hal:@/tmp/.ICE-unix/2374,unix/Hal:/tmp/.ICE-unix/2374
+--ID:76TS:1768777108930-18/01/2026 23:58:28 -  [org.appwork.utils.logging2.InputStreamLogger(readInputStreamToString)] -> 3|org.jdownloader.update.launcher.SecondLevelLauncher.log 2026-01-18 23:58:28 - INFO [ org.appwork.utils.Application(printSystemProperties) ] -> SysEnv: DISPLAY: :0
+--ID:76TS:1768777108930-18/01/2026 23:58:28 -  [org.appwork.utils.logging2.InputStreamLogger(readInputStreamToString)] -> 3|org.jdownloader.update.launcher.SecondLevelLauncher.log 2026-01-18 23:58:28 - INFO [ org.appwork.utils.Application(printSystemProperties) ] -> SysEnv: HOME: /home/harry
+--ID:76TS:1768777108930-18/01/2026 23:58:28 -  [org.appwork.utils.logging2.InputStreamLogger(readInputStreamToString)] -> 3|org.jdownloader.update.launcher.SecondLevelLauncher.log 2026-01-18 23:58:28 - INFO [ org.appwork.utils.Application(printSystemProperties) ] -> SysEnv: XDG_CURRENT_DESKTOP: X-Cinnamon
+--ID:76TS:1768777108930-18/01/2026 23:58:28 -  [org.appwork.utils.logging2.InputStreamLogger(readInputStreamToString)] -> 3|org.jdownloader.update.launcher.SecondLevelLauncher.log 2026-01-18 23:58:28 - INFO [ org.appwork.utils.Application(printSystemProperties) ] -> SysEnv: QT_IM_MODULE: ibus
+--ID:76TS:1768777108930-18/01/2026 23:58:28 -  [org.appwork.utils.logging2.InputStreamLogger(readInputStreamToString)] -> 3|org.jdownloader.update.launcher.SecondLevelLauncher.log 2026-01-18 23:58:28 - INFO [ org.appwork.utils.Application(printSystemProperties) ] -> SysEnv: QT_QPA_PLATFORMTHEME: qt5ct
+--ID:76TS:1768777108930-18/01/2026 23:58:28 -  [org.appwork.utils.logging2.InputStreamLogger(readInputStreamToString)] -> 3|org.jdownloader.update.launcher.SecondLevelLauncher.log 2026-01-18 23:58:28 - INFO [ org.appwork.utils.Application(printSystemProperties) ] -> SysEnv: GTK_STYLE_OVERRIDE: Mint-Y-Dark-Blue
+--ID:76TS:1768777108930-18/01/2026 23:58:28 -  [org.appwork.utils.logging2.InputStreamLogger(readInputStreamToString)] -> 3|org.jdownloader.update.launcher.SecondLevelLauncher.log 2026-01-18 23:58:28 - INFO [ org.appwork.utils.Application(printSystemProperties) ] -> SysEnv: LANG: fr_FR.UTF-8
+--ID:76TS:1768777108930-18/01/2026 23:58:28 -  [org.appwork.utils.logging2.InputStreamLogger(readInputStreamToString)] -> 3|org.jdownloader.update.launcher.SecondLevelLauncher.log 2026-01-18 23:58:28 - INFO [ org.appwork.utils.Application(printSystemProperties) ] -> SysEnv: GDMSESSION: cinnamon
+--ID:76TS:1768777108931-18/01/2026 23:58:28 -  [org.appwork.utils.logging2.InputStreamLogger(readInputStreamToString)] -> 3|org.jdownloader.update.launcher.SecondLevelLauncher.log 2026-01-18 23:58:28 - INFO [ org.appwork.utils.Application(printSystemProperties) ] -> SysEnv: GNOME_DESKTOP_SESSION_ID: this-is-deprecated
+--ID:76TS:1768777108931-18/01/2026 23:58:28 -  [org.appwork.utils.logging2.InputStreamLogger(readInputStreamToString)] -> 3|org.jdownloader.update.launcher.SecondLevelLauncher.log 2026-01-18 23:58:28 - INFO [ org.appwork.utils.Application(printSystemProperties) ] -> SysEnv: GTK3_MODULES: xapp-gtk3-module
+--ID:76TS:1768777108931-18/01/2026 23:58:28 -  [org.appwork.utils.logging2.InputStreamLogger(readInputStreamToString)] -> 3|org.jdownloader.update.launcher.SecondLevelLauncher.log 2026-01-18 23:58:28 - INFO [ org.appwork.utils.Application(printSystemProperties) ] -> SysEnv: CLUTTER_IM_MODULE: ibus
+--ID:76TS:1768777108931-18/01/2026 23:58:28 -  [org.appwork.utils.logging2.InputStreamLogger(readInputStreamToString)] -> 3|org.jdownloader.update.launcher.SecondLevelLauncher.log 2026-01-18 23:58:28 - INFO [ org.appwork.utils.Application(printSystemProperties) ] -> SysEnv: QT_STYLE_OVERRIDE: Adwaita-dark
+--ID:76TS:1768777108931-18/01/2026 23:58:28 -  [org.appwork.utils.logging2.InputStreamLogger(readInputStreamToString)] -> 3|org.jdownloader.update.launcher.SecondLevelLauncher.log 2026-01-18 23:58:28 - INFO [ org.appwork.utils.Application(printSystemProperties) ] -> SysEnv: LANGUAGE: fr_FR
+--ID:76TS:1768777108931-18/01/2026 23:58:28 -  [org.appwork.utils.logging2.InputStreamLogger(readInputStreamToString)] -> 3|org.jdownloader.update.launcher.SecondLevelLauncher.log 2026-01-18 23:58:28 - INFO [ org.appwork.utils.Application(printSystemProperties) ] -> SysEnv: GI_TYPELIB_PATH: /app/lib/girepository-1.0
+--ID:76TS:1768777108931-18/01/2026 23:58:28 -  [org.appwork.utils.logging2.InputStreamLogger(readInputStreamToString)] -> 3|org.jdownloader.update.launcher.SecondLevelLauncher.log 2026-01-18 23:58:28 - INFO [ org.appwork.utils.Application(printSystemProperties) ] -> SysEnv: container: flatpak
+--ID:76TS:1768777108932-18/01/2026 23:58:28 -  [org.appwork.utils.logging2.InputStreamLogger(readInputStreamToString)] -> 3|org.jdownloader.update.launcher.SecondLevelLauncher.log 2026-01-18 23:58:28 - INFO [ org.appwork.utils.Application(printSystemProperties) ] -> SysEnv: XDG_CONFIG_HOME: /home/harry/.var/app/org.jdownloader.JDownloader/config
+--ID:76TS:1768777108932-18/01/2026 23:58:28 -  [org.appwork.utils.logging2.InputStreamLogger(readInputStreamToString)] -> 3|org.jdownloader.update.launcher.SecondLevelLauncher.log 2026-01-18 23:58:28 - INFO [ org.appwork.utils.Application(printSystemProperties) ] -> SysEnv: XDG_RUNTIME_DIR: /run/user/1000
+--ID:76TS:1768777108932-18/01/2026 23:58:28 -  [org.appwork.utils.logging2.InputStreamLogger(readInputStreamToString)] -> 3|org.jdownloader.update.launcher.SecondLevelLauncher.log 2026-01-18 23:58:28 - INFO [ org.appwork.utils.Application(printSystemProperties) ] -> SysEnv: SSH_AUTH_SOCK: /run/user/1000/keyring/ssh
+--ID:76TS:1768777108932-18/01/2026 23:58:28 -  [org.appwork.utils.logging2.InputStreamLogger(readInputStreamToString)] -> 3|org.jdownloader.update.launcher.SecondLevelLauncher.log 2026-01-18 23:58:28 - INFO [ org.appwork.utils.Application(printSystemProperties) ] -> SysEnv: ALSA_CONFIG_PATH: /usr/share/alsa/alsa-flatpak.conf
+--ID:76TS:1768777108933-18/01/2026 23:58:28 -  [org.appwork.utils.logging2.InputStreamLogger(readInputStreamToString)] -> 3|org.jdownloader.update.launcher.SecondLevelLauncher.log 2026-01-18 23:58:28 - INFO [ org.appwork.utils.Application(printSystemProperties) ] -> SysEnv: GDK_BACKEND: x11
+--ID:76TS:1768777108933-18/01/2026 23:58:28 -  [org.appwork.utils.logging2.InputStreamLogger(readInputStreamToString)] -> 3|org.jdownloader.update.launcher.SecondLevelLauncher.log 2026-01-18 23:58:28 - INFO [ org.appwork.utils.Application(printSystemProperties) ] -> SysEnv: GPG_AGENT_INFO: /run/user/1000/gnupg/S.gpg-agent:0:1
+--ID:76TS:1768777108933-18/01/2026 23:58:28 -  [org.appwork.utils.logging2.InputStreamLogger(readInputStreamToString)] -> 3|org.jdownloader.update.launcher.SecondLevelLauncher.log 2026-01-18 23:58:28 - INFO [ org.appwork.utils.Application(printSystemProperties) ] -> SysEnv: DESKTOP_SESSION: cinnamon
+--ID:76TS:1768777108933-18/01/2026 23:58:28 -  [org.appwork.utils.logging2.InputStreamLogger(readInputStreamToString)] -> 3|org.jdownloader.update.launcher.SecondLevelLauncher.log 2026-01-18 23:58:28 - INFO [ org.appwork.utils.Application(printSystemProperties) ] -> SysEnv: USER: harry
+--ID:76TS:1768777108933-18/01/2026 23:58:28 -  [org.appwork.utils.logging2.InputStreamLogger(readInputStreamToString)] -> 3|org.jdownloader.update.launcher.SecondLevelLauncher.log 2026-01-18 23:58:28 - INFO [ org.appwork.utils.Application(printSystemProperties) ] -> SysEnv: XDG_SESSION_TYPE: x11
+--ID:76TS:1768777108933-18/01/2026 23:58:28 -  [org.appwork.utils.logging2.InputStreamLogger(readInputStreamToString)] -> 3|org.jdownloader.update.launcher.SecondLevelLauncher.log 2026-01-18 23:58:28 - INFO [ org.appwork.utils.Application(printSystemProperties) ] -> SysEnv: XDG_DATA_HOME: /home/harry/.var/app/org.jdownloader.JDownloader/data
+--ID:76TS:1768777108933-18/01/2026 23:58:28 -  [org.appwork.utils.logging2.InputStreamLogger(readInputStreamToString)] -> 3|org.jdownloader.update.launcher.SecondLevelLauncher.log 2026-01-18 23:58:28 - INFO [ org.appwork.utils.Application(printSystemProperties) ] -> SysEnv: PWD: /home/harry
+--ID:76TS:1768777108938-18/01/2026 23:58:28 -  [org.appwork.utils.logging2.InputStreamLogger(readInputStreamToString)] -> 3|org.jdownloader.update.launcher.SecondLevelLauncher.log 2026-01-18 23:58:28 - INFO [ org.appwork.utils.Application(printSystemProperties) ] -> jar:file:/home/harry/.var/app/org.jdownloader.JDownloader/data/jdownloader/tmp/update/self/JDU/JDownloader.jar!/version.nfo:
+--ID:76TS:1768777108938-18/01/2026 23:58:28 -  [org.appwork.utils.logging2.InputStreamLogger(readInputStreamToString)] -> ${updateclient.revision}
+--ID:76TS:1768777108939-18/01/2026 23:58:28 -  [org.appwork.utils.logging2.InputStreamLogger(readInputStreamToString)] -> 3|org.jdownloader.update.launcher.SecondLevelLauncher.log 2026-01-18 23:58:28 - INFO [ org.appwork.utils.Application(printSystemProperties) ] -> ant-version: Apache Ant 1.10.5
+--ID:76TS:1768777108939-18/01/2026 23:58:28 -  [org.appwork.utils.logging2.InputStreamLogger(readInputStreamToString)] -> 3|org.jdownloader.update.launcher.SecondLevelLauncher.log 2026-01-18 23:58:28 - INFO [ org.appwork.utils.Application(printSystemProperties) ] -> add-opens: java.desktop/javax.swing.plaf.synth java.desktop/javax.swin
+--ID:76TS:1768777108939-18/01/2026 23:58:28 -  [org.appwork.utils.logging2.InputStreamLogger(readInputStreamToString)] -> 3|org.jdownloader.update.launcher.SecondLevelLauncher.log 2026-01-18 23:58:28 - INFO [ org.appwork.utils.Application(printSystemProperties) ] -> add-exports: java.desktop/sun.swing java.desktop/sun.swing.table java.
+--ID:76TS:1768777108939-18/01/2026 23:58:28 -  [org.appwork.utils.logging2.InputStreamLogger(readInputStreamToString)] -> 3|org.jdownloader.update.launcher.SecondLevelLauncher.log 2026-01-18 23:58:28 - INFO [ org.appwork.utils.Application(printSystemProperties) ] -> created-by: Appwork GmbH and JDownloader Community
+--ID:76TS:1768777108939-18/01/2026 23:58:28 -  [org.appwork.utils.logging2.InputStreamLogger(readInputStreamToString)] -> 3|org.jdownloader.update.launcher.SecondLevelLauncher.log 2026-01-18 23:58:28 - INFO [ org.appwork.utils.Application(printSystemProperties) ] -> manifest-version: 1.0
+--ID:76TS:1768777108939-18/01/2026 23:58:28 -  [org.appwork.utils.logging2.InputStreamLogger(readInputStreamToString)] -> 3|org.jdownloader.update.launcher.SecondLevelLauncher.log 2026-01-18 23:58:28 - INFO [ org.appwork.utils.Application(printSystemProperties) ] -> main-class: org.jdownloader.update.launcher.JDLauncher
+--ID:76TS:1768777108940-18/01/2026 23:58:28 -  [org.appwork.utils.logging2.InputStreamLogger(readInputStreamToString)] -> 3|org.jdownloader.update.launcher.SecondLevelLauncher.log 2026-01-18 23:58:28 - INFO [ org.appwork.utils.Application(printSystemProperties) ] -> /home/harry/.var/app/org.jdownloader.JDownloader/data/jdownloader/tmp/update/self/JDU/JDownloader.jar- lastModified: 2026-01-18 23:58:28
+--ID:76TS:1768777108940-18/01/2026 23:58:28 -  [org.appwork.utils.logging2.InputStreamLogger(readInputStreamToString)] -> 3|org.jdownloader.update.launcher.SecondLevelLauncher.log 2026-01-18 23:58:28 - INFO [ org.jdownloader.update.launcher.SecondLevelLauncher(init) ] -> Args: [-selftest, tmp/selftest_1768777108706, /home/harry/.var/app/org.jdownloader.JDownloader/data/jdownloader, -]
+--ID:76TS:1768777108941-18/01/2026 23:58:28 -  [org.appwork.utils.logging2.InputStreamLogger(readInputStreamToString)] -> 3|org.jdownloader.updatev2.restart.LinuxRestarter.log 2026-01-18 23:58:28 - INFO [ org.jdownloader.updatev2.restart.Restarter(<init>) ] -> Create Restarter
+--ID:76TS:1768777108944-18/01/2026 23:58:28 -  [org.appwork.utils.logging2.InputStreamLogger(readInputStreamToString)] -> 3|org.jdownloader.update.launcher.SecondLevelLauncher.log 2026-01-18 23:58:28 - INFO [ org.jdownloader.update.launcher.SecondLevelLauncher(init) ] -> Restart Controller init done in 4
+--ID:76TS:1768777108944-18/01/2026 23:58:28 -  [org.appwork.utils.logging2.InputStreamLogger(readInputStreamToString)] -> 3|org.jdownloader.update.launcher.SecondLevelLauncher.log 2026-01-18 23:58:28 - INFO [ org.jdownloader.update.launcher.SecondLevelLauncher(init) ] -> Parse Arguments
+--ID:76TS:1768777108944-18/01/2026 23:58:28 -  [org.appwork.utils.logging2.InputStreamLogger(readInputStreamToString)] -> 3|org.jdownloader.update.launcher.SecondLevelLauncher.log 2026-01-18 23:58:28 - INFO [ org.jdownloader.update.launcher.SecondLevelLauncher(init) ] -> Parameter Parse done in 0
+--ID:76TS:1768777108945-18/01/2026 23:58:28 -  [org.appwork.utils.logging2.InputStreamLogger(readInputStreamToString)] -> 3|org.jdownloader.update.launcher.SecondLevelLauncher.log 2026-01-18 23:58:28 - INFO [ org.jdownloader.update.launcher.SecondLevelLauncher(init) ] -> Single Instance Controller
+--ID:76TS:1768777108954-18/01/2026 23:58:28 -  [org.appwork.utils.logging2.InputStreamLogger(readInputStreamToString)] -> 3|org.jdownloader.update.launcher.SecondLevelLauncher.log 2026-01-18 23:58:28 - INFO [ org.jdownloader.update.launcher.SecondLevelLauncher(init) ] -> Single Instance init done in 10
+--ID:76TS:1768777108955-18/01/2026 23:58:28 -  [org.appwork.utils.logging2.InputStreamLogger(readInputStreamToString)] -> 3|org.jdownloader.update.launcher.SecondLevelLauncher.log 2026-01-18 23:58:28 - INFO [ org.jdownloader.update.launcher.SecondLevelLauncher(init) ] -> Init UpdateManager
+--ID:76TS:1768777108955-18/01/2026 23:58:28 -  [org.appwork.utils.logging2.InputStreamLogger(readInputStreamToString)] -> 3|Log.L.log 2026-01-18 23:58:28 - INFO [ org.appwork.storage.JsonKeyValueStorage(<init>) ] -> CFG File does not exist: /home/harry/.var/app/org.jdownloader.JDownloader/data/jdownloader/tmp/update/self/JDU/cfg/org.jdownloader.updatev2.UpdateSettings.json
+--ID:76TS:1768777108978-18/01/2026 23:58:28 -  [org.appwork.utils.logging2.InputStreamLogger(readInputStreamToString)] -> 3|Log.L.log 2026-01-18 23:58:28 - INFO [ org.appwork.storage.JsonKeyValueStorage(<init>) ] -> Load JSon Storage from Classpath url: jar:file:/home/harry/.var/app/org.jdownloader.JDownloader/data/jdownloader/tmp/update/self/JDU/JDownloader.jar!/cfg/updateclient/Setup.json
+--ID:76TS:1768777108983-18/01/2026 23:58:28 -  [org.appwork.utils.logging2.InputStreamLogger(readInputStreamToString)] -> 3|Log.L.log 2026-01-18 23:58:28 - INFO [ org.appwork.storage.JsonKeyValueStorage(<init>) ] -> CFG File does not exist: /home/harry/.var/app/org.jdownloader.JDownloader/data/jdownloader/tmp/update/self/JDU/cfg/updateclient/Setup.json
+--ID:76TS:1768777108984-18/01/2026 23:58:28 -  [org.appwork.utils.logging2.InputStreamLogger(readInputStreamToString)] -> 3|Log.L.log 2026-01-18 23:58:28 - FINER [ org.appwork.loggingv3.LogV3(finer) ] -> Init StorageHandler for Interface:org.appwork.updatesys.client.Setup|Path:/home/harry/.var/app/org.jdownloader.JDownloader/data/jdownloader/tmp/update/self/JDU/cfg/updateclient/Setup
+--ID:76TS:1768777108988-18/01/2026 23:58:28 -  [org.appwork.utils.logging2.InputStreamLogger(readInputStreamToString)] -> 3|org.jdownloader.update.UpdateManager.log 2026-01-18 23:58:28 - FINE [ org.jdownloader.update.UpdateManager(<init>) ] -> ClientSetup 13
+--ID:76TS:1768777108993-18/01/2026 23:58:28 -  [org.appwork.utils.logging2.InputStreamLogger(readInputStreamToString)] -> 
+--ID:76TS:1768777108993-18/01/2026 23:58:28 -  [org.appwork.utils.logging2.InputStreamLogger(readInputStreamToString)] -> THREAD: 42
+--ID:76TS:1768777108993-18/01/2026 23:58:28 -  [org.appwork.utils.logging2.InputStreamLogger(readInputStreamToString)] -> 42|Log.L.log 2026-01-18 23:58:28 - INFO [ org.appwork.storage.JsonKeyValueStorage(<init>) ] -> Prefer (merged) JSon Storage from File: /home/harry/.var/app/org.jdownloader.JDownloader/data/jdownloader/tmp/update/self/JDU/cfg/org.jdownloader.settings.InternetConnectionSettings.json
+--ID:76TS:1768777108993-18/01/2026 23:58:28 -  [org.appwork.utils.logging2.InputStreamLogger(readInputStreamToString)] -> 42|Log.L.log 2026-01-18 23:58:28 - FINER [ org.appwork.loggingv3.LogV3(finer) ] -> Init StorageHandler for Interface:org.jdownloader.updatev2.InternetConnectionSettings|Path:/home/harry/.var/app/org.jdownloader.JDownloader/data/jdownloader/tmp/update/self/JDU/cfg/org.jdownloader.settings.InternetConnectionSettings
+--ID:76TS:1768777109004-18/01/2026 23:58:29 -  [org.appwork.utils.logging2.InputStreamLogger(readInputStreamToString)] -> 42|Log.L.log 2026-01-18 23:58:29 - INFO [ org.appwork.storage.JsonKeyValueStorage(<init>) ] -> Load JSon Storage from Classpath url: jar:file:/home/harry/.var/app/org.jdownloader.JDownloader/data/jdownloader/tmp/update/self/JDU/JDownloader.jar!/cfg/updateclient/HttpSettings.json
+--ID:76TS:1768777109004-18/01/2026 23:58:29 -  [org.appwork.utils.logging2.InputStreamLogger(readInputStreamToString)] -> 42|Log.L.log 2026-01-18 23:58:29 - INFO [ org.appwork.storage.JsonKeyValueStorage(<init>) ] -> CFG File does not exist: /home/harry/.var/app/org.jdownloader.JDownloader/data/jdownloader/tmp/update/self/JDU/cfg/updateclient/HttpSettings.json
+--ID:76TS:1768777109004-18/01/2026 23:58:29 -  [org.appwork.utils.logging2.InputStreamLogger(readInputStreamToString)] -> 42|Log.L.log 2026-01-18 23:58:29 - FINER [ org.appwork.loggingv3.LogV3(finer) ] -> Init StorageHandler for Interface:org.appwork.updatesys.client.defaultimpl.http.UpdateHttpClientOptions|Path:/home/harry/.var/app/org.jdownloader.JDownloader/data/jdownloader/tmp/update/self/JDU/cfg/updateclient/HttpSettings
+--ID:76TS:1768777109008-18/01/2026 23:58:29 -  [org.appwork.utils.logging2.InputStreamLogger(readInputStreamToString)] -> 42|Log.L.log 2026-01-18 23:58:29 - INFO [ org.appwork.storage.JsonKeyValueStorage(<init>) ] -> CFG File does not exist: /home/harry/.var/app/org.jdownloader.JDownloader/data/jdownloader/tmp/update/self/JDU/cfg/ProxySelector.json
+--ID:76TS:1768777109008-18/01/2026 23:58:29 -  [org.appwork.utils.logging2.InputStreamLogger(readInputStreamToString)] -> 42|Log.L.log 2026-01-18 23:58:29 - FINER [ org.appwork.loggingv3.LogV3(finer) ] -> Init StorageHandler for Interface:org.appwork.updatesys.client.defaultimpl.http.ProxySelectorSettings|Path:/home/harry/.var/app/org.jdownloader.JDownloader/data/jdownloader/tmp/update/self/JDU/cfg/ProxySelector
+--ID:76TS:1768777109015-18/01/2026 23:58:29 -  [org.appwork.utils.logging2.InputStreamLogger(readInputStreamToString)] -> 
+--ID:76TS:1768777109015-18/01/2026 23:58:29 -  [org.appwork.utils.logging2.InputStreamLogger(readInputStreamToString)] -> THREAD: 42
+--ID:76TS:1768777109015-18/01/2026 23:58:29 -  [org.appwork.utils.logging2.InputStreamLogger(readInputStreamToString)] -> 42|org.jdownloader.update.UpdateManager.log 2026-01-18 23:58:29 - WARNING [ org.jdownloader.update.UpdateManager$1(getDefaultValue) ] -> Namspace not set!
+--ID:76TS:1768777109033-18/01/2026 23:58:29 -  [org.appwork.utils.logging2.InputStreamLogger(readInputStreamToString)] -> 42|Log.L.log 2026-01-18 23:58:29 - INFO [ org.appwork.storage.JsonKeyValueStorage(<init>) ] -> CFG File does not exist: /home/harry/.var/app/org.jdownloader.JDownloader/data/jdownloader/tmp/update/self/JDU/update/versioninfo/JD/extensions.json
+--ID:76TS:1768777109033-18/01/2026 23:58:29 -  [org.appwork.utils.logging2.InputStreamLogger(readInputStreamToString)] -> 42|Log.L.log 2026-01-18 23:58:29 - FINER [ org.appwork.loggingv3.LogV3(finer) ] -> Init StorageHandler for Interface:org.appwork.updatesys.client.extensions.ExtensionsStorage|Path:/home/harry/.var/app/org.jdownloader.JDownloader/data/jdownloader/tmp/update/self/JDU/update/versioninfo/JD/extensions
+--ID:76TS:1768777109035-18/01/2026 23:58:29 -  [org.appwork.utils.logging2.InputStreamLogger(readInputStreamToString)] -> 42|org.jdownloader.update.UpdateManager.log 2026-01-18 23:58:29 - INFO [ org.appwork.updatesys.client.extensions.ExtensionManager(init) ] -> Installed Extensions: []
+--ID:76TS:1768777109035-18/01/2026 23:58:29 -  [org.appwork.utils.logging2.InputStreamLogger(readInputStreamToString)] -> 42|org.jdownloader.update.UpdateManager.log 2026-01-18 23:58:29 - INFO [ org.appwork.updatesys.client.extensions.ExtensionManager(init) ] -> Requested Extension Installations: []
+--ID:76TS:1768777109036-18/01/2026 23:58:29 -  [org.appwork.utils.logging2.InputStreamLogger(readInputStreamToString)] -> 42|org.jdownloader.update.UpdateManager.log 2026-01-18 23:58:29 - INFO [ org.appwork.updatesys.client.extensions.ExtensionManager(init) ] -> Requested Extension Uninstalls: []
+--ID:76TS:1768777109036-18/01/2026 23:58:29 -  [org.appwork.utils.logging2.InputStreamLogger(readInputStreamToString)] -> 42|org.jdownloader.update.UpdateManager.log 2026-01-18 23:58:29 - INFO [ org.jdownloader.update.JDUpdateClient$JDExtensionManager(init) ] -> Installed Extensions: []
+--ID:76TS:1768777109036-18/01/2026 23:58:29 -  [org.appwork.utils.logging2.InputStreamLogger(readInputStreamToString)] -> 42|org.jdownloader.update.UpdateManager.log 2026-01-18 23:58:29 - INFO [ org.appwork.updatesys.client.FileList(<init>) ] -> FileList at /home/harry/.var/app/org.jdownloader.JDownloader/data/jdownloader/tmp/update/self/JDU/update/versioninfo/JD/filelist.txt Size: 0
+--ID:76TS:1768777109038-18/01/2026 23:58:29 -  [org.appwork.utils.logging2.InputStreamLogger(readInputStreamToString)] -> 42|Log.L.log 2026-01-18 23:58:29 - INFO [ org.appwork.storage.JsonKeyValueStorage(<init>) ] -> CFG File does not exist: /home/harry/.var/app/org.jdownloader.JDownloader/data/jdownloader/tmp/update/self/JDU/cfg/org.appwork.updatesys.client.tracker.TrackConfig.json
+--ID:76TS:1768777109039-18/01/2026 23:58:29 -  [org.appwork.utils.logging2.InputStreamLogger(readInputStreamToString)] -> 
+--ID:76TS:1768777109039-18/01/2026 23:58:29 -  [org.appwork.utils.logging2.InputStreamLogger(readInputStreamToString)] -> THREAD: 3
+--ID:76TS:1768777109039-18/01/2026 23:58:29 -  [org.appwork.utils.logging2.InputStreamLogger(readInputStreamToString)] -> 3|org.jdownloader.update.UpdateManager.log 2026-01-18 23:58:29 - FINE [ org.jdownloader.update.UpdateManager(<init>) ] -> Client 51
+--ID:76TS:1768777109041-18/01/2026 23:58:29 -  [org.appwork.utils.logging2.InputStreamLogger(readInputStreamToString)] -> 42|Log.L.log 2026-01-18 23:58:29 - INFO [ org.appwork.storage.JsonKeyValueStorage(<init>) ] -> CFG File does not exist: /home/harry/.var/app/org.jdownloader.JDownloader/data/jdownloader/tmp/update/self/JDU/update/versioninfo/JDU/extensions.json
+--ID:76TS:1768777109041-18/01/2026 23:58:29 -  [org.appwork.utils.logging2.InputStreamLogger(readInputStreamToString)] -> 42|Log.L.log 2026-01-18 23:58:29 - FINER [ org.appwork.loggingv3.LogV3(finer) ] -> Init StorageHandler for Interface:org.appwork.updatesys.client.extensions.ExtensionsStorage|Path:/home/harry/.var/app/org.jdownloader.JDownloader/data/jdownloader/tmp/update/self/JDU/update/versioninfo/JDU/extensions
+--ID:76TS:1768777109041-18/01/2026 23:58:29 -  [org.appwork.utils.logging2.InputStreamLogger(readInputStreamToString)] -> 
+--ID:76TS:1768777109041-18/01/2026 23:58:29 -  [org.appwork.utils.logging2.InputStreamLogger(readInputStreamToString)] -> THREAD: 42
+--ID:76TS:1768777109041-18/01/2026 23:58:29 -  [org.appwork.utils.logging2.InputStreamLogger(readInputStreamToString)] -> 42|org.jdownloader.update.UpdateManager.log 2026-01-18 23:58:29 - INFO [ org.appwork.updatesys.client.extensions.ExtensionManager(init) ] -> Installed Extensions: []
+--ID:76TS:1768777109041-18/01/2026 23:58:29 -  [org.appwork.utils.logging2.InputStreamLogger(readInputStreamToString)] -> 42|org.jdownloader.update.UpdateManager.log 2026-01-18 23:58:29 - INFO [ org.appwork.updatesys.client.extensions.ExtensionManager(init) ] -> Requested Extension Installations: []
+--ID:76TS:1768777109041-18/01/2026 23:58:29 -  [org.appwork.utils.logging2.InputStreamLogger(readInputStreamToString)] -> 42|org.jdownloader.update.UpdateManager.log 2026-01-18 23:58:29 - INFO [ org.appwork.updatesys.client.extensions.ExtensionManager(init) ] -> Requested Extension Uninstalls: []
+--ID:76TS:1768777109042-18/01/2026 23:58:29 -  [org.appwork.utils.logging2.InputStreamLogger(readInputStreamToString)] -> 42|org.jdownloader.update.UpdateManager.log 2026-01-18 23:58:29 - INFO [ org.appwork.updatesys.client.FileList(<init>) ] -> FileList at /home/harry/.var/app/org.jdownloader.JDownloader/data/jdownloader/tmp/update/self/JDU/update/versioninfo/JDU/filelist.txt Size: 0
+--ID:76TS:1768777109042-18/01/2026 23:58:29 -  [org.appwork.utils.logging2.InputStreamLogger(readInputStreamToString)] -> 
+--ID:76TS:1768777109042-18/01/2026 23:58:29 -  [org.appwork.utils.logging2.InputStreamLogger(readInputStreamToString)] -> THREAD: 3
+--ID:76TS:1768777109042-18/01/2026 23:58:29 -  [org.appwork.utils.logging2.InputStreamLogger(readInputStreamToString)] -> 3|org.jdownloader.update.UpdateManager.log 2026-01-18 23:58:29 - FINE [ org.jdownloader.update.UpdateManager(<init>) ] -> selfUpdateClient 3
+--ID:76TS:1768777109042-18/01/2026 23:58:29 -  [org.appwork.utils.logging2.InputStreamLogger(readInputStreamToString)] -> 3|org.jdownloader.update.UpdateManager.log 2026-01-18 23:58:29 - FINE [ org.jdownloader.update.UpdateManager(<init>) ] -> LastChanceInit 0
+--ID:76TS:1768777109042-18/01/2026 23:58:29 -  [org.appwork.utils.logging2.InputStreamLogger(readInputStreamToString)] -> 3|org.jdownloader.update.UpdateManager.log 2026-01-18 23:58:29 - FINE [ org.jdownloader.update.UpdateManager(<init>) ] -> setUpdateOnExitFlag 0
+--ID:76TS:1768777109045-18/01/2026 23:58:29 -  [org.appwork.utils.logging2.InputStreamLogger(readInputStreamToString)] -> 3|org.jdownloader.update.UpdateManager.log 2026-01-18 23:58:29 - FINE [ org.jdownloader.update.UpdateManager(<init>) ] -> CreateGui 3
+--ID:76TS:1768777109045-18/01/2026 23:58:29 -  [org.appwork.utils.logging2.InputStreamLogger(readInputStreamToString)] -> 3|org.jdownloader.update.UpdateManager.log 2026-01-18 23:58:29 - FINE [ org.jdownloader.update.UpdateManager(<init>) ] -> DefaultHandler 0
+--ID:76TS:1768777109046-18/01/2026 23:58:29 -  [org.appwork.utils.logging2.InputStreamLogger(readInputStreamToString)] -> 3|org.jdownloader.update.UpdateManager.log 2026-01-18 23:58:29 - FINE [ org.jdownloader.update.UpdateManager(<init>) ] -> SetDefaultHandler 0
+--ID:76TS:1768777109046-18/01/2026 23:58:29 -  [org.appwork.utils.logging2.InputStreamLogger(readInputStreamToString)] -> 3|org.jdownloader.update.UpdateManager.log 2026-01-18 23:58:29 - FINE [ org.jdownloader.update.UpdateManager(<init>) ] -> ProxySelector 0
+--ID:76TS:1768777109046-18/01/2026 23:58:29 -  [org.appwork.utils.logging2.InputStreamLogger(readInputStreamToString)] -> 3|org.jdownloader.update.launcher.SecondLevelLauncher.log 2026-01-18 23:58:29 - INFO [ org.jdownloader.update.launcher.SecondLevelLauncher(init) ] -> Update Manager init done in 91
+--ID:76TS:1768777109046-18/01/2026 23:58:29 -  [org.appwork.utils.logging2.InputStreamLogger(readInputStreamToString)] -> 3|org.jdownloader.update.launcher.SecondLevelLauncher.log 2026-01-18 23:58:29 - INFO [ org.jdownloader.update.launcher.SecondLevelLauncher(init) ] -> Run Selftest
+--ID:76TS:1768777109047-18/01/2026 23:58:29 -  [org.appwork.utils.logging2.InputStreamLogger(readInputStreamToString)] -> 3|org.jdownloader.update.launcher.SelfTest.log 2026-01-18 23:58:29 - INFO [ org.jdownloader.update.launcher.SelfTest(copyOptionalLAf) ] -> Copy /home/harry/.var/app/org.jdownloader.JDownloader/data/jdownloader/libs/laf/synthetica.jar to /home/harry/.var/app/org.jdownloader.JDownloader/data/jdownloader/tmp/update/self/JDU/libs/laf/synthetica.jar
+--ID:76TS:1768777109047-18/01/2026 23:58:29 -  [org.appwork.utils.logging2.InputStreamLogger(readInputStreamToString)] -> 3|org.jdownloader.update.launcher.SelfTest.log 2026-01-18 23:58:29 - INFO [ org.jdownloader.update.launcher.SelfTest(copyOptionalLAf) ] -> Could not copy LAF. This is not serious!
+--ID:76TS:1768777109048-18/01/2026 23:58:29 -  [org.appwork.utils.logging2.InputStreamLogger(readInputStreamToString)] -> 3|org.jdownloader.update.launcher.SelfTest.log 2026-01-18 23:58:29 - INFO [ org.jdownloader.update.launcher.SelfTest(copyOptionalLAf) ] -> Copy /home/harry/.var/app/org.jdownloader.JDownloader/data/jdownloader/libs/laf/syntheticaJDCustom.jar to /home/harry/.var/app/org.jdownloader.JDownloader/data/jdownloader/tmp/update/self/JDU/libs/laf/syntheticaJDCustom.jar
+--ID:76TS:1768777109048-18/01/2026 23:58:29 -  [org.appwork.utils.logging2.InputStreamLogger(readInputStreamToString)] -> 3|org.jdownloader.update.launcher.SelfTest.log 2026-01-18 23:58:29 - INFO [ org.jdownloader.update.launcher.SelfTest(copyOptionalLAf) ] -> Could not copy LAF. This is not serious!
+--ID:76TS:1768777109048-18/01/2026 23:58:29 -  [org.appwork.utils.logging2.InputStreamLogger(readInputStreamToString)] -> 3|org.jdownloader.update.launcher.SelfTest.log 2026-01-18 23:58:29 - INFO [ org.jdownloader.update.launcher.SelfTest(copyOptionalLAf) ] -> Copy /home/harry/.var/app/org.jdownloader.JDownloader/data/jdownloader/libs/laf/syntheticaSimple2D.jar to /home/harry/.var/app/org.jdownloader.JDownloader/data/jdownloader/tmp/update/self/JDU/libs/laf/syntheticaSimple2D.jar
+--ID:76TS:1768777109048-18/01/2026 23:58:29 -  [org.appwork.utils.logging2.InputStreamLogger(readInputStreamToString)] -> 
+--ID:76TS:1768777109048-18/01/2026 23:58:29 -  [org.appwork.utils.logging2.InputStreamLogger(readInputStreamToString)] -> THREAD: 43
+--ID:76TS:1768777109048-18/01/2026 23:58:29 -  [org.appwork.utils.logging2.InputStreamLogger(readInputStreamToString)] -> 43|Log.L.log 2026-01-18 23:58:29 - FINER [ org.appwork.loggingv3.LogV3(finer) ] -> Read Config(URL): jar:file:/home/harry/.var/app/org.jdownloader.JDownloader/data/jdownloader/tmp/update/self/JDU/JDownloader.jar!/cfg/updateclient/Setup.updateservers.json
+--ID:76TS:1768777109048-18/01/2026 23:58:29 -  [org.appwork.utils.logging2.InputStreamLogger(readInputStreamToString)] -> 3|org.jdownloader.update.launcher.SelfTest.log 2026-01-18 23:58:29 - INFO [ org.jdownloader.update.launcher.SelfTest(copyOptionalLAf) ] -> Could not copy LAF. This is not serious!
+--ID:76TS:1768777109065-18/01/2026 23:58:29 -  [org.appwork.utils.logging2.InputStreamLogger(readInputStreamToString)] -> 43|Log.L.log 2026-01-18 23:58:29 - FINER [ org.appwork.loggingv3.LogV3(finer) ] -> Read Config(File): /home/harry/.var/app/org.jdownloader.JDownloader/data/jdownloader/tmp/update/self/JDU/cfg/org.jdownloader.settings.InternetConnectionSettings.customproxylist.json
+------------------------Thread: 77:org.jdownloader.update.UpdateManager.log-----------------------
+--ID:77TS:1768777109070-18/01/2026 23:58:29 -  [org.appwork.utils.logging2.InputStreamLogger(readInputStreamToString)] -> UpdateClient Proxy Vole 5
+------------------------Thread: 76:org.jdownloader.update.UpdateManager.log-----------------------
+--ID:76TS:1768777109074-18/01/2026 23:58:29 -  [org.appwork.utils.logging2.InputStreamLogger(readInputStreamToString)] -> 43|Log.L.log 2026-01-18 23:58:29 - INFO [ org.appwork.loggingv3.LogV3(info) ] -> Translation file missing:org/appwork/utils/locale/AWUTranslation.en.lngUse Annotation Dev fallback
+--ID:76TS:1768777109088-18/01/2026 23:58:29 -  [org.appwork.utils.logging2.InputStreamLogger(readInputStreamToString)] -> 
+--ID:76TS:1768777109088-18/01/2026 23:58:29 -  [org.appwork.utils.logging2.InputStreamLogger(readInputStreamToString)] -> THREAD: 43
+--ID:76TS:1768777109088-18/01/2026 23:58:29 -  [org.appwork.utils.logging2.InputStreamLogger(readInputStreamToString)] -> 43|org.jdownloader.update.UpdateManager.log 2026-01-18 23:58:29 - INFO [ org.appwork.updatesys.client.defaultimpl.http.HttpClientImpl(info) ] -> GET https://update.jdownloader.org/jcgi/lastchance?app=JD&pkh=12f1848a883e733ed40fffff0dae2f35&jh=b2bc9b0558d43f2438b05864fd1a96f9&rev=-1&srev=-1&urev=-1&surev=-1&rt=ST&st=1 via [Direct]
+--ID:76TS:1768777109088-18/01/2026 23:58:29 -  [org.appwork.utils.logging2.InputStreamLogger(readInputStreamToString)] -> 43|org.jdownloader.update.UpdateManager.log 2026-01-18 23:58:29 - INFO [ org.appwork.updatesys.client.defaultimpl.http.HttpClientImpl(internalDownloadWithProxy) ] -> Try Proxy: Direct
+--ID:76TS:1768777109088-18/01/2026 23:58:29 -  [org.appwork.utils.logging2.InputStreamLogger(readInputStreamToString)] -> 43|org.jdownloader.update.UpdateManager.log 2026-01-18 23:58:29 - INFO [ org.appwork.updatesys.client.defaultimpl.http.HttpClientImpl(info) ] -> Download to /tmp/lastChanceSrc176877710904712283410870976323446lch Size before: 0 bytes
+--ID:76TS:1768777109565-18/01/2026 23:58:29 -  [org.appwork.utils.logging2.InputStreamLogger(readInputStreamToString)] -> 43|org.jdownloader.update.UpdateManager.log 2026-01-18 23:58:29 - INFO [ org.appwork.updatesys.client.defaultimpl.http.HttpBackend(log) ] -> ----------------Request Information-------------
+--ID:76TS:1768777109565-18/01/2026 23:58:29 -  [org.appwork.utils.logging2.InputStreamLogger(readInputStreamToString)] -> URL: https://update.jdownloader.org/jcgi/lastchance?app=JD&pkh=12f1848a883e733ed40fffff0dae2f35&jh=b2bc9b0558d43f2438b05864fd1a96f9&rev=-1&srev=-1&urev=-1&surev=-1&rt=ST&st=1
+--ID:76TS:1768777109565-18/01/2026 23:58:29 -  [org.appwork.utils.logging2.InputStreamLogger(readInputStreamToString)] -> URL-Parameters:
+--ID:76TS:1768777109565-18/01/2026 23:58:29 -  [org.appwork.utils.logging2.InputStreamLogger(readInputStreamToString)] ->    app   : JD (REPO_NAME)
+--ID:76TS:1768777109565-18/01/2026 23:58:29 -  [org.appwork.utils.logging2.InputStreamLogger(readInputStreamToString)] ->    pkh   : 12f1848a883e733ed40fffff0dae2f35 (PUBLIC_KEY_HASH)
+--ID:76TS:1768777109565-18/01/2026 23:58:29 -  [org.appwork.utils.logging2.InputStreamLogger(readInputStreamToString)] ->    jh    : b2bc9b0558d43f2438b05864fd1a96f9
+--ID:76TS:1768777109565-18/01/2026 23:58:29 -  [org.appwork.utils.logging2.InputStreamLogger(readInputStreamToString)] ->    rev   : -1 (REPO_REVISION)
+--ID:76TS:1768777109565-18/01/2026 23:58:29 -  [org.appwork.utils.logging2.InputStreamLogger(readInputStreamToString)] ->    srev  : -1 (REPO_INSTALLED_REVISION) (REPO_SUPER_REVISION)
+--ID:76TS:1768777109565-18/01/2026 23:58:29 -  [org.appwork.utils.logging2.InputStreamLogger(readInputStreamToString)] ->    urev  : -1 (UPDATER_REVISION)
+--ID:76TS:1768777109565-18/01/2026 23:58:29 -  [org.appwork.utils.logging2.InputStreamLogger(readInputStreamToString)] ->    surev : -1 (UPDATER_SUPER_REVISION)
+--ID:76TS:1768777109565-18/01/2026 23:58:29 -  [org.appwork.utils.logging2.InputStreamLogger(readInputStreamToString)] ->    rt    : ST (RUNTYPE)
+--ID:76TS:1768777109566-18/01/2026 23:58:29 -  [org.appwork.utils.logging2.InputStreamLogger(readInputStreamToString)] ->    st    : 1 (SELFTEST)
+--ID:76TS:1768777109566-18/01/2026 23:58:29 -  [org.appwork.utils.logging2.InputStreamLogger(readInputStreamToString)] -> SSLCipher: JVM|Protocol:TLSv1.2|CipherSuite:TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256
+--ID:76TS:1768777109566-18/01/2026 23:58:29 -  [org.appwork.utils.logging2.InputStreamLogger(readInputStreamToString)] -> ConnectIP: update.jdownloader.org/2a01:4f8:211:1e8d:0:0:0:2:443
+--ID:76TS:1768777109566-18/01/2026 23:58:29 -  [org.appwork.utils.logging2.InputStreamLogger(readInputStreamToString)] -> Connection-Timeout: 20000ms
+--ID:76TS:1768777109566-18/01/2026 23:58:29 -  [org.appwork.utils.logging2.InputStreamLogger(readInputStreamToString)] -> Read-Timeout: 60000ms
+--ID:76TS:1768777109566-18/01/2026 23:58:29 -  [org.appwork.utils.logging2.InputStreamLogger(readInputStreamToString)] -> ----------------Request-------------------------
+--ID:76TS:1768777109566-18/01/2026 23:58:29 -  [org.appwork.utils.logging2.InputStreamLogger(readInputStreamToString)] -> GET /jcgi/lastchance?app=JD&pkh=12f1848a883e733ed40fffff0dae2f35&jh=b2bc9b0558d43f2438b05864fd1a96f9&rev=-1&srev=-1&urev=-1&surev=-1&rt=ST&st=1 HTTP/1.1
+--ID:76TS:1768777109566-18/01/2026 23:58:29 -  [org.appwork.utils.logging2.InputStreamLogger(readInputStreamToString)] -> Host: update.jdownloader.org
+--ID:76TS:1768777109566-18/01/2026 23:58:29 -  [org.appwork.utils.logging2.InputStreamLogger(readInputStreamToString)] -> Accept-Language: fr_FR
+--ID:76TS:1768777109566-18/01/2026 23:58:29 -  [org.appwork.utils.logging2.InputStreamLogger(readInputStreamToString)] -> User-Agent: JDownloader/201707061810
+--ID:76TS:1768777109566-18/01/2026 23:58:29 -  [org.appwork.utils.logging2.InputStreamLogger(readInputStreamToString)] -> Accept-Charset: ISO-8859-1,utf-8;q=0.7,*;q=0.3
+--ID:76TS:1768777109566-18/01/2026 23:58:29 -  [org.appwork.utils.logging2.InputStreamLogger(readInputStreamToString)] -> Connection: Close
+--ID:76TS:1768777109566-18/01/2026 23:58:29 -  [org.appwork.utils.logging2.InputStreamLogger(readInputStreamToString)] -> Cache-Control: no-cache, no-store
+--ID:76TS:1768777109566-18/01/2026 23:58:29 -  [org.appwork.utils.logging2.InputStreamLogger(readInputStreamToString)] -> Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+--ID:76TS:1768777109566-18/01/2026 23:58:29 -  [org.appwork.utils.logging2.InputStreamLogger(readInputStreamToString)] -> Pragma: no-cache
+--ID:76TS:1768777109566-18/01/2026 23:58:29 -  [org.appwork.utils.logging2.InputStreamLogger(readInputStreamToString)] -> ----------------Response Information------------
+--ID:76TS:1768777109566-18/01/2026 23:58:29 -  [org.appwork.utils.logging2.InputStreamLogger(readInputStreamToString)] -> Connection-Time: 86ms
+--ID:76TS:1768777109566-18/01/2026 23:58:29 -  [org.appwork.utils.logging2.InputStreamLogger(readInputStreamToString)] -> Request-Time: 27ms
+--ID:76TS:1768777109566-18/01/2026 23:58:29 -  [org.appwork.utils.logging2.InputStreamLogger(readInputStreamToString)] -> ----------------Response------------------------
+--ID:76TS:1768777109566-18/01/2026 23:58:29 -  [org.appwork.utils.logging2.InputStreamLogger(readInputStreamToString)] -> HTTP/1.1 302 Found
+--ID:76TS:1768777109566-18/01/2026 23:58:29 -  [org.appwork.utils.logging2.InputStreamLogger(readInputStreamToString)] -> Date: Sun, 18 Jan 2026 22:58:29 GMT
+--ID:76TS:1768777109566-18/01/2026 23:58:29 -  [org.appwork.utils.logging2.InputStreamLogger(readInputStreamToString)] -> Content-Length: 0
+--ID:76TS:1768777109567-18/01/2026 23:58:29 -  [org.appwork.utils.logging2.InputStreamLogger(readInputStreamToString)] -> Connection: close
+--ID:76TS:1768777109567-18/01/2026 23:58:29 -  [org.appwork.utils.logging2.InputStreamLogger(readInputStreamToString)] -> Server: AppWork GmbH FcgiServer
+--ID:76TS:1768777109567-18/01/2026 23:58:29 -  [org.appwork.utils.logging2.InputStreamLogger(readInputStreamToString)] -> JCGI: 1 (HTTP_HEADER_FCGI)
+--ID:76TS:1768777109567-18/01/2026 23:58:29 -  [org.appwork.utils.logging2.InputStreamLogger(readInputStreamToString)] -> UPD_SRV: 1
+--ID:76TS:1768777109567-18/01/2026 23:58:29 -  [org.appwork.utils.logging2.InputStreamLogger(readInputStreamToString)] -> Location: http://cdn4.appwork.org/JD/JD_lastChanceRescueMe.bin
+--ID:76TS:1768777109567-18/01/2026 23:58:29 -  [org.appwork.utils.logging2.InputStreamLogger(readInputStreamToString)] -> Strict-Transport-Security: max-age=15638400
+--ID:76TS:1768777109567-18/01/2026 23:58:29 -  [org.appwork.utils.logging2.InputStreamLogger(readInputStreamToString)] -> ------------------------------------------------
+--ID:76TS:1768777109567-18/01/2026 23:58:29 -  [org.appwork.utils.logging2.InputStreamLogger(readInputStreamToString)] -> 
+--ID:76TS:1768777109567-18/01/2026 23:58:29 -  [org.appwork.utils.logging2.InputStreamLogger(readInputStreamToString)] -> 
+--ID:76TS:1768777109654-18/01/2026 23:58:29 -  [org.appwork.utils.logging2.InputStreamLogger(readInputStreamToString)] -> 43|org.jdownloader.update.UpdateManager.log 2026-01-18 23:58:29 - INFO [ org.appwork.updatesys.client.defaultimpl.http.HttpBackend(log) ] -> ----------------Request Information-------------
+--ID:76TS:1768777109654-18/01/2026 23:58:29 -  [org.appwork.utils.logging2.InputStreamLogger(readInputStreamToString)] -> URL: http://cdn4.appwork.org/JD/JD_lastChanceRescueMe.bin
+--ID:76TS:1768777109655-18/01/2026 23:58:29 -  [org.appwork.utils.logging2.InputStreamLogger(readInputStreamToString)] -> ConnectIP: cdn4.appwork.org/2a01:4f8:2b01:d:0:0:0:2:80
+--ID:76TS:1768777109655-18/01/2026 23:58:29 -  [org.appwork.utils.logging2.InputStreamLogger(readInputStreamToString)] -> Connection-Timeout: 20000ms
+--ID:76TS:1768777109655-18/01/2026 23:58:29 -  [org.appwork.utils.logging2.InputStreamLogger(readInputStreamToString)] -> Read-Timeout: 60000ms
+--ID:76TS:1768777109655-18/01/2026 23:58:29 -  [org.appwork.utils.logging2.InputStreamLogger(readInputStreamToString)] -> ----------------Request-------------------------
+--ID:76TS:1768777109655-18/01/2026 23:58:29 -  [org.appwork.utils.logging2.InputStreamLogger(readInputStreamToString)] -> GET /JD/JD_lastChanceRescueMe.bin HTTP/1.1
+--ID:76TS:1768777109655-18/01/2026 23:58:29 -  [org.appwork.utils.logging2.InputStreamLogger(readInputStreamToString)] -> Host: cdn4.appwork.org
+--ID:76TS:1768777109655-18/01/2026 23:58:29 -  [org.appwork.utils.logging2.InputStreamLogger(readInputStreamToString)] -> Accept-Language: fr_FR
+--ID:76TS:1768777109655-18/01/2026 23:58:29 -  [org.appwork.utils.logging2.InputStreamLogger(readInputStreamToString)] -> User-Agent: JDownloader/201707061810
+--ID:76TS:1768777109655-18/01/2026 23:58:29 -  [org.appwork.utils.logging2.InputStreamLogger(readInputStreamToString)] -> Accept-Charset: ISO-8859-1,utf-8;q=0.7,*;q=0.3
+--ID:76TS:1768777109655-18/01/2026 23:58:29 -  [org.appwork.utils.logging2.InputStreamLogger(readInputStreamToString)] -> Connection: Close
+--ID:76TS:1768777109655-18/01/2026 23:58:29 -  [org.appwork.utils.logging2.InputStreamLogger(readInputStreamToString)] -> Cache-Control: no-cache, no-store
+--ID:76TS:1768777109655-18/01/2026 23:58:29 -  [org.appwork.utils.logging2.InputStreamLogger(readInputStreamToString)] -> Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+--ID:76TS:1768777109655-18/01/2026 23:58:29 -  [org.appwork.utils.logging2.InputStreamLogger(readInputStreamToString)] -> Pragma: no-cache
+--ID:76TS:1768777109655-18/01/2026 23:58:29 -  [org.appwork.utils.logging2.InputStreamLogger(readInputStreamToString)] -> ----------------Response Information------------
+--ID:76TS:1768777109655-18/01/2026 23:58:29 -  [org.appwork.utils.logging2.InputStreamLogger(readInputStreamToString)] -> Connection-Time: 27ms
+--ID:76TS:1768777109655-18/01/2026 23:58:29 -  [org.appwork.utils.logging2.InputStreamLogger(readInputStreamToString)] -> Request-Time: 29ms
+--ID:76TS:1768777109655-18/01/2026 23:58:29 -  [org.appwork.utils.logging2.InputStreamLogger(readInputStreamToString)] -> ----------------Response------------------------
+--ID:76TS:1768777109655-18/01/2026 23:58:29 -  [org.appwork.utils.logging2.InputStreamLogger(readInputStreamToString)] -> HTTP/1.1 200 OK
+--ID:76TS:1768777109655-18/01/2026 23:58:29 -  [org.appwork.utils.logging2.InputStreamLogger(readInputStreamToString)] -> Server: nginx/1.25.0
+--ID:76TS:1768777109655-18/01/2026 23:58:29 -  [org.appwork.utils.logging2.InputStreamLogger(readInputStreamToString)] -> Date: Sun, 18 Jan 2026 23:02:54 GMT
+--ID:76TS:1768777109655-18/01/2026 23:58:29 -  [org.appwork.utils.logging2.InputStreamLogger(readInputStreamToString)] -> Content-Type: application/octet-stream
+--ID:76TS:1768777109655-18/01/2026 23:58:29 -  [org.appwork.utils.logging2.InputStreamLogger(readInputStreamToString)] -> Content-Length: 1696
+--ID:76TS:1768777109656-18/01/2026 23:58:29 -  [org.appwork.utils.logging2.InputStreamLogger(readInputStreamToString)] -> Connection: close
+--ID:76TS:1768777109656-18/01/2026 23:58:29 -  [org.appwork.utils.logging2.InputStreamLogger(readInputStreamToString)] -> Last-Modified: Mon, 19 Aug 2024 14:45:49 GMT
+--ID:76TS:1768777109656-18/01/2026 23:58:29 -  [org.appwork.utils.logging2.InputStreamLogger(readInputStreamToString)] -> ETag: "66c35a9d-6a0"
+--ID:76TS:1768777109656-18/01/2026 23:58:29 -  [org.appwork.utils.logging2.InputStreamLogger(readInputStreamToString)] -> X-Cache: HIT
+--ID:76TS:1768777109656-18/01/2026 23:58:29 -  [org.appwork.utils.logging2.InputStreamLogger(readInputStreamToString)] -> X-CDN: 1172_1_6_1161
+--ID:76TS:1768777109656-18/01/2026 23:58:29 -  [org.appwork.utils.logging2.InputStreamLogger(readInputStreamToString)] -> X-CDN-SIGNATURE: .Nanachi.
+--ID:76TS:1768777109656-18/01/2026 23:58:29 -  [org.appwork.utils.logging2.InputStreamLogger(readInputStreamToString)] -> Accept-Ranges: bytes
+--ID:76TS:1768777109656-18/01/2026 23:58:29 -  [org.appwork.utils.logging2.InputStreamLogger(readInputStreamToString)] -> ------------------------------------------------
+--ID:76TS:1768777109656-18/01/2026 23:58:29 -  [org.appwork.utils.logging2.InputStreamLogger(readInputStreamToString)] -> 
+--ID:76TS:1768777109656-18/01/2026 23:58:29 -  [org.appwork.utils.logging2.InputStreamLogger(readInputStreamToString)] -> 
+--ID:76TS:1768777109657-18/01/2026 23:58:29 -  [org.appwork.utils.logging2.InputStreamLogger(readInputStreamToString)] -> 43|org.jdownloader.update.UpdateManager.log 2026-01-18 23:58:29 - INFO [ org.appwork.updatesys.client.defaultimpl.http.HttpClientImpl(info) ] -> Connection ok. Downloaded /tmp/lastChanceSrc176877710904712283410870976323446lch: 1696 bytes
+------------------------Thread: 51:org.jdownloader.update.UpdateManager.log-----------------------
+--ID:51TS:1768777109713-18/01/2026 23:58:29 -  [org.jdownloader.update.SelfUpdateClient(finishSelfUpdate)] -> Test 
+--ID:51TS:1768777109713-18/01/2026 23:58:29 -  [org.jdownloader.update.SelfUpdateClient(finishSelfUpdate)] -> Running 
+------------------------Thread: 76:org.jdownloader.update.UpdateManager.log-----------------------
+--ID:76TS:1768777110048-18/01/2026 23:58:30 -  [org.appwork.utils.logging2.InputStreamLogger(readInputStreamToString)] -> 
+--ID:76TS:1768777110049-18/01/2026 23:58:30 -  [org.appwork.utils.logging2.InputStreamLogger(readInputStreamToString)] -> THREAD: 3
+--ID:76TS:1768777110049-18/01/2026 23:58:30 -  [org.appwork.utils.logging2.InputStreamLogger(readInputStreamToString)] -> 3|org.jdownloader.update.launcher.SelfTest.log 2026-01-18 23:58:30 - INFO [ org.jdownloader.update.launcher.SelfTest(onSelfTestOK) ] -> Write PollFile: /home/harry/.var/app/org.jdownloader.JDownloader/data/jdownloader/tmp/selftest_1768777108706
+------------------------Thread: 51:org.jdownloader.update.UpdateManager.log-----------------------
+--ID:51TS:1768777110714-18/01/2026 23:58:30 -  [org.jdownloader.update.SelfUpdateClient(finishSelfUpdate)] -> Test 
+--ID:51TS:1768777110714-18/01/2026 23:58:30 -  [org.jdownloader.update.SelfUpdateClient(finishSelfUpdate)] -> Running 
+--ID:51TS:1768777110714-18/01/2026 23:58:30 -  [org.jdownloader.update.SelfUpdateClient(finishSelfUpdate)] -> File exists 
+--ID:51TS:1768777112714-18/01/2026 23:58:32 -  [org.jdownloader.update.SelfUpdateClient(validateSelfTestFile)] -> Validate:  OK
+--ID:51TS:1768777112715-18/01/2026 23:58:32 -  [org.jdownloader.update.SelfUpdateClient(validateSelfTestFile)] -> SelfTest Results: 
+OK
+--ID:51TS:1768777112715-18/01/2026 23:58:32 -  [org.jdownloader.update.SelfUpdateClient(validateSelfTestFile)] -> OK
+--ID:51TS:1768777112715-18/01/2026 23:58:32 -  [org.jdownloader.update.SelfUpdateClient(validateSelfTestFile)] -> Self Update successful

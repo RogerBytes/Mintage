@@ -1,9 +1,0 @@
-------------------------Thread: 66:org.jdownloader.plugins.controller.crawler.CrawlerPluginController.log-----------------------
---ID:66TS:1746198123792-02/05/2025 17:02:03 -  [org.jdownloader.plugins.controller.crawler.CrawlerPluginController(init)] -> CrawlerPluginController: init
-------------------------Thread: 90:org.jdownloader.plugins.controller.crawler.CrawlerPluginController.log-----------------------
---ID:90TS:1746198123831-02/05/2025 17:02:03 -  [org.jdownloader.plugins.controller.crawler.CrawlerPluginController$1(run)] -> @CrawlerPluginController: loadFromCache took 38ms for 1115|LastModified:1746197824221
---ID:90TS:1746198123839-02/05/2025 17:02:03 -  [org.jdownloader.plugins.controller.PluginScannerNIO(scan)] -> @PluginController(NIO): lastModified timestamp change test: successful
---ID:90TS:1746198123840-02/05/2025 17:02:03 -  [org.jdownloader.plugins.controller.PluginScannerNIO(scan)] -> @PluginController(NIO): plugin cache valid|Size:1115|LastModified:1746198123838
---ID:90TS:1746198123840-02/05/2025 17:02:03 -  [org.jdownloader.plugins.controller.PluginScannerNIO(scan)] -> @PluginController(NIO): scan took 7ms for 1115
---ID:90TS:1746198123841-02/05/2025 17:02:03 -  [org.jdownloader.plugins.controller.crawler.CrawlerPluginController$1(run)] -> @CrawlerPluginController: update took 10ms for 1115|LastModified:1746198123838
---ID:90TS:1746198123841-02/05/2025 17:02:03 -  [org.jdownloader.plugins.controller.crawler.CrawlerPluginController$1(run)] -> @CrawlerPluginController: init took 48ms for 1115

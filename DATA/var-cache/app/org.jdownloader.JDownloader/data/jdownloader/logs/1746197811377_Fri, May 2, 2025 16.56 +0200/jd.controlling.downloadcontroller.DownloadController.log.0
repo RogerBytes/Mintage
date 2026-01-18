@@ -1,8 +1,0 @@
-------------------------Thread: 72:jd.controlling.downloadcontroller.DownloadController.log-----------------------
---ID:72TS:1746197817708-02/05/2025 16:56:57 -  [jd.controlling.downloadcontroller.DownloadController$7(run)] -> Init DownloadList
---ID:72TS:1746197817708-02/05/2025 16:56:57 -  [jd.controlling.downloadcontroller.DownloadController(findAvailableDownloadLists)] -> Collect Lists
---ID:72TS:1746197817721-02/05/2025 16:56:57 -  [jd.controlling.downloadcontroller.DownloadController(findAvailableDownloadLists)] -> Lists: [/home/harry/.var/app/org.jdownloader.JDownloader/data/jdownloader/cfg/downloadList303.zip, /home/harry/.var/app/org.jdownloader.JDownloader/data/jdownloader/cfg/downloadList302.zip, /home/harry/.var/app/org.jdownloader.JDownloader/data/jdownloader/cfg/downloadList301.zip, /home/harry/.var/app/org.jdownloader.JDownloader/data/jdownloader/cfg/downloadList300.zip, /home/harry/.var/app/org.jdownloader.JDownloader/data/jdownloader/cfg/downloadList299.zip, /home/harry/.var/app/org.jdownloader.JDownloader/data/jdownloader/cfg/downloadList298.zip]
---ID:72TS:1746197817721-02/05/2025 16:56:57 -  [jd.controlling.downloadcontroller.DownloadController(loadFile)] -> Load List: /home/harry/.var/app/org.jdownloader.JDownloader/data/jdownloader/cfg/downloadList303.zip
---ID:72TS:1746197817741-02/05/2025 16:56:57 -  [jd.controlling.downloadcontroller.DownloadController$7(run)] -> LinkList found: 0/0
-------------------------Thread: 50:jd.controlling.downloadcontroller.DownloadController.log-----------------------
---ID:50TS:1746197824523-02/05/2025 16:57:04 -  [org.jdownloader.plugins.controller.host.PluginFinder(_assignHost)] -> Could not assign any host for: 1746197824521.com

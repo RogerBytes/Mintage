@@ -1,6 +1,0 @@
-------------------------Thread: 36:jd.controlling.linkcollector.LinkCollector.log-----------------------
---ID:36TS:1746199607703-02/05/2025 17:26:47 -  [jd.controlling.linkcollector.LinkCollector(<init>)] -> LinkChecker Enabled:true
-------------------------Thread: 68:jd.controlling.linkcollector.LinkCollector.log-----------------------
---ID:68TS:1746199608230-02/05/2025 17:26:48 -  [jd.controlling.linkcollector.LinkCollector(findAvailableCollectorLists)] -> Collect Lists
---ID:68TS:1746199608241-02/05/2025 17:26:48 -  [jd.controlling.linkcollector.LinkCollector(findAvailableCollectorLists)] -> Lists: [/home/harry/.var/app/org.jdownloader.JDownloader/data/jdownloader/cfg/linkcollector357.zip, /home/harry/.var/app/org.jdownloader.JDownloader/data/jdownloader/cfg/linkcollector356.zip, /home/harry/.var/app/org.jdownloader.JDownloader/data/jdownloader/cfg/linkcollector355.zip, /home/harry/.var/app/org.jdownloader.JDownloader/data/jdownloader/cfg/linkcollector354.zip, /home/harry/.var/app/org.jdownloader.JDownloader/data/jdownloader/cfg/linkcollector353.zip, /home/harry/.var/app/org.jdownloader.JDownloader/data/jdownloader/cfg/linkcollector352.zip]
---ID:68TS:1746199608265-02/05/2025 17:26:48 -  [jd.controlling.linkcollector.LinkCollector$17(run)] -> CollectorList found: 0/0

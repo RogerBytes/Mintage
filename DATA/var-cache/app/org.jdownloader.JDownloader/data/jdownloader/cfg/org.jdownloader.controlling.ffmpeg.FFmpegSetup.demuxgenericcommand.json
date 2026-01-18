@@ -1,1 +1,0 @@
-["-i","%audio","%map","-acodec","copy","-vn","%out","-y"]

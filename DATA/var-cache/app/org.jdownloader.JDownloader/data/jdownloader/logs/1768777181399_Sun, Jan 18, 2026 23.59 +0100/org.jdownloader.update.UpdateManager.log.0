@@ -1,0 +1,378 @@
+------------------------Thread: 3:org.jdownloader.update.UpdateManager.log-----------------------
+--ID:3TS:1768777181612-2026-01-18 23:59:41 -  [org.jdownloader.update.UpdateManager(<init>)] -> ClientSetup 7
+------------------------Thread: 44:org.jdownloader.update.UpdateManager.log-----------------------
+--ID:44TS:1768777181659-2026-01-18 23:59:41 -  [org.appwork.updatesys.client.extensions.ExtensionManager(init)] -> Installed Extensions: [flatlaf-themes]
+--ID:44TS:1768777181659-2026-01-18 23:59:41 -  [org.appwork.updatesys.client.extensions.ExtensionManager(init)] -> Requested Extension Installations: []
+--ID:44TS:1768777181660-2026-01-18 23:59:41 -  [org.appwork.updatesys.client.extensions.ExtensionManager(init)] -> Requested Extension Uninstalls: []
+--ID:44TS:1768777181660-2026-01-18 23:59:41 -  [org.jdownloader.update.JDUpdateClient$JDExtensionManager(init)] -> Installed Extensions: [flatlaf-themes]
+--ID:44TS:1768777181660-2026-01-18 23:59:41 -  [org.appwork.updatesys.client.FileList(<init>)] -> FileList at /home/harry/.var/app/org.jdownloader.JDownloader/data/jdownloader/update/versioninfo/JD/filelist.txt Size: 486660
+------------------------Thread: 3:org.jdownloader.update.UpdateManager.log-----------------------
+--ID:3TS:1768777181665-2026-01-18 23:59:41 -  [org.jdownloader.update.UpdateManager(<init>)] -> Client 52
+------------------------Thread: 44:org.jdownloader.update.UpdateManager.log-----------------------
+--ID:44TS:1768777181667-2026-01-18 23:59:41 -  [org.appwork.updatesys.client.extensions.ExtensionManager(init)] -> Installed Extensions: []
+--ID:44TS:1768777181667-2026-01-18 23:59:41 -  [org.appwork.updatesys.client.extensions.ExtensionManager(init)] -> Requested Extension Installations: []
+--ID:44TS:1768777181667-2026-01-18 23:59:41 -  [org.appwork.updatesys.client.extensions.ExtensionManager(init)] -> Requested Extension Uninstalls: []
+--ID:44TS:1768777181668-2026-01-18 23:59:41 -  [org.appwork.updatesys.client.FileList(<init>)] -> FileList at /home/harry/.var/app/org.jdownloader.JDownloader/data/jdownloader/update/versioninfo/JDU/filelist.txt Size: 97
+------------------------Thread: 3:org.jdownloader.update.UpdateManager.log-----------------------
+--ID:3TS:1768777181668-2026-01-18 23:59:41 -  [org.jdownloader.update.UpdateManager(<init>)] -> selfUpdateClient 3
+--ID:3TS:1768777181668-2026-01-18 23:59:41 -  [org.jdownloader.update.UpdateManager(<init>)] -> LastChanceInit 0
+--ID:3TS:1768777181668-2026-01-18 23:59:41 -  [org.jdownloader.update.UpdateManager(<init>)] -> setUpdateOnExitFlag 0
+--ID:3TS:1768777181671-2026-01-18 23:59:41 -  [org.jdownloader.update.UpdateManager(<init>)] -> CreateGui 3
+--ID:3TS:1768777181672-2026-01-18 23:59:41 -  [org.jdownloader.update.UpdateManager(<init>)] -> DefaultHandler 1
+--ID:3TS:1768777181672-2026-01-18 23:59:41 -  [org.jdownloader.update.UpdateManager(<init>)] -> SetDefaultHandler 0
+--ID:3TS:1768777181672-2026-01-18 23:59:41 -  [org.jdownloader.update.UpdateManager(<init>)] -> ProxySelector 0
+--ID:3TS:1768777181672-2026-01-18 23:59:41 -  [org.jdownloader.update.UpdateManager(finish)] -> Current State: 
+--ID:3TS:1768777181672-2026-01-18 23:59:41 -  [org.jdownloader.update.UpdateManager(finish)] -> Do Not ask Flag: false
+--ID:3TS:1768777181674-2026-01-18 23:59:41 -  [org.jdownloader.update.UpdateManager(finish)] -> Settings: {
+ "countdownforinstallupdatesonexitbubble"         : 10000,
+ "autohideguiiftherearenoupdatesenabled"          : false,
+ "proxydialogonnoconnectionenabled"               : true,
+ "selftestwritetimeout"                           : 60000,
+ "lastsuccessfulconnection"                       : 1768777178767,
+ "updateinterval"                                 : 600000,
+ "autohideguiifsilentupdateswereinstalledenabled" : false,
+ "doaskmebeforeinstallinganupdateenabled"         : false,
+ "build"                                          : "{\r\n \"JDownloaderServerOptionsRevision\" : 6399,\r\n \"buildTimestamp\"                   : 1767878934122,\r\n \"UpdateClientV2Revision\"           : 1061,\r\n \"JDownloaderUpdaterRevision\"       : 5770,\r\n \"AppWorkUtilsRevision\"             : 4055,\r\n \"JDBrowserRevision\"                : 51993,\r\n \"JDClosedRevision\"                 : 1048,\r\n \"MyJDownloaderClientRevision\"      : 49320,\r\n \"buildDate\"                        : \"Thu Jan 08 14:28:54 CET 2026\",\r\n \"JDownloaderRevision\"              : 50639\r\n}",
+ "jardiffenabled"                                 : true,
+ "updateguialwaysontop"                           : true,
+ "installupdatesonexitenabled"                    : true,
+ "doaskbeforedownloadinganupdate"                 : false,
+ "installupdatessilentlyifpossibleenabled"        : true,
+ "autoupdatecheckenabled"                         : true,
+ "installupdatesonexitpanelvisible"               : true,
+ "selftestpolltimeout"                            : 60000
+}
+--ID:3TS:1768777181675-2026-01-18 23:59:41 -  [org.jdownloader.update.UpdateManager(finish)] -> Client Revision: 18599
+--ID:3TS:1768777181675-2026-01-18 23:59:41 -  [org.jdownloader.update.UpdateManager(finish)] -> Client Revision incl. Pending Installpackages: 18599
+--ID:3TS:1768777181676-2026-01-18 23:59:41 -  [org.jdownloader.update.UpdateManager(finish)] -> Updater Client Revision: 18634
+--ID:3TS:1768777181676-2026-01-18 23:59:41 -  [org.jdownloader.update.UpdateManager(finish)] -> Updater Client Revision incl. Pending Installpackages: 18634
+--ID:3TS:1768777181676-2026-01-18 23:59:41 -  [org.jdownloader.update.UpdateManager(finish)] -> AWF Packages pending: []
+--ID:3TS:1768777181676-2026-01-18 23:59:41 -  [org.jdownloader.update.UpdateManager(finish)] -> SelfUpdate pending: false ([])
+--ID:3TS:1768777181710-2026-01-18 23:59:41 -  [org.jdownloader.update.UpdateManager(setLaunchState)] -> Launchstate: LAUNCHING_JD
+--ID:3TS:1768777183101-2026-01-18 23:59:43 -  [org.jdownloader.update.UpdateManager(setLaunchState)] -> Launchstate: JD_RUNNING
+------------------------Thread: 110:org.jdownloader.update.UpdateManager.log-----------------------
+--ID:110TS:1768777183729-2026-01-18 23:59:43 -  [org.appwork.updatesys.client.UpdateClient(getUpdateOptions)] -> org.jdownloader.update.JDUpdateClient:getDefaultUpdateOptions:{
+ "deduplicationMode" : "INTRA",
+ "retryCauses"       : null,
+ "jarDiffEnabled"    : true
+}
+--ID:110TS:1768777183744-2026-01-18 23:59:43 -  [org.appwork.updatesys.client.UpdateClient(batchRequest)] -> [Update Client:JD@update.jdownloader.org] Batch Request ( 70 bytes):
+{
+ "jobs" : [
+           {
+            "id"   : 1768777183734,
+            "json" : null,
+            "name" : "TIME_SYNC"
+           }
+          ]
+}
+--ID:110TS:1768777183759-2026-01-18 23:59:43 -  [org.appwork.updatesys.client.defaultimpl.http.HttpClientImpl(info)] -> GET https://update.jdownloader.org/jcgi/batch?jobs=TIME_SYNC&st=0&rt=SO&jn=JDownloader.jar&pv=12&cv=20210716001&pkh=12f1848a883e733ed40fffff0dae2f35&app=JD&os=LINUX&osr=DEBIAN&arch=X86&os64=1&jvm64=1&java=24000002000012&uid=dnt_&hidAck=no&urev=18634&srev=18599&surev=18634&ct=Normal&1768777183740.1768777183741&lng=fr_FR via [Direct]
+--ID:110TS:1768777183759-2026-01-18 23:59:43 -  [org.appwork.updatesys.client.defaultimpl.http.HttpClientImpl(info)] -> Get Try with Proxy Direct
+--ID:110TS:1768777184014-2026-01-18 23:59:44 -  [] -> Exception thrown at org.appwork.updatesys.client.defaultimpl.http.HttpBackend.createInvalidResponseCodeException(HttpBackend.java:108):
+400 Bad Request
+	at org.appwork.utils.net.httpconnection.HTTPConnectionImpl.getInputStream(HTTPConnectionImpl.java:1541)
+	at org.appwork.updatesys.client.defaultimpl.http.HttpBackend.createInvalidResponseCodeException(HttpBackend.java:103)
+	at org.appwork.utils.net.BasicHTTP.BasicHTTP.checkResponseCode(BasicHTTP.java:101)
+	at org.appwork.utils.net.BasicHTTP.BasicHTTP.postPage(BasicHTTP.java:742)
+	at org.appwork.updatesys.client.defaultimpl.http.HttpClientImpl.internalPostWithProxy(HttpClientImpl.java:316)
+	at org.appwork.updatesys.client.defaultimpl.http.HttpClientImpl.post(HttpClientImpl.java:376)
+	at org.appwork.updatesys.client.UpdateClient.batchRequest(UpdateClient.java:5693)
+	at org.appwork.updatesys.client.UpdateClient.ensureTimeSync(UpdateClient.java:2956)
+	at org.appwork.updatesys.client.UpdateClient.ensureSessionInit(UpdateClient.java:5801)
+	at org.appwork.updatesys.client.UpdateClient.get(UpdateClient.java:2823)
+	at org.appwork.updatesys.client.UpdateClient.downloadPackage(UpdateClient.java:5188)
+	at org.appwork.updatesys.client.UpdateClient.runUpdateCheck(UpdateClient.java:5108)
+	at org.appwork.updatesys.client.UpdateClient.runPackageRequestAndServerSelection(UpdateClient.java:5334)
+	at org.appwork.updatesys.client.UpdateClient.runUpdateCheck(UpdateClient.java:5249)
+	at org.jdownloader.update.UpdateManager.runUpdateLoop(UpdateManager.java:1024)
+	at org.jdownloader.update.PendingUpdate.run(PendingUpdate.java:19)
+	at org.jdownloader.update.UpdateManager$23.run(UpdateManager.java:1694)
+	at java.base/java.lang.Thread.run(Thread.java:1447)
+
+--ID:110TS:1768777184030-2026-01-18 23:59:44 -  [org.appwork.updatesys.client.defaultimpl.http.HttpBackend(log)] -> ----------------Request Information-------------
+URL: https://update.jdownloader.org/jcgi/batch?jobs=TIME_SYNC&st=0&rt=SO&jn=JDownloader.jar&pv=12&cv=20210716001&pkh=12f1848a883e733ed40fffff0dae2f35&app=JD&os=LINUX&osr=DEBIAN&arch=X86&os64=1&jvm64=1&java=24000002000012&uid=dnt_&hidAck=no&urev=18634&srev=18599&surev=18634&ct=Normal&1768777183740.1768777183741&lng=fr_FR
+URL-Parameters:
+   jobs   : TIME_SYNC (BATCH_JOBS)
+   st     : 0 (SELFTEST)
+   rt     : SO (RUNTYPE)
+   jn     : JDownloader.jar (JAR_NAME)
+   pv     : 12 (PROTOCOL_VERSION)
+   cv     : 20210716001 (CLIENT_VERSION)
+   pkh    : 12f1848a883e733ed40fffff0dae2f35 (PUBLIC_KEY_HASH)
+   app    : JD (REPO_NAME)
+   os     : LINUX (OPERATING_SYSTEM)
+   osr    : DEBIAN (OPERATING_SYSTEM_RELEASE)
+   arch   : X86 (CPU_ARCHITECTUR)
+   os64   : 1 (OPERATING_SYSTEM_64BIT)
+   jvm64  : 1 (JVM_64BIT)
+   java   : 24000002000012 (JVM_VERSION)
+   uid    : dnt_ (NAMESPACE_UID) (UID)
+   hidAck : no (HARDWARE_ID_ACK)
+   urev   : 18634 (UPDATER_REVISION)
+   srev   : 18599 (REPO_INSTALLED_REVISION) (REPO_SUPER_REVISION)
+   surev  : 18634 (UPDATER_SUPER_REVISION)
+   ct     : Normal (STAGING_GROUP)
+          : 1768777183740.1768777183741
+   lng    : fr_FR (LANGUAGE)
+SSLCipher: JVM|Protocol:TLSv1.2|CipherSuite:TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256
+ConnectIP: update.jdownloader.org/2a01:4f8:211:1e8d:0:0:0:2:443
+Connection-Timeout: 20000ms
+Read-Timeout: 60000ms
+----------------Request-------------------------
+POST /jcgi/batch?jobs=TIME_SYNC&st=0&rt=SO&jn=JDownloader.jar&pv=12&cv=20210716001&pkh=12f1848a883e733ed40fffff0dae2f35&app=JD&os=LINUX&osr=DEBIAN&arch=X86&os64=1&jvm64=1&java=24000002000012&uid=dnt_&hidAck=no&urev=18634&srev=18599&surev=18634&ct=Normal&1768777183740.1768777183741&lng=fr_FR HTTP/1.1
+Host: update.jdownloader.org
+Accept-Language: fr_FR
+User-Agent: JDownloader/201707061810
+Accept-Charset: ISO-8859-1,utf-8;q=0.7,*;q=0.3
+Connection: Close
+Cache-Control: no-cache, no-store
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Pragma: no-cache
+Content-Length: 70
+Accept-Encoding: gzip
+Content-Type: application/json; charset=utf-8
+Content-Encoding: gzip
+----------------Response Information------------
+Connection-Time: 34ms
+Request-Time: 23ms
+----------------Response------------------------
+HTTP/1.1 400 Bad Request
+Server: nginx
+Date: Sun, 18 Jan 2026 22:59:44 GMT
+Content-Type: text/html
+Content-Length: 150
+Connection: close
+JCGI: 1 (HTTP_HEADER_FCGI)
+------------------------------------------------
+
+
+--ID:110TS:1768777184031-2026-01-18 23:59:44 -  [org.appwork.updatesys.client.defaultimpl.http.HttpClientImpl(checkTryNextProxyOrGiveUp)] -> Check if we can leave 
+--ID:110TS:1768777184031-2026-01-18 23:59:44 -  [org.appwork.updatesys.client.defaultimpl.http.HttpClientImpl(checkTryNextProxyOrGiveUp)] -> Invalid Response Code: org.appwork.utils.net.BasicHTTP.InvalidResponseCode: Invalid ResponseCode: 400
+--ID:110TS:1768777184031-2026-01-18 23:59:44 -  [org.appwork.updatesys.client.defaultimpl.http.HttpClientImpl(throwServerExceptions)] -> Handle BasicHTTPException org.appwork.utils.net.BasicHTTP.BasicHTTPException: org.appwork.utils.net.BasicHTTP.ReadIOException: org.appwork.utils.net.BasicHTTP.InvalidResponseCode: Invalid ResponseCode: 400
+--ID:110TS:1768777184031-2026-01-18 23:59:44 -  [org.appwork.updatesys.client.UpdateClient(ensureTimeSync)] -> Time Sync: Unsupported Server:update.jdownloader.org
+--ID:110TS:1768777184032-2026-01-18 23:59:44 -  [org.appwork.updatesys.client.UpdateClient(batchRequest)] -> [Update Client:JD@update.jdownloader.org] Batch Request ( 84 bytes):
+{
+ "jobs" : [
+           {
+            "id"   : 1768777184031,
+            "json" : "null",
+            "name" : "SESSION_INIT"
+           }
+          ]
+}
+--ID:110TS:1768777184033-2026-01-18 23:59:44 -  [org.appwork.updatesys.client.defaultimpl.http.HttpClientImpl(info)] -> GET https://update.jdownloader.org/jcgi/batch?jobs=SESSION_INIT&st=0&rt=SO&jn=JDownloader.jar&pv=12&cv=20210716001&pkh=12f1848a883e733ed40fffff0dae2f35&app=JD&os=LINUX&osr=DEBIAN&arch=X86&os64=1&jvm64=1&java=24000002000012&uid=dnt_&hidAck=no&urev=18634&srev=18599&surev=18634&ct=Normal&1768777184032.1768777184032&lng=fr_FR via [Direct]
+--ID:110TS:1768777184033-2026-01-18 23:59:44 -  [org.appwork.updatesys.client.defaultimpl.http.HttpClientImpl(info)] -> Get Try with Proxy Direct
+--ID:110TS:1768777184216-2026-01-18 23:59:44 -  [] -> Exception thrown at org.appwork.updatesys.client.defaultimpl.http.HttpBackend.createInvalidResponseCodeException(HttpBackend.java:108):
+400 Bad Request
+	at org.appwork.utils.net.httpconnection.HTTPConnectionImpl.getInputStream(HTTPConnectionImpl.java:1541)
+	at org.appwork.updatesys.client.defaultimpl.http.HttpBackend.createInvalidResponseCodeException(HttpBackend.java:103)
+	at org.appwork.utils.net.BasicHTTP.BasicHTTP.checkResponseCode(BasicHTTP.java:101)
+	at org.appwork.utils.net.BasicHTTP.BasicHTTP.postPage(BasicHTTP.java:742)
+	at org.appwork.updatesys.client.defaultimpl.http.HttpClientImpl.internalPostWithProxy(HttpClientImpl.java:316)
+	at org.appwork.updatesys.client.defaultimpl.http.HttpClientImpl.post(HttpClientImpl.java:376)
+	at org.appwork.updatesys.client.UpdateClient.batchRequest(UpdateClient.java:5693)
+	at org.appwork.updatesys.client.UpdateClient.ensureSessionInit(UpdateClient.java:5806)
+	at org.appwork.updatesys.client.UpdateClient.get(UpdateClient.java:2823)
+	at org.appwork.updatesys.client.UpdateClient.downloadPackage(UpdateClient.java:5188)
+	at org.appwork.updatesys.client.UpdateClient.runUpdateCheck(UpdateClient.java:5108)
+	at org.appwork.updatesys.client.UpdateClient.runPackageRequestAndServerSelection(UpdateClient.java:5334)
+	at org.appwork.updatesys.client.UpdateClient.runUpdateCheck(UpdateClient.java:5249)
+	at org.jdownloader.update.UpdateManager.runUpdateLoop(UpdateManager.java:1024)
+	at org.jdownloader.update.PendingUpdate.run(PendingUpdate.java:19)
+	at org.jdownloader.update.UpdateManager$23.run(UpdateManager.java:1694)
+	at java.base/java.lang.Thread.run(Thread.java:1447)
+
+--ID:110TS:1768777184223-2026-01-18 23:59:44 -  [org.appwork.updatesys.client.defaultimpl.http.HttpBackend(log)] -> ----------------Request Information-------------
+URL: https://update.jdownloader.org/jcgi/batch?jobs=SESSION_INIT&st=0&rt=SO&jn=JDownloader.jar&pv=12&cv=20210716001&pkh=12f1848a883e733ed40fffff0dae2f35&app=JD&os=LINUX&osr=DEBIAN&arch=X86&os64=1&jvm64=1&java=24000002000012&uid=dnt_&hidAck=no&urev=18634&srev=18599&surev=18634&ct=Normal&1768777184032.1768777184032&lng=fr_FR
+URL-Parameters:
+   jobs   : SESSION_INIT (BATCH_JOBS)
+   st     : 0 (SELFTEST)
+   rt     : SO (RUNTYPE)
+   jn     : JDownloader.jar (JAR_NAME)
+   pv     : 12 (PROTOCOL_VERSION)
+   cv     : 20210716001 (CLIENT_VERSION)
+   pkh    : 12f1848a883e733ed40fffff0dae2f35 (PUBLIC_KEY_HASH)
+   app    : JD (REPO_NAME)
+   os     : LINUX (OPERATING_SYSTEM)
+   osr    : DEBIAN (OPERATING_SYSTEM_RELEASE)
+   arch   : X86 (CPU_ARCHITECTUR)
+   os64   : 1 (OPERATING_SYSTEM_64BIT)
+   jvm64  : 1 (JVM_64BIT)
+   java   : 24000002000012 (JVM_VERSION)
+   uid    : dnt_ (NAMESPACE_UID) (UID)
+   hidAck : no (HARDWARE_ID_ACK)
+   urev   : 18634 (UPDATER_REVISION)
+   srev   : 18599 (REPO_INSTALLED_REVISION) (REPO_SUPER_REVISION)
+   surev  : 18634 (UPDATER_SUPER_REVISION)
+   ct     : Normal (STAGING_GROUP)
+          : 1768777184032.1768777184032
+   lng    : fr_FR (LANGUAGE)
+SSLCipher: JVM|Protocol:TLSv1.2|CipherSuite:TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256
+ConnectIP: update.jdownloader.org/2a01:4f8:211:1e8d:0:0:0:2:443
+Connection-Timeout: 20000ms
+Read-Timeout: 60000ms
+----------------Request-------------------------
+POST /jcgi/batch?jobs=SESSION_INIT&st=0&rt=SO&jn=JDownloader.jar&pv=12&cv=20210716001&pkh=12f1848a883e733ed40fffff0dae2f35&app=JD&os=LINUX&osr=DEBIAN&arch=X86&os64=1&jvm64=1&java=24000002000012&uid=dnt_&hidAck=no&urev=18634&srev=18599&surev=18634&ct=Normal&1768777184032.1768777184032&lng=fr_FR HTTP/1.1
+Host: update.jdownloader.org
+Accept-Language: fr_FR
+User-Agent: JDownloader/201707061810
+Accept-Charset: ISO-8859-1,utf-8;q=0.7,*;q=0.3
+Connection: Close
+Cache-Control: no-cache, no-store
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Pragma: no-cache
+Content-Length: 84
+Accept-Encoding: gzip
+Content-Type: application/json; charset=utf-8
+Content-Encoding: gzip
+----------------Response Information------------
+Connection-Time: 27ms
+Request-Time: 23ms
+----------------Response------------------------
+HTTP/1.1 400 Bad Request
+Server: nginx
+Date: Sun, 18 Jan 2026 22:59:44 GMT
+Content-Type: text/html
+Content-Length: 150
+Connection: close
+JCGI: 1 (HTTP_HEADER_FCGI)
+------------------------------------------------
+
+
+--ID:110TS:1768777184224-2026-01-18 23:59:44 -  [org.appwork.updatesys.client.defaultimpl.http.HttpClientImpl(checkTryNextProxyOrGiveUp)] -> Check if we can leave 
+--ID:110TS:1768777184224-2026-01-18 23:59:44 -  [org.appwork.updatesys.client.defaultimpl.http.HttpClientImpl(checkTryNextProxyOrGiveUp)] -> Invalid Response Code: org.appwork.utils.net.BasicHTTP.InvalidResponseCode: Invalid ResponseCode: 400
+--ID:110TS:1768777184224-2026-01-18 23:59:44 -  [org.appwork.updatesys.client.defaultimpl.http.HttpClientImpl(throwServerExceptions)] -> Handle BasicHTTPException org.appwork.utils.net.BasicHTTP.BasicHTTPException: org.appwork.utils.net.BasicHTTP.ReadIOException: org.appwork.utils.net.BasicHTTP.InvalidResponseCode: Invalid ResponseCode: 400
+--ID:110TS:1768777184224-2026-01-18 23:59:44 -  [org.appwork.updatesys.client.UpdateClient(ensureSessionInit)] -> Session Init: Unsupported Server:update.jdownloader.org
+--ID:110TS:1768777184226-2026-01-18 23:59:44 -  [org.appwork.updatesys.client.defaultimpl.http.HttpClientImpl(info)] -> GET https://update.jdownloader.org/jcgi/pkg?st=0&rt=SO&jn=JDownloader.jar&pv=12&cv=20210716001&pkh=12f1848a883e733ed40fffff0dae2f35&app=JD&os=LINUX&osr=DEBIAN&arch=X86&os64=1&jvm64=1&java=24000002000012&uid=dnt_&hidAck=no&urev=18634&srev=18599&surev=18634&ct=Normal&dedup=INTRA&awfcxz=1&eid=flatlaf-themes&dst=-1&lng=fr_FR&chlg=0&jdiff=1&rev=18599&1768777184226.1768777184226 via [Direct]
+--ID:110TS:1768777184226-2026-01-18 23:59:44 -  [org.appwork.updatesys.client.defaultimpl.http.HttpClientImpl(info)] -> Get Try with Proxy Direct
+--ID:110TS:1768777184414-2026-01-18 23:59:44 -  [org.appwork.updatesys.client.defaultimpl.http.HttpBackend(log)] -> ----------------Request Information-------------
+URL: https://update.jdownloader.org/jcgi/pkg?st=0&rt=SO&jn=JDownloader.jar&pv=12&cv=20210716001&pkh=12f1848a883e733ed40fffff0dae2f35&app=JD&os=LINUX&osr=DEBIAN&arch=X86&os64=1&jvm64=1&java=24000002000012&uid=dnt_&hidAck=no&urev=18634&srev=18599&surev=18634&ct=Normal&dedup=INTRA&awfcxz=1&eid=flatlaf-themes&dst=-1&lng=fr_FR&chlg=0&jdiff=1&rev=18599&1768777184226.1768777184226
+URL-Parameters:
+   st     : 0 (SELFTEST)
+   rt     : SO (RUNTYPE)
+   jn     : JDownloader.jar (JAR_NAME)
+   pv     : 12 (PROTOCOL_VERSION)
+   cv     : 20210716001 (CLIENT_VERSION)
+   pkh    : 12f1848a883e733ed40fffff0dae2f35 (PUBLIC_KEY_HASH)
+   app    : JD (REPO_NAME)
+   os     : LINUX (OPERATING_SYSTEM)
+   osr    : DEBIAN (OPERATING_SYSTEM_RELEASE)
+   arch   : X86 (CPU_ARCHITECTUR)
+   os64   : 1 (OPERATING_SYSTEM_64BIT)
+   jvm64  : 1 (JVM_64BIT)
+   java   : 24000002000012 (JVM_VERSION)
+   uid    : dnt_ (NAMESPACE_UID) (UID)
+   hidAck : no (HARDWARE_ID_ACK)
+   urev   : 18634 (UPDATER_REVISION)
+   srev   : 18599 (REPO_INSTALLED_REVISION) (REPO_SUPER_REVISION)
+   surev  : 18634 (UPDATER_SUPER_REVISION)
+   ct     : Normal (STAGING_GROUP)
+   dedup  : INTRA (DEDUPE_MODE)
+   awfcxz : 1 (AWFC_XZ_ENABLED)
+   eid    : flatlaf-themes (EXTENSIONS_INSTALLED)
+   dst    : -1 (REQUESTED_DEST_REVISION)
+   lng    : fr_FR (LANGUAGE)
+   chlg   : 0 (CHANGELOG_REQUESTED) (NAMESPACE_CHLG)
+   jdiff  : 1 (JAR_DIFF_ENABLED)
+   rev    : 18599 (REPO_REVISION)
+          : 1768777184226.1768777184226
+SSLCipher: JVM|Protocol:TLSv1.2|CipherSuite:TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256
+ConnectIP: update.jdownloader.org/2a01:4f8:211:1e8d:0:0:0:2:443
+Connection-Timeout: 20000ms
+Read-Timeout: 60000ms
+----------------Request-------------------------
+GET /jcgi/pkg?st=0&rt=SO&jn=JDownloader.jar&pv=12&cv=20210716001&pkh=12f1848a883e733ed40fffff0dae2f35&app=JD&os=LINUX&osr=DEBIAN&arch=X86&os64=1&jvm64=1&java=24000002000012&uid=dnt_&hidAck=no&urev=18634&srev=18599&surev=18634&ct=Normal&dedup=INTRA&awfcxz=1&eid=flatlaf-themes&dst=-1&lng=fr_FR&chlg=0&jdiff=1&rev=18599&1768777184226.1768777184226 HTTP/1.1
+Host: update.jdownloader.org
+Accept-Language: fr_FR
+User-Agent: JDownloader/201707061810
+Accept-Charset: ISO-8859-1,utf-8;q=0.7,*;q=0.3
+Connection: Close
+Cache-Control: no-cache, no-store
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Pragma: no-cache
+Accept-Encoding: gzip
+----------------Response Information------------
+Connection-Time: 31ms
+Request-Time: 25ms
+----------------Response------------------------
+HTTP/1.1 200 OK
+Date: Sun, 18 Jan 2026 22:59:44 GMT
+Content-Type: application/json; charset=UTF-8
+Content-Length: 163
+Connection: close
+Server: AppWork GmbH FcgiServer
+JCGI: 1 (HTTP_HEADER_FCGI)
+UPD_SRV: 1
+Strict-Transport-Security: max-age=15638400
+------------------------------------------------
+
+
+--ID:110TS:1768777184414-2026-01-18 23:59:44 -  [org.appwork.updatesys.client.defaultimpl.http.HttpClientImpl(info)] -> Connection OK: 163 Bytes loaded
+--ID:110TS:1768777184414-2026-01-18 23:59:44 -  [org.appwork.updatesys.transport.Pkg(parseServerResponse)] -> Serverresponse: {
+ "timeStamp"    : 1768775339872,
+ "uid"          : null,
+ "revisionName" : null,
+ "destRevision" : 18599,
+ "pong"         : null,
+ "status"       : "OK"
+}
+--ID:110TS:1768777184416-2026-01-18 23:59:44 -  [org.appwork.updatesys.client.servertime.ServerTimeHandler(sync)] -> [Update Client:JD@update.jdownloader.org]: Sync offset: 1844544
+--ID:110TS:1768777184418-2026-01-18 23:59:44 -  [org.appwork.updatesys.client.servertime.ServerTimeHandler(sync)] -> [Update Client:JD@update.jdownloader.org]: After: Sun Jan 18 23:28:59 CET 2026 +00s = Sun Jan 18 23:28:59 CET 2026.872 (SRV)
+--ID:110TS:1768777184419-2026-01-18 23:59:44 -  [org.appwork.updatesys.client.servertime.ServerTimeHandler(sync)] -> [Update Client:JD@update.jdownloader.org]: Diff: 1844544/-1844544
+--ID:110TS:1768777184420-2026-01-18 23:59:44 -  [org.jdownloader.updatev2.UpdateController(onResults)] -> onResult
+--ID:110TS:1768777184421-2026-01-18 23:59:44 -  [org.jdownloader.updatev2.UpdateController(onResults)] -> {
+ "modifiedDirects"              : [],
+ "modifiedExtensionFiles"       : [],
+ "modifiedFiles"                : [],
+ "modifiedPlugins"              : [],
+ "modifiedRestartRequiredFiles" : [],
+ "sourcePackages"               : []
+}
+--ID:110TS:1768777184422-2026-01-18 23:59:44 -  [org.jdownloader.updatev2.UpdateController(onResults)] -> Nothing to install false
+------------------------Thread: 40:org.jdownloader.update.UpdateManager.log-----------------------
+--ID:40TS:1768777241545-2026-01-19 00:00:41 -  [org.appwork.updatesys.client.defaultimpl.http.HttpClientImpl(info)] -> GET https://update.jdownloader.org/jcgi/lastchance?app=JD&pkh=12f1848a883e733ed40fffff0dae2f35&jh=b2bc9b0558d43f2438b05864fd1a96f9&rev=18599&srev=18599&urev=18634&surev=18634 via [Direct]
+--ID:40TS:1768777241545-2026-01-19 00:00:41 -  [org.appwork.updatesys.client.defaultimpl.http.HttpClientImpl(internalDownloadWithProxy)] -> Try Proxy: Direct
+--ID:40TS:1768777241545-2026-01-19 00:00:41 -  [org.appwork.updatesys.client.defaultimpl.http.HttpClientImpl(info)] -> Download to /tmp/lastChanceSrc176877724153010708726773689150468lch Size before: 0 bytes
+--ID:40TS:1768777241727-2026-01-19 00:00:41 -  [org.appwork.updatesys.client.defaultimpl.http.HttpBackend(log)] -> ----------------Request Information-------------
+URL: https://update.jdownloader.org/jcgi/lastchance?app=JD&pkh=12f1848a883e733ed40fffff0dae2f35&jh=b2bc9b0558d43f2438b05864fd1a96f9&rev=18599&srev=18599&urev=18634&surev=18634
+URL-Parameters:
+   app   : JD (REPO_NAME)
+   pkh   : 12f1848a883e733ed40fffff0dae2f35 (PUBLIC_KEY_HASH)
+   jh    : b2bc9b0558d43f2438b05864fd1a96f9
+   rev   : 18599 (REPO_REVISION)
+   srev  : 18599 (REPO_INSTALLED_REVISION) (REPO_SUPER_REVISION)
+   urev  : 18634 (UPDATER_REVISION)
+   surev : 18634 (UPDATER_SUPER_REVISION)
+SSLCipher: JVM|Protocol:TLSv1.2|CipherSuite:TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256
+ConnectIP: update.jdownloader.org/2a01:4f8:211:1e8d:0:0:0:2:443
+Connection-Timeout: 20000ms
+Read-Timeout: 60000ms
+----------------Request-------------------------
+GET /jcgi/lastchance?app=JD&pkh=12f1848a883e733ed40fffff0dae2f35&jh=b2bc9b0558d43f2438b05864fd1a96f9&rev=18599&srev=18599&urev=18634&surev=18634 HTTP/1.1
+Host: update.jdownloader.org
+Accept-Language: fr_FR
+User-Agent: JDownloader/201707061810
+Accept-Charset: ISO-8859-1,utf-8;q=0.7,*;q=0.3
+Connection: Close
+Cache-Control: no-cache, no-store
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Pragma: no-cache
+----------------Response Information------------
+Connection-Time: 27ms
+Request-Time: 26ms
+----------------Response------------------------
+HTTP/1.1 404 Not Found
+Date: Sun, 18 Jan 2026 23:00:41 GMT
+Content-Length: 0
+Connection: close
+Server: AppWork GmbH FcgiServer
+JCGI: 1 (HTTP_HEADER_FCGI)
+UPD_SRV: 1
+Strict-Transport-Security: max-age=15638400
+------------------------------------------------
+
+
+--ID:40TS:1768777241727-2026-01-19 00:00:41 -  [org.appwork.updatesys.client.defaultimpl.http.HttpClientImpl(info)] -> No Last Chance Found. Good!
+--ID:40TS:1768777241727-2026-01-19 00:00:41 -  [org.appwork.updatesys.client.defaultimpl.http.HttpClientImpl(checkTryNextProxyOrGiveUp)] -> Check if we can leave 
+--ID:40TS:1768777241727-2026-01-19 00:00:41 -  [org.appwork.updatesys.client.defaultimpl.http.HttpClientImpl(checkTryNextProxyOrGiveUp)] -> Invalid Response Code: org.appwork.utils.net.BasicHTTP.InvalidResponseCode: Invalid ResponseCode: 404
+--ID:40TS:1768777241727-2026-01-19 00:00:41 -  [org.appwork.updatesys.client.defaultimpl.http.HttpClientImpl(throwServerExceptions)] -> Handle BasicHTTPException org.appwork.utils.net.BasicHTTP.BasicHTTPException: org.appwork.utils.net.BasicHTTP.ReadIOException: org.appwork.utils.net.BasicHTTP.InvalidResponseCode: Invalid ResponseCode: 404

@@ -1,0 +1,6 @@
+------------------------Thread: 49:org.jdownloader.update.gui.LAFManager.log-----------------------
+--ID:49TS:1768777178312-2026-01-18 23:59:38 -  [org.jdownloader.update.gui.LAFManager(init)] -> Load /home/harry/.var/app/org.jdownloader.JDownloader/data/jdownloader/cfg/org.jdownloader.settings.GraphicalUserInterfaceSettings.json
+--ID:49TS:1768777178315-2026-01-18 23:59:38 -  [org.jdownloader.update.gui.LAFManager(init)] -> Init LAF: com.formdev.flatlaf.themes.FlatMacDarkLaf
+--ID:49TS:1768777178317-2026-01-18 23:59:38 -  [org.jdownloader.update.gui.LAFManager(init)] -> Add to classpath: /home/harry/.var/app/org.jdownloader.JDownloader/data/jdownloader/libs/laf/synthetica.jar
+--ID:49TS:1768777178333-2026-01-18 23:59:38 -  [org.jdownloader.update.gui.LAFManager(init)] -> Add to classpath: /home/harry/.var/app/org.jdownloader.JDownloader/data/jdownloader/libs/laf/syntheticaSimple2D.jar
+--ID:49TS:1768777178335-2026-01-18 23:59:38 -  [org.jdownloader.update.gui.LAFManager(init)] -> Add to classpath: /home/harry/.var/app/org.jdownloader.JDownloader/data/jdownloader/libs/laf/syntheticaJDCustom.jar

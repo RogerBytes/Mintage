@@ -1,0 +1,117 @@
+------------------------Thread: 3:Log.L.log-----------------------
+--ID:3TS:1768777083489-18/01/2026 23:58:03 -  [org.appwork.builddecision.BuildDecisions(status)] -> ClassPath: /home/harry/.var/app/org.jdownloader.JDownloader/data/jdownloader/JDownloader.jar
+--ID:3TS:1768777083491-18/01/2026 23:58:03 -  [org.appwork.builddecision.BuildDecisions(status)] ->            Manifest-Version: 1.0
+--ID:3TS:1768777083491-18/01/2026 23:58:03 -  [org.appwork.builddecision.BuildDecisions(status)] ->            Ant-Version: Apache Ant 1.10.5
+--ID:3TS:1768777083491-18/01/2026 23:58:03 -  [org.appwork.builddecision.BuildDecisions(status)] ->            Created-By: Appwork GmbH and JDownloader Community
+--ID:3TS:1768777083491-18/01/2026 23:58:03 -  [org.appwork.builddecision.BuildDecisions(status)] ->            Main-Class: org.jdownloader.update.launcher.JDLauncher
+--ID:3TS:1768777083492-18/01/2026 23:58:03 -  [org.appwork.builddecision.BuildDecisions(status)] ->            Add-Exports: java.desktop/sun.swing java.desktop/sun.swing.table java.desktop/sun.swing.plaf.synth java.desktop/com.sun.java.swing.plaf.windows java.desktop/sun.awt.shell java.desktop/com.sun.awt java.base/sun.security.action
+--ID:3TS:1768777083492-18/01/2026 23:58:03 -  [org.appwork.builddecision.BuildDecisions(status)] ->            Add-Opens: java.desktop/javax.swing.plaf.synth java.desktop/javax.swing.plaf.basic java.desktop/javax.swing java.desktop/javax.swing.tree java.desktop/java.awt.event
+--ID:3TS:1768777083493-18/01/2026 23:58:03 -  [org.appwork.loggingv3.LogV3(info)] -> Application Root: /home/harry/.var/app/org.jdownloader.JDownloader/data/jdownloader
+--ID:3TS:1768777083504-18/01/2026 23:58:03 -  [org.appwork.storage.JsonKeyValueStorage(<init>)] -> CFG File does not exist: /home/harry/.var/app/org.jdownloader.JDownloader/data/jdownloader/cfg/org.jdownloader.update.lastchance.LastChanceConfig.json
+--ID:3TS:1768777083564-18/01/2026 23:58:03 -  [org.appwork.storage.JsonKeyValueStorage(<init>)] -> CFG File does not exist: /home/harry/.var/app/org.jdownloader.JDownloader/data/jdownloader/cfg/org.jdownloader.updatev2.UpdateSettings.json
+--ID:3TS:1768777083589-18/01/2026 23:58:03 -  [org.appwork.storage.JsonKeyValueStorage(<init>)] -> Load JSon Storage from Classpath url: jar:file:/home/harry/.var/app/org.jdownloader.JDownloader/data/jdownloader/JDownloader.jar!/cfg/updateclient/Setup.json
+--ID:3TS:1768777083594-18/01/2026 23:58:03 -  [org.appwork.storage.JsonKeyValueStorage(<init>)] -> CFG File does not exist: /home/harry/.var/app/org.jdownloader.JDownloader/data/jdownloader/cfg/updateclient/Setup.json
+--ID:3TS:1768777083595-18/01/2026 23:58:03 -  [org.appwork.loggingv3.LogV3(finer)] -> Init StorageHandler for Interface:org.appwork.updatesys.client.Setup|Path:/home/harry/.var/app/org.jdownloader.JDownloader/data/jdownloader/cfg/updateclient/Setup
+------------------------Thread: 44:Log.L.log-----------------------
+--ID:44TS:1768777083605-18/01/2026 23:58:03 -  [org.appwork.storage.JsonKeyValueStorage(<init>)] -> CFG File does not exist: /home/harry/.var/app/org.jdownloader.JDownloader/data/jdownloader/cfg/org.jdownloader.settings.InternetConnectionSettings.json
+--ID:44TS:1768777083605-18/01/2026 23:58:03 -  [org.appwork.loggingv3.LogV3(finer)] -> Init StorageHandler for Interface:org.jdownloader.updatev2.InternetConnectionSettings|Path:/home/harry/.var/app/org.jdownloader.JDownloader/data/jdownloader/cfg/org.jdownloader.settings.InternetConnectionSettings
+--ID:44TS:1768777083616-18/01/2026 23:58:03 -  [org.appwork.storage.JsonKeyValueStorage(<init>)] -> Load JSon Storage from Classpath url: jar:file:/home/harry/.var/app/org.jdownloader.JDownloader/data/jdownloader/JDownloader.jar!/cfg/updateclient/HttpSettings.json
+--ID:44TS:1768777083616-18/01/2026 23:58:03 -  [org.appwork.storage.JsonKeyValueStorage(<init>)] -> CFG File does not exist: /home/harry/.var/app/org.jdownloader.JDownloader/data/jdownloader/cfg/updateclient/HttpSettings.json
+--ID:44TS:1768777083616-18/01/2026 23:58:03 -  [org.appwork.loggingv3.LogV3(finer)] -> Init StorageHandler for Interface:org.appwork.updatesys.client.defaultimpl.http.UpdateHttpClientOptions|Path:/home/harry/.var/app/org.jdownloader.JDownloader/data/jdownloader/cfg/updateclient/HttpSettings
+--ID:44TS:1768777083620-18/01/2026 23:58:03 -  [org.appwork.storage.JsonKeyValueStorage(<init>)] -> CFG File does not exist: /home/harry/.var/app/org.jdownloader.JDownloader/data/jdownloader/cfg/ProxySelector.json
+--ID:44TS:1768777083620-18/01/2026 23:58:03 -  [org.appwork.loggingv3.LogV3(finer)] -> Init StorageHandler for Interface:org.appwork.updatesys.client.defaultimpl.http.ProxySelectorSettings|Path:/home/harry/.var/app/org.jdownloader.JDownloader/data/jdownloader/cfg/ProxySelector
+--ID:44TS:1768777083645-18/01/2026 23:58:03 -  [org.appwork.storage.JsonKeyValueStorage(<init>)] -> CFG File does not exist: /home/harry/.var/app/org.jdownloader.JDownloader/data/jdownloader/update/versioninfo/JD/extensions.json
+--ID:44TS:1768777083646-18/01/2026 23:58:03 -  [org.appwork.loggingv3.LogV3(finer)] -> Init StorageHandler for Interface:org.appwork.updatesys.client.extensions.ExtensionsStorage|Path:/home/harry/.var/app/org.jdownloader.JDownloader/data/jdownloader/update/versioninfo/JD/extensions
+--ID:44TS:1768777083651-18/01/2026 23:58:03 -  [org.appwork.storage.JsonKeyValueStorage(<init>)] -> CFG File does not exist: /home/harry/.var/app/org.jdownloader.JDownloader/data/jdownloader/cfg/org.appwork.updatesys.client.tracker.TrackConfig.json
+--ID:44TS:1768777083655-18/01/2026 23:58:03 -  [org.appwork.storage.JsonKeyValueStorage(<init>)] -> CFG File does not exist: /home/harry/.var/app/org.jdownloader.JDownloader/data/jdownloader/update/versioninfo/JDU/extensions.json
+--ID:44TS:1768777083655-18/01/2026 23:58:03 -  [org.appwork.loggingv3.LogV3(finer)] -> Init StorageHandler for Interface:org.appwork.updatesys.client.extensions.ExtensionsStorage|Path:/home/harry/.var/app/org.jdownloader.JDownloader/data/jdownloader/update/versioninfo/JDU/extensions
+------------------------Thread: 3:Log.L.log-----------------------
+--ID:3TS:1768777083701-18/01/2026 23:58:03 -  [org.appwork.loggingv3.LogV3(info)] -> Application Root: /home/harry/.var/app/org.jdownloader.JDownloader/data/jdownloader
+--ID:3TS:1768777083713-18/01/2026 23:58:03 -  [] -> Exception thrown at org.jdownloader.update.launcher.SecondLevelLauncher.init(SecondLevelLauncher.java:504):
+org.jdownloader.update.launcher.JDLauncherFailedException: java.lang.NoClassDefFoundError: org/jdownloader/startup/Main
+	at org.jdownloader.update.launcher.SecondLevelLauncher.launchJDownloader(SecondLevelLauncher.java:709)
+	at org.jdownloader.update.launcher.SecondLevelLauncher.init(SecondLevelLauncher.java:487)
+	at org.jdownloader.update.launcher.SecondLevelLauncher.runMain(SecondLevelLauncher.java:237)
+	at org.jdownloader.update.launcher.JDLauncherViaClassLoader.main(JDLauncherViaClassLoader.java:13)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at org.jdownloader.updatev2.JDClassLoaderLauncher.main(JDClassLoaderLauncher.java:136)
+	at org.jdownloader.update.launcher.JDLauncher.main(JDLauncher.java:8)
+Caused by: java.lang.NoClassDefFoundError: org/jdownloader/startup/Main
+	at org.jdownloader.launcher.StandaloneLauncher.launchJDownloader(StandaloneLauncher.java:154)
+	at org.jdownloader.update.launcher.SecondLevelLauncher.launchJDownloader(SecondLevelLauncher.java:671)
+	... 7 more
+Caused by: java.lang.ClassNotFoundException: org.jdownloader.startup.Main
+	at java.base/java.net.URLClassLoader.findClass(URLClassLoader.java:349)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:557)
+	at org.jdownloader.updatev2.JDClassLoaderLauncher$JDCustomRootClassLoader.loadClass(JDClassLoaderLauncher.java:55)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:490)
+	... 9 more
+
+------------------------Thread: 50:Log.L.log-----------------------
+--ID:50TS:1768777083713-18/01/2026 23:58:03 -  [] -> Exception thrown at org.jdownloader.update.launcher.SecondLevelLauncher$5.run(SecondLevelLauncher.java:476):
+java.lang.InterruptedException: sleep interrupted
+	at java.base/java.lang.Thread.sleepNanos0(Native Method)
+	at java.base/java.lang.Thread.sleepNanos(Thread.java:482)
+	at java.base/java.lang.Thread.sleep(Thread.java:513)
+	at org.jdownloader.update.launcher.SecondLevelLauncher$5.run(SecondLevelLauncher.java:469)
+
+------------------------Thread: 51:Log.L.log-----------------------
+--ID:51TS:1768777083717-18/01/2026 23:58:03 -  [org.appwork.loggingv3.LogV3(info)] -> Translation file missing:org/jdownloader/updatev2/UpdaterTranslation.en.lngUse Annotation Dev fallback
+--ID:51TS:1768777083724-18/01/2026 23:58:03 -  [org.appwork.loggingv3.LogV3(finer)] -> Read Config(URL): jar:file:/home/harry/.var/app/org.jdownloader.JDownloader/data/jdownloader/JDownloader.jar!/cfg/updateclient/Setup.updateservers.json
+--ID:51TS:1768777083753-18/01/2026 23:58:03 -  [org.appwork.loggingv3.LogV3(info)] -> Translation file missing:org/appwork/utils/locale/AWUTranslation.en.lngUse Annotation Dev fallback
+------------------------Thread: 48:Log.L.log-----------------------
+--ID:48TS:1768777084056-18/01/2026 23:58:04 -  [org.appwork.storage.JsonKeyValueStorage(<init>)] -> CFG File does not exist: /home/harry/.var/app/org.jdownloader.JDownloader/data/jdownloader/cfg/laf/GTKLookAndFeel.json
+--ID:48TS:1768777084093-18/01/2026 23:58:04 -  [org.appwork.storage.JsonKeyValueStorage(<init>)] -> CFG File does not exist: /home/harry/.var/app/org.jdownloader.JDownloader/data/jdownloader/cfg/org.jdownloader.update.gui.UpdFrameSettings.json
+--ID:48TS:1768777084132-18/01/2026 23:58:04 -  [] -> Exception thrown at org.appwork.loggingv3.LogV3.log(LogV3.java:102):
+java.lang.ClassNotFoundException: net.sf.image4j.codec.ico.ICODecoder
+	at java.base/java.net.URLClassLoader.findClass(URLClassLoader.java:349)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:557)
+	at org.jdownloader.updatev2.JDClassLoaderLauncher$JDCustomRootClassLoader.loadClass(JDClassLoaderLauncher.java:55)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:490)
+	at java.base/java.lang.Class.forName0(Native Method)
+	at java.base/java.lang.Class.forName(Class.java:463)
+	at java.base/java.lang.Class.forName(Class.java:454)
+	at org.appwork.utils.images.IconIO.isIcoSupported(IconIO.java:765)
+	at org.appwork.resources.Theme.lookupImageUrl(Theme.java:433)
+	at org.appwork.resources.Theme.loadImageFromDisc(Theme.java:942)
+	at org.appwork.resources.Theme.getImage(Theme.java:532)
+	at org.appwork.resources.Theme.getIcon(Theme.java:375)
+	at org.appwork.resources.Theme.getIcon(Theme.java:258)
+	at org.jdownloader.update.UpdaterIcon.get(UpdaterIcon.java:32)
+	at org.jdownloader.update.gui.GuiCorePanelImpl.<init>(GuiCorePanelImpl.java:38)
+	at org.jdownloader.update.gui.UpdateGui.<init>(UpdateGui.java:52)
+	at org.jdownloader.update.gui.UpdateGuiWrapper$7.edtRun(UpdateGuiWrapper.java:195)
+	at org.jdownloader.update.gui.UpdateGuiWrapper$7.edtRun(UpdateGuiWrapper.java:178)
+	at org.appwork.utils.swing.EDTHelper.run(EDTHelper.java:110)
+	at org.appwork.utils.swing.EDTHelper.start(EDTHelper.java:147)
+	at org.appwork.utils.swing.EDTHelper.waitForEDT(EDTHelper.java:162)
+	at org.appwork.utils.swing.EDTHelper.getReturnValue(EDTHelper.java:91)
+	at org.jdownloader.update.gui.UpdateGuiWrapper.getOrCreateGui(UpdateGuiWrapper.java:212)
+	at org.jdownloader.update.gui.UpdateGuiWrapper.access$100(UpdateGuiWrapper.java:23)
+	at org.jdownloader.update.gui.UpdateGuiWrapper$6.runInEDT(UpdateGuiWrapper.java:149)
+	at org.appwork.utils.swing.EDTRunner.edtRun(EDTRunner.java:54)
+	at org.appwork.utils.swing.EDTHelper.run(EDTHelper.java:110)
+	at org.appwork.utils.swing.EDTHelper.start(EDTHelper.java:147)
+	at org.appwork.utils.swing.EDTHelper.start(EDTHelper.java:130)
+	at org.appwork.utils.swing.EDTRunner.<init>(EDTRunner.java:45)
+	at org.jdownloader.update.gui.UpdateGuiWrapper$6.<init>(UpdateGuiWrapper.java:143)
+	at org.jdownloader.update.gui.UpdateGuiWrapper.setVisible(UpdateGuiWrapper.java:143)
+	at org.jdownloader.update.UpdateManager$20.runInEDT(UpdateManager.java:1418)
+	at org.appwork.utils.swing.EDTRunner.edtRun(EDTRunner.java:54)
+	at org.appwork.utils.swing.EDTHelper.run(EDTHelper.java:110)
+	at java.desktop/java.awt.event.InvocationEvent.dispatch(InvocationEvent.java:318)
+	at java.desktop/java.awt.EventQueue.dispatchEventImpl(EventQueue.java:723)
+	at java.desktop/java.awt.EventQueue.dispatchEvent(EventQueue.java:702)
+	at java.desktop/java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:203)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:124)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:113)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:109)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
+	at java.desktop/java.awt.EventDispatchThread.run(EventDispatchThread.java:90)
+
+------------------------Thread: 51:Log.L.log-----------------------
+--ID:51TS:1768777108355-18/01/2026 23:58:28 -  [org.appwork.loggingv3.LogV3(info)] -> [Gnome Desktop detected, linuxFileOpen:[xdg-open, %s], linuxBrowseUrl:[xdg-open, %s]]
+--ID:51TS:1768777112715-18/01/2026 23:58:32 -  [org.appwork.loggingv3.LogV3(info)] -> No Vetos
+--ID:51TS:1768777112715-18/01/2026 23:58:32 -  [org.appwork.loggingv3.LogV3(info)] -> Fire onShutDownEvents:0
+--ID:51TS:1768777112715-18/01/2026 23:58:32 -  [org.appwork.loggingv3.LogV3(info)] -> Create ExitThread

@@ -1,0 +1,40 @@
+------------------------Thread: 63:jd.controlling.proxy.ProxyController.log-----------------------
+--ID:63TS:1768777123340-2026-01-18 23:58:43 -  [jd.controlling.proxy.ProxyController(loadProxySettings)] -> Load Proxy Settings
+--ID:63TS:1768777123340-2026-01-18 23:58:43 -  [jd.controlling.proxy.ProxyController(loadProxySettings)] -> Customs: 0
+--ID:63TS:1768777123340-2026-01-18 23:58:43 -  [jd.controlling.proxy.ProxyController(loadProxySettings)] -> Init Proxy Controller fresh
+--ID:63TS:1768777123341-2026-01-18 23:58:43 -  [jd.controlling.proxy.ProxyController$4(log)] -> Detecting platform. Name is: Linux
+--ID:63TS:1768777123342-2026-01-18 23:58:43 -  [jd.controlling.proxy.ProxyController$4(log)] -> Detected Linux platform: Linux
+--ID:63TS:1768777123342-2026-01-18 23:58:43 -  [jd.controlling.proxy.ProxyController(loadProxySettings)] -> Selector: com.btr.proxy.search.desktop.DesktopProxySearchStrategy@4ad8278c
+--ID:63TS:1768777123342-2026-01-18 23:58:43 -  [jd.controlling.proxy.ProxyController$4(log)] -> Detecting platform. Name is: Linux
+--ID:63TS:1768777123342-2026-01-18 23:58:43 -  [jd.controlling.proxy.ProxyController$4(log)] -> Detected Linux platform: Linux
+--ID:63TS:1768777123342-2026-01-18 23:58:43 -  [jd.controlling.proxy.ProxyController$4(log)] -> Detecting platform. Name is: Linux
+--ID:63TS:1768777123342-2026-01-18 23:58:43 -  [jd.controlling.proxy.ProxyController$4(log)] -> Detected Linux platform: Linux
+--ID:63TS:1768777123342-2026-01-18 23:58:43 -  [jd.controlling.proxy.ProxyController$4(log)] -> Detected Gnome desktop
+--ID:63TS:1768777123342-2026-01-18 23:58:43 -  [jd.controlling.proxy.ProxyController$4(log)] -> Detecting system settings.
+--ID:63TS:1768777123342-2026-01-18 23:58:43 -  [jd.controlling.proxy.ProxyController$4(log)] -> We are running on Gnome.
+--ID:63TS:1768777123343-2026-01-18 23:58:43 -  [jd.controlling.proxy.ProxyController$4(log)] -> Detecting Gnome proxy settings
+--ID:63TS:1768777123343-2026-01-18 23:58:43 -  [jd.controlling.proxy.ProxyController$4(log)] -> Gnome settings: /home/harry/.gconf/system/proxy/%gconf.xml not found.
+--ID:63TS:1768777123343-2026-01-18 23:58:43 -  [jd.controlling.proxy.ProxyController$4(log)] -> Gnome settings: /home/harry/.gconf/system/http_proxy/%gconf.xml not found.
+--ID:63TS:1768777123343-2026-01-18 23:58:43 -  [jd.controlling.proxy.ProxyController(loadProxySettings)] -> Selector: com.btr.proxy.search.browser.firefox.FirefoxProxySearchStrategy@5cdf7467
+--ID:63TS:1768777123343-2026-01-18 23:58:43 -  [jd.controlling.proxy.ProxyController$4(log)] -> Detecting Firefox settings.
+--ID:63TS:1768777123343-2026-01-18 23:58:43 -  [jd.controlling.proxy.ProxyController$4(log)] -> Firefox settings folder not found!
+--ID:63TS:1768777123343-2026-01-18 23:58:43 -  [jd.controlling.proxy.ProxyController$4(log)] -> Error parsing settings
+--ID:63TS:1768777123346-2026-01-18 23:58:43 -  [] -> Exception thrown at jd.controlling.proxy.ProxyController.loadProxySettings(ProxyController.java:806):
+com.btr.proxy.util.ProxyException: java.io.FileNotFoundException: prefs.js (Aucun fichier ou dossier de ce nom)
+	at com.btr.proxy.search.browser.firefox.FirefoxProxySearchStrategy.readSettings(FirefoxProxySearchStrategy.java:148)
+	at com.btr.proxy.search.browser.firefox.FirefoxProxySearchStrategy.getProxySelector(FirefoxProxySearchStrategy.java:92)
+	at jd.controlling.proxy.ProxyController.loadProxySettings(ProxyController.java:719)
+	at jd.controlling.proxy.ProxyController.<init>(ProxyController.java:175)
+	at jd.controlling.proxy.ProxyController.<clinit>(ProxyController.java:126)
+	at jd.SecondLevelLaunch$7.run(SecondLevelLaunch.java:648)
+Caused by: java.io.FileNotFoundException: prefs.js (Aucun fichier ou dossier de ce nom)
+	at java.base/java.io.FileInputStream.open0(Native Method)
+	at java.base/java.io.FileInputStream.open(FileInputStream.java:185)
+	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:139)
+	at com.btr.proxy.search.browser.firefox.FirefoxSettingParser.parseSettings(FirefoxSettingParser.java:41)
+	at com.btr.proxy.search.browser.firefox.FirefoxProxySearchStrategy.readSettings(FirefoxProxySearchStrategy.java:144)
+	... 5 more
+
+--ID:63TS:1768777123346-2026-01-18 23:58:43 -  [jd.controlling.proxy.ProxyController(loadProxySettings)] -> Selector: com.btr.proxy.search.env.EnvProxySearchStrategy@49ae3210
+--ID:63TS:1768777123346-2026-01-18 23:58:43 -  [jd.controlling.proxy.ProxyController$4(log)] -> Inspecting environment variables.
+--ID:63TS:1768777123346-2026-01-18 23:58:43 -  [jd.controlling.proxy.ProxyController(loadProxySettings)] -> Selector: com.btr.proxy.search.java.JavaProxySearchStrategy@5ea4aa08

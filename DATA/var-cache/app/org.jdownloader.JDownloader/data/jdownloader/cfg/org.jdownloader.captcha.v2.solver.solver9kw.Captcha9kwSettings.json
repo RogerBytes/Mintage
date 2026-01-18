@@ -1,1 +1,1 @@
-{"mouse":true,"blackwhitelistingenabled":true,"apikey":"","puzzle":true,"enabledglobally":true,"enabled":false,"threadpoolsize":1}
+{"blacklistprio":"","apikey":"","proxytype":"","proxyhostport":"","blacklist":"","blacklisttimeout":"","blacklistpriocheck":false,"enabled":false,"threadpoolsize":1,"confirm":false,"blackwhitelistingenabled":true,"mouse":true,"puzzle":true,"blacklistcheck":false,"mouseconfirm":false,"enabledglobally":true,"prio":0,"blacklisttimeoutcheck":false}
