@@ -23,8 +23,8 @@ ARCHIVE_NAME="Mintage-$NEXT_VERSION.tar.gz"
 
 echo "Dernière version trouvée : $LATEST_TAG → Nouvelle version : $NEXT_VERSION"
 
-# 3) Supprimer et recréer le dossier temporaire
-rm -rf "$TEMP_DIR"
+# 3) Créer le dossier temporaire
+
 mkdir -p "$TEMP_DIR"
 
 # 4) Copier les dossiers/fichiers souhaités
@@ -40,6 +40,9 @@ done
 
 # 5) Créer l’archive
 tar -czf "$BUILD_ROOT/$ARCHIVE_NAME" -C "$BUILD_ROOT" "Mintage"
+
+# 6) Supprimer le dossier temporaire
+rm -rf "$TEMP_DIR"
 
 echo "Archive générée : $BUILD_ROOT/$ARCHIVE_NAME"
 
