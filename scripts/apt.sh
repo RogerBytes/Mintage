@@ -152,6 +152,9 @@ sudo nala install -y metadata-cleaner
 # Numlock
 sudo nala install -y numlockx
 
+# PavuControl (Contrôle du volume PulseAudio, compatible pipewire)
+sudo nala install -y pavucontrol
+
 # Plank
 sudo nala install -y plank
 

@@ -84,9 +84,6 @@ flatpak install -y flathub com.github.jeromerobert.pdfarranger
 # ProtonUp
 flatpak install -y flathub net.davidotek.pupgui2
 
-# PwuControl
-flatpak install -y flathub com.saivert.pwvucontrol
-
 # Resources
 flatpak install -y flathub net.nokyan.Resources
 
