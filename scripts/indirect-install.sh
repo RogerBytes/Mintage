@@ -48,7 +48,13 @@ flatpak install -y flathub com.github.tchx84.Flatseal
 # Foliate
 flatpak install -y flathub com.github.johnfactotum.Foliate
 
-# Freetube
+# Fred TV
+flatpak install -y flathub dev.fredol.open-tv
+# https://raw.githubusercontent.com/ipstreet312/freeiptv/master/all.m3u
+# https://iptv-org.github.io/iptv/countries/fr.m3u
+# https://iptv-org.github.io/iptv/categories/sports.m3u
+
+# Freetube (remplacer par pipeline si ça continue de bugger)
 flatpak install -y flathub io.freetubeapp.FreeTube
 
 # Gear Lever (appimage manager dans le dossier ~/AppImagesAInstaller)
