@@ -1,0 +1,2 @@
+------------------------Thread: 48:TrayExtension.log-----------------------
+--ID:48TS:1768777182922-2026-01-18 23:59:42 -  [org.jdownloader.gui.jdtrayicon.TrayExtension(start)] -> Error initializing SystemTray: Tray isn't supported jet

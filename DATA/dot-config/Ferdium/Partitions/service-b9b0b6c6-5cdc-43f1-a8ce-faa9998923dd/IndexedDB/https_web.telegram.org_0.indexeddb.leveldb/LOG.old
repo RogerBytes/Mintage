@@ -1,0 +1,2 @@
+2025/05/02-15:19:18.624 2d039 Creating DB /home/harry/.config/Ferdium/Partitions/service-b9b0b6c6-5cdc-43f1-a8ce-faa9998923dd/IndexedDB/https_web.telegram.org_0.indexeddb.leveldb since it was missing.
+2025/05/02-15:19:18.638 2d039 Reusing MANIFEST /home/harry/.config/Ferdium/Partitions/service-b9b0b6c6-5cdc-43f1-a8ce-faa9998923dd/IndexedDB/https_web.telegram.org_0.indexeddb.leveldb/MANIFEST-000001

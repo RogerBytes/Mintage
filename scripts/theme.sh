@@ -1,0 +1,154 @@
+#!/bin/bash
+
+#3/ Theme et optimisations
+#    3/ a) Réglages d'applications
+#    3/ b) Applications au démarrage
+
+
+
+# ----------------------------------------------------------------------------
+
+
+
+# -------------------------------
+# -- 3/ Theme et optimisations --
+# -------------------------------
+
+
+# 3/ a) Réglages d'applications
+# -----------------------------
+
+
+# autostart, ferdium, fontbase; freetube, menu panel, nemo, plank, stacer, synapse, transmission, reglages extensions & desklet & applet, applications préférées
+cp -a ./DATA/dot-config/* ~/.config
+cp -a ./DATA/dot-cache/* ~/.cache
+
+# JDownloader
+cp -a ./DATA/dot-var/* ~/.var
+sed -i "s|\"defaultdownloadfolder\": *\"[^\"]*\"|\"defaultdownloadfolder\": \"${HOME}/Téléchargements/Téléchargements jd2\"|" ~/.var/app/org.jdownloader.JDownloader/data/jdownloader/cfg/org.jdownloader.settings.GeneralSettings.json
+sed -i "s|\"devicename\": *\"[^\"]*\"|\"devicename\": \"JDownloader@$(whoami)\"|" ~/.var/app/org.jdownloader.JDownloader/data/jdownloader/cfg/org.jdownloader.api.myjdownloader.MyJDownloaderSettings.json
+
+# Cacher le dossier de freeoffice en copiant le .hidden
+cp ./DATA/Reglages/Hidden/.hidden ~/
+
+# Police pour le terminal
+sudo cp -a ./DATA/font-terminal/* /usr/share/fonts/
+
+# theme grub
+sudo cp ./DATA/calmgrub.tar.gz /root/
+sudo mkdir -p /boot/grub/themes/
+sudo tar -xzvf /root/calmgrub.tar.gz -C /boot/grub/themes/
+echo 'GRUB_THEME="/boot/grub/themes/calmgrub/theme.txt"' | sudo tee -a /etc/default/grub
+sudo update-grub
+sudo rm /root/calmgrub.tar.gz
+
+# Copie de Fonds d'écrans'
+sudo cp -r ./DATA/Reglages/Wallpapers /usr/share/backgrounds/
+sudo cp ./DATA/Reglages/linuxmint/sele_ring.jpg /usr/share/backgrounds/linuxmint
+sudo cp ./DATA/Reglages/linuxmint/default_background.jpg /usr/share/backgrounds/linuxmint
+cp -r ./DATA/Reglages/Wallpapers ~/Images/
+
+# Récupérer le panel et régler les icones / themes menu / workspaces
+dconf load /org/cinnamon/ < ./DATA/Reglages/panel.conf
+#pour le sauvegarder
+#dconf dump /org/cinnamon/ > ./DATA/Reglages/panel.conf
+
+
+# regler nemo plank, wallpaper
+dconf load /org/nemo/ < ./DATA/Reglages/nemo.dconf
+dconf load /net/launchpad/plank/ < ./DATA/Reglages/plank.dconf
+dconf load /org/x/editor/ < ./DATA/Reglages/xed.dconf
+dconf load /org/cinnamon/desktop/background/ < ./DATA/Reglages/wallapaper.dconf
+
+# regler kitty
+mkdir -p ~/.config/kitty
+[ -f ~/.config/kitty/kitty.conf ] && rm ~/.config/kitty/kitty.conf
+cat <<EOF > ~/.config/kitty/kitty.conf
+font_family Fira Code
+font_size 13.0
+enable_ligatures yes
+background #404040
+foreground #ffffff
+background_opacity 0.85
+mouse_focus_follows_window no
+map ctrl+l clear_terminal to_cursor active
+EOF
+
+# Modifier les curseurs bibata (prends le dessus dans certaines application et lors de la connexion) :
+sudo rm -r /usr/share/icons/Bibata-Modern-Classic/cursors
+sudo cp -r /usr/share/icons/capitaine-cursors/cursors /usr/share/icons/Bibata-Modern-Classic/
+
+# 3/ b) Applications au démarrage
+# -------------------------------
+
+# ajouter au demarrag vivaldi en caché
+#cat > ~/.config/autostart/vivaldi-hidden.desktop << EOF
+#[Desktop Entry]
+#Type=Application
+#Exec=/usr/bin/vivaldi-stable --no-startup-window
+#Hidden=false
+#NoDisplay=false
+#X-GNOME-Autostart-enabled=true
+#Name[en_US]=Vivaldi-silent
+#Name=Vivaldi-silent
+#Comment[en_US]=Start Vivaldi at startup
+#Comment=Start Vivaldi at startup
+#EOF
+
+# ajouter au demarrage caffeine-indicator
+cat > ~/.config/autostart/caffeine-indicator.desktop << EOF
+[Desktop Entry]
+Type=Application
+Exec=/usr/bin/caffeine-indicator
+Hidden=false
+NoDisplay=false
+X-GNOME-Autostart-enabled=true
+Name[en_US]=caffeine-indicator
+Name=caffeine-indicator
+Comment[en_US]=Start caffeine at startup
+Comment=Start caffeine at startup
+EOF
+
+
+# Optimisations
+
+# Désactiver les effets et animations de cinammon
+gsettings set org.cinnamon.desktop.interface enable-animations false
+
+# Désactiver rotation de l'écran
+gsettings set org.cinnamon.settings-daemon.peripherals.touchscreen orientation-lock true
+
+# Les sous dossiers de téléchargements
+mkdir -p ~/Téléchargements/Téléchargements\ navigateur/
+mkdir -p ~/Téléchargements/Téléchargements\ torrent/
+mkdir -p ~/Téléchargements/Téléchargements\ mail/
+mkdir -p ~/Téléchargements/Téléchargements\ jd2/
+mkdir -p ~/Téléchargements/Téléchargements\ ferdium/
+
+# On ajoute quelques dossiers
+mkdir -p ~/Local/
+mkdir -p ~/.github/
+mkdir -p ~/Local/Git
+mkdir -p ~/Jeux/
+mkdir -p ~/Public/
+mkdir -p ~/Musique/Radio++/
+
+# Theme pour le shell
+cp ./DATA/.p10k.zsh ~/
+
+# réglages de zsh
+cp ./DATA/.zshrc ~/
+tar -xzvf ./DATA/powerlevel10k.tar.gz -C ~/
+
+# Passer le shell en zsh
+echo "Le shell va être changé en zsh. Appuie sur Entrée pour continuer..."
+read -r
+kitty -e bash -c 'chsh -s $(which zsh); exec bash'
+
+
+
+# comment voir quel shell j'utilise
+#printf "My current shell - %s\n" "$SHELL"
+
+# la commande normale pour changer le shell c'est :
+#chsh -s $(which zsh)

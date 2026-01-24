@@ -1,0 +1,10 @@
+------------------------Thread: 3:org.jdownloader.updatev2.restart.LinuxRestarter.log-----------------------
+--ID:3TS:1768777122655-2026-01-18 23:58:42 -  [org.jdownloader.updatev2.restart.Restarter(<init>)] -> Create Restarter
+------------------------Thread: 200:org.jdownloader.updatev2.restart.LinuxRestarter.log-----------------------
+--ID:200TS:1768777172015-2026-01-18 23:59:32 -  [org.jdownloader.updatev2.restart.Restarter(restart)] -> RestartIt
+--ID:200TS:1768777172016-2026-01-18 23:59:32 -  [org.jdownloader.updatev2.restart.Restarter(restart)] -> appcommands
+--ID:200TS:1768777172016-2026-01-18 23:59:32 -  [org.jdownloader.updatev2.restart.Restarter(restart)] -> appcmd [/app/jre/bin/java, -jar, JDownloader.jar]
+--ID:200TS:1768777172016-2026-01-18 23:59:32 -  [org.jdownloader.updatev2.restart.Restarter(restart)] -> cmdline [/app/jre/bin/java, -jar, JDownloader.jar, -]
+--ID:200TS:1768777172017-2026-01-18 23:59:32 -  [org.jdownloader.updatev2.restart.Restarter(restart)] -> Start process
+--ID:200TS:1768777172022-2026-01-18 23:59:32 -  [org.jdownloader.updatev2.restart.Restarter(restart)] -> Read errorstream
+--ID:200TS:1768777172022-2026-01-18 23:59:32 -  [org.jdownloader.updatev2.restart.Restarter(restart)] -> Read inputstream

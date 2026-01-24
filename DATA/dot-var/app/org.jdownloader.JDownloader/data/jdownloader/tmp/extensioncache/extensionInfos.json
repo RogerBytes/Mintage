@@ -1,0 +1,18 @@
+[
+ {
+  "classname"        : "org.jdownloader.extensions.extraction.ExtractionExtension",
+  "configInterface"  : "org.jdownloader.extensions.extraction.ExtractionConfig",
+  "description"      : "Exttraire les types communs d'archives (zip,rar,7zip...)",
+  "iconPath"         : "extract",
+  "jarPath"          : "/home/harry/.var/app/org.jdownloader.JDownloader/data/jdownloader/extensions/Extraction.jar",
+  "lng"              : "fr_FR",
+  "name"             : "Extracteur d'archives",
+  "version"          : -1,
+  "headlessRunnable" : true,
+  "linuxRunnable"    : true,
+  "macRunnable"      : true,
+  "quickToggle"      : false,
+  "settings"         : true,
+  "windowsRunnable"  : true
+ }
+]

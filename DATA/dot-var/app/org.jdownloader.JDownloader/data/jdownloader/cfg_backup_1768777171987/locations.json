@@ -1,0 +1,44 @@
+{
+ "data" : {
+           "RememberRelativeDialogLocator-org.appwork.utils.swing.dialog.ExtFileChooserDialog-8f1a44e3e334c84cd9932cdd7a3f66c6" : {
+                                                                                                                                   "extendedState" : null,
+                                                                                                                                   "lastAccess"    : 1768777148683,
+                                                                                                                                   "type"          : null,
+                                                                                                                                   "x"             : 0,
+                                                                                                                                   "y"             : 0,
+                                                                                                                                   "valid"         : false
+                                                                                                                                  },
+           "RememberAbsoluteLocator-UpdaterFrame"                                                                               : {
+                                                                                                                                   "extendedState" : "NORMAL",
+                                                                                                                                   "lastAccess"    : 1768777122347,
+                                                                                                                                   "type"          : "absolute",
+                                                                                                                                   "x"             : 1025,
+                                                                                                                                   "y"             : 649,
+                                                                                                                                   "valid"         : true
+                                                                                                                                  },
+           "RememberLastDimensor-ExtFileChooserDialog"                                                                          : {
+                                                                                                                                   "extendedState" : null,
+                                                                                                                                   "lastAccess"    : 1768777171911,
+                                                                                                                                   "type"          : null,
+                                                                                                                                   "x"             : 615,
+                                                                                                                                   "y"             : 392,
+                                                                                                                                   "valid"         : true
+                                                                                                                                  },
+           "RememberRelativeDialogLocator-org.appwork.utils.swing.dialog.ConfirmDialog-fd78b2ea1aa7296fcb03bd8b0ece9cf2"        : {
+                                                                                                                                   "extendedState" : null,
+                                                                                                                                   "lastAccess"    : 1768777141466,
+                                                                                                                                   "type"          : null,
+                                                                                                                                   "x"             : 0,
+                                                                                                                                   "y"             : 0,
+                                                                                                                                   "valid"         : false
+                                                                                                                                  },
+           "RememberRelativeDialogLocator-org.appwork.utils.swing.dialog.ExceptionDialog-902b0d55fddef6f8d651fe1035b7d4bd"      : {
+                                                                                                                                   "extendedState" : null,
+                                                                                                                                   "lastAccess"    : 1768777124197,
+                                                                                                                                   "type"          : null,
+                                                                                                                                   "x"             : 0,
+                                                                                                                                   "y"             : 0,
+                                                                                                                                   "valid"         : false
+                                                                                                                                  }
+          }
+}

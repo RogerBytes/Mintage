@@ -1,0 +1,32 @@
+[plugins]
+active-plugins=['bracketcompletion', 'filebrowser', 'joinlines', 'textsize', 'wordcompletion', 'spell', 'open-uri-context-menu', 'docinfo', 'sort', 'taglist', 'time', 'modelines']
+
+[plugins/filebrowser/on-load]
+root='file:///'
+tree-view=true
+virtual-root='file:///home/harry/Mintage/scripts'
+
+[preferences/editor]
+auto-close=true
+auto-indent=false
+display-line-numbers=true
+display-right-margin=false
+prefer-dark-theme=true
+scheme='oblivion'
+tabs-size=uint32 2
+
+[preferences/ui]
+menubar-visible=false
+minimap-visible=false
+statusbar-visible=true
+toolbar-visible=true
+
+[state/history-entry]
+history-search-for=['vival', 'vivaldi', 'screens', 'size', 'font-terminal', 'font', 'vivald', 'capitaine', 'notes']
+
+[state/window]
+bottom-panel-size=140
+side-panel-active-page=827629879
+side-panel-size=200
+size=(1140, 697)
+state=87168

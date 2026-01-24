@@ -1,0 +1,12 @@
+------------------------Thread: 51:org.appwork.shutdown.ShutdownController.log-----------------------
+--ID:51TS:1768777112715-18/01/2026 23:58:32 -  [org.appwork.shutdown.ShutdownController(log)] -> Request Shutdown: org.jdownloader.updatev2.SmartRlyExitRequest@3279995a
+--ID:51TS:1768777112715-18/01/2026 23:58:32 -  [org.appwork.shutdown.ShutdownController(log)] -> Wait for ShutdownThread:Thread[#79,ShutdownThread:1768777112715|org.jdownloader.updatev2.SmartRlyExitRequest@3279995a,5,main]|waitDuration:0
+------------------------Thread: 79:org.appwork.shutdown.ShutdownController.log-----------------------
+--ID:79TS:1768777112715-18/01/2026 23:58:32 -  [org.appwork.shutdown.ShutdownController(log)] -> Exit Now(Controller): Code: 0
+--ID:79TS:1768777112716-18/01/2026 23:58:32 -  [org.appwork.shutdown.ShutdownController(log)] -> [1/7|Priority: 10000]ShutdownController: start item->org.appwork.utils.swing.locationstore.LocationStorageManager Priority: 10000
+--ID:79TS:1768777112719-18/01/2026 23:58:32 -  [org.appwork.shutdown.ShutdownController(log)] -> [1/7|Priority: 10000]ShutdownController: item ended after->3
+--ID:79TS:1768777112719-18/01/2026 23:58:32 -  [org.appwork.shutdown.ShutdownController(log)] -> [Done:1/7]
+--ID:79TS:1768777112719-18/01/2026 23:58:32 -  [org.appwork.shutdown.ShutdownController(log)] -> [2/7|Priority: 10000]ShutdownController: start item->org.appwork.utils.singleapp.SingleAppInstance$2 Priority: 10000
+--ID:79TS:1768777112719-18/01/2026 23:58:32 -  [org.appwork.shutdown.ShutdownController(log)] -> [2/7|Priority: 10000]ShutdownController: item ended after->0
+--ID:79TS:1768777112719-18/01/2026 23:58:32 -  [org.appwork.shutdown.ShutdownController(log)] -> [Done:2/7]
+--ID:79TS:1768777112719-18/01/2026 23:58:32 -  [org.appwork.shutdown.ShutdownController(log)] -> [3/7|Priority: 10000]ShutdownController: start item->flushing logs to disk

@@ -1,0 +1,11 @@
+[Desktop Entry]
+Exec=/bin/FontBase-2.18.1.AppImage
+Icon=fonts
+Name=Fontbase
+Type=Application
+X-GNOME-Autostart-enabled=true
+NoDisplay=false
+Hidden=false
+Name[fr_FR]=Fontbase
+Comment[fr_FR]=Pas de description
+X-GNOME-Autostart-Delay=0

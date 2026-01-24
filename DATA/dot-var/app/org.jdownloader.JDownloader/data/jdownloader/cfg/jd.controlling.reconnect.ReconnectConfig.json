@@ -1,0 +1,1 @@
+{"reconnectallowedtointerruptresumabledownloads":true,"ipcheckconnecttimeout":2000,"successcounter":0,"autoreconnectenabled":true,"activepluginid":"DummyRouterPlugin","ipcheckreadtimeout":10000,"downloadcontrollerprefersreconnectenabled":true,"globalipcheckpattern":"\\b(?:(?:25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)\\.){3}(?:25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)\\b"}

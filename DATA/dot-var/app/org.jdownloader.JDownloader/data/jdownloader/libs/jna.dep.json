@@ -1,0 +1,77 @@
+{
+  "artefact":"net.java.dev.jna/jna",
+  "dependencies":null,
+  "filter":null,
+  "history":[],
+  "installed":{
+    "changes":null,
+    "date":"2023-09-04T11:08:34+02:00",
+    "dependencies":null,
+    "description":"Java Native Access",
+    "files":[
+      "",
+      "jna-javadoc.jar",
+      "jna-javadoc.jar.asc",
+      "jna-javadoc.jar.asc.md5",
+      "jna-javadoc.jar.asc.sha1",
+      "jna-javadoc.jar.md5",
+      "jna-javadoc.jar.sha1",
+      "jna-sources.jar",
+      "jna-sources.jar.asc",
+      "jna-sources.jar.asc.md5",
+      "jna-sources.jar.asc.sha1",
+      "jna-sources.jar.md5",
+      "jna-sources.jar.sha1",
+      "jna.aar",
+      "jna.aar.asc",
+      "jna.aar.asc.md5",
+      "jna.aar.asc.sha1",
+      "jna.aar.md5",
+      "jna.aar.sha1",
+      "jna.jar",
+      "jna.jar.asc",
+      "jna.jar.asc.md5",
+      "jna.jar.asc.sha1",
+      "jna.jar.md5",
+      "jna.jar.sha1",
+      "jna.pom",
+      "jna.pom.asc",
+      "jna.pom.asc.md5",
+      "jna.pom.asc.sha1",
+      "jna.pom.md5",
+      "jna.pom.sha1",
+      "meta.json"
+    ],
+    "hashes":{"jna.jar":"66d4f819a062a51a1d5627bffc23fac55d1677f0e0a1feba144aabdd670a64bb"},
+    "licenses":[
+      {
+        "name":"LGPL-2.1-or-later",
+        "url":"https://www.gnu.org/licenses/old-licenses/lgpl-2.1",
+        "distribution":"repo",
+        "comments":"\n        Java Native Access (JNA) is licensed under the LGPL, version 2.1 or\n        later, or the Apache License, version 2.0. You can freely decide which\n        license you want to apply to the project.\n      "
+      },
+      {
+        "name":"Apache-2.0",
+        "url":"https://www.apache.org/licenses/LICENSE-2.0.txt",
+        "distribution":"repo",
+        "comments":"\n        Java Native Access (JNA) is licensed under the LGPL, version 2.1 or\n        later, or the Apache License, version 2.0. You can freely decide which\n        license you want to apply to the project.\n      "
+      }
+    ],
+    "minJRE":"JVM_1_6",
+    "name":"Java Native Access",
+    "signatures":{"jna.jar":"-----BEGIN PGP SIGNATURE-----\n\niQIzBAABCgAdFiEE+nkp+DrUTEWQ9sxoFcccCk4Ljt0FAmPCnkoACgkQFcccCk4L\njt02aA//YW9bGMs+c1vcFpnquNXNSNIZYD+zTUgc6t8YRcoPBPbiacNH6PIJa9LJ\n4XXE/fyyUaHFlC4BFq/HdNfjtxwz5zzzcSncpDNlVe1XsUGOjxQFTtDWtOd0ygGR\nxsYOIqk4XUbs6U5vtUWl5chSZC3SR0ei9+ETU3cllehqZ8lsQRCkTnSsuwi5Wl/e\n4DVk2O0ydCc5aaUGJYvOLSNsNMvWjI6EoQbjZrQ3FmP/KdO8AtNN5YoKKe0YGTsj\niq8e3pps5/kowLLJwOxM6fCIurfnsFQ3LFfZp9vCgwGWHcD2Y3QoCghECtgLGac+\nabYVY4X2jvvNImg6ZPojOKNTK2ESst6wsHhrqFnFq+bTxu6/CnsbBLNn2+tgDR3S\nbWXEj0oW38H3RgZ/ATAUA2CCIr7JMpHLbgzqXmH8ZUDvto18TER4a6Mbdk+4LsRS\nVKYUoy0OVS6OMFYj2aD4f+7JA6QysCKxaXOz+cPDjBd+Ce5k6WdnXyqt+gP31mjW\n/oO2bPspw4MHeolwGuRxu5BytKIFIqwWWEtVElc6HSq495qDNTQIiPstG7B5JXxN\ntQbm6vk6Tai8e59FX+TjcRRg8i+mTGHfTqAgAwgxstUEqef4JfY0XhGIMDm4od5W\njeRDZdWcrAoDSXUGbmdQZxbdhBkpt4G2LQx6GKrYb+5LBPwaxw0=\n=oIay\n-----END PGP SIGNATURE-----\n"},
+    "version":"5.13.0"
+  },
+  "minJRE":"1.6",
+  "provider":"maven",
+  "renames":null,
+  "requiredBy":[{
+    "artefact":"net.java.dev.jna/jna-platform",
+    "file":"JDownloader\\ressourcen\\libs\\jna-platform.dep.json",
+    "provider":"maven",
+    "version":"5.13.0"
+  }],
+  "version":null,
+  "autoRenameEnabled":true,
+  "confirm":true
+}

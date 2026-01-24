@@ -1,0 +1,21 @@
+about:config
+
+[OPIONS INTRGR2 DEPUIS DER MAJ A VERIF] Fermer le dernier onglet ne ferme plus Firefox
+browser.tabs.closeWindowWithLastTab
+Mettre sur false
+
+Une recherche depuis la barre d’adresse s’ouvre dans un nouvel onglet
+browser.search.openintab
+Mettre sur true
+
+Ouvrir un marque-page ne vous vole pas le focus : l’onglet s’ouvre en arrière-plan.
+browser.tabs.loadBookmarksInBackground
+Mettre sur true
+
+Les liens censés s’ouvrir “ailleurs” (ex. clics spéciaux, redirections) s’ouvrent en arrière-plan, sans interrompre votre lecture.
+browser.tabs.loadDivertedInBackground
+Mettre sur true
+
+Les nouveaux onglets ne se collent pas juste à côté de l’onglet courant : ils vont en fin de barre
+browser.tabs.insertRelatedAfterCurrent
+Mettre sur false

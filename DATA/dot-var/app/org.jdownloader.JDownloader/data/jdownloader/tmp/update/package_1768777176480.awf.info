@@ -1,0 +1,12 @@
+{
+ "appID"               : "JD",
+ "destRevision"        : 18599,
+ "file"                : "package_1768777176480.awf",
+ "installExtensions"   : ["flatlaf-themes"],
+ "installedExtensions" : ["flatlaf-themes"],
+ "sourceRevision"      : 18599,
+ "timestamp"           : 1768777176481,
+ "uninstallExtensions" : [],
+ "encrypted"           : true,
+ "extracted"           : false
+}

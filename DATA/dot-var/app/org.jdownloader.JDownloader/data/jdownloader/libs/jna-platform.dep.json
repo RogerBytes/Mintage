@@ -1,0 +1,70 @@
+{
+  "artefact":"net.java.dev.jna/jna-platform",
+  "dependencies":null,
+  "filter":null,
+  "history":[],
+  "installed":{
+    "changes":null,
+    "date":"2023-09-04T11:08:34+02:00",
+    "dependencies":[{
+      "groupId":"net.java.dev.jna",
+      "artifactId":"jna",
+      "version":"5.13.0"
+    }],
+    "description":"Java Native Access Platform",
+    "files":[
+      "",
+      "jna-platform-javadoc.jar",
+      "jna-platform-javadoc.jar.asc",
+      "jna-platform-javadoc.jar.asc.md5",
+      "jna-platform-javadoc.jar.asc.sha1",
+      "jna-platform-javadoc.jar.md5",
+      "jna-platform-javadoc.jar.sha1",
+      "jna-platform-sources.jar",
+      "jna-platform-sources.jar.asc",
+      "jna-platform-sources.jar.asc.md5",
+      "jna-platform-sources.jar.asc.sha1",
+      "jna-platform-sources.jar.md5",
+      "jna-platform-sources.jar.sha1",
+      "jna-platform.jar",
+      "jna-platform.jar.asc",
+      "jna-platform.jar.asc.md5",
+      "jna-platform.jar.asc.sha1",
+      "jna-platform.jar.md5",
+      "jna-platform.jar.sha1",
+      "jna-platform.pom",
+      "jna-platform.pom.asc",
+      "jna-platform.pom.asc.md5",
+      "jna-platform.pom.asc.sha1",
+      "jna-platform.pom.md5",
+      "jna-platform.pom.sha1",
+      "meta.json"
+    ],
+    "hashes":{"jna_platform.jar":"474d7b88f6e97009b6ec1d98c3024dd95c23187c65dabfbc35331bcac3d173dd"},
+    "licenses":[
+      {
+        "name":"LGPL-2.1-or-later",
+        "url":"https://www.gnu.org/licenses/old-licenses/lgpl-2.1",
+        "distribution":"repo",
+        "comments":"\n        Java Native Access (JNA) is licensed under the LGPL, version 2.1 or\n        later, or the Apache License, version 2.0. You can freely decide which\n        license you want to apply to the project.\n      "
+      },
+      {
+        "name":"Apache-2.0",
+        "url":"https://www.apache.org/licenses/LICENSE-2.0.txt",
+        "distribution":"repo",
+        "comments":"\n        Java Native Access (JNA) is licensed under the LGPL, version 2.1 or\n        later, or the Apache License, version 2.0. You can freely decide which\n        license you want to apply to the project.\n      "
+      }
+    ],
+    "minJRE":"JVM_1_6",
+    "name":"Java Native Access Platform",
+    "signatures":{"jna_platform.jar":"-----BEGIN PGP SIGNATURE-----\n\niQIzBAABCgAdFiEE+nkp+DrUTEWQ9sxoFcccCk4Ljt0FAmPCnlsACgkQFcccCk4L\njt39zQ//cdDtFofgoKG2WvK0ryxJIsboyi2nIB7rmc6ljwYvZIWn4PIncdQQWj82\nbaWrLCAJLMLMDDMAApKGIeydrxHgQN7/d33O6eNJNUtEY6dKO8+TgEBqzXszaPLF\nTVrsZ+xngHXuuVlgGnlJWpAAhn4iP920pn8Cf3r9caiF1jo9SMwfclOZLjfpTTJu\n8/vV/G7Q7VnM1E9Y5eHp5imDpH3en17iEwBETID4nK1a/h+Oo1qajc3F9WHph8ct\n6pjPzyrkM+6P0y7fRjlavL8w4s43W4dWCcs4bc6n7PghivtBcq/jJ1D516TQ4llF\nQr4YXfo7lPCaxdsWLLxyXQ6VDKIXXl3XzFI4HeORM71NoKUhyLKWwW+qahm4IVqU\nRXKi2tTQvL6eq3RMBGghdFrgPlWj2CC2Kqpzw5aSTu/3lMFyaDbEgQoh46+fx+78\n9VJ+w4/AhtLurWbxcKmYSf5zDLlRBoFVXmFE+dCn1gDYs9cXM31eTucay4FCETDO\nFPmXScwxSnWsgldJTWlr5S/bNn7l18/DIHcCURYgqJAY98thEtg8/HuQHHxILNJ5\nKpkdnsjwVB0ONBtQLtimhUDrgFcTANpvejnuxMqWUQ9fCFmE9X7Qbc773MPQ5kFL\npK3hQHeZ8c1+1Ghu+7/5xEVajXhf3yynh0GkTL+jC/SbhiIoEH8=\n=jBZK\n-----END PGP SIGNATURE-----\n"},
+    "version":"5.13.0"
+  },
+  "minJRE":"1.6",
+  "provider":"maven",
+  "renames":{"jna-platform.jar":"jna_platform.jar"},
+  "requiredBy":[],
+  "version":null,
+  "autoRenameEnabled":true,
+  "confirm":true
+}

@@ -1,0 +1,9 @@
+------------------------Thread: 48:jd.controlling.linkcollector.LinkCollector.log-----------------------
+--ID:48TS:1768777126128-2026-01-18 23:58:46 -  [jd.controlling.linkcollector.LinkCollector(<init>)] -> LinkChecker Enabled:true
+------------------------Thread: 102:jd.controlling.linkcollector.LinkCollector.log-----------------------
+--ID:102TS:1768777127192-2026-01-18 23:58:47 -  [jd.controlling.linkcollector.LinkCollector(findAvailableCollectorLists)] -> Collect Lists
+--ID:102TS:1768777127196-2026-01-18 23:58:47 -  [jd.controlling.linkcollector.LinkCollector(findAvailableCollectorLists)] -> Lists: []
+--ID:102TS:1768777127196-2026-01-18 23:58:47 -  [jd.controlling.linkcollector.LinkCollector$17(run)] -> CollectorList empty!
+------------------------Thread: 119:jd.controlling.linkcollector.LinkCollector.log-----------------------
+--ID:119TS:1768777163727-2026-01-18 23:59:23 -  [jd.controlling.linkcollector.LinkCollector(newJobLinkCrawler)] -> Added CrawlerJob:ID:1768777163723|Origin:CLIPBOARD|ChangeFlag:TIMEOUT|Round:1|StringContent:(false|ClipboardHash:96801|ClipboardLength:3)|HTMLFragment:(false|ClipboardHash:0|ClipboardLength:-1)|ListContent:(true|ClipboardHash:298448482|ClipboardLength:92)
+--ID:119TS:1768777164382-2026-01-18 23:59:24 -  [jd.controlling.linkcollector.LinkCollector(newJobLinkCrawler)] -> Added CrawlerJob:ID:1768777164382|Origin:CLIPBOARD|ChangeFlag:TIMEOUT|Round:2|StringContent:(true|ClipboardHash:-764356419|ClipboardLength:81)|HTMLFragment:(false|ClipboardHash:0|ClipboardLength:-1)|ListContent:(false|ClipboardHash:298448482|ClipboardLength:92)

@@ -1,0 +1,8 @@
+------------------------Thread: 48:jd.controlling.linkcollector.LinkCollector.log-----------------------
+--ID:48TS:1768777319512-2026-01-19 00:01:59 -  [jd.controlling.linkcollector.LinkCollector(<init>)] -> LinkChecker Enabled:true
+------------------------Thread: 90:jd.controlling.linkcollector.LinkCollector.log-----------------------
+--ID:90TS:1768777319798-2026-01-19 00:01:59 -  [jd.controlling.linkcollector.LinkCollector(findAvailableCollectorLists)] -> Collect Lists
+--ID:90TS:1768777319806-2026-01-19 00:01:59 -  [jd.controlling.linkcollector.LinkCollector(findAvailableCollectorLists)] -> Lists: [/home/harry/.var/app/org.jdownloader.JDownloader/data/jdownloader/cfg/linkcollector91.zip, /home/harry/.var/app/org.jdownloader.JDownloader/data/jdownloader/cfg/linkcollector90.zip, /home/harry/.var/app/org.jdownloader.JDownloader/data/jdownloader/cfg/linkcollector89.zip, /home/harry/.var/app/org.jdownloader.JDownloader/data/jdownloader/cfg/linkcollector88.zip, /home/harry/.var/app/org.jdownloader.JDownloader/data/jdownloader/cfg/linkcollector87.zip, /home/harry/.var/app/org.jdownloader.JDownloader/data/jdownloader/cfg/linkcollector86.zip]
+--ID:90TS:1768777319813-2026-01-19 00:01:59 -  [jd.controlling.linkcollector.LinkCollector$17(run)] -> CollectorList found: 0/0
+------------------------Thread: 113:jd.controlling.linkcollector.LinkCollector.log-----------------------
+--ID:113TS:1768777321340-2026-01-19 00:02:01 -  [jd.controlling.linkcollector.LinkCollector(newJobLinkCrawler)] -> Added CrawlerJob:ID:1768777321335|Origin:CLIPBOARD|ChangeFlag:TIMEOUT|Round:1|StringContent:(true|ClipboardHash:1557300658|ClipboardLength:79)|HTMLFragment:(false|ClipboardHash:0|ClipboardLength:-1)|ListContent:(false|ClipboardHash:1245394868|ClipboardLength:84)
