@@ -329,15 +329,6 @@ sudo nala update
 
 # 2/ h) compilation
 
-# Yazi
-sudo nala install -y ffmpeg 7zip jq poppler-utils fd-find ripgrep fzf zoxide imagemagick
-git clone https://github.com/sxyazi/yazi.git
-cd yazi
-cargo build --release --locked
-sudo mv target/release/yazi target/release/ya /usr/local/bin/
-cd ../
-/bin/rm -rf yazi/
-
 # 3/ Customisation Cinnamon
 # ----------------------------
 
