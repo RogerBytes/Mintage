@@ -1,6 +1,5 @@
 #!/bin/bash
 
-
 #Index
 #2/ Applications
 #    2/ a) Installation depuis dépôts officiels
@@ -16,194 +15,262 @@
 # ------------------------------------------
 
 # Ardour
-sudo nala install -y --assume-yes ardour
+PKG=ardour
+dpkg -s "$PKG" &>/dev/null || sudo nala install -y --assume-yes "$PKG"
 
 # Audacity
-sudo nala install -y audacity
+PKG=audacity
+dpkg -s "$PKG" &>/dev/null || sudo nala install -y "$PKG"
 
 # Blender
-sudo nala install -y blender
+PKG=blender
+dpkg -s "$PKG" &>/dev/null || sudo nala install -y "$PKG"
 
 # Blueman (bluetooth)
-sudo nala install -y blueman
+PKG=blueman
+dpkg -s "$PKG" &>/dev/null || sudo nala install -y "$PKG"
 
 # Caffeine
-sudo nala install -y caffeine
+PKG=caffeine
+dpkg -s "$PKG" &>/dev/null || sudo nala install -y "$PKG"
 
 # Cartes
-sudo nala install -y gnome-maps
+PKG=gnome-maps
+dpkg -s "$PKG" &>/dev/null || sudo nala install -y "$PKG"
 
 # Catfish
-sudo nala install -y catfish
+PKG=catfish
+dpkg -s "$PKG" &>/dev/null || sudo nala install -y "$PKG"
 
 # Cheese
-sudo nala install -y cheese
+PKG=cheese
+dpkg -s "$PKG" &>/dev/null || sudo nala install -y "$PKG"
 
 # ClamTK
-sudo nala install -y clamav clamav-daemon && sudo systemctl stop clamav-freshclam && sudo freshclam && sudo systemctl start clamav-freshclam && sudo nala install -y clamtk-gnome
-
-# Cmatrix
-sudo nala install -y cmatrix
+PKG=clamav
+dpkg -s "$PKG" &>/dev/null || { 
+  sudo nala install -y clamav clamav-daemon && sudo systemctl stop clamav-freshclam && sudo freshclam && sudo systemctl start clamav-freshclam && sudo nala install -y clamtk-gnome
+}
 
 # Darktable
-sudo nala install -y darktable
+PKG=darktable
+dpkg -s "$PKG" &>/dev/null || sudo nala install -y "$PKG"
 
 # Dconf
-sudo nala install -y dconf-editor
+PKG=dconf-editor
+dpkg -s "$PKG" &>/dev/null || sudo nala install -y "$PKG"
 
 # Devede NG
-sudo nala install -y devede
+PKG=devede
+dpkg -s "$PKG" &>/dev/null || sudo nala install -y "$PKG"
 
 # Fastboot - Drivers android
-sudo nala install -y adb fastboot
+PKG=fastboot
+dpkg -s "$PKG" &>/dev/null || sudo nala install -y "$PKG"
 
 # Ffmpeg
-sudo nala install -y ffmpeg
+PKG=ffmpeg
+dpkg -s "$PKG" &>/dev/null || sudo nala install -y "$PKG"
 
-# FileZilla
-sudo nala install -y filezilla
+# gFTP
+PKG=gftp
+dpkg -s "$PKG" &>/dev/null || sudo nala install -y "$PKG"
 
 # Flatpak
-sudo nala install -y flatpak
-sudo flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
-sudo nala install -y gnome-software-plugin-flatpak
+PKG=flatpak
+dpkg -s "$PKG" &>/dev/null || { 
+  sudo nala install -y flatpak
+  sudo flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
+  sudo nala install -y gnome-software-plugin-flatpak
+}
 
 # Gaupol
-sudo nala install -y gaupol
+PKG=gaupol
+dpkg -s "$PKG" &>/dev/null || sudo nala install -y "$PKG"
 
 # Ghex
-sudo nala install -y ghex
+PKG=ghex
+dpkg -s "$PKG" &>/dev/null || sudo nala install -y "$PKG"
 
 # Gimp
-sudo nala install -y gimp gimp-help-fr
+PKG=gimp
+dpkg -s "$PKG" &>/dev/null || sudo nala install -y gimp gimp-help-fr
 
 # Gnome todos (Endeavour)
-sudo nala install -y gnome-todo
+PKG=gnome-todo
+dpkg -s "$PKG" &>/dev/null || sudo nala install -y "$PKG"
 
 # Gparted
-sudo nala install -y gparted
+PKG=gparted
+dpkg -s "$PKG" &>/dev/null || sudo nala install -y "$PKG"
 
 # Handbrake
-sudo nala install -y handbrake
+PKG=handbrake
+dpkg -s "$PKG" &>/dev/null || sudo nala install -y "$PKG"
 
 # Inkscape
-sudo nala install -y inkscape
+PKG=inkscape
+dpkg -s "$PKG" &>/dev/null || sudo nala install -y "$PKG"
 
 # Java 11 à chosiir avec "sudo update-alternatives --config java""
-sudo nala install -y openjdk-11-jdk
+PKG=openjdk-11-jdk
+dpkg -s "$PKG" &>/dev/null || sudo nala install -y "$PKG"
 
 # Java 17
-sudo nala install -y openjdk-17-jdk
+PKG=openjdk-17-jdk
+dpkg -s "$PKG" &>/dev/null || sudo nala install -y "$PKG"
 
 # Java 21
-sudo nala install -y openjdk-21-jdk
+PKG=openjdk-21-jdk
+dpkg -s "$PKG" &>/dev/null || sudo nala install -y "$PKG"
 
 # jq (outil json CLI)
-sudo nala install -y jq
+PKG=jq
+dpkg -s "$PKG" &>/dev/null || sudo nala install -y "$PKG"
 
 # KdeConnect
-sudo nala install -y kdeconnect
+PKG=kdeconnect
+dpkg -s "$PKG" &>/dev/null || sudo nala install -y "$PKG"
 
 # KeePassXC
-sudo nala install -y keepassxc
+PKG=keepassxc
+dpkg -s "$PKG" &>/dev/null || sudo nala install -y "$PKG"
 
 # Kitty (terminal)
-sudo nala install -y kitty fonts-firacode
+PKG=kitty
+dpkg -s "$PKG" &>/dev/null || sudo nala install -y kitty fonts-firacode
 
 # Kodi
-sudo nala install -y kodi
-sudo nala install -y kodi-peripheral-joystick
-sudo nala install -y kodi-pvr-iptvsimple
-sudo nala install -y kodi-audioencoder-flac
-sudo nala install -y kodi-audioencoder-lame
-sudo nala install -y kodi-audioencoder-vorbis
-sudo nala install -y kodi-audioencoder-wav
-sudo nala install -y kodi-imagedecoder-heif
-sudo nala install -y kodi-imagedecoder-raw
-sudo nala install -y kodi-inputstream-ffmpegdirect
-sudo nala install -y kodi-visualization-pictureit
-sudo nala install -y kodi-visualization-shadertoy
-sudo nala install -y kodi-visualization-shadertoy-data
-sudo nala install -y kodi-visualization-spectrum:amd64
-sudo nala install -y kodi-visualization-waveform
+PKG=kodi
+dpkg -s "$PKG" &>/dev/null || { 
+  sudo nala install -y kodi
+  sudo nala install -y kodi-peripheral-joystick
+  sudo nala install -y kodi-pvr-iptvsimple
+  sudo nala install -y kodi-audioencoder-flac
+  sudo nala install -y kodi-audioencoder-lame
+  sudo nala install -y kodi-audioencoder-vorbis
+  sudo nala install -y kodi-audioencoder-wav
+  sudo nala install -y kodi-imagedecoder-heif
+  sudo nala install -y kodi-imagedecoder-raw
+  sudo nala install -y kodi-inputstream-ffmpegdirect
+  sudo nala install -y kodi-visualization-pictureit
+  sudo nala install -y kodi-visualization-shadertoy
+  sudo nala install -y kodi-visualization-shadertoy-data
+  sudo nala install -y kodi-visualization-spectrum:amd64
+  sudo nala install -y kodi-visualization-waveform
+}
 
 # Krita
-sudo nala install -y krita
+PKG=krita
+dpkg -s "$PKG" &>/dev/null || sudo nala install -y "$PKG"
 
 # Kronometer
-sudo nala install -y kronometer
+PKG=kronometer
+dpkg -s "$PKG" &>/dev/null || sudo nala install -y "$PKG"
 
 # Lmms
-sudo nala install -y lmms
+PKG=lmms
+dpkg -s "$PKG" &>/dev/null || sudo nala install -y "$PKG"
 
 # Libre Office manquants
-sudo nala install -y libreoffice-java-common libreoffice-base libreoffice-math
+PKG=libreoffice-java-common
+dpkg -s "$PKG" &>/dev/null || sudo nala install -y libreoffice-java-common libreoffice-base libreoffice-math
 
 # MangoHud et Goverlay
-sudo nala install -y goverlay mangohud
+PKG=goverlay
+dpkg -s "$PKG" &>/dev/null || sudo nala install -y "$PKG" mangohud
 
 # Metadata cleaner
-sudo nala install -y metadata-cleaner
+PKG=metadata-cleaner
+dpkg -s "$PKG" &>/dev/null || sudo nala install -y "$PKG"
 
 # Numlock
-sudo nala install -y numlockx
+PKG=numlockx
+dpkg -s "$PKG" &>/dev/null || sudo nala install -y "$PKG"
 
 # PavuControl (Contrôle du volume PulseAudio, compatible pipewire)
-sudo nala install -y pavucontrol
+PKG=pavucontrol
+dpkg -s "$PKG" &>/dev/null || sudo nala install -y "$PKG"
 
 # Plank
-sudo nala install -y plank
+PKG=plank
+dpkg -s "$PKG" &>/dev/null || sudo nala install -y "$PKG"
 
 # Psensor (températures)
-sudo nala install -y lm-sensors psensor
+PKG=lm-sensors
+dpkg -s "$PKG" &>/dev/null || sudo nala install -y "$PKG" psensor
 
 # Sauvegardes (deja dup, complément de timeshift)
-sudo nala install -y deja-dup
+PKG=deja-dup
+dpkg -s "$PKG" &>/dev/null || sudo nala install -y "$PKG"
 
 # Scribus
-sudo nala install -y scribus
+PKG=scribus
+dpkg -s "$PKG" &>/dev/null || sudo nala install -y "$PKG"
 
 # Sound Juicer
-sudo nala install -y sound-juicer
+PKG=sound-juicer
+dpkg -s "$PKG" &>/dev/null || sudo nala install -y "$PKG"
 
 # Steam
-sudo nala install -y steam
+PKG=steam
+dpkg -s "$PKG" &>/dev/null || sudo nala install -y "$PKG"
 
 # Synaptic
-sudo nala install -y synaptic
-sudo nala install -y apt-xapian-index
-sudo update-apt-xapian-index -vf
+PKG=synaptic
+dpkg -s "$PKG" &>/dev/null || { 
+  sudo nala install -y synaptic
+  sudo nala install -y apt-xapian-index
+  sudo update-apt-xapian-index -vf
+}
+
+# Tmux (multiplexer de terminal)
+PKG=tmux
+dpkg -s "$PKG" &>/dev/null || sudo nala install -y "$PKG"
 
 # Transmission (sur LM vanilla mais se désinstalle sans que je comprenne pourquoi)
-sudo nala install -y transmission-gtk
+PKG=transmission-gtk
+dpkg -s "$PKG" &>/dev/null || sudo nala install -y "$PKG"
 
 # Trimage
-sudo nala install -y trimage
+PKG=trimage
+dpkg -s "$PKG" &>/dev/null || sudo nala install -y "$PKG"
 
 # Synapse
-sudo nala install -y synapse
+PKG=synapse
+dpkg -s "$PKG" &>/dev/null || sudo nala install -y "$PKG"
 
 # Neovim
-sudo nala install -y neovim
+PKG=neovim
+dpkg -s "$PKG" &>/dev/null || sudo nala install -y "$PKG"
 
 # Virt-Manager (gestionnaire VM) + KVM QEMU
-sudo nala install -y qemu-system libvirt-daemon-system libvirt-clients bridge-utils virt-manager virtiofsd samba
-sudo usermod -aG libvirt $USER
-mkdir -p ~/Local/VMs/iso
-chmod 777 ~/Local/VMs/iso
-mkdir -p ~/Local/VMs/Partage
-chmod 777 ~/Local/VMs/Partage
+PKG=virt-manager
+dpkg -s "$PKG" &>/dev/null || { 
+  sudo nala install -y qemu-system libvirt-daemon-system libvirt-clients bridge-utils virt-manager virtiofsd samba
+  sudo usermod -aG libvirt $USER
+  mkdir -p ~/Local/VMs/iso
+  chmod 777 ~/Local/VMs/iso
+  mkdir -p ~/Local/VMs/Partage
+  chmod 777 ~/Local/VMs/Partage
+}
 
 # Xfburn
-sudo nala install -y xfburn
+PKG=xfburn
+dpkg -s "$PKG" &>/dev/null || sudo nala install -y "$PKG"
 
 # Xpad (remplace note "sticky")
-sudo nala install -y xpad
+PKG=xpad
+dpkg -s "$PKG" &>/dev/null || sudo nala install -y "$PKG"
 
 # Installer les pack de langues
-sudo nala install -y language-pack-en-base
-sudo nala install -y language-pack-fr-base
-sudo nala install -y language-pack-gnome-fr
-sudo nala install -y language-pack-gnome-fr-base
-sudo nala install -y language-selector-common
-sudo nala install -y language-selector-gnome
+PKG=language-pack-gnome-fr
+dpkg -s "$PKG" &>/dev/null || { 
+  sudo nala install -y language-pack-en-base
+  sudo nala install -y language-pack-fr-base
+  sudo nala install -y language-pack-gnome-fr
+  sudo nala install -y language-pack-gnome-fr-base
+  sudo nala install -y language-selector-common
+  sudo nala install -y language-selector-gnome
+}
+

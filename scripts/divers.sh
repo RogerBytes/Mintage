@@ -7,38 +7,57 @@
 # 1/ Installation avec prompts oui/non
 # ------------
 
+PKG=jackd2
+dpkg -s "$PKG" &>/dev/null || sudo nala install -y "$PKG"
+
 # DVD support libdvd (impossible à automatiser)
-sudo nala install -y regionset libavcodec-extra libdvd-pkg && sudo dpkg-reconfigure libdvd-pkg
+PKG=libdvd-pkg
+dpkg -s "$PKG" &>/dev/null || sudo nala install -y regionset libavcodec-extra libdvd-pkg && sudo dpkg-reconfigure libdvd-pkg
 
 # Jackd2 (pour ardour et audacity)
-sudo nala install -y --assume-yes jackd2
+PKG=jackd2
+dpkg -s "$PKG" &>/dev/null || sudo nala install -y "$PKG"
 
-# RustUp (depuis https://rustup.rs/ permet de compiler du rust, dont yazi) -s -- -y pour valider par défaut
-curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh -s -- -y
-. "$HOME/.cargo/env"
-rustup update
+# Installer police FiraCode Nerd et firacode
+FILE=~/.local/share/firafonts.installed
+[ -f "$FILE" ] || { 
+  sudo nala install -y fonts-firacode
+  tmpdir=$(mktemp -d)
+  wget -q -O "$tmpdir/FiraCode.zip" "https://github.com/ryanoasis/nerd-fonts/releases/download/v3.4.0/FiraCode.zip"
+  unzip -q "$tmpdir/FiraCode.zip" -d "$tmpdir"
+  mkdir -p ~/.local/share/fonts
+  cp "$tmpdir"/*.ttf ~/.local/share/fonts/
+  fc-cache -f
+  rm -rf "$tmpdir"
+  touch ~/.local/share/firafonts.installed
+}
 
 # 2/ Shell
 # ------------
 
-# Installer zsh
-sudo nala install -y zsh
-sudo chsh -s /bin/zsh
+FILE=~/.local/share/shell-ext.installed
+[ -f "$FILE" ] || { 
+  # Installer zsh
+  sudo nala install -y zsh
+  sudo chsh -s /bin/zsh
 
-# Plugins Autojump
-sudo nala install -y autojump
-echo ". /usr/share/autojump/autojump.sh" >> ~/.zshrc && source ~/.zshrc
+  # Plugins Autojump
+  sudo nala install -y autojump
+  echo ". /usr/share/autojump/autojump.sh" >> ~/.zshrc && source ~/.zshrc
 
-# Plugins zsh-syntax-highlighting
-sudo nala install -y zsh-syntax-highlighting
-echo "source /usr/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh" >> ~/.zshrc
+  # Plugins zsh-syntax-highlighting
+  sudo nala install -y zsh-syntax-highlighting
+  echo "source /usr/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh" >> ~/.zshrc
 
-# Plugins zsh-autosuggestions
-sudo nala install -y zsh-autosuggestions
-echo "source /usr/share/zsh-autosuggestions/zsh-autosuggestions.zsh" >> ~/.zshrc
+  # Plugins zsh-autosuggestions
+  sudo nala install -y zsh-autosuggestions
+  echo "source /usr/share/zsh-autosuggestions/zsh-autosuggestions.zsh" >> ~/.zshrc
 
-# Plugins powerlevel10k
-git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ~/.powerlevel10k
-echo 'source ~/.powerlevel10k/powerlevel10k.zsh-theme' >> ~/.zshrc
-cp ./DATA/.p10k.zsh ~/
+  # installer starship https://starship.rs
+  STARSHIP_CONFIG=~/.config/starship.toml sh -c "$(curl -fsSL https://starship.rs/install.sh)" -- -y
+  echo 'eval "$(starship init zsh)"' >> ~/.zshrc
+  touch ~/.local/share/shell-ext.installed
+}
+
+
 
