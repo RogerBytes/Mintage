@@ -1,0 +1,37 @@
+{
+  "b48bfbad-4a96-4580-9b1e-ffa31926a818": {
+    "isEnabled": false,
+    "host": "",
+    "port": 0,
+    "user": "",
+    "password": ""
+  },
+  "b9b0b6c6-5cdc-43f1-a8ce-faa9998923dd": {
+    "isEnabled": false,
+    "host": "",
+    "port": 0,
+    "user": "",
+    "password": ""
+  },
+  "216f268d-10e1-4c97-a71a-1c3abc8170e8": {
+    "isEnabled": false,
+    "host": "",
+    "port": 0,
+    "user": "",
+    "password": ""
+  },
+  "69a1d456-3043-4fec-97ed-0bfe0d47ebf7": {
+    "isEnabled": false,
+    "host": "",
+    "port": 0,
+    "user": "",
+    "password": ""
+  },
+  "99cfa046-fe6a-4f42-8933-2545f64f75b4": {
+    "isEnabled": false,
+    "host": "",
+    "port": 0,
+    "user": "",
+    "password": ""
+  }
+}

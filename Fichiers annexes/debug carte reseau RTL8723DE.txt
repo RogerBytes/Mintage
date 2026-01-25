@@ -1,0 +1,18 @@
+
+02:00.0 Ethernet controller [0200]: Realtek Semiconductor Co., Ltd. RTL8111/8168/8211/8411 PCI Express Gigabit Ethernet Controller [10ec:8168] (rev 15)
+	Subsystem: Hewlett-Packard Company RTL8111/8168/8411 PCI Express Gigabit Ethernet Controller [103c:84ac]
+	Kernel driver in use: r8169
+	Kernel modules: r8169
+
+03:00.0 Network controller [0280]: Realtek Semiconductor Co., Ltd. RTL8723DE 802.11b/g/n PCIe Adapter [10ec:d723]
+	DeviceName: WLAN
+	Subsystem: Hewlett-Packard Company RTL8723DE 802.11b/g/n PCIe Adapter [103c:8319]
+	Kernel driver in use: rtw_8723de
+
+
+
+
+sudo sed -i 's/wifi.powersave = 3/wifi.powersave = 2/' /etc/NetworkManager/conf.d/default-wifi-powersave-on.conf
+
+
+https://github.com/rogerbytes/mintage

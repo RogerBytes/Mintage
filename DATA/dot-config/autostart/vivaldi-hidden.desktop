@@ -1,0 +1,10 @@
+[Desktop Entry]
+Type=Application
+Exec=/usr/bin/vivaldi-stable --no-startup-window
+Hidden=false
+NoDisplay=false
+X-GNOME-Autostart-enabled=false
+Name[en_US]=Vivaldi-silent
+Name=Vivaldi-silent
+Comment[en_US]=Start Vivaldi at startup
+Comment=Start Vivaldi at startup
