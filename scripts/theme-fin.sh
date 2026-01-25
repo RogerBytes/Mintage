@@ -25,7 +25,7 @@ FILE=/usr/local/bin/vsix-dl
 FILE=~/.local/share/floorp-theme.installed
 [ -f "$FILE" ] || { 
   [ -d ~/.floorp ] && rm -rf ~/.floorp
-  # Compresser floorp -> tar -I 'zstd -19' -cf - ~/.floorp/ | split -b 95M - floorp.tzst.
+  # Compresser floorp a faire à racine ~/ -> tar -I 'zstd -19' -cf - .floorp/ | split -b 95M - floorp.tzst.
   cat ./DATA/floorp.tzst.* > floorp.tzst && tar -I zstd -xf floorp.tzst -C "$HOME/"
   rm floorp.tzst
 
@@ -39,7 +39,7 @@ FILE=~/.local/share/floorp-theme.installed
   # sed -i "s|$(whoami)|rogerbytes|g" ~/.floorp/i1gzqkvl.Test/extensions.json
 
   # decompresser le cache de floorp (nouveau test pour résoudre le souci)
-  # compresser le cache de floorp -> tar -I 'zstd -19' -cf - ~/.cache/floorp/ | split -b 95M - floorp-cache.tzst.
+  # compresser le cache de floorp a faire dans ~/.cache -> tar -I 'zstd -19' -cf - floorp/ | split -b 95M - floorp-cache.tzst.
   [ -d ~/.cache/floorp ] && rm -rf ~/.cache/floorp
   cat ./DATA/floorp-cache.tzst.* > floorp-cache.tzst && tar -I zstd -xf floorp-cache.tzst -C "$HOME/.cache/"
   touch ~/.local/share/floorp-theme.installed
@@ -66,23 +66,14 @@ FILE=~/.local/share/flatpak-theme.installed
   touch ~/.local/share/flatpak-theme.installed
 }
 
-# Support native des host de nodjs
-FILE=~/.local/share/host-nodjs.installed
-[ -f "$FILE" ] || { 
-  curl -s https://api.github.com/repos/andy-portmen/native-client/releases/latest \
-    | grep "browser_download_url.*linux.zip" \
-    | head -n 1 \
-    | sed -E 's/.*"(https[^"]+)".*/\1/' \
-    | xargs -I{} curl -L -o "$HOME/linux.zip" {}
-
-  unzip -o "$HOME/linux.zip" -d "$HOME/native-client"
-
-  . "$HOME/native-client/install.sh"
-  rm -r "$HOME/native-client"
-  rm "$HOME/linux.zip"
-  touch ~/.local/share/host-nodjs.installed
+# Support nodejs pour extension freetube et videodl dans floorp
+FILE="$HOME/.local/share/extension-floorp-nodejs.installed"
+[ -f "$FILE" ] || {
+  tar -xzf ./DATA/client-node-js.tar.gz -C "$HOME" && \
+  "$HOME/client-node-js/install.sh" && \
+  rm -rf "$HOME/client-node-js" && \
+  touch "$FILE"
 }
-
 
 # Télécharger des icones (en partie pour l'extension "external-application" de floorp & vivaldi)
 FILE=$HOME/Local/Lanceurs/Icones/VideoDownloader.svg
