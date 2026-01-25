@@ -212,10 +212,6 @@ dpkg -s "$PKG" &>/dev/null || sudo nala install -y "$PKG"
 PKG=sound-juicer
 dpkg -s "$PKG" &>/dev/null || sudo nala install -y "$PKG"
 
-# Steam
-PKG=steam
-dpkg -s "$PKG" &>/dev/null || sudo nala install -y "$PKG"
-
 # Synaptic
 PKG=synaptic
 dpkg -s "$PKG" &>/dev/null || { 

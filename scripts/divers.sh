@@ -32,6 +32,11 @@ FILE=~/.local/share/firafonts.installed
   touch ~/.local/share/firafonts.installed
 }
 
+
+# Steam
+PKG=steam
+dpkg -s "$PKG" &>/dev/null || sudo nala install -y "$PKG"
+
 # 2/ Shell
 # ------------
 
