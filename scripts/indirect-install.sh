@@ -325,6 +325,15 @@ FILE=~/.local/share/oracle-web-start.installed
   touch ~/.local/share/oracle-web-start.installed
 }
 
+# Support nodejs pour extension freetube et videodl dans floorp
+FILE="$HOME/.local/share/extension-floorp-nodejs.installed"
+[ -f "$FILE" ] || {
+  tar -xzf ./DATA/client-node-js.tar.gz -C "$HOME" && \
+  "$HOME/racineuser/client-node-js/install.sh" && \
+  rm -rf "$HOME/racineuser/client-node-js" && \
+  touch "$FILE"
+}
+
 # JD2 navigateur
 #tar -zxvf ./DATA/App-ressource/jd2-vivaldi.tar.gz
 #./jd2-vivaldi/install.sh
