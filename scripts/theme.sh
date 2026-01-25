@@ -77,6 +77,12 @@ FILE=~/.local/share/smallconf.installed
   touch ~/.local/share/smallconf.installed
 }
 
+# pour dump
+# dconf dump /org/nemo/ > ./DATA/Reglages/nemo.dconf
+# dconf dump /net/launchpad/plank/ > ./DATA/Reglages/plank.dconf
+# dconf dump /org/x/editor/ > ./DATA/Reglages/xed.dconf
+# dconf dump /org/cinnamon/desktop/background/ > ./DATA/Reglages/wallapaper.dconf
+
 # regler kitty
 FILE=~/.local/share/custom-kitty.installed
 [ -f "$FILE" ] || { 

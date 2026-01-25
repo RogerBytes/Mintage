@@ -25,19 +25,21 @@ FILE=/usr/local/bin/vsix-dl
 FILE=~/.local/share/floorp-theme.installed
 [ -f "$FILE" ] || { 
   [ -d ~/.floorp ] && rm -rf ~/.floorp
-  # Compresser floorp -> tar -I 'zstd -19' -cf - .floorp/ | split -b 95M - floorp.tzst.
+  # Compresser floorp -> tar -I 'zstd -19' -cf - ~/.floorp/ | split -b 95M - floorp.tzst.
   cat ./DATA/floorp.tzst.* > floorp.tzst && tar -I zstd -xf floorp.tzst -C "$HOME/"
   rm floorp.tzst
 
   # corriger les chemins (nouveau test pour résoudre le souci)
-  sed -i "s|rogerbytes|$(whoami)|g" ~/.floorp/0a2qqe25.default/extensions.json
-  sed -i "s|rogerbytes|$(whoami)|g" ~/.floorp/vnvbfnz3.default-release/extensions.json
+  sed -i "s|rogerbytes|$(whoami)|g" ~/.floorp/qmjfloeo.Personnel/extensions.json
+  sed -i "s|rogerbytes|$(whoami)|g" ~/.floorp/r2kzx8oj.Professionnel/extensions.json
+  sed -i "s|rogerbytes|$(whoami)|g" ~/.floorp/i1gzqkvl.Test/extensions.json
   # faire en sens inverse (pour DUMP)
-  # sed -i "s|$(whoami)|rogerbytes|g" ~/.floorp/0a2qqe25.default/extensions.json
-  # sed -i "s|$(whoami)|rogerbytes|g" ~/.floorp/vnvbfnz3.default-release/extensions.json
+  # sed -i "s|$(whoami)|rogerbytes|g" ~/.floorp/qmjfloeo.Personnel/extensions.json
+  # sed -i "s|$(whoami)|rogerbytes|g" ~/.floorp/r2kzx8oj.Professionnel/extensions.json
+  # sed -i "s|$(whoami)|rogerbytes|g" ~/.floorp/i1gzqkvl.Test/extensions.json
 
   # decompresser le cache de floorp (nouveau test pour résoudre le souci)
-  # compresser le cache de floorp -> tar -I 'zstd -19' -cf - .cache/floorp/ | split -b 95M - floorp-cache.tzst.
+  # compresser le cache de floorp -> tar -I 'zstd -19' -cf - ~/.cache/floorp/ | split -b 95M - floorp-cache.tzst.
   [ -d ~/.cache/floorp ] && rm -rf ~/.cache/floorp
   cat ./DATA/floorp-cache.tzst.* > floorp-cache.tzst && tar -I zstd -xf floorp-cache.tzst -C "$HOME/.cache/"
   touch ~/.local/share/floorp-theme.installed
@@ -124,10 +126,15 @@ FILE=~/.local/share/libreoffice-extension.installed
 }
 
 # On applique les réglages d'app flatpak, dont JD2 par exemple (noter les autres)
-FILE=~/.local/share/flatpak-config.installed
-[ -f "$FILE" ] || { 
-  cp -a ./DATA/dot-var/* ~/.var/app
-  touch ~/.local/share/flatpak-config.installed
+FILE="$HOME/.local/share/flatpak-config.installed"
+[ -f "$FILE" ] || {
+  rm -rf "$HOME/.var/app/org.jdownloader.JDownloader"
+  cp -a ./DATA/dot-var/app* "$HOME/.var/app/"
+  for f in "$HOME/.var/app/"*.tar.gz; do
+    [ -f "$f" ] && tar -xzf "$f" -C "$HOME/.var/app/"
+  done
+  rm -f "$HOME/.var/app/"*.tar.gz
+  touch "$FILE"
 }
 
 # JDownloader
