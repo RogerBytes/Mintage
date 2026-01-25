@@ -44,7 +44,8 @@
                 "sectionSound2",
                 "sectionSound3",
                 "sectionSound4",
-                "sectionSound5"
+                "sectionSound5",
+                "sectionSound6"
             ]
         },
         "page_shortcuts": {
@@ -213,6 +214,18 @@
                 "remove_OsdWithNumberATJosephMcc"
             ]
         },
+        "sectionSound6": {
+            "type": "section",
+            "title": "Advertisement",
+            "keys": [
+                "adv_avoid",
+                "adv_volume",
+                "adv_old_volume",
+                "adv_icon",
+                "adv_label",
+                "adv_list"
+            ]
+        },
         "sectionShortcuts1": {
             "type": "section",
             "title": "Shortcuts",
@@ -244,8 +257,8 @@
     "userMenuWidth": {
         "type": "scale",
         "default": 450,
-        "min": 450,
-        "max": 600,
+        "min": 300,
+        "max": 6000,
         "step": 10,
         "description": "Menu width (in pixels)",
         "show-value": true,
@@ -639,7 +652,7 @@
         "min": 30,
         "max": 150,
         "step": 5,
-        "value": 150
+        "value": 100
     },
     "startupVolume": {
         "type": "scale",
@@ -925,10 +938,79 @@
         "description": "Remove the OsdWithNumber extension",
         "callback": "_on_remove_OsdWithNumber_from_extensions"
     },
+    "adv_avoid": {
+        "type": "switch",
+        "description": "Try to avoid advertisement",
+        "default": false,
+        "value": false
+    },
+    "adv_volume": {
+        "type": "combobox",
+        "description": "Volume during advertisements",
+        "default": "1%",
+        "options": {
+            "1%": "1%",
+            "2%": "2%",
+            "3%": "3%",
+            "4%": "4%",
+            "5%": "5%",
+            "6%": "6%",
+            "7%": "7%",
+            "8%": "8%",
+            "9%": "9%",
+            "10%": "10%"
+        },
+        "tooltip": "% of nominal volume",
+        "value": "1%"
+    },
+    "adv_old_volume": {
+        "type": "generic",
+        "default": "50%",
+        "value": "50%"
+    },
+    "adv_icon": {
+        "type": "iconfilechooser",
+        "description": "Symbolic icon displayed during advertisements",
+        "default": "~/.local/share/cinnamon/applets/sound150@claudiux/6.6/icons/pause-large-symbolic.svg",
+        "value": "/home/harry/.local/share/cinnamon/applets/sound150@claudiux/6.6/icons/pause-large-symbolic.svg"
+    },
+    "adv_label": {
+        "type": "label",
+        "description": "Advertisements are detected using the title.\nWhen a title contains at least one of these words, the volume is reduced to the value indicated above.\nThe volume is restored at the end of the advertisement."
+    },
+    "adv_list": {
+        "type": "list",
+        "description": "Advertisement list",
+        "default": [
+            {
+                "adv": "Advert"
+            },
+            {
+                "adv": "Spot"
+            }
+        ],
+        "columns": [
+            {
+                "id": "adv",
+                "title": "Part of title",
+                "type": "string",
+                "default": "",
+                "expand-width": true
+            }
+        ],
+        "value": [
+            {
+                "adv": "Advert"
+            },
+            {
+                "adv": "Spot"
+            }
+        ]
+    },
     "VOLUME_ADJUSTMENT_STEP": {
         "type": "generic",
         "default": 0.05,
         "value": 0.05
     },
-    "__md5__": "8a8533fa7728df224e6f9b220f5e7bfa"
+    "__md5__": "5078ccaf95346240a914fbabd1d06860"
 }

@@ -8,6 +8,8 @@ trash-icon-visible=true
 volumes-visible=true
 
 [list-view]
+default-column-order=['name', 'size', 'type', 'date_modified', 'date_created_with_time', 'date_created', 'date_accessed', 'permissions', 'octal_permissions', 'group', 'date_modified_with_time', 'where', 'owner', 'mime_type', 'detailed_type']
+default-visible-columns=['name', 'size', 'date_modified']
 default-zoom-level='smaller'
 enable-folder-expansion=true
 
@@ -27,12 +29,17 @@ show-location-entry=true
 show-search-icon-toolbar=false
 swap-trash-delete=false
 
+[search]
+search-reverse-sort=false
+search-sort-column='name'
+
 [window-state]
-geometry='864x653+86+86'
+geometry='918x661+122+122'
 maximized=false
+my-computer-expanded=true
 side-pane-view='places'
-sidebar-bookmark-breakpoint=17
-sidebar-width=236
+sidebar-bookmark-breakpoint=21
+sidebar-width=260
 start-with-menu-bar=false
 start-with-sidebar=true
 start-with-toolbar=true

@@ -1,0 +1,6 @@
+Fichiers annexes/navigateur/bookmarks/
+
+dans chaque profil
+
+Crtl+Shift+O
+aller dans onglet "Importation et sauvegarde" et "Restaurer/Choisir un fichier..." et choisir le fichier "bookmarks-*.json" correspondant

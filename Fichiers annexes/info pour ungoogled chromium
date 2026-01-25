@@ -1,0 +1,6 @@
+Set
+chrome://flags/#extension-mime-request-handling
+to "Always prompt for install" and relaunch.
+
+Then click on the latest Chromium.Web.Store.crx link on the extension's Releases page :
+https://github.com/NeverDecaf/chromium-web-store/releases

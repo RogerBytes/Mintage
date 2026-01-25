@@ -1,0 +1,84 @@
+rm -rf ~/.floorp
+rm -rf ~/.cache/floorp
+rm -rf /.cache/floorp
+
+
+aller dans 
+about:profiles
+
+Créer
+Personnel
+Professionnel
+Test
+
+Mettre Personnel par défaut
+
+fermer et relancer floorp, et aller 
+about:profiles
+
+
+Virer les profils
+defaut-defaut
+defaut
+choisir de supprimer les fichier à la suppression de profil
+
+Corriger les profils `/.floorp/profiles.ini` en vous inspirant de ça (attention les path sont unique, ne pas c/c bêtement)
+
+```ini
+[Install614411E63160022F]
+Default=qmjfloeo.Personnel
+Locked=1
+
+[Profile0]
+Name=Personnel
+IsRelative=1
+Path=qmjfloeo.Personnel
+
+[Profile1]
+Name=Professionnel
+IsRelative=1
+Path=r2kzx8oj.Professionnel
+
+[Profile2]
+Name=Test
+IsRelative=1
+Path=i1gzqkvl.Test
+
+[General]
+StartWithLastProfile=1
+Version=2
+```
+
+ouvrir chaque profil et installer
+https://addons.mozilla.org/fr/firefox/addon/mint-l-dark-blue/
+
+dans chacun
+about:preferences
+- décocher "toujours verifier que par defaut" (et ne pas le mettre pas dezfaut il se prend popour firefox, ça bug)
+- décocher "Me demander avant de quitter avec Ctrl+Q"
+- chosir "sombre"
+- cocher "toujours demander où enregistrer les fichiers"
+- radio "Demander s'il faut ouvrir ou enregistrer les fichier"
+- cocher "Lire le contenu protégé par des DRM"
+- cocher "Utiliser le défilement doux"
+- décocher "Recommander des extensions en cours de navigation"
+- décocher "Recommander des fonctionnalités en cours de navigation"
+about:preferences#search
+- décocher "Utiliser un autre moteur de recherche par défaut dans les fenêtres de navigation privée"
+about:preferences#privacy
+- cocher "Demander aux sites web de ne pas vendre ni partager mes données"
+- décocher "Moyens de paiement"
+- radio "Activer le mode HTTPS uniquement dans toutes les fenêtre"
+- radio "Protection renforcée" et dans "Choisir le fournisseur/Personnalisé" mettre
+https://dns.quad9.net/dns-query
+
+BASE EST FINIE
+
+
+
+
+about:hub#/features/design
+voir s'il y a truc à faire, pas sur
+
+
+

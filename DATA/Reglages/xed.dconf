@@ -4,7 +4,7 @@ active-plugins=['bracketcompletion', 'filebrowser', 'joinlines', 'textsize', 'wo
 [plugins/filebrowser/on-load]
 root='file:///'
 tree-view=true
-virtual-root='file:///home/harry/Mintage/scripts'
+virtual-root='file:///home/harry/Bureau'
 
 [preferences/editor]
 auto-close=true
@@ -22,11 +22,11 @@ statusbar-visible=true
 toolbar-visible=true
 
 [state/history-entry]
-history-search-for=['vival', 'vivaldi', 'screens', 'size', 'font-terminal', 'font', 'vivald', 'capitaine', 'notes']
+history-search-for=['floorp', 'exter', 'sudo', 'vival', 'vivaldi', 'screens', 'size', 'font-terminal', 'font']
 
 [state/window]
 bottom-panel-size=140
 side-panel-active-page=827629879
 side-panel-size=200
-size=(1140, 697)
+size=(1256, 814)
 state=87168
