@@ -8,8 +8,7 @@ Ce petit projet est conçu pour automatiser le processus de personnalisation de 
 
 ## Présentation
 
-<details style="background-color: #222222; border: 1px solid #ccc; border-radius: 4px;">
-<summary>Afficher/Masquer</summary>
+<details><summary class="button">🔍 Spoiler</summary><div class="spoiler">
 
 ### Fonctionnalités
 
@@ -22,13 +21,13 @@ Ce petit projet est conçu pour automatiser le processus de personnalisation de 
 
 Une liste non exhaustive des logiciels inclus dans ce script :
 
-- **Développement**: Codium, Git, Docker
+- **Développement**: Codium, Git
 - **Bureautique**: LibreOffice, Thunderbird
 - **Multimédia**: GIMP, Kodi
-- **Internet**: Floorp, Vivaldi
+- **Internet**: Floorp, Ungoogled Chromium
 - ...et beaucoup d'autres !
 
-Vous pouvez aussi consulter [la liste complète](./DATA/complete-list.md).
+TODO ! Vous pouvez aussi consulter [la liste complète](./DATA/complete-list.md).
 
 ### Contributions
 
@@ -38,14 +37,13 @@ Les contributions sont les bienvenues ! Si vous avez des suggestions ou des amé
 
 Distribué sous la licence GPLv3. Voir `LICENSE` pour plus d'informations.
 
-</details>
+</div></details>
 
 ---
 
 ## Prérequis
 
-<details style="background-color: #222222; border: 1px solid #ccc; border-radius: 4px;">
-<summary>Afficher/Masquer</summary>
+<details><summary class="button">🔍 Spoiler</summary><div class="spoiler">
 
 Une clean install de [la dernière version de Linux Mint](https://www.linuxmint.com) est nécessaire.
 Pour info pour coller dans le terminal il faut utiliser `CTRL + SHIFT + V` et pour copier `CTRL + SHIFT + C`.
@@ -96,14 +94,13 @@ rm $file
 
 ```
 
-</details>
+</div></details>
 
 ---
 
 ## Installation
 
-<details style="background-color: #222222; border: 1px solid #ccc; border-radius: 4px;">
-<summary>Afficher/Masquer</summary>
+<details><summary class="button">🔍 Spoiler</summary><div class="spoiler">
 
 ### Installation scriptée
 
@@ -166,7 +163,7 @@ Vous pouvez supprimer le dossier après.
 Dans LibreOffice
 
 - Options `Alt+F12` et `LibreOffice/Avancé̀` choisir `Ubuntu  21.0.9` (premier de liste) puis "OK" et "redémmarer maintenant"
-- Extensions `CTRL+Alt+E`, puis "Ajouter" et choisir "WritingTool-*****.oxt" puis "Fermer" et "redémmarer maintenant"
+- Extensions `CTRL+Alt+E`, puis "Ajouter" et choisir "WritingTool-**\***.oxt" puis "Fermer" et "redémmarer maintenant"
 - Options `Alt+F12` et `Langues et locales/Linguistique` décochez "Vérificateur orthographique Hunspell" (en haut) puis "Appliquer"
 - Options `Alt+F12` et `LibreOffice/Affichage` dans `Mode` choisir `Sombre` et `Thème d'icônes` choisir `Colibre (dark)` puis "OK"
 
@@ -188,14 +185,13 @@ Depuis la logithèque vous pouvez ajoutez les flatpak non certifiés dans les pa
 
 Votre installation est terminée, amusez-vous bien sur Linux Mint !
 
-</details>
+</div></details>
 
 ---
 
 ## Dernier rapport
 
-<details style="background-color: #222222; border: 1px solid #ccc; border-radius: 4px;">
-<summary>Afficher/Masquer</summary>
+<details><summary class="button">🔍 Spoiler</summary><div class="spoiler">
 
 ### Problèmes
 
@@ -209,10 +205,17 @@ Les applications utilisant GTK4 restent en blanc par défaut (à part si une opt
 
 Non fixable tant que les dernières màj de libadwaita ne seront pas incluses dans linux mint et ou flatpak.
 
-</details>
+</div></details>
 
 ---
 
 ## Auteurs
 
 - [Harry RICHMOND](https://github.com/RogerBytes)
+
+<span hidden>
+<details><summary></summary>
+<style>.spoiler{border-left:4px solid #1abc9c;border-bottom-left-radius:3px;padding-left:10px;padding-top:15px;margin-top:-10px;margin-bottom:15px}.button{cursor:pointer;padding:5px 10px;background-color:#3498db;color:white;border-radius:3px;margin-bottom:5px;display:inline-block;transition:background-color 0.2s}.button:hover{background-color:#217dbb}details[open] .button{background-color:#1abc9c}</style>
+</details></span>
+
+<p align="right"><a href="#">🔝 Retour en haut</a></p>
