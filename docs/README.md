@@ -180,7 +180,6 @@ Il faut ouvrir une fois les deux profils de floorp et patienter quelque secondes
 Si vous utilisez un portable, ouvrez Lutris, allez dans "Préfèrences/Options globales (avec 'Avancé' activé en haut à droite)" et dans "Multi GPU"
 Dans "Vulkan ICE loader", choisisé votre carte dédiée, pensez aussi à utiliser le mode performance de votre carte.
 
-
 ### Installation terminée
 
 Dans votre dossier utilisateur se trouve le dossier Mintage : vous pouvez maintenant le supprimer.
