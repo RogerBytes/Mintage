@@ -120,7 +120,7 @@ FILE=~/.local/share/libreoffice-extension.installed
 FILE="$HOME/.local/share/flatpak-config.installed"
 [ -f "$FILE" ] || {
   rm -rf "$HOME/.var/app/org.jdownloader.JDownloader"
-  cp -a ./DATA/dot-var/app* "$HOME/.var/app/"
+  cp -a ./DATA/dot-var/app* "$HOME/.var/"
   for f in "$HOME/.var/app/"*.tar.gz; do
     [ -f "$f" ] && tar -xzf "$f" -C "$HOME/.var/app/"
   done

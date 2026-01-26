@@ -2,6 +2,8 @@
 
 ## Prioritaire
 
+Corriger le truc de jd2, pour une raison inconnu il se lance pas, probablement un probleme de nom d'user (ce que je suspecte)
+
 ### verif
 
 Theme et reglage jd2, floorp (3 profils + extension freetube & videodl), thunderbird, reglages nemp, reglage des app par défaut, tmux et kitty
