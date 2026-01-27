@@ -10,14 +10,14 @@
 
 FILE=/usr/local/bin/vsix-dl
 [ -f "$FILE" ] || { 
-  sudo cp ./DATA/vsix-dl.sh /usr/local/bin/vsix-dl
+  sudo cp ./data/vsix-dl.sh /usr/local/bin/vsix-dl
   sudo chmod +x /usr/local/bin/vsix-dl
 }
 
 # réglages de vivaldi
 # [ -d ~/.config/vivaldi ] && rm -rf ~/.config/vivaldi
 # Compresser vivaldi -> tar -I 'zstd -19' -cf - vivaldi/ | split -b 95M - vivaldi.tzst.
-# cat ./DATA/vivaldi.tzst.* > vivaldi.tzst && tar -I zstd -xf vivaldi.tzst -C "$HOME/.config/"
+# cat ./data/vivaldi.tzst.* > vivaldi.tzst && tar -I zstd -xf vivaldi.tzst -C "$HOME/.config/"
 # rm vivaldi.tzst
 
 # réglages de floorp
@@ -26,7 +26,7 @@ FILE=~/.local/share/floorp-theme.installed
 [ -f "$FILE" ] || { 
   [ -d ~/.floorp ] && rm -rf ~/.floorp
   # Compresser floorp a faire à racine ~/ -> tar -I 'zstd -19' -cf - .floorp/ | split -b 95M - floorp.tzst.
-  cat ./DATA/floorp.tzst.* > floorp.tzst && tar -I zstd -xf floorp.tzst -C "$HOME/"
+  cat ./data/floorp.tzst.* > floorp.tzst && tar -I zstd -xf floorp.tzst -C "$HOME/"
   rm floorp.tzst
 
   # corriger les chemins (nouveau test pour résoudre le souci)
@@ -41,7 +41,7 @@ FILE=~/.local/share/floorp-theme.installed
   # decompresser le cache de floorp (nouveau test pour résoudre le souci)
   # compresser le cache de floorp a faire dans ~/.cache -> tar -I 'zstd -19' -cf - floorp/ | split -b 95M - floorp-cache.tzst.
   [ -d ~/.cache/floorp ] && rm -rf ~/.cache/floorp
-  cat ./DATA/floorp-cache.tzst.* > floorp-cache.tzst && tar -I zstd -xf floorp-cache.tzst -C "$HOME/.cache/"
+  cat ./data/floorp-cache.tzst.* > floorp-cache.tzst && tar -I zstd -xf floorp-cache.tzst -C "$HOME/.cache/"
   touch ~/.local/share/floorp-theme.installed
 }
 
@@ -49,12 +49,12 @@ FILE=~/.local/share/floorp-theme.installed
 FILE=~/.local/share/thunderbird-theme.installed
 [ -f "$FILE" ] || { 
   rm -r ~/.thunderbird/
-  tar -xzvf ./DATA/thunderbird.tar.gz -C $HOME/
+  tar -xzvf ./data/thunderbird.tar.gz -C $HOME/
   touch ~/.local/share/thunderbird-theme.installed
 }
 
 # réglages de kodi (supprimé car pas à jour + pas assez de place)
-# 7z x ./DATA/kodi.7z.001 -o$HOME/
+# 7z x ./data/kodi.7z.001 -o$HOME/
 
 # Themes Flatpak
 FILE=~/.local/share/flatpak-theme.installed
@@ -69,7 +69,7 @@ FILE=~/.local/share/flatpak-theme.installed
 # Support nodejs pour extension freetube et videodl dans floorp
 FILE="$HOME/.local/share/extension-floorp-nodejs.installed"
 [ -f "$FILE" ] || {
-  tar -xzf ./DATA/client-node-js.tar.gz -C "$HOME" && \
+  tar -xzf ./data/client-node-js.tar.gz -C "$HOME" && \
   "$HOME/client-node-js/install.sh" && \
   rm -rf "$HOME/client-node-js" && \
   touch "$FILE"
@@ -120,7 +120,7 @@ FILE=~/.local/share/libreoffice-extension.installed
 FILE="$HOME/.local/share/flatpak-config.installed"
 [ -f "$FILE" ] || {
   rm -rf "$HOME/.var/app/org.jdownloader.JDownloader"
-  cp -a ./DATA/dot-var/app* "$HOME/.var/"
+  cp -a ./data/dot-var/app* "$HOME/.var/"
   for f in "$HOME/.var/app/"*.tar.gz; do
     [ -f "$f" ] && tar -xzf "$f" -C "$HOME/.var/app/"
   done
@@ -193,3 +193,34 @@ FILE=~/.config/starship.toml
   # sed -i 's/^\(\s*palette\s*=\s*\).*$/\1"catppuccin_latte"/' ~/.config/starship.toml
 }
 
+# apk app
+DIR="${XDG_DESKTOP_DIR/#\$HOME/$HOME}/App Android"
+[ -d "$DIR" ] || {
+  source ~/.config/user-dirs.dirs
+  mkdir -p "$DIR"
+  latest_code=$(curl -s https://f-droid.org/api/v1/packages/org.kde.kdeconnect_tp \
+    | grep -oP '"suggestedVersionCode":\s*\K[0-9]+')
+  wget -P "${XDG_DESKTOP_DIR/#\$HOME/$HOME}/App Android" "https://f-droid.org/repo/org.kde.kdeconnect_tp_${latest_code}.apk"
+  latest_code=$(curl -s https://f-droid.org/api/v1/packages/slowscript.warpinator \
+    | grep -oP '"suggestedVersionCode":\s*\K[0-9]+')
+  wget -P "${XDG_DESKTOP_DIR/#\$HOME/$HOME}/App Android" "https://f-droid.org/repo/slowscript.warpinator_${latest_code}.apk"
+  touch "$DIR/Lisez-Moi.md"
+  cat > "$DIR/Lisez-Moi.md" << 'EOF'
+# Applications android
+
+Ces deux applications sont `KDE Connect` et `Warpinator`.
+
+## Liens
+
+- <https://f-droid.org/fr/packages/slowscript.warpinator/>
+- <https://f-droid.org/fr/packages/org.kde.kdeconnect_tp/>
+
+## KDE Connect
+
+Il permet de se servir de son smartphone comme d'une souris, d'envoyer des fichiers, de recevoir des notifications, faire office de laser de présentation et d'autres encore.
+
+## Warpinator
+
+Outil dédié au partage de fichiers.
+EOF
+}

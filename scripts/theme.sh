@@ -17,29 +17,29 @@
 # autostart, ferdium, fontbase; freetube, menu panel, nemo, plank, stacer, synapse, transmission, reglages extensions & desklet & applet, applications préférées
 FILE=~/.local/share/dotdir.installed
 [ -f "$FILE" ] || { 
-  cp -a ./DATA/dot-config/* ~/.config
-  cp -a ./DATA/dot-cache/* ~/.cache
+  cp -a ./data/dot-config/* ~/.config
+  cp -a ./data/dot-cache/* ~/.cache
   touch ~/.local/share/dotdir.installed
 }
 
 # réglages .hidden
 FILE=~/.local/share/hidden.installed
 [ -f "$FILE" ] || { 
-  cp ./DATA/Reglages/Hidden/.hidden ~/
+  cp ./data/Reglages/Hidden/.hidden ~/
   touch ~/.local/share/hidden.installed
 }
 
 # Police pour le terminal
 FILE=~/.local/share/font.installed
 [ -f "$FILE" ] || { 
-  sudo cp -a ./DATA/font-terminal/* /usr/share/fonts/
+  sudo cp -a ./data/font-terminal/* /usr/share/fonts/
   touch ~/.local/share/font.installed
 }
 
 # theme grub
 FILE=~/.local/share/grub-theme.installed
 [ -f "$FILE" ] || { 
-  sudo cp ./DATA/calmgrub.tar.gz /root/
+  sudo cp ./data/calmgrub.tar.gz /root/
   sudo mkdir -p /boot/grub/themes/
   sudo tar -xzvf /root/calmgrub.tar.gz -C /boot/grub/themes/
   echo 'GRUB_THEME="/boot/grub/themes/calmgrub/theme.txt"' | sudo tee -a /etc/default/grub
@@ -51,37 +51,37 @@ FILE=~/.local/share/grub-theme.installed
 # Copie de Fonds d'écrans'
 FILE=~/.local/share/wallpaper.installed
 [ -f "$FILE" ] || { 
-  sudo cp -r ./DATA/Reglages/Wallpapers /usr/share/backgrounds/
-  sudo cp ./DATA/Reglages/linuxmint/sele_ring.jpg /usr/share/backgrounds/linuxmint
-  sudo cp ./DATA/Reglages/linuxmint/default_background.jpg /usr/share/backgrounds/linuxmint
-  cp -r ./DATA/Reglages/Wallpapers ~/Images/
+  sudo cp -r ./data/Reglages/Wallpapers /usr/share/backgrounds/
+  sudo cp ./data/Reglages/linuxmint/sele_ring.jpg /usr/share/backgrounds/linuxmint
+  sudo cp ./data/Reglages/linuxmint/default_background.jpg /usr/share/backgrounds/linuxmint
+  cp -r ./data/Reglages/Wallpapers ~/Images/
   touch ~/.local/share/wallpaper.installed
 }
 
 # Récupérer le panel et régler les icones / themes menu / workspaces
 FILE=~/.local/share/panel.conf.installed
 [ -f "$FILE" ] || { 
-  dconf load /org/cinnamon/ < ./DATA/Reglages/panel.conf
+  dconf load /org/cinnamon/ < ./data/Reglages/panel.conf
   #pour le sauvegarder
-  #dconf dump /org/cinnamon/ > ./DATA/Reglages/panel.conf
+  #dconf dump /org/cinnamon/ > ./data/Reglages/panel.conf
   touch ~/.local/share/panel.conf.installed
 }
 
 # regler nemo plank, wallpaper
 FILE=~/.local/share/smallconf.installed
 [ -f "$FILE" ] || { 
-  dconf load /org/nemo/ < ./DATA/Reglages/nemo.dconf
-  dconf load /net/launchpad/plank/ < ./DATA/Reglages/plank.dconf
-  dconf load /org/x/editor/ < ./DATA/Reglages/xed.dconf
-  dconf load /org/cinnamon/desktop/background/ < ./DATA/Reglages/wallapaper.dconf
+  dconf load /org/nemo/ < ./data/Reglages/nemo.dconf
+  dconf load /net/launchpad/plank/ < ./data/Reglages/plank.dconf
+  dconf load /org/x/editor/ < ./data/Reglages/xed.dconf
+  dconf load /org/cinnamon/desktop/background/ < ./data/Reglages/wallapaper.dconf
   touch ~/.local/share/smallconf.installed
 }
 
 # pour dump
-# dconf dump /org/nemo/ > ./DATA/Reglages/nemo.dconf
-# dconf dump /net/launchpad/plank/ > ./DATA/Reglages/plank.dconf
-# dconf dump /org/x/editor/ > ./DATA/Reglages/xed.dconf
-# dconf dump /org/cinnamon/desktop/background/ > ./DATA/Reglages/wallapaper.dconf
+# dconf dump /org/nemo/ > ./data/Reglages/nemo.dconf
+# dconf dump /net/launchpad/plank/ > ./data/Reglages/plank.dconf
+# dconf dump /org/x/editor/ > ./data/Reglages/xed.dconf
+# dconf dump /org/cinnamon/desktop/background/ > ./data/Reglages/wallapaper.dconf
 
 # regler kitty
 FILE=~/.local/share/custom-kitty.installed
@@ -186,7 +186,7 @@ FILE=~/.local/share/dir.installed
 # réglages de zsh
 FILE=~/.local/share/dot-zshrc.installed
 [ -f "$FILE" ] || { 
-  cp ./DATA/.zshrc ~/
+  cp ./data/.zshrc ~/
   touch ~/.local/share/dot-zshrc.installed
 }
 
