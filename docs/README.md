@@ -1,7 +1,7 @@
 # Mintage
 
 <figure>
-  <img src="./DATA/preview.jpg" alt="Preview" title="Screenshot de Mintage">
+  <img src="./data/preview.jpg" alt="Preview" title="Screenshot de Mintage">
 </figure>
 
 Ce petit projet est conçu pour automatiser le processus de personnalisation de Linux Mint en installant une suite complète de logiciels open source. De manière simple, les utilisateurs peuvent transformer leur système Linux Mint en un environnement de travail puissant et personnalisé, idéal pour les développeurs, les créateurs de contenu et (bien évidemment) les utilisateurs quotidiens.
