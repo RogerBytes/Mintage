@@ -28,7 +28,7 @@ echo "Dernière version trouvée : $LATEST_TAG → Nouvelle version : $NEXT_VERS
 mkdir -p "$TEMP_DIR"
 
 # 4) Copier les dossiers/fichiers souhaités
-INCLUDE_DIRS=("apps android" "DATA" "scripts")
+INCLUDE_DIRS=("assets" "scripts")
 INCLUDE_FILES=("after-reboot.sh" "install.sh" "prerequis.sh" "README.md" ".hidden")
 
 for d in "${INCLUDE_DIRS[@]}"; do
