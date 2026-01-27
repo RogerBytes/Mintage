@@ -14,32 +14,32 @@
 # 3/ a) Réglages d'applications
 # -----------------------------
 
-# autostart, ferdium, fontbase; freetube, menu panel, nemo, plank, stacer, synapse, transmission, reglages extensions & desklet & applet, applications préférées
+# autostart, ferdium, fontbase; freetube, menu panel, nemo, plank, stacer, synapse, transmission, reglages extensions & desklet & applet, applications préférées (c'est le mimelist)
 FILE=~/.local/share/dotdir.installed
-[ -f "$FILE" ] || { 
-  cp -a ./data/dot-config/* ~/.config
-  cp -a ./data/dot-cache/* ~/.cache
+[ -f "$FILE" ] || {
+  cp -a ./assets/dot-config/* ~/.config
+  cp -a ./assets/dot-cache/* ~/.cache
   touch ~/.local/share/dotdir.installed
 }
 
 # réglages .hidden
 FILE=~/.local/share/hidden.installed
-[ -f "$FILE" ] || { 
-  cp ./data/Reglages/Hidden/.hidden ~/
+[ -f "$FILE" ] || {
+  cp ./assets/Reglages/Hidden/.hidden ~/
   touch ~/.local/share/hidden.installed
 }
 
 # Police pour le terminal
 FILE=~/.local/share/font.installed
-[ -f "$FILE" ] || { 
-  sudo cp -a ./data/font-terminal/* /usr/share/fonts/
+[ -f "$FILE" ] || {
+  sudo cp -a ./assets/font-terminal/* /usr/share/fonts/
   touch ~/.local/share/font.installed
 }
 
 # theme grub
 FILE=~/.local/share/grub-theme.installed
-[ -f "$FILE" ] || { 
-  sudo cp ./data/calmgrub.tar.gz /root/
+[ -f "$FILE" ] || {
+  sudo cp ./assets/calmgrub.tar.gz /root/
   sudo mkdir -p /boot/grub/themes/
   sudo tar -xzvf /root/calmgrub.tar.gz -C /boot/grub/themes/
   echo 'GRUB_THEME="/boot/grub/themes/calmgrub/theme.txt"' | sudo tee -a /etc/default/grub
@@ -50,42 +50,42 @@ FILE=~/.local/share/grub-theme.installed
 
 # Copie de Fonds d'écrans'
 FILE=~/.local/share/wallpaper.installed
-[ -f "$FILE" ] || { 
-  sudo cp -r ./data/Reglages/Wallpapers /usr/share/backgrounds/
-  sudo cp ./data/Reglages/linuxmint/sele_ring.jpg /usr/share/backgrounds/linuxmint
-  sudo cp ./data/Reglages/linuxmint/default_background.jpg /usr/share/backgrounds/linuxmint
-  cp -r ./data/Reglages/Wallpapers ~/Images/
+[ -f "$FILE" ] || {
+  sudo cp -r ./assets/Reglages/Wallpapers /usr/share/backgrounds/
+  sudo cp ./assets/Reglages/linuxmint/sele_ring.jpg /usr/share/backgrounds/linuxmint
+  sudo cp ./assets/Reglages/linuxmint/default_background.jpg /usr/share/backgrounds/linuxmint
+  cp -r ./assets/Reglages/Wallpapers ~/Images/
   touch ~/.local/share/wallpaper.installed
 }
 
 # Récupérer le panel et régler les icones / themes menu / workspaces
 FILE=~/.local/share/panel.conf.installed
-[ -f "$FILE" ] || { 
-  dconf load /org/cinnamon/ < ./data/Reglages/panel.conf
+[ -f "$FILE" ] || {
+  dconf load /org/cinnamon/ < ./assets/Reglages/panel.conf
   #pour le sauvegarder
-  #dconf dump /org/cinnamon/ > ./data/Reglages/panel.conf
+  #dconf dump /org/cinnamon/ > ./assets/Reglages/panel.conf
   touch ~/.local/share/panel.conf.installed
 }
 
 # regler nemo plank, wallpaper
 FILE=~/.local/share/smallconf.installed
-[ -f "$FILE" ] || { 
-  dconf load /org/nemo/ < ./data/Reglages/nemo.dconf
-  dconf load /net/launchpad/plank/ < ./data/Reglages/plank.dconf
-  dconf load /org/x/editor/ < ./data/Reglages/xed.dconf
-  dconf load /org/cinnamon/desktop/background/ < ./data/Reglages/wallapaper.dconf
+[ -f "$FILE" ] || {
+  dconf load /org/nemo/ < ./assets/Reglages/nemo.dconf
+  dconf load /net/launchpad/plank/ < ./assets/Reglages/plank.dconf
+  dconf load /org/x/editor/ < ./assets/Reglages/xed.dconf
+  dconf load /org/cinnamon/desktop/background/ < ./assets/Reglages/wallapaper.dconf
   touch ~/.local/share/smallconf.installed
 }
 
 # pour dump
-# dconf dump /org/nemo/ > ./data/Reglages/nemo.dconf
-# dconf dump /net/launchpad/plank/ > ./data/Reglages/plank.dconf
-# dconf dump /org/x/editor/ > ./data/Reglages/xed.dconf
-# dconf dump /org/cinnamon/desktop/background/ > ./data/Reglages/wallapaper.dconf
+# dconf dump /org/nemo/ > ./assets/Reglages/nemo.dconf
+# dconf dump /net/launchpad/plank/ > ./assets/Reglages/plank.dconf
+# dconf dump /org/x/editor/ > ./assets/Reglages/xed.dconf
+# dconf dump /org/cinnamon/desktop/background/ > ./assets/Reglages/wallapaper.dconf
 
 # regler kitty
 FILE=~/.local/share/custom-kitty.installed
-[ -f "$FILE" ] || { 
+[ -f "$FILE" ] || {
   mkdir -p ~/.config/kitty
   [ -f ~/.config/kitty/kitty.conf ] && rm ~/.config/kitty/kitty.conf
   cat <<EOF > ~/.config/kitty/kitty.conf
@@ -103,7 +103,7 @@ EOF
 
 # Modifier les curseurs bibata (prends le dessus dans certaines application et lors de la connexion) :
 FILE=~/.local/share/cursors.installed
-[ -f "$FILE" ] || { 
+[ -f "$FILE" ] || {
   sudo rm -r /usr/share/icons/Bibata-Modern-Classic/cursors
   sudo cp -r /usr/share/icons/capitaine-cursors/cursors /usr/share/icons/Bibata-Modern-Classic/
   touch ~/.local/share/cursors.installed
@@ -128,7 +128,7 @@ FILE=~/.local/share/cursors.installed
 
 # ajouter au demarrage caffeine-indicator
 FILE=~/.local/share/caffeine.installed
-[ -f "$FILE" ] || { 
+[ -f "$FILE" ] || {
   cat > ~/.config/autostart/caffeine-indicator.desktop << EOF
 [Desktop Entry]
 Type=Application
@@ -148,21 +148,21 @@ EOF
 
 # Désactiver les effets et animations de cinammon
 FILE=~/.local/share/anim.installed
-[ -f "$FILE" ] || { 
+[ -f "$FILE" ] || {
   gsettings set org.cinnamon.desktop.interface enable-animations false
   touch ~/.local/share/anim.installed
 }
 
 # Désactiver rotation de l'écran
 FILE=~/.local/share/rotate.installed
-[ -f "$FILE" ] || { 
+[ -f "$FILE" ] || {
   gsettings set org.cinnamon.settings-daemon.peripherals.touchscreen orientation-lock true
   touch ~/.local/share/rotate.installed
 }
 
 # Les sous dossiers de téléchargements
 FILE=~/.local/share/dl-dir.installed
-[ -f "$FILE" ] || { 
+[ -f "$FILE" ] || {
   mkdir -p ~/Téléchargements/Téléchargements\ navigateur/
   mkdir -p ~/Téléchargements/Téléchargements\ torrent/
   mkdir -p ~/Téléchargements/Téléchargements\ mail/
@@ -173,7 +173,7 @@ FILE=~/.local/share/dl-dir.installed
 
 # On ajoute quelques dossiers
 FILE=~/.local/share/dir.installed
-[ -f "$FILE" ] || { 
+[ -f "$FILE" ] || {
   mkdir -p ~/Local/
   mkdir -p ~/.github/
   mkdir -p ~/Local/Git
@@ -185,14 +185,14 @@ FILE=~/.local/share/dir.installed
 
 # réglages de zsh
 FILE=~/.local/share/dot-zshrc.installed
-[ -f "$FILE" ] || { 
-  cp ./data/.zshrc ~/
+[ -f "$FILE" ] || {
+  cp ./assets/.zshrc ~/
   touch ~/.local/share/dot-zshrc.installed
 }
 
 # Passer le shell en zsh
 FILE=~/.local/share/shell-zsh.installed
-[ -f "$FILE" ] || { 
+[ -f "$FILE" ] || {
   echo "Le shell va être changé en zsh. Appuie sur Entrée pour continuer..."
   read -r
   kitty -e bash -c 'chsh -s $(which zsh); exec bash'

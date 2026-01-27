@@ -288,7 +288,7 @@ dpkg -s "$PKG" &>/dev/null || {
 FILE=~/.local/share/capitain.installed
 [ -f "$FILE" ] || { 
   sudo nala install -y x11-apps
-  tar -zxvf ./data/App-ressource/capitaine-cursors-r4.tar.gz
+  tar -zxvf ./assets/App-ressource/capitaine-cursors-r4.tar.gz
   sudo cp -pr ./capitaine-cursors ~/.icons/capitaine-cursors
   sudo cp -pr ./capitaine-cursors /usr/share/icons/capitaine-cursors
   sudo gtk-update-icon-cache /usr/share/icons/capitaine-cursors/
@@ -302,10 +302,10 @@ FILE=~/.local/share/capitain.installed
 
 FILE=~/.local/share/oracle-web-start.installed
 [ -f "$FILE" ] || { 
-  sudo mkdir -p /usr/lib/jvm && sudo tar zxvf ./data/App-ressource/jre-8u351-linux-x64.tar.gz -C /usr/lib/jvm && sudo update-alternatives --install "/usr/bin/java" "java" "/usr/lib/jvm/jre1.8.0_351/bin/java" 1 && sudo update-alternatives --set java /usr/lib/jvm/jre1.8.0_351/bin/java
+  sudo mkdir -p /usr/lib/jvm && sudo tar zxvf ./assets/App-ressource/jre-8u351-linux-x64.tar.gz -C /usr/lib/jvm && sudo update-alternatives --install "/usr/bin/java" "java" "/usr/lib/jvm/jre1.8.0_351/bin/java" 1 && sudo update-alternatives --set java /usr/lib/jvm/jre1.8.0_351/bin/java
 
   # Ajouter le script de java_old.sh
-  sudo cp ./data/java_old.sh /usr/local/bin/java_old
+  sudo cp ./assets/java_old.sh /usr/local/bin/java_old
   sudo chmod +x /usr/local/bin/java_old
 
   # Crée le lanceur Java Web Start et type mime
@@ -326,7 +326,7 @@ FILE=~/.local/share/oracle-web-start.installed
 }
 
 # JD2 navigateur
-#tar -zxvf ./data/App-ressource/jd2-vivaldi.tar.gz
+#tar -zxvf ./assets/App-ressource/jd2-vivaldi.tar.gz
 #./jd2-vivaldi/install.sh
 #rm -r jd2-vivaldi
 
@@ -356,7 +356,7 @@ fi
 # pCloud (ne pas chercher à recup via curl ou wget sur le site, impossible)
 if [ ! -f ~/AppImagesAInstaller/pcloud.appimage ]; then
   sudo nala install -y libfuse2t64
-  cp ./data/App-ressource/pcloud.appimage ~/AppImagesAInstaller/
+  cp ./assets/App-ressource/pcloud.appimage ~/AppImagesAInstaller/
   chmod +x ~/AppImagesAInstaller/pcloud.appimage
 fi
 
