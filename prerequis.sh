@@ -1,7 +1,5 @@
 #!/bin/bash
 
-#!/bin/bash
-
 # maintient le sudo actif jusqu'çà la fin du script
 sudo -v
 while true; do sudo -v; sleep 300; done &

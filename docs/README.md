@@ -91,7 +91,6 @@ file=$(find . -name 'Mintage*.tar.gz' -print -quit)
 tar -xvf "$file"
 folder_name=$(tar -tf "$file" | head -1 | cut -f1 -d"/")
 rm $file
-
 ```
 
 </div></details>
@@ -118,7 +117,7 @@ cd $HOME/Mintage/ && ./install.sh
 
 Il faut attendre d'avoir fait 'entrée' dans le terminal, un deuxième terminal s'ouvre et demande le mdp. Seulement après avoir mis le mdp on peut accepter de redémarrer cinnamon.
 Puis faire un reboot.
-Après le redémarrage lancez Jdownloader et Thunderbird une première fois, puis fermez les tous.
+Après le redémarrage lancez JDownloader et Thunderbird une première fois, puis fermez les tous.
 
 Ensuite, lancez :
 

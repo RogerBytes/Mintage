@@ -1,9 +1,9 @@
-#!/bin/bash
+#!/bin/sh
 
 if [ -n "$1" ] && [ "$1" != "''" ] && [ "$1" != '""' ]; then
   message="$1"
 else
-  message="no comment"
+  message="Update"
 fi
 
 git add --all
