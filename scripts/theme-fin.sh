@@ -194,6 +194,7 @@ FILE=~/.config/starship.toml
 }
 
 # apk app
+source ~/.config/user-dirs.dirs
 DIR="${XDG_DESKTOP_DIR/#\$HOME/$HOME}/App Android"
 [ -d "$DIR" ] || {
   source ~/.config/user-dirs.dirs
