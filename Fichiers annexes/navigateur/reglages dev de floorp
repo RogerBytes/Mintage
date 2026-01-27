@@ -1,9 +1,5 @@
 about:config
 
-[OPIONS INTRGR2 DEPUIS DER MAJ A VERIF] Fermer le dernier onglet ne ferme plus Firefox
-browser.tabs.closeWindowWithLastTab
-Mettre sur false
-
 Une recherche depuis la barre d’adresse s’ouvre dans un nouvel onglet
 browser.search.openintab
 Mettre sur true
