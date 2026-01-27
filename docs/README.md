@@ -193,6 +193,17 @@ Votre installation est terminée, amusez-vous bien sur Linux Mint !
 
 <details><summary class="button">🔍 Spoiler</summary><div class="spoiler">
 
+### Durée installation
+
+Sur `HP Pavillon 15 bn` : i7-4510U [4 coeurs @ 3.100GHz] | 16 Go de RAM | Stockage SSD | Fibre via Wifi
+
+- 09:30 Installation Linux Mint
+- 06:00 Installation pilote de carte graphique
+- 03:12 Installation des mises à jour initiale
+- 34:00 Installation de Mintage
+
+Durée totale : `52 minutes`
+
 ### Problèmes
 
 - Aucun
