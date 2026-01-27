@@ -209,25 +209,14 @@ Durée totale : `52 minutes`
 
 ### Observations
 
-### export des app par défaut
+RAS
 
-Exporter
+### Export des mimetype / App par défaut
 
-```bash
-dconf dump /org/cinnamon/ > cinnamon-settings.dconf
-```
-
-Importer
-
-```bash
-dconf load /org/cinnamon/ < cinnamon-settings.dconf
-```
-
-### Export des mimetype
+ce fichier
 
 ```bash
 ~/.config/mimeapps.list
-~/.local/share/applications/mimeapps.list
 ```
 
 #### Les appli flatpak sans support de thème
