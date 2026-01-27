@@ -209,6 +209,27 @@ Durée totale : `52 minutes`
 
 ### Observations
 
+### export des app par défaut
+
+Exporter
+
+```bash
+dconf dump /org/cinnamon/ > cinnamon-settings.dconf
+```
+
+Importer
+
+```bash
+dconf load /org/cinnamon/ < cinnamon-settings.dconf
+```
+
+### Export des mimetype
+
+```bash
+~/.config/mimeapps.list
+~/.local/share/applications/mimeapps.list
+```
+
 #### Les appli flatpak sans support de thème
 
 Les applications utilisant GTK4 restent en blanc par défaut (à part si une option "dark theme" est dispo dans l'application nativement)
