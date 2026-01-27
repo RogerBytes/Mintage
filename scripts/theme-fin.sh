@@ -9,24 +9,24 @@
 # Ajouter le script de dl vsix
 
 FILE=/usr/local/bin/vsix-dl
-[ -f "$FILE" ] || { 
-  sudo cp ./data/vsix-dl.sh /usr/local/bin/vsix-dl
+[ -f "$FILE" ] || {
+  sudo cp ./assets/vsix-dl.sh /usr/local/bin/vsix-dl
   sudo chmod +x /usr/local/bin/vsix-dl
 }
 
 # réglages de vivaldi
 # [ -d ~/.config/vivaldi ] && rm -rf ~/.config/vivaldi
 # Compresser vivaldi -> tar -I 'zstd -19' -cf - vivaldi/ | split -b 95M - vivaldi.tzst.
-# cat ./data/vivaldi.tzst.* > vivaldi.tzst && tar -I zstd -xf vivaldi.tzst -C "$HOME/.config/"
+# cat ./assets/vivaldi.tzst.* > vivaldi.tzst && tar -I zstd -xf vivaldi.tzst -C "$HOME/.config/"
 # rm vivaldi.tzst
 
 # réglages de floorp
 # ! ATTENTION JE DOIS CORRIGER LES CHEMINS EN DUR LORS DE MA MAJ (depuis zéro pour alléger le bouzin)
 FILE=~/.local/share/floorp-theme.installed
-[ -f "$FILE" ] || { 
+[ -f "$FILE" ] || {
   [ -d ~/.floorp ] && rm -rf ~/.floorp
   # Compresser floorp a faire à racine ~/ -> tar -I 'zstd -19' -cf - .floorp/ | split -b 95M - floorp.tzst.
-  cat ./data/floorp.tzst.* > floorp.tzst && tar -I zstd -xf floorp.tzst -C "$HOME/"
+  cat ./assets/floorp.tzst.* > floorp.tzst && tar -I zstd -xf floorp.tzst -C "$HOME/"
   rm floorp.tzst
 
   # corriger les chemins (nouveau test pour résoudre le souci)
@@ -41,20 +41,20 @@ FILE=~/.local/share/floorp-theme.installed
   # decompresser le cache de floorp (nouveau test pour résoudre le souci)
   # compresser le cache de floorp a faire dans ~/.cache -> tar -I 'zstd -19' -cf - floorp/ | split -b 95M - floorp-cache.tzst.
   [ -d ~/.cache/floorp ] && rm -rf ~/.cache/floorp
-  cat ./data/floorp-cache.tzst.* > floorp-cache.tzst && tar -I zstd -xf floorp-cache.tzst -C "$HOME/.cache/"
+  cat ./assets/floorp-cache.tzst.* > floorp-cache.tzst && tar -I zstd -xf floorp-cache.tzst -C "$HOME/.cache/"
   touch ~/.local/share/floorp-theme.installed
 }
 
 # réglages de thunderbird
 FILE=~/.local/share/thunderbird-theme.installed
-[ -f "$FILE" ] || { 
+[ -f "$FILE" ] || {
   rm -r ~/.thunderbird/
-  tar -xzvf ./data/thunderbird.tar.gz -C $HOME/
+  tar -xzvf ./assets/thunderbird.tar.gz -C $HOME/
   touch ~/.local/share/thunderbird-theme.installed
 }
 
 # réglages de kodi (supprimé car pas à jour + pas assez de place)
-# 7z x ./data/kodi.7z.001 -o$HOME/
+# 7z x ./assets/kodi.7z.001 -o$HOME/
 
 # Themes Flatpak
 FILE=~/.local/share/flatpak-theme.installed
@@ -69,7 +69,7 @@ FILE=~/.local/share/flatpak-theme.installed
 # Support nodejs pour extension freetube et videodl dans floorp
 FILE="$HOME/.local/share/extension-floorp-nodejs.installed"
 [ -f "$FILE" ] || {
-  tar -xzf ./data/client-node-js.tar.gz -C "$HOME" && \
+  tar -xzf ./assets/client-node-js.tar.gz -C "$HOME" && \
   "$HOME/client-node-js/install.sh" && \
   rm -rf "$HOME/client-node-js" && \
   touch "$FILE"
@@ -77,15 +77,15 @@ FILE="$HOME/.local/share/extension-floorp-nodejs.installed"
 
 # Télécharger des icones (en partie pour l'extension "external-application" de floorp & vivaldi)
 FILE=$HOME/Local/Lanceurs/Icones/VideoDownloader.svg
-[ -f "$FILE" ] || { 
+[ -f "$FILE" ] || {
   mkdir -p "$HOME/Local/Lanceurs/Icones"
-  wget https://raw.githubusercontent.com/Unrud/video-downloader/master/data/com.github.unrud.VideoDownloader.svg -O "$HOME/Local/Lanceurs/Icones/VideoDownloader.svg"
+  wget https://raw.githubusercontent.com/Unrud/video-downloader/master/assets/com.github.unrud.VideoDownloader.svg -O "$HOME/Local/Lanceurs/Icones/VideoDownloader.svg"
   wget https://raw.githubusercontent.com/FreeTubeApp/FreeTube/refs/heads/development/_icons/icon.svg -O "$HOME/Local/Lanceurs/Icones/FreeTube.svg"
 }
 
 # script pour ouvrir avec FreeTube (permet le cli)
 FILE=/usr/local/bin/open-with-freetube
-[ -f "$FILE" ] || { 
+[ -f "$FILE" ] || {
   sudo tee /usr/local/bin/open-with-freetube > /dev/null << 'EOF'
 #!/bin/bash
 URL="$1"
@@ -96,7 +96,7 @@ EOF
 
 # script pour ouvrir avec le téléchargeur de vidéo (permet le cli)
 FILE=/usr/local/bin/open-with-video-downloader
-[ -f "$FILE" ] || { 
+[ -f "$FILE" ] || {
   sudo tee /usr/local/bin/open-with-video-downloader > /dev/null << 'EOF'
 #!/bin/bash
 URL="$1"
@@ -107,7 +107,7 @@ EOF
 
 # extension de libre office
 FILE=~/.local/share/libreoffice-extension.installed
-[ -f "$FILE" ] || { 
+[ -f "$FILE" ] || {
   latest=$(curl -s https://writingtool.org/writingtool/releases/ \
       | grep -oP 'WritingTool-[0-9\.]+\.oxt' \
       | sort -V \
@@ -120,7 +120,7 @@ FILE=~/.local/share/libreoffice-extension.installed
 FILE="$HOME/.local/share/flatpak-config.installed"
 [ -f "$FILE" ] || {
   rm -rf "$HOME/.var/app/org.jdownloader.JDownloader"
-  cp -a ./data/dot-var/app* "$HOME/.var/"
+  cp -a ./assets/dot-var/app* "$HOME/.var/"
   for f in "$HOME/.var/app/"*.tar.gz; do
     [ -f "$f" ] && tar -xzf "$f" -C "$HOME/.var/app/"
   done
@@ -130,15 +130,15 @@ FILE="$HOME/.local/share/flatpak-config.installed"
 
 # JDownloader
 FILE=~/.local/share/jd2-config.installed
-[ -f "$FILE" ] || { 
-  sed -i "s|\"defaultdownloadfolder\": *\"[^\"]*\"|\"defaultdownloadfolder\": \"${HOME}/Téléchargements/Téléchargements jd2\"|" ~/.var/app/org.jdownloader.JDownloader/data/jdownloader/cfg/org.jdownloader.settings.GeneralSettings.json
-  sed -i "s|\"devicename\": *\"[^\"]*\"|\"devicename\": \"JDownloader@$(whoami)\"|" ~/.var/app/org.jdownloader.JDownloader/data/jdownloader/cfg/org.jdownloader.api.myjdownloader.MyJDownloaderSettings.json
+[ -f "$FILE" ] || {
+  sed -i "s|\"defaultdownloadfolder\": *\"[^\"]*\"|\"defaultdownloadfolder\": \"${HOME}/Téléchargements/Téléchargements jd2\"|" ~/.var/app/org.jdownloader.JDownloader/assets/jdownloader/cfg/org.jdownloader.settings.GeneralSettings.json
+  sed -i "s|\"devicename\": *\"[^\"]*\"|\"devicename\": \"JDownloader@$(whoami)\"|" ~/.var/app/org.jdownloader.JDownloader/assets/jdownloader/cfg/org.jdownloader.api.myjdownloader.MyJDownloaderSettings.json
   touch ~/.local/share/jd2-config.installed
 }
 
 # Réglages tmux
 FILE=~/.tmux.conf
-[ -f "$FILE" ] || { 
+[ -f "$FILE" ] || {
   mkdir -p ~/.config/tmux/plugins/tmux-plugins && \
   git clone https://github.com/tmux-plugins/tmux-cpu.git ~/.config/tmux/plugins/tmux-plugins/tmux-cpu && \
   git clone https://github.com/tmux-plugins/tmux-battery.git ~/.config/tmux/plugins/tmux-plugins/tmux-battery && \
@@ -152,7 +152,7 @@ set -g mouse on
 set -g default-terminal "tmux-256color"
 
 # Configure the catppuccin plugin # latte, frappe, macchiato or mocha
-set -g @catppuccin_flavor "macchiato" 
+set -g @catppuccin_flavor "macchiato"
 set -g @catppuccin_window_status_style "rounded"
 
 # Load catppuccin
@@ -183,7 +183,7 @@ EOF
 
 # Réglages starship
 FILE=~/.config/starship.toml
-[ -f "$FILE" ] || { 
+[ -f "$FILE" ] || {
   starship preset catppuccin-powerline -o ~/.config/starship.toml
   sed -i 's/^\(\s*palette\s*=\s*\).*$/\1"catppuccin_latte"/' ~/.config/starship.toml
   sed -i '/^\[line_break\]/,/^\[/{s/^\(\s*disabled\s*=\s*\).*$/\1"false"/}' ~/.config/starship.toml
