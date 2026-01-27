@@ -161,10 +161,11 @@ Vous pouvez supprimer le dossier après.
 
 Dans LibreOffice
 
-- Options `Alt+F12` et `LibreOffice/Avancé̀` choisir `Ubuntu  21.0.9` (premier de liste) puis "OK" et "redémmarer maintenant"
-- Extensions `CTRL+Alt+E`, puis "Ajouter" et choisir "WritingTool-**\***.oxt" puis "Fermer" et "redémmarer maintenant"
-- Options `Alt+F12` et `Langues et locales/Linguistique` décochez "Vérificateur orthographique Hunspell" (en haut) puis "Appliquer"
-- Options `Alt+F12` et `LibreOffice/Affichage` dans `Mode` choisir `Sombre` et `Thème d'icônes` choisir `Colibre (dark)` puis "OK"
+- Options `Alt+F12`
+  - `LibreOffice/Affichage` dans `Mode` choisir `Sombre` et `Thème d'icônes` choisir `Colibre (dark)`
+  - `LibreOffice/Avancé̀` choisir `Ubuntu  21.0.9` (premier de liste)
+  - `Langues et locales/Linguistique` décochez "Vérificateur orthographique Hunspell" (en haut) puis "OK" et "redémarrer maintenant"
+- Extensions `CTRL+Alt+E`, puis "Ajouter" et choisir "WritingTool-**\***.oxt" puis "Fermer" et "redémarrer maintenant"
 
 #### Derniers réglages
 
