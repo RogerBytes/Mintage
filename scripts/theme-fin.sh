@@ -48,6 +48,7 @@ FILE=~/.local/share/floorp-theme.installed
 # réglages de thunderbird
 FILE=~/.local/share/thunderbird-theme.installed
 [ -f "$FILE" ] || {
+  thunderbird & sleep 6 && pkill thunderbird
   rm -r ~/.thunderbird/
   tar -xzvf ./assets/thunderbird.tar.gz -C $HOME/
   touch ~/.local/share/thunderbird-theme.installed
@@ -225,3 +226,19 @@ Il permet de se servir de son smartphone comme d'une souris, d'envoyer des fichi
 Outil dédié au partage de fichiers.
 EOF
 }
+
+#! Tout ce qui suit provient de la fin de theme.sh, test pour voir si ça permet d'éviter un reboot
+# Passer le shell en zsh 
+FILE=~/.local/share/shell-zsh.installed
+[ -f "$FILE" ] || {
+  echo "Le shell va être changé en zsh. Appuie sur Entrée pour continuer..."
+  read -r
+  kitty -e bash -c 'chsh -s $(which zsh); exec bash'
+  touch ~/.local/share/shell-zsh.installed
+}
+
+# comment voir quel shell j'utilise
+#printf "My current shell - %s\n" "$SHELL"
+
+# la commande normale pour changer le shell c'est :
+#chsh -s $(which zsh)

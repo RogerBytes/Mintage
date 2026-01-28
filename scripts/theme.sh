@@ -190,17 +190,3 @@ FILE=~/.local/share/dot-zshrc.installed
   touch ~/.local/share/dot-zshrc.installed
 }
 
-# Passer le shell en zsh
-FILE=~/.local/share/shell-zsh.installed
-[ -f "$FILE" ] || {
-  echo "Le shell va être changé en zsh. Appuie sur Entrée pour continuer..."
-  read -r
-  kitty -e bash -c 'chsh -s $(which zsh); exec bash'
-  touch ~/.local/share/shell-zsh.installed
-}
-
-# comment voir quel shell j'utilise
-#printf "My current shell - %s\n" "$SHELL"
-
-# la commande normale pour changer le shell c'est :
-#chsh -s $(which zsh)

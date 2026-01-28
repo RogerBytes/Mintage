@@ -1,0 +1,30 @@
+pixi (package manager d'outil dev)
+curl -fsSL https://pixi.sh/install.sh | sh
+
+https://github.com/cowtoolz/webcamize
+
+config de kitty https://www.youtube.com/watch?v=MZNvjclifD8 et https://www.youtube.com/watch?v=BeSUAEZIf9A
+
+p-e tmux à approfondire, mais osef pour l'instant
+
+
+dysk (taille sur le sdisque
+pixi global install dysk
+
+yazi (fichier dans un shell)
+sudo nala install -y ffmpeg 7zip jq poppler-utils fd-find ripgrep fzf zoxide imagemagick
+https://github.com/sxyazi/yazi/releases/latest
+prends le paquet yazi-x86_64-unknown-linux-gnu.deb
+
+durdraw (piexel art animé et durfetch à voir comment le faire qui arche comme nofetch)
+sudo nala install -y durdraw
+
+https://github.com/piotrmurach/pastel
+
+https://github.com/da-luce/astroterm
+https://github.com/da-luce/astroterm/releases/tag/v1.0.10
+ astroterm-linux-x86_64 
+
+
+
+https://github.com/danlynn/bat
