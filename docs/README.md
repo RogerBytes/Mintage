@@ -27,8 +27,6 @@ Une liste non exhaustive des logiciels inclus dans ce script :
 - **Internet**: Floorp, Ungoogled Chromium
 - ...et beaucoup d'autres !
 
-TODO ! Vous pouvez aussi consulter [la liste complète](./DATA/complete-list.md).
-
 ### Contributions
 
 Les contributions sont les bienvenues ! Si vous avez des suggestions ou des améliorations, n'hésitez pas à soumettre une pull request ou à ouvrir une issue.
@@ -46,52 +44,11 @@ Distribué sous la licence GPLv3. Voir `LICENSE` pour plus d'informations.
 <details><summary class="button">🔍 Spoiler</summary><div class="spoiler">
 
 Une clean install de [la dernière version de Linux Mint](https://www.linuxmint.com) est nécessaire.
-Pour info pour coller dans le terminal il faut utiliser `CTRL + SHIFT + V` et pour copier `CTRL + SHIFT + C`.
-`CTRL + C` sert à quitter dans le terminal.
-
-Choisir les miroirs de téléchargement pour les mises à jour (prenez les plus rapides)
-Pour ouvrir le terminal : `CTRL + ALT + T`
-
-```bash
-/usr/bin/software-properties-gtk
-```
-
-Ensuite choisissez les drivers
-
-```bash
-driver-manager
-```
-
-Installez les drivers propriétaires et "Appliquer les changements", puis fermez.
-
-Faire les mise à jour
-
-```bash
-mintupdate
-```
-
-Et installer nala, une surcouche du gestionnaire apt
-
-```bash
-sudo apt install -y nala expect curl wget git
-```
-
-Il y a une source défaillante chez moi "linuxmirrors.ir", c'est pour ça que c'est "2 3 4" et non "1 2 3"
-Si vous avez besoin de gérer les sources (inutile ici) ouvrez "Gestionnaire de mises à jour" et allez dans "Edition/Sources de logiciels", allez ensuite dans "Dépôts supplémentaires" et décochez la ou les sources en question.
+Pour info pour coller da raphique (si vous avez une CG dédiée), puis faites les mises à jout.
 
 ### Téléchargement
 
-Depuis le terminal, on télécharge [la dernière release](https://github.com/RogerBytes/Mintage/releases/latest) et on la décompresse :
-
-```bash
-latest_url=$(curl -sL -w '%{url_effective}\n' https://github.com/RogerBytes/Mintage/releases/latest -o /dev/null)
-download_url="${latest_url/tag\/v/download/v}/Mintage-${latest_url##*/}.tar.gz"
-wget $download_url
-file=$(find . -name 'Mintage*.tar.gz' -print -quit)
-tar -xvf "$file"
-folder_name=$(tar -tf "$file" | head -1 | cut -f1 -d"/")
-rm $file
-```
+Téléchargez [la dernière release](https://github.com/RogerBytes/Mintage/releases/latest) et on la décompresse dans le dossier utilisateur `~/`
 
 </div></details>
 
@@ -109,16 +66,31 @@ Dans le terminal
 cd $HOME/Mintage/ && ./install.sh
 ```
 
+Vous aurez plusieurs intéractions à faire (pour un pilote jack, le support régional des DVD et pour steam). Une fois que vous aurez confirmé l'installation de steam, tout le reste sera automatisé, si une machine moyenne, l'installation complète prendre une demi-heure.
+
 Il faut attendre d'avoir le prompt qui demande de redémarrer cinnamon (acceptez les choix de reboot par défaut) faites 'entrée' dans le terminal, un deuxième terminal s'ouvre et demande le mdp.
+
 Puis faire un reboot.
 
 ### Installations manuelles
 
 #### Gestionnaire de mises à jour
 
-Dans "Gestionnaire de mises à jour" allez dans "Édition/Préférences".  
-Aller dans l'onglet "Options" et cocher tout.  
-Aller dans l'onglet "Automatisation" et cocher tout sauf le dernier "Supprimer les noyaux et les dépendances obsolètes".
+- Dans "Gestionnaire de mises à jour" allez dans "Édition/Préférences".
+- Dans l'onglet "Options" et cocher tout.
+- Aller dans l'onglet "Automatisation" et cocher tout sauf le dernier "Supprimer les noyaux et les dépendances obsolètes".
+
+#### Appimages
+
+Ouvrir `Gear Lever`
+
+Depuis le dossier `~/AppImagesAInstaller` glisser toutes les applications s'y trouvant dans la fenêtre de GearLever et cliquer sur **Move all to the app menu**, cochez "I have verified the source of the apps" puis "Proceed".
+Vous pouvez supprimer le dossier après.
+
+#### Agencement Bureau
+
+Sinon sur votre bureau 'clic droit' > personnaliser :
+décochez "Arrangement automatique".
 
 #### Dual Boot avec Windows
 
@@ -137,33 +109,6 @@ Décochez "Réglages par défaut de la session" et décochez tout puis faîtes "
 Attention, si vous avez un dual boot avec windows, il faut ABSOLUMENT que vous désactiviez le fastboot sur votre session windows, sinon les autres disques ne seront jamais démontés correctement de la session windows (bravo microsoft pour cet éclair de génie).
 [Désactiver le démarrage rapide de windows](https://www.malekal.com/desactiver-demarrage-rapide-windows-10-11/)
 
-#### Appimages
-
-Ouvrir `Gear Lever`
-
-Depuis le dossier `~/AppImagesAInstaller` glisser toutes les applications s'y trouvant dans la fenêtre de GearLever et cliquer sur **Move all to the app menu**, cochez "I have verified the source of the apps" puis "Proceed".
-Vous pouvez supprimer le dossier après.
-
-#### LanguageTools pour LibreOffice
-
-Dans LibreOffice
-
-- Options `Alt+F12`
-  - `LibreOffice/Affichage` dans `Mode` choisir `Sombre` et `Thème d'icônes` choisir `Colibre (dark)`
-  - `LibreOffice/Avancé̀` choisir `Ubuntu  21.0.9` (premier de liste)
-  - `Langues et locales/Linguistique` décochez "Vérificateur orthographique Hunspell" (en haut) puis "OK" et "redémarrer maintenant"
-- Extensions `CTRL+Alt+E`, puis "Ajouter" et choisir "WritingTool-**\***.oxt" puis "Fermer" et "redémarrer maintenant"
-
-#### Derniers réglages
-
-Sinon sur votre bureau 'clic droit' > personnaliser :
-décochez "Arrangement automatique".
-
-Il faut ouvrir une fois les deux profils de floorp et patienter quelque secondes pour que l'initialisation des extensions se termine.
-
-Si vous utilisez un portable, ouvrez Lutris, allez dans "Préfèrences/Options globales (avec 'Avancé' activé en haut à droite)" et dans "Multi GPU"
-Dans "Vulkan ICE loader", choisisé votre carte dédiée, pensez aussi à utiliser le mode performance de votre carte.
-
 ### Installation terminée
 
 Dans votre dossier utilisateur se trouve le dossier Mintage : vous pouvez maintenant le supprimer.
@@ -171,6 +116,17 @@ Dans votre dossier utilisateur se trouve le dossier Mintage : vous pouvez mainte
 Depuis la logithèque vous pouvez ajoutez les flatpak non certifiés dans les paramètres. Il s'agit de paquets maintenu par un tiers et non par leur développeur, peut provoquer des failles de sécurité.
 
 Votre installation est terminée, amusez-vous bien sur Linux Mint !
+
+### Réglages facultatifs
+
+#### LanguageTools pour LibreOffice
+
+Dans LibreOffice
+
+- Options `Alt+F12`
+  - `LibreOffice/Affichage` dans `Mode` choisir `Sombre` et `Thème d'icônes` choisir `Colibre (dark)`
+  - `Langues et locales/Linguistique` décochez "Vérificateur orthographique Hunspell" (en haut)
+  - `Langues et locales/Serveur LanguageTool`, cochez "Activer LanguageTool" puis "OK" et "redémarrer maintenant"
 
 </div></details>
 
@@ -193,7 +149,7 @@ Durée totale : `52 minutes`
 
 ### Problèmes
 
-- Aucun
+- Lutris bugguent sur certains matériel, j'ai changé la version standard pour une flatpak, ce qui corrige les différents problèmes.
 
 ### Observations
 

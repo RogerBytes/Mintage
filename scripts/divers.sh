@@ -7,6 +7,14 @@
 # 1/ Installation avec prompts oui/non
 # ------------
 
+# Req (à installer en premier)
+FILE=~/.local/share/req.installed
+[ -f "$FILE" ] || { 
+  sudo apt install -y nala expect curl wget git
+  touch ~/.local/share/req.installed
+}
+
+# JackD2
 PKG=jackd2
 dpkg -s "$PKG" &>/dev/null || sudo nala install -y "$PKG"
 
@@ -16,6 +24,10 @@ dpkg -s "$PKG" &>/dev/null || sudo nala install -y regionset libavcodec-extra li
 
 # Jackd2 (pour ardour et audacity)
 PKG=jackd2
+dpkg -s "$PKG" &>/dev/null || sudo nala install -y "$PKG"
+
+# Steam
+PKG=steam
 dpkg -s "$PKG" &>/dev/null || sudo nala install -y "$PKG"
 
 # Installer police FiraCode Nerd et firacode
@@ -31,11 +43,6 @@ FILE=~/.local/share/firafonts.installed
   rm -rf "$tmpdir"
   touch ~/.local/share/firafonts.installed
 }
-
-
-# Steam
-PKG=steam
-dpkg -s "$PKG" &>/dev/null || sudo nala install -y "$PKG"
 
 # 2/ Shell
 # ------------

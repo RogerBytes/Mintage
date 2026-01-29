@@ -106,16 +106,16 @@ EOF
   sudo chmod +x /usr/local/bin/open-with-video-downloader
 }
 
-# extension de libre office
-FILE=~/.local/share/libreoffice-extension.installed
-[ -f "$FILE" ] || {
-  latest=$(curl -s https://writingtool.org/writingtool/releases/ \
-      | grep -oP 'WritingTool-[0-9\.]+\.oxt' \
-      | sort -V \
-      | tail -n1)
-  curl -L -o "$HOME/$latest" "https://writingtool.org/writingtool/releases/$latest"
-  touch ~/.local/share/libreoffice-extension.installed
-}
+# extension de libre office -> intégré à Libre Office, je laisse en comm pour l'instant
+#FILE=~/.local/share/libreoffice-extension.installed
+#[ -f "$FILE" ] || {
+#  latest=$(curl -s https://writingtool.org/writingtool/releases/ \
+#      | grep -oP 'WritingTool-[0-9\.]+\.oxt' \
+#      | sort -V \
+#      | tail -n1)
+#  curl -L -o "$HOME/$latest" "https://writingtool.org/writingtool/releases/$latest"
+#  touch ~/.local/share/libreoffice-extension.installed
+#}
 
 # On applique les réglages d'app flatpak, dont JD2 par exemple (noter les autres)
 FILE="$HOME/.local/share/flatpak-config.installed"

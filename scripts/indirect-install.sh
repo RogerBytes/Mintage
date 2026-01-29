@@ -183,7 +183,7 @@ dpkg -s ferdium &>/dev/null || {
   sudo nala install -y ${file} && rm ${file}
 }
 
-# Lutris -> passé en flatpak, cette verson est bugguée sur certains ordinateurs
+# Lutris -> passé en flatpak, cette verson est bugguée sur certains ordinateurs, je laisse en comm pour l'instant.
 # Pour la version normale, buggée actuellement
 #
 #dpkg -s lutris &>/dev/null || {
@@ -197,7 +197,7 @@ dpkg -s ferdium &>/dev/null || {
 #  sudo nala install -y ${file} && rm ${file}
 #  # ~/.local/share/icons/hicolor/128x128/apps -> chemin des icone des app lutris (vrai app pas launcher)
 #}
-#
+
 # vivaldi (retiré pour le moment)
 #wget -O vivaldi-latest.deb "$(curl -s https://vivaldi.com/download/ | grep -o 'https://downloads\.vivaldi\.com/stable/vivaldi-stable_[^"]*amd64\.deb' | head -n1)"
 #sudo nala install -y vivaldi-latest.deb
@@ -286,7 +286,6 @@ dpkg -s "$PKG" &>/dev/null || {
   sudo add-apt-repository -y ppa:oibaf/graphics-drivers && sudo nala update && sudo nala install -y mangohud
 }
 
-
 # 2/ e) Installation paquets linux tar.gz
 # ---------------------------------------
 
@@ -357,7 +356,6 @@ if [ ! -f ~/AppImagesAInstaller/"$downloaded_file" ]; then
     wget -P ~/AppImagesAInstaller "$download_url"
     chmod +x ~/AppImagesAInstaller/"$downloaded_file"
 fi
-
 
 # pCloud (ne pas chercher à recup via curl ou wget sur le site, impossible)
 if [ ! -f ~/AppImagesAInstaller/pcloud.appimage ]; then
