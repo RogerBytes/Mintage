@@ -103,14 +103,27 @@ rm $file
 
 ### Installation scriptée
 
-Dans le terminal
+Dans le terminal, dans le dossier extrait depuis l'archive (l'on y est déjà après avoir fait les prérequis)
+
+```bash
+cd $HOME/Mintage/ && ./prerequis.sh
+```
+
+Puis dans un nouveau terminal :
 
 ```bash
 cd $HOME/Mintage/ && ./install.sh
 ```
 
-Il faut attendre d'avoir le prompt qui demande de redémarrer cinnamon (acceptez les choix de reboot par défaut) faites 'entrée' dans le terminal, un deuxième terminal s'ouvre et demande le mdp.
+Il faut attendre d'avoir fait 'entrée' dans le terminal, un deuxième terminal s'ouvre et demande le mdp. Seulement après avoir mis le mdp on peut accepter de redémarrer cinnamon.
 Puis faire un reboot.
+Après le redémarrage lancez Thunderbird une première fois, puis fermez le.
+
+Ensuite, lancez :
+
+```bash
+cd $HOME/Mintage/ && ./after-reboot.sh
+```
 
 ### Installations manuelles
 

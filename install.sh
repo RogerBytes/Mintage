@@ -6,7 +6,7 @@ while true; do sudo -v; sleep 300; done &
 SUDO_KEEPALIVE_PID=$!
 trap "kill $SUDO_KEEPALIVE_PID" EXIT
 
-## viens de prerequis
+## viens de prérequis
 ./scripts/divers.sh
 ##
 ./scripts/apt.sh
