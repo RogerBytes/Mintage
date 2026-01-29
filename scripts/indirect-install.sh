@@ -94,6 +94,10 @@ flatpak list | grep -q "$PKG" || flatpak install -y flathub "$PKG"
 PKG=io.github.ilya_zlobintsev.LACT
 flatpak list | grep -q "$PKG" || flatpak install -y flathub "$PKG"
 
+# Lutris
+PKG=net.lutris.Lutris
+flatpak list | grep -q "$PKG" || flatpak install -y flathub "$PKG"
+
 # MMEX (Money Manager Extra)
 PKG=org.moneymanagerex.MMEX
 flatpak list | grep -q "$PKG" || flatpak install -y flathub "$PKG"
@@ -179,19 +183,21 @@ dpkg -s ferdium &>/dev/null || {
   sudo nala install -y ${file} && rm ${file}
 }
 
-# Lutris
-dpkg -s lutris &>/dev/null || {
-  repo="lutris/lutris"
-  version=$(curl -s https://api.github.com/repos/$repo/releases/latest \
-    | grep '"tag_name":' \
-    | sed -E 's/.*"([^"]+)".*/\1/')
-  file=$(curl -s https://api.github.com/repos/$repo/releases/tags/$version \
-    | grep '"name":' | grep ".deb" | sed -E 's/.*"([^"]+)".*/\1/')
-  wget "https://github.com/$repo/releases/download/${version}/${file}"
-  sudo nala install -y ${file} && rm ${file}
-  # ~/.local/share/icons/hicolor/128x128/apps -> chemin des icone des app lutris (vrai app pas launcher)
-}
-
+# Lutris -> passé en flatpak, cette verson est bugguée sur certains ordinateurs
+# Pour la version normale, buggée actuellement
+#
+#dpkg -s lutris &>/dev/null || {
+#  repo="lutris/lutris"
+#  version=$(curl -s https://api.github.com/repos/$repo/releases/latest \
+#    | grep '"tag_name":' \
+#    | sed -E 's/.*"([^"]+)".*/\1/')
+#  file=$(curl -s https://api.github.com/repos/$repo/releases/tags/$version \
+#    | grep '"name":' | grep ".deb" | sed -E 's/.*"([^"]+)".*/\1/')
+#  wget "https://github.com/$repo/releases/download/${version}/${file}"
+#  sudo nala install -y ${file} && rm ${file}
+#  # ~/.local/share/icons/hicolor/128x128/apps -> chemin des icone des app lutris (vrai app pas launcher)
+#}
+#
 # vivaldi (retiré pour le moment)
 #wget -O vivaldi-latest.deb "$(curl -s https://vivaldi.com/download/ | grep -o 'https://downloads\.vivaldi\.com/stable/vivaldi-stable_[^"]*amd64\.deb' | head -n1)"
 #sudo nala install -y vivaldi-latest.deb
