@@ -29,7 +29,7 @@ mkdir -p "$TEMP_DIR"
 
 # 4) Copier les dossiers/fichiers souhaités
 INCLUDE_DIRS=("assets" "scripts")
-INCLUDE_FILES=("after-reboot.sh" "install.sh" "prerequis.sh" "README.md" ".hidden")
+INCLUDE_FILES=("install.sh" "README.md" ".hidden")
 
 for d in "${INCLUDE_DIRS[@]}"; do
   cp -r "$d" "$TEMP_DIR/" 2>/dev/null || echo "Avert : dossier '$d' non trouvé"
