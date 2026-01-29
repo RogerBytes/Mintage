@@ -48,7 +48,7 @@ Pour info pour coller da raphique (si vous avez une CG dédiée), puis faites le
 
 ### Téléchargement
 
-Téléchargez [la dernière release](https://github.com/RogerBytes/Mintage/releases/latest) et on la décompresse dans le dossier utilisateur `~/`
+Téléchargez [la dernière release](https://github.com/RogerBytes/Mintage/releases/latest) et décompressez-la.
 
 </div></details>
 
@@ -60,10 +60,10 @@ Téléchargez [la dernière release](https://github.com/RogerBytes/Mintage/relea
 
 ### Installation scriptée
 
-Dans le terminal
+Dans le terminal dans le repertoire de Mintage, et lancez l'installation avec
 
 ```bash
-cd $HOME/Mintage/ && ./install.sh
+./install.sh
 ```
 
 Vous aurez plusieurs intéractions à faire (pour un pilote jack, le support régional des DVD et pour steam). Une fois que vous aurez confirmé l'installation de steam, tout le reste sera automatisé, si une machine moyenne, l'installation complète prendre une demi-heure.
