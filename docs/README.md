@@ -43,8 +43,9 @@ Distribué sous la licence GPLv3. Voir `LICENSE` pour plus d'informations.
 
 <details><summary class="button">🔍 Spoiler</summary><div class="spoiler">
 
-Une clean install de [la dernière version de Linux Mint](https://www.linuxmint.com) est nécessaire.
-Pour info pour coller da raphique (si vous avez une CG dédiée), puis faites les mises à jout.
+- Une installation de [la dernière version de Linux Mint](https://www.linuxmint.com).
+- Installer les pilotes pour votre carte graphique (si vous avez une CG dédiée)
+- Installer les mises à jour.
 
 ### Téléchargement
 
@@ -84,12 +85,12 @@ Puis faire un reboot.
 
 Ouvrir `Gear Lever`
 
-Depuis le dossier `~/AppImagesAInstaller` glisser toutes les applications s'y trouvant dans la fenêtre de GearLever et cliquer sur **Move all to the app menu**, cochez "I have verified the source of the apps" puis "Proceed".
+Depuis le dossier `~/AppImagesAInstaller` glisser toutes les applications s'y trouvant dans la fenêtre de GearLever et cliquer sur `Move all to the app menu`, cochez `I have verified the source of the apps` puis `Proceed`.
 Vous pouvez supprimer le dossier après.
 
 #### Agencement Bureau
 
-Sinon sur votre bureau 'clic droit' > personnaliser :
+Sinon sur votre bureau `clic droit` > personnaliser :
 décochez "Arrangement automatique".
 
 #### Dual Boot avec Windows
