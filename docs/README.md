@@ -126,8 +126,8 @@ Dans LibreOffice
 
 - Options `Alt+F12`
   - `LibreOffice/Affichage` dans `Mode` choisir `Sombre` et `Thème d'icônes` choisir `Colibre (dark)`
-  - `Langues et locales/Linguistique` décochez "Vérificateur orthographique Hunspell" (en haut)
-  - `Langues et locales/Serveur LanguageTool`, cochez "Activer LanguageTool" puis "OK" et "redémarrer maintenant"
+  - `Langues et locales/Linguistique` décochez `Vérificateur orthographique Hunspell` (en haut)
+  - `Langues et locales/Serveur LanguageTool`, cochez `Activer LanguageTool` puis `OK` et `redémarrer maintenant`
 
 </div></details>
 
