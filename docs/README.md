@@ -69,9 +69,7 @@ Dans le terminal dans le repertoire de Mintage, et lancez l'installation avec
 
 Vous aurez plusieurs intéractions à faire (pour un pilote jack, le support régional des DVD et pour steam). Une fois que vous aurez confirmé l'installation de steam, tout le reste sera automatisé, si une machine moyenne, l'installation complète prendre une demi-heure.
 
-Il faut attendre d'avoir le prompt qui demande de redémarrer cinnamon (acceptez les choix de reboot par défaut) faites 'entrée' dans le terminal, un deuxième terminal s'ouvre et demande le mdp.
-
-Puis faire un reboot.
+L'ordinateur redémmarrera automatiquement quand l'installation sera finie.
 
 ### Installations manuelles
 

@@ -227,15 +227,26 @@ Outil dédié au partage de fichiers.
 EOF
 }
 
-#! Tout ce qui suit provient de la fin de theme.sh, test pour voir si ça permet d'éviter un reboot
-# Passer le shell en zsh 
+
+# Ancienne manière de Passer le shell en zsh 
+#FILE=~/.local/share/shell-zsh.installed
+#[ -f "$FILE" ] || {
+#  echo "Le shell va être changé en zsh. Appuie sur Entrée pour continuer..."
+#  read -r
+#  chsh -s "$(command -v zsh)"
+#  touch ~/.local/share/shell-zsh.installed
+#}
+
+# Mettre ZSH comme shell, et redémmarrer
 FILE=~/.local/share/shell-zsh.installed
 [ -f "$FILE" ] || {
-  echo "Le shell va être changé en zsh. Appuie sur Entrée pour continuer..."
-  read -r
-  kitty -e bash -c 'chsh -s $(which zsh); exec bash'
+  sudo usermod -s "$(command -v zsh)" "$USER"
   touch ~/.local/share/shell-zsh.installed
+  sudo reboot now 
 }
+
+
+
 
 # comment voir quel shell j'utilise
 #printf "My current shell - %s\n" "$SHELL"
