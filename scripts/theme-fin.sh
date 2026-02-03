@@ -21,7 +21,6 @@ FILE=/usr/local/bin/vsix-dl
 # rm vivaldi.tzst
 
 # réglages de floorp
-# ! ATTENTION JE DOIS CORRIGER LES CHEMINS EN DUR LORS DE MA MAJ (depuis zéro pour alléger le bouzin)
 FILE=~/.local/share/floorp-theme.installed
 [ -f "$FILE" ] || {
   [ -d ~/.floorp ] && rm -rf ~/.floorp
@@ -42,6 +41,7 @@ FILE=~/.local/share/floorp-theme.installed
   # compresser le cache de floorp a faire dans ~/.cache -> tar -I 'zstd -19' -cf - floorp/ | split -b 95M - floorp-cache.tzst.
   [ -d ~/.cache/floorp ] && rm -rf ~/.cache/floorp
   cat ./assets/floorp-cache.tzst.* > floorp-cache.tzst && tar -I zstd -xf floorp-cache.tzst -C "$HOME/.cache/"
+  # Ce qui suit permet de créer une politique d'entreprise, afin que addon manager ait les permissions pour fonctionner
   sudo mkdir -p /etc/floorp/policies
   FLOORP_PROFILE=$(ls -d ~/.floorp/qmjfloeo.Personnel | head -n1)
   cat << EOF | sudo tee /etc/floorp/policies/policies.json > /dev/null
