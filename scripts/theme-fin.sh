@@ -202,9 +202,10 @@ EOF
 # Réglages starship
 FILE=~/.config/starship.toml
 [ -f "$FILE" ] || {
-  starship preset catppuccin-powerline -o ~/.config/starship.toml
-  sed -i 's/^\(\s*palette\s*=\s*\).*$/\1"catppuccin_latte"/' ~/.config/starship.toml
-  sed -i '/^\[line_break\]/,/^\[/{s/^\(\s*disabled\s*=\s*\).*$/\1"false"/}' ~/.config/starship.toml
+  starship preset gruvbox-rainbow -o ~/.config/starship.toml
+  # starship preset catppuccin-powerline -o ~/.config/starship.toml
+  # sed -i 's/^\(\s*palette\s*=\s*\).*$/\1"catppuccin_latte"/' ~/.config/starship.toml
+  # sed -i '/^\[line_break\]/,/^\[/{s/^\(\s*disabled\s*=\s*\).*$/\1"false"/}' ~/.config/starship.toml
   # sed -i 's/^\(\s*palette\s*=\s*\).*$/\1"catppuccin_mocha"/' ~/.config/starship.toml
   # sed -i 's/^\(\s*palette\s*=\s*\).*$/\1"catppuccin_frappe"/' ~/.config/starship.toml
   # sed -i 's/^\(\s*palette\s*=\s*\).*$/\1"catppuccin_macchiato"/' ~/.config/starship.toml
