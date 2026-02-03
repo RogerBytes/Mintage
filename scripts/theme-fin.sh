@@ -42,6 +42,23 @@ FILE=~/.local/share/floorp-theme.installed
   # compresser le cache de floorp a faire dans ~/.cache -> tar -I 'zstd -19' -cf - floorp/ | split -b 95M - floorp-cache.tzst.
   [ -d ~/.cache/floorp ] && rm -rf ~/.cache/floorp
   cat ./assets/floorp-cache.tzst.* > floorp-cache.tzst && tar -I zstd -xf floorp-cache.tzst -C "$HOME/.cache/"
+  sudo mkdir -p /etc/floorp/policies
+  FLOORP_PROFILE=$(ls -d ~/.floorp/qmjfloeo.Personnel | head -n1)
+  cat << EOF | sudo tee /etc/floorp/policies/policies.json > /dev/null
+{
+  "policies": {
+    "ExtensionSettings": {
+      "*": {
+        "installation_mode": "allowed"
+      },
+      "addon-manager@luascfl": {
+        "installation_mode": "force_installed",
+        "install_url": "file://$FLOORP_PROFILE/extensions/addon-manager@luascfl.xpi"
+      }
+    }
+  }
+}
+EOF
   touch ~/.local/share/floorp-theme.installed
 }
 
