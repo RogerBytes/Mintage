@@ -46,14 +46,6 @@ flatpak list | grep -q "$PKG" || flatpak install -y flathub "$PKG"
 PKG=app.drey.Dialect
 flatpak list | grep -q "$PKG" || flatpak install -y flathub "$PKG"
 
-# DOS Browser
-PKG=zone.dos.Browser
-flatpak list | grep -q "$PKG" || flatpak install -y flathub "$PKG"
-
-# DOSBox Staging
-PKG=io.github.dosbox-staging
-flatpak list | grep -q "$PKG" || flatpak install -y flathub "$PKG"
-
 # Emoji Mart
 PKG=io.github.vemonet.EmojiMart
 flatpak list | grep -q "$PKG" || flatpak install -y flathub "$PKG"
@@ -132,6 +124,10 @@ flatpak list | grep -q "$PKG" || flatpak install -y flathub "$PKG"
 
 # Resources
 PKG=net.nokyan.Resources
+flatpak list | grep -q "$PKG" || flatpak install -y flathub "$PKG"
+
+# RetroArch
+PKG=org.libretro.RetroArch
 flatpak list | grep -q "$PKG" || flatpak install -y flathub "$PKG"
 
 # Ruffle Flash Player
