@@ -36,3 +36,36 @@ cat << EOF | sudo tee /etc/floorp/policies/policies.json > /dev/null
 EOF
 ```
 
+Pour waterfox flatpak
+
+```
+mkdir -p ~/.var/app/net.waterfox.waterfox/.local/share/waterfox/distribution
+FLOORP_PROFILE=$(ls -d ~/.var/app/net.waterfox.waterfox/.waterfox/*.default-release | head -n1)
+cat << EOF | tee ~/.var/app/net.waterfox.waterfox/.local/share/waterfox/distribution/policies.json > /dev/null
+{
+  "policies": {
+    "ExtensionSettings": {
+      "*": {
+        "installation_mode": "allowed"
+      },
+      "addon-manager@luascfl": {
+        "installation_mode": "force_installed",
+        "install_url": "file://$FLOORP_PROFILE/extensions/addon-manager@luascfl.xpi"
+      }
+    }
+  }
+}
+EOF
+```
+
+
+
+about:policies
+
+
+
+
+/home/harry/.var/app/net.waterfox.waterfox/.waterfox
+
+
+
