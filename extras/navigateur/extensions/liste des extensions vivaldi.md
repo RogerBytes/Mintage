@@ -76,7 +76,6 @@ J'utilise `Personnel` (Profile 2), `Professionnel`(Profile 3), `Test`(Profile 4)
 - [KeepassXC-Browser](https://chromewebstore.google.com/detail/keepassxc-browser/oboonakemofpalcgghocfoadofidjkkk)
 - [Mobile View Switcher](https://chromewebstore.google.com/detail/mobile-view-switcher/bmhfelbhbkeoldaiphchjibggnoodpcj)
 - [MyJDownloader](https://chromewebstore.google.com/detail/myjdownloader-browser-ext/fbcohnmimjicjdomonkcbcpbpnhggkip)
-- [Open bookmarks in new tab](https://chromewebstore.google.com/detail/open-bookmarks-in-a-new-t/mcecogccjlcplcccpnejnldpijppkfil)
 - [Popup Blocker (strict)](https://chromewebstore.google.com/detail/popup-blocker-strict/aefkmifgmaafnojlojpnekbpbmjiiogg)
 - [Proton VPN](https://chromewebstore.google.com/detail/proton-vpn-fast-secure/jplgfhpmjnbigmhklmmbgecoobifkmpa)
 - [Return Youtube Dislike](https://chromewebstore.google.com/detail/return-youtube-dislike/gebbhagfogifgggkldgodflihgfeippi)
@@ -115,7 +114,6 @@ https://chromewebstore.google.com/detail/keepa-amazon-price-tracke/neebplgakaahb
 https://chromewebstore.google.com/detail/keepassxc-browser/oboonakemofpalcgghocfoadofidjkkk \
 https://chromewebstore.google.com/detail/mobile-view-switcher/bmhfelbhbkeoldaiphchjibggnoodpcj \
 https://chromewebstore.google.com/detail/myjdownloader-browser-ext/fbcohnmimjicjdomonkcbcpbpnhggkip \
-https://chromewebstore.google.com/detail/open-bookmarks-in-a-new-t/mcecogccjlcplcccpnejnldpijppkfil \
 https://chromewebstore.google.com/detail/popup-blocker-strict/aefkmifgmaafnojlojpnekbpbmjiiogg \
 https://chromewebstore.google.com/detail/proton-vpn-fast-secure/jplgfhpmjnbigmhklmmbgecoobifkmpa \
 https://chromewebstore.google.com/detail/return-youtube-dislike/gebbhagfogifgggkldgodflihgfeippi \
@@ -146,7 +144,6 @@ https://themes.vivaldi.net/themes/PKbv8PYevr3
 - [floccus booklarks sync](https://chromewebstore.google.com/detail/floccus-bookmarks-sync/fnaicdffflnofjppbagibeoednhnbjhg)
 - [Highlighter](https://chromewebstore.google.com/detail/highlighter/fdfcjfoifbjplmificlkdfneafllkgmn)
 - [KeepassXC-Browser](https://chromewebstore.google.com/detail/keepassxc-browser/oboonakemofpalcgghocfoadofidjkkk)
-- [Open bookmarks in new tab](https://chromewebstore.google.com/detail/open-bookmarks-in-a-new-t/mcecogccjlcplcccpnejnldpijppkfil)
 - [Popup Blocker (strict)](https://chromewebstore.google.com/detail/popup-blocker-strict/aefkmifgmaafnojlojpnekbpbmjiiogg)
 - [Return Youtube Dislike](https://chromewebstore.google.com/detail/return-youtube-dislike/gebbhagfogifgggkldgodflihgfeippi)
 - [Search by image](https://chromewebstore.google.com/detail/search-by-image/cnojnbdhbhnkbcieeekonklommdnndci)
@@ -174,7 +171,6 @@ https://chromewebstore.google.com/detail/enregistrer-limage-en-png/piigjafeabajl
 https://chromewebstore.google.com/detail/floccus-bookmarks-sync/fnaicdffflnofjppbagibeoednhnbjhg \
 https://chromewebstore.google.com/detail/highlighter/fdfcjfoifbjplmificlkdfneafllkgmn \
 https://chromewebstore.google.com/detail/keepassxc-browser/oboonakemofpalcgghocfoadofidjkkk \
-https://chromewebstore.google.com/detail/open-bookmarks-in-a-new-t/mcecogccjlcplcccpnejnldpijppkfil \
 https://chromewebstore.google.com/detail/popup-blocker-strict/aefkmifgmaafnojlojpnekbpbmjiiogg \
 https://chromewebstore.google.com/detail/return-youtube-dislike/gebbhagfogifgggkldgodflihgfeippi \
 https://chromewebstore.google.com/detail/search-by-image/cnojnbdhbhnkbcieeekonklommdnndci \
