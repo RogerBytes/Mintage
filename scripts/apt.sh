@@ -52,6 +52,10 @@ dpkg -s "$PKG" &>/dev/null || {
   sudo nala install -y clamav clamav-daemon && sudo systemctl stop clamav-freshclam && sudo freshclam && sudo systemctl start clamav-freshclam && sudo nala install -y clamtk-gnome
 }
 
+# Contacts
+PKG=gnome-contacts
+dpkg -s "$PKG" &>/dev/null || sudo nala install -y "$PKG"
+
 # Darktable
 PKG=darktable
 dpkg -s "$PKG" &>/dev/null || sudo nala install -y "$PKG"
