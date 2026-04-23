@@ -46,6 +46,10 @@ flatpak list | grep -q "$PKG" || flatpak install -y flathub "$PKG"
 PKG=app.drey.Dialect
 flatpak list | grep -q "$PKG" || flatpak install -y flathub "$PKG"
 
+# Discord
+PKG=com.discordapp.Discord
+flatpak list | grep -q "$PKG" || flatpak install -y flathub "$PKG"
+
 # Emoji Mart
 PKG=io.github.vemonet.EmojiMart
 flatpak list | grep -q "$PKG" || flatpak install -y flathub "$PKG"
