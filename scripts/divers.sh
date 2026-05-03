@@ -9,7 +9,7 @@
 
 # Req (à installer en premier)
 FILE=~/.local/share/req.installed
-[ -f "$FILE" ] || { 
+[ -f "$FILE" ] || {
   sudo apt install -y nala expect curl wget git
   touch ~/.local/share/req.installed
 }
@@ -26,13 +26,27 @@ dpkg -s "$PKG" &>/dev/null || sudo nala install -y regionset libavcodec-extra li
 PKG=jackd2
 dpkg -s "$PKG" &>/dev/null || sudo nala install -y "$PKG"
 
-# Steam
-PKG=steam
+# Pipx
+PKG=pipx
 dpkg -s "$PKG" &>/dev/null || sudo nala install -y "$PKG"
+
+# btop
+PKG=btop
+dpkg -s "$PKG" &>/dev/null || sudo nala install -y "$PKG"
+
+# btop
+PKG=btop
+dpkg -s "$PKG" &>/dev/null || sudo nala install -y "$PKG"
+
+# nvitop
+PKG=nvitop
+pipx list | grep -q "$PKG" || {
+    pipx install "$PKG"
+}
 
 # Installer police FiraCode Nerd et firacode
 FILE=~/.local/share/firafonts.installed
-[ -f "$FILE" ] || { 
+[ -f "$FILE" ] || {
   sudo nala install -y fonts-firacode
   tmpdir=$(mktemp -d)
   wget -q -O "$tmpdir/FiraCode.zip" "https://github.com/ryanoasis/nerd-fonts/releases/download/v3.4.0/FiraCode.zip"
@@ -48,7 +62,7 @@ FILE=~/.local/share/firafonts.installed
 # ------------
 
 FILE=~/.local/share/shell-ext.installed
-[ -f "$FILE" ] || { 
+[ -f "$FILE" ] || {
   # Installer zsh
   sudo nala install -y zsh
   sudo chsh -s /bin/zsh

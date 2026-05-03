@@ -18,10 +18,6 @@
 PKG=ardour
 dpkg -s "$PKG" &>/dev/null || sudo nala install -y --assume-yes "$PKG"
 
-# Audacity
-PKG=audacity
-dpkg -s "$PKG" &>/dev/null || sudo nala install -y "$PKG"
-
 # Blender
 PKG=blender
 dpkg -s "$PKG" &>/dev/null || sudo nala install -y "$PKG"
@@ -46,10 +42,10 @@ dpkg -s "$PKG" &>/dev/null || sudo nala install -y "$PKG"
 PKG=cheese
 dpkg -s "$PKG" &>/dev/null || sudo nala install -y "$PKG"
 
-# ClamTK
+# Clam
 PKG=clamav
-dpkg -s "$PKG" &>/dev/null || { 
-  sudo nala install -y clamav clamav-daemon && sudo systemctl stop clamav-freshclam && sudo freshclam && sudo systemctl start clamav-freshclam && sudo nala install -y clamtk-gnome
+dpkg -s "$PKG" &>/dev/null || {
+  sudo nala install -y clamav clamav-daemon && sudo systemctl stop clamav-freshclam && sudo freshclam && sudo systemctl start clamav-freshclam
 }
 
 # Contacts
@@ -82,7 +78,7 @@ dpkg -s "$PKG" &>/dev/null || sudo nala install -y "$PKG"
 
 # Flatpak
 PKG=flatpak
-dpkg -s "$PKG" &>/dev/null || { 
+dpkg -s "$PKG" &>/dev/null || {
   sudo nala install -y flatpak
   sudo flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
   sudo nala install -y gnome-software-plugin-flatpak
@@ -94,14 +90,6 @@ dpkg -s "$PKG" &>/dev/null || sudo nala install -y "$PKG"
 
 # Ghex
 PKG=ghex
-dpkg -s "$PKG" &>/dev/null || sudo nala install -y "$PKG"
-
-# Gimp
-PKG=gimp
-dpkg -s "$PKG" &>/dev/null || sudo nala install -y gimp gimp-help-fr
-
-# Gnome todos (Endeavour)
-PKG=gnome-todo
 dpkg -s "$PKG" &>/dev/null || sudo nala install -y "$PKG"
 
 # Gparted
@@ -146,7 +134,7 @@ dpkg -s "$PKG" &>/dev/null || sudo nala install -y kitty fonts-firacode
 
 # Kodi
 PKG=kodi
-dpkg -s "$PKG" &>/dev/null || { 
+dpkg -s "$PKG" &>/dev/null || {
   sudo nala install -y kodi
   sudo nala install -y kodi-peripheral-joystick
   sudo nala install -y kodi-pvr-iptvsimple
@@ -196,6 +184,10 @@ dpkg -s "$PKG" &>/dev/null || sudo nala install -y "$PKG"
 PKG=pavucontrol
 dpkg -s "$PKG" &>/dev/null || sudo nala install -y "$PKG"
 
+# Pix
+PKG=pix
+dpkg -s "$PKG" &>/dev/null || sudo nala install -y "$PKG"
+
 # Plank
 PKG=plank
 dpkg -s "$PKG" &>/dev/null || sudo nala install -y "$PKG"
@@ -218,7 +210,7 @@ dpkg -s "$PKG" &>/dev/null || sudo nala install -y "$PKG"
 
 # Synaptic
 PKG=synaptic
-dpkg -s "$PKG" &>/dev/null || { 
+dpkg -s "$PKG" &>/dev/null || {
   sudo nala install -y synaptic
   sudo nala install -y apt-xapian-index
   sudo update-apt-xapian-index -vf
@@ -246,7 +238,7 @@ dpkg -s "$PKG" &>/dev/null || sudo nala install -y "$PKG"
 
 # Virt-Manager (gestionnaire VM) + KVM QEMU
 PKG=virt-manager
-dpkg -s "$PKG" &>/dev/null || { 
+dpkg -s "$PKG" &>/dev/null || {
   sudo nala install -y qemu-system libvirt-daemon-system libvirt-clients bridge-utils virt-manager virtiofsd samba
   sudo usermod -aG libvirt $USER
   mkdir -p ~/Local/VMs/iso
@@ -265,7 +257,7 @@ dpkg -s "$PKG" &>/dev/null || sudo nala install -y "$PKG"
 
 # Installer les pack de langues
 PKG=language-pack-gnome-fr
-dpkg -s "$PKG" &>/dev/null || { 
+dpkg -s "$PKG" &>/dev/null || {
   sudo nala install -y language-pack-en-base
   sudo nala install -y language-pack-fr-base
   sudo nala install -y language-pack-gnome-fr

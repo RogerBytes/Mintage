@@ -22,24 +22,40 @@
 # 2/ b) Installation Flatpak
 # --------------------------
 
+# Actioneer
+PKG=me.spaceinbox.actioneer
+flatpak list | grep -q "$PKG" || flatpak install -y flathub "$PKG"
+
 # Anki
 PKG=net.ankiweb.Anki
 flatpak list | grep -q "$PKG" || flatpak install -y flathub "$PKG"
 
-# Apostrophe
-PKG=org.gnome.gitlab.somas.Apostrophe
+# Bazaar
+PKG=io.github.kolunmi.Bazaar
+flatpak list | grep -q "$PKG" || flatpak install -y flathub "$PKG"
+
+# Blender
+PKG=org.blender.Blender
 flatpak list | grep -q "$PKG" || flatpak install -y flathub "$PKG"
 
 # Calibre
 PKG=com.calibre_ebook.calibre
 flatpak list | grep -q "$PKG" || flatpak install -y flathub "$PKG"
 
+# Chromium
+PKG=io.github.ungoogled_software.ungoogled_chromium
+flatpak list | grep -q "$PKG" || flatpak install -y flathub "$PKG"
+
 # Ciano Media Converter
 PKG=com.github.robertsanseries.ciano
 flatpak list | grep -q "$PKG" || flatpak install -y flathub "$PKG"
 
-# Chromium
-PKG=io.github.ungoogled_software.ungoogled_chromium
+# Cine Player
+PKG=io.github.diegopvlk.Cine
+flatpak list | grep -q "$PKG" || flatpak install -y flathub "$PKG"
+
+# Clam UI
+PKG=io.github.linx_systems.ClamUI
 flatpak list | grep -q "$PKG" || flatpak install -y flathub "$PKG"
 
 # Dialect
@@ -54,12 +70,24 @@ flatpak list | grep -q "$PKG" || flatpak install -y flathub "$PKG"
 PKG=io.github.vemonet.EmojiMart
 flatpak list | grep -q "$PKG" || flatpak install -y flathub "$PKG"
 
+# Errands todo
+PKG=io.github.mrvladus.List
+flatpak list | grep -q "$PKG" || flatpak install -y flathub "$PKG"
+
 # Flatseal
 PKG=com.github.tchx84.Flatseal
 flatpak list | grep -q "$PKG" || flatpak install -y flathub "$PKG"
 
+# Filebot
+PKG=net.filebot.FileBot
+flatpak list | grep -q "$PKG" || flatpak install -y flathub "$PKG"
+
 # Foliate
 PKG=com.github.johnfactotum.Foliate
+flatpak list | grep -q "$PKG" || flatpak install -y flathub "$PKG"
+
+# Forge Sparks
+PKG=com.mardojai.ForgeSparks
 flatpak list | grep -q "$PKG" || flatpak install -y flathub "$PKG"
 
 # Fred TV
@@ -74,6 +102,14 @@ flatpak list | grep -q "$PKG" || flatpak install -y flathub "$PKG"
 PKG=it.mijorus.gearlever
 flatpak list | grep -q "$PKG" || flatpak install -y flathub "$PKG"
 
+# Gimp
+PKG=org.gimp.GIMP
+flatpak list | grep -q "$PKG" || flatpak install -y flathub "$PKG"
+
+# Gradia
+PKG=be.alexandervanhee.gradia
+flatpak list | grep -q "$PKG" || flatpak install -y flathub "$PKG"
+
 # Impression (live usb)
 PKG=io.gitlab.adhami3310.Impression
 flatpak list | grep -q "$PKG" || flatpak install -y flathub "$PKG"
@@ -86,20 +122,24 @@ flatpak list | grep -q "$PKG" || flatpak install -y flathub "$PKG"
 PKG=org.kde.kdenlive
 flatpak list | grep -q "$PKG" || flatpak install -y flathub "$PKG"
 
+# Keymapper
+PKG=io.github.tobagin.keysmith
+flatpak list | grep -q "$PKG" || flatpak install -y flathub "$PKG"
+
 # Keypunch
 PKG=dev.bragefuglseth.Keypunch
 flatpak list | grep -q "$PKG" || flatpak install -y flathub "$PKG"
 
-# KOReader
-PKG=rocks.koreader.KOReader
+# Komikku
+PKG=info.febvre.Komikku
 flatpak list | grep -q "$PKG" || flatpak install -y flathub "$PKG"
 
 # Lact
 PKG=io.github.ilya_zlobintsev.LACT
 flatpak list | grep -q "$PKG" || flatpak install -y flathub "$PKG"
 
-# Lutris
-PKG=net.lutris.Lutris
+# Lossless Cut
+PKG=no.mifi.losslesscut
 flatpak list | grep -q "$PKG" || flatpak install -y flathub "$PKG"
 
 # MMEX (Money Manager Extra)
@@ -110,20 +150,36 @@ flatpak list | grep -q "$PKG" || flatpak install -y flathub "$PKG"
 PKG=com.moonlight_stream.Moonlight
 flatpak list | grep -q "$PKG" || flatpak install -y flathub "$PKG"
 
-# Mousai (shazam alternative)
-PKG=io.github.seadve.Mousai
+# Nuclear
+PKG=com.nuclearplayer.Nuclear
 flatpak list | grep -q "$PKG" || flatpak install -y flathub "$PKG"
 
 # OBS Studio
 PKG=com.obsproject.Studio
 flatpak list | grep -q "$PKG" || flatpak install -y flathub "$PKG"
 
+# Only Office
+PKG=org.onlyoffice.desktopeditors
+flatpak list | grep -q "$PKG" || flatpak install -y flathub "$PKG"
+
 # PDF Arranger
 PKG=com.github.jeromerobert.pdfarranger
 flatpak list | grep -q "$PKG" || flatpak install -y flathub "$PKG"
 
+# Pixelorama
+PKG=org.blender.Blender
+flatpak list | grep -q "$PKG" || flatpak install -y flathub "$PKG"
+
 # ProtonUp
 PKG=net.davidotek.pupgui2
+flatpak list | grep -q "$PKG" || flatpak install -y flathub "$PKG"
+
+# Pulp
+PKG=org.gnome.gitlab.cheywood.Pulp
+flatpak list | grep -q "$PKG" || flatpak install -y flathub "$PKG"
+
+# Rescribe
+PKG=flathub xyz.rescribe.rescribe
 flatpak list | grep -q "$PKG" || flatpak install -y flathub "$PKG"
 
 # Resources
@@ -148,6 +204,22 @@ flatpak list | grep -q "$PKG" || flatpak install -y flathub "$PKG"
 
 # SweetHome 3D
 PKG=com.sweethome3d.Sweethome3d
+flatpak list | grep -q "$PKG" || flatpak install -y flathub "$PKG"
+
+# Swifty Notes
+PKG=me.spaceinbox.swiftynotes
+flatpak list | grep -q "$PKG" || flatpak install -y flathub "$PKG"
+
+# Switcheroo
+PKG=io.gitlab.adhami3310.Converter
+flatpak list | grep -q "$PKG" || flatpak install -y flathub "$PKG"
+
+# Tenacity
+PKG=org.tenacityaudio.Tenacity
+flatpak list | grep -q "$PKG" || flatpak install -y flathub "$PKG"
+
+# Usermode FTP Server
+PKG=eu.ithz.umftpd
 flatpak list | grep -q "$PKG" || flatpak install -y flathub "$PKG"
 
 # VacuumTube
@@ -179,6 +251,15 @@ dpkg -s antimicrox &>/dev/null || {
   sudo nala install -y ${file} && rm ${file}
 }
 
+# Cooler Control
+dpkg -s coolercontrol &>/dev/null || {
+  sudo nala install -y curl apt-transport-https lm-sensors liquidctl
+  curl -1sLf \
+    'https://dl.cloudsmith.io/public/coolercontrol/coolercontrol/setup.deb.sh' \
+    | sudo -E bash
+  sudo nala install -y coolercontrol
+}
+
 # Ferdium
 dpkg -s ferdium &>/dev/null || {
   repo="ferdium/ferdium-app"
@@ -191,25 +272,23 @@ dpkg -s ferdium &>/dev/null || {
   sudo nala install -y ${file} && rm ${file}
 }
 
-# Lutris -> passé en flatpak, cette verson est bugguée sur certains ordinateurs, je laisse en comm pour l'instant.
-# Pour la version normale, buggée actuellement
-#
-#dpkg -s lutris &>/dev/null || {
-#  repo="lutris/lutris"
-#  version=$(curl -s https://api.github.com/repos/$repo/releases/latest \
-#    | grep '"tag_name":' \
-#    | sed -E 's/.*"([^"]+)".*/\1/')
-#  file=$(curl -s https://api.github.com/repos/$repo/releases/tags/$version \
-#    | grep '"name":' | grep ".deb" | sed -E 's/.*"([^"]+)".*/\1/')
-#  wget "https://github.com/$repo/releases/download/${version}/${file}"
-#  sudo nala install -y ${file} && rm ${file}
-#  # ~/.local/share/icons/hicolor/128x128/apps -> chemin des icone des app lutris (vrai app pas launcher)
-#}
+# Lutris
+dpkg -s lutris &>/dev/null || {
+  repo="lutris/lutris"
+  version=$(curl -s https://api.github.com/repos/$repo/releases/latest \
+    | grep '"tag_name":' \
+    | sed -E 's/.*"([^"]+)".*/\1/')
+  file=$(curl -s https://api.github.com/repos/$repo/releases/tags/$version \
+    | grep '"name":' | grep ".deb" | sed -E 's/.*"([^"]+)".*/\1/')
+  wget "https://github.com/$repo/releases/download/${version}/${file}"
+  sudo nala install -y ${file} && rm ${file}
+  # ~/.local/share/icons/hicolor/128x128/apps -> chemin des icone des app lutris (vrai app pas launcher)
+}
 
-# vivaldi (retiré pour le moment)
-#wget -O vivaldi-latest.deb "$(curl -s https://vivaldi.com/download/ | grep -o 'https://downloads\.vivaldi\.com/stable/vivaldi-stable_[^"]*amd64\.deb' | head -n1)"
-#sudo nala install -y vivaldi-latest.deb
-#rm vivaldi-latest.deb
+# vivaldi
+wget -O vivaldi-latest.deb "$(curl -s https://vivaldi.com/download/ | grep -o 'https://downloads\.vivaldi\.com/stable/vivaldi-stable_[^"]*amd64\.deb' | head -n1)"
+sudo nala install -y vivaldi-latest.deb
+rm vivaldi-latest.deb
 
 # VSCodium
 dpkg -s codium &>/dev/null || {
@@ -225,30 +304,21 @@ dpkg -s codium &>/dev/null || {
 # 2/ d) Installation avec un PPA
 # ------------------------------
 
-# Avidemux
-PKG=avidemux-qt
-dpkg -s "$PKG" &>/dev/null || { 
-  sudo nala install -y software-properties-common apt-transport-https &&
-  sudo add-apt-repository -y ppa:xtradeb/apps
-  sudo nala update
-  sudo nala install -y avidemux-qt avidemux-cli
-}
-
 # Brightness Controller (gère le contraste/couleur des moniteurs)
 PKG=brightness-controller
-dpkg -s "$PKG" &>/dev/null || { 
+dpkg -s "$PKG" &>/dev/null || {
   sudo add-apt-repository -y ppa:apandada1/brightness-controller && sudo nala update && sudo nala install -y brightness-controller
 }
 
 # Cozy Audiobook
 PKG=cozy
-dpkg -s "$PKG" &>/dev/null || { 
+dpkg -s "$PKG" &>/dev/null || {
   sudo add-apt-repository -y ppa:cozy-team/cozy && sudo nala update && sudo nala install -y cozy
 }
 
 # Element https://element.io/download#linux
 PKG=element-desktop
-dpkg -s "$PKG" &>/dev/null || { 
+dpkg -s "$PKG" &>/dev/null || {
   sudo nala install -y wget apt-transport-https
   sudo wget -O /usr/share/keyrings/element-io-archive-keyring.gpg https://packages.element.io/debian/element-io-archive-keyring.gpg
   echo "deb [signed-by=/usr/share/keyrings/element-io-archive-keyring.gpg] https://packages.element.io/debian/ default main" | sudo tee /etc/apt/sources.list.d/element-io.list
@@ -258,7 +328,7 @@ dpkg -s "$PKG" &>/dev/null || {
 
 # Floorp
 PKG=floorp
-dpkg -s "$PKG" &>/dev/null || { 
+dpkg -s "$PKG" &>/dev/null || {
 # https://ppa.floorp.app/ les instructions d'installation sont ici
 curl -fsSL https://ppa.floorp.app/KEY.gpg | sudo gpg --dearmor -o /usr/share/keyrings/Floorp.gpg
 sudo curl -sS --compressed -o /etc/apt/sources.list.d/Floorp.list "https://ppa.floorp.app/Floorp.list"
@@ -268,19 +338,19 @@ sudo nala install -y floorp
 
 # gCDEmu
 PKG=cdemu-client
-dpkg -s "$PKG" &>/dev/null || { 
+dpkg -s "$PKG" &>/dev/null || {
   sudo add-apt-repository -y ppa:cdemu/ppa && sudo nala update && sudo nala install -y cdemu-client
 }
 
 # Grub Customizer
 PKG=grub-customizer
-dpkg -s "$PKG" &>/dev/null || { 
+dpkg -s "$PKG" &>/dev/null || {
   sudo add-apt-repository -y ppa:danielrichter2007/grub-customizer && sudo nala update && sudo nala install -y grub-customizer
 }
 
 # Haguichi (et hamachi avec)
 PKG=haguichi
-dpkg -s "$PKG" &>/dev/null || { 
+dpkg -s "$PKG" &>/dev/null || {
   sudo add-apt-repository -y ppa:ztefn/haguichi-stable && sudo nala update && sudo nala install -y haguichi
   link=$(curl -s https://www.vpn.net/linux | grep -oP '(?<=href=")/installers/logmein-hamachi_[^"]+_amd64\.deb' | sed 's|^|https://www.vpn.net|')
   file=$(basename "$link")
@@ -290,7 +360,7 @@ dpkg -s "$PKG" &>/dev/null || {
 
 # Mangohud
 PKG=mangohud
-dpkg -s "$PKG" &>/dev/null || { 
+dpkg -s "$PKG" &>/dev/null || {
   sudo add-apt-repository -y ppa:oibaf/graphics-drivers && sudo nala update && sudo nala install -y mangohud
 }
 
@@ -299,7 +369,7 @@ dpkg -s "$PKG" &>/dev/null || {
 
 # Curseur La Capitaine GARDER capitaine-cursors-r4.tar.gz
 FILE=~/.local/share/capitain.installed
-[ -f "$FILE" ] || { 
+[ -f "$FILE" ] || {
   sudo nala install -y x11-apps
   tar -zxvf ./assets/App-ressource/capitaine-cursors-r4.tar.gz
   sudo cp -pr ./capitaine-cursors ~/.icons/capitaine-cursors
@@ -311,10 +381,10 @@ FILE=~/.local/share/capitain.installed
 }
 
 # Java "Oracle"
-# pour jre (les liens sont sur https://www.oracle.com/java/technologies/downloads/ ) ATTENTION GARDER LE TAR.GZ modifier le script après
+# pour jre
 
 FILE=~/.local/share/oracle-web-start.installed
-[ -f "$FILE" ] || { 
+[ -f "$FILE" ] || {
   sudo mkdir -p /usr/lib/jvm && sudo tar zxvf ./assets/App-ressource/jre-8u351-linux-x64.tar.gz -C /usr/lib/jvm && sudo update-alternatives --install "/usr/bin/java" "java" "/usr/lib/jvm/jre1.8.0_351/bin/java" 1 && sudo update-alternatives --set java /usr/lib/jvm/jre1.8.0_351/bin/java
 
   # Ajouter le script de java_old.sh
@@ -375,6 +445,9 @@ fi
 # 2/ g) Purge et nettoyage PPA
 # ----------------------------
 
+# Celluloid -> Cine Player
+sudo nala purge -y celluloid
+
 # Firefox -> Floorp
 sudo nala purge -y firefox
 
@@ -383,9 +456,6 @@ sudo apt purge -y mintstick
 
 # Sticky (note) -> xpad
 sudo apt purge -y sticky
-
-# Suppresion PPA Avidemux
-sudo add-apt-repository --remove -y ppa:xtradeb/apps
 
 # Suppresion PPA brightness-controller
 sudo add-apt-repository --remove -y ppa:apandada1/brightness-controller
@@ -408,7 +478,7 @@ sudo nala update
 # ----------------------------
 
 FILE=~/.local/share/cinnamon-install-config.installed
-[ -f "$FILE" ] || { 
+[ -f "$FILE" ] || {
     # 3/ a) Applets
   # -------------
 
@@ -487,7 +557,6 @@ FILE=~/.local/share/cinnamon-install-config.installed
   sudo nala install -y mpv libmpv-dev sox libsox-fmt-all at python3-polib mpv-mpris
   sudo apt purge -y yt-dlp
   # https://github.com/yt-dlp/yt-dlp
-  sudo nala install -y pipx
   pipx ensurepath
   pipx install yt-dlp
   sudo touch /usr/local/bin/update_yt_dlp.sh
@@ -553,4 +622,5 @@ FILE=~/.local/share/cinnamon-install-config.installed
 # Dr. Robotnik's Ring Racers
 # PKG=org.kartkrew.RingRacers
 # flatpak list | grep -q "$PKG" || flatpak install -y flathub "$PKG"
+# https://flathub.org/fr/apps/com.spacestation14.Launcher
 
