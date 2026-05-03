@@ -326,15 +326,15 @@ dpkg -s "$PKG" &>/dev/null || {
   sudo nala install -y element-desktop
 }
 
-# Floorp
-PKG=floorp
-dpkg -s "$PKG" &>/dev/null || {
-# https://ppa.floorp.app/ les instructions d'installation sont ici
-curl -fsSL https://ppa.floorp.app/KEY.gpg | sudo gpg --dearmor -o /usr/share/keyrings/Floorp.gpg
-sudo curl -sS --compressed -o /etc/apt/sources.list.d/Floorp.list "https://ppa.floorp.app/Floorp.list"
-sudo apt update
-sudo nala install -y floorp
-}
+# # Floorp -> retiré, trop de souci vidéo avec youtube pour le moment
+# PKG=floorp
+# dpkg -s "$PKG" &>/dev/null || {
+# # https://ppa.floorp.app/ les instructions d'installation sont ici
+# curl -fsSL https://ppa.floorp.app/KEY.gpg | sudo gpg --dearmor -o /usr/share/keyrings/Floorp.gpg
+# sudo curl -sS --compressed -o /etc/apt/sources.list.d/Floorp.list "https://ppa.floorp.app/Floorp.list"
+# sudo apt update
+# sudo nala install -y floorp
+# }
 
 # gCDEmu
 PKG=cdemu-client
