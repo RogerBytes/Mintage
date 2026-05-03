@@ -28,39 +28,39 @@ rm vivaldi.tzst
 #   cat ./assets/floorp.tzst.* > floorp.tzst && tar -I zstd -xf floorp.tzst -C "$HOME/"
 #   rm floorp.tzst
 
-  # corriger les chemins (nouveau test pour résoudre le souci)
-  sed -i "s|rogerbytes|$(whoami)|g" ~/.floorp/qmjfloeo.Personnel/extensions.json
-  sed -i "s|rogerbytes|$(whoami)|g" ~/.floorp/r2kzx8oj.Professionnel/extensions.json
-  sed -i "s|rogerbytes|$(whoami)|g" ~/.floorp/i1gzqkvl.Test/extensions.json
-  # faire en sens inverse (pour DUMP)
-  # sed -i "s|$(whoami)|rogerbytes|g" ~/.floorp/qmjfloeo.Personnel/extensions.json
-  # sed -i "s|$(whoami)|rogerbytes|g" ~/.floorp/r2kzx8oj.Professionnel/extensions.json
-  # sed -i "s|$(whoami)|rogerbytes|g" ~/.floorp/i1gzqkvl.Test/extensions.json
+#   # corriger les chemins (nouveau test pour résoudre le souci)
+#   sed -i "s|rogerbytes|$(whoami)|g" ~/.floorp/qmjfloeo.Personnel/extensions.json
+#   sed -i "s|rogerbytes|$(whoami)|g" ~/.floorp/r2kzx8oj.Professionnel/extensions.json
+#   sed -i "s|rogerbytes|$(whoami)|g" ~/.floorp/i1gzqkvl.Test/extensions.json
+#   # faire en sens inverse (pour DUMP)
+#   # sed -i "s|$(whoami)|rogerbytes|g" ~/.floorp/qmjfloeo.Personnel/extensions.json
+#   # sed -i "s|$(whoami)|rogerbytes|g" ~/.floorp/r2kzx8oj.Professionnel/extensions.json
+#   # sed -i "s|$(whoami)|rogerbytes|g" ~/.floorp/i1gzqkvl.Test/extensions.json
 
-  # decompresser le cache de floorp (nouveau test pour résoudre le souci)
-  # compresser le cache de floorp a faire dans ~/.cache -> tar -I 'zstd -19' -cf - floorp/ | split -b 95M - floorp-cache.tzst.
-  [ -d ~/.cache/floorp ] && rm -rf ~/.cache/floorp
-  cat ./assets/floorp-cache.tzst.* > floorp-cache.tzst && tar -I zstd -xf floorp-cache.tzst -C "$HOME/.cache/"
-  # Ce qui suit permet de créer une politique d'entreprise, afin que addon manager ait les permissions pour fonctionner
-  sudo mkdir -p /etc/floorp/policies
-  FLOORP_PROFILE=$(ls -d ~/.floorp/qmjfloeo.Personnel | head -n1)
-  cat << EOF | sudo tee /etc/floorp/policies/policies.json > /dev/null
-{
-  "policies": {
-    "ExtensionSettings": {
-      "*": {
-        "installation_mode": "allowed"
-      },
-      "addon-manager@luascfl": {
-        "installation_mode": "force_installed",
-        "install_url": "file://$FLOORP_PROFILE/extensions/addon-manager@luascfl.xpi"
-      }
-    }
-  }
-}
-EOF
-  touch ~/.local/share/floorp-theme.installed
-}
+#   # decompresser le cache de floorp (nouveau test pour résoudre le souci)
+#   # compresser le cache de floorp a faire dans ~/.cache -> tar -I 'zstd -19' -cf - floorp/ | split -b 95M - floorp-cache.tzst.
+#   [ -d ~/.cache/floorp ] && rm -rf ~/.cache/floorp
+#   cat ./assets/floorp-cache.tzst.* > floorp-cache.tzst && tar -I zstd -xf floorp-cache.tzst -C "$HOME/.cache/"
+#   # Ce qui suit permet de créer une politique d'entreprise, afin que addon manager ait les permissions pour fonctionner
+#   sudo mkdir -p /etc/floorp/policies
+#   FLOORP_PROFILE=$(ls -d ~/.floorp/qmjfloeo.Personnel | head -n1)
+#   cat << EOF | sudo tee /etc/floorp/policies/policies.json > /dev/null
+# {
+#   "policies": {
+#     "ExtensionSettings": {
+#       "*": {
+#         "installation_mode": "allowed"
+#       },
+#       "addon-manager@luascfl": {
+#         "installation_mode": "force_installed",
+#         "install_url": "file://$FLOORP_PROFILE/extensions/addon-manager@luascfl.xpi"
+#       }
+#     }
+#   }
+# }
+# EOF
+#   touch ~/.local/share/floorp-theme.installed
+# }
 
 # réglages de thunderbird
 FILE=~/.local/share/thunderbird-theme.installed
@@ -76,7 +76,7 @@ FILE=~/.local/share/thunderbird-theme.installed
 
 # Themes Flatpak
 FILE=~/.local/share/flatpak-theme.installed
-[ -f "$FILE" ] || { 
+[ -f "$FILE" ] || {
   mkdir -p ~/.themes/
   cp -r /usr/share/themes/Adwaita-dark ~/.themes/
   sudo flatpak override --filesystem=$HOME/.themes
