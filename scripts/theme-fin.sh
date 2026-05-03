@@ -14,19 +14,19 @@ FILE=/usr/local/bin/vsix-dl
   sudo chmod +x /usr/local/bin/vsix-dl
 }
 
-# réglages de vivaldi
-# [ -d ~/.config/vivaldi ] && rm -rf ~/.config/vivaldi
+réglages de vivaldi
+[ -d ~/.config/vivaldi ] && rm -rf ~/.config/vivaldi
 # Compresser vivaldi -> tar -I 'zstd -19' -cf - vivaldi/ | split -b 95M - vivaldi.tzst.
-# cat ./assets/vivaldi.tzst.* > vivaldi.tzst && tar -I zstd -xf vivaldi.tzst -C "$HOME/.config/"
-# rm vivaldi.tzst
+cat ./assets/vivaldi.tzst.* > vivaldi.tzst && tar -I zstd -xf vivaldi.tzst -C "$HOME/.config/"
+rm vivaldi.tzst
 
-# réglages de floorp
-FILE=~/.local/share/floorp-theme.installed
-[ -f "$FILE" ] || {
-  [ -d ~/.floorp ] && rm -rf ~/.floorp
-  # Compresser floorp a faire à racine ~/ -> tar -I 'zstd -19' -cf - .floorp/ | split -b 95M - floorp.tzst.
-  cat ./assets/floorp.tzst.* > floorp.tzst && tar -I zstd -xf floorp.tzst -C "$HOME/"
-  rm floorp.tzst
+# # réglages de floorp -> en pose tant que les vidéo youtube provoquent des fuite mémoire
+# FILE=~/.local/share/floorp-theme.installed
+# [ -f "$FILE" ] || {
+#   [ -d ~/.floorp ] && rm -rf ~/.floorp
+#   # Compresser floorp a faire à racine ~/ -> tar -I 'zstd -19' -cf - .floorp/ | split -b 95M - floorp.tzst.
+#   cat ./assets/floorp.tzst.* > floorp.tzst && tar -I zstd -xf floorp.tzst -C "$HOME/"
+#   rm floorp.tzst
 
   # corriger les chemins (nouveau test pour résoudre le souci)
   sed -i "s|rogerbytes|$(whoami)|g" ~/.floorp/qmjfloeo.Personnel/extensions.json
@@ -260,7 +260,7 @@ FILE=~/.local/share/shell-zsh.installed
 [ -f "$FILE" ] || {
   sudo usermod -s "$(command -v zsh)" "$USER"
   touch ~/.local/share/shell-zsh.installed
-  sudo reboot now 
+  sudo reboot now
 }
 
 
