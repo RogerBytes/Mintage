@@ -225,10 +225,13 @@ flatpak list | grep -q "$PKG" || flatpak install -y flathub "$PKG"
 # VacuumTube
 PKG=rocks.shy.VacuumTube
 flatpak list | grep -q "$PKG" || flatpak install -y flathub "$PKG"
-# https://www.youtube.com/activate
 
 # VideoDownloader
 PKG=com.github.unrud.VideoDownloader
+flatpak list | grep -q "$PKG" || flatpak install -y flathub "$PKG"
+
+# Wike
+PKG=com.github.hugolabe.Wike
 flatpak list | grep -q "$PKG" || flatpak install -y flathub "$PKG"
 
 # YACReader
