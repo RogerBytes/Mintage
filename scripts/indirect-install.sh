@@ -448,7 +448,7 @@ fi
 # 2/ g) Purge et nettoyage PPA
 # ----------------------------
 
-# Celluloid -> Cine Player
+# Celluloid -> mpv player (dans les dépendances de radio ++)
 sudo nala purge -y celluloid
 
 # Firefox -> Floorp
