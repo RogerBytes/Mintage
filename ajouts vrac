@@ -1,0 +1,13 @@
+CTRL + œ (le ² en dessous de Esc) -> Synapse -> déjà paramétré par défaut
+CTRL + Maj + Esc -> Gestionnaire de tâches "Ressources" -> à ajouter à mintage
+
+Pour ajouter un raccourci, il faut ouvrir "Clavier" aller dans l'onglet "Raccourcis" puis dans la navbar latérale, aller dans "Raccourcis personnalisés" et choisir "Ajouter un raccourci personnalisé"
+
+/org/cinnamon/desktop/keybindings/custom-keybindings/
+
+dconf dump /org/cinnamon/desktop/keybindings/ > ~/raccourcis-cinnamon.ini
+
+dconf load /org/cinnamon/desktop/keybindings/ < ~/raccourcis-cinnamon.ini
+
+ET REMPLACER EXTENSION LANGUAGE TOOL PAR
+https://chromewebstore.google.com/detail/quillbot-ai-writing-assis/iidnbdjijdkbmajdffnidomddglmieko?pli=1
