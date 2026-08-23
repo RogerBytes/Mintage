@@ -445,7 +445,7 @@ if [ ! -f ~/AppImagesAInstaller/pcloud.appimage ]; then
   chmod +x ~/AppImagesAInstaller/pcloud.appimage
 fi
 
-# 2/ g) Purge et nettoyage PPA
+# 2/ g) Purge et nettoyage PPA (je laisse les ppa pour l'instant, peut poser pb lors d'upgrade et kernel)
 # ----------------------------
 
 # Celluloid -> mpv player (dans les dépendances de radio ++)
@@ -460,17 +460,6 @@ sudo apt purge -y mintstick
 # Sticky (note) -> xpad
 sudo apt purge -y sticky
 
-# Suppresion PPA brightness-controller
-sudo add-apt-repository --remove -y ppa:apandada1/brightness-controller
-
-# Suppresion PPA gCdemu
-sudo add-apt-repository --remove -y ppa:cdemu/ppa
-
-# Suppresion PPA Grub Customizer
-sudo add-apt-repository --remove -y ppa:danielrichter2007/grub-customizer
-
-# Suppresion PPA Haguichi
-sudo add-apt-repository --remove -y ppa:ztefn/haguichi-stable
 
 # Update de fin
 sudo nala update
