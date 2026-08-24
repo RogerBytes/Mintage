@@ -1,0 +1,168 @@
+Clic droit sur icon de dl, puis "Personnaliser la barre d'outil"
+pour la zone barre d'adresse
+les fleches - barre d'adresse - Téelechargement - extension - espace (glisser dans viewport pour le virer) - VPN - USER
+
+Au dessus clique droit sur l'incone "Espace de travail" et retirer
+
+
+Ensuite dans les options de vivaldi CTRL + F12
+
+Onglet Général
+Page d'accueil - Page spécifique :
+https://search.brave.com/?lang=fr-fr
+
+Onglet Apparence
+Cocher : Barres de défilements simples
+"Position des boutons de contrôle de la fenâtre" À gauche
+Densité de l'interface utilisateur = Compact
+Cocher : Menu compact
+Style d'icone du menu : Icône "Menu"
+
+Onglet Thèmes
+Allez sur ces liens et installer les deux thèmes
+https://themes.vivaldi.net/themes/wOkJyapkJmd
+https://themes.vivaldi.net/themes/PKbv8PYevr3
+Chosir le Thème "Mint-L-Dark-Blue"
+dans Theme de navigation privée, choisir "Mint-L-Dark-Blue-Private"
+Dans planification des thème, mettre "Aucune Planification" (rechoisir "Mint-L-Dark-Blue")
+
+Onglet Onglets
+Page du nouvel onglet : Page d'accueil
+À la fermeture d'un onglet : Activer l'onglet immédiatemment à gauche
+Empilement d'onglet : Désactiver
+
+Onglet Barre d'adresses
+Cocher "Afficher l'URL complète en barre d'adresses"
+Cocher "Générateur de QR-Code"
+Cocher "Afficher les boutons d'extensions masquées dans un menu déroulant"
+En bas, dans Fonctionnalité de sécurité, cocher "Toujours privilégier la connexion sécurisée"
+
+Onglet Signets
+Cocher "Ouvrir les signets dans un nouvel onglet"
+Cocher "Afficher la barre de signets"
+Affichage de la barre de signet "Icone des signets et nom des dossiers"
+
+Onglet Rechercher
+Cocher "Autoriser la recherche dans le champ d'adresses" et "Autoriser le contrôle par extension"
+Virer :
+Yahoo!
+DuckDuckGo
+Ecosia
+Qwant
+StartPage
+Wikipedia
+Google
+-
+Ajouter un moteur
+Nom : Brave Search
+URL de recherche : https://search.brave.com/search?q=%s
+URL de suggestion : https://search.brave.com/api/suggest?q=%s
+et en bas cocher "Définir comme moteur de recherche par défaut" et "Définir comme moteur de recherche en navigation privée"
+
+Onglet Sécurité et vie privée
+Cocher "Demander aux site Web de ne pas me pister"
+Cocher "Suggestion dans le champ de recherche"
+
+Onglet Réseau
+Pour DNS Over HTTPS : choisir "Cloudflare (1.1.1.1)"
+
+Les options sont régles, maintenant les extensions
+https://github.com/RogerBytes/Mintage/blob/master/extras/navigateur/extensions/liste%20des%20extensions%20vivaldi.md
+
+vivaldi \
+--profile-directory="Default" \
+https://chromewebstore.google.com/detail/allow-right-click/hnafhkjheookmokbkpnfpmemlppjdgoi \
+https://gitflic.ru/project/magnolia1234/bpc_uploads \
+https://chromewebstore.google.com/detail/consent-o-matic/mdjildafknihdffpkfmmpnpoiajfjnjd \
+https://chromewebstore.google.com/detail/click-to-remove-element/jcgpghgjhhahcefnfpbncdmhhddedhnk \
+https://chromewebstore.google.com/detail/project-naptha/molncoemjfmpgdkbdlbjmhlcgniigdnf \
+https://chromewebstore.google.com/detail/custom-chrome-extension-m/balnpimdnhfiodmodckhkgneejophhhm \
+https://chromewebstore.google.com/detail/quillbot-assistant-de-r%C3%A9d/iidnbdjijdkbmajdffnidomddglmieko \
+https://chromewebstore.google.com/detail/dark-reader/eimadpbcbfnmbkopoojfekhnkhdbieeh \
+https://chromewebstore.google.com/detail/gofullpage-beta-full-page/kehafhfdnkhdgbnpeofmhmbibmpnjaof \
+https://chromewebstore.google.com/detail/save-images-as-type/ppfngkdknicokcdembnnlpahnpanlcko \
+https://chromewebstore.google.com/detail/external-application-laun/bifmfjgpgndemajpeeoiopbeilbaifdo \
+https://chromewebstore.google.com/detail/floccus-bookmarks-sync/fnaicdffflnofjppbagibeoednhnbjhg \
+https://chromewebstore.google.com/detail/foxyproxy/gcknhkkoolaabfmlnjonogaaifnjlfnp \
+https://chromewebstore.google.com/detail/super-simple-highlighter/hhlhjgianpocpoppaiihmlpgcoehlhio \
+https://chromewebstore.google.com/detail/keepa-amazon-price-tracke/neebplgakaahbhdphmkckjjcegoiijjo \
+https://chromewebstore.google.com/detail/mobile-view-switcher/bmhfelbhbkeoldaiphchjibggnoodpcj \
+https://chromewebstore.google.com/detail/popup-blocker-strict/aefkmifgmaafnojlojpnekbpbmjiiogg \
+https://chromewebstore.google.com/detail/return-youtube-dislike/gebbhagfogifgggkldgodflihgfeippi \
+https://chromewebstore.google.com/detail/ruffle-flash-emulator/donbcfbmhbcapadipfkeojnmajbakjdc \
+https://chromewebstore.google.com/detail/search-by-image/cnojnbdhbhnkbcieeekonklommdnndci \
+https://chromewebstore.google.com/detail/sponsorblock-pour-youtube/mnjggcdmjocbbbhaepdhchncahnbgone \
+https://chromewebstore.google.com/detail/ublock-origin-lite/ddkjiahejlhfcafbddmgiahcphecmpfh \
+https://chromewebstore.google.com/detail/violentmonkey/jinjaccalgkegednnccohejagnlnfdag \
+https://chromewebstore.google.com/detail/wayback-machine/fpnmgdkabkmnadcjpehmlllkndpkmiak \
+https://chromewebstore.google.com/detail/screenshot-youtube-video/lnaahdmijnjnmgaalacdgakieangpjgp \
+https://chromewebstore.google.com/detail/youtube-shorts-block/jiaopdjbehhjgokpphdfgmapkobbnmjp \
+https://chromewebstore.google.com/detail/gestionnaire-de-mots-de-p/nngceckbapebfimnlniiiahkandclblb \
+https://themes.vivaldi.net/themes/wOkJyapkJmd \
+https://themes.vivaldi.net/themes/PKbv8PYevr3
+
+
+On ne met plus que le téléchargeur de vidéo dans external app launcher
+
+
+
+Display Name : Télécharger la vidéo
+
+Executable Name : open-with-video-downloader
+
+Arguments : [HREF]
+
+Cocher :
+
+bouton Toolbar button
+bouton Page Context
+Cliquer sur Icon et parcourir et choisir l'icone désirée.
+
+Finir la programmation du bouton avec  Add Application
+
+
+
+
+
+Et pour le compte pro
+
+
+vivaldi \
+--profile-directory="Profile 1" \
+https://chromewebstore.google.com/detail/allow-right-click/hnafhkjheookmokbkpnfpmemlppjdgoi \
+https://gitflic.ru/project/magnolia1234/bpc_uploads \
+https://chromewebstore.google.com/detail/consent-o-matic/mdjildafknihdffpkfmmpnpoiajfjnjd \
+https://chromewebstore.google.com/detail/click-to-remove-element/jcgpghgjhhahcefnfpbncdmhhddedhnk \
+https://chromewebstore.google.com/detail/project-naptha/molncoemjfmpgdkbdlbjmhlcgniigdnf \
+https://chromewebstore.google.com/detail/custom-chrome-extension-m/balnpimdnhfiodmodckhkgneejophhhm \
+https://chromewebstore.google.com/detail/quillbot-assistant-de-r%C3%A9d/iidnbdjijdkbmajdffnidomddglmieko \
+https://chromewebstore.google.com/detail/dark-reader/eimadpbcbfnmbkopoojfekhnkhdbieeh \
+https://chromewebstore.google.com/detail/download-with-jdownloader/jfpmbokkdeapjommajdfmmheiiakdlgo \
+https://chromewebstore.google.com/detail/gofullpage-beta-full-page/kehafhfdnkhdgbnpeofmhmbibmpnjaof \
+https://chromewebstore.google.com/detail/save-images-as-type/ppfngkdknicokcdembnnlpahnpanlcko \
+https://chromewebstore.google.com/detail/floccus-bookmarks-sync/fnaicdffflnofjppbagibeoednhnbjhg \
+https://chromewebstore.google.com/detail/foxyproxy/gcknhkkoolaabfmlnjonogaaifnjlfnp \
+https://chromewebstore.google.com/detail/super-simple-highlighter/hhlhjgianpocpoppaiihmlpgcoehlhio \
+https://chromewebstore.google.com/detail/keepa-amazon-price-tracke/neebplgakaahbhdphmkckjjcegoiijjo \
+https://chromewebstore.google.com/detail/mobile-view-switcher/bmhfelbhbkeoldaiphchjibggnoodpcj \
+https://chromewebstore.google.com/detail/popup-blocker-strict/aefkmifgmaafnojlojpnekbpbmjiiogg \
+https://chromewebstore.google.com/detail/return-youtube-dislike/gebbhagfogifgggkldgodflihgfeippi \
+https://chromewebstore.google.com/detail/ruffle-flash-emulator/donbcfbmhbcapadipfkeojnmajbakjdc \
+https://chromewebstore.google.com/detail/search-by-image/cnojnbdhbhnkbcieeekonklommdnndci \
+https://chromewebstore.google.com/detail/sponsorblock-pour-youtube/mnjggcdmjocbbbhaepdhchncahnbgone \
+https://chromewebstore.google.com/detail/ublock-origin-lite/ddkjiahejlhfcafbddmgiahcphecmpfh \
+https://chromewebstore.google.com/detail/violentmonkey/jinjaccalgkegednnccohejagnlnfdag \
+https://chromewebstore.google.com/detail/screenshot-youtube-video/lnaahdmijnjnmgaalacdgakieangpjgp \
+https://chromewebstore.google.com/detail/youtube-shorts-block/jiaopdjbehhjgokpphdfgmapkobbnmjp \
+https://chromewebstore.google.com/detail/gestionnaire-de-mots-de-p/nngceckbapebfimnlniiiahkandclblb \
+https://themes.vivaldi.net/themes/wOkJyapkJmd \
+https://themes.vivaldi.net/themes/PKbv8PYevr3
+
+
+et pour le compte test
+
+vivaldi \
+--profile-directory="Profile 2" \
+https://chromewebstore.google.com/detail/axe-devtools-web-accessib/lhdoppojpmngadmnindnejefpokejbdd \
+https://themes.vivaldi.net/themes/wOkJyapkJmd \
+https://themes.vivaldi.net/themes/PKbv8PYevr3

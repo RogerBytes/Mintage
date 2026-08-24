@@ -124,10 +124,6 @@ dpkg -s "$PKG" &>/dev/null || sudo nala install -y "$PKG"
 PKG=kdeconnect
 dpkg -s "$PKG" &>/dev/null || sudo nala install -y "$PKG"
 
-# KeePassXC
-PKG=keepassxc
-dpkg -s "$PKG" &>/dev/null || sudo nala install -y "$PKG"
-
 # Kitty (terminal)
 PKG=kitty
 dpkg -s "$PKG" &>/dev/null || sudo nala install -y kitty fonts-firacode

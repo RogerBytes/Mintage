@@ -38,12 +38,17 @@ flatpak list | grep -q "$PKG" || flatpak install -y flathub "$PKG"
 PKG=org.blender.Blender
 flatpak list | grep -q "$PKG" || flatpak install -y flathub "$PKG"
 
+# Bitwarden
+PKG=com.bitwarden.desktop
+flatpak list | grep -q "$PKG" || flatpak install -y flathub "$PKG" && \
+echo 'export SSH_AUTH_SOCK="/home/$USER/.var/app/com.bitwarden.desktop/data/.bitwarden-ssh-agent.sock"' >> ~/.zshrc && \
+source ~/.zshrc && \
+sudo wget -O /usr/share/polkit-1/actions/com.bitwarden.Bitwarden.policy https://raw.githubusercontent.com/bitwarden/clients/main/apps/desktop/resources/com.bitwarden.desktop.policy && \
+sudo chown root:root /usr/share/polkit-1/actions/com.bitwarden.Bitwarden.policy && \
+sudo chcon system_u:object_r:usr_t:s0 /usr/share/polkit-1/actions/com.bitwarden.Bitwarden.policy
+
 # Calibre
 PKG=com.calibre_ebook.calibre
-flatpak list | grep -q "$PKG" || flatpak install -y flathub "$PKG"
-
-# Chromium
-PKG=io.github.ungoogled_software.ungoogled_chromium
 flatpak list | grep -q "$PKG" || flatpak install -y flathub "$PKG"
 
 # Ciano Media Converter
