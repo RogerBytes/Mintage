@@ -147,6 +147,10 @@ flatpak list | grep -q "$PKG" || flatpak install -y flathub "$PKG"
 PKG=no.mifi.losslesscut
 flatpak list | grep -q "$PKG" || flatpak install -y flathub "$PKG"
 
+# Lutris
+PKG=net.lutris.Lutris
+flatpak list | grep -q "$PKG" || flatpak install -y flathub "$PKG"
+
 # MMEX (Money Manager Extra)
 PKG=org.moneymanagerex.MMEX
 flatpak list | grep -q "$PKG" || flatpak install -y flathub "$PKG"
@@ -280,34 +284,23 @@ dpkg -s ferdium &>/dev/null || {
   sudo nala install -y ${file} && rm ${file}
 }
 
-# Lutris
-dpkg -s lutris &>/dev/null || {
-  repo="lutris/lutris"
-  version=$(curl -s https://api.github.com/repos/$repo/releases/latest \
-    | grep '"tag_name":' \
-    | sed -E 's/.*"([^"]+)".*/\1/')
-  file=$(curl -s https://api.github.com/repos/$repo/releases/tags/$version \
-    | grep '"name":' | grep ".deb" | sed -E 's/.*"([^"]+)".*/\1/')
-  wget "https://github.com/$repo/releases/download/${version}/${file}"
-  sudo nala install -y ${file} && rm ${file}
-  # ~/.local/share/icons/hicolor/128x128/apps -> chemin des icone des app lutris (vrai app pas launcher)
-}
+# Lutris -> flatpak
+# dpkg -s lutris &>/dev/null || {
+#   repo="lutris/lutris"
+#   version=$(curl -s https://api.github.com/repos/$repo/releases/latest \
+#     | grep '"tag_name":' \
+#     | sed -E 's/.*"([^"]+)".*/\1/')
+#   file=$(curl -s https://api.github.com/repos/$repo/releases/tags/$version \
+#     | grep '"name":' | grep ".deb" | sed -E 's/.*"([^"]+)".*/\1/')
+#   wget "https://github.com/$repo/releases/download/${version}/${file}"
+#   sudo nala install -y ${file} && rm ${file}
+#   # ~/.local/share/icons/hicolor/128x128/apps -> chemin des icone des app lutris (vrai app pas launcher)
+# }
 
 # vivaldi
 wget -O vivaldi-latest.deb "$(curl -s https://vivaldi.com/download/ | grep -o 'https://downloads\.vivaldi\.com/stable/vivaldi-stable_[^"]*amd64\.deb' | head -n1)"
 sudo nala install -y vivaldi-latest.deb
 rm vivaldi-latest.deb
-
-# VSCodium
-dpkg -s codium &>/dev/null || {
-  repo="VSCodium/vscodium"
-  version=$(curl -s https://api.github.com/repos/$repo/releases/latest \
-    | grep '"tag_name":' \
-    | sed -E 's/.*"([^"]+)".*/\1/')
-  file=codium_${version}_amd64.deb
-  wget "https://github.com/$repo/releases/download/${version}/${file}"
-  sudo nala install -y ${file} && rm ${file}
-}
 
 # 2/ d) Installation avec un PPA
 # ------------------------------
@@ -332,6 +325,19 @@ dpkg -s "$PKG" &>/dev/null || {
   echo "deb [signed-by=/usr/share/keyrings/element-io-archive-keyring.gpg] https://packages.element.io/debian/ default main" | sudo tee /etc/apt/sources.list.d/element-io.list
   sudo nala update
   sudo nala install -y element-desktop
+}
+
+# VSCodium
+PKG=codium
+dpkg -s "$PKG" &>/dev/null || {
+  wget -qO - https://gitlab.com/paulcarroty/vscodium-deb-rpm-repo/raw/master/pub.gpg \
+      | gpg --dearmor \
+      | sudo dd of=/usr/share/keyrings/vscodium-archive-keyring.gpg
+
+  echo -e 'Types: deb\nURIs: https://download.vscodium.com/debs\nSuites: vscodium\nComponents: main\nArchitectures: amd64 arm64\nSigned-by: /usr/share/keyrings/vscodium-archive-keyring.gpg' \
+  | sudo tee /etc/apt/sources.list.d/vscodium.sources
+  sudo nala update
+  sudo nala install -y codium
 }
 
 # # Floorp -> retiré, trop de souci vidéo avec youtube pour le moment
