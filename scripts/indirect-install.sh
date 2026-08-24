@@ -151,6 +151,15 @@ flatpak list | grep -q "$PKG" || flatpak install -y flathub "$PKG"
 PKG=net.lutris.Lutris
 flatpak list | grep -q "$PKG" || flatpak install -y flathub "$PKG"
 
+# MangoHud
+PKG=org.freedesktop.Platform.VulkanLayer.MangoHud/x86_64/25.08
+flatpak list | grep -q "$PKG" || flatpak install -y flathub "$PKG" && \
+flatpak override --user --filesystem=xdg-config/MangoHud:ro net.lutris.Lutris
+
+# MangoJuice
+PKG=io.github.radiolamp.mangojuice
+flatpak list | grep -q "$PKG" || flatpak install -y flathub "$PKG"
+
 # MMEX (Money Manager Extra)
 PKG=org.moneymanagerex.MMEX
 flatpak list | grep -q "$PKG" || flatpak install -y flathub "$PKG"
@@ -169,7 +178,8 @@ flatpak list | grep -q "$PKG" || flatpak install -y flathub "$PKG"
 
 # Only Office
 PKG=org.onlyoffice.desktopeditors
-flatpak list | grep -q "$PKG" || flatpak install -y flathub "$PKG"
+flatpak list | grep -q "$PKG" || flatpak install -y flathub "$PKG" && \
+flatpak override --user --filesystem=/usr/share/fonts:ro org.onlyoffice.desktopeditors
 
 # PDF Arranger
 PKG=com.github.jeromerobert.pdfarranger
