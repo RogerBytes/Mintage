@@ -1,11 +1,11 @@
 Clic droit sur icon de dl, puis "Personnaliser la barre d'outil"
 pour la zone barre d'adresse
-les fleches - barre d'adresse - Téelechargement - extension - espace (glisser dans viewport pour le virer) - VPN - USER
+les fleches - barre d'adresse - Téléchargement - extension - espace (glisser dans viewport pour le virer) - VPN - USER
 
-Au dessus clique droit sur l'incone "Espace de travail" et retirer
+Au dessus clique droit sur l’icône "Espace de travail" et retirer
 
 
-Ensuite dans les options de vivaldi CTRL + F12
+Ensuite dans les options de Vivaldi CTRL + F12
 
 Onglet Général
 Page d'accueil - Page spécifique :
@@ -13,22 +13,22 @@ https://search.brave.com/?lang=fr-fr
 
 Onglet Apparence
 Cocher : Barres de défilements simples
-"Position des boutons de contrôle de la fenâtre" À gauche
+"Position des boutons de contrôle de la fenêtre" À gauche
 Densité de l'interface utilisateur = Compact
 Cocher : Menu compact
-Style d'icone du menu : Icône "Menu"
+Style d’icône du menu : Icône "Menu"
 
 Onglet Thèmes
 Allez sur ces liens et installer les deux thèmes
 https://themes.vivaldi.net/themes/wOkJyapkJmd
 https://themes.vivaldi.net/themes/PKbv8PYevr3
-Chosir le Thème "Mint-L-Dark-Blue"
+Choisir le Thème "Mint-L-Dark-Blue"
 dans Theme de navigation privée, choisir "Mint-L-Dark-Blue-Private"
-Dans planification des thème, mettre "Aucune Planification" (rechoisir "Mint-L-Dark-Blue")
+Dans planification des thème, mettre "Aucune Planification" (re-choisir "Mint-L-Dark-Blue")
 
 Onglet Onglets
 Page du nouvel onglet : Page d'accueil
-À la fermeture d'un onglet : Activer l'onglet immédiatemment à gauche
+À la fermeture d'un onglet : Activer l'onglet immédiatement à gauche
 Empilement d'onglet : Désactiver
 
 Onglet Barre d'adresses
@@ -40,7 +40,7 @@ En bas, dans Fonctionnalité de sécurité, cocher "Toujours privilégier la con
 Onglet Signets
 Cocher "Ouvrir les signets dans un nouvel onglet"
 Cocher "Afficher la barre de signets"
-Affichage de la barre de signet "Icone des signets et nom des dossiers"
+Affichage de la barre de signet "Icône des signets et nom des dossiers"
 
 Onglet Rechercher
 Cocher "Autoriser la recherche dans le champ d'adresses" et "Autoriser le contrôle par extension"
@@ -66,7 +66,7 @@ Cocher "Suggestion dans le champ de recherche"
 Onglet Réseau
 Pour DNS Over HTTPS : choisir "Cloudflare (1.1.1.1)"
 
-Les options sont régles, maintenant les extensions
+Les options sont règles, maintenant les extensions
 https://github.com/RogerBytes/Mintage/blob/master/extras/navigateur/extensions/liste%20des%20extensions%20vivaldi.md
 
 vivaldi \
@@ -102,7 +102,7 @@ https://themes.vivaldi.net/themes/wOkJyapkJmd \
 https://themes.vivaldi.net/themes/PKbv8PYevr3
 
 
-On ne met plus que le téléchargeur de vidéo dans external app launcher
+On ne met plus que le télécharger de vidéo dans external app launcher
 
 
 
@@ -116,7 +116,7 @@ Cocher :
 
 bouton Toolbar button
 bouton Page Context
-Cliquer sur Icon et parcourir et choisir l'icone désirée.
+Cliquer sur Icon et parcourir et choisir l’icône désirée.
 
 Finir la programmation du bouton avec  Add Application
 
