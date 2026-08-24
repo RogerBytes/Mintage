@@ -164,10 +164,6 @@ dpkg -s "$PKG" &>/dev/null || sudo nala install -y "$PKG"
 PKG=libreoffice-java-common
 dpkg -s "$PKG" &>/dev/null || sudo nala install -y libreoffice-java-common libreoffice-base libreoffice-math
 
-# MangoHud et Goverlay
-PKG=goverlay
-dpkg -s "$PKG" &>/dev/null || sudo nala install -y "$PKG" mangohud
-
 # Metadata cleaner
 PKG=metadata-cleaner
 dpkg -s "$PKG" &>/dev/null || sudo nala install -y "$PKG"

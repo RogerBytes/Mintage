@@ -382,12 +382,6 @@ dpkg -s "$PKG" &>/dev/null || {
   sudo nala install -y $file && rm $file
 }
 
-# Mangohud
-PKG=mangohud
-dpkg -s "$PKG" &>/dev/null || {
-  sudo add-apt-repository -y ppa:oibaf/graphics-drivers && sudo nala update && sudo nala install -y mangohud
-}
-
 # 2/ e) Installation paquets linux tar.gz
 # ---------------------------------------
 
