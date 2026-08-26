@@ -28,6 +28,7 @@ Dans planification des thème, mettre "Aucune Planification" (re-choisir "Mint-L
 
 Onglet Onglets
 Page du nouvel onglet : Page d'accueil
+Cocher : Ouvrir, via le menu contextuel, les liens dans un nouvel onglet en arrière-plan par défaut
 À la fermeture d'un onglet : Activer l'onglet immédiatement à gauche
 Empilement d'onglet : Désactiver
 
