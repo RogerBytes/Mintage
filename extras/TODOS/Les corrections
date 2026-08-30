@@ -1,0 +1,27 @@
+Penser à enlever les effets.
+
+Faire un repo à part par navigateur (vivaldi et floorp)
+
+Ajouter "thunderbird" au .hidden du bureau
+
+Dire qu'il faut empecher la veille en 5 (proposer si onb veut mais indispensable pour installation de mintage) la desactiver, juste ectran
+
+proposer aussi reglage de l'ecran de verouillage "ecran de connexion" , 
+onglet Apparence : Alignement = Au centre
+onglet Paramètres : Activer le verouillage numérique, tout décocher sauf horloge et quitter
+
+Ferdium via flatpak (et virer le deb)
+flatpak install -y flathub org.ferdium.Ferdium
+mkdir -p ~/.themes
+sudo cp -r /usr/share/themes/Mint-L-Dark-Blue ~/.themes/
+sudo flatpak override --filesystem=$HOME/.themes
+flatpak override --user --env=GTK_THEME=Mint-L-Dark-Blue org.ferdium.Ferdium
+
+
+Dire que dans gear lever, dans les options, il faut cocher gestion des mises à jour
+
+sudo nala install -y liblnk-utils
+
+VIRER SWIFTY NOTES C4EST DE LA MERDE
+
+VIRER BAZAR C4EST DE LA MERDE

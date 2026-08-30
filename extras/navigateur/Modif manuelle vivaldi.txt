@@ -1,74 +1,18 @@
-Clic droit sur icon de dl, puis "Personnaliser la barre d'outil"
-pour la zone barre d'adresse
-les fleches - barre d'adresse - Téléchargement - extension - espace (glisser dans viewport pour le virer) - VPN - USER
+On créé les 2 autres profils
 
-Au dessus clique droit sur l’icône "Espace de travail" et retirer
+On accepte les cookies google pour chacun
 
+vivaldi \
+--profile-directory="Profile 2" \
+https://chromewebstore.google.com/detail/axe-devtools-web-accessib/lhdoppojpmngadmnindnejefpokejbdd \
 
-Ensuite dans les options de Vivaldi CTRL + F12
+vivaldi \
+--profile-directory="Profile 1" \
+https://chromewebstore.google.com/detail/axe-devtools-web-accessib/lhdoppojpmngadmnindnejefpokejbdd \
 
-Onglet Général
-Page d'accueil - Page spécifique :
-https://search.brave.com/?lang=fr-fr
-
-Onglet Apparence
-Cocher : Barres de défilements simples
-"Position des boutons de contrôle de la fenêtre" À gauche
-Densité de l'interface utilisateur = Compact
-Cocher : Menu compact
-Style d’icône du menu : Icône "Menu"
-
-Onglet Thèmes
-Allez sur ces liens et installer les deux thèmes
-https://themes.vivaldi.net/themes/wOkJyapkJmd
-https://themes.vivaldi.net/themes/PKbv8PYevr3
-Choisir le Thème "Mint-L-Dark-Blue"
-dans Theme de navigation privée, choisir "Mint-L-Dark-Blue-Private"
-Dans planification des thème, mettre "Aucune Planification" (re-choisir "Mint-L-Dark-Blue")
-
-Onglet Onglets
-Page du nouvel onglet : Page d'accueil
-Cocher : Ouvrir, via le menu contextuel, les liens dans un nouvel onglet en arrière-plan par défaut
-À la fermeture d'un onglet : Activer l'onglet immédiatement à gauche
-Empilement d'onglet : Désactiver
-
-Onglet Barre d'adresses
-Cocher "Afficher l'URL complète en barre d'adresses"
-Cocher "Générateur de QR-Code"
-Cocher "Afficher les boutons d'extensions masquées dans un menu déroulant"
-En bas, dans Fonctionnalité de sécurité, cocher "Toujours privilégier la connexion sécurisée"
-
-Onglet Signets
-Cocher "Ouvrir les signets dans un nouvel onglet"
-Cocher "Afficher la barre de signets"
-Affichage de la barre de signet "Icône des signets et nom des dossiers"
-
-Onglet Rechercher
-Cocher "Autoriser la recherche dans le champ d'adresses" et "Autoriser le contrôle par extension"
-Virer :
-Yahoo!
-DuckDuckGo
-Ecosia
-Qwant
-StartPage
-Wikipedia
-Google
--
-Ajouter un moteur
-Nom : Brave Search
-URL de recherche : https://search.brave.com/search?q=%s
-URL de suggestion : https://search.brave.com/api/suggest?q=%s
-et en bas cocher "Définir comme moteur de recherche par défaut" et "Définir comme moteur de recherche en navigation privée"
-
-Onglet Sécurité et vie privée
-Cocher "Demander aux site Web de ne pas me pister"
-Cocher "Suggestion dans le champ de recherche"
-
-Onglet Réseau
-Pour DNS Over HTTPS : choisir "Cloudflare (1.1.1.1)"
-
-Les options sont règles, maintenant les extensions
-https://github.com/RogerBytes/Mintage/blob/master/extras/navigateur/extensions/liste%20des%20extensions%20vivaldi.md
+vivaldi \
+--profile-directory="Default" \
+https://chromewebstore.google.com/detail/axe-devtools-web-accessib/lhdoppojpmngadmnindnejefpokejbdd \
 
 vivaldi \
 --profile-directory="Default" \
@@ -99,19 +43,33 @@ https://chromewebstore.google.com/detail/wayback-machine/fpnmgdkabkmnadcjpehmlll
 https://chromewebstore.google.com/detail/screenshot-youtube-video/lnaahdmijnjnmgaalacdgakieangpjgp \
 https://chromewebstore.google.com/detail/youtube-shorts-block/jiaopdjbehhjgokpphdfgmapkobbnmjp \
 https://chromewebstore.google.com/detail/gestionnaire-de-mots-de-p/nngceckbapebfimnlniiiahkandclblb \
-https://themes.vivaldi.net/themes/wOkJyapkJmd \
-https://themes.vivaldi.net/themes/PKbv8PYevr3
+https://themes.vivaldi.net/themes/PKbv8PYevr3 \
+https://themes.vivaldi.net/themes/wOkJyapkJmd
 
+Installer l'extension en extrayant le zip (puis CTRL+Shift+E) et le glissé avec le mode dev actif, pour les choix, c'est No, Yes, Yes
+
+Disable globaly pour le truct de Popup blocker
+
+Dark Reader = Clic sur "Cette page est protégée par le navigateur (en dessous du premier cadre) le nom est different sur un site, et décocher "Activée par défaut"
+
+
+Pour ordre des extensions, c'est
+Telechargement - Photo - external - ublock - c to remove - dark reader - bitwarden
+
+Cacher le reste
 
 On ne met plus que le télécharger de vidéo dans external app launcher
 
 
 
-Display Name : Télécharger la vidéo
+Display Name :
+Télécharger la vidéo
 
-Executable Name : open-with-video-downloader
+Executable Name :
+open-with-video-downloader
 
-Arguments : [HREF]
+Arguments :
+[HREF]
 
 Cocher :
 
@@ -121,12 +79,9 @@ Cliquer sur Icon et parcourir et choisir l’icône désirée.
 
 Finir la programmation du bouton avec  Add Application
 
-
-
-
+-----
 
 Et pour le compte pro
-
 
 vivaldi \
 --profile-directory="Profile 1" \
@@ -141,6 +96,7 @@ https://chromewebstore.google.com/detail/dark-reader/eimadpbcbfnmbkopoojfekhnkhd
 https://chromewebstore.google.com/detail/download-with-jdownloader/jfpmbokkdeapjommajdfmmheiiakdlgo \
 https://chromewebstore.google.com/detail/gofullpage-beta-full-page/kehafhfdnkhdgbnpeofmhmbibmpnjaof \
 https://chromewebstore.google.com/detail/save-images-as-type/ppfngkdknicokcdembnnlpahnpanlcko \
+https://chromewebstore.google.com/detail/external-application-laun/bifmfjgpgndemajpeeoiopbeilbaifdo \
 https://chromewebstore.google.com/detail/floccus-bookmarks-sync/fnaicdffflnofjppbagibeoednhnbjhg \
 https://chromewebstore.google.com/detail/foxyproxy/gcknhkkoolaabfmlnjonogaaifnjlfnp \
 https://chromewebstore.google.com/detail/super-simple-highlighter/hhlhjgianpocpoppaiihmlpgcoehlhio \
@@ -156,14 +112,130 @@ https://chromewebstore.google.com/detail/violentmonkey/jinjaccalgkegednnccohejag
 https://chromewebstore.google.com/detail/screenshot-youtube-video/lnaahdmijnjnmgaalacdgakieangpjgp \
 https://chromewebstore.google.com/detail/youtube-shorts-block/jiaopdjbehhjgokpphdfgmapkobbnmjp \
 https://chromewebstore.google.com/detail/gestionnaire-de-mots-de-p/nngceckbapebfimnlniiiahkandclblb \
-https://themes.vivaldi.net/themes/wOkJyapkJmd \
-https://themes.vivaldi.net/themes/PKbv8PYevr3
+https://themes.vivaldi.net/themes/PKbv8PYevr3 \
+https://themes.vivaldi.net/themes/wOkJyapkJmd
 
+Installer l'extension en extrayant le zip (puis CTRL+Shift+E) et le glissé avec le mode dev actif, pour les choix, c'est No, Yes, Yes
+
+Disable globaly pour le truct de Popup blocker
+
+Dark Reader = Clic sur "Cette page est protégée par le navigateur (en dessous du premier cadre) le nom est different sur un site, et décocher "Activée par défaut"
+
+Pour ordre des extensions, c'est
+Telechargement - Photo - ublock - c to remove - dark reader - bitwarden
+
+Cacher le reste
+
+On ne met plus que le télécharger de vidéo dans external app launcher
+
+Display Name :
+Télécharger la vidéo
+
+Executable Name :
+open-with-video-downloader
+
+Arguments :
+[HREF]
+
+Cocher :
+
+bouton Toolbar button
+bouton Page Context
+Cliquer sur Icon et parcourir et choisir l’icône désirée.
+
+Finir la programmation du bouton avec  Add Application
+
+------------------------
 
 et pour le compte test
 
 vivaldi \
 --profile-directory="Profile 2" \
 https://chromewebstore.google.com/detail/axe-devtools-web-accessib/lhdoppojpmngadmnindnejefpokejbdd \
-https://themes.vivaldi.net/themes/wOkJyapkJmd \
-https://themes.vivaldi.net/themes/PKbv8PYevr3
+https://themes.vivaldi.net/themes/PKbv8PYevr3 \
+https://themes.vivaldi.net/themes/wOkJyapkJmd
+
+
+----
+
+Clic droit sur icon de dl, puis "Personnaliser la barre d'outil"
+
+En haut à g auche, glisser "Espaces de travail" dans le viewport pour le virer
+
+
+pour la zone barre d'adresse
+les fleches (virer rafraichir) - barre d'adresse - Téléchargement - extension - espace (glisser dans viewport pour le virer) - A Jour - VPN - USER
+
+Au dessus clique droit sur l’icône "Espace de travail" et retirer
+
+Ensuite dans les options de Vivaldi CTRL + F12
+
+Onglet Général
+Page d'accueil - Page spécifique :
+https://search.brave.com/
+
+Onglet Apparence
+Cocher : Barres de défilements simples
+"Position des boutons de contrôle de la fenêtre" À gauche
+Densité de l'interface utilisateur = Compact
+Cocher : Menu compact
+Style d’icône du menu : Icône "Menu"
+
+Onglet Thèmes
+Dans planification des thème, mettre "Aucune Planification" (re-choisir "Mint-L-Dark-Blue")
+dans Theme de navigation privée, choisir "Mint-L-Dark-Blue-Private"
+
+Onglet Onglets
+Page du nouvel onglet : Page d'accueil
+Cocher : Ouvrir, via le menu contextuel, les liens dans un nouvel onglet en arrière-plan par défaut
+À la fermeture d'un onglet : Activer l'onglet immédiatement à gauche
+Empilement d'onglet : Désactiver
+
+Onglet Barre d'adresses
+Cocher "Afficher l'URL complète en barre d'adresses"
+Cocher "Générateur de QR-Code"
+En bas, dans Fonctionnalité de sécurité, cocher "Toujours privilégier la connexion sécurisée"
+Cocher "Afficher les boutons d'extensions masquées dans un menu déroulant"
+
+Onglet Signets
+Cocher "Ouvrir les signets dans un nouvel onglet"
+Cocher "Afficher la barre de signets"
+Affichage de la barre de signet "Icône des signets et nom des dossiers"
+
+Onglet Rechercher
+Cocher "Autoriser le contrôle par extension"
+Cocher "Autoriser la recherche dans le champ d'adresses"
+Cocher "Autoriser dans le champs de recherche"
+
+
+Virer :
+Yahoo!
+DuckDuckGo
+Ecosia
+Qwant
+StartPage
+Wikipedia
+Google
+-
+Ajouter un moteur
+Nom :
+Brave Search
+Alias :
+b
+URL de recherche :
+https://search.brave.com/search?q=%s
+URL de suggestion :
+https://search.brave.com/api/suggest?q=%s
+et en bas cocher "Définir comme moteur de recherche par défaut" et "Définir comme moteur de recherche en navigation privée"
+
+Onglet Sécurité et vie privée
+Cocher "Demander aux site Web de ne pas me pister"
+
+Onglet Réseau
+Pour DNS Over HTTPS : choisir "Cloudflare (1.1.1.1)"
+
+Sortir des options, faire CTRL + B, et virer tous les signets
+
+
+Les options sont règles, le faire pour chaque profil.
+
